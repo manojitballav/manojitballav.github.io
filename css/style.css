@@ -61,8 +61,15 @@ nav ul li a:hover{
     color: #afafaf!important;
 }
 
+@font-face{
+    font-family:'YahatsuPu';
+    src: url("../icon-fonts/YahatsuPu.ttf"); 
+}
+
 .logo{
     float: left;
+    font-style: bold;
+
 }
 
  .responsive{
