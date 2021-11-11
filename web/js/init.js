@@ -20,7 +20,7 @@ var voteFuncContent = [
             {"img":"img/pif/2f-g.png","name":"Disney+ Hotstar","title":"Free Guy"},
             {"img":"img/pif/3s-c.png","name":"Disney+ Hotstar","title":"Sangh-Chi"},
             {"img":"img/pif/4t.png","name":"Prime Video","title":"Tenet"},
-            {"img":"img/pif/5zs-jl.png","name":"LionsGate Play","title":"Wrath of Man"},
+            {"img":"img/pif/w-om.png","name":"LionsGate Play","title":"Wrath of Man"},
             {"img":"img/pif/6js-jl.png","name":"Prime Video","title":"Justice League"}
         ]
     },
