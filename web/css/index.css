@@ -8,11 +8,11 @@ html,
 body {
     padding: 0;
     margin: 0;
-    color: black;
+    color: rgb(223, 213, 213);
 }
 
 body {
-    background-color:#d8cbcb;
+    background-color:#2B2B2B;
     background-repeat: no-repeat;
     background-attachment: fixed
 }
