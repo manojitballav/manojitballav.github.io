@@ -3,25 +3,25 @@
 var voteEmailKey="vote20191206pc"
 var voteFuncContent = [
     {
-        title:"Popular Bollywood Film",
+        title:"Popular Regional Film",
         poster:[
-            {"img":"https://cdn.alsgp0.fds.api.mi-img.com/mitv/10007/2/effda2a3b9a56ea045215b3704162b31/DilBechara-Hotstar.png","name":"Disney+ Hotstar","title":"Dil Bechara"},
-            {"img":"https://cdn.alsgp0.fds.api.mi-img.com/mitv/10007/2/a4a5bff513b027704a1d87fab86c7316/Laxmii-Hotstar.png","name":"Disney+ Hotstar","title":"Laxmii"},
-            {"img":"https://cdn.alsgp0.fds.api.mi-img.com/mitv/10007/2/2ec3cc70494a8c17b60d244116d8d68f/ChintuKaBirthday-ZEE5.png","name":"ZEE5","title":"Chintu Ka Birthday"},
-            {"img":"https://cdn.alsgp0.fds.api.mi-img.com/mitv/10007/2/64db419b6e8dc1f74e798ce7503d7a4b/Thappad-Basitnisibaat-PrimeVideo.png","name":"Prime Video","title":"Thappad"},
-            {"img":"https://cdn.alsgp0.fds.api.mi-img.com/mitv/10007/2/43c772c1aa976525e012632fb7e09323/Lootcase-Hotstar.png","name":"Disney+ Hotstar","title":"Lootcase"},
-            {"img":"https://cdn.alsgp0.fds.api.mi-img.com/mitv/10007/2/74275ebc1c8808dc4321ef68582d7140/ShakuntalaDevi-PrimeVideo.png","name":"Prime Video","title":"Shakuntala Devi"}
+            {"img":"img/prf/1c.png","name":"Hoichoi","title":"Cheeni"},
+            {"img":"img/prf/2d2.png","name":"Disney+ Hotstar","title":"Drishyam 2"},
+            {"img":"img/prf/3jb.png","name":"Prime Video","title":"Jai Bhim"},
+            {"img":"img/prf/4k.png","name":"aha","title":"Krack"},
+            {"img":"img/prf/5m.png","name":"Prime Video","title":"Malik"},
+            {"img":"img/prf/6tgik.png","name":"Prime Video","title":"The Great India Kitchen"}
         ]
     },
     {
         title:"Popular International Film",
         poster:[
-            {"img":"https://cdn.alsgp0.fds.api.mi-img.com/mitv/10007/2/41dd1a96975bb4bf6240ff22cdfeff42/Parasite-PrimeVideo.png","name":"Prime Video","title":"Parasite"},
-            {"img":"https://cdn.alsgp0.fds.api.mi-img.com/mitv/10007/2/9a935a64b0d4732fb224b5b62f4eab20/StarWarsTheRiseofSkywalker-Hotstar.png","name":"Disney+ Hotstar","title":"Star Wars: The Rise of Skywalker"},
-            {"img":"https://cdn.alsgp0.fds.api.mi-img.com/mitv/10007/2/9bab9954fed67ada2d7e22ce621ec637/1917-SonyLIV.png","name":"SonyLIV","title":"1917"},
-            {"img":"https://cdn.alsgp0.fds.api.mi-img.com/mitv/10007/2/5fb7eb72f1331b9b8978a30b86c059e5/BoratSubsequentMoviefilm.png","name":"Prime Video","title":"Borat Subsequent Moviefilm"},
-            {"img":"https://cdn.alsgp0.fds.api.mi-img.com/mitv/10007/2/c6faa55eafcb20faef316012a1858e92/FordvFerrari-Hotstar.png","name":"Disney+ Hotstar","title":"Ford v Ferrari"},
-            {"img":"https://cdn.alsgp0.fds.api.mi-img.com/mitv/10007/2/e43222a15b0e467cae057c7cd0cde976/TheLionKing-Hotstar.png","name":"Disney+ Hotstar","title":"The Lion King"}
+            {"img":"img/pif/1b-w.png","name":"Disney+ Hotstar","title":"Black Widow"},
+            {"img":"img/pif/2f-g.png","name":"Disney+ Hotstar","title":"Free Guy"},
+            {"img":"img/pif/3s-c.png","name":"Disney+ Hotstar","title":"Sangh-Chi"},
+            {"img":"img/pif/4t.png","name":"Prime Video","title":"Tenet"},
+            {"img":"img/pif/5zs-jl.png","name":"LionsGate Play","title":"Wrath of Man"},
+            {"img":"img/pif/6js-jl.png","name":"Prime Video","title":"Justice League"}
         ]
     },
     {
