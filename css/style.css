@@ -21,9 +21,10 @@
 
 /*------------------------ 1 Body and Core Css ------------------------*/		
 
-body{
-	font-family: 'Poppins', sans-serif;
+body {
+    font-family: 'Google Sans', sans-serif;
 }
+
 
 html{
 	height: 100%;
@@ -49,7 +50,7 @@ nav{
 nav ul li{
     float: left;
     margin-right: 15px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Google Sans', sans-serif;
     font-size: 14px;
 }
 
@@ -64,6 +65,19 @@ nav ul li a:hover{
 @font-face{
     font-family:'YahatsuPu';
     src: url("../icon-fonts/YahatsuPu.ttf"); 
+}
+@font-face {
+    font-family: 'Google Sans';
+    src: url('../fonts/GoogleSans-Regular.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Google Sans';
+    src: url('../fonts/GoogleSans-Bold.ttf') format('truetype'); 
+    font-weight: bold;
+    font-style: normal;
 }
 
 .logo{
