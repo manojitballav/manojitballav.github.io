@@ -1308,3 +1308,114 @@ a.site-button{
 
 
 
+
+/* --------------------------------- */
+/* New Sections - Achievements & Skills */
+/* --------------------------------- */
+
+.achievements {
+    padding: 60px 0;
+}
+
+.achievement-item {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.achievement-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 25px rgba(0,0,0,0.12);
+}
+
+.achievement-icon {
+    font-size: 36px;
+    color: #ff6b6b;
+    margin-right: 20px;
+    min-width: 50px;
+}
+
+.achievement-content h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.achievement-content p {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #666;
+    margin: 0;
+}
+
+.skills {
+    padding: 60px 0;
+}
+
+.skill-category {
+    background: #fff;
+    padding: 30px 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.skill-category:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 25px rgba(0,0,0,0.12);
+}
+
+.skill-category h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #ff6b6b;
+}
+
+.skill-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skill-list li {
+    padding: 8px 0;
+    font-size: 14px;
+    color: #666;
+    position: relative;
+    padding-left: 20px;
+}
+
+.skill-list li:before {
+    content: "▸";
+    position: absolute;
+    left: 0;
+    color: #ff6b6b;
+    font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .achievement-item {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .achievement-icon {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    
+    .skill-category {
+        margin-bottom: 20px;
+    }
+}
