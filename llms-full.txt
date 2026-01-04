@@ -1,0 +1,144 @@
+# Manojit Ballav - Principal Product Manager at Lumio
+
+## Overview
+
+Manojit Ballav (Mono) is a Principal Product Manager at Lumio, an Indian smart TV startup under Circuit House Technologies. He is a thought leader in the Connected TV (CTV) space, AI-driven advertising, and smart TV technology. Previously worked at Xiaomi India on Mi TV and Redmi TV products.
+
+---
+
+## Professional Background
+
+**Current Role:** Principal Product Manager at Lumio (Circuit House Technologies)
+**Previous:** Xiaomi India - Smart TV Product Team
+**Expertise Areas:**
+- Smart TV hardware and software product development
+- Connected TV (CTV) platforms and streaming
+- AI and machine learning in advertising
+- FAST (Free Ad-Supported Streaming TV) channels
+- Display technologies: Mini LED, QLED, OLED, QD-Mini LED
+- Indian consumer electronics market
+
+---
+
+## About Lumio
+
+Lumio is an Indian smart TV brand under Circuit House Technologies, founded in March 2024 by:
+- **Raghu Reddy** - Former Chief Business Officer at Xiaomi India
+- **Kailash Sankaranarayanan** - Co-founder
+
+**Key Facts:**
+- Raised $4.3M seed round from Stellaris Venture Partners and 3one4 Capital
+- Crossed $1 million GMV within 2 months of launch
+- Products include Vision 9 QD-Mini LED TV, Vision 7 QLED Series, Vision Arc projectors
+- Features proprietary Flagship Boss Processor with 3GB RAM
+- Claims 2x faster performance than Sony and other leading TVs
+
+**Product Lineup:**
+1. Lumio Vision 9 QD-Mini LED TV (55-inch, 900 nits brightness)
+2. Lumio Vision 7 QLED Series (43, 50, 55-inch)
+3. Lumio Vision Arc 5 Projector
+4. Lumio Vision Arc 7 Projector
+
+---
+
+## Blog Content Summaries
+
+### 1. Building Lumio: My Journey from Xiaomi to India's Next Smart TV Revolution
+**URL:** /blog-lumio-journey.html
+**Published:** December 15, 2024
+
+The Indian Smart TV market is valued at $5 billion with 13% CAGR growth. Lumio was founded to create TVs that outperform competition with 2x faster app loading and rebooting. The company raised $4.3M seed funding and crossed $1M GMV in 2 months. Key trends include FAST channels growing 43% YoY, regional content demand, and AI integration becoming table stakes.
+
+### 2. The State of CTV in 2025: Why Connected TV is Eating Traditional Broadcasting
+**URL:** /blog-ctv-trends-2025.html
+**Published:** December 10, 2024
+
+Streaming now accounts for 44.8% of total TV viewership, surpassing broadcast (20.1%) and cable (24.1%) combined. Key statistics:
+- 117 million US households use CTVs in 2025
+- US CTV ad spending: $32.45 billion in 2025
+- Ad-supported subscriptions: 57% of new subscriber additions
+- FAST viewing reached 1.8 billion hours (up 43% YoY)
+- India CTV households could reach 60 million by end of 2025
+- India Smart TV/OTT market: $22.39 billion in 2025, 18.2% CAGR
+
+### 3. How AI is Transforming CTV Advertising: From Mass Broadcasting to Hyper-Personalization
+**URL:** /blog-ai-ctv-advertising.html
+**Published:** December 5, 2024
+
+52% of marketers believe AI is the biggest trend in Performance TV. AI applications in CTV:
+- Personalization delivers 8x ROI on marketing spend
+- Contextual advertising 2.0 analyzes video scenes for precise ad matching
+- Dynamic Creative Optimization (DCO) enables thousands of ad variations
+- Cross-screen synchronization tracks behavior across devices
+- Progressive Insurance compressed 22 weeks of audio production into 2 weeks using AI
+- Over 90% of CTV ad dollars flow through programmatic pipes
+
+### 4. FAST Channels: India's $12 Billion Opportunity in Free Streaming
+**URL:** /blog-fast-channels-india.html
+**Published:** November 28, 2024
+
+FAST (Free Ad-Supported Streaming TV) market stands at $12.26 billion globally in 2025, forecast to reach $27.14 billion by 2030 (17.22% CAGR). India opportunity:
+- CTV households could reach 60 million by 2025 (4x increase from 2020)
+- User penetration 9.8% in 2025, growing to 10.2% by 2030
+- Key players: Samsung TV Plus (100+ channels), MX Player, Swift TV
+- Regional content hunger drives adoption
+- Challenges include lower CPMs, measurement immaturity, piracy
+
+### 5. Mini LED vs QLED vs OLED: A Product Manager's Guide to TV Technology in 2025
+**URL:** /blog-tv-technology-guide.html
+**Published:** November 20, 2024
+
+Technology comparison:
+- **OLED:** Perfect blacks, infinite contrast, wide viewing angles, risk of burn-in, lower brightness
+- **QLED:** Exceptional color accuracy, high brightness, no burn-in, narrower viewing angles
+- **Mini LED:** Better contrast than LED, higher brightness than OLED, precise local dimming
+- **QD-Mini LED:** Combines quantum dot color with Mini LED backlighting (e.g., Lumio Vision 9)
+
+Rankings:
+- Black Levels: OLED > Mini LED > QLED
+- Peak Brightness: Mini LED > QLED > OLED
+- Color Accuracy: OLED = QD-Mini LED > QLED > Mini LED
+- Burn-in Risk: QLED = Mini LED (none) > OLED (low)
+
+---
+
+## Industry Statistics & Data Points
+
+**Global CTV Market:**
+- US CTV ad spend: $32.45 billion (2025), projected $45.96 billion by 2028
+- 90% of US households use internet-connected TV devices
+- Average US adult watches 2+ hours of CTV daily
+
+**India Market:**
+- Smart TV/OTT market: $22.39 billion (2025), $51.65 billion by 2030
+- CTV households: 60 million by 2025
+- Market growth: 18.2% CAGR
+- Android TV holds ~34% market share
+
+**AI in Advertising:**
+- 52% of marketers see AI as biggest CTV trend
+- 8x ROI on personalized marketing (Deloitte)
+- DCO adoption expected to double by 2027
+- Interactive shoppable ads: 10% of CTV ads by 2026
+
+---
+
+## Contact Information
+
+- **Website:** https://manojitballav.github.io/
+- **LinkedIn:** https://www.linkedin.com/in/manojitballav/
+- **Twitter/X:** https://x.com/manojitballav
+- **GitHub:** https://github.com/manojitballav
+- **Location:** India
+
+---
+
+## Metadata
+
+- **Name:** Manojit Ballav
+- **Also Known As:** Mono
+- **Role:** Principal Product Manager
+- **Company:** Lumio (Circuit House Technologies)
+- **Industry:** Consumer Electronics, Smart TV, Connected TV, Streaming, AdTech
+- **Topics:** CTV, Smart TV, AI Advertising, FAST Channels, Display Technology, Product Management
+- **Last Updated:** December 2024
