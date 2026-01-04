@@ -899,8 +899,15 @@ input:-webkit-autofill {
     min-height: 207px;
 }
 
+.row.blog {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .blog-content{
     margin-bottom:60px;
+    display: flex;
+    flex-direction: column;
 }
 
 .blog-title{
