@@ -45,7 +45,7 @@ $(window).load( function() {
     setTimeout(function() {
         $(".loader-wrapper").fadeOut('fast');
         (loader).fadeOut('fast');
-    }, 3500);
+    }, 1200);
 
     
 
@@ -53,11 +53,28 @@ $(window).load( function() {
 if ($('.isotope_items').length) {
 
      var $container = $('.isotope_items');
-     $container.isotope();
+
+     // Initialize isotope with layoutMode
+     $container.isotope({
+         layoutMode: 'fitRows',
+         itemSelector: '.single_item'
+     });
+
+     // Re-layout after each image loads (handles lazy loading)
+     $container.find('img').each(function() {
+         $(this).on('load', function() {
+             $container.isotope('layout');
+         });
+     });
+
+     // Also trigger layout after a short delay to catch any missed images
+     setTimeout(function() {
+         $container.isotope('layout');
+     }, 500);
 
     $('.portfolio_filter ul li').on("click", function(){
         $(".portfolio_filter ul li").removeClass("select-cat");
-        $(this).addClass("select-cat");				 
+        $(this).addClass("select-cat");
         var selector = $(this).attr('data-filter');
         $(".isotope_items").isotope({
             filter: selector,
@@ -68,8 +85,8 @@ if ($('.isotope_items').length) {
             }
     });
         return false;
-    });  
-    
+    });
+
 }
     
 }); // window load end 
