@@ -905,9 +905,17 @@ input:-webkit-autofill {
 }
 
 .blog-content{
-    margin-bottom:60px;
+    margin-bottom: 30px;
     display: flex;
     flex-direction: column;
+}
+
+.blog-content .blog-title {
+    flex-grow: 1;
+}
+
+.blog-content p {
+    min-height: 60px;
 }
 
 .blog-title{
