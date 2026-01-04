@@ -1,5 +1,5 @@
-'use strict'; 
-$(window).load( function() {	
+'use strict';
+$(window).on('load', function() {
     
 
     // LIGHTBOX VIDEO
@@ -118,11 +118,11 @@ $(document).ready( function() {
       
         var target = this.hash,
         menu = target;
-        target = $(target);
+        var $target = $(target);
         $('html, body').stop().animate({
-            'scrollTop': target.offset().top+2
+            'scrollTop': $target.offset().top+2
         }, 500, 'swing', function () {
-            window.location.hash = target.selector;
+            window.location.hash = target;
             $(document).on("scroll", onScroll);
         });
     });
