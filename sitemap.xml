@@ -1,16 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+              http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-
+<!-- Homepage -->
 <url>
-  <loc>http://manojitballav.github.io/</loc>
-  <lastmod>2020-09-19T08:42:05+00:00</lastmod>
+  <loc>https://manojitballav.github.io/</loc>
+  <lastmod>2024-12-15</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
 </url>
 
+<!-- Blog Listing Page -->
+<url>
+  <loc>https://manojitballav.github.io/blog-page.html</loc>
+  <lastmod>2024-12-15</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+
+<!-- Blog Posts -->
+<url>
+  <loc>https://manojitballav.github.io/blog-lumio-journey.html</loc>
+  <lastmod>2024-12-15</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://manojitballav.github.io/blog-ctv-trends-2025.html</loc>
+  <lastmod>2024-12-10</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://manojitballav.github.io/blog-ai-ctv-advertising.html</loc>
+  <lastmod>2024-12-05</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://manojitballav.github.io/blog-fast-channels-india.html</loc>
+  <lastmod>2024-11-28</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://manojitballav.github.io/blog-tv-technology-guide.html</loc>
+  <lastmod>2024-11-20</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<!-- Portfolio Pages -->
+<url>
+  <loc>https://manojitballav.github.io/Lumio.html</loc>
+  <lastmod>2024-12-15</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.7</priority>
+</url>
 
 </urlset>

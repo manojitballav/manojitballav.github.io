@@ -1,0 +1,13 @@
+# robots.txt for manojitballav.github.io
+# https://manojitballav.github.io/
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://manojitballav.github.io/sitemap.xml
+
+# Disallow internal/template files
+Disallow: /frame*.html
+Disallow: /single-blog.html
+Disallow: /diagonal-slider.html
