@@ -66,6 +66,11 @@
     <link rel="dns-prefetch" href="https://kit.fontawesome.com">
     <link rel="dns-prefetch" href="https://platform.twitter.com">
 
+    <!-- Preload critical resources -->
+    <link rel="preload" href="images/home-2.webp" as="image">
+    <link rel="preload" href="fonts/GoogleSans-Regular.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="css/style.css" as="style">
+
     <meta itemprop="name" content="Manojit Ballav | Principal Product Manager | Lumio" />
     <meta itemprop="description" content="Manojit Ballav – Principal Product Manager at Lumio. Formerly at Xiaomi, leading innovations in smart TVs, content aggregation, and connected devices." />
     <meta itemprop="image" content="/images/profile-2.jpg" />
@@ -162,7 +167,7 @@
                 <!-- about image -->
                 <div class="col-md-4 col-sm-12 about-image top_30 wow fadeInUp"  data-wow-delay="0.4s">
                         <div class="row">
-                            <img src="images/profile-2.jpg" alt="Manojit Ballav - Principal Product Manager">
+                            <img src="images/profile-2.webp" alt="Manojit Ballav - Principal Product Manager">
                         </div>
                     </div>
                 <!-- about text -->
@@ -395,7 +400,7 @@
     <a href="https://www.youtube.com/watch?v=qS3UrVqGpFo" class="popup-youtube single_item link Software col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
         <i class="fa fa-play" aria-hidden="true"></i>
         <figure>
-            <img src="images/blog-4.png" alt="PatchWall - Content Aggregation Platform" loading="lazy">
+            <img src="images/blog-4.webp" alt="PatchWall - Content Aggregation Platform" loading="lazy">
             <figcaption>
                 <div class="outter">
                     <div class="inner">
@@ -440,7 +445,7 @@
     <a href="https://www.youtube.com/watch?v=HrX24Y5ObEY" class="popup-youtube single_item link TV col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.9s">
         <i class="fa fa-play" aria-hidden="true"></i>
         <figure>
-            <img src="images/xiaomismarttvxseries2024.png" alt="Xiaomi Smart TV X Series 2024" loading="lazy">
+            <img src="images/xiaomismarttvxseries2024.webp" alt="Xiaomi Smart TV X Series 2024" loading="lazy">
             <figcaption>
                 <div class="outter">
                     <div class="inner">
@@ -484,7 +489,7 @@
     <a href="https://www.youtube.com/watch?v=fL4XkAIa-48" class="popup-youtube single_item link TV col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="1.8s">
         <i class="fa fa-play" aria-hidden="true"></i>
         <figure>
-            <img src="images/xiaomioledvision.png" alt="Xiaomi OLED Vision TV" loading="lazy">
+            <img src="images/xiaomioledvision.webp" alt="Xiaomi OLED Vision TV" loading="lazy">
             <figcaption>
                 <div class="outter">
                     <div class="inner">
@@ -499,7 +504,7 @@
     <!-- Item -->
     <a href="images/xiaomiqled55.jpeg" class="single_item link TV col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="1.2s">
         <figure>
-            <img src="images/xiaomiqled55.jpeg" alt="Mi QLED TV 55 inches" loading="lazy">
+            <img src="images/xiaomiqled55.webp" alt="Mi QLED TV 55 inches" loading="lazy">
             <figcaption>
                 <div class="outter">
                     <div class="inner">
@@ -514,7 +519,7 @@
     <!-- Item -->
     <a href="images/xiaomiqled75.jpeg" class="single_item link TV col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="1.2s">
         <figure>
-            <img src="images/xiaomiqled75.jpeg" alt="Mi QLED TV 75 inches" loading="lazy">
+            <img src="images/xiaomiqled75.webp" alt="Mi QLED TV 75 inches" loading="lazy">
             <figcaption>
                 <div class="outter">
                     <div class="inner">
@@ -545,7 +550,7 @@
     <!-- Item -->
     <a href="images/miledtv4x.jpg" class="single_item link TV col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="1.2s">
         <figure>
-            <img src="images/miledtv4x.jpg" alt="Mi LED TV 4X Series" loading="lazy">
+            <img src="images/miledtv4x.webp" alt="Mi LED TV 4X Series" loading="lazy">
             <figcaption>
                 <div class="outter">
                     <div class="inner">
@@ -575,12 +580,27 @@
                 <div class="section-title dright top_120 bottom_45">
                     <h2>Latest Posts</h2>
                 </div>
-                <div class = "row col-lg-6 col-md-6 col-sm-6 col-xs-12 blog-content wow fadeInUp">
-                    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Exciting journey ahead for Indian Home entertainment space ! <a href="https://t.co/RtsVsNfPOU">https://t.co/RtsVsNfPOU</a></p>&mdash; Mono (@manojitballav) <a href="https://x.com/manojitballav/status/1895365239685984276?ref_src=twsrc%5Etfw">February 28, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 blog-content wow fadeInUp" data-wow-delay="0.1s">
+                        <blockquote class="twitter-tweet"><a href="https://x.com/manojitballav/status/2004538967845453991"></a></blockquote>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 blog-content wow fadeInUp" data-wow-delay="0.2s">
+                        <blockquote class="twitter-tweet"><a href="https://x.com/manojitballav/status/2003002708698280056"></a></blockquote>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 blog-content wow fadeInUp" data-wow-delay="0.3s">
+                        <blockquote class="twitter-tweet"><a href="https://x.com/manojitballav/status/2001531676695105795"></a></blockquote>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 blog-content wow fadeInUp" data-wow-delay="0.4s">
+                        <blockquote class="twitter-tweet"><a href="https://x.com/manojitballav/status/2000964148105252866"></a></blockquote>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 blog-content wow fadeInUp" data-wow-delay="0.5s">
+                        <blockquote class="twitter-tweet"><a href="https://x.com/manojitballav/status/2000906854923374847"></a></blockquote>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 blog-content wow fadeInUp" data-wow-delay="0.6s">
+                        <blockquote class="twitter-tweet"><a href="https://x.com/manojitballav/status/1999039440799588505"></a></blockquote>
+                    </div>
                 </div>
-                <div class = "row col-lg-6 col-md-6 col-sm-6 col-xs-12 blog-content wow fadeInUp">
-                    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">A happy day at work ! <a href="https://t.co/h85o4DG1on">pic.twitter.com/h85o4DG1on</a></p>&mdash; Mono (@manojitballav) <a href="https://x.com/manojitballav/status/1877305935875440748?ref_src=twsrc%5Etfw">January 9, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                </div>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         <svg class="diagonal-gray" width="100%" height="170" viewBox="0 0 100 102" preserveAspectRatio="none">
                     <path d="M0 0 L70 100 L100 0 Z"></path>
@@ -605,7 +625,7 @@
                 <div class="row">
                     <a href="Lumio.html" class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-content wow fadeInUp" data-wow-delay="0.4s">
                         <div class="blog-image">
-                            <img src="images/blog-1.jpg" alt="Lumio - Smart TV Product Management Blog">
+                            <img src="images/blog-1.webp" alt="Lumio - Smart TV Product Management Blog" loading="lazy">
                         </div>
                         <h2 class="blog-title">Lumio</h2>
                         <p>Strategic and tactical guidance on driving onboarding, adoption, retention, and growth using in-product experiences</p>
@@ -662,14 +682,14 @@
     <!-- Javascripts -->
     <script src="js/jquery-2.1.4.min.js"></script>
     <!-- jQuery library -->
-    <script src="js/smoothscroll.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/typed.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/smoothscroll.js" defer></script>
+    <script src="js/bootstrap.min.js" defer></script>
+    <script src="js/wow.min.js" defer></script>
+    <script src="js/isotope.pkgd.min.js" defer></script>
+    <script src="js/typed.js" defer></script>
+    <script src="js/jquery.magnific-popup.min.js" defer></script>
+    <script src="js/owl.carousel.min.js" defer></script>
+    <script src="js/main.js" defer></script>
 
     <!-- Firebase SDK v9+ (modular) -->
     <script type="module">
