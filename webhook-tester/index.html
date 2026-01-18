@@ -1,0 +1,695 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webhook Tester | Mono</title>
+    <meta name="description" content="A simple tool to test webhooks with a web UI. Edit payloads and send test requests.">
+
+    <!-- Stylesheets from main site -->
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/reset.css" />
+
+    <!-- Google Web fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+    <!-- Font icons -->
+    <link rel="stylesheet" href="../icon-fonts/font-awesome-4.5.0/css/font-awesome.min.css" />
+
+    <style>
+        @font-face {
+            font-family: 'Google Sans';
+            src: url('../fonts/GoogleSans-Regular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Google Sans';
+            src: url('../fonts/GoogleSans-Bold.ttf') format('truetype');
+            font-weight: bold;
+            font-style: normal;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Google Sans', 'Poppins', sans-serif;
+            background: #f5f5f5;
+            color: #333;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background: #fff;
+            padding: 20px 30px;
+            box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav .logo {
+            font-weight: bold;
+            font-size: 18px;
+            color: #000;
+            text-decoration: none;
+        }
+
+        nav .logo:hover {
+            color: #afafaf;
+        }
+
+        .back-link {
+            float: right;
+            color: #000;
+            font-size: 14px;
+            line-height: 24px;
+        }
+
+        .back-link:hover {
+            color: #afafaf;
+        }
+
+        .container-main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 100px 15px 60px;
+        }
+
+        .page-header {
+            text-align: center;
+            margin-bottom: 45px;
+        }
+
+        .page-header h1 {
+            font-size: 32px;
+            font-weight: bold;
+            color: #000;
+            margin-bottom: 10px;
+        }
+
+        .page-header p {
+            font-size: 15px;
+            color: #748182;
+            line-height: 28px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+
+        @media (max-width: 900px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .panel {
+            background: #fff;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+        }
+
+        .panel:hover {
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.12);
+        }
+
+        .panel h2 {
+            font-size: 18px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #000;
+        }
+
+        label {
+            display: block;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #748182;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px 15px;
+            background: #fff;
+            border: 1px solid #dfdfdf;
+            border-radius: 4px;
+            color: #333;
+            font-size: 14px;
+            font-family: 'Google Sans', 'Poppins', sans-serif;
+            margin-bottom: 20px;
+            transition: border-color 0.3s ease;
+        }
+
+        input:focus,
+        select:focus,
+        textarea:focus {
+            outline: none;
+            border-color: #000;
+        }
+
+        textarea {
+            font-family: 'Monaco', 'Menlo', 'Consolas', monospace;
+            font-size: 13px;
+            line-height: 1.6;
+            resize: vertical;
+            min-height: 280px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: #000;
+            color: #fff;
+            border: 2px solid #000;
+            border-radius: 4px;
+            font-size: 13px;
+            font-weight: 500;
+            font-family: 'Google Sans', 'Poppins', sans-serif;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .btn:hover {
+            background: #333;
+            border-color: #333;
+        }
+
+        .btn:disabled {
+            background: #dfdfdf;
+            border-color: #dfdfdf;
+            cursor: not-allowed;
+        }
+
+        .btn-secondary {
+            background: #fff;
+            color: #000;
+        }
+
+        .btn-secondary:hover {
+            background: #f5f5f5;
+        }
+
+        .actions {
+            display: flex;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .response-box {
+            background: #f5f5f5;
+            border-radius: 4px;
+            padding: 20px;
+            min-height: 180px;
+            max-height: 350px;
+            overflow: auto;
+        }
+
+        .response-box pre {
+            font-family: 'Monaco', 'Menlo', 'Consolas', monospace;
+            font-size: 12px;
+            line-height: 1.6;
+            white-space: pre-wrap;
+            word-break: break-word;
+            margin: 0;
+            color: #333;
+        }
+
+        .status {
+            display: inline-block;
+            padding: 6px 16px;
+            border-radius: 50px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .status.success {
+            background: #e8f5e9;
+            color: #2e7d32;
+        }
+
+        .status.error {
+            background: #ffebee;
+            color: #c62828;
+        }
+
+        .status.pending {
+            background: #e3f2fd;
+            color: #1565c0;
+        }
+
+        .status.cors {
+            background: #fff3e0;
+            color: #e65100;
+        }
+
+        .error-text {
+            color: #c62828;
+            font-size: 12px;
+            margin-top: -15px;
+            margin-bottom: 15px;
+        }
+
+        .history {
+            margin-top: 30px;
+        }
+
+        .history h3 {
+            font-size: 14px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .history-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 15px;
+            background: #f5f5f5;
+            border-radius: 4px;
+            margin-bottom: 8px;
+            font-size: 13px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .history-item:hover {
+            background: #eee;
+        }
+
+        .history-item .time {
+            color: #748182;
+            font-size: 12px;
+        }
+
+        .dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .dot.green {
+            background: #2e7d32;
+        }
+
+        .dot.red {
+            background: #c62828;
+        }
+
+        .dot.yellow {
+            background: #e65100;
+        }
+
+        .note {
+            font-size: 12px;
+            color: #748182;
+            margin-top: -15px;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background: #000;
+            padding: 40px 0;
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        footer p {
+            color: #757575;
+            font-size: 13px;
+            margin: 0;
+        }
+
+        footer .social a {
+            color: #b1b1b1;
+            font-size: 14px;
+            margin: 0 10px;
+            transition: all ease 0.3s;
+        }
+
+        footer .social a:hover {
+            color: #fff;
+        }
+
+        footer .social {
+            margin-bottom: 15px;
+        }
+
+        @media (max-width: 767px) {
+            .container-main {
+                padding: 80px 15px 40px;
+            }
+
+            .page-header h1 {
+                font-size: 24px;
+            }
+
+            .panel {
+                padding: 20px;
+            }
+
+            .actions {
+                flex-direction: column;
+            }
+
+            .btn {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="../" class="logo">Mono</a>
+        <a href="../" class="back-link"><i class="fa fa-arrow-left"></i> Back to Home</a>
+    </nav>
+
+    <div class="container-main">
+        <div class="page-header">
+            <h1>Webhook Tester</h1>
+            <p>A simple tool to test webhooks. Edit your payload and send it to any endpoint.</p>
+        </div>
+
+        <div class="grid">
+            <div class="panel">
+                <h2>Request</h2>
+
+                <label>Webhook URL</label>
+                <input type="url" id="webhookUrl" placeholder="https://api.example.com/webhook">
+                <p class="note">URL is saved in your browser</p>
+
+                <label>Preset Payloads</label>
+                <select id="presetSelect">
+                    <option value="">-- Select a preset --</option>
+                    <option value="order">Order</option>
+                    <option value="test">Test</option>
+                    <option value="chatStarted">Chat Started</option>
+                    <option value="escalation">Escalation</option>
+                    <option value="installation">Installation</option>
+                </select>
+
+                <label>Payload (JSON)</label>
+                <textarea id="payload" placeholder='{"key": "value"}'></textarea>
+                <div id="jsonError" class="error-text" style="display: none;"></div>
+
+                <div class="actions">
+                    <button class="btn" id="sendBtn" onclick="sendWebhook()">Send Webhook</button>
+                    <button class="btn btn-secondary" onclick="formatJson()">Format JSON</button>
+                </div>
+            </div>
+
+            <div class="panel">
+                <h2>Response</h2>
+                <div id="statusBadge"></div>
+                <div class="response-box">
+                    <pre id="responseOutput">No requests sent yet</pre>
+                </div>
+
+                <div class="history">
+                    <h3>History</h3>
+                    <div id="historyList">
+                        <p style="color: #748182; font-size: 13px;">No history yet</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="social">
+            <a href="https://www.facebook.com/manojitballav"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/manojitballav"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/ilegalmono/"><i class="fa fa-instagram"></i></a>
+            <a href="https://github.com/manojitballav"><i class="fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/manojitballav/"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <p>&copy; Manojit Ballav</p>
+    </footer>
+
+    <script>
+        // Preset payloads
+        const payloads = {
+            order: {
+                order_id: '1523-12-354353',
+                device_type: 'TV',
+                product_name: 'Vision 7 55',
+                customer_name: 'Mono',
+                mobile_number: '919352957266',
+                mail_id: 'mono@circuithouse.tech',
+                seller_name: 'Amazon'
+            },
+            test: {
+                event: 'test',
+                timestamp: new Date().toISOString(),
+                data: {
+                    message: 'This is a test webhook'
+                }
+            },
+            chatStarted: {
+                event: 'chat.started',
+                timestamp: new Date().toISOString(),
+                data: {
+                    sessionId: 'session_12345',
+                    customerId: 'cust_12345',
+                    channel: 'web'
+                }
+            },
+            escalation: {
+                event: 'chat.escalated',
+                timestamp: new Date().toISOString(),
+                data: {
+                    sessionId: 'session_12345',
+                    reason: 'customer_request',
+                    context: {
+                        productType: 'TV',
+                        model: 'Vision 7 Series 55"',
+                        issue: 'Screen flickering'
+                    }
+                }
+            },
+            installation: {
+                event: 'installation.requested',
+                timestamp: new Date().toISOString(),
+                data: {
+                    productType: 'TV',
+                    variant: 'Vision 7 Series 50"',
+                    installationType: 'first_installation',
+                    setupPreference: 'wall_mount'
+                }
+            }
+        };
+
+        let history = JSON.parse(localStorage.getItem('webhookHistory') || '[]');
+
+        function init() {
+            const savedUrl = localStorage.getItem('webhookUrl');
+            if (savedUrl) {
+                document.getElementById('webhookUrl').value = savedUrl;
+            }
+
+            document.getElementById('payload').value = JSON.stringify(payloads.order, null, 2);
+            document.getElementById('presetSelect').value = 'order';
+
+            document.getElementById('webhookUrl').addEventListener('input', (e) => {
+                localStorage.setItem('webhookUrl', e.target.value);
+            });
+
+            updateHistory();
+        }
+
+        document.getElementById('presetSelect').addEventListener('change', (e) => {
+            const key = e.target.value;
+            if (key && payloads[key]) {
+                const payload = JSON.parse(JSON.stringify(payloads[key]));
+                if (payload.timestamp) {
+                    payload.timestamp = new Date().toISOString();
+                }
+                document.getElementById('payload').value = JSON.stringify(payload, null, 2);
+            }
+        });
+
+        function formatJson() {
+            const textarea = document.getElementById('payload');
+            const errorDiv = document.getElementById('jsonError');
+            try {
+                const parsed = JSON.parse(textarea.value);
+                textarea.value = JSON.stringify(parsed, null, 2);
+                errorDiv.style.display = 'none';
+            } catch (e) {
+                errorDiv.textContent = 'Invalid JSON: ' + e.message;
+                errorDiv.style.display = 'block';
+            }
+        }
+
+        async function sendWebhook() {
+            const url = document.getElementById('webhookUrl').value;
+            const payloadStr = document.getElementById('payload').value;
+            const btn = document.getElementById('sendBtn');
+            const errorDiv = document.getElementById('jsonError');
+
+            if (!url) {
+                alert('Please enter a webhook URL');
+                return;
+            }
+
+            let payload;
+            try {
+                payload = JSON.parse(payloadStr);
+                errorDiv.style.display = 'none';
+            } catch (e) {
+                errorDiv.textContent = 'Invalid JSON: ' + e.message;
+                errorDiv.style.display = 'block';
+                return;
+            }
+
+            btn.disabled = true;
+            btn.textContent = 'Sending...';
+
+            document.getElementById('statusBadge').innerHTML = '<span class="status pending">Sending...</span>';
+            document.getElementById('responseOutput').textContent = 'Waiting for response...';
+
+            const startTime = Date.now();
+
+            try {
+                const res = await fetch(url, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(payload)
+                });
+
+                const elapsed = Date.now() - startTime;
+                let data;
+                const contentType = res.headers.get('content-type');
+                if (contentType && contentType.includes('application/json')) {
+                    data = await res.json();
+                } else {
+                    data = await res.text();
+                }
+
+                const isSuccess = res.ok;
+
+                document.getElementById('statusBadge').innerHTML = `
+                    <span class="status ${isSuccess ? 'success' : 'error'}">
+                        ${res.status} ${res.statusText} (${elapsed}ms)
+                    </span>
+                `;
+
+                const responseText = typeof data === 'string' ? data : JSON.stringify(data, null, 2);
+                document.getElementById('responseOutput').textContent = responseText;
+
+                history.unshift({
+                    time: new Date().toLocaleTimeString(),
+                    url: url.substring(0, 40) + (url.length > 40 ? '...' : ''),
+                    status: res.status,
+                    success: isSuccess,
+                    payload,
+                    response: { status: res.status, statusText: res.statusText, data }
+                });
+
+                history = history.slice(0, 20);
+                localStorage.setItem('webhookHistory', JSON.stringify(history));
+                updateHistory();
+
+            } catch (e) {
+                const elapsed = Date.now() - startTime;
+                const isCors = e.message === 'Failed to fetch' || e.name === 'TypeError';
+
+                document.getElementById('statusBadge').innerHTML = `
+                    <span class="status ${isCors ? 'cors' : 'error'}">
+                        ${isCors ? 'CORS / Network Error' : 'Request Failed'} (${elapsed}ms)
+                    </span>
+                `;
+
+                const errorMsg = isCors
+                    ? `Request blocked by browser.\n\nPossible causes:\n- CORS: Server doesn't allow cross-origin requests\n- Network: Server is unreachable\n- SSL: Certificate issues\n\nThe webhook may have still been received - check your server logs.`
+                    : e.message;
+
+                document.getElementById('responseOutput').textContent = errorMsg;
+
+                history.unshift({
+                    time: new Date().toLocaleTimeString(),
+                    url: url.substring(0, 40) + (url.length > 40 ? '...' : ''),
+                    status: isCors ? 'CORS' : 'ERR',
+                    success: false,
+                    payload,
+                    response: { error: e.message, isCors }
+                });
+                history = history.slice(0, 20);
+                localStorage.setItem('webhookHistory', JSON.stringify(history));
+                updateHistory();
+            }
+
+            btn.disabled = false;
+            btn.textContent = 'Send Webhook';
+        }
+
+        function updateHistory() {
+            const list = document.getElementById('historyList');
+            if (history.length === 0) {
+                list.innerHTML = '<p style="color: #748182; font-size: 13px;">No history yet</p>';
+                return;
+            }
+
+            list.innerHTML = history.slice(0, 8).map((item, i) => `
+                <div class="history-item" onclick="loadHistory(${i})">
+                    <span>
+                        <span class="dot ${item.success ? 'green' : (item.status === 'CORS' ? 'yellow' : 'red')}"></span>
+                        ${item.status || 'ERR'} - ${item.url}
+                    </span>
+                    <span class="time">${item.time}</span>
+                </div>
+            `).join('');
+        }
+
+        function loadHistory(index) {
+            const item = history[index];
+            document.getElementById('payload').value = JSON.stringify(item.payload, null, 2);
+
+            const isCors = item.response?.isCors;
+            document.getElementById('statusBadge').innerHTML = `
+                <span class="status ${item.success ? 'success' : (isCors ? 'cors' : 'error')}">
+                    ${item.response?.status || item.status || 'Error'} ${item.response?.statusText || ''}
+                </span>
+            `;
+
+            const data = item.response?.data || item.response?.error || item.response;
+            document.getElementById('responseOutput').textContent = typeof data === 'string' ? data : JSON.stringify(data, null, 2);
+        }
+
+        init();
+    </script>
+</body>
+
+</html>
