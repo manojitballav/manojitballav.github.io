@@ -408,16 +408,6 @@
                 <input type="url" id="webhookUrl" placeholder="https://api.example.com/webhook">
                 <p class="note">URL is saved in your browser</p>
 
-                <label>Preset Payloads</label>
-                <select id="presetSelect">
-                    <option value="">-- Select a preset --</option>
-                    <option value="order">Order</option>
-                    <option value="test">Test</option>
-                    <option value="chatStarted">Chat Started</option>
-                    <option value="escalation">Escalation</option>
-                    <option value="installation">Installation</option>
-                </select>
-
                 <label>Payload (JSON)</label>
                 <textarea id="payload" placeholder='{"key": "value"}'></textarea>
                 <div id="jsonError" class="error-text" style="display: none;"></div>
@@ -457,58 +447,6 @@
     </footer>
 
     <script>
-        // Preset payloads
-        const payloads = {
-            order: {
-                order_id: '1523-12-354353',
-                device_type: 'TV',
-                product_name: 'Vision 7 55',
-                customer_name: 'Mono',
-                mobile_number: '919352957266',
-                mail_id: 'mono@circuithouse.tech',
-                seller_name: 'Amazon'
-            },
-            test: {
-                event: 'test',
-                timestamp: new Date().toISOString(),
-                data: {
-                    message: 'This is a test webhook'
-                }
-            },
-            chatStarted: {
-                event: 'chat.started',
-                timestamp: new Date().toISOString(),
-                data: {
-                    sessionId: 'session_12345',
-                    customerId: 'cust_12345',
-                    channel: 'web'
-                }
-            },
-            escalation: {
-                event: 'chat.escalated',
-                timestamp: new Date().toISOString(),
-                data: {
-                    sessionId: 'session_12345',
-                    reason: 'customer_request',
-                    context: {
-                        productType: 'TV',
-                        model: 'Vision 7 Series 55"',
-                        issue: 'Screen flickering'
-                    }
-                }
-            },
-            installation: {
-                event: 'installation.requested',
-                timestamp: new Date().toISOString(),
-                data: {
-                    productType: 'TV',
-                    variant: 'Vision 7 Series 50"',
-                    installationType: 'first_installation',
-                    setupPreference: 'wall_mount'
-                }
-            }
-        };
-
         let history = JSON.parse(localStorage.getItem('webhookHistory') || '[]');
 
         function init() {
@@ -517,26 +455,12 @@
                 document.getElementById('webhookUrl').value = savedUrl;
             }
 
-            document.getElementById('payload').value = JSON.stringify(payloads.order, null, 2);
-            document.getElementById('presetSelect').value = 'order';
-
             document.getElementById('webhookUrl').addEventListener('input', (e) => {
                 localStorage.setItem('webhookUrl', e.target.value);
             });
 
             updateHistory();
         }
-
-        document.getElementById('presetSelect').addEventListener('change', (e) => {
-            const key = e.target.value;
-            if (key && payloads[key]) {
-                const payload = JSON.parse(JSON.stringify(payloads[key]));
-                if (payload.timestamp) {
-                    payload.timestamp = new Date().toISOString();
-                }
-                document.getElementById('payload').value = JSON.stringify(payload, null, 2);
-            }
-        });
 
         function formatJson() {
             const textarea = document.getElementById('payload');
