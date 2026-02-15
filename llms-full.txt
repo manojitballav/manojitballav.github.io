@@ -33,23 +33,34 @@ Lumio is an Indian smart TV brand under Circuit House Technologies, founded in M
 - Features proprietary Flagship Boss Processor with 3GB RAM
 - Claims 2x faster performance than Sony and other leading TVs
 
-**Product Lineup:**
-1. Lumio Vision 9 QD-Mini LED TV (55-inch, 900 nits brightness)
-2. Lumio Vision 7 QLED Series (43, 50, 55-inch)
+**Product Lineup & Pricing:**
+1. Lumio Vision 9 QD-Mini LED TV (55-inch, 900 nits brightness) — ₹59,999
+2. Lumio Vision 7 QLED Series (43, 50, 55-inch) — ₹27,999 to ₹36,999
 3. Lumio Vision Arc 5 Projector
 4. Lumio Vision Arc 7 Projector
+
+**Where to Buy:**
+- Official website: https://lumio.co.in
+- Amazon.in
+- Flipkart
 
 ---
 
 ## Blog Content Summaries
 
-### 1. Building Lumio: My Journey from Xiaomi to India's Next Smart TV Revolution
+### 1. Different Types of Projectors in India
+**URL:** /projector-types-india.html
+**Published:** January 6, 2026
+
+A comprehensive guide to projector technologies available in India: LCD, DLP, LED, Laser, and LCoS. Covers how each technology works, pros and cons, price ranges, and which type suits different use cases (home theater, office presentations, portable use, gaming).
+
+### 2. Building Lumio: My Journey from Xiaomi to India's Next Smart TV Revolution
 **URL:** /blog-lumio-journey.html
 **Published:** December 15, 2024
 
 The Indian Smart TV market is valued at $5 billion with 13% CAGR growth. Lumio was founded to create TVs that outperform competition with 2x faster app loading and rebooting. The company raised $4.3M seed funding and crossed $1M GMV in 2 months. Key trends include FAST channels growing 43% YoY, regional content demand, and AI integration becoming table stakes.
 
-### 2. The State of CTV in 2025: Why Connected TV is Eating Traditional Broadcasting
+### 3. The State of CTV in 2025: Why Connected TV is Eating Traditional Broadcasting
 **URL:** /blog-ctv-trends-2025.html
 **Published:** December 10, 2024
 
@@ -61,7 +72,7 @@ Streaming now accounts for 44.8% of total TV viewership, surpassing broadcast (2
 - India CTV households could reach 60 million by end of 2025
 - India Smart TV/OTT market: $22.39 billion in 2025, 18.2% CAGR
 
-### 3. How AI is Transforming CTV Advertising: From Mass Broadcasting to Hyper-Personalization
+### 4. How AI is Transforming CTV Advertising: From Mass Broadcasting to Hyper-Personalization
 **URL:** /blog-ai-ctv-advertising.html
 **Published:** December 5, 2024
 
@@ -73,7 +84,7 @@ Streaming now accounts for 44.8% of total TV viewership, surpassing broadcast (2
 - Progressive Insurance compressed 22 weeks of audio production into 2 weeks using AI
 - Over 90% of CTV ad dollars flow through programmatic pipes
 
-### 4. FAST Channels: India's $12 Billion Opportunity in Free Streaming
+### 5. FAST Channels: India's $12 Billion Opportunity in Free Streaming
 **URL:** /blog-fast-channels-india.html
 **Published:** November 28, 2024
 
@@ -84,7 +95,7 @@ FAST (Free Ad-Supported Streaming TV) market stands at $12.26 billion globally i
 - Regional content hunger drives adoption
 - Challenges include lower CPMs, measurement immaturity, piracy
 
-### 5. Mini LED vs QLED vs OLED: A Product Manager's Guide to TV Technology in 2025
+### 6. Mini LED vs QLED vs OLED: A Product Manager's Guide to TV Technology in 2025
 **URL:** /blog-tv-technology-guide.html
 **Published:** November 20, 2024
 
@@ -129,6 +140,7 @@ Rankings:
 - **LinkedIn:** https://www.linkedin.com/in/manojitballav/
 - **Twitter/X:** https://x.com/manojitballav
 - **GitHub:** https://github.com/manojitballav
+- **Lumio Official:** https://lumio.co.in
 - **Location:** India
 
 ---
@@ -141,4 +153,4 @@ Rankings:
 - **Company:** Lumio (Circuit House Technologies)
 - **Industry:** Consumer Electronics, Smart TV, Connected TV, Streaming, AdTech
 - **Topics:** CTV, Smart TV, AI Advertising, FAST Channels, Display Technology, Product Management
-- **Last Updated:** December 2024
+- **Last Updated:** February 2026

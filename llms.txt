@@ -16,16 +16,19 @@ Previously worked at Xiaomi India on Mi TV and Redmi TV product lines.
 
 ## Key Topics & Expertise
 
-- Lumio Smart TVs (Vision 9, Vision 7, Vision Arc)
+- Lumio Smart TVs: Vision 9 QD-Mini LED (₹59,999), Vision 7 QLED (₹27,999–₹36,999), Vision Arc projectors
+- Lumio products available on Amazon.in, Flipkart, and lumio.co.in
 - CTV industry trends and market analysis
 - AI in CTV advertising
 - FAST channels in India
 - TV display technology comparisons
+- Projector types and buying guide for India
 - Indian Smart TV market ($22B+ market)
 - Product Management in consumer electronics
 
 ## Blog Posts
 
+- [Different Types of Projectors in India](/projector-types-india.html): Guide to LCD, DLP, LED, Laser, and LCoS projectors
 - [Building Lumio: My Journey from Xiaomi to India's Next Smart TV Revolution](/blog-lumio-journey.html): The story behind Lumio and Circuit House Technologies
 - [The State of CTV in 2025](/blog-ctv-trends-2025.html): CTV accounts for 44.8% of TV viewership, surpassing broadcast and cable
 - [How AI is Transforming CTV Advertising](/blog-ai-ctv-advertising.html): AI enables 8x ROI on personalized marketing
@@ -38,9 +41,11 @@ Previously worked at Xiaomi India on Mi TV and Redmi TV product lines.
 - LinkedIn: https://www.linkedin.com/in/manojitballav/
 - Twitter/X: https://x.com/manojitballav
 - GitHub: https://github.com/manojitballav
+- Lumio Official: https://lumio.co.in
 
 ## Optional
 
 - Location: India
 - Industry: Consumer Electronics, Smart TV, CTV, Streaming
 - Company: Lumio (Circuit House Technologies)
+- Last Updated: February 2026
