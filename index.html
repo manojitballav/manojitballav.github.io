@@ -822,24 +822,13 @@
     <script src="js/owl.carousel.min.js" defer></script>
     <script src="js/main.js" defer></script>
 
-    <!-- Firebase SDK v9+ (modular) -->
-    <script type="module">
-        import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js';
-        import { getAnalytics } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics.js';
-
-        const firebaseConfig = {
-            apiKey: "***REMOVED***",
-            authDomain: "manojit-ballav.firebaseapp.com",
-            databaseURL: "https://manojit-ballav.firebaseio.com",
-            projectId: "manojit-ballav",
-            storageBucket: "manojit-ballav.appspot.com",
-            messagingSenderId: "300369760199",
-            appId: "1:300369760199:web:7d3f74cb029d4b706213e2",
-            measurementId: "G-61ZX5F590H"
-        };
-
-        const app = initializeApp(firebaseConfig);
-        const analytics = getAnalytics(app);
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-61ZX5F590H"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-61ZX5F590H');
     </script>
 
 
