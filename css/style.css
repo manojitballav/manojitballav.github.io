@@ -93,12 +93,12 @@ nav ul li a:hover{
 
 .logo{
     float: left;
-    font-family: 'Google Sans', sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    color: #000;
+    line-height: 32px;
+}
+
+.logo img{
+    height: 30px;
+    width: auto;
 }
 
  .responsive{
