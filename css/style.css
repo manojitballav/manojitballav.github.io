@@ -19,7 +19,18 @@
 	7. Slider & Video Home
 
 
-/*------------------------ 1 Body and Core Css ------------------------*/		
+/*------------------------ 0 Brand Variables ------------------------*/
+
+:root {
+    --mono-black: #000000;
+    --mono-white: #FFFFFF;
+    --mono-graphite: #1E1E1E;
+    --mono-slate: #6B7280;
+    --mono-light: #E5E7EB;
+    --mono-accent: #3B82F6;
+}
+
+/*------------------------ 1 Body and Core Css ------------------------*/
 
 body {
     font-family: 'Google Sans', sans-serif;
@@ -68,22 +79,26 @@ nav ul li a:hover{
 }
 @font-face {
     font-family: 'Google Sans';
-    src: url('../fonts/GoogleSans-Regular.ttf') format('truetype'); 
+    src: url('../fonts/GoogleSans-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Google Sans';
-    src: url('../fonts/GoogleSans-Bold.ttf') format('truetype'); 
+    src: url('../fonts/GoogleSans-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 .logo{
     float: left;
-    font-style: bold;
-
+    font-family: 'Google Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #000;
 }
 
  .responsive{
@@ -414,18 +429,18 @@ input:-webkit-autofill {
 }
 
 .diagonal-gray path {
-       fill: #f5f5f5;
+       fill: #E5E7EB;
 }
 
 .diagonal-white{
-    background: #f5f5f5;
+    background: #E5E7EB;
     margin-bottom: -6px;
     margin-top: 60px;
 }
 
 .diagonal-white path {
     fill: #fff;
-    stroke: #f5f5f5;
+    stroke: #E5E7EB;
     stroke-width: 0;
 }
 
@@ -447,8 +462,8 @@ input:-webkit-autofill {
 }
 
 .diagonal.home-left, .diagonal.home-right path {
-    fill: #f5f5f5;
-    stroke: #f5f5f5;
+    fill: #E5E7EB;
+    stroke: #E5E7EB;
     stroke-width: 4;
 }
 
@@ -591,7 +606,7 @@ input:-webkit-autofill {
 
 .about.type-1 .about-image{
     padding-bottom: 70px;
-    background: #e8e8e8;
+    background: #E5E7EB;
 }
 
 .about.type-1 .about-image img:before{
@@ -715,11 +730,11 @@ input:-webkit-autofill {
 
 .gray-bg{
     margin-top: 90px;
-    background: #f5f5f5; 
+    background: #E5E7EB; 
 }
 
 .dgray-bg{
-    background: #f5f5f5; 
+    background: #E5E7EB; 
 }
 
 .what-can{
@@ -1350,7 +1365,7 @@ a.site-button{
 
 .achievement-icon {
     font-size: 36px;
-    color: #ff6b6b;
+    color: #3B82F6;
     margin-right: 20px;
     min-width: 50px;
 }
@@ -1393,7 +1408,7 @@ a.site-button{
     margin-bottom: 20px;
     color: #333;
     padding-bottom: 15px;
-    border-bottom: 2px solid #ff6b6b;
+    border-bottom: 2px solid #3B82F6;
 }
 
 .skill-list {
@@ -1414,7 +1429,7 @@ a.site-button{
     content: "▸";
     position: absolute;
     left: 0;
-    color: #ff6b6b;
+    color: #3B82F6;
     font-weight: bold;
 }
 
