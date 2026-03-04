@@ -1176,6 +1176,48 @@ hr.section-divider {
     font-size: 13px;
 }
 
+/* Image Credits */
+.image-credits {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 24px 28px;
+    margin: 10px 0 20px;
+    font-size: 13px;
+    color: #6B7280;
+}
+
+.image-credits h4 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #374151;
+    margin: 0 0 10px;
+}
+
+.image-credits p {
+    margin: 0 0 12px;
+    min-height: auto;
+    line-height: 1.6;
+}
+
+.image-credits ul {
+    margin: 0;
+    padding-left: 18px;
+}
+
+.image-credits ul li {
+    line-height: 1.8;
+    list-style: disc;
+}
+
+.image-credits a {
+    color: var(--mono-accent, #3B82F6);
+    text-decoration: none;
+}
+
+.image-credits a:hover {
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 767px) {
     .blog-hero {
         max-height: 280px;
