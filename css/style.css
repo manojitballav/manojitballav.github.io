@@ -1000,6 +1000,202 @@ input:-webkit-autofill {
     list-style: circle;
 }
 
+/* Blog Hero Image */
+.blog-hero {
+    width: 100%;
+    max-height: 480px;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.blog-hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+/* Section Divider */
+hr.section-divider {
+    border: none;
+    border-top: 1px solid #dadce0;
+    margin: 50px 0 40px;
+}
+
+/* Blog Figure with Caption */
+.blog-single .blog-figure {
+    margin: 30px 0;
+    padding: 0;
+}
+
+.blog-single .blog-figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+
+.blog-single .blog-figure figcaption {
+    font-size: 13px;
+    color: #6B7280;
+    margin-top: 10px;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+/* Callout Box */
+.blog-single .callout-box {
+    background-color: #f0f4ff;
+    border-left: 4px solid var(--mono-accent, #3B82F6);
+    border-radius: 0 8px 8px 0;
+    padding: 24px 28px;
+    margin: 30px 0;
+}
+
+.blog-single .callout-box p {
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 0 0 12px 0;
+    min-height: auto;
+}
+
+.blog-single .callout-box p:last-child {
+    margin-bottom: 0;
+}
+
+/* Pipeline Flow */
+.pipeline-flow {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 28px 20px;
+    margin: 30px 0;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.pipeline-step {
+    background: #fff;
+    border: 1px solid #dadce0;
+    border-radius: 6px;
+    padding: 8px 14px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #1E1E1E;
+    white-space: nowrap;
+}
+
+.pipeline-arrow {
+    color: #6B7280;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* Blog Table */
+.blog-single .blog-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 24px 0;
+    border-radius: 8px;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+.blog-single .blog-table thead tr {
+    background-color: #1E1E1E;
+    color: #fff;
+}
+
+.blog-single .blog-table th {
+    padding: 14px 16px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+}
+
+.blog-single .blog-table td {
+    padding: 14px 16px;
+    border-bottom: 1px solid #e5e7eb;
+    color: #374151;
+}
+
+.blog-single .blog-table tbody tr:hover {
+    background-color: #f9fafb;
+}
+
+.blog-single .blog-table .highlight-row {
+    background-color: #f0f4ff;
+}
+
+.blog-single .blog-table .highlight-row:hover {
+    background-color: #e8eeff;
+}
+
+/* Pros & Cons Cards */
+.pros-cons {
+    display: flex;
+    gap: 16px;
+    margin: 20px 0 36px;
+}
+
+.pros-cons .pros,
+.pros-cons .cons {
+    flex: 1;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 13px;
+}
+
+.pros-cons .pros {
+    background: #f0fdf4;
+    border: 1px solid #bbf7d0;
+}
+
+.pros-cons .cons {
+    background: #fef2f2;
+    border: 1px solid #fecaca;
+}
+
+.pros-cons p {
+    margin: 0 0 10px 0;
+    font-size: 13px;
+    min-height: auto;
+}
+
+.pros-cons ul {
+    margin: 0;
+    padding-left: 18px;
+}
+
+.pros-cons ul li {
+    line-height: 1.7;
+    list-style: disc;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 767px) {
+    .blog-hero {
+        max-height: 280px;
+    }
+
+    .pros-cons {
+        flex-direction: column;
+    }
+
+    .pipeline-flow {
+        gap: 4px;
+        padding: 20px 12px;
+    }
+
+    .pipeline-step {
+        font-size: 11px;
+        padding: 6px 10px;
+    }
+}
+
 .lightbox-image img{
     width: 100%;
     padding-bottom: 30px;

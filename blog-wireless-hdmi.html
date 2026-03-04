@@ -113,6 +113,11 @@
     </nav>
 
 
+    <!-- HERO IMAGE -->
+    <div class="blog-hero">
+        <img src="images/blog-wireless-hdmi-hero.jpg" alt="Wireless HDMI System — Circuit Board Architecture">
+    </div>
+
     <div class="container content">
         <div class="row">
             <div class="blog-single col-md-8 col-md-offset-2">
@@ -125,18 +130,29 @@
 
                     <p>Conference rooms, classrooms, and presentation environments prioritize reliability and simplicity. Users expect to plug a device into their laptop and immediately mirror their screen to a display without installing apps, joining networks, or dealing with compatibility issues.</p>
 
-                    <p>This article explores the <strong>technical architecture of a professional wireless HDMI dongle system</strong>, breaking down the system at the component and chipset level. We will examine the <strong>signal pipeline, core hardware components, chipset options, and the engineering considerations required to build such a device today.</strong></p>
+                    <p>This article explores the <strong>technical architecture of a professional wireless HDMI dongle system</strong>, breaking down the system at the component and chipset level. We will examine the signal pipeline, core hardware components, chipset options, and the engineering considerations required to build such a device today.</p>
+
+                    <!-- Section Divider -->
+                    <hr class="section-divider">
 
                     <h2>The Concept: True Wireless HDMI</h2>
 
+                    <figure class="blog-figure">
+                        <img src="images/blog-hdmi-cable.jpg" alt="HDMI cables and connectors used in wireless display systems" loading="lazy">
+                        <figcaption>HDMI connectors form the foundation of wired display — wireless HDMI replaces the cable with a dedicated RF link.</figcaption>
+                    </figure>
+
                     <p>A professional wireless HDMI system typically consists of <strong>two physical devices</strong>:</p>
 
-                    <p><strong>Transmitter (TX)</strong> – connected to a laptop<br>
-                    <strong>Receiver (RX)</strong> – connected to a TV, monitor, or projector</p>
+                    <p><strong>Transmitter (TX)</strong> — connected to a laptop<br>
+                    <strong>Receiver (RX)</strong> — connected to a TV, monitor, or projector</p>
 
                     <p>The transmitter captures the HDMI output from the laptop and sends it wirelessly to the receiver, which then outputs the video to the display.</p>
 
-                    <blockquote>Laptop → TX dongle → wireless transmission → RX dongle → HDMI → Display</blockquote>
+                    <div class="callout-box">
+                        <p><strong>Signal Flow</strong></p>
+                        <p>Laptop → TX Dongle → Wireless Transmission → RX Dongle → HDMI → Display</p>
+                    </div>
 
                     <p>Unlike casting technologies, this approach:</p>
 
@@ -149,31 +165,65 @@
 
                     <p>For presentation environments, this simplicity is essential.</p>
 
+                    <!-- Section Divider -->
+                    <hr class="section-divider">
+
                     <h2>High-Level System Architecture</h2>
 
-                    <p>At a system level, wireless HDMI devices function as <strong>real-time video streaming systems</strong>.</p>
+                    <figure class="blog-figure">
+                        <img src="images/blog-network-server.jpg" alt="Network infrastructure representing real-time video streaming systems" loading="lazy">
+                        <figcaption>At a system level, wireless HDMI devices function as dedicated real-time video streaming systems.</figcaption>
+                    </figure>
 
                     <p>The transmitter captures the HDMI signal, compresses the video, and transmits it wirelessly. The receiver decodes the stream and reconstructs the HDMI output.</p>
 
-                    <p><strong>Transmitter architecture:</strong></p>
-                    <p>HDMI Input → HDMI Capture IC → Video Processing SoC (Encoder) → Wireless Module (5 GHz Wi-Fi) → RF Transmission</p>
-
-                    <p><strong>Receiver architecture:</strong></p>
-                    <p>Wireless Receiver → Video Processing SoC (Decoder) → Frame Buffer → HDMI Transmitter → Display Output</p>
+                    <div class="callout-box">
+                        <p><strong>Transmitter Architecture</strong><br>
+                        HDMI Input → HDMI Capture IC → Video Processing SoC (Encoder) → Wireless Module (5 GHz Wi-Fi) → RF Transmission</p>
+                        <p><strong>Receiver Architecture</strong><br>
+                        Wireless Receiver → Video Processing SoC (Decoder) → Frame Buffer → HDMI Transmitter → Display Output</p>
+                    </div>
 
                     <p>This architecture allows the system to send video across a wireless link while maintaining acceptable latency.</p>
 
+                    <!-- Section Divider -->
+                    <hr class="section-divider">
+
                     <h2>The Video Pipeline</h2>
 
-                    <p>The end-to-end signal path in a wireless HDMI system typically looks like this:</p>
+                    <p>The end-to-end signal path in a wireless HDMI system follows a structured flow:</p>
 
-                    <p>Laptop HDMI → HDMI Capture Chip → Video Encoder (H.264) → Wireless Transmission → Wireless Receiver → Video Decoder → HDMI Output → Display</p>
+                    <div class="pipeline-flow">
+                        <span class="pipeline-step">Laptop HDMI</span>
+                        <span class="pipeline-arrow">→</span>
+                        <span class="pipeline-step">HDMI Capture Chip</span>
+                        <span class="pipeline-arrow">→</span>
+                        <span class="pipeline-step">Video Encoder (H.264)</span>
+                        <span class="pipeline-arrow">→</span>
+                        <span class="pipeline-step">Wireless TX</span>
+                        <span class="pipeline-arrow">→</span>
+                        <span class="pipeline-step">Wireless RX</span>
+                        <span class="pipeline-arrow">→</span>
+                        <span class="pipeline-step">Video Decoder</span>
+                        <span class="pipeline-arrow">→</span>
+                        <span class="pipeline-step">HDMI Output</span>
+                        <span class="pipeline-arrow">→</span>
+                        <span class="pipeline-step">Display</span>
+                    </div>
 
                     <p>In essence, the device behaves like a <strong>dedicated wireless video streaming link optimized for real-time display mirroring.</strong></p>
 
+                    <!-- Section Divider -->
+                    <hr class="section-divider">
+
                     <h2>Core Hardware Components</h2>
 
-                    <p>Although the system performs complex tasks, the hardware architecture is surprisingly compact. A wireless HDMI device typically contains only <strong>four to six major chips</strong>.</p>
+                    <figure class="blog-figure">
+                        <img src="images/blog-circuit-closeup.jpg" alt="Close-up of a circuit board showing processor and memory components" loading="lazy">
+                        <figcaption>A wireless HDMI device typically contains only four to six major chips on a compact multi-layer PCB.</figcaption>
+                    </figure>
+
+                    <p>Although the system performs complex tasks, the hardware architecture is surprisingly compact.</p>
 
                     <h3>1. HDMI Receiver (Transmitter Side)</h3>
 
@@ -191,7 +241,7 @@
 
                     <h3>2. Video Processing SoC</h3>
 
-                    <p>The <strong>video processor is the heart of the system</strong>. This chip is responsible for:</p>
+                    <p>The <strong>video processor is the heart of the system</strong>. This chip handles:</p>
                     <ul class="list-style">
                         <li>Real-time video encoding (transmitter)</li>
                         <li>Real-time video decoding (receiver)</li>
@@ -200,11 +250,11 @@
                         <li>System control and networking</li>
                     </ul>
 
-                    <p>Many wireless HDMI systems use processors originally developed for <strong>IP camera platforms</strong>, because those chips are optimized for <strong>low-latency video encoding and network streaming</strong>.</p>
+                    <p>Many wireless HDMI systems use processors originally developed for <strong>IP camera platforms</strong>, because those chips are optimized for low-latency video encoding and network streaming.</p>
 
                     <h3>3. Wireless Connectivity Module</h3>
 
-                    <p>Most wireless HDMI systems use <strong>5 GHz Wi-Fi with Wi-Fi Direct</strong>. Key characteristics include:</p>
+                    <p>Most wireless HDMI systems use <strong>5 GHz Wi-Fi with Wi-Fi Direct</strong>. Key characteristics:</p>
                     <ul class="list-style">
                         <li>High bandwidth transmission</li>
                         <li>Reduced interference compared to 2.4 GHz</li>
@@ -215,118 +265,249 @@
 
                     <h3>4. Memory Subsystem</h3>
 
-                    <p>Two types of memory are typically used:</p>
-
-                    <p><strong>DDR RAM</strong> (512 MB – 1 GB) — used for frame buffering, encoder pipelines, and network buffers.</p>
-                    <p><strong>Flash Storage</strong> (4 GB – 8 GB) — used for firmware, bootloader, and system configuration.</p>
+                    <div class="callout-box">
+                        <p><strong>DDR RAM</strong> (512 MB – 1 GB) — Frame buffering, encoder pipelines, and network buffers.</p>
+                        <p><strong>Flash Storage</strong> (4 GB – 8 GB) — Firmware, bootloader, and system configuration.</p>
+                    </div>
 
                     <h3>5. HDMI Transmitter (Receiver Side)</h3>
 
                     <p>After decoding the video stream, the receiver must output HDMI to the display. Typical HDMI transmitter chips convert digital video frames into <strong>HDMI-compliant signals</strong> that the display can interpret.</p>
 
+                    <!-- Section Divider -->
+                    <hr class="section-divider">
+
                     <h2>Latency Characteristics</h2>
 
                     <p>Latency is one of the most important performance metrics in wireless display systems.</p>
 
-                    <table style="width:100%; border-collapse: collapse; margin: 20px 0;">
-                        <tr style="background-color: #E5E7EB;">
-                            <th style="border: 1px solid #ddd; padding: 12px; text-align: left;">Technology</th>
-                            <th style="border: 1px solid #ddd; padding: 12px; text-align: left;">Latency</th>
-                        </tr>
-                        <tr>
-                            <td style="border: 1px solid #ddd; padding: 12px;">Miracast</td>
-                            <td style="border: 1px solid #ddd; padding: 12px;">150–250 ms</td>
-                        </tr>
-                        <tr>
-                            <td style="border: 1px solid #ddd; padding: 12px;">Chromecast</td>
-                            <td style="border: 1px solid #ddd; padding: 12px;">200+ ms</td>
-                        </tr>
-                        <tr>
-                            <td style="border: 1px solid #ddd; padding: 12px;">Wireless HDMI</td>
-                            <td style="border: 1px solid #ddd; padding: 12px;">40–80 ms</td>
-                        </tr>
+                    <table class="blog-table">
+                        <thead>
+                            <tr>
+                                <th>Technology</th>
+                                <th>Typical Latency</th>
+                                <th>Use Case</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Miracast</td>
+                                <td>150–250 ms</td>
+                                <td>Consumer screen mirroring</td>
+                            </tr>
+                            <tr>
+                                <td>Chromecast</td>
+                                <td>200+ ms</td>
+                                <td>Media streaming</td>
+                            </tr>
+                            <tr>
+                                <td>AirPlay</td>
+                                <td>100–200 ms</td>
+                                <td>Apple ecosystem mirroring</td>
+                            </tr>
+                            <tr class="highlight-row">
+                                <td><strong>Wireless HDMI</strong></td>
+                                <td><strong>40–80 ms</strong></td>
+                                <td><strong>Professional presentations</strong></td>
+                            </tr>
+                        </tbody>
                     </table>
 
                     <p>This lower latency makes wireless HDMI suitable for presentations, video playback, and interactive demonstrations. However, it is still not ideal for competitive gaming.</p>
+
+                    <!-- Section Divider -->
+                    <hr class="section-divider">
 
                     <h2>PCB Design and Layout</h2>
 
                     <p>Wireless HDMI devices use <strong>compact multi-layer PCBs</strong> to accommodate high-speed signals and RF components.</p>
 
-                    <p><strong>Top side:</strong> Video processing SoC, DDR memory, Wi-Fi module, RF shielding</p>
-                    <p><strong>Bottom side:</strong> Flash storage, power management IC, voltage regulators</p>
+                    <div class="callout-box">
+                        <p><strong>Top Side:</strong> Video processing SoC, DDR memory, Wi-Fi module, RF shielding</p>
+                        <p><strong>Bottom Side:</strong> Flash storage, power management IC, voltage regulators</p>
+                    </div>
 
                     <p>Because HDMI uses <strong>high-speed differential signaling</strong>, careful PCB routing is required to maintain signal integrity and reduce electromagnetic interference.</p>
 
+                    <!-- Section Divider -->
+                    <hr class="section-divider">
+
                     <h2>Common Chipsets Used in Wireless HDMI Systems</h2>
 
-                    <p>Several processor families are commonly used in wireless HDMI reference designs.</p>
+                    <figure class="blog-figure">
+                        <img src="images/blog-microchip.jpg" alt="Microprocessor and chipset used in embedded video systems" loading="lazy">
+                        <figcaption>Several processor families power today's wireless HDMI reference designs — each with distinct trade-offs.</figcaption>
+                    </figure>
 
                     <h3>Novatek NT9666x Series</h3>
-
                     <p>Widely used in video streaming and camera systems.</p>
-                    <p><strong>Pros:</strong> Excellent real-time H.264 encoding, optimized for low-latency streaming, mature firmware ecosystem, widely used in ODM hardware platforms.</p>
-                    <p><strong>Cons:</strong> Limited graphics capability, typically limited to 1080p pipelines, not designed for full operating systems.</p>
+                    <div class="pros-cons">
+                        <div class="pros">
+                            <p><strong>Strengths</strong></p>
+                            <ul>
+                                <li>Excellent real-time H.264 encoding</li>
+                                <li>Optimized for low-latency streaming</li>
+                                <li>Mature firmware ecosystem</li>
+                                <li>Widely used in ODM platforms</li>
+                            </ul>
+                        </div>
+                        <div class="cons">
+                            <p><strong>Limitations</strong></p>
+                            <ul>
+                                <li>Limited graphics capability</li>
+                                <li>Typically limited to 1080p</li>
+                                <li>Not designed for full OS</li>
+                            </ul>
+                        </div>
+                    </div>
 
                     <h3>HiSilicon Hi3516 Series</h3>
-
                     <p>Originally developed for security cameras and embedded video systems.</p>
-                    <p><strong>Pros:</strong> Efficient hardware encoder, low power consumption, strong Linux support, reliable network streaming capabilities.</p>
-                    <p><strong>Cons:</strong> Limited global developer ecosystem, documentation may be restricted, moderate CPU performance.</p>
+                    <div class="pros-cons">
+                        <div class="pros">
+                            <p><strong>Strengths</strong></p>
+                            <ul>
+                                <li>Efficient hardware encoder</li>
+                                <li>Low power consumption</li>
+                                <li>Strong Linux support</li>
+                                <li>Reliable network streaming</li>
+                            </ul>
+                        </div>
+                        <div class="cons">
+                            <p><strong>Limitations</strong></p>
+                            <ul>
+                                <li>Limited global developer ecosystem</li>
+                                <li>Restricted documentation</li>
+                                <li>Moderate CPU performance</li>
+                            </ul>
+                        </div>
+                    </div>
 
                     <h3>Ambarella Video Processors</h3>
-
                     <p>Widely used in professional video equipment.</p>
-                    <p><strong>Pros:</strong> Excellent video compression quality, robust multimedia processing pipelines, reliable performance in professional systems.</p>
-                    <p><strong>Cons:</strong> Significantly higher cost, excessive capability for simple mirroring devices, longer development cycles.</p>
+                    <div class="pros-cons">
+                        <div class="pros">
+                            <p><strong>Strengths</strong></p>
+                            <ul>
+                                <li>Excellent video compression quality</li>
+                                <li>Robust multimedia pipelines</li>
+                                <li>Reliable professional performance</li>
+                            </ul>
+                        </div>
+                        <div class="cons">
+                            <p><strong>Limitations</strong></p>
+                            <ul>
+                                <li>Significantly higher cost</li>
+                                <li>Overkill for simple mirroring</li>
+                                <li>Longer development cycles</li>
+                            </ul>
+                        </div>
+                    </div>
 
                     <h3>Rockchip RK3566</h3>
-
                     <p>A modern ARM processor widely used in embedded multimedia systems.</p>
-                    <p><strong>Pros:</strong> Powerful CPU and GPU, strong Linux and Android ecosystem, flexible platform for custom applications.</p>
-                    <p><strong>Cons:</strong> Higher power consumption, more complex software integration, larger firmware stack.</p>
+                    <div class="pros-cons">
+                        <div class="pros">
+                            <p><strong>Strengths</strong></p>
+                            <ul>
+                                <li>Powerful CPU and GPU</li>
+                                <li>Strong Linux and Android ecosystem</li>
+                                <li>Flexible for custom applications</li>
+                            </ul>
+                        </div>
+                        <div class="cons">
+                            <p><strong>Limitations</strong></p>
+                            <ul>
+                                <li>Higher power consumption</li>
+                                <li>Complex software integration</li>
+                                <li>Larger firmware stack</li>
+                            </ul>
+                        </div>
+                    </div>
 
                     <h3>Amlogic S905 Series</h3>
-
                     <p>Widely used in streaming sticks and media devices.</p>
-                    <p><strong>Pros:</strong> Strong video decoding capability, large development ecosystem, strong multimedia performance.</p>
-                    <p><strong>Cons:</strong> Optimized for playback rather than HDMI capture, requires additional capture components, slightly more complex hardware design.</p>
+                    <div class="pros-cons">
+                        <div class="pros">
+                            <p><strong>Strengths</strong></p>
+                            <ul>
+                                <li>Strong video decoding capability</li>
+                                <li>Large development ecosystem</li>
+                                <li>Strong multimedia performance</li>
+                            </ul>
+                        </div>
+                        <div class="cons">
+                            <p><strong>Limitations</strong></p>
+                            <ul>
+                                <li>Optimized for playback, not capture</li>
+                                <li>Requires additional capture ICs</li>
+                                <li>More complex hardware design</li>
+                            </ul>
+                        </div>
+                    </div>
 
                     <h3>Allwinner SoCs</h3>
+                    <p>Widely used in low-cost embedded multimedia systems. Common models include H3, H6, V3s, and H616.</p>
+                    <div class="pros-cons">
+                        <div class="pros">
+                            <p><strong>Strengths</strong></p>
+                            <ul>
+                                <li>Very cost efficient</li>
+                                <li>Integrated video encode/decode</li>
+                                <li>Widely used in ODM products</li>
+                                <li>Embedded Linux compatible</li>
+                            </ul>
+                        </div>
+                        <div class="cons">
+                            <p><strong>Limitations</strong></p>
+                            <ul>
+                                <li>Fragmented dev ecosystem</li>
+                                <li>Variable documentation quality</li>
+                                <li>Moderate advanced performance</li>
+                            </ul>
+                        </div>
+                    </div>
 
-                    <p>Widely used in low-cost embedded multimedia systems. Common models include Allwinner H3, H6, V3s, and H616.</p>
-                    <p><strong>Pros:</strong> Very cost efficient, integrated video encoding and decoding, widely used in ODM multimedia products, compatible with embedded Linux systems.</p>
-                    <p><strong>Cons:</strong> Fragmented development ecosystem, documentation availability varies, moderate performance for advanced video workloads.</p>
+                    <!-- Section Divider -->
+                    <hr class="section-divider">
 
                     <h2>Engineering Challenges</h2>
 
-                    <p>Designing a reliable wireless HDMI system involves several technical challenges.</p>
+                    <figure class="blog-figure">
+                        <img src="images/blog-conference-room.jpg" alt="Modern conference room with display screens for wireless presentations" loading="lazy">
+                        <figcaption>Conference rooms present unique RF and compatibility challenges for wireless HDMI systems.</figcaption>
+                    </figure>
 
                     <h3>HDMI Compatibility</h3>
-
                     <p>Different laptops output different combinations of resolutions, refresh rates, and HDCP configurations. The transmitter must negotiate these parameters correctly using EDID.</p>
 
                     <h3>Wireless Stability</h3>
-
                     <p>Presentation environments often contain many RF sources — multiple Wi-Fi networks, Bluetooth devices, and wireless microphones. Maintaining a stable high-bandwidth wireless link requires careful RF design and antenna placement.</p>
 
                     <h3>Latency Optimization</h3>
-
                     <p>Video encoder configuration has a major impact on latency. Factors include encoder buffer size, compression settings, and packet transmission strategy.</p>
 
                     <h3>Thermal Design</h3>
-
                     <p>Real-time video encoding generates heat. Without proper thermal management, the processor may throttle or degrade performance during extended use.</p>
 
-                    <h2>Reference Architecture for a Modern Wireless HDMI System</h2>
+                    <!-- Section Divider -->
+                    <hr class="section-divider">
+
+                    <h2>Reference Architecture</h2>
 
                     <p>A modern wireless HDMI system can be built using a relatively simple hardware architecture.</p>
 
-                    <p><strong>Transmitter:</strong> HDMI Receiver IC → Video Processing SoC (Encoder) → DDR Memory → Wi-Fi Module (5 GHz / Wi-Fi Direct)</p>
-
-                    <p><strong>Receiver:</strong> Wi-Fi Module → Video Processing SoC (Decoder) → DDR Memory → HDMI Transmitter</p>
+                    <div class="callout-box">
+                        <p><strong>Transmitter</strong><br>
+                        HDMI Receiver IC → Video Processing SoC (Encoder) → DDR Memory → Wi-Fi Module (5 GHz / Wi-Fi Direct)</p>
+                        <p><strong>Receiver</strong><br>
+                        Wi-Fi Module → Video Processing SoC (Decoder) → DDR Memory → HDMI Transmitter</p>
+                    </div>
 
                     <p>This architecture allows the system to operate as a <strong>dedicated real-time wireless video link</strong>.</p>
+
+                    <!-- Section Divider -->
+                    <hr class="section-divider">
 
                     <h2>Final Thoughts</h2>
 
@@ -345,7 +526,7 @@
 
                     <p>As wireless chipsets and video processors continue to evolve, the next generation of wireless HDMI systems will likely push toward lower latency, higher resolution support, improved RF reliability, and more efficient embedded architectures.</p>
 
-                    <blockquote>"For engineers and product designers working in the display ecosystem, understanding this architecture offers valuable insight into how modern wireless presentation systems are built."</blockquote>
+                    <blockquote>For engineers and product designers working in the display ecosystem, understanding this architecture offers valuable insight into how modern wireless presentation systems are built.</blockquote>
 
                     <p><em>Have questions about wireless display technology? Reach out on <a href="https://www.linkedin.com/in/manojitballav/">LinkedIn</a> or <a href="https://x.com/manojitballav">X/Twitter</a>.</em></p>
 
