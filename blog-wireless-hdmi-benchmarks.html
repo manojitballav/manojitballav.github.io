@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Performance and Latency Benchmarking in Wireless HDMI Systems | Manojit Ballav</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="SoC benchmark comparisons and end-to-end latency analysis across Miracast, Chromecast, and wireless HDMI — processor tiers, pipeline optimization, and design tradeoffs.">
+    <meta name="keywords" content="wireless HDMI benchmarks, wireless HDMI latency, SoC performance, Allwinner H3, Allwinner H6, HiSilicon Hi3516, Novatek NT96663, Rockchip RK3566, Amlogic S905X4, Miracast latency, wireless display latency, embedded processor benchmarks, video pipeline optimization, wireless HDMI vs Miracast">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Manojit Ballav">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://manojitballav.com/blog-wireless-hdmi-benchmarks.html">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://manojitballav.com/blog-wireless-hdmi-benchmarks.html" />
+    <meta property="og:title" content="Performance and Latency Benchmarking in Wireless HDMI Systems" />
+    <meta property="og:description" content="SoC benchmark comparisons and end-to-end latency analysis across Miracast, Chromecast, and wireless HDMI — processor tiers, pipeline optimization, and design tradeoffs." />
+    <meta property="og:image" content="https://manojitballav.com/images/blog-benchmark-hero.jpg" />
+    <meta property="og:site_name" content="Manojit Ballav" />
+    <meta property="article:published_time" content="2026-03-04T00:00:00+05:30" />
+    <meta property="article:modified_time" content="2026-03-04T00:00:00+05:30" />
+    <meta property="article:author" content="https://www.linkedin.com/in/manojitballav/" />
+    <meta property="article:section" content="Technology" />
+    <meta property="article:tag" content="Wireless HDMI" />
+    <meta property="article:tag" content="Performance Benchmarks" />
+    <meta property="article:tag" content="Latency" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@manojitballav" />
+    <meta name="twitter:creator" content="@manojitballav" />
+    <meta name="twitter:url" content="https://manojitballav.com/blog-wireless-hdmi-benchmarks.html" />
+    <meta name="twitter:title" content="Performance and Latency Benchmarking in Wireless HDMI Systems" />
+    <meta name="twitter:description" content="SoC benchmark comparisons and end-to-end latency analysis across Miracast, Chromecast, and wireless HDMI." />
+    <meta name="twitter:image" content="https://manojitballav.com/images/blog-benchmark-hero.jpg" />
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Performance and Latency Benchmarking in Wireless HDMI Systems",
+  "description": "SoC benchmark comparisons and end-to-end latency analysis across Miracast, Chromecast, and wireless HDMI — processor tiers, pipeline optimization, and design tradeoffs.",
+  "image": "https://manojitballav.com/images/blog-benchmark-hero.jpg",
+  "datePublished": "2026-03-04",
+  "dateModified": "2026-03-04",
+  "url": "https://manojitballav.com/blog-wireless-hdmi-benchmarks.html",
+  "inLanguage": "en",
+  "author": {
+    "@type": "Person",
+    "@id": "https://www.google.com/search?kgmid=/g/11f_jdjrm5",
+    "name": "Manojit Ballav",
+    "url": "https://manojitballav.com/"
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://www.google.com/search?kgmid=/g/11f_jdjrm5",
+    "name": "Manojit Ballav"
+  },
+  "mainEntityOfPage": "https://manojitballav.com/blog-wireless-hdmi-benchmarks.html"
+}
+    </script>
+
+<!-- Stylesheets -->
+<link rel="stylesheet" href="css/bootstrap.css"/>
+<link rel="stylesheet" href="css/reset.css"/>
+<link rel="stylesheet" href="css/style.css"/>
+<link rel="stylesheet" href="css/animate.css"/>
+<link rel="stylesheet" href="css/magnific-popup.css"/>
+
+<!-- Google Web fonts -->
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+<!-- Font icons -->
+<script src="https://kit.fontawesome.com/dde8d79f39.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="icon-fonts/essential-regular-fonts/essential-icons.css"/>
+
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body class="diag">
+
+    <!-- LOADER -->
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+
+    <nav class="subpage-nav">
+        <div class="row">
+            <div class="container">
+                <div class="logo">
+                    <img src="images/logo.png" srcset="images/logo.png 1x, images/2xLogo.png 2x, images/3xLogo.png 3x" alt="MONO">
+                </div>
+                <div class="responsive"><i data-icon="m" class="icon"></i></div>
+                <ul class="nav-menu">
+                    <li><a href="index.html#home" class="smoothScroll">Home</a></li>
+                    <li><a href="index.html#about" class="smoothScroll">About</a></li>
+                    <li><a href="index.html#achievements" class="smoothScroll">Achievements</a></li>
+                    <li><a href="index.html#skills" class="smoothScroll">Skills</a></li>
+                    <li><a href="index.html#portfolio" class="smoothScroll">Portfolio</a></li>
+                    <li><a href="index.html#posts" class="smoothScroll">Posts</a></li>
+                    <li><a href="blog-page.html">Blog</a></li>
+                    <li><a href="index.html#contact" class="smoothScroll">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- HERO IMAGE -->
+    <div class="blog-hero">
+        <img src="images/blog-benchmark-hero.jpg" alt="Close-up of processor and circuit board — performance benchmarking in wireless HDMI systems">
+    </div>
+
+    <div class="container content">
+        <div class="row">
+            <div class="blog-single col-md-8 col-md-offset-2">
+                <h1>Performance and Latency Benchmarking in Wireless HDMI Systems</h1>
+                <div class="blog-detail">Posted <span>4 March 2026</span> by Manojit Ballav (Mono)</div>
+
+                <div class="blog-content">
+
+                    <p>When evaluating processors and system architectures for wireless HDMI devices, two performance dimensions are critical:</p>
+
+                    <ol>
+                        <li><strong>Processing performance of the SoC</strong></li>
+                        <li><strong>End-to-end display latency</strong></li>
+                    </ol>
+
+                    <p>While raw CPU benchmarks provide insight into the compute capability of a chipset, wireless HDMI systems are ultimately constrained by the <strong>video pipeline and wireless transmission latency</strong>.</p>
+
+                    <div class="callout-box">
+                        <p>This article compares both <strong>SoC benchmark performance</strong> and <strong>real-world latency across wireless display technologies</strong> — helping engineers and product designers make informed platform decisions.</p>
+                    </div>
+
+                    <!-- Section Divider -->
+                    <hr class="section-divider">
+
+                    <h2>Performance Benchmarks of Common Wireless HDMI SoCs</h2>
+
+                    <p>Wireless HDMI systems rely on hardware video encoding pipelines, but CPU performance still influences system responsiveness, firmware complexity, and networking capabilities.</p>
+
+                    <p>The following table provides representative benchmark ranges for several commonly used embedded multimedia processors.</p>
+
+                    <figure class="blog-figure">
+                        <img src="images/blog-benchmark-hero.jpg" alt="Close-up of embedded processor and chipset components used in wireless HDMI systems" loading="lazy">
+                        <figcaption>Modern embedded multimedia processors provide significantly improved compute performance compared to older camera-oriented chipsets.</figcaption>
+                    </figure>
+
+                    <table class="blog-table">
+                        <thead>
+                            <tr>
+                                <th>SoC</th>
+                                <th>CPU Architecture</th>
+                                <th>Geekbench Single</th>
+                                <th>Geekbench Multi</th>
+                                <th>Antutu Score</th>
+                                <th>GPU</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Allwinner H3</td>
+                                <td>Cortex-A7 (4 cores)</td>
+                                <td>~90</td>
+                                <td>~260</td>
+                                <td>~22,000</td>
+                                <td>Mali-400</td>
+                            </tr>
+                            <tr>
+                                <td>Allwinner H6</td>
+                                <td>Cortex-A53 (4 cores)</td>
+                                <td>~140</td>
+                                <td>~420</td>
+                                <td>~40,000</td>
+                                <td>Mali-T720</td>
+                            </tr>
+                            <tr>
+                                <td>HiSilicon Hi3516</td>
+                                <td>Cortex-A7/A53 variants</td>
+                                <td>~120</td>
+                                <td>~350</td>
+                                <td>~30,000–40,000</td>
+                                <td>Mali-400</td>
+                            </tr>
+                            <tr>
+                                <td>Novatek NT96663</td>
+                                <td>Cortex-A7 class</td>
+                                <td>~100</td>
+                                <td>~300</td>
+                                <td>~30,000</td>
+                                <td>Integrated ISP</td>
+                            </tr>
+                            <tr class="highlight-row">
+                                <td>Rockchip RK3566</td>
+                                <td>Cortex-A55 (4 cores)</td>
+                                <td>~155–165</td>
+                                <td>~450–460</td>
+                                <td>~90,000</td>
+                                <td>Mali-G52</td>
+                            </tr>
+                            <tr class="highlight-row">
+                                <td>Amlogic S905X4</td>
+                                <td>Cortex-A55 (4 cores)</td>
+                                <td>~170</td>
+                                <td>~520</td>
+                                <td>~100,000+</td>
+                                <td>Mali-G31</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <p>These benchmarks highlight how modern embedded multimedia processors have significantly improved compute performance compared to older camera-oriented chipsets.</p>
+
+                    <p>However, <strong>higher CPU performance does not automatically translate to lower latency</strong> in wireless HDMI systems.</p>
+
+                    <!-- Section Divider -->
+                    <hr class="section-divider">
+
+                    <h2>Performance Tier Classification</h2>
+
+                    <p>The processors above generally fall into three performance categories.</p>
+
+                    <h3>Entry-Level Embedded Video Platforms</h3>
+
+                    <div class="callout-box">
+                        <p><strong>Examples:</strong> Allwinner H3, HiSilicon Hi3516, Novatek NT96663</p>
+                        <p><strong>CPU Class:</strong> Cortex-A7 | <strong>GPU:</strong> Limited | <strong>Focus:</strong> Efficient hardware encoding</p>
+                    </div>
+
+                    <p><strong>Typical usage:</strong> wireless HDMI dongles, Miracast adapters, IP camera streaming hardware.</p>
+
+                    <p>These processors prioritize <strong>video encoding efficiency over raw computing power</strong>.</p>
+
+                    <!-- Section Divider -->
+                    <hr class="section-divider">
+
+                    <h3>Mid-Range Multimedia Platforms</h3>
+
+                    <div class="callout-box">
+                        <p><strong>Examples:</strong> Allwinner H6, Amlogic S905X2 / S905X3</p>
+                        <p><strong>CPU Class:</strong> Cortex-A53 | <strong>Multimedia:</strong> Improved engines | <strong>Focus:</strong> Balanced performance</p>
+                    </div>
+
+                    <p><strong>Typical usage:</strong> Android TV boxes, casting devices, multimedia adapters.</p>
+
+                    <p>These processors provide a balance between <strong>compute performance and multimedia capabilities</strong>.</p>
+
+                    <!-- Section Divider -->
+                    <hr class="section-divider">
+
+                    <h3>Modern Embedded Platforms</h3>
+
+                    <div class="callout-box">
+                        <p><strong>Examples:</strong> Rockchip RK3566, Amlogic S905X4</p>
+                        <p><strong>CPU Class:</strong> Cortex-A55 | <strong>GPU:</strong> Stronger | <strong>Focus:</strong> Advanced codec pipelines + improved memory bandwidth</p>
+                    </div>
+
+                    <p>These chips are capable of powering more advanced embedded devices such as smart displays, media hubs, and multimedia appliances.</p>
+
+                    <!-- Section Divider -->
+                    <hr class="section-divider">
+
+                    <h2>Latency Benchmarking of Wireless Display Technologies</h2>
+
+                    <p>Latency determines how quickly the content displayed on a laptop appears on the external display.</p>
+
+                    <p>Wireless display systems introduce latency at several stages:</p>
+
+                    <figure class="blog-figure">
+                        <img src="images/blog-latency-network.jpg" alt="Data center network infrastructure illustrating the complexity of wireless signal transmission and latency" loading="lazy">
+                        <figcaption>Wireless display latency is influenced by multiple pipeline stages — from capture to rendering.</figcaption>
+                    </figure>
+
+                    <div class="pipeline-flow">
+                        <span class="pipeline-step">Video Capture</span>
+                        <span class="pipeline-arrow">→</span>
+                        <span class="pipeline-step">Video Encoding</span>
+                        <span class="pipeline-arrow">→</span>
+                        <span class="pipeline-step">Wireless Transmission</span>
+                        <span class="pipeline-arrow">→</span>
+                        <span class="pipeline-step">Video Decoding</span>
+                        <span class="pipeline-arrow">→</span>
+                        <span class="pipeline-step">Display Rendering</span>
+                    </div>
+
+                    <p>The size of each stage's processing buffer has a direct impact on the final latency experienced by the user.</p>
+
+                    <!-- Section Divider -->
+                    <hr class="section-divider">
+
+                    <h2>Latency Comparison Across Technologies</h2>
+
+                    <table class="blog-table">
+                        <thead>
+                            <tr>
+                                <th>Technology</th>
+                                <th>Typical Latency</th>
+                                <th>Network Dependency</th>
+                                <th>Primary Use Case</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Miracast</td>
+                                <td>150–250 ms</td>
+                                <td>Wi-Fi Direct</td>
+                                <td>Screen mirroring</td>
+                            </tr>
+                            <tr>
+                                <td>Chromecast / Casting</td>
+                                <td>180–300 ms</td>
+                                <td>Internet streaming</td>
+                                <td>Media playback</td>
+                            </tr>
+                            <tr class="highlight-row">
+                                <td><strong>Wireless HDMI</strong></td>
+                                <td><strong>40–80 ms</strong></td>
+                                <td>Dedicated wireless link</td>
+                                <td>Presentations</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <p>These values illustrate why wireless HDMI is widely used in professional environments where responsiveness is critical.</p>
+
+                    <!-- Section Divider -->
+                    <hr class="section-divider">
+
+                    <h2>Why Wireless HDMI Achieves Lower Latency</h2>
+
+                    <p>Wireless HDMI systems reduce latency by optimizing several elements of the pipeline.</p>
+
+                    <h3>Dedicated Wireless Link</h3>
+                    <p>Unlike Miracast or Chromecast, wireless HDMI systems often operate on a <strong>private wireless channel</strong>, eliminating interference from other network traffic.</p>
+
+                    <h3>Encoder Optimization</h3>
+                    <p>Video compression parameters are tuned specifically for <strong>low-latency streaming</strong>, minimizing frame buffering.</p>
+
+                    <h3>Simplified Software Stack</h3>
+                    <p>Because the system performs only mirroring rather than full media playback, the firmware pipeline is simpler and more deterministic.</p>
+
+                    <!-- Section Divider -->
+                    <hr class="section-divider">
+
+                    <h2>The Relationship Between Processing Power and Latency</h2>
+
+                    <figure class="blog-figure">
+                        <img src="images/blog-performance-chart.jpg" alt="Performance analytics dashboard showing metrics and data visualization" loading="lazy">
+                        <figcaption>Raw CPU benchmarks tell only part of the story — video pipeline efficiency is the real determinant of wireless display latency.</figcaption>
+                    </figure>
+
+                    <p>Although faster processors provide more headroom for system tasks, the most important factors influencing latency are:</p>
+
+                    <ul class="list-style">
+                        <li>Hardware video encoder efficiency</li>
+                        <li>Memory bandwidth</li>
+                        <li>Wireless transmission stability</li>
+                        <li>Buffering strategy</li>
+                    </ul>
+
+                    <div class="callout-box">
+                        <p>A lower-power processor with an optimized hardware encoder can often <strong>outperform a more powerful processor</strong> relying on inefficient pipelines.</p>
+                    </div>
+
+                    <!-- Section Divider -->
+                    <hr class="section-divider">
+
+                    <h2>Performance vs Latency Tradeoffs</h2>
+
+                    <p>Wireless HDMI system design is largely a balance between compute capability and video pipeline efficiency.</p>
+
+                    <table class="blog-table">
+                        <thead>
+                            <tr>
+                                <th>Design Priority</th>
+                                <th>Hardware Choice</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Lowest cost</td>
+                                <td>Camera-oriented processors</td>
+                            </tr>
+                            <tr>
+                                <td>Balanced performance</td>
+                                <td>Cortex-A53 multimedia SoCs</td>
+                            </tr>
+                            <tr class="highlight-row">
+                                <td>Future-ready platforms</td>
+                                <td>Cortex-A55 multimedia SoCs</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <p>Selecting the right platform depends on the system goals:</p>
+
+                    <ul class="list-style">
+                        <li>Power consumption</li>
+                        <li>Firmware complexity</li>
+                        <li>Video resolution targets</li>
+                        <li>Wireless throughput</li>
+                    </ul>
+
+                    <!-- Section Divider -->
+                    <hr class="section-divider">
+
+                    <h2>Practical Takeaway</h2>
+
+                    <p>CPU benchmarks provide a useful baseline for comparing embedded processors, but the real-world performance of wireless HDMI systems depends far more on <strong>video pipeline design and RF stability</strong>.</p>
+
+                    <p>An optimized system architecture can deliver a smooth wireless display experience even with modest CPU performance.</p>
+
+                    <blockquote>For engineers and product designers building wireless HDMI systems, the key is not simply selecting the most powerful processor, but designing a balanced pipeline where <strong>video encoding, memory bandwidth, and wireless transmission work together efficiently</strong>.</blockquote>
+
+                    <p><em>Have questions about wireless display performance? Reach out on <a href="https://www.linkedin.com/in/manojitballav/">LinkedIn</a> or <a href="https://x.com/manojitballav">X/Twitter</a>.</em></p>
+
+                    <!-- Image Credits -->
+                    <hr class="section-divider">
+                    <div class="image-credits">
+                        <h4>Image Credits</h4>
+                        <p>All images used in this article are sourced from <a href="https://unsplash.com" target="_blank" rel="noopener">Unsplash</a> under the <a href="https://unsplash.com/license" target="_blank" rel="noopener">Unsplash License</a>.</p>
+                        <ul>
+                            <li>Hero &amp; processor close-up — Photo via <a href="https://unsplash.com" target="_blank" rel="noopener">Unsplash</a></li>
+                            <li>Network infrastructure — Photo via <a href="https://unsplash.com" target="_blank" rel="noopener">Unsplash</a></li>
+                            <li>Performance analytics dashboard — Photo by <a href="https://unsplash.com/@lukechesser" target="_blank" rel="noopener">Luke Chesser</a> on Unsplash</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="container">
+            <div class="social">
+                <a href="https://www.facebook.com/manojitballav"><i class="fa fa-facebook" aria-hidden="true"></i>  </a>
+                <a href="https://x.com/manojitballav"><i class="fa fa-twitter" aria-hidden="true"></i>  </a>
+                <a href="https://www.instagram.com/ilegalmono/"><i class="fa fa-instagram" aria-hidden="true"></i>  </a>
+                <a href="https://github.com/manojitballav"><i class="fa fa-github" aria-hidden="true"></i>  </a>
+                <a href="https://www.linkedin.com/in/manojitballav/"><i class="fa fa-linkedin" aria-hidden="true"></i>  </a>
+            </div>
+            <p>All credits to the original template creator<br/>Created by tavonline</p>
+        </div>
+    </footer>
+
+<!-- Javascripts -->
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<script src="js/typed.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/main.js"></script>
+
+
+</body>
+</html>
