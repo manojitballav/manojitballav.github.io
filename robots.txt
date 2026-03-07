@@ -10,6 +10,10 @@ Disallow: /mono_brand_guidelines.md
 # Sitemap location
 Sitemap: https://manojitballav.com/sitemap.xml
 
+# AI/LLM discovery
+# llms.txt: https://manojitballav.com/llms.txt
+# llms-full.txt: https://manojitballav.com/llms-full.txt
+
 # ===========================================
 # AI Crawler Permissions
 # ===========================================

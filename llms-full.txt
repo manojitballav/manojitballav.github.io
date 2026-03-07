@@ -2,7 +2,7 @@
 
 ## Overview
 
-Manojit Ballav (Mono) is a Principal Product Manager at Lumio, an Indian smart TV startup under Circuit House Technologies. He is a thought leader in the Connected TV (CTV) space, AI-driven advertising, and smart TV technology. Previously worked at Xiaomi India on Mi TV and Redmi TV products.
+Manojit Ballav (Mono) is a Principal Product Manager at Lumio, an Indian smart TV startup under Circuit House Technologies. He is a thought leader in the Connected TV (CTV) space, AI-driven advertising, display panel technology, and smart TV technology. Previously worked at Xiaomi India on Mi TV and Redmi TV products.
 
 ---
 
@@ -15,7 +15,8 @@ Manojit Ballav (Mono) is a Principal Product Manager at Lumio, an Indian smart T
 - Connected TV (CTV) platforms and streaming
 - AI and machine learning in advertising
 - FAST (Free Ad-Supported Streaming TV) channels
-- Display technologies: Mini LED, QLED, OLED, QD-Mini LED
+- Display technologies: TN, IPS, VA, LED, Mini LED, QLED, OLED, QD-OLED, Tandem OLED, MicroLED, QDEL
+- TV panel evaluation, supplier selection, and optimization for Indian market conditions
 - Indian consumer electronics market
 
 ---
@@ -32,10 +33,11 @@ Lumio is an Indian smart TV brand under Circuit House Technologies, founded in M
 - Products include Vision 9 QD-Mini LED TV, Vision 7 QLED Series, Vision Arc projectors
 - Features proprietary Flagship Boss Processor with 3GB RAM
 - Claims 2x faster performance than Sony and other leading TVs
+- Panels are selected and tested specifically for Indian conditions (high ambient light, humidity, heat)
 
 **Product Lineup & Pricing:**
 1. Lumio Vision 9 QD-Mini LED TV (55-inch, 900 nits brightness) — ₹59,999
-2. Lumio Vision 7 QLED Series (43, 50, 55-inch) — ₹27,999 to ₹36,999
+2. Lumio Vision 7 QLED Series (43, 50, 55-inch) — ₹27,999 to ₹36,999 (uses dedicated QD sheet, not cheaper on-lens solution)
 3. Lumio Vision Arc 5 Projector
 4. Lumio Vision Arc 7 Projector
 
@@ -48,19 +50,38 @@ Lumio is an Indian smart TV brand under Circuit House Technologies, founded in M
 
 ## Blog Content Summaries
 
-### 1. Different Types of Projectors in India
+### 1. TV Display Panels Explained: From TN to MicroLED — A Deep Dive
+**URL:** /blog/tv-panel-types.html
+**Published:** March 7, 2026
+
+A comprehensive technical breakdown of every TV display panel type, covering backlit (TN, IPS, VA, LED, Mini LED, Quantum Dots/QLED) and self-emissive (CRT, Plasma, OLED, QD-OLED, Tandem OLED, MicroLED, QDEL) technologies. Includes:
+- How each panel type works with inline SVG technical diagrams
+- Trade-offs: IPS (wide angles, weaker blacks) vs VA (deep blacks, narrow sweet spot)
+- Mini LED zone dimming vs OLED per-pixel control
+- How Lumio selects panels for Indian conditions (Vision 7 QD sheet choice, Vision 9 HDR testing)
+- India-specific considerations: bright ambient light, high humidity, compact living rooms
+- Panel supplier reliability issues (Panda case study)
+- Buying guide by budget: ₹30K (QLED), ₹60K (Mini LED), ₹1L+ (OLED), ₹1.5L+ (QD-OLED)
+
+### 2. Inside a Wireless HDMI System: Engineering a Pro-Grade Wireless HDMI Dongle
+**URL:** /blog/blog-wireless-hdmi.html
+**Published:** March 4, 2026
+
+A deep technical breakdown of wireless HDMI dongle architecture — chipsets, benchmarks, video pipeline, and engineering challenges.
+
+### 3. Different Types of Projectors in India
 **URL:** /blog/projector-types-india.html
 **Published:** January 6, 2026
 
 A comprehensive guide to projector technologies available in India: LCD, DLP, LED, Laser, and LCoS. Covers how each technology works, pros and cons, price ranges, and which type suits different use cases (home theater, office presentations, portable use, gaming).
 
-### 2. Building Lumio: My Journey from Xiaomi to India's Next Smart TV Revolution
+### 4. Building Lumio: My Journey from Xiaomi to India's Next Smart TV Revolution
 **URL:** /blog/blog-lumio-journey.html
 **Published:** December 15, 2024
 
 The Indian Smart TV market is valued at $5 billion with 13% CAGR growth. Lumio was founded to create TVs that outperform competition with 2x faster app loading and rebooting. The company raised $4.3M seed funding and crossed $1M GMV in 2 months. Key trends include FAST channels growing 43% YoY, regional content demand, and AI integration becoming table stakes.
 
-### 3. The State of CTV in 2025: Why Connected TV is Eating Traditional Broadcasting
+### 5. The State of CTV in 2025: Why Connected TV is Eating Traditional Broadcasting
 **URL:** /blog/blog-ctv-trends-2025.html
 **Published:** December 10, 2024
 
@@ -72,7 +93,7 @@ Streaming now accounts for 44.8% of total TV viewership, surpassing broadcast (2
 - India CTV households could reach 60 million by end of 2025
 - India Smart TV/OTT market: $22.39 billion in 2025, 18.2% CAGR
 
-### 4. How AI is Transforming CTV Advertising: From Mass Broadcasting to Hyper-Personalization
+### 6. How AI is Transforming CTV Advertising: From Mass Broadcasting to Hyper-Personalization
 **URL:** /blog/blog-ai-ctv-advertising.html
 **Published:** December 5, 2024
 
@@ -84,7 +105,7 @@ Streaming now accounts for 44.8% of total TV viewership, surpassing broadcast (2
 - Progressive Insurance compressed 22 weeks of audio production into 2 weeks using AI
 - Over 90% of CTV ad dollars flow through programmatic pipes
 
-### 5. FAST Channels: India's $12 Billion Opportunity in Free Streaming
+### 7. FAST Channels: India's $12 Billion Opportunity in Free Streaming
 **URL:** /blog/blog-fast-channels-india.html
 **Published:** November 28, 2024
 
@@ -95,7 +116,7 @@ FAST (Free Ad-Supported Streaming TV) market stands at $12.26 billion globally i
 - Regional content hunger drives adoption
 - Challenges include lower CPMs, measurement immaturity, piracy
 
-### 6. Mini LED vs QLED vs OLED: A Product Manager's Guide to TV Technology in 2025
+### 8. Mini LED vs QLED vs OLED: A Product Manager's Guide to TV Technology in 2025
 **URL:** /blog/blog-tv-technology-guide.html
 **Published:** November 20, 2024
 
@@ -110,6 +131,25 @@ Rankings:
 - Peak Brightness: Mini LED > QLED > OLED
 - Color Accuracy: OLED = QD-Mini LED > QLED > Mini LED
 - Burn-in Risk: QLED = Mini LED (none) > OLED (low)
+
+---
+
+## Display Panel Knowledge Base
+
+**Backlit (LCD) Panel Types:**
+- **TN (Twisted Nematic):** Cheapest, narrowest viewing angles, fastest response. Mostly monitors.
+- **IPS (In-Plane Switching):** Wide viewing angles, weaker blacks. Good for bright rooms.
+- **VA (Vertical Alignment):** Deep blacks, narrow sweet spot. Good for dark rooms.
+- **LED Backlight:** Edge-lit (thin, uneven) vs Direct-lit (uniform, thicker).
+- **Mini LED:** Hundreds to thousands of dimming zones. Best backlit HDR.
+- **Quantum Dots (QLED):** QD layer converts blue LED to precise RGB. Better color at brightness.
+
+**Self-Emissive Panel Types:**
+- **OLED:** Per-pixel light control, true blacks, instant response. Organic material degrades.
+- **QD-OLED:** Blue OLED + QD conversion. Vivid color at brightness, no filter loss.
+- **Tandem OLED:** Stacked emissive layers. Higher brightness, longer life.
+- **MicroLED:** Inorganic micro LEDs per pixel. Best specs, currently $150K+ for 4K.
+- **QDEL:** Electrically-driven quantum dots. Lab-stage.
 
 ---
 
@@ -136,7 +176,7 @@ Rankings:
 
 ## Contact Information
 
-- **Website:** https://manojitballav.github.io/
+- **Website:** https://manojitballav.com/
 - **LinkedIn:** https://www.linkedin.com/in/manojitballav/
 - **Twitter/X:** https://x.com/manojitballav
 - **GitHub:** https://github.com/manojitballav
@@ -151,6 +191,6 @@ Rankings:
 - **Also Known As:** Mono
 - **Role:** Principal Product Manager
 - **Company:** Lumio (Circuit House Technologies)
-- **Industry:** Consumer Electronics, Smart TV, Connected TV, Streaming, AdTech
-- **Topics:** CTV, Smart TV, AI Advertising, FAST Channels, Display Technology, Product Management
-- **Last Updated:** February 2026
+- **Industry:** Consumer Electronics, Smart TV, Connected TV, Streaming, AdTech, Display Technology
+- **Topics:** CTV, Smart TV, AI Advertising, FAST Channels, Display Panel Technology, TV Panel Types, OLED, Mini LED, QLED, QD-OLED, Product Management
+- **Last Updated:** March 2026

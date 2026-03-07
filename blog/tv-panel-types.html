@@ -1,0 +1,1073 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <script>(function(){var t=localStorage.getItem('theme')||(window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t)})()</script>
+    <title>TV Display Panels Explained: From TN to MicroLED — A Deep Dive | Manojit Ballav</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="A deep technical breakdown of every TV display panel type — TN, IPS, VA, LED, Mini LED, QLED, OLED, QD-OLED, Tandem OLED, MicroLED, and QDEL. Written by a Lumio and ex-Xiaomi product leader who has shipped TVs in India.">
+    <meta name="keywords" content="TV panel types explained, IPS vs VA, OLED vs QLED, Mini LED vs OLED, QD-OLED, tandem OLED, MicroLED TV, display technology, TV buying guide India, backlit vs self-emissive, LCD panel types, quantum dot TV, Lumio TV, Lumio Vision 9, Lumio Vision 7, Lumio Vision Arc, Lumio smart TV, best smart TV India, Lumio TV panel, QLED TV India">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Manojit Ballav">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://manojitballav.com/blog/tv-panel-types.html">
+    <link rel="icon" href="../images/favicon.ico" sizes="48x48">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
+    <link rel="manifest" href="../site.webmanifest">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://manojitballav.com/blog/tv-panel-types.html" />
+    <meta property="og:title" content="TV Display Panels Explained: From TN to MicroLED — A Deep Dive" />
+    <meta property="og:description" content="A deep technical breakdown of every TV display panel type. Written by a Lumio and ex-Xiaomi product leader who has shipped TVs in India." />
+    <meta property="og:image" content="https://manojitballav.com/images/blog-tv-panels.webp" />
+    <meta property="og:site_name" content="Manojit Ballav" />
+    <meta property="article:published_time" content="2026-03-07T00:00:00+05:30" />
+    <meta property="article:modified_time" content="2026-03-07T00:00:00+05:30" />
+    <meta property="article:author" content="https://www.linkedin.com/in/manojitballav/" />
+    <meta property="article:section" content="Technology" />
+    <meta property="article:tag" content="Display Technology" />
+    <meta property="article:tag" content="TV Panels" />
+    <meta property="article:tag" content="OLED" />
+    <meta property="article:tag" content="Mini LED" />
+    <meta property="article:tag" content="QLED" />
+    <meta property="article:tag" content="IPS vs VA" />
+    <meta property="article:tag" content="MicroLED" />
+    <meta property="article:tag" content="QD-OLED" />
+    <meta property="article:tag" content="TV Buying Guide India" />
+    <meta property="og:locale" content="en_IN" />
+    <meta property="og:image:alt" content="TV Display Panel Types Explained — TN, IPS, VA, OLED, Mini LED, QD-OLED, MicroLED comparison diagram" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@manojitballav" />
+    <meta name="twitter:creator" content="@manojitballav" />
+    <meta name="twitter:url" content="https://manojitballav.com/blog/tv-panel-types.html" />
+    <meta name="twitter:title" content="TV Display Panels Explained: From TN to MicroLED — A Deep Dive" />
+    <meta name="twitter:description" content="A deep technical breakdown of every TV display panel type. Written by a Lumio and ex-Xiaomi product leader who has shipped TVs in India." />
+    <meta name="twitter:image" content="https://manojitballav.com/images/blog-tv-panels.webp" />
+    <meta name="twitter:image:alt" content="TV Display Panel Types Explained — TN, IPS, VA, OLED, Mini LED, QD-OLED, MicroLED comparison diagram" />
+
+    <!-- Schema.org JSON-LD: Article -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "TV Display Panels Explained: From TN to MicroLED — A Deep Dive",
+  "description": "A deep technical breakdown of every TV display panel type — TN, IPS, VA, LED, Mini LED, QLED, OLED, QD-OLED, Tandem OLED, MicroLED, and QDEL. Written by a product leader who has shipped TVs across Xiaomi and Lumio.",
+  "image": "https://manojitballav.com/images/blog-tv-panels.webp",
+  "datePublished": "2026-03-07",
+  "dateModified": "2026-03-07",
+  "url": "https://manojitballav.com/blog/tv-panel-types.html",
+  "inLanguage": "en",
+  "keywords": ["TV panel types", "IPS vs VA", "OLED vs QLED", "Mini LED", "QD-OLED", "MicroLED", "display technology", "TV buying guide India", "Lumio TV", "Lumio Vision 9", "Lumio Vision 7"],
+  "mentions": [
+    {
+      "@type": "Brand",
+      "name": "Lumio",
+      "url": "https://lumio.in/"
+    },
+    {
+      "@type": "Product",
+      "name": "Lumio Vision 9",
+      "brand": { "@type": "Brand", "name": "Lumio" }
+    },
+    {
+      "@type": "Product",
+      "name": "Lumio Vision 7",
+      "brand": { "@type": "Brand", "name": "Lumio" }
+    },
+    {
+      "@type": "Product",
+      "name": "Lumio Vision Arc",
+      "brand": { "@type": "Brand", "name": "Lumio" }
+    }
+  ],
+  "author": {
+    "@type": "Person",
+    "@id": "https://www.google.com/search?kgmid=/g/11f_jdjrm5",
+    "name": "Manojit Ballav",
+    "url": "https://manojitballav.com/",
+    "jobTitle": "Product Leader",
+    "sameAs": [
+      "https://www.linkedin.com/in/manojitballav/",
+      "https://x.com/manojitballav",
+      "https://github.com/manojitballav"
+    ]
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://www.google.com/search?kgmid=/g/11f_jdjrm5",
+    "name": "Manojit Ballav"
+  },
+  "mainEntityOfPage": "https://manojitballav.com/blog/tv-panel-types.html",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [".article-header__title", ".article-body > p:first-of-type"]
+  }
+}
+    </script>
+
+    <!-- Schema.org JSON-LD: BreadcrumbList -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://manojitballav.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://manojitballav.com/blog/blog-page.html" },
+    { "@type": "ListItem", "position": 3, "name": "TV Display Panels Explained", "item": "https://manojitballav.com/blog/tv-panel-types.html" }
+  ]
+}
+    </script>
+
+    <!-- Schema.org JSON-LD: FAQPage -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between IPS and VA TV panels?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "IPS panels rotate crystals horizontally, giving wide viewing angles but weaker contrast — blacks appear grayish. VA panels align crystals vertically to block more backlight, delivering deeper blacks and better contrast, but color and contrast fade when viewed off-center. IPS is better for bright rooms with wide seating; VA is better for dark rooms with a central viewing position."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is OLED better than Mini LED for TVs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "OLED offers per-pixel contrast with true blacks, instant pixel response, and superior motion handling. Mini LED offers higher sustained brightness, better performance in bright rooms, and no risk of burn-in. For dark room viewing and movie enthusiasts, OLED is better. For bright Indian living rooms with mixed content and long viewing hours, Mini LED is often the more practical choice."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is QD-OLED and how is it different from regular OLED?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "QD-OLED uses blue OLED emitters combined with quantum dots to produce red and green light. Unlike standard OLED which filters white light (losing brightness in the process), QD-OLED converts light directly, so colors stay vivid even at high brightness. The trade-off is increased sensitivity to ambient light — blacks can lift slightly in bright rooms."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is Tandem OLED?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tandem OLED stacks multiple emissive layers on top of each other instead of using a single layer. This shares the workload between stacks, allowing higher sustained brightness, gentler dimming curves, and reduced wear on each layer — extending panel lifespan. The newest designs use dedicated red and green emitters with reinforced blue emitters."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is MicroLED so expensive?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A 4K MicroLED display requires transferring nearly 25 million microscopic LEDs onto a substrate with sub-micron precision. Even a 99.99% yield rate leaves thousands of dead pixels requiring individual repair. Current production yields sit around 65% for 4K panels. Additionally, as LED chips shrink below 50 micrometers, efficiency drops due to sidewall defects. A 136-inch MicroLED TV currently costs upwards of $150,000."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which TV panel type is best for Indian living rooms?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For most Indian living rooms — which tend to have high ambient light, wide windows, and long viewing hours — Mini LED with QLED offers the best balance of brightness, color accuracy, and durability. At around ₹60,000, a good QLED or entry Mini LED hits the sweet spot. OLED is excellent but works best in controlled lighting conditions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between QLED and OLED TVs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "QLED is an LCD TV with a quantum dot layer that improves color accuracy and saturation — it still uses a backlight. OLED is a completely different technology where each pixel produces its own light, enabling true blacks and per-pixel contrast control. QLED is brighter and cheaper; OLED has better contrast and motion but costs more and is less bright in large bright areas."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What panel does Lumio TV use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Lumio TVs use carefully selected panels optimized for Indian conditions. The Lumio Vision 7 uses a QLED panel with a dedicated quantum dot sheet (not the cheaper on-lens solution) for superior color gamut coverage. Panel selection at Lumio is driven by real-world testing in Indian lighting and humidity conditions, not just spec sheet comparisons."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Lumio TV good? What makes Lumio different from other TV brands?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Lumio is built by former Xiaomi product leaders who have shipped millions of TVs in India. What sets Lumio apart is the focus on Indian-specific optimization — panels are selected and tuned for India's bright ambient lighting, high humidity, and compact living room layouts. Lumio evaluates panels from every major supplier and rejects those that don't hold up under Indian conditions, something many brands importing global SKUs don't do."
+      }
+    }
+  ]
+}
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Google+Sans+Text:wght@400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../css/google-style.css">
+    <style>
+        .panel-diagram { margin: 2rem auto; text-align: center; }
+        .panel-diagram svg { max-width: 520px; width: 100%; height: auto; display: block; margin: 0 auto; }
+        .panel-diagram figcaption { font-size: 0.85rem; color: var(--text-secondary, #666); margin-top: 0.5rem; font-style: italic; }
+    </style>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-61ZX5F590H"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-61ZX5F590H');
+    </script>
+</head>
+<body>
+
+    <header class="header" id="header">
+        <div class="header__inner">
+            <a href="../" class="header__logo"><img src="../images/logo.png" alt="Mono" class="header__logo-img"></a>
+            <nav class="header__nav" id="nav">
+                <a href="../index.html#home">Home</a>
+                <a href="../index.html#about">About</a>
+                <a href="../index.html#portfolio">Portfolio</a>
+                <a href="blog-page.html" class="active">Blog</a>
+                <a href="../index.html#contact">Contact</a>
+                <button class="theme-toggle--mobile" id="themeToggleMobile" aria-label="Toggle dark mode">
+                    <i class="fa-solid fa-moon"></i><i class="fa-solid fa-sun"></i>
+                    <span class="theme-toggle--mobile__label">Dark Mode</span>
+                </button>
+            </nav>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                <i class="fa-solid fa-moon"></i><i class="fa-solid fa-sun"></i>
+            </button>
+            <button class="header__menu-btn" id="menuBtn" aria-label="Toggle menu">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <div class="article-hero"><img src="../images/blog-tv-panels.webp" alt="TV Display Panel Types Explained"></div>
+
+<section class="section">
+    <div class="container" style="max-width: 800px;">
+        <div class="article-header">
+            <div class="article-header__category">Technology</div>
+            <h1 class="article-header__title">TV Display Panels Explained: From TN to MicroLED</h1>
+            <div class="article-header__meta">7 March 2026 &bull; Manojit Ballav (Mono)</div>
+        </div>
+        <!-- Breadcrumb -->
+        <nav aria-label="Breadcrumb" style="font-size:0.85rem;margin-bottom:1.5rem;color:var(--text-secondary,#666);">
+            <a href="../index.html" style="color:var(--text-secondary,#666);text-decoration:none;">Home</a> &rsaquo;
+            <a href="blog-page.html" style="color:var(--text-secondary,#666);text-decoration:none;">Blog</a> &rsaquo;
+            <span>TV Display Panels Explained</span>
+        </nav>
+
+        <div class="article-body">
+
+                    <!-- Table of Contents -->
+                    <div class="callout-box" style="margin-bottom:2rem;">
+                        <strong>Table of Contents</strong>
+                        <ol style="margin:0.75rem 0 0;padding-left:1.2rem;line-height:1.9;">
+                            <li><a href="#backlit-displays">Part 1: Backlit Displays</a>
+                                <ul style="padding-left:1rem;list-style:disc;margin:0.25rem 0;">
+                                    <li><a href="#tn">TN (Twisted Nematic)</a></li>
+                                    <li><a href="#ips">IPS (In-Plane Switching)</a></li>
+                                    <li><a href="#va">VA (Vertical Alignment)</a></li>
+                                    <li><a href="#led-backlight">LED Backlight</a></li>
+                                    <li><a href="#mini-led">Mini LED</a></li>
+                                    <li><a href="#quantum-dots">Quantum Dots</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#self-emissive">Part 2: Self-Emissive Displays</a>
+                                <ul style="padding-left:1rem;list-style:disc;margin:0.25rem 0;">
+                                    <li><a href="#crt-plasma">CRT and Plasma</a></li>
+                                    <li><a href="#oled">OLED</a></li>
+                                    <li><a href="#qd-oled">QD-OLED</a></li>
+                                    <li><a href="#tandem-oled">Tandem OLED</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#future">Part 3: The Future</a>
+                                <ul style="padding-left:1rem;list-style:disc;margin:0.25rem 0;">
+                                    <li><a href="#microled">MicroLED</a></li>
+                                    <li><a href="#qdel">QDEL</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#india-factor">The India Factor</a></li>
+                            <li><a href="#panel-suppliers">A Word on Panel Suppliers</a></li>
+                            <li><a href="#how-lumio-picks-panels">How We Pick Panels at Lumio</a></li>
+                            <li><a href="#what-to-buy">So What Should You Actually Buy?</a></li>
+                        </ol>
+                    </div>
+
+                    <p>Every modern TV works in one of two ways. Either there's a light behind the panel that gets shaped into an image, or each pixel makes its own light. That's it. Backlit or self-emissive. Everything else — every marketing term, every acronym, every "next-gen" label — is a variation on one of those two ideas.</p>
+
+                    <p>Having shipped TVs across Xiaomi and Lumio, I've evaluated panels from nearly every major supplier, sat through countless panel vendor pitches, and watched spec sheets fall apart under real-world testing. This is the guide I wish existed when I started — no marketing fluff, just how these technologies actually work and where they fall short.</p>
+
+                    <blockquote>
+                        "The best display technology is the one that disappears. When you stop thinking about the panel and start watching the content, the TV has done its job."
+                    </blockquote>
+
+                    <hr class="section-divider">
+
+                    <h2 id="backlit-displays">Part 1: Backlit Displays — Making Light Behave</h2>
+
+                    <p>A backlit display has a light source behind the screen that illuminates the entire panel. The pixels in front don't create light — they act like shutters. They form the image by blocking light instead of producing it.</p>
+
+                    <p>LCD panels do this by twisting liquid crystals to control how much light passes through. Twist them one way, light gets through. Twist them the other way, it's blocked. Think of it like blinds on a window. No matter how tightly you close them, some light always leaks through.</p>
+
+                    <p>That leakage is the core limitation every backlit screen has to work around. Every technology in this section is essentially trying to solve the same problem: how do you make a backlight behave like it isn't there?</p>
+
+                    <hr class="section-divider">
+
+                    <h3 id="tn">TN (Twisted Nematic) — Where It All Started</h3>
+
+                    <p>The earliest LCD technology. TN panels were cheap to make and easy to scale. If you sat directly in front of one at a desk, it was usable — as long as you could live with washed-out colors and weak contrast. Move your head even slightly, and the image started to fall apart. From the wrong angle, colors could actually invert.</p>
+
+                    <p>That instability wasn't a big issue for desktop monitors where people sit in one position. But in a living room, it was a deal-breaker. TN did show up in some early TVs, but as screens got larger, those narrow viewing angles became impossible to ignore. It mostly stayed in monitors, and for good reason.</p>
+
+                    <figure class="panel-diagram">
+                        <svg viewBox="0 0 520 200" xmlns="http://www.w3.org/2000/svg">
+                            <text x="260" y="16" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor">TN Panel — Twisted Nematic</text>
+                            <!-- Backlight -->
+                            <rect x="60" y="170" width="400" height="20" rx="2" fill="#FFD700" fill-opacity="0.15" stroke="#DAA520" stroke-width="1.2"/>
+                            <text x="260" y="184" text-anchor="middle" font-size="10" fill="#DAA520">Backlight</text>
+                            <!-- Bottom polarizer -->
+                            <rect x="60" y="148" width="400" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="1.2"/>
+                            <line x1="70" y1="153" x2="130" y2="153" stroke="currentColor" stroke-width="0.8"/><line x1="140" y1="153" x2="200" y2="153" stroke="currentColor" stroke-width="0.8"/><line x1="210" y1="153" x2="270" y2="153" stroke="currentColor" stroke-width="0.8"/><line x1="280" y1="153" x2="340" y2="153" stroke="currentColor" stroke-width="0.8"/><line x1="350" y1="153" x2="410" y2="153" stroke="currentColor" stroke-width="0.8"/>
+                            <!-- LC layer -->
+                            <rect x="60" y="70" width="400" height="74" rx="2" fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="4,3"/>
+                            <text x="50" y="110" text-anchor="end" font-size="9" fill="currentColor">LC Layer</text>
+                            <!-- Twisted crystals -->
+                            <line x1="120" y1="78" x2="120" y2="138" stroke="#3498DB" stroke-width="1.5" transform="rotate(-30,120,108)"/>
+                            <line x1="180" y1="78" x2="180" y2="138" stroke="#3498DB" stroke-width="1.5" transform="rotate(-15,180,108)"/>
+                            <line x1="240" y1="78" x2="240" y2="138" stroke="#3498DB" stroke-width="1.5" transform="rotate(0,240,108)"/>
+                            <line x1="300" y1="78" x2="300" y2="138" stroke="#3498DB" stroke-width="1.5" transform="rotate(15,300,108)"/>
+                            <line x1="360" y1="78" x2="360" y2="138" stroke="#3498DB" stroke-width="1.5" transform="rotate(30,360,108)"/>
+                            <text x="260" y="115" text-anchor="middle" font-size="9" fill="#3498DB">Crystals twist vertically</text>
+                            <!-- Top polarizer -->
+                            <rect x="60" y="48" width="400" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="1.2"/>
+                            <line x1="70" y1="53" x2="70" y2="53" stroke="currentColor" stroke-width="0.8"/><line x1="80" y1="50" x2="80" y2="56" stroke="currentColor" stroke-width="0.8"/><line x1="100" y1="50" x2="100" y2="56" stroke="currentColor" stroke-width="0.8"/><line x1="120" y1="50" x2="120" y2="56" stroke="currentColor" stroke-width="0.8"/><line x1="140" y1="50" x2="140" y2="56" stroke="currentColor" stroke-width="0.8"/><line x1="160" y1="50" x2="160" y2="56" stroke="currentColor" stroke-width="0.8"/><line x1="180" y1="50" x2="180" y2="56" stroke="currentColor" stroke-width="0.8"/><line x1="200" y1="50" x2="200" y2="56" stroke="currentColor" stroke-width="0.8"/><line x1="220" y1="50" x2="220" y2="56" stroke="currentColor" stroke-width="0.8"/><line x1="240" y1="50" x2="240" y2="56" stroke="currentColor" stroke-width="0.8"/><line x1="260" y1="50" x2="260" y2="56" stroke="currentColor" stroke-width="0.8"/><line x1="280" y1="50" x2="280" y2="56" stroke="currentColor" stroke-width="0.8"/><line x1="300" y1="50" x2="300" y2="56" stroke="currentColor" stroke-width="0.8"/><line x1="320" y1="50" x2="320" y2="56" stroke="currentColor" stroke-width="0.8"/><line x1="340" y1="50" x2="340" y2="56" stroke="currentColor" stroke-width="0.8"/><line x1="360" y1="50" x2="360" y2="56" stroke="currentColor" stroke-width="0.8"/><line x1="380" y1="50" x2="380" y2="56" stroke="currentColor" stroke-width="0.8"/><line x1="400" y1="50" x2="400" y2="56" stroke="currentColor" stroke-width="0.8"/><line x1="420" y1="50" x2="420" y2="56" stroke="currentColor" stroke-width="0.8"/><line x1="440" y1="50" x2="440" y2="56" stroke="currentColor" stroke-width="0.8"/>
+                            <!-- Narrow viewing cone -->
+                            <line x1="240" y1="48" x2="250" y2="28" stroke="#E74C3C" stroke-width="1.5"/>
+                            <line x1="280" y1="48" x2="270" y2="28" stroke="#E74C3C" stroke-width="1.5"/>
+                            <line x1="250" y1="28" x2="270" y2="28" stroke="#E74C3C" stroke-width="1.5"/>
+                            <text x="260" y="38" text-anchor="middle" font-size="9" fill="#E74C3C">Narrow</text>
+                        </svg>
+                        <figcaption>TN crystals twist between polarizers, producing a narrow usable viewing cone</figcaption>
+                    </figure>
+
+                    <hr class="section-divider">
+
+                    <h3 id="ips">IPS (In-Plane Switching) — Stability Over Depth</h3>
+
+                    <p>IPS fixed the viewing angle problem by rotating the crystals across the plane of the screen instead of twisting them up and down. Someone sitting to the side sees almost the same image as someone sitting directly in front. This works well in bright rooms and wider seating layouts.</p>
+
+                    <p>The trade-off? Contrast. IPS can't block light as tightly, so blacks turn gray and dark scenes lose depth. Don't expect much in a dark room.</p>
+
+                    <figure class="panel-diagram">
+                        <svg viewBox="0 0 520 200" xmlns="http://www.w3.org/2000/svg">
+                            <text x="260" y="16" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor">IPS Panel — In-Plane Switching</text>
+                            <!-- Backlight -->
+                            <rect x="60" y="170" width="400" height="20" rx="2" fill="#FFD700" fill-opacity="0.15" stroke="#DAA520" stroke-width="1.2"/>
+                            <text x="260" y="184" text-anchor="middle" font-size="10" fill="#DAA520">Backlight</text>
+                            <!-- Bottom polarizer -->
+                            <rect x="60" y="148" width="400" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="1.2"/>
+                            <!-- LC layer -->
+                            <rect x="60" y="70" width="400" height="74" rx="2" fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="4,3"/>
+                            <!-- Flat crystals rotating in-plane (horizontal lines with slight rotation) -->
+                            <line x1="100" y1="107" x2="140" y2="107" stroke="#3498DB" stroke-width="2" transform="rotate(-10,120,107)"/>
+                            <line x1="160" y1="107" x2="200" y2="107" stroke="#3498DB" stroke-width="2" transform="rotate(-5,180,107)"/>
+                            <line x1="220" y1="107" x2="260" y2="107" stroke="#3498DB" stroke-width="2" transform="rotate(0,240,107)"/>
+                            <line x1="280" y1="107" x2="320" y2="107" stroke="#3498DB" stroke-width="2" transform="rotate(5,300,107)"/>
+                            <line x1="340" y1="107" x2="380" y2="107" stroke="#3498DB" stroke-width="2" transform="rotate(10,360,107)"/>
+                            <text x="260" y="95" text-anchor="middle" font-size="9" fill="#3498DB">Crystals rotate in-plane (horizontal)</text>
+                            <!-- Top polarizer -->
+                            <rect x="60" y="48" width="400" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="1.2"/>
+                            <!-- Wide viewing cone -->
+                            <line x1="190" y1="48" x2="210" y2="28" stroke="#2ECC71" stroke-width="1.5"/>
+                            <line x1="330" y1="48" x2="310" y2="28" stroke="#2ECC71" stroke-width="1.5"/>
+                            <line x1="210" y1="28" x2="310" y2="28" stroke="#2ECC71" stroke-width="1.5"/>
+                            <text x="260" y="38" text-anchor="middle" font-size="9" fill="#2ECC71">Wide viewing angle</text>
+                        </svg>
+                        <figcaption>IPS crystals rotate horizontally, maintaining color and contrast across wider angles</figcaption>
+                    </figure>
+
+                    <hr class="section-divider">
+
+                    <h3 id="va">VA (Vertical Alignment) — Depth Over Stability</h3>
+
+                    <p>VA goes the opposite direction. The crystals stand upright instead of lying flat, which lets the panel block more of the backlight. Blacks look convincing, and dark scenes stay intact. But once you move off-center, the picture loses punch — those upright crystals aren't aimed at you anymore, so contrast and color fade as you shift away.</p>
+
+                    <p>Manufacturers tried extra layers and different alignments, but the trade-off never fully went away. Open up the angles, and you lose depth. Keep the depth, and you lose the angles.</p>
+
+                    <div class="callout-box">
+                        <strong>The IPS vs VA Dilemma:</strong> IPS gives you stability with lighter blacks. VA gives you depth with a narrow sweet spot. Both are still limited by the same thing — a backlight that never fully shuts off.
+                    </div>
+
+                    <figure class="panel-diagram">
+                        <svg viewBox="0 0 520 210" xmlns="http://www.w3.org/2000/svg">
+                            <text x="260" y="16" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor">VA Panel — Vertical Alignment</text>
+                            <!-- Two states side by side -->
+                            <!-- OFF state (left) -->
+                            <text x="160" y="38" text-anchor="middle" font-size="11" font-weight="500" fill="currentColor">OFF (Blocking)</text>
+                            <rect x="40" y="160" width="240" height="18" rx="2" fill="#FFD700" fill-opacity="0.15" stroke="#DAA520" stroke-width="1"/>
+                            <rect x="40" y="140" width="240" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="1"/>
+                            <rect x="40" y="60" width="240" height="76" rx="2" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="4,3"/>
+                            <!-- Vertical crystals (standing upright = blocking light) -->
+                            <line x1="80" y1="68" x2="80" y2="130" stroke="#3498DB" stroke-width="2"/>
+                            <line x1="120" y1="68" x2="120" y2="130" stroke="#3498DB" stroke-width="2"/>
+                            <line x1="160" y1="68" x2="160" y2="130" stroke="#3498DB" stroke-width="2"/>
+                            <line x1="200" y1="68" x2="200" y2="130" stroke="#3498DB" stroke-width="2"/>
+                            <line x1="240" y1="68" x2="240" y2="130" stroke="#3498DB" stroke-width="2"/>
+                            <rect x="40" y="44" width="240" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="1"/>
+                            <!-- X marks (light blocked) -->
+                            <text x="160" y="200" text-anchor="middle" font-size="9" fill="#2ECC71">Deep blacks — light fully blocked</text>
+                            <!-- ON state (right) -->
+                            <text x="400" y="38" text-anchor="middle" font-size="11" font-weight="500" fill="currentColor">ON (Tilted)</text>
+                            <rect x="300" y="160" width="180" height="18" rx="2" fill="#FFD700" fill-opacity="0.15" stroke="#DAA520" stroke-width="1"/>
+                            <rect x="300" y="140" width="180" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="1"/>
+                            <rect x="300" y="60" width="180" height="76" rx="2" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="4,3"/>
+                            <!-- Tilted crystals -->
+                            <line x1="340" y1="68" x2="340" y2="130" stroke="#3498DB" stroke-width="2" transform="rotate(35,340,99)"/>
+                            <line x1="390" y1="68" x2="390" y2="130" stroke="#3498DB" stroke-width="2" transform="rotate(35,390,99)"/>
+                            <line x1="440" y1="68" x2="440" y2="130" stroke="#3498DB" stroke-width="2" transform="rotate(35,440,99)"/>
+                            <rect x="300" y="44" width="180" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="1"/>
+                            <!-- Light arrow passing through -->
+                            <line x1="390" y1="155" x2="390" y2="58" stroke="#FFD700" stroke-width="1.5" marker-end="url(#arrowGold)"/>
+                            <defs><marker id="arrowGold" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="#DAA520"/></marker></defs>
+                        </svg>
+                        <figcaption>VA crystals stand upright to block light (deep blacks) and tilt to let light pass</figcaption>
+                    </figure>
+
+                    <h4>What I've Seen in the Field</h4>
+
+                    <p>There's always a mixed reaction from users. Some set of users who just have a habit of nitpicking will try to find issues even in the most complete display — they'll start calling out black levels and viewing angle limitations. But the majority of users lack the true knowledge behind panel types and are genuinely happy with either, because they care more about the experience of watching TV rather than dissecting limitations that can honestly be overlooked.</p>
+
+                    <hr class="section-divider">
+
+                    <h3 id="led-backlight">LED Backlight — Same Panel, Better Light Source</h3>
+
+                    <p>Early LCDs used fluorescent tubes behind the panel. They were bulky, inefficient, and hard to control evenly. LEDs replaced them — brighter, more efficient, and small enough to make TVs thinner. This is where the name "LED TV" comes from. Only the backlight changed. The panel itself is still LCD.</p>
+
+                    <p><strong>Edge-lit</strong> designs place the lights along the edges and push light sideways across a diffuser. It's cheaper and keeps the TV thin, but the light isn't truly even, especially in dark scenes.</p>
+
+                    <p><strong>Direct-lit</strong> designs place the lights directly behind the panel. The light spreads forward instead of sideways, so the image stays more uniform.</p>
+
+                    <figure class="panel-diagram">
+                        <svg viewBox="0 0 520 220" xmlns="http://www.w3.org/2000/svg">
+                            <text x="260" y="16" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor">LED Backlight — Edge-lit vs Direct-lit</text>
+                            <!-- Edge-lit (left) -->
+                            <text x="140" y="40" text-anchor="middle" font-size="11" font-weight="500" fill="currentColor">Edge-lit</text>
+                            <rect x="30" y="50" width="220" height="120" rx="3" fill="none" stroke="currentColor" stroke-width="1.2"/>
+                            <!-- LEDs on edges -->
+                            <circle cx="36" cy="70" r="4" fill="#FFD700" stroke="#DAA520" stroke-width="1"/><circle cx="36" cy="90" r="4" fill="#FFD700" stroke="#DAA520" stroke-width="1"/><circle cx="36" cy="110" r="4" fill="#FFD700" stroke="#DAA520" stroke-width="1"/><circle cx="36" cy="130" r="4" fill="#FFD700" stroke="#DAA520" stroke-width="1"/><circle cx="36" cy="150" r="4" fill="#FFD700" stroke="#DAA520" stroke-width="1"/>
+                            <circle cx="244" cy="70" r="4" fill="#FFD700" stroke="#DAA520" stroke-width="1"/><circle cx="244" cy="90" r="4" fill="#FFD700" stroke="#DAA520" stroke-width="1"/><circle cx="244" cy="110" r="4" fill="#FFD700" stroke="#DAA520" stroke-width="1"/><circle cx="244" cy="130" r="4" fill="#FFD700" stroke="#DAA520" stroke-width="1"/><circle cx="244" cy="150" r="4" fill="#FFD700" stroke="#DAA520" stroke-width="1"/>
+                            <!-- Light arrows going sideways -->
+                            <line x1="44" y1="110" x2="100" y2="110" stroke="#FFD700" stroke-width="1" stroke-dasharray="3,3"/><line x1="236" y1="110" x2="180" y2="110" stroke="#FFD700" stroke-width="1" stroke-dasharray="3,3"/>
+                            <!-- Diffuser label -->
+                            <text x="140" y="115" text-anchor="middle" font-size="9" fill="currentColor">Diffuser</text>
+                            <text x="140" y="185" text-anchor="middle" font-size="9" fill="currentColor">Thin, but uneven light</text>
+                            <!-- Direct-lit (right) -->
+                            <text x="390" y="40" text-anchor="middle" font-size="11" font-weight="500" fill="currentColor">Direct-lit</text>
+                            <rect x="280" y="50" width="220" height="120" rx="3" fill="none" stroke="currentColor" stroke-width="1.2"/>
+                            <!-- LEDs grid behind panel -->
+                            <circle cx="310" cy="140" r="4" fill="#FFD700" stroke="#DAA520" stroke-width="1"/><circle cx="340" cy="140" r="4" fill="#FFD700" stroke="#DAA520" stroke-width="1"/><circle cx="370" cy="140" r="4" fill="#FFD700" stroke="#DAA520" stroke-width="1"/><circle cx="400" cy="140" r="4" fill="#FFD700" stroke="#DAA520" stroke-width="1"/><circle cx="430" cy="140" r="4" fill="#FFD700" stroke="#DAA520" stroke-width="1"/><circle cx="460" cy="140" r="4" fill="#FFD700" stroke="#DAA520" stroke-width="1"/>
+                            <circle cx="310" cy="110" r="4" fill="#FFD700" stroke="#DAA520" stroke-width="1"/><circle cx="340" cy="110" r="4" fill="#FFD700" stroke="#DAA520" stroke-width="1"/><circle cx="370" cy="110" r="4" fill="#FFD700" stroke="#DAA520" stroke-width="1"/><circle cx="400" cy="110" r="4" fill="#FFD700" stroke="#DAA520" stroke-width="1"/><circle cx="430" cy="110" r="4" fill="#FFD700" stroke="#DAA520" stroke-width="1"/><circle cx="460" cy="110" r="4" fill="#FFD700" stroke="#DAA520" stroke-width="1"/>
+                            <circle cx="310" cy="80" r="4" fill="#FFD700" stroke="#DAA520" stroke-width="1"/><circle cx="340" cy="80" r="4" fill="#FFD700" stroke="#DAA520" stroke-width="1"/><circle cx="370" cy="80" r="4" fill="#FFD700" stroke="#DAA520" stroke-width="1"/><circle cx="400" cy="80" r="4" fill="#FFD700" stroke="#DAA520" stroke-width="1"/><circle cx="430" cy="80" r="4" fill="#FFD700" stroke="#DAA520" stroke-width="1"/><circle cx="460" cy="80" r="4" fill="#FFD700" stroke="#DAA520" stroke-width="1"/>
+                            <!-- Upward arrows -->
+                            <line x1="370" y1="135" x2="370" y2="60" stroke="#FFD700" stroke-width="1" stroke-dasharray="3,3"/><line x1="400" y1="135" x2="400" y2="60" stroke="#FFD700" stroke-width="1" stroke-dasharray="3,3"/>
+                            <text x="390" y="185" text-anchor="middle" font-size="9" fill="currentColor">Uniform, but thicker panel</text>
+                            <!-- LCD panel on top for both -->
+                            <rect x="30" y="50" width="220" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                            <text x="140" y="60" text-anchor="middle" font-size="8" fill="currentColor">LCD Panel</text>
+                            <rect x="280" y="50" width="220" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                            <text x="390" y="60" text-anchor="middle" font-size="8" fill="currentColor">LCD Panel</text>
+                        </svg>
+                        <figcaption>Edge-lit places LEDs on the sides; direct-lit places them behind the entire panel</figcaption>
+                    </figure>
+
+                    <p>Placement solved the uniformity problem, but the entire screen was still being lit as one piece. The solution was to divide the backlight into zones that could be controlled independently. Small areas can now brighten or dim on their own, so a highlight doesn't have to lift the entire screen.</p>
+
+                    <p>But the zones are still much larger than the details in the picture. A bright element and the shadows around it often land inside the same zone, and the backlight has to pick one brightness for both. Imagine a bright star surrounded by a dark sky — if the backlight lifts the zone to match the star, the sky glows. If it dims the zone to keep the sky dark, the star loses punch. That tension is what creates halos.</p>
+
+                    <hr class="section-divider">
+
+                    <h3 id="mini-led">Mini LED — Thousands of Zones, Same Fundamental Limits</h3>
+
+                    <p>Mini LED uses much smaller LEDs, allowing hundreds or even thousands of dimming zones. Highlights stay tighter without bleeding as much into nearby shadows. HDR starts to work more like it's supposed to, instead of lifting half the screen.</p>
+
+                    <p>Mini LED can also push high brightness across large areas — something OLED struggles with. But even with thousands of zones, blooming can still show up. When the processing is good, Mini LED can look surprisingly clean for a backlit design. But it's still lighting regions, not pixels.</p>
+
+                    <figure class="panel-diagram">
+                        <svg viewBox="0 0 520 200" xmlns="http://www.w3.org/2000/svg">
+                            <text x="260" y="16" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor">Mini LED — Dense Dimming Zones</text>
+                            <!-- LCD panel top -->
+                            <rect x="40" y="40" width="440" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                            <text x="260" y="52" text-anchor="middle" font-size="9" fill="currentColor">LCD Panel</text>
+                            <!-- Zone grid with many small LEDs -->
+                            <rect x="40" y="62" width="440" height="110" rx="2" fill="none" stroke="currentColor" stroke-width="1.2"/>
+                            <!-- Zone dividers -->
+                            <line x1="150" y1="62" x2="150" y2="172" stroke="currentColor" stroke-width="0.6" stroke-dasharray="3,3"/>
+                            <line x1="260" y1="62" x2="260" y2="172" stroke="currentColor" stroke-width="0.6" stroke-dasharray="3,3"/>
+                            <line x1="370" y1="62" x2="370" y2="172" stroke="currentColor" stroke-width="0.6" stroke-dasharray="3,3"/>
+                            <line x1="40" y1="117" x2="480" y2="117" stroke="currentColor" stroke-width="0.6" stroke-dasharray="3,3"/>
+                            <!-- Zone 1 - bright (many lit LEDs) -->
+                            <circle cx="65" cy="80" r="3" fill="#FFD700"/><circle cx="80" cy="80" r="3" fill="#FFD700"/><circle cx="95" cy="80" r="3" fill="#FFD700"/><circle cx="110" cy="80" r="3" fill="#FFD700"/><circle cx="125" cy="80" r="3" fill="#FFD700"/><circle cx="140" cy="80" r="3" fill="#FFD700"/>
+                            <circle cx="65" cy="95" r="3" fill="#FFD700"/><circle cx="80" cy="95" r="3" fill="#FFD700"/><circle cx="95" cy="95" r="3" fill="#FFD700"/><circle cx="110" cy="95" r="3" fill="#FFD700"/><circle cx="125" cy="95" r="3" fill="#FFD700"/><circle cx="140" cy="95" r="3" fill="#FFD700"/>
+                            <text x="95" y="112" text-anchor="middle" font-size="8" fill="#DAA520">Bright</text>
+                            <!-- Zone 2 - dim -->
+                            <circle cx="170" cy="80" r="3" fill="#FFD700" fill-opacity="0.2" stroke="#DAA520" stroke-width="0.5"/><circle cx="185" cy="80" r="3" fill="#FFD700" fill-opacity="0.2" stroke="#DAA520" stroke-width="0.5"/><circle cx="200" cy="80" r="3" fill="#FFD700" fill-opacity="0.2" stroke="#DAA520" stroke-width="0.5"/><circle cx="215" cy="80" r="3" fill="#FFD700" fill-opacity="0.2" stroke="#DAA520" stroke-width="0.5"/><circle cx="230" cy="80" r="3" fill="#FFD700" fill-opacity="0.2" stroke="#DAA520" stroke-width="0.5"/><circle cx="245" cy="80" r="3" fill="#FFD700" fill-opacity="0.2" stroke="#DAA520" stroke-width="0.5"/>
+                            <circle cx="170" cy="95" r="3" fill="#FFD700" fill-opacity="0.2" stroke="#DAA520" stroke-width="0.5"/><circle cx="185" cy="95" r="3" fill="#FFD700" fill-opacity="0.2" stroke="#DAA520" stroke-width="0.5"/><circle cx="200" cy="95" r="3" fill="#FFD700" fill-opacity="0.2" stroke="#DAA520" stroke-width="0.5"/><circle cx="215" cy="95" r="3" fill="#FFD700" fill-opacity="0.2" stroke="#DAA520" stroke-width="0.5"/><circle cx="230" cy="95" r="3" fill="#FFD700" fill-opacity="0.2" stroke="#DAA520" stroke-width="0.5"/><circle cx="245" cy="95" r="3" fill="#FFD700" fill-opacity="0.2" stroke="#DAA520" stroke-width="0.5"/>
+                            <text x="205" y="112" text-anchor="middle" font-size="8" fill="currentColor">Dim</text>
+                            <!-- Zone 3 - off -->
+                            <circle cx="280" cy="80" r="3" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.3"/><circle cx="295" cy="80" r="3" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.3"/><circle cx="310" cy="80" r="3" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.3"/><circle cx="325" cy="80" r="3" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.3"/><circle cx="340" cy="80" r="3" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.3"/><circle cx="355" cy="80" r="3" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.3"/>
+                            <circle cx="280" cy="95" r="3" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.3"/><circle cx="295" cy="95" r="3" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.3"/><circle cx="310" cy="95" r="3" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.3"/><circle cx="325" cy="95" r="3" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.3"/><circle cx="340" cy="95" r="3" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.3"/><circle cx="355" cy="95" r="3" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.3"/>
+                            <text x="315" y="112" text-anchor="middle" font-size="8" fill="currentColor">Off</text>
+                            <!-- Zone 4 - medium -->
+                            <circle cx="390" cy="80" r="3" fill="#FFD700" fill-opacity="0.5" stroke="#DAA520" stroke-width="0.5"/><circle cx="405" cy="80" r="3" fill="#FFD700" fill-opacity="0.5" stroke="#DAA520" stroke-width="0.5"/><circle cx="420" cy="80" r="3" fill="#FFD700" fill-opacity="0.5" stroke="#DAA520" stroke-width="0.5"/><circle cx="435" cy="80" r="3" fill="#FFD700" fill-opacity="0.5" stroke="#DAA520" stroke-width="0.5"/><circle cx="450" cy="80" r="3" fill="#FFD700" fill-opacity="0.5" stroke="#DAA520" stroke-width="0.5"/><circle cx="465" cy="80" r="3" fill="#FFD700" fill-opacity="0.5" stroke="#DAA520" stroke-width="0.5"/>
+                            <circle cx="390" cy="95" r="3" fill="#FFD700" fill-opacity="0.5" stroke="#DAA520" stroke-width="0.5"/><circle cx="405" cy="95" r="3" fill="#FFD700" fill-opacity="0.5" stroke="#DAA520" stroke-width="0.5"/><circle cx="420" cy="95" r="3" fill="#FFD700" fill-opacity="0.5" stroke="#DAA520" stroke-width="0.5"/><circle cx="435" cy="95" r="3" fill="#FFD700" fill-opacity="0.5" stroke="#DAA520" stroke-width="0.5"/><circle cx="450" cy="95" r="3" fill="#FFD700" fill-opacity="0.5" stroke="#DAA520" stroke-width="0.5"/><circle cx="465" cy="95" r="3" fill="#FFD700" fill-opacity="0.5" stroke="#DAA520" stroke-width="0.5"/>
+                            <text x="425" y="112" text-anchor="middle" font-size="8" fill="currentColor">Medium</text>
+                            <!-- Bottom row zones similar pattern -->
+                            <circle cx="65" cy="132" r="3" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.3"/><circle cx="80" cy="132" r="3" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.3"/><circle cx="95" cy="132" r="3" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.3"/><circle cx="110" cy="132" r="3" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.3"/><circle cx="125" cy="132" r="3" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.3"/><circle cx="140" cy="132" r="3" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.3"/>
+                            <circle cx="170" cy="132" r="3" fill="#FFD700"/><circle cx="185" cy="132" r="3" fill="#FFD700"/><circle cx="200" cy="132" r="3" fill="#FFD700"/><circle cx="215" cy="132" r="3" fill="#FFD700"/><circle cx="230" cy="132" r="3" fill="#FFD700"/><circle cx="245" cy="132" r="3" fill="#FFD700"/>
+                            <circle cx="280" cy="132" r="3" fill="#FFD700" fill-opacity="0.5" stroke="#DAA520" stroke-width="0.5"/><circle cx="295" cy="132" r="3" fill="#FFD700" fill-opacity="0.5" stroke="#DAA520" stroke-width="0.5"/><circle cx="310" cy="132" r="3" fill="#FFD700" fill-opacity="0.5" stroke="#DAA520" stroke-width="0.5"/><circle cx="325" cy="132" r="3" fill="#FFD700" fill-opacity="0.5" stroke="#DAA520" stroke-width="0.5"/><circle cx="340" cy="132" r="3" fill="#FFD700" fill-opacity="0.5" stroke="#DAA520" stroke-width="0.5"/><circle cx="355" cy="132" r="3" fill="#FFD700" fill-opacity="0.5" stroke="#DAA520" stroke-width="0.5"/>
+                            <circle cx="390" cy="132" r="3" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.3"/><circle cx="405" cy="132" r="3" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.3"/><circle cx="420" cy="132" r="3" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.3"/><circle cx="435" cy="132" r="3" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.3"/><circle cx="450" cy="132" r="3" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.3"/><circle cx="465" cy="132" r="3" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.3"/>
+                            <text x="260" y="192" text-anchor="middle" font-size="9" fill="currentColor">Each zone dims independently — hundreds to thousands of zones</text>
+                        </svg>
+                        <figcaption>Mini LED uses a dense grid of tiny LEDs with independently controlled dimming zones</figcaption>
+                    </figure>
+
+                    <h4>The Challenges Nobody Talks About</h4>
+
+                    <p>There are real engineering constraints that don't make the spec sheet. Mini LED panels are generally 20–30% thicker than OLED because they need multiple layers — the LED grid, diffuser, and LCD substrate. Operating thousands of tiny LEDs at high current densities generates significant heat, which can lead to color shifts or accelerated component degradation over time. And then there's the clipping effect — brightness may be reduced in certain zones when adjacent zones are dimmed to prevent light leakage, leading to a loss of detail in bright areas.</p>
+
+                    <div class="callout-box">
+                        <strong>Industry Reality Check:</strong> I've noticed some brands claiming high Mini LED counts while in reality using very few LEDs. Always ask manufacturers about the actual number of Mini LEDs and dimming zones — not just the marketing number. TCL, for instance, has been particularly creative with their claims versus what's actually inside the panel.
+                    </div>
+
+                    <hr class="section-divider">
+
+                    <h3 id="quantum-dots">Quantum Dots — Cleaning Up the Color</h3>
+
+                    <p>Traditional LED backlights start with blue LEDs and add a phosphor layer to create white light. It's efficient, but the spectrum is broad and gets harder to control as brightness ramps up.</p>
+
+                    <p>Quantum dots handle this differently. Instead of starting with white light and carving color out of it, they convert blue light directly into red and green. These are tiny semiconductor particles whose size determines their color — smaller dots produce blue, medium ones produce green, and larger ones produce red.</p>
+
+                    <p>The result is that bright scenes keep their saturation instead of fading toward white when the backlight is pushed hard. This is what gets marketed as QLED. The quality varies by implementation — some use a proper QD sheet, others use a cheaper on-lens solution. At Lumio, we chose to use a QD sheet on the Vision 7 because it genuinely delivers better color gamut coverage, even though it costs more.</p>
+
+                    <figure class="panel-diagram">
+                        <svg viewBox="0 0 520 180" xmlns="http://www.w3.org/2000/svg">
+                            <text x="260" y="16" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor">Quantum Dots — Color Conversion</text>
+                            <!-- Blue LED source -->
+                            <rect x="30" y="60" width="80" height="70" rx="4" fill="#3498DB" fill-opacity="0.15" stroke="#3498DB" stroke-width="1.5"/>
+                            <text x="70" y="100" text-anchor="middle" font-size="10" font-weight="500" fill="#3498DB">Blue LED</text>
+                            <!-- Arrow to QD film -->
+                            <line x1="114" y1="95" x2="160" y2="95" stroke="#3498DB" stroke-width="2" marker-end="url(#arrBlue)"/>
+                            <defs><marker id="arrBlue" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="#3498DB"/></marker></defs>
+                            <!-- QD Film -->
+                            <rect x="164" y="50" width="100" height="90" rx="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                            <text x="214" y="72" text-anchor="middle" font-size="10" font-weight="500" fill="currentColor">QD Film</text>
+                            <!-- QD particles -->
+                            <circle cx="190" cy="90" r="5" fill="#E74C3C" fill-opacity="0.4" stroke="#E74C3C" stroke-width="1"/>
+                            <circle cx="214" cy="85" r="4" fill="#2ECC71" fill-opacity="0.4" stroke="#2ECC71" stroke-width="1"/>
+                            <circle cx="238" cy="90" r="3" fill="#3498DB" fill-opacity="0.4" stroke="#3498DB" stroke-width="1"/>
+                            <circle cx="200" cy="110" r="4" fill="#2ECC71" fill-opacity="0.4" stroke="#2ECC71" stroke-width="1"/>
+                            <circle cx="228" cy="112" r="5" fill="#E74C3C" fill-opacity="0.4" stroke="#E74C3C" stroke-width="1"/>
+                            <!-- Output arrows in RGB -->
+                            <line x1="268" y1="75" x2="340" y2="60" stroke="#E74C3C" stroke-width="2" marker-end="url(#arrR)"/>
+                            <line x1="268" y1="95" x2="340" y2="95" stroke="#2ECC71" stroke-width="2" marker-end="url(#arrG)"/>
+                            <line x1="268" y1="115" x2="340" y2="130" stroke="#3498DB" stroke-width="2" marker-end="url(#arrBl)"/>
+                            <defs><marker id="arrR" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="#E74C3C"/></marker><marker id="arrG" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="#2ECC71"/></marker><marker id="arrBl" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="#3498DB"/></marker></defs>
+                            <!-- RGB labels -->
+                            <text x="370" y="64" font-size="11" font-weight="500" fill="#E74C3C">Red</text>
+                            <text x="370" y="99" font-size="11" font-weight="500" fill="#2ECC71">Green</text>
+                            <text x="370" y="134" font-size="11" font-weight="500" fill="#3498DB">Blue (passthrough)</text>
+                            <text x="260" y="168" text-anchor="middle" font-size="9" fill="currentColor">QD particles convert blue light into precise red &amp; green wavelengths</text>
+                        </svg>
+                        <figcaption>Quantum dots convert blue LED light into pure red and green, producing wider color gamut</figcaption>
+                    </figure>
+
+                    <h4>RGB Direct Backlights</h4>
+
+                    <p>There's another path: skip the quantum dot conversion step entirely and generate colors at the source. RGB LED systems light the panel with red, green, and blue LEDs directly. Early versions had real problems — different colors aged at different rates, making it difficult to keep the image balanced over time.</p>
+
+                    <p>Modern versions benefit from better control, and some designs even add a fourth color (cyan) to smooth mid-range tones like skies or shallow water. But this is still an LCD at the end of the day. Light is coming from behind the panel, so you're working within the same fundamental constraints. And these designs haven't been around long enough to know how they'll actually perform after years of use.</p>
+
+                    <hr class="section-divider">
+
+                    <h2 id="self-emissive">Part 2: Self-Emissive Displays — Each Pixel Makes Its Own Light</h2>
+
+                    <p>Everything we've covered so far was focused on making the backlight behave better. But there's a point where that approach runs out of room. So what if we get rid of the backlight entirely?</p>
+
+                    <p>The idea isn't new. It's where display technology started before LCD became dominant.</p>
+
+                    <hr class="section-divider">
+
+                    <h3 id="crt-plasma">CRT and Plasma — The Originals</h3>
+
+                    <p>CRT created the image directly on the glass. An electron beam swept across the screen and lit phosphors where it landed. Where it didn't land, the screen stayed dark. Motion looked natural, and black levels were real. But CRTs were physically large and heavy, and they didn't scale into flat panel designs.</p>
+
+                    <p>Plasma took the same concept and flattened it. Each pixel worked like a tiny neon light — apply voltage and it glowed, cut the power and it went dark. For a time, plasma offered the better picture. Blacks were deep, motion was smooth, and viewing angles were wide.</p>
+
+                    <p>The limits were physical and electrical. The panels reflected a lot of ambient light, peak brightness was hard to push, and power draw climbed quickly with screen size. LCD improved faster, especially in efficiency and brightness. By 2014, plasma was gone. Self-emissive pixels worked — they just needed a material that could scale.</p>
+
+                    <figure class="panel-diagram">
+                        <svg viewBox="0 0 520 190" xmlns="http://www.w3.org/2000/svg">
+                            <text x="260" y="16" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor">CRT &amp; Plasma — The Original Self-Emissive Displays</text>
+                            <!-- CRT (left) -->
+                            <text x="140" y="40" text-anchor="middle" font-size="11" font-weight="500" fill="currentColor">CRT</text>
+                            <!-- Tube shape -->
+                            <path d="M30,55 L30,155 L250,155 L250,55 Z" fill="none" stroke="currentColor" stroke-width="1.2"/>
+                            <!-- Electron gun -->
+                            <rect x="30" y="90" width="30" height="30" rx="2" fill="currentColor" fill-opacity="0.1" stroke="currentColor" stroke-width="1"/>
+                            <text x="45" y="108" text-anchor="middle" font-size="7" fill="currentColor">Gun</text>
+                            <!-- Electron beam -->
+                            <line x1="64" y1="105" x2="230" y2="70" stroke="#E74C3C" stroke-width="1.2" stroke-dasharray="4,3"/>
+                            <line x1="64" y1="105" x2="230" y2="105" stroke="#2ECC71" stroke-width="1.2" stroke-dasharray="4,3"/>
+                            <line x1="64" y1="105" x2="230" y2="140" stroke="#3498DB" stroke-width="1.2" stroke-dasharray="4,3"/>
+                            <!-- Phosphor screen -->
+                            <rect x="234" y="55" width="16" height="100" fill="none" stroke="currentColor" stroke-width="1.2"/>
+                            <circle cx="242" cy="70" r="3" fill="#E74C3C" fill-opacity="0.6"/><circle cx="242" cy="85" r="3" fill="#2ECC71" fill-opacity="0.6"/><circle cx="242" cy="100" r="3" fill="currentColor" fill-opacity="0.1" stroke="currentColor" stroke-width="0.5"/><circle cx="242" cy="115" r="3" fill="#3498DB" fill-opacity="0.6"/><circle cx="242" cy="130" r="3" fill="#E74C3C" fill-opacity="0.6"/><circle cx="242" cy="145" r="3" fill="#2ECC71" fill-opacity="0.6"/>
+                            <text x="140" y="175" text-anchor="middle" font-size="8" fill="currentColor">Electron beam hits phosphors on glass</text>
+                            <!-- Plasma (right) -->
+                            <text x="400" y="40" text-anchor="middle" font-size="11" font-weight="500" fill="currentColor">Plasma</text>
+                            <rect x="300" y="55" width="200" height="100" rx="3" fill="none" stroke="currentColor" stroke-width="1.2"/>
+                            <!-- Gas cells -->
+                            <rect x="310" y="65" width="40" height="80" rx="2" fill="#E74C3C" fill-opacity="0.1" stroke="#E74C3C" stroke-width="1"/>
+                            <text x="330" y="110" text-anchor="middle" font-size="8" fill="#E74C3C">R</text>
+                            <rect x="360" y="65" width="40" height="80" rx="2" fill="#2ECC71" fill-opacity="0.1" stroke="#2ECC71" stroke-width="1"/>
+                            <text x="380" y="110" text-anchor="middle" font-size="8" fill="#2ECC71">G</text>
+                            <rect x="410" y="65" width="40" height="80" rx="2" fill="#3498DB" fill-opacity="0.1" stroke="#3498DB" stroke-width="1"/>
+                            <text x="430" y="110" text-anchor="middle" font-size="8" fill="#3498DB">B</text>
+                            <rect x="460" y="65" width="30" height="80" rx="2" fill="none" stroke="currentColor" stroke-width="0.6" opacity="0.3"/>
+                            <text x="475" y="110" text-anchor="middle" font-size="7" fill="currentColor" opacity="0.4">Off</text>
+                            <!-- Voltage symbol -->
+                            <text x="400" y="175" text-anchor="middle" font-size="8" fill="currentColor">Gas cells glow individually — true blacks</text>
+                        </svg>
+                        <figcaption>CRT used electron beams hitting phosphors; Plasma used individually glowing gas cells</figcaption>
+                    </figure>
+
+                    <hr class="section-divider">
+
+                    <h3 id="oled">OLED — The Current Standard-Bearer</h3>
+
+                    <p>OLED became that material. Each pixel produces its own light. When a pixel needs to be dark, it simply turns off. Dark scenes stay intact instead of getting lifted by a backlight. Colors stay saturated and pure, especially the bold tones HDR content relies on.</p>
+
+                    <p>Pixel response is essentially instant. Motion looks clean and sharp, without the built-in blur LCDs often introduce. Because each pixel does its own work, wear isn't perfectly even — areas that stay bright and static for long periods wear faster than the rest of the panel.</p>
+
+                    <p>OLED can deliver very strong highlights in small areas. But when large portions of the screen need to stay bright at once, the panel pulls back to manage heat and slow uneven wear. LCD systems handle sustained full-screen brightness more easily.</p>
+
+                    <figure class="panel-diagram">
+                        <svg viewBox="0 0 520 200" xmlns="http://www.w3.org/2000/svg">
+                            <text x="260" y="16" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor">OLED — Self-Emissive Pixels</text>
+                            <!-- Pixel array -->
+                            <text x="260" y="38" text-anchor="middle" font-size="10" fill="currentColor">Each pixel produces its own light — no backlight needed</text>
+                            <!-- Cathode top -->
+                            <rect x="40" y="50" width="440" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="1.2"/>
+                            <text x="20" y="58" text-anchor="end" font-size="8" fill="currentColor">Cathode</text>
+                            <!-- Pixel columns -->
+                            <!-- Pixel 1 - Red ON -->
+                            <rect x="55" y="64" width="60" height="60" fill="#E74C3C" fill-opacity="0.15" stroke="#E74C3C" stroke-width="1.2"/>
+                            <text x="85" y="98" text-anchor="middle" font-size="9" font-weight="500" fill="#E74C3C">ON</text>
+                            <line x1="85" y1="64" x2="85" y2="48" stroke="#E74C3C" stroke-width="1.5"/>
+                            <circle cx="85" cy="44" r="4" fill="#E74C3C" fill-opacity="0.5"/>
+                            <!-- Pixel 2 - Green ON -->
+                            <rect x="125" y="64" width="60" height="60" fill="#2ECC71" fill-opacity="0.15" stroke="#2ECC71" stroke-width="1.2"/>
+                            <text x="155" y="98" text-anchor="middle" font-size="9" font-weight="500" fill="#2ECC71">ON</text>
+                            <line x1="155" y1="64" x2="155" y2="48" stroke="#2ECC71" stroke-width="1.5"/>
+                            <circle cx="155" cy="44" r="4" fill="#2ECC71" fill-opacity="0.5"/>
+                            <!-- Pixel 3 - OFF (true black) -->
+                            <rect x="195" y="64" width="60" height="60" fill="currentColor" fill-opacity="0.05" stroke="currentColor" stroke-width="1.2"/>
+                            <text x="225" y="98" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.5">OFF</text>
+                            <!-- Pixel 4 - Blue ON -->
+                            <rect x="265" y="64" width="60" height="60" fill="#3498DB" fill-opacity="0.15" stroke="#3498DB" stroke-width="1.2"/>
+                            <text x="295" y="98" text-anchor="middle" font-size="9" font-weight="500" fill="#3498DB">ON</text>
+                            <line x1="295" y1="64" x2="295" y2="48" stroke="#3498DB" stroke-width="1.5"/>
+                            <circle cx="295" cy="44" r="4" fill="#3498DB" fill-opacity="0.5"/>
+                            <!-- Pixel 5 - OFF -->
+                            <rect x="335" y="64" width="60" height="60" fill="currentColor" fill-opacity="0.05" stroke="currentColor" stroke-width="1.2"/>
+                            <text x="365" y="98" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.5">OFF</text>
+                            <!-- Pixel 6 - Red ON -->
+                            <rect x="405" y="64" width="60" height="60" fill="#E74C3C" fill-opacity="0.15" stroke="#E74C3C" stroke-width="1.2"/>
+                            <text x="435" y="98" text-anchor="middle" font-size="9" font-weight="500" fill="#E74C3C">ON</text>
+                            <line x1="435" y1="64" x2="435" y2="48" stroke="#E74C3C" stroke-width="1.5"/>
+                            <circle cx="435" cy="44" r="4" fill="#E74C3C" fill-opacity="0.5"/>
+                            <!-- Anode bottom -->
+                            <rect x="40" y="128" width="440" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="1.2"/>
+                            <text x="20" y="137" text-anchor="end" font-size="8" fill="currentColor">Anode</text>
+                            <!-- Labels -->
+                            <text x="225" y="155" text-anchor="middle" font-size="9" fill="currentColor">← True black (pixel off) →</text>
+                            <text x="260" y="175" text-anchor="middle" font-size="9" fill="currentColor">Organic emissive layer between electrodes — no backlight, no light leakage</text>
+                        </svg>
+                        <figcaption>OLED pixels emit their own light; turned-off pixels produce absolute black</figcaption>
+                    </figure>
+
+                    <h4>My Take on OLED in India</h4>
+
+                    <p>The tech has improved significantly. Pixel shifting algorithms have gotten much better at mitigating burn-in, and individual OLED dimming has reduced the uneven wear issue. The days of worrying about news tickers or cricket scoreboards permanently etching into your screen are largely behind us — at least on current-generation panels.</p>
+
+                    <p>The bigger consideration for Indian households is brightness. OLED panels are usually glossy because it preserves brightness and color accuracy. In controlled lighting, that looks great. But in brighter rooms — and Indian living rooms tend to be bright — reflections become more noticeable.</p>
+
+                    <hr class="section-divider">
+
+                    <h3 id="qd-oled">QD-OLED — Color Without the Filter Tax</h3>
+
+                    <p>Standard OLED has a color limitation at high brightness because it relies on color filters. It starts with white light filtered down to red, green, and blue, and most of that light gets blocked. So when HDR needs to be both bright and colorful, saturation can start to drop.</p>
+
+                    <p>QD-OLED addresses that directly. Instead of filtering white light, it starts with blue light and uses quantum dots to convert it into red and green, so bright colors stay vivid even at higher brightness.</p>
+
+                    <figure class="panel-diagram">
+                        <svg viewBox="0 0 520 190" xmlns="http://www.w3.org/2000/svg">
+                            <text x="260" y="16" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor">QD-OLED — Quantum Dot + OLED</text>
+                            <!-- Blue OLED emitter layer at bottom -->
+                            <rect x="40" y="140" width="440" height="30" rx="3" fill="#3498DB" fill-opacity="0.15" stroke="#3498DB" stroke-width="1.5"/>
+                            <text x="260" y="160" text-anchor="middle" font-size="10" font-weight="500" fill="#3498DB">Blue OLED Emitter</text>
+                            <!-- Blue light arrows going up -->
+                            <line x1="110" y1="138" x2="110" y2="110" stroke="#3498DB" stroke-width="1.5"/>
+                            <line x1="260" y1="138" x2="260" y2="110" stroke="#3498DB" stroke-width="1.5"/>
+                            <line x1="410" y1="138" x2="410" y2="110" stroke="#3498DB" stroke-width="1.5"/>
+                            <!-- QD conversion layer -->
+                            <!-- Red QD subpixel -->
+                            <rect x="60" y="65" width="100" height="42" rx="3" fill="#E74C3C" fill-opacity="0.1" stroke="#E74C3C" stroke-width="1.2"/>
+                            <circle cx="85" cy="86" r="5" fill="#E74C3C" fill-opacity="0.3" stroke="#E74C3C" stroke-width="0.8"/><circle cx="105" cy="82" r="4" fill="#E74C3C" fill-opacity="0.3" stroke="#E74C3C" stroke-width="0.8"/><circle cx="130" cy="88" r="5" fill="#E74C3C" fill-opacity="0.3" stroke="#E74C3C" stroke-width="0.8"/>
+                            <text x="110" y="78" text-anchor="middle" font-size="8" fill="#E74C3C">Red QD</text>
+                            <!-- Red output -->
+                            <line x1="110" y1="63" x2="110" y2="44" stroke="#E74C3C" stroke-width="2" marker-end="url(#arrR2)"/>
+                            <text x="110" y="38" text-anchor="middle" font-size="10" font-weight="600" fill="#E74C3C">R</text>
+                            <!-- Green QD subpixel -->
+                            <rect x="210" y="65" width="100" height="42" rx="3" fill="#2ECC71" fill-opacity="0.1" stroke="#2ECC71" stroke-width="1.2"/>
+                            <circle cx="235" cy="86" r="4" fill="#2ECC71" fill-opacity="0.3" stroke="#2ECC71" stroke-width="0.8"/><circle cx="260" cy="82" r="5" fill="#2ECC71" fill-opacity="0.3" stroke="#2ECC71" stroke-width="0.8"/><circle cx="283" cy="88" r="4" fill="#2ECC71" fill-opacity="0.3" stroke="#2ECC71" stroke-width="0.8"/>
+                            <text x="260" y="78" text-anchor="middle" font-size="8" fill="#2ECC71">Green QD</text>
+                            <!-- Green output -->
+                            <line x1="260" y1="63" x2="260" y2="44" stroke="#2ECC71" stroke-width="2" marker-end="url(#arrG2)"/>
+                            <text x="260" y="38" text-anchor="middle" font-size="10" font-weight="600" fill="#2ECC71">G</text>
+                            <!-- Blue passthrough -->
+                            <rect x="360" y="65" width="100" height="42" rx="3" fill="#3498DB" fill-opacity="0.1" stroke="#3498DB" stroke-width="1.2"/>
+                            <text x="410" y="82" text-anchor="middle" font-size="8" fill="#3498DB">No conversion</text>
+                            <text x="410" y="92" text-anchor="middle" font-size="8" fill="#3498DB">(passthrough)</text>
+                            <line x1="410" y1="63" x2="410" y2="44" stroke="#3498DB" stroke-width="2" marker-end="url(#arrBl2)"/>
+                            <text x="410" y="38" text-anchor="middle" font-size="10" font-weight="600" fill="#3498DB">B</text>
+                            <defs><marker id="arrR2" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto"><path d="M0,0 L7,2.5 L0,5" fill="#E74C3C"/></marker><marker id="arrG2" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto"><path d="M0,0 L7,2.5 L0,5" fill="#2ECC71"/></marker><marker id="arrBl2" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto"><path d="M0,0 L7,2.5 L0,5" fill="#3498DB"/></marker></defs>
+                            <text x="260" y="183" text-anchor="middle" font-size="9" fill="currentColor">No color filters needed — light is converted, not blocked</text>
+                        </svg>
+                        <figcaption>QD-OLED starts with blue OLED light and uses quantum dots to create red and green — no filter loss</figcaption>
+                    </figure>
+
+                    <p>The trade-off: to preserve brightness, QD-OLED doesn't use the same traditional polarizer approach, which makes it more sensitive to room light. In brighter rooms, blacks can lift slightly and sometimes pick up a faint gray or purplish tint. In darker rooms, you'll rarely notice it. And because the subpixel layout differs from standard RGB, fine text and UI elements can show mild color fringing at closer viewing distances.</p>
+
+                    <hr class="section-divider">
+
+                    <h3 id="tandem-oled">Tandem OLED — Stacking the Deck</h3>
+
+                    <p>Tandem OLED doesn't change what OLED is. It changes how the panel makes light. Instead of relying on a single emissive stack, it uses multiple stacks on top of each other. They share the workload, so the panel has more headroom — higher sustained brightness, gentler dimming, and less stress during bright scenes.</p>
+
+                    <p>The newest generation goes further. Red and green get their own dedicated emitters, with two reinforced blue emitters carrying the hardest part of the load. That makes the design more efficient because more of the color is being produced directly, instead of relying as heavily on filters that block light.</p>
+
+                    <p>Blue is still the toughest color to drive bright and keep stable over time, which is why the design doubles up on it. It's basically trying to get closer to QD-OLED's color-at-brightness advantage while retaining the tandem benefit of sharing the load. It's still organic OLED, so heat, static elements, and full-screen brightness limits don't disappear — they just get pushed back.</p>
+
+                    <figure class="panel-diagram">
+                        <svg viewBox="0 0 520 210" xmlns="http://www.w3.org/2000/svg">
+                            <text x="260" y="16" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor">Tandem OLED — Stacked Emissive Layers</text>
+                            <!-- Single OLED (left) -->
+                            <text x="130" y="40" text-anchor="middle" font-size="11" font-weight="500" fill="currentColor">Standard OLED</text>
+                            <!-- Cathode -->
+                            <rect x="30" y="50" width="200" height="8" rx="1" fill="none" stroke="currentColor" stroke-width="1"/>
+                            <text x="10" y="57" text-anchor="end" font-size="7" fill="currentColor">Cathode</text>
+                            <!-- Single emissive layer -->
+                            <rect x="30" y="62" width="200" height="50" rx="2" fill="#9B59B6" fill-opacity="0.15" stroke="#9B59B6" stroke-width="1.2"/>
+                            <text x="130" y="92" text-anchor="middle" font-size="9" fill="#9B59B6">Single Emissive Stack</text>
+                            <!-- Anode -->
+                            <rect x="30" y="116" width="200" height="8" rx="1" fill="none" stroke="currentColor" stroke-width="1"/>
+                            <text x="10" y="123" text-anchor="end" font-size="7" fill="currentColor">Anode</text>
+                            <!-- Light output arrow -->
+                            <line x1="130" y1="48" x2="130" y2="32" stroke="#9B59B6" stroke-width="1.5"/>
+                            <circle cx="130" cy="28" r="3" fill="#9B59B6" fill-opacity="0.4"/>
+                            <!-- Tandem OLED (right) -->
+                            <text x="390" y="40" text-anchor="middle" font-size="11" font-weight="500" fill="currentColor">Tandem OLED</text>
+                            <!-- Cathode -->
+                            <rect x="290" y="50" width="200" height="8" rx="1" fill="none" stroke="currentColor" stroke-width="1"/>
+                            <!-- Stack 1 -->
+                            <rect x="290" y="62" width="200" height="30" rx="2" fill="#9B59B6" fill-opacity="0.15" stroke="#9B59B6" stroke-width="1.2"/>
+                            <text x="390" y="82" text-anchor="middle" font-size="8" fill="#9B59B6">Emissive Stack 1</text>
+                            <!-- Charge generation layer -->
+                            <rect x="290" y="96" width="200" height="10" rx="1" fill="currentColor" fill-opacity="0.08" stroke="currentColor" stroke-width="0.8"/>
+                            <text x="390" y="104" text-anchor="middle" font-size="7" fill="currentColor">Charge Generation Layer</text>
+                            <!-- Stack 2 -->
+                            <rect x="290" y="110" width="200" height="30" rx="2" fill="#9B59B6" fill-opacity="0.2" stroke="#9B59B6" stroke-width="1.2"/>
+                            <text x="390" y="130" text-anchor="middle" font-size="8" fill="#9B59B6">Emissive Stack 2</text>
+                            <!-- Anode -->
+                            <rect x="290" y="144" width="200" height="8" rx="1" fill="none" stroke="currentColor" stroke-width="1"/>
+                            <!-- Brighter light output -->
+                            <line x1="380" y1="48" x2="380" y2="28" stroke="#9B59B6" stroke-width="2"/><circle cx="380" cy="24" r="4" fill="#9B59B6" fill-opacity="0.5"/>
+                            <line x1="400" y1="48" x2="400" y2="28" stroke="#9B59B6" stroke-width="2"/><circle cx="400" cy="24" r="4" fill="#9B59B6" fill-opacity="0.5"/>
+                            <!-- Benefits -->
+                            <text x="130" y="145" text-anchor="middle" font-size="9" fill="currentColor">100% load on one stack</text>
+                            <text x="390" y="170" text-anchor="middle" font-size="9" fill="currentColor">Load shared → brighter, longer life</text>
+                            <text x="260" y="200" text-anchor="middle" font-size="9" fill="currentColor">Stacking doubles brightness headroom while halving wear on each layer</text>
+                        </svg>
+                        <figcaption>Tandem OLED stacks multiple emissive layers, sharing the workload for higher brightness and longevity</figcaption>
+                    </figure>
+
+                    <hr class="section-divider">
+
+                    <h2 id="future">Part 3: The Future — Promising but Unproven</h2>
+
+                    <hr class="section-divider">
+
+                    <h3 id="microled">MicroLED — The Dream, If It Can Scale</h3>
+
+                    <p>MicroLED uses tiny, inorganic LEDs as the pixels themselves. Each pixel can be fully dark or push high brightness without the aging limits that organic materials face. That means MicroLED combines the two things displays usually trade against each other — OLED-level contrast and pixel control, with the kind of sustained brightness LCD handles more comfortably.</p>
+
+                    <p>The weaknesses show up in the details. Near-black performance depends on how the pixels are driven, and dark gradients can sometimes look steppy or unstable. At lower pixel densities, you might pick up a faint grid in bright scenes.</p>
+
+                    <figure class="panel-diagram">
+                        <svg viewBox="0 0 520 190" xmlns="http://www.w3.org/2000/svg">
+                            <text x="260" y="16" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor">MicroLED — Inorganic Self-Emissive Pixels</text>
+                            <!-- Substrate -->
+                            <rect x="40" y="140" width="440" height="20" rx="2" fill="currentColor" fill-opacity="0.05" stroke="currentColor" stroke-width="1.2"/>
+                            <text x="260" y="154" text-anchor="middle" font-size="9" fill="currentColor">Substrate</text>
+                            <!-- Individual micro LED chips -->
+                            <rect x="60" y="95" width="30" height="40" rx="2" fill="#E74C3C" fill-opacity="0.2" stroke="#E74C3C" stroke-width="1.5"/>
+                            <text x="75" y="120" text-anchor="middle" font-size="8" font-weight="500" fill="#E74C3C">μR</text>
+                            <line x1="75" y1="93" x2="75" y2="70" stroke="#E74C3C" stroke-width="1.5"/>
+                            <circle cx="75" cy="65" r="5" fill="#E74C3C" fill-opacity="0.4" stroke="#E74C3C" stroke-width="0.8"/>
+                            <rect x="100" y="95" width="30" height="40" rx="2" fill="#2ECC71" fill-opacity="0.2" stroke="#2ECC71" stroke-width="1.5"/>
+                            <text x="115" y="120" text-anchor="middle" font-size="8" font-weight="500" fill="#2ECC71">μG</text>
+                            <line x1="115" y1="93" x2="115" y2="70" stroke="#2ECC71" stroke-width="1.5"/>
+                            <circle cx="115" cy="65" r="5" fill="#2ECC71" fill-opacity="0.4" stroke="#2ECC71" stroke-width="0.8"/>
+                            <rect x="140" y="95" width="30" height="40" rx="2" fill="#3498DB" fill-opacity="0.2" stroke="#3498DB" stroke-width="1.5"/>
+                            <text x="155" y="120" text-anchor="middle" font-size="8" font-weight="500" fill="#3498DB">μB</text>
+                            <line x1="155" y1="93" x2="155" y2="70" stroke="#3498DB" stroke-width="1.5"/>
+                            <circle cx="155" cy="65" r="5" fill="#3498DB" fill-opacity="0.4" stroke="#3498DB" stroke-width="0.8"/>
+                            <!-- Second pixel group -->
+                            <rect x="195" y="95" width="30" height="40" rx="2" fill="#E74C3C" fill-opacity="0.2" stroke="#E74C3C" stroke-width="1.5"/>
+                            <text x="210" y="120" text-anchor="middle" font-size="8" font-weight="500" fill="#E74C3C">μR</text>
+                            <line x1="210" y1="93" x2="210" y2="70" stroke="#E74C3C" stroke-width="1.5"/>
+                            <circle cx="210" cy="65" r="5" fill="#E74C3C" fill-opacity="0.4" stroke="#E74C3C" stroke-width="0.8"/>
+                            <rect x="235" y="95" width="30" height="40" rx="2" fill="#2ECC71" fill-opacity="0.2" stroke="#2ECC71" stroke-width="1.5"/>
+                            <text x="250" y="120" text-anchor="middle" font-size="8" font-weight="500" fill="#2ECC71">μG</text>
+                            <line x1="250" y1="93" x2="250" y2="70" stroke="#2ECC71" stroke-width="1.5"/>
+                            <circle cx="250" cy="65" r="5" fill="#2ECC71" fill-opacity="0.4" stroke="#2ECC71" stroke-width="0.8"/>
+                            <rect x="275" y="95" width="30" height="40" rx="2" fill="#3498DB" fill-opacity="0.2" stroke="#3498DB" stroke-width="1.5"/>
+                            <text x="290" y="120" text-anchor="middle" font-size="8" font-weight="500" fill="#3498DB">μB</text>
+                            <line x1="290" y1="93" x2="290" y2="70" stroke="#3498DB" stroke-width="1.5"/>
+                            <circle cx="290" cy="65" r="5" fill="#3498DB" fill-opacity="0.4" stroke="#3498DB" stroke-width="0.8"/>
+                            <!-- OFF pixel group -->
+                            <rect x="330" y="95" width="30" height="40" rx="2" fill="currentColor" fill-opacity="0.03" stroke="currentColor" stroke-width="0.8" opacity="0.4"/>
+                            <rect x="370" y="95" width="30" height="40" rx="2" fill="currentColor" fill-opacity="0.03" stroke="currentColor" stroke-width="0.8" opacity="0.4"/>
+                            <rect x="410" y="95" width="30" height="40" rx="2" fill="currentColor" fill-opacity="0.03" stroke="currentColor" stroke-width="0.8" opacity="0.4"/>
+                            <text x="390" y="120" text-anchor="middle" font-size="8" fill="currentColor" opacity="0.4">Off</text>
+                            <!-- Labels -->
+                            <text x="115" y="48" text-anchor="middle" font-size="9" fill="currentColor">← Pixel 1 →</text>
+                            <text x="250" y="48" text-anchor="middle" font-size="9" fill="currentColor">← Pixel 2 →</text>
+                            <text x="260" y="180" text-anchor="middle" font-size="9" fill="currentColor">Inorganic LED chips — no organic degradation, high brightness + true blacks</text>
+                        </svg>
+                        <figcaption>MicroLED uses microscopic inorganic LED chips as individual subpixels — combining OLED's contrast with LED's durability</figcaption>
+                    </figure>
+
+                    <h4>Why It's Not Coming to Your Living Room Anytime Soon</h4>
+
+                    <p>A 4K display requires transferring nearly 25 million microscopic LEDs to a substrate with sub-micron precision. Even a 99.99% yield rate leaves thousands of dead pixels that must be individually repaired. Current production yields sit around 65% for 4K panels. A 136-inch MicroLED TV costs upwards of $150,000.</p>
+
+                    <p>There's also the size effect — as LED chips shrink below 50 micrometers, their efficiency plummets due to sidewall defects, leading to higher power consumption. Red MicroLEDs are particularly difficult to manufacture, often exhibiting lower efficiency and material inconsistency compared to blue and green.</p>
+
+                    <hr class="section-divider">
+
+                    <h3 id="qdel">QDEL — Quantum Dots That Make Their Own Light</h3>
+
+                    <p>QDEL is the electroluminescent version of quantum dot displays. Instead of using quantum dots as a color layer over another light source, electricity drives the dots directly, so each sub-pixel emits its own light.</p>
+
+                    <p>If it works at TV scale, the upside is clear — self-emissive per-pixel blacks with the extremely saturated, naturally narrow-band color output of quantum dots. The blockers are durability and control. Red and green quantum dots are further along, but blue remains the toughest for efficiency and long-term stability.</p>
+
+                    <figure class="panel-diagram">
+                        <svg viewBox="0 0 520 190" xmlns="http://www.w3.org/2000/svg">
+                            <text x="260" y="16" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor">QDEL — Electroluminescent Quantum Dots</text>
+                            <!-- Electrode top (cathode) -->
+                            <rect x="60" y="50" width="400" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="1.2"/>
+                            <text x="40" y="58" text-anchor="end" font-size="8" fill="currentColor">Cathode</text>
+                            <!-- QD emissive layer -->
+                            <rect x="60" y="64" width="120" height="55" rx="2" fill="#E74C3C" fill-opacity="0.1" stroke="#E74C3C" stroke-width="1.2"/>
+                            <circle cx="90" cy="86" r="6" fill="#E74C3C" fill-opacity="0.3" stroke="#E74C3C" stroke-width="1"/><circle cx="110" cy="92" r="7" fill="#E74C3C" fill-opacity="0.3" stroke="#E74C3C" stroke-width="1"/><circle cx="135" cy="85" r="6" fill="#E74C3C" fill-opacity="0.3" stroke="#E74C3C" stroke-width="1"/><circle cx="155" cy="95" r="5" fill="#E74C3C" fill-opacity="0.3" stroke="#E74C3C" stroke-width="1"/>
+                            <text x="120" y="78" text-anchor="middle" font-size="8" fill="#E74C3C">Red QDs</text>
+                            <!-- Green QD layer -->
+                            <rect x="200" y="64" width="120" height="55" rx="2" fill="#2ECC71" fill-opacity="0.1" stroke="#2ECC71" stroke-width="1.2"/>
+                            <circle cx="230" cy="88" r="5" fill="#2ECC71" fill-opacity="0.3" stroke="#2ECC71" stroke-width="1"/><circle cx="255" cy="84" r="6" fill="#2ECC71" fill-opacity="0.3" stroke="#2ECC71" stroke-width="1"/><circle cx="280" cy="90" r="5" fill="#2ECC71" fill-opacity="0.3" stroke="#2ECC71" stroke-width="1"/><circle cx="300" cy="86" r="4" fill="#2ECC71" fill-opacity="0.3" stroke="#2ECC71" stroke-width="1"/>
+                            <text x="260" y="78" text-anchor="middle" font-size="8" fill="#2ECC71">Green QDs</text>
+                            <!-- Blue QD layer -->
+                            <rect x="340" y="64" width="120" height="55" rx="2" fill="#3498DB" fill-opacity="0.1" stroke="#3498DB" stroke-width="1.2"/>
+                            <circle cx="370" cy="87" r="4" fill="#3498DB" fill-opacity="0.3" stroke="#3498DB" stroke-width="1"/><circle cx="395" cy="90" r="5" fill="#3498DB" fill-opacity="0.3" stroke="#3498DB" stroke-width="1"/><circle cx="420" cy="85" r="4" fill="#3498DB" fill-opacity="0.3" stroke="#3498DB" stroke-width="1"/><circle cx="440" cy="92" r="4" fill="#3498DB" fill-opacity="0.3" stroke="#3498DB" stroke-width="1"/>
+                            <text x="400" y="78" text-anchor="middle" font-size="8" fill="#3498DB">Blue QDs</text>
+                            <!-- Electrode bottom (anode) -->
+                            <rect x="60" y="123" width="400" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="1.2"/>
+                            <text x="40" y="131" text-anchor="end" font-size="8" fill="currentColor">Anode</text>
+                            <!-- Voltage/electricity symbol -->
+                            <text x="30" y="94" text-anchor="middle" font-size="14" fill="currentColor">⚡</text>
+                            <text x="490" y="94" text-anchor="middle" font-size="14" fill="currentColor">⚡</text>
+                            <!-- Light emission arrows -->
+                            <line x1="120" y1="48" x2="120" y2="35" stroke="#E74C3C" stroke-width="1.5"/><circle cx="120" cy="31" r="3" fill="#E74C3C" fill-opacity="0.5"/>
+                            <line x1="260" y1="48" x2="260" y2="35" stroke="#2ECC71" stroke-width="1.5"/><circle cx="260" cy="31" r="3" fill="#2ECC71" fill-opacity="0.5"/>
+                            <line x1="400" y1="48" x2="400" y2="35" stroke="#3498DB" stroke-width="1.5"/><circle cx="400" cy="31" r="3" fill="#3498DB" fill-opacity="0.5"/>
+                            <text x="260" y="152" text-anchor="middle" font-size="9" fill="currentColor">Electricity drives quantum dots directly — no backlight, no OLED layer</text>
+                            <text x="260" y="170" text-anchor="middle" font-size="9" fill="currentColor">Self-emissive + narrow-band QD color accuracy — if blue QDs can be stabilized</text>
+                        </svg>
+                        <figcaption>QDEL drives quantum dots directly with electricity, combining self-emission with QD color purity</figcaption>
+                    </figure>
+
+                    <p>QDEL is a clean concept on paper, but it's still in the prove-it-in-real-devices phase. Not a near-term option for mainstream TVs.</p>
+
+                    <hr class="section-divider">
+
+                    <h2 id="india-factor">The India Factor</h2>
+
+                    <p>Most of what you read about display technology online is written for Western or East Asian markets. The Indian context is fundamentally different, and I think it's worth spelling out why.</p>
+
+                    <p>Start with geography. India sits close to the Tropic of Cancer, which means direct, harsh sunlight for most of the year. Ambient light levels in Indian homes are inherently higher than in most markets these displays are optimized for.</p>
+
+                    <p>Then look at how Indian homes are designed. Large windows, wide doorways, and in traditional houses, large skylights. Apartments come with floor-to-ceiling glass. Add the choice of paint colors, art, decorations, and furniture — all of which reflect light differently — and you end up with uneven lighting zones across a single room.</p>
+
+                    <p>Indian families typically have more than three members spanning different age groups. While we assume the TV is watched together, viewing habits are actually grouped by age — kids, adults, and older family members often watch at different times. And most Tier 1 homes are compact, meaning users usually sit directly in front of the TV rather than spread across wide angles.</p>
+
+                    <p>We also analyze the content being released — is it more saturated? Are more shows getting the darker contrast treatment? All of this feeds into panel selection.</p>
+
+                    <div class="callout-box">
+                        A solution that works brilliantly in a Western or East Asian market might not work in India. Many brands blindly bring the same display solution here. It works out decently because most users don't know what to expect or that better possibilities exist. But "it works out" isn't the same as "it's the right choice."
+                    </div>
+
+                    <hr class="section-divider">
+
+                    <h2 id="panel-suppliers">A Word on Panel Suppliers</h2>
+
+                    <p>Not all panels are created equal, even within the same technology. I've had panel manufacturers claim incredible specs during vendor pitches, only for the display to fall apart during testing. We've had to immediately reject panels that looked nothing like what was promised.</p>
+
+                    <p>There's a well-known case in the industry with a panel supplier named Panda. During testing, we couldn't notice anything wrong. The panels passed our quality checks. But once products hit the market, we discovered severe flaws that led to large-scale replacements and a terrible customer experience.</p>
+
+                    <p>The technical causes were damning — Gate Driver and Chip-on-Film failures causing horizontal lines and jumping pictures, internal glass shorting in the 43" and 50" models leading to ghosting, and high-voltage line shorts that would blank the screen entirely. The root cause? Manufacturing defects like copper erosion in via holes, poor film bonding, and thin glass substrates chosen to cut costs. These panels were highly sensitive to humidity and heat — conditions that are the norm, not the exception, in India.</p>
+
+                    <p>The lesson: a spec sheet tells you what a panel <em>can</em> do. It doesn't tell you what it <em>will</em> do after twelve months in a humid Chennai apartment.</p>
+
+                    <hr class="section-divider">
+
+                    <h2 id="how-lumio-picks-panels">How We Pick Panels at Lumio</h2>
+
+                    <p>Everything I've written above feeds directly into how we make panel decisions at Lumio. We don't just pick a panel type and ship it — we evaluate every panel against the specific conditions it'll face in Indian homes.</p>
+
+                    <p>For the <strong>Lumio Vision 7</strong>, we went with a QLED panel using a proper quantum dot sheet instead of a cheaper on-lens solution. The cost difference was real, but so was the color gamut improvement — and in the bright, sunlit rooms most Indian buyers watch TV in, that difference is visible. We tested multiple QD implementations from different suppliers before committing.</p>
+
+                    <p>For the <strong>Lumio Vision 9</strong>, we pushed further on contrast and HDR performance. The panel selection process involved weeks of side-by-side testing under different ambient light conditions — morning sun, evening tube lights, pitch dark movie nights. We rejected panels that looked great in a demo room but fell apart under real-world Indian lighting.</p>
+
+                    <p>The <strong>Lumio Vision Arc</strong> was a different challenge altogether — balancing design constraints with display quality in a form factor that hasn't been done at this price point in India.</p>
+
+                    <p>The point isn't that Lumio uses some secret technology nobody else has access to. Every brand buys from the same set of panel suppliers. The difference is in <em>which</em> panel you pick, <em>how</em> you tune it, and whether you're optimizing for a spec sheet or for a living room in Mumbai.</p>
+
+                    <hr class="section-divider">
+
+                    <h2 id="what-to-buy">So What Should You Actually Buy?</h2>
+
+                    <p>Honestly, for watching content, you shouldn't be worried about panel type. What matters is the experience — does it look good to your eyes, in your room, with the content you watch? That said, at certain price points, you can only get certain panel types:</p>
+
+                    <table class="blog-table">
+                        <thead><tr><th>Budget</th><th>What You Get</th><th>What to Expect</th></tr></thead>
+                        <tbody>
+                            <tr><td><strong>~&#8377;30,000</strong></td><td>Basic QLED</td><td>Good color, decent brightness. Perfectly fine for most living rooms.</td></tr>
+                            <tr><td><strong>~&#8377;60,000</strong></td><td>High-quality QLED or entry-level Mini LED</td><td>Noticeably better contrast and HDR. This is the sweet spot for most buyers.</td></tr>
+                            <tr><td><strong>&#8377;1,00,000+</strong></td><td>OLED</td><td>Per-pixel contrast, stunning motion. Best in controlled lighting.</td></tr>
+                            <tr><td><strong>&#8377;1,50,000+</strong></td><td>QD-OLED</td><td>The best color-at-brightness available today. Enthusiast territory.</td></tr>
+                        </tbody>
+                    </table>
+
+                    <p>For the foreseeable future, I think Mini LED is going to be the practical choice for most consumers. The technology is mature, prices are coming down, and it handles Indian living room conditions — bright ambient light, long viewing hours, mixed content — better than any other option at its price point.</p>
+
+                    <p>That said, OLED panel manufacturing costs have started falling as more manufacturers enter the market — Samsung Display, TCL CSOT, BOE, and HKC are all now producing OLED panels. As supply increases, expect OLED to become more accessible in the coming years.</p>
+
+                    <hr class="section-divider">
+
+                    <h2>The Bottom Line</h2>
+
+                    <p>Every panel technology is a set of trade-offs. Backlit displays trade pixel-level control for brightness and durability. Self-emissive displays trade sustained brightness for contrast and precision. There is no perfect panel — only the right panel for a specific use case, room, and budget.</p>
+
+                    <p>The technologies that will dominate the next decade aren't necessarily the ones with the best specs on paper. They're the ones that can be manufactured reliably, at scale, at a price point that makes sense for real consumers — not just the ones who read spec sheets.</p>
+
+                    <blockquote>
+                        "Specs tell you what a display can do in a lab. Reliability tells you what it'll do in your living room. I've learned to bet on the latter."
+                    </blockquote>
+
+                    <p><em>Have questions about TV display technology? Reach out on <a href="https://www.linkedin.com/in/manojitballav/">LinkedIn</a> or <a href="https://x.com/manojitballav">X/Twitter</a>.</em></p>
+
+                    <hr class="section-divider">
+                    <div class="image-credits">
+                        <h4>Image Credits</h4>
+                        <p>Hero image sourced from <a href="https://unsplash.com" target="_blank" rel="noopener">Unsplash</a> under the <a href="https://unsplash.com/license" target="_blank" rel="noopener">Unsplash License</a>.</p>
+                    </div>
+
+        </div>
+    </div>
+</section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__text">&copy; 2026 Manojit Ballav. Content licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.</div>
+                <div class="footer__links">
+                    <a href="https://www.linkedin.com/in/manojitballav/" target="_blank" rel="noopener">LinkedIn</a>
+                    <a href="https://x.com/manojitballav" target="_blank" rel="noopener">X</a>
+                    <a href="https://github.com/manojitballav" target="_blank" rel="noopener">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => { header.classList.toggle('header--scrolled', window.scrollY > 10); });
+        const menuBtn = document.getElementById('menuBtn');
+        const nav = document.getElementById('nav');
+        menuBtn.addEventListener('click', () => {
+            nav.classList.toggle('open');
+            const isOpen = nav.classList.contains('open');
+            menuBtn.innerHTML = isOpen
+                ? '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="6" y1="6" x2="18" y2="18"/><line x1="6" y1="18" x2="18" y2="6"/></svg>'
+                : '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>';
+        });
+        nav.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                nav.classList.remove('open');
+                menuBtn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>';
+            });
+        });
+        const themeToggle = document.getElementById('themeToggle');
+        const themeToggleMobile = document.getElementById('themeToggleMobile');
+        const mobileLabel = themeToggleMobile.querySelector('.theme-toggle--mobile__label');
+        const root = document.documentElement;
+        function updateMobileLabel() {
+            const isDark = root.getAttribute('data-theme') === 'dark';
+            mobileLabel.textContent = isDark ? 'Light Mode' : 'Dark Mode';
+        }
+        function setTheme(theme) {
+            root.setAttribute('data-theme', theme);
+            localStorage.setItem('theme', theme);
+            updateMobileLabel();
+        }
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) { setTheme(savedTheme); }
+        else if (window.matchMedia('(prefers-color-scheme: dark)').matches) { setTheme('dark'); }
+        updateMobileLabel();
+        themeToggle.addEventListener('click', () => {
+            const current = root.getAttribute('data-theme');
+            setTheme(current === 'dark' ? 'light' : 'dark');
+        });
+        themeToggleMobile.addEventListener('click', () => {
+            const current = root.getAttribute('data-theme');
+            setTheme(current === 'dark' ? 'light' : 'dark');
+        });
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+            if (!localStorage.getItem('theme')) { setTheme(e.matches ? 'dark' : 'light'); }
+        });
+    </script>
+
+</body>
+</html>
