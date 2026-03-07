@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <script>(function(){var t=localStorage.getItem('theme')||(window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t)})()</script>
     <title>Lumio Smart TVs | Vision 9 QD-Mini LED, Vision 7 QLED, Vision Arc Projectors</title>
     <meta charset="UTF-8">
     <meta name="description" content="Lumio by Circuit House Technologies – India's fastest smart TVs. Vision 9 QD-Mini LED (₹59,999), Vision 7 QLED (from ₹27,999), Vision Arc projectors. 2x faster than competitors with Flagship Boss Processor.">
@@ -9,10 +10,10 @@
     <meta name="author" content="Manojit Ballav">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://manojitballav.com/Lumio.html">
-    <link rel="icon" href="favicon.ico" sizes="48x48">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" href="images/favicon.ico" sizes="48x48">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
     <link rel="manifest" href="site.webmanifest">
 
     <!-- Open Graph / Facebook -->
@@ -111,116 +112,175 @@
     }
     </script>
 
-<!-- Stylesheets -->
-<link rel="stylesheet" href="css/bootstrap.css"/>
-<link rel="stylesheet" href="css/reset.css"/>
-<link rel="stylesheet" href="css/style.css"/>
-<link rel="stylesheet" href="css/animate.css"/>
-<link rel="stylesheet" href="css/magnific-popup.css"/>
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<!-- Google Web fonts -->
-<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Google+Sans+Text:wght@400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-<!-- Font icons -->
-<script src="https://kit.fontawesome.com/dde8d79f39.js" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="icon-fonts/essential-regular-fonts/essential-icons.css"/>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-<!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/google-style.css">
 
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-61ZX5F590H"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-61ZX5F590H');
+    </script>
 </head>
-<body class="diag">
+<body>
 
-    <!-- LOADER -->
-    <div class="loader-wrapper">
-        <div class="loader"></div>
+    <header class="header" id="header">
+        <div class="header__inner">
+            <a href="/" class="header__logo">
+                <img src="images/logo.png" alt="Mono" class="header__logo-img">
+            </a>
+            <nav class="header__nav" id="nav">
+                <a href="index.html#home">Home</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#portfolio">Portfolio</a>
+                <a href="blog/blog-page.html">Blog</a>
+                <a href="index.html#contact">Contact</a>
+                <button class="theme-toggle--mobile" id="themeToggleMobile" aria-label="Toggle dark mode">
+                    <i class="fa-solid fa-moon"></i>
+                    <i class="fa-solid fa-sun"></i>
+                    <span class="theme-toggle--mobile__label">Dark Mode</span>
+                </button>
+            </nav>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                <i class="fa-solid fa-moon"></i>
+                <i class="fa-solid fa-sun"></i>
+            </button>
+            <button class="header__menu-btn" id="menuBtn" aria-label="Toggle menu">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="3" y1="6" x2="21" y2="6"/>
+                    <line x1="3" y1="12" x2="21" y2="12"/>
+                    <line x1="3" y1="18" x2="21" y2="18"/>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <div class="article-hero">
+        <img src="images/blog-lumio.webp" alt="Lumio Smart TVs - Vision 9 QD-Mini LED and Vision 7 QLED">
     </div>
-    
-    <nav class="subpage-nav">
-        <div class="row">
-            <div class="container">
-                <div class="logo">
-                    <img src="images/logo.png" srcset="images/logo.png 1x, images/2xLogo.png 2x, images/3xLogo.png 3x" alt="MONO">
-                </div>
-                <div class="responsive"><i data-icon="m" class="icon"></i></div>
-                <ul class="nav-menu">
-                    <li><a href="index.html#home" class="smoothScroll">Home</a></li>
-                    <li><a href="index.html#about" class="smoothScroll">About</a></li>
-                    <li><a href="index.html#achievements" class="smoothScroll">Achievements</a></li>
-                    <li><a href="index.html#skills" class="smoothScroll">Skills</a></li>
-                    <li><a href="index.html#portfolio" class="smoothScroll">Portfolio</a></li>
-                    <li><a href="index.html#posts" class="smoothScroll">Posts</a></li>
-                    <li><a href="blog-page.html">Blog</a></li>
-                    <li><a href="index.html#contact" class="smoothScroll">Contact</a></li>
+
+    <section class="section">
+        <div class="container" style="max-width: 800px;">
+            <div class="article-header">
+                <div class="article-header__category">Product</div>
+                <h1 class="article-header__title">Lumio Smart TVs: Vision 9, Vision 7 & Vision Arc</h1>
+                <div class="article-header__meta">28 February 2025 &bull; Manojit Ballav (Mono)</div>
+            </div>
+            <div class="article-body">
+
+                <p>Lumio, under Circuit House Technologies, was founded in March 2024 by <strong>Raghu Reddy</strong> and <strong>Kailash Sankaranarayanan</strong>. The vision: create smart TVs that don't just match the competition but fundamentally outperform them.</p>
+
+                <blockquote>
+                    The Indian Smart TV market is valued at $5 billion and is set to expand at a steady 13% CAGR over the next three to four years. Lumio is positioned to lead this revolution with TVs that are 2x faster than leading competitors.
+                </blockquote>
+
+                <h2>Product Lineup</h2>
+                <ul>
+                    <li><strong>Lumio Vision 9</strong> - QD-Mini LED TV (55-inch, 900 nits brightness)</li>
+                    <li><strong>Lumio Vision 7</strong> - QLED Series (43, 50, 55-inch)</li>
+                    <li><strong>Lumio Vision Arc 5</strong> - Home Projector</li>
+                    <li><strong>Lumio Vision Arc 7</strong> - Home Projector</li>
                 </ul>
+
+                <p>All products are powered by the proprietary <strong>Flagship Boss Processor</strong> with 3GB RAM, delivering 2x faster app loading and rebooting compared to Sony and other leading TVs.</p>
+
+                <h2>Early Traction</h2>
+                <p>Within just two months of launch, Lumio crossed <strong>$1 million in gross merchandise value</strong>. The $4.3M seed round, led by Stellaris Venture Partners and 3one4 Capital, is fueling rapid expansion.</p>
+
+                <p><em>Read the full story: <a href="blog/blog-lumio-journey.html">Building Lumio: My Journey from Xiaomi to India's Next Smart TV Revolution</a></em></p>
+
             </div>
         </div>
-    </nav>
-    
-    
-    <div class="container content">
-        <div class="row">
-            <div class="blog-single col-md-8 col-md-offset-2">
-                <div class="blog-image">
-                    <img src="images/blog-big.jpg" alt="Lumio Smart TVs - Vision 9 QD-Mini LED and Vision 7 QLED">
-                </div>
-                <h1>Lumio Smart TVs: Vision 9, Vision 7 & Vision Arc</h1>
-                <div class="blog-detail">Posted <span>28 February 2025</span> by Mono  </div>
-                
-                <div class="blog-content">
+    </section>
 
-                    <p>Lumio, under Circuit House Technologies, was founded in March 2024 by <strong>Raghu Reddy</strong> and <strong>Kailash Sankaranarayanan</strong>. The vision: create smart TVs that don't just match the competition but fundamentally outperform them.</p>
-
-                    <blockquote>
-                        The Indian Smart TV market is valued at $5 billion and is set to expand at a steady 13% CAGR over the next three to four years. Lumio is positioned to lead this revolution with TVs that are 2x faster than leading competitors.
-                    </blockquote>
-
-                    <h2>Product Lineup</h2>
-                    <ul class="list-style">
-                        <li><strong>Lumio Vision 9</strong> - QD-Mini LED TV (55-inch, 900 nits brightness)</li>
-                        <li><strong>Lumio Vision 7</strong> - QLED Series (43, 50, 55-inch)</li>
-                        <li><strong>Lumio Vision Arc 5</strong> - Home Projector</li>
-                        <li><strong>Lumio Vision Arc 7</strong> - Home Projector</li>
-                    </ul>
-
-                    <p>All products are powered by the proprietary <strong>Flagship Boss Processor</strong> with 3GB RAM, delivering 2x faster app loading and rebooting compared to Sony and other leading TVs.</p>
-
-                    <h2>Early Traction</h2>
-                    <p>Within just two months of launch, Lumio crossed <strong>$1 million in gross merchandise value</strong>. The $4.3M seed round, led by Stellaris Venture Partners and 3one4 Capital, is fueling rapid expansion.</p>
-
-                    <p><em>Read the full story: <a href="blog-lumio-journey.html">Building Lumio: My Journey from Xiaomi to India's Next Smart TV Revolution</a></em></p>
-
-                </div>
-                
-            </div>
-        </div>
-    </div>
-         
-         
-    <footer>
+    <footer class="footer">
         <div class="container">
-            <div class="social">
-                <a href="https://www.facebook.com/manojitballav"><i class="fa fa-facebook" aria-hidden="true"></i>  </a>
-                <a href="https://x.com/manojitballav"><i class="fa fa-twitter" aria-hidden="true"></i>  </a>
-                <a href="https://www.instagram.com/ilegalmono/"><i class="fa fa-instagram" aria-hidden="true"></i>  </a>
-                <a href="https://github.com/manojitballav"><i class="fa fa-github" aria-hidden="true"></i>  </a>
-                <a href="https://www.linkedin.com/in/manojitballav/"><i class="fa fa-linkedin" aria-hidden="true"></i>  </a>
+            <div class="footer__inner">
+                <div class="footer__text">&copy; 2026 Manojit Ballav. Content licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.</div>
+                <div class="footer__links">
+                    <a href="https://www.linkedin.com/in/manojitballav/" target="_blank" rel="noopener">LinkedIn</a>
+                    <a href="https://x.com/manojitballav" target="_blank" rel="noopener">X</a>
+                    <a href="https://github.com/manojitballav" target="_blank" rel="noopener">GitHub</a>
+                </div>
             </div>
-            <p>All credits to the original template creator<br/>Created by tavonline</p>
         </div>
     </footer>
-    
-<!-- Javascripts -->
-<script src="js/jquery-3.7.1.min.js"></script><!-- jQuery library -->
-<script src="js/bootstrap.min.js"></script> 
-<script src="js/wow.min.js"></script>
-<script src="js/isotope.pkgd.min.js"></script>
-<script src="js/typed.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/main.js"></script>  
-    
- 
+
+    <script>
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+            header.classList.toggle('header--scrolled', window.scrollY > 10);
+        });
+
+        const menuBtn = document.getElementById('menuBtn');
+        const nav = document.getElementById('nav');
+        menuBtn.addEventListener('click', () => {
+            nav.classList.toggle('open');
+            const isOpen = nav.classList.contains('open');
+            menuBtn.innerHTML = isOpen
+                ? '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="6" y1="6" x2="18" y2="18"/><line x1="6" y1="18" x2="18" y2="6"/></svg>'
+                : '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>';
+        });
+
+        nav.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                nav.classList.remove('open');
+                menuBtn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>';
+            });
+        });
+
+        const themeToggle = document.getElementById('themeToggle');
+        const themeToggleMobile = document.getElementById('themeToggleMobile');
+        const mobileLabel = themeToggleMobile.querySelector('.theme-toggle--mobile__label');
+        const root = document.documentElement;
+
+        function updateMobileLabel() {
+            const isDark = root.getAttribute('data-theme') === 'dark';
+            mobileLabel.textContent = isDark ? 'Light Mode' : 'Dark Mode';
+        }
+
+        function setTheme(theme) {
+            root.setAttribute('data-theme', theme);
+            localStorage.setItem('theme', theme);
+            updateMobileLabel();
+        }
+
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) {
+            setTheme(savedTheme);
+        } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            setTheme('dark');
+        }
+        updateMobileLabel();
+
+        themeToggle.addEventListener('click', () => {
+            const current = root.getAttribute('data-theme');
+            setTheme(current === 'dark' ? 'light' : 'dark');
+        });
+
+        themeToggleMobile.addEventListener('click', () => {
+            const current = root.getAttribute('data-theme');
+            setTheme(current === 'dark' ? 'light' : 'dark');
+        });
+
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+            if (!localStorage.getItem('theme')) {
+                setTheme(e.matches ? 'dark' : 'light');
+            }
+        });
+    </script>
+
 </body>
 </html>

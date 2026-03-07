@@ -49,19 +49,19 @@ Lumio is an Indian smart TV brand under Circuit House Technologies, founded in M
 ## Blog Content Summaries
 
 ### 1. Different Types of Projectors in India
-**URL:** /projector-types-india.html
+**URL:** /blog/projector-types-india.html
 **Published:** January 6, 2026
 
 A comprehensive guide to projector technologies available in India: LCD, DLP, LED, Laser, and LCoS. Covers how each technology works, pros and cons, price ranges, and which type suits different use cases (home theater, office presentations, portable use, gaming).
 
 ### 2. Building Lumio: My Journey from Xiaomi to India's Next Smart TV Revolution
-**URL:** /blog-lumio-journey.html
+**URL:** /blog/blog-lumio-journey.html
 **Published:** December 15, 2024
 
 The Indian Smart TV market is valued at $5 billion with 13% CAGR growth. Lumio was founded to create TVs that outperform competition with 2x faster app loading and rebooting. The company raised $4.3M seed funding and crossed $1M GMV in 2 months. Key trends include FAST channels growing 43% YoY, regional content demand, and AI integration becoming table stakes.
 
 ### 3. The State of CTV in 2025: Why Connected TV is Eating Traditional Broadcasting
-**URL:** /blog-ctv-trends-2025.html
+**URL:** /blog/blog-ctv-trends-2025.html
 **Published:** December 10, 2024
 
 Streaming now accounts for 44.8% of total TV viewership, surpassing broadcast (20.1%) and cable (24.1%) combined. Key statistics:
@@ -73,7 +73,7 @@ Streaming now accounts for 44.8% of total TV viewership, surpassing broadcast (2
 - India Smart TV/OTT market: $22.39 billion in 2025, 18.2% CAGR
 
 ### 4. How AI is Transforming CTV Advertising: From Mass Broadcasting to Hyper-Personalization
-**URL:** /blog-ai-ctv-advertising.html
+**URL:** /blog/blog-ai-ctv-advertising.html
 **Published:** December 5, 2024
 
 52% of marketers believe AI is the biggest trend in Performance TV. AI applications in CTV:
@@ -85,7 +85,7 @@ Streaming now accounts for 44.8% of total TV viewership, surpassing broadcast (2
 - Over 90% of CTV ad dollars flow through programmatic pipes
 
 ### 5. FAST Channels: India's $12 Billion Opportunity in Free Streaming
-**URL:** /blog-fast-channels-india.html
+**URL:** /blog/blog-fast-channels-india.html
 **Published:** November 28, 2024
 
 FAST (Free Ad-Supported Streaming TV) market stands at $12.26 billion globally in 2025, forecast to reach $27.14 billion by 2030 (17.22% CAGR). India opportunity:
@@ -96,7 +96,7 @@ FAST (Free Ad-Supported Streaming TV) market stands at $12.26 billion globally i
 - Challenges include lower CPMs, measurement immaturity, piracy
 
 ### 6. Mini LED vs QLED vs OLED: A Product Manager's Guide to TV Technology in 2025
-**URL:** /blog-tv-technology-guide.html
+**URL:** /blog/blog-tv-technology-guide.html
 **Published:** November 20, 2024
 
 Technology comparison:

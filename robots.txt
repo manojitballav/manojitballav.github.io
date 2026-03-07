@@ -1,18 +1,17 @@
-# robots.txt for manojitballav.github.io
-# https://manojitballav.github.io/
+# robots.txt for manojitballav.com
 
 # Allow all crawlers by default
 User-agent: *
 Allow: /
+Disallow: /_old/
+Disallow: /CLAUDE.md
+Disallow: /mono_brand_guidelines.md
 
 # Sitemap location
 Sitemap: https://manojitballav.com/sitemap.xml
 
-# LLMs.txt for AI models
-# See: https://llmstxt.org/
-
 # ===========================================
-# AI Crawler Permissions (Generative Engine Optimization)
+# AI Crawler Permissions
 # ===========================================
 
 # OpenAI / ChatGPT
@@ -68,11 +67,3 @@ Allow: /
 # You.com AI
 User-agent: YouBot
 Allow: /
-
-# ===========================================
-# Disallow internal/template files
-# ===========================================
-User-agent: *
-Disallow: /frame*.html
-Disallow: /single-blog.html
-Disallow: /diagonal-slider.html

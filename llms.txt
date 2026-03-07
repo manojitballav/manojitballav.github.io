@@ -28,12 +28,12 @@ Previously worked at Xiaomi India on Mi TV and Redmi TV product lines.
 
 ## Blog Posts
 
-- [Different Types of Projectors in India](/projector-types-india.html): Guide to LCD, DLP, LED, Laser, and LCoS projectors
-- [Building Lumio: My Journey from Xiaomi to India's Next Smart TV Revolution](/blog-lumio-journey.html): The story behind Lumio and Circuit House Technologies
-- [The State of CTV in 2025](/blog-ctv-trends-2025.html): CTV accounts for 44.8% of TV viewership, surpassing broadcast and cable
-- [How AI is Transforming CTV Advertising](/blog-ai-ctv-advertising.html): AI enables 8x ROI on personalized marketing
-- [FAST Channels: India's $12 Billion Opportunity](/blog-fast-channels-india.html): Free streaming reshaping Indian entertainment
-- [Mini LED vs QLED vs OLED Guide](/blog-tv-technology-guide.html): Comprehensive TV technology comparison
+- [Different Types of Projectors in India](/blog/projector-types-india.html): Guide to LCD, DLP, LED, Laser, and LCoS projectors
+- [Building Lumio: My Journey from Xiaomi to India's Next Smart TV Revolution](/blog/blog-lumio-journey.html): The story behind Lumio and Circuit House Technologies
+- [The State of CTV in 2025](/blog/blog-ctv-trends-2025.html): CTV accounts for 44.8% of TV viewership, surpassing broadcast and cable
+- [How AI is Transforming CTV Advertising](/blog/blog-ai-ctv-advertising.html): AI enables 8x ROI on personalized marketing
+- [FAST Channels: India's $12 Billion Opportunity](/blog/blog-fast-channels-india.html): Free streaming reshaping Indian entertainment
+- [Mini LED vs QLED vs OLED Guide](/blog/blog-tv-technology-guide.html): Comprehensive TV technology comparison
 
 ## Contact & Social
 
