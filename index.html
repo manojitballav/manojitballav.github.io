@@ -39,12 +39,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Google+Sans+Text:wght@400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Preload LCP image -->
+    <link rel="preload" as="image" href="images/blog-tv-panels.webp" type="image/webp">
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Fonts (async to avoid render blocking) -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Google+Sans+Text:wght@400;500;700&family=Inter:wght@300;400;500;600;700&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Google+Sans+Text:wght@400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Google+Sans+Text:wght@400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"></noscript>
+
+    <!-- Font Awesome (async to avoid render blocking) -->
+    <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="css/google-style.css">
@@ -183,7 +191,7 @@
     <header class="header" id="header">
         <div class="header__inner">
             <a href="/" class="header__logo">
-                <img src="images/logo.png" alt="Mono" class="header__logo-img">
+                <img src="images/logo.webp" alt="Mono" class="header__logo-img" width="376" height="100">
             </a>
             <nav class="header__nav" id="nav">
                 <a href="#home">Home</a>
@@ -297,7 +305,7 @@
         <div class="geo-shape geo-shape--ring-lg geo-spin" style="bottom: 10%; right: 5%; opacity: 0.04;"></div>
         <div class="container">
             <div class="about__grid">
-                <img src="images/profile-2.webp" alt="Manojit Ballav" class="about__image reveal--scale" loading="lazy">
+                <img src="images/profile-2.webp" alt="Manojit Ballav" class="about__image reveal--scale" loading="lazy" width="883" height="885">
                 <div class="about__text reveal--right">
                     <span class="section__label">About Me</span>
                     <h2 class="section__title">Product leader specializing in consumer electronics</h2>
@@ -471,7 +479,7 @@
                 <!-- 2025 — Lumio -->
                 <div class="portfolio-card" data-category="software">
                     <div class="portfolio-card__image">
-                        <img src="images/lumio-tldr.webp" alt="Lumio TLDR" loading="lazy">
+                        <img src="images/lumio-tldr.webp" alt="Lumio TLDR" loading="lazy" width="2880" height="1620">
                     </div>
                     <div class="portfolio-card__body">
                         <div class="portfolio-card__category">Software</div>
@@ -482,7 +490,7 @@
 
                 <div class="portfolio-card" data-category="tv">
                     <div class="portfolio-card__image">
-                        <img src="images/lumio-vision9.webp" alt="Lumio Vision 9" loading="lazy">
+                        <img src="images/lumio-vision9.webp" alt="Lumio Vision 9" loading="lazy" width="730" height="400">
                     </div>
                     <div class="portfolio-card__body">
                         <div class="portfolio-card__category">TV</div>
@@ -493,7 +501,7 @@
 
                 <div class="portfolio-card" data-category="tv">
                     <div class="portfolio-card__image">
-                        <img src="images/lumio-vision7.webp" alt="Lumio Vision 7" loading="lazy">
+                        <img src="images/lumio-vision7.webp" alt="Lumio Vision 7" loading="lazy" width="1200" height="674">
                     </div>
                     <div class="portfolio-card__body">
                         <div class="portfolio-card__category">TV</div>
@@ -504,7 +512,7 @@
 
                 <div class="portfolio-card" data-category="projector">
                     <div class="portfolio-card__image">
-                        <img src="images/lumio-arc7.webp" alt="Lumio Arc 7" loading="lazy">
+                        <img src="images/lumio-arc7.webp" alt="Lumio Arc 7" loading="lazy" width="1920" height="1080">
                     </div>
                     <div class="portfolio-card__body">
                         <div class="portfolio-card__category">Projector</div>
@@ -515,7 +523,7 @@
 
                 <div class="portfolio-card" data-category="projector">
                     <div class="portfolio-card__image">
-                        <img src="images/lumio-arc5.webp" alt="Lumio Arc 5" loading="lazy">
+                        <img src="images/lumio-arc5.webp" alt="Lumio Arc 5" loading="lazy" width="1600" height="900">
                     </div>
                     <div class="portfolio-card__body">
                         <div class="portfolio-card__category">Projector</div>
@@ -527,7 +535,7 @@
                 <!-- 2024 -->
                 <div class="portfolio-card" data-category="tv">
                     <div class="portfolio-card__image">
-                        <img src="images/xiaomismarttvxpro2024.webp" alt="Xiaomi Smart TV X Pro Series 2024" loading="lazy">
+                        <img src="images/xiaomismarttvxpro2024.webp" alt="Xiaomi Smart TV X Pro Series 2024" loading="lazy" width="2560" height="1460">
                     </div>
                     <div class="portfolio-card__body">
                         <div class="portfolio-card__category">TV</div>
@@ -538,7 +546,7 @@
 
                 <div class="portfolio-card" data-category="tv">
                     <div class="portfolio-card__image">
-                        <img src="images/xiaomismarttvxseries2024.webp" alt="Xiaomi X Series 2024" loading="lazy">
+                        <img src="images/xiaomismarttvxseries2024.webp" alt="Xiaomi X Series 2024" loading="lazy" width="1614" height="1192">
                     </div>
                     <div class="portfolio-card__body">
                         <div class="portfolio-card__category">TV</div>
@@ -549,7 +557,7 @@
 
                 <div class="portfolio-card" data-category="tv">
                     <div class="portfolio-card__image">
-                        <img src="images/redmifiretv4k2024.webp" alt="Redmi Smart Fire TV 4K" loading="lazy">
+                        <img src="images/redmifiretv4k2024.webp" alt="Redmi Smart Fire TV 4K" loading="lazy" width="400" height="400">
                     </div>
                     <div class="portfolio-card__body">
                         <div class="portfolio-card__category">TV</div>
@@ -560,7 +568,7 @@
 
                 <div class="portfolio-card" data-category="tv">
                     <div class="portfolio-card__image">
-                        <img src="images/redmifiretv32.webp" alt="Redmi Smart Fire TV 32" loading="lazy">
+                        <img src="images/redmifiretv32.webp" alt="Redmi Smart Fire TV 32" loading="lazy" width="400" height="400">
                     </div>
                     <div class="portfolio-card__body">
                         <div class="portfolio-card__category">TV</div>
@@ -572,7 +580,7 @@
                 <!-- 2023 -->
                 <div class="portfolio-card" data-category="tv">
                     <div class="portfolio-card__image">
-                        <img src="images/xiaomismarttvxpro2024.webp" alt="Xiaomi Smart TV X Pro Series 2023" loading="lazy">
+                        <img src="images/xiaomismarttvxpro2024.webp" alt="Xiaomi Smart TV X Pro Series 2023" loading="lazy" width="2560" height="1460">
                     </div>
                     <div class="portfolio-card__body">
                         <div class="portfolio-card__category">TV</div>
@@ -583,7 +591,7 @@
 
                 <div class="portfolio-card" data-category="tablet">
                     <div class="portfolio-card__image">
-                        <img src="images/xiaomipad6.webp" alt="Xiaomi Pad 6" loading="lazy">
+                        <img src="images/xiaomipad6.webp" alt="Xiaomi Pad 6" loading="lazy" width="2560" height="1508">
                     </div>
                     <div class="portfolio-card__body">
                         <div class="portfolio-card__category">Tablet</div>
@@ -595,7 +603,7 @@
                 <!-- 2022 -->
                 <div class="portfolio-card" data-category="tv">
                     <div class="portfolio-card__image">
-                        <img src="images/xiaomioledvision.webp" alt="Xiaomi OLED Vision" loading="lazy">
+                        <img src="images/xiaomioledvision.webp" alt="Xiaomi OLED Vision" loading="lazy" width="1977" height="1253">
                     </div>
                     <div class="portfolio-card__body">
                         <div class="portfolio-card__category">TV</div>
@@ -606,7 +614,7 @@
 
                 <div class="portfolio-card" data-category="tv">
                     <div class="portfolio-card__image">
-                        <img src="images/xiaomismarttv5a.webp" alt="Xiaomi Smart TV 5A" loading="lazy">
+                        <img src="images/xiaomismarttv5a.webp" alt="Xiaomi Smart TV 5A" loading="lazy" width="859" height="573">
                     </div>
                     <div class="portfolio-card__body">
                         <div class="portfolio-card__category">TV</div>
@@ -617,7 +625,7 @@
 
                 <div class="portfolio-card" data-category="streaming">
                     <div class="portfolio-card__image">
-                        <img src="images/mitvstick4k.webp" alt="Xiaomi TV Stick 4K" loading="lazy">
+                        <img src="images/mitvstick4k.webp" alt="Xiaomi TV Stick 4K" loading="lazy" width="800" height="800">
                     </div>
                     <div class="portfolio-card__body">
                         <div class="portfolio-card__category">Streaming</div>
@@ -629,7 +637,7 @@
                 <!-- 2021 -->
                 <div class="portfolio-card" data-category="tv">
                     <div class="portfolio-card__image">
-                        <img src="images/xiaomiqled55.webp" alt="Mi QLED TV 55" loading="lazy">
+                        <img src="images/xiaomiqled55.webp" alt="Mi QLED TV 55" loading="lazy" width="283" height="178">
                     </div>
                     <div class="portfolio-card__body">
                         <div class="portfolio-card__category">TV</div>
@@ -640,7 +648,7 @@
 
                 <div class="portfolio-card" data-category="tv">
                     <div class="portfolio-card__image">
-                        <img src="images/xiaomiqled75.webp" alt="Mi QLED TV Q1 75" loading="lazy">
+                        <img src="images/xiaomiqled75.webp" alt="Mi QLED TV Q1 75" loading="lazy" width="298" height="169">
                     </div>
                     <div class="portfolio-card__body">
                         <div class="portfolio-card__category">TV</div>
@@ -651,7 +659,7 @@
 
                 <div class="portfolio-card" data-category="tv">
                     <div class="portfolio-card__image">
-                        <img src="images/mitv5x.webp" alt="Mi TV 5X Series" loading="lazy">
+                        <img src="images/mitv5x.webp" alt="Mi TV 5X Series" loading="lazy" width="600" height="337">
                     </div>
                     <div class="portfolio-card__body">
                         <div class="portfolio-card__category">TV</div>
@@ -662,7 +670,7 @@
 
                 <div class="portfolio-card" data-category="tv">
                     <div class="portfolio-card__image">
-                        <img src="images/redmitvx.webp" alt="Redmi Smart TV X Series" loading="lazy">
+                        <img src="images/redmitvx.webp" alt="Redmi Smart TV X Series" loading="lazy" width="600" height="338">
                     </div>
                     <div class="portfolio-card__body">
                         <div class="portfolio-card__category">TV</div>
@@ -673,7 +681,7 @@
 
                 <div class="portfolio-card" data-category="tv">
                     <div class="portfolio-card__image">
-                        <img src="images/redmismarttv.webp" alt="Redmi Smart TV" loading="lazy">
+                        <img src="images/redmismarttv.webp" alt="Redmi Smart TV" loading="lazy" width="800" height="800">
                     </div>
                     <div class="portfolio-card__body">
                         <div class="portfolio-card__category">TV</div>
@@ -684,7 +692,7 @@
 
                 <div class="portfolio-card" data-category="tv">
                     <div class="portfolio-card__image">
-                        <img src="images/mitv4ahorizon40.webp" alt="Mi TV 4A Horizon Edition 40" loading="lazy">
+                        <img src="images/mitv4ahorizon40.webp" alt="Mi TV 4A Horizon Edition 40" loading="lazy" width="600" height="600">
                     </div>
                     <div class="portfolio-card__body">
                         <div class="portfolio-card__category">TV</div>
@@ -696,7 +704,7 @@
                 <!-- 2020 -->
                 <div class="portfolio-card" data-category="tv">
                     <div class="portfolio-card__image">
-                        <img src="images/mitv4ahorizon.webp" alt="Mi TV 4A Horizon Edition" loading="lazy">
+                        <img src="images/mitv4ahorizon.webp" alt="Mi TV 4A Horizon Edition" loading="lazy" width="600" height="600">
                     </div>
                     <div class="portfolio-card__body">
                         <div class="portfolio-card__category">TV</div>
@@ -707,7 +715,7 @@
 
                 <div class="portfolio-card" data-category="streaming">
                     <div class="portfolio-card__image">
-                        <img src="images/mitvstick.webp" alt="Mi TV Stick" loading="lazy">
+                        <img src="images/mitvstick.webp" alt="Mi TV Stick" loading="lazy" width="1013" height="1428">
                     </div>
                     <div class="portfolio-card__body">
                         <div class="portfolio-card__category">Streaming</div>
@@ -718,7 +726,7 @@
 
                 <div class="portfolio-card" data-category="streaming">
                     <div class="portfolio-card__image">
-                        <img src="images/mibox4k.webp" alt="Mi Box 4K" loading="lazy">
+                        <img src="images/mibox4k.webp" alt="Mi Box 4K" loading="lazy" width="600" height="600">
                     </div>
                     <div class="portfolio-card__body">
                         <div class="portfolio-card__category">Streaming</div>
@@ -730,7 +738,7 @@
                 <!-- 2019 -->
                 <div class="portfolio-card" data-category="tv">
                     <div class="portfolio-card__image">
-                        <img src="images/miledtv4x.webp" alt="Mi LED TV 4X Series" loading="lazy">
+                        <img src="images/miledtv4x.webp" alt="Mi LED TV 4X Series" loading="lazy" width="1080" height="1440">
                     </div>
                     <div class="portfolio-card__body">
                         <div class="portfolio-card__category">TV</div>
@@ -741,7 +749,7 @@
 
                 <div class="portfolio-card" data-category="tv">
                     <div class="portfolio-card__image">
-                        <img src="images/miledtv4xpro.webp" alt="Mi LED TV 4X Pro Series" loading="lazy">
+                        <img src="images/miledtv4xpro.webp" alt="Mi LED TV 4X Pro Series" loading="lazy" width="600" height="600">
                     </div>
                     <div class="portfolio-card__body">
                         <div class="portfolio-card__category">TV</div>
@@ -752,7 +760,7 @@
 
                 <div class="portfolio-card" data-category="tv">
                     <div class="portfolio-card__image">
-                        <img src="images/mitv4apro32.webp" alt="Mi TV 4A Pro 32" loading="lazy">
+                        <img src="images/mitv4apro32.webp" alt="Mi TV 4A Pro 32" loading="lazy" width="600" height="600">
                     </div>
                     <div class="portfolio-card__body">
                         <div class="portfolio-card__category">TV</div>
@@ -763,7 +771,7 @@
 
                 <div class="portfolio-card" data-category="audio">
                     <div class="portfolio-card__image">
-                        <img src="images/misoundbar.webp" alt="Mi Soundbar" loading="lazy">
+                        <img src="images/misoundbar.webp" alt="Mi Soundbar" loading="lazy" width="550" height="550">
                     </div>
                     <div class="portfolio-card__body">
                         <div class="portfolio-card__category">Audio</div>
@@ -775,7 +783,7 @@
                 <!-- 2018 -->
                 <div class="portfolio-card" data-category="software">
                     <div class="portfolio-card__image">
-                        <img src="images/patchwall.webp" alt="PatchWall" loading="lazy">
+                        <img src="images/patchwall.webp" alt="PatchWall" loading="lazy" width="2560" height="968">
                     </div>
                     <div class="portfolio-card__body">
                         <div class="portfolio-card__category">Software</div>
@@ -786,7 +794,7 @@
 
                 <div class="portfolio-card" data-category="tv">
                     <div class="portfolio-card__image">
-                        <img src="images/mitv4-55.webp" alt="Mi TV 4 55 inch" loading="lazy">
+                        <img src="images/mitv4-55.webp" alt="Mi TV 4 55 inch" loading="lazy" width="2560" height="1200">
                     </div>
                     <div class="portfolio-card__body">
                         <div class="portfolio-card__category">TV</div>
@@ -797,7 +805,7 @@
 
                 <div class="portfolio-card" data-category="tv">
                     <div class="portfolio-card__image">
-                        <img src="images/mitv4a.webp" alt="Mi TV 4A" loading="lazy">
+                        <img src="images/mitv4a.webp" alt="Mi TV 4A" loading="lazy" width="600" height="600">
                     </div>
                     <div class="portfolio-card__body">
                         <div class="portfolio-card__category">TV</div>
@@ -808,7 +816,7 @@
 
                 <div class="portfolio-card" data-category="tv">
                     <div class="portfolio-card__image">
-                        <img src="images/mitv4apro49.webp" alt="Mi TV 4A Pro Series" loading="lazy">
+                        <img src="images/mitv4apro49.webp" alt="Mi TV 4A Pro Series" loading="lazy" width="600" height="600">
                     </div>
                     <div class="portfolio-card__body">
                         <div class="portfolio-card__category">TV</div>
@@ -819,7 +827,7 @@
 
                 <div class="portfolio-card" data-category="tv">
                     <div class="portfolio-card__image">
-                        <img src="images/mitv4cpro32.webp" alt="Mi TV 4C Pro" loading="lazy">
+                        <img src="images/mitv4cpro32.webp" alt="Mi TV 4C Pro" loading="lazy" width="600" height="600">
                     </div>
                     <div class="portfolio-card__body">
                         <div class="portfolio-card__category">TV</div>
@@ -830,7 +838,7 @@
 
                 <div class="portfolio-card" data-category="tv">
                     <div class="portfolio-card__image">
-                        <img src="images/mitv4pro55.webp" alt="Mi TV 4 Pro" loading="lazy">
+                        <img src="images/mitv4pro55.webp" alt="Mi TV 4 Pro" loading="lazy" width="2560" height="1200">
                     </div>
                     <div class="portfolio-card__body">
                         <div class="portfolio-card__category">TV</div>
@@ -859,7 +867,7 @@
             <!-- Featured Post -->
             <a href="blog/tv-panel-types.html" class="blog-featured reveal--scale">
                 <div class="blog-featured__image">
-                    <img src="images/blog-tv-panels.webp" alt="TV Display Panel Types Explained" loading="lazy">
+                    <img src="images/blog-tv-panels.webp" alt="TV Display Panel Types Explained" fetchpriority="high" width="1600" height="899">
                 </div>
                 <div class="blog-featured__body">
                     <div class="blog-featured__category">Technology</div>
@@ -873,7 +881,7 @@
             <div class="blog-grid stagger-children">
                 <a href="blog/blog-wireless-hdmi.html" class="blog-card">
                     <div class="blog-card__image">
-                        <img src="images/blog-wireless-hdmi.jpg" alt="Inside a Wireless HDMI System" loading="lazy">
+                        <img src="images/blog-wireless-hdmi.webp" alt="Inside a Wireless HDMI System" loading="lazy" width="800" height="533">
                     </div>
                     <div class="blog-card__body">
                         <div class="blog-card__category">Engineering</div>
@@ -885,7 +893,7 @@
 
                 <a href="blog/blog-lumio-journey.html" class="blog-card">
                     <div class="blog-card__image">
-                        <img src="images/blog-lumio.webp" alt="Building Lumio" loading="lazy">
+                        <img src="images/blog-lumio.webp" alt="Building Lumio" loading="lazy" width="1200" height="1800">
                     </div>
                     <div class="blog-card__body">
                         <div class="blog-card__category">Startup</div>
@@ -897,7 +905,7 @@
 
                 <a href="blog/blog-ctv-trends-2025.html" class="blog-card">
                     <div class="blog-card__image">
-                        <img src="images/blog-ctv.webp" alt="The State of CTV in 2025" loading="lazy">
+                        <img src="images/blog-ctv.webp" alt="The State of CTV in 2025" loading="lazy" width="1200" height="804">
                     </div>
                     <div class="blog-card__body">
                         <div class="blog-card__category">Industry</div>
@@ -923,7 +931,7 @@
                 <span class="press-mentions__label">Featured In</span>
                 <div class="press-mentions__logos">
                     <a href="https://www.businessworld.in/article/lumio-meet-the-ex-xiaomi-vets-behind-fast-google-tvs-targeting-tv-lag-552556" target="_blank" rel="noopener" class="press-mentions__item">
-                        <img src="images/bw-businessworld.webp" alt="BW Businessworld" class="press-mentions__logo">
+                        <img src="images/bw-businessworld.webp" alt="BW Businessworld" class="press-mentions__logo" width="500" height="63">
                     </a>
                 </div>
             </div>

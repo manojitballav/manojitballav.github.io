@@ -913,6 +913,8 @@ p + p { margin-top: 16px; }
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
+  content-visibility: auto;
+  contain-intrinsic-size: auto 2000px;
 }
 
 .portfolio-card {
