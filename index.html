@@ -211,6 +211,69 @@
     }
     </script>
 
+    <!-- WebSite Schema (enables sitelinks + search box) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Manojit Ballav",
+        "alternateName": "Mono",
+        "url": "https://manojitballav.com",
+        "description": "Personal website and blog of Manojit Ballav — Principal Product Manager at Lumio, writing about smart TVs, display technology, projectors, and connected TV platforms.",
+        "inLanguage": "en",
+        "publisher": {
+            "@type": "Person",
+            "name": "Manojit Ballav",
+            "url": "https://manojitballav.com"
+        },
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://www.google.com/search?q=site:manojitballav.com+{search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+
+    <!-- SiteNavigationElement Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": [
+            {
+                "@type": "SiteNavigationElement",
+                "position": 1,
+                "name": "Home",
+                "url": "https://manojitballav.com/"
+            },
+            {
+                "@type": "SiteNavigationElement",
+                "position": 2,
+                "name": "About",
+                "url": "https://manojitballav.com/#about"
+            },
+            {
+                "@type": "SiteNavigationElement",
+                "position": 3,
+                "name": "Portfolio",
+                "url": "https://manojitballav.com/portfolio.html"
+            },
+            {
+                "@type": "SiteNavigationElement",
+                "position": 4,
+                "name": "Blog",
+                "url": "https://manojitballav.com/blog/blog-page.html"
+            },
+            {
+                "@type": "SiteNavigationElement",
+                "position": 5,
+                "name": "Contact",
+                "url": "https://manojitballav.com/#contact"
+            }
+        ]
+    }
+    </script>
+
     <!-- CSP -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.gstatic.com https://platform.twitter.com https://syndication.twitter.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com data:; img-src 'self' data: https: http:; frame-src https://www.youtube.com https://platform.twitter.com; connect-src 'self' https://www.google-analytics.com https://www.gstatic.com;" />
 </head>
@@ -494,17 +557,7 @@
                 <h2 class="section__title">Products I've launched</h2>
             </div>
 
-            <div class="portfolio-filters reveal">
-                <button class="active" data-filter="all">All</button>
-                <button data-filter="software">Software</button>
-                <button data-filter="tv">TV</button>
-                <button data-filter="projector">Projector</button>
-                <button data-filter="streaming">Streaming</button>
-                <button data-filter="audio">Audio</button>
-                <button data-filter="tablet">Tablet</button>
-            </div>
-
-            <div class="portfolio-grid" id="portfolioGrid">
+            <div class="portfolio-grid stagger-children" id="portfolioGrid">
                 <!-- 2025 — Lumio -->
                 <div class="portfolio-card" data-category="software">
                     <div class="portfolio-card__image">
@@ -560,321 +613,12 @@
                         <p class="portfolio-card__subtitle">Home Projector — 2025</p>
                     </div>
                 </div>
+            </div>
 
-                <!-- 2024 -->
-                <div class="portfolio-card" data-category="tv">
-                    <div class="portfolio-card__image">
-                        <img src="images/xiaomismarttvxpro2024.webp" alt="Xiaomi Smart TV X Pro Series 2024" loading="lazy" width="2560" height="1460">
-                    </div>
-                    <div class="portfolio-card__body">
-                        <div class="portfolio-card__category">TV</div>
-                        <h3 class="portfolio-card__title">Xiaomi X Pro QLED Series 2024</h3>
-                        <p class="portfolio-card__subtitle">43" · 55" · 65" — 2024</p>
-                    </div>
-                </div>
-
-                <div class="portfolio-card" data-category="tv">
-                    <div class="portfolio-card__image">
-                        <img src="images/xiaomismarttvxseries2024.webp" alt="Xiaomi X Series 2024" loading="lazy" width="1614" height="1192">
-                    </div>
-                    <div class="portfolio-card__body">
-                        <div class="portfolio-card__category">TV</div>
-                        <h3 class="portfolio-card__title">Xiaomi Smart TV X Series 2024</h3>
-                        <p class="portfolio-card__subtitle">43" · 50" · 55" — 2024</p>
-                    </div>
-                </div>
-
-                <div class="portfolio-card" data-category="tv">
-                    <div class="portfolio-card__image">
-                        <img src="images/redmifiretv4k2024.webp" alt="Redmi Smart Fire TV 4K" loading="lazy" width="400" height="400">
-                    </div>
-                    <div class="portfolio-card__body">
-                        <div class="portfolio-card__category">TV</div>
-                        <h3 class="portfolio-card__title">Redmi Smart Fire TV 4K</h3>
-                        <p class="portfolio-card__subtitle">43" · 55" — 2024</p>
-                    </div>
-                </div>
-
-                <div class="portfolio-card" data-category="tv">
-                    <div class="portfolio-card__image">
-                        <img src="images/redmifiretv32.webp" alt="Redmi Smart Fire TV 32" loading="lazy" width="400" height="400">
-                    </div>
-                    <div class="portfolio-card__body">
-                        <div class="portfolio-card__category">TV</div>
-                        <h3 class="portfolio-card__title">Redmi Smart Fire TV 32</h3>
-                        <p class="portfolio-card__subtitle">32" — 2024</p>
-                    </div>
-                </div>
-
-                <!-- 2023 -->
-                <div class="portfolio-card" data-category="tv">
-                    <div class="portfolio-card__image">
-                        <img src="images/xiaomismarttvxpro2024.webp" alt="Xiaomi Smart TV X Pro Series 2023" loading="lazy" width="2560" height="1460">
-                    </div>
-                    <div class="portfolio-card__body">
-                        <div class="portfolio-card__category">TV</div>
-                        <h3 class="portfolio-card__title">Xiaomi Smart TV X Pro Series</h3>
-                        <p class="portfolio-card__subtitle">43" · 50" · 55" — 2023</p>
-                    </div>
-                </div>
-
-                <div class="portfolio-card" data-category="tablet">
-                    <div class="portfolio-card__image">
-                        <img src="images/xiaomipad6.webp" alt="Xiaomi Pad 6" loading="lazy" width="2560" height="1508">
-                    </div>
-                    <div class="portfolio-card__body">
-                        <div class="portfolio-card__category">Tablet</div>
-                        <h3 class="portfolio-card__title">Xiaomi Pad 6</h3>
-                        <p class="portfolio-card__subtitle">2023</p>
-                    </div>
-                </div>
-
-                <!-- 2022 -->
-                <div class="portfolio-card" data-category="tv">
-                    <div class="portfolio-card__image">
-                        <img src="images/xiaomioledvision.webp" alt="Xiaomi OLED Vision" loading="lazy" width="1977" height="1253">
-                    </div>
-                    <div class="portfolio-card__body">
-                        <div class="portfolio-card__category">TV</div>
-                        <h3 class="portfolio-card__title">Xiaomi OLED Vision</h3>
-                        <p class="portfolio-card__subtitle">55" — 2022</p>
-                    </div>
-                </div>
-
-                <div class="portfolio-card" data-category="tv">
-                    <div class="portfolio-card__image">
-                        <img src="images/xiaomismarttv5a.webp" alt="Xiaomi Smart TV 5A" loading="lazy" width="859" height="573">
-                    </div>
-                    <div class="portfolio-card__body">
-                        <div class="portfolio-card__category">TV</div>
-                        <h3 class="portfolio-card__title">Xiaomi Smart TV 5A</h3>
-                        <p class="portfolio-card__subtitle">32" · 40" · 43" — 2022</p>
-                    </div>
-                </div>
-
-                <div class="portfolio-card" data-category="streaming">
-                    <div class="portfolio-card__image">
-                        <img src="images/mitvstick4k.webp" alt="Xiaomi TV Stick 4K" loading="lazy" width="800" height="800">
-                    </div>
-                    <div class="portfolio-card__body">
-                        <div class="portfolio-card__category">Streaming</div>
-                        <h3 class="portfolio-card__title">Xiaomi TV Stick 4K</h3>
-                        <p class="portfolio-card__subtitle">2022</p>
-                    </div>
-                </div>
-
-                <!-- 2021 -->
-                <div class="portfolio-card" data-category="tv">
-                    <div class="portfolio-card__image">
-                        <img src="images/xiaomiqled55.webp" alt="Mi QLED TV 55" loading="lazy" width="283" height="178">
-                    </div>
-                    <div class="portfolio-card__body">
-                        <div class="portfolio-card__category">TV</div>
-                        <h3 class="portfolio-card__title">Mi QLED TV 4K</h3>
-                        <p class="portfolio-card__subtitle">55" — 2021</p>
-                    </div>
-                </div>
-
-                <div class="portfolio-card" data-category="tv">
-                    <div class="portfolio-card__image">
-                        <img src="images/xiaomiqled75.webp" alt="Mi QLED TV Q1 75" loading="lazy" width="298" height="169">
-                    </div>
-                    <div class="portfolio-card__body">
-                        <div class="portfolio-card__category">TV</div>
-                        <h3 class="portfolio-card__title">Mi QLED TV Q1</h3>
-                        <p class="portfolio-card__subtitle">75" — 2021</p>
-                    </div>
-                </div>
-
-                <div class="portfolio-card" data-category="tv">
-                    <div class="portfolio-card__image">
-                        <img src="images/mitv5x.webp" alt="Mi TV 5X Series" loading="lazy" width="600" height="337">
-                    </div>
-                    <div class="portfolio-card__body">
-                        <div class="portfolio-card__category">TV</div>
-                        <h3 class="portfolio-card__title">Mi TV 5X Series</h3>
-                        <p class="portfolio-card__subtitle">43" · 50" · 55" — 2021</p>
-                    </div>
-                </div>
-
-                <div class="portfolio-card" data-category="tv">
-                    <div class="portfolio-card__image">
-                        <img src="images/redmitvx.webp" alt="Redmi Smart TV X Series" loading="lazy" width="600" height="338">
-                    </div>
-                    <div class="portfolio-card__body">
-                        <div class="portfolio-card__category">TV</div>
-                        <h3 class="portfolio-card__title">Redmi Smart TV X Series</h3>
-                        <p class="portfolio-card__subtitle">X50 · X55 · X65 — 2021</p>
-                    </div>
-                </div>
-
-                <div class="portfolio-card" data-category="tv">
-                    <div class="portfolio-card__image">
-                        <img src="images/redmismarttv.webp" alt="Redmi Smart TV" loading="lazy" width="800" height="800">
-                    </div>
-                    <div class="portfolio-card__body">
-                        <div class="portfolio-card__category">TV</div>
-                        <h3 class="portfolio-card__title">Redmi Smart TV</h3>
-                        <p class="portfolio-card__subtitle">32" · 43" — 2021</p>
-                    </div>
-                </div>
-
-                <div class="portfolio-card" data-category="tv">
-                    <div class="portfolio-card__image">
-                        <img src="images/mitv4ahorizon40.webp" alt="Mi TV 4A Horizon Edition 40" loading="lazy" width="600" height="600">
-                    </div>
-                    <div class="portfolio-card__body">
-                        <div class="portfolio-card__category">TV</div>
-                        <h3 class="portfolio-card__title">Mi TV 4A Horizon Edition</h3>
-                        <p class="portfolio-card__subtitle">40" — 2021</p>
-                    </div>
-                </div>
-
-                <!-- 2020 -->
-                <div class="portfolio-card" data-category="tv">
-                    <div class="portfolio-card__image">
-                        <img src="images/mitv4ahorizon.webp" alt="Mi TV 4A Horizon Edition" loading="lazy" width="600" height="600">
-                    </div>
-                    <div class="portfolio-card__body">
-                        <div class="portfolio-card__category">TV</div>
-                        <h3 class="portfolio-card__title">Mi TV 4A Horizon Edition</h3>
-                        <p class="portfolio-card__subtitle">32" · 43" — 2020</p>
-                    </div>
-                </div>
-
-                <div class="portfolio-card" data-category="streaming">
-                    <div class="portfolio-card__image">
-                        <img src="images/mitvstick.webp" alt="Mi TV Stick" loading="lazy" width="1013" height="1428">
-                    </div>
-                    <div class="portfolio-card__body">
-                        <div class="portfolio-card__category">Streaming</div>
-                        <h3 class="portfolio-card__title">Mi TV Stick</h3>
-                        <p class="portfolio-card__subtitle">2020</p>
-                    </div>
-                </div>
-
-                <div class="portfolio-card" data-category="streaming">
-                    <div class="portfolio-card__image">
-                        <img src="images/mibox4k.webp" alt="Mi Box 4K" loading="lazy" width="600" height="600">
-                    </div>
-                    <div class="portfolio-card__body">
-                        <div class="portfolio-card__category">Streaming</div>
-                        <h3 class="portfolio-card__title">Mi Box 4K</h3>
-                        <p class="portfolio-card__subtitle">2020</p>
-                    </div>
-                </div>
-
-                <!-- 2019 -->
-                <div class="portfolio-card" data-category="tv">
-                    <div class="portfolio-card__image">
-                        <img src="images/miledtv4x.webp" alt="Mi LED TV 4X Series" loading="lazy" width="1080" height="1440">
-                    </div>
-                    <div class="portfolio-card__body">
-                        <div class="portfolio-card__category">TV</div>
-                        <h3 class="portfolio-card__title">Mi LED TV 4X Series</h3>
-                        <p class="portfolio-card__subtitle">43" · 50" · 55" · 65" — 2019</p>
-                    </div>
-                </div>
-
-                <div class="portfolio-card" data-category="tv">
-                    <div class="portfolio-card__image">
-                        <img src="images/miledtv4xpro.webp" alt="Mi LED TV 4X Pro Series" loading="lazy" width="600" height="600">
-                    </div>
-                    <div class="portfolio-card__body">
-                        <div class="portfolio-card__category">TV</div>
-                        <h3 class="portfolio-card__title">Mi LED TV 4X Pro Series</h3>
-                        <p class="portfolio-card__subtitle">55" — 2019</p>
-                    </div>
-                </div>
-
-                <div class="portfolio-card" data-category="tv">
-                    <div class="portfolio-card__image">
-                        <img src="images/mitv4apro32.webp" alt="Mi TV 4A Pro 32" loading="lazy" width="600" height="600">
-                    </div>
-                    <div class="portfolio-card__body">
-                        <div class="portfolio-card__category">TV</div>
-                        <h3 class="portfolio-card__title">Mi TV 4A Pro (32")</h3>
-                        <p class="portfolio-card__subtitle">32" — 2019</p>
-                    </div>
-                </div>
-
-                <div class="portfolio-card" data-category="audio">
-                    <div class="portfolio-card__image">
-                        <img src="images/misoundbar.webp" alt="Mi Soundbar" loading="lazy" width="550" height="550">
-                    </div>
-                    <div class="portfolio-card__body">
-                        <div class="portfolio-card__category">Audio</div>
-                        <h3 class="portfolio-card__title">Mi Soundbar</h3>
-                        <p class="portfolio-card__subtitle">2019</p>
-                    </div>
-                </div>
-
-                <!-- 2018 -->
-                <div class="portfolio-card" data-category="software">
-                    <div class="portfolio-card__image">
-                        <img src="images/patchwall.webp" alt="PatchWall" loading="lazy" width="2560" height="968">
-                    </div>
-                    <div class="portfolio-card__body">
-                        <div class="portfolio-card__category">Software</div>
-                        <h3 class="portfolio-card__title">PatchWall</h3>
-                        <p class="portfolio-card__subtitle">6M+ Monthly Active Users — 2018</p>
-                    </div>
-                </div>
-
-                <div class="portfolio-card" data-category="tv">
-                    <div class="portfolio-card__image">
-                        <img src="images/mitv4-55.webp" alt="Mi TV 4 55 inch" loading="lazy" width="2560" height="1200">
-                    </div>
-                    <div class="portfolio-card__body">
-                        <div class="portfolio-card__category">TV</div>
-                        <h3 class="portfolio-card__title">Mi TV 4</h3>
-                        <p class="portfolio-card__subtitle">55" — 2018</p>
-                    </div>
-                </div>
-
-                <div class="portfolio-card" data-category="tv">
-                    <div class="portfolio-card__image">
-                        <img src="images/mitv4a.webp" alt="Mi TV 4A" loading="lazy" width="600" height="600">
-                    </div>
-                    <div class="portfolio-card__body">
-                        <div class="portfolio-card__category">TV</div>
-                        <h3 class="portfolio-card__title">Mi TV 4A</h3>
-                        <p class="portfolio-card__subtitle">32" · 43" — 2018</p>
-                    </div>
-                </div>
-
-                <div class="portfolio-card" data-category="tv">
-                    <div class="portfolio-card__image">
-                        <img src="images/mitv4apro49.webp" alt="Mi TV 4A Pro Series" loading="lazy" width="600" height="600">
-                    </div>
-                    <div class="portfolio-card__body">
-                        <div class="portfolio-card__category">TV</div>
-                        <h3 class="portfolio-card__title">Mi TV 4A Pro Series</h3>
-                        <p class="portfolio-card__subtitle">49" — 2018</p>
-                    </div>
-                </div>
-
-                <div class="portfolio-card" data-category="tv">
-                    <div class="portfolio-card__image">
-                        <img src="images/mitv4cpro32.webp" alt="Mi TV 4C Pro" loading="lazy" width="600" height="600">
-                    </div>
-                    <div class="portfolio-card__body">
-                        <div class="portfolio-card__category">TV</div>
-                        <h3 class="portfolio-card__title">Mi TV 4C Pro</h3>
-                        <p class="portfolio-card__subtitle">32" — 2018</p>
-                    </div>
-                </div>
-
-                <div class="portfolio-card" data-category="tv">
-                    <div class="portfolio-card__image">
-                        <img src="images/mitv4pro55.webp" alt="Mi TV 4 Pro" loading="lazy" width="2560" height="1200">
-                    </div>
-                    <div class="portfolio-card__body">
-                        <div class="portfolio-card__category">TV</div>
-                        <h3 class="portfolio-card__title">Mi TV 4 Pro</h3>
-                        <p class="portfolio-card__subtitle">55" — 2018</p>
-                    </div>
-                </div>
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="portfolio.html" class="btn btn--outline">
+                    View all 30+ products <span class="arrow">&rarr;</span>
+                </a>
             </div>
         </div>
     </section>
@@ -1087,39 +831,7 @@
             });
         });
 
-        // Portfolio filtering with animation
-        const filterBtns = document.querySelectorAll('.portfolio-filters button');
-        const portfolioCards = document.querySelectorAll('.portfolio-card');
-
-        filterBtns.forEach(btn => {
-            btn.addEventListener('click', () => {
-                filterBtns.forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
-                const filter = btn.dataset.filter;
-                let visibleIndex = 0;
-                portfolioCards.forEach(card => {
-                    card.style.transition = 'none';
-                    const show = filter === 'all' || card.dataset.category === filter;
-                    if (!show) {
-                        card.style.display = 'none';
-                    } else {
-                        card.style.display = '';
-                        card.style.opacity = '0';
-                        card.style.transform = 'translateY(16px)';
-                        const delay = (visibleIndex % 3) * 60;
-                        visibleIndex++;
-                        requestAnimationFrame(() => {
-                            requestAnimationFrame(() => {
-                                card.style.transition = 'opacity 0.35s ease, transform 0.35s ease';
-                                card.style.transitionDelay = delay + 'ms';
-                                card.style.opacity = '1';
-                                card.style.transform = 'translateY(0)';
-                            });
-                        });
-                    }
-                });
-            });
-        });
+        // Portfolio card animation (homepage — no filters)
 
         // Dark mode toggle
         const themeToggle = document.getElementById('themeToggle');
