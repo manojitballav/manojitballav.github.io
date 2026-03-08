@@ -87,6 +87,19 @@
         gtag("js", new Date());
         gtag("config", "G-61ZX5F590H");
     </script>
+    <!-- Google News Subscribe with Google -->
+    <script async type="application/javascript"
+        src="https://news.google.com/swg/js/v1/swg-basic.js"></script>
+    <script>
+      (self.SWG_BASIC = self.SWG_BASIC || []).push( basicSubscriptions => {
+        basicSubscriptions.init({
+          type: "NewsArticle",
+          isPartOfType: ["Product"],
+          isPartOfProductId: "CAowjt7FDA:openaccess",
+          clientOptions: { theme: "light", lang: "en" },
+        });
+      });
+    </script>
 </head>
 <body>
 
