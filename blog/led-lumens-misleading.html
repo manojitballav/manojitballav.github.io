@@ -1,0 +1,726 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <script>(function(){var t=localStorage.getItem('theme')||(window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t)})()</script>
+    <title>Why LED Lumens Are Misleading: Understanding Projector Brightness Ratings | Manojit Ballav</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="A technical breakdown of why LED lumen ratings on projectors are misleading — how optical losses in LCD projection systems reduce actual screen brightness by up to 90%.">
+    <meta name="keywords" content="LED lumens misleading, ANSI lumens vs LED lumens, projector brightness, LCD projector optical path, projector lumen ratings, CVIA lumens, ISO lumens, projector buying guide India, Lumio Vision Arc, projector optical loss, polarizer light loss, dichroic mirror loss">
+    <meta name="news_keywords" content="LED lumens, ANSI lumens, projector brightness, projector buying guide, CVIA lumens">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Manojit Ballav">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="canonical" href="https://manojitballav.com/blog/led-lumens-misleading.html">
+    <link rel="icon" href="../images/favicon.ico" sizes="48x48">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
+    <link rel="manifest" href="../site.webmanifest">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://manojitballav.com/blog/led-lumens-misleading.html" />
+    <meta property="og:title" content="Why LED Lumens Are Misleading: Understanding Projector Brightness Ratings" />
+    <meta property="og:description" content="A technical breakdown of why LED lumen ratings on projectors are misleading — optical losses can reduce actual brightness by up to 90%." />
+    <meta property="og:image" content="https://manojitballav.com/images/blog-lumens.webp" />
+    <meta property="og:site_name" content="Manojit Ballav" />
+    <meta property="article:published_time" content="2026-03-08T00:00:00+05:30" />
+    <meta property="article:modified_time" content="2026-03-08T00:00:00+05:30" />
+    <meta property="article:author" content="https://www.linkedin.com/in/manojitballav/" />
+    <meta property="article:section" content="Technology" />
+    <meta property="article:tag" content="Projector Technology" />
+    <meta property="article:tag" content="LED Lumens" />
+    <meta property="article:tag" content="ANSI Lumens" />
+    <meta property="article:tag" content="Display Technology" />
+    <meta property="og:locale" content="en_IN" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@manojitballav" />
+    <meta name="twitter:creator" content="@manojitballav" />
+    <meta name="twitter:url" content="https://manojitballav.com/blog/led-lumens-misleading.html" />
+    <meta name="twitter:title" content="Why LED Lumens Are Misleading: Understanding Projector Brightness Ratings" />
+    <meta name="twitter:description" content="A technical breakdown of why LED lumen ratings on projectors are misleading — optical losses can reduce actual brightness by up to 90%." />
+    <meta name="twitter:image" content="https://manojitballav.com/images/blog-lumens.webp" />
+
+    <!-- Schema.org JSON-LD: Article -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Why LED Lumens Are Misleading: Understanding Projector Brightness Ratings",
+  "description": "A technical breakdown of why LED lumen ratings on projectors are misleading — how optical losses in single-panel LCD projection systems reduce actual screen brightness by up to 94%, with peer-reviewed references.",
+  "image": "https://manojitballav.com/images/blog-lumens.webp",
+  "datePublished": "2026-03-08",
+  "dateModified": "2026-03-08",
+  "url": "https://manojitballav.com/blog/led-lumens-misleading.html",
+  "inLanguage": "en",
+  "keywords": ["LED lumens", "ANSI lumens", "projector brightness", "LCD projector optical path", "CVIA lumens", "projector buying guide India", "Lumio Vision Arc"],
+  "mentions": [
+    {
+      "@type": "Brand",
+      "name": "Lumio",
+      "url": "https://lumio.in/"
+    },
+    {
+      "@type": "Product",
+      "name": "Lumio Vision Arc",
+      "brand": { "@type": "Brand", "name": "Lumio" }
+    }
+  ],
+  "author": {
+    "@type": "Person",
+    "@id": "https://www.google.com/search?kgmid=/g/11f_jdjrm5",
+    "name": "Manojit Ballav",
+    "url": "https://manojitballav.com/",
+    "jobTitle": "Principal Product Manager",
+    "sameAs": [
+      "https://www.linkedin.com/in/manojitballav/",
+      "https://x.com/manojitballav",
+      "https://github.com/manojitballav"
+    ]
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://www.google.com/search?kgmid=/g/11f_jdjrm5",
+    "name": "Manojit Ballav"
+  },
+  "mainEntityOfPage": "https://manojitballav.com/blog/led-lumens-misleading.html",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [".article-header__title", ".article-body > p:first-of-type"]
+  },
+  "citation": [
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Compact LCD Projector with High Optical Performance",
+      "author": "Z. Zheng",
+      "publisher": { "@type": "Organization", "name": "SPIE" },
+      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/3560/1/Compact-LCD-projector-with-high-optical-performance/10.1117/12.319693.full"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Projection Optical Engine Design Based on Tri-Color LEDs",
+      "author": "H. Jiang et al.",
+      "publisher": { "@type": "Organization", "name": "Optica Publishing Group" },
+      "url": "https://opg.optica.org/viewmedia.cfm?r=1&seq=0&uri=ao-60-23-6971"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Optical Engine Design for a Compact High-Luminance Projection System",
+      "author": "S. Peng et al.",
+      "publisher": { "@type": "Organization", "name": "MDPI Photonics" },
+      "url": "https://www.mdpi.com/2304-6732/10/5/559"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Compact Single-Panel LCD Projector with High Uniformity",
+      "url": "https://www.researchgate.net/publication/374072078_Compact_single-panel_LCD_projector_with_high_uniformity"
+    }
+  ]
+}
+    </script>
+
+    <!-- Schema.org JSON-LD: BreadcrumbList -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://manojitballav.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://manojitballav.com/blog/blog-page.html" },
+    { "@type": "ListItem", "position": 3, "name": "Why LED Lumens Are Misleading", "item": "https://manojitballav.com/blog/led-lumens-misleading.html" }
+  ]
+}
+    </script>
+
+    <!-- Schema.org JSON-LD: FAQPage -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between LED lumens and ANSI lumens?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "LED lumens measure brightness at the light source before it enters the projection optics. ANSI lumens measure brightness on the screen after the light has passed through the entire optical system — including polarizers, LCD panels, dichroic mirrors, and the projection lens. ANSI lumens reflect the actual visible brightness a viewer experiences, while LED lumens represent only the raw output of the light engine."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why are LED lumen ratings so much higher than ANSI lumens?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Because LED lumens are measured before optical losses occur. In a typical LCD projector, polarizers absorb roughly 50% of the light, dichroic mirrors and color splitting introduce further losses, LCD panels reduce transmission during pixel modulation, and the projection lens adds reflection losses. Combined, these stages can reduce the original brightness by 85–92%, which is why a projector rated at 2000 LED lumens may only produce 160–180 ANSI lumens on screen."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are CVIA lumens?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CVIA lumens is a brightness standard developed by the China Video Industry Association. Like ANSI lumens, CVIA lumens measure brightness on the projected screen rather than at the light source. They provide a more accurate representation of real-world projector brightness compared to LED lumen ratings."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much brightness does an LCD projector lose internally?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A typical LCD projector loses 85–92% of its source brightness through the optical pipeline. The major loss contributors are polarizers (roughly 50% absorption), LCD panel transmission (40–60% pass-through), dichroic mirrors and color splitting optics (10–15% loss), and the projection lens (5–10% loss). A 2000 LED lumen projector typically delivers between 160 and 300 ANSI lumens on screen."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which lumen standard should I trust when buying a projector?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Always look for ANSI lumens, ISO lumens, or CVIA lumens when comparing projector brightness. These standards measure light output on the screen after projection, giving you a realistic picture of visible brightness. Avoid relying on LED lumens or 'light source lumens' — they inflate the numbers by measuring at the LED before optical losses occur."
+      }
+    }
+  ]
+}
+    </script>
+
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Google+Sans+Text:wght@400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="../css/google-style.css">
+    <style>
+        .optical-diagram { margin: 2rem auto; text-align: center; }
+        .optical-diagram svg { max-width: 560px; width: 100%; height: auto; display: block; margin: 0 auto; }
+        .optical-diagram figcaption { font-size: 0.85rem; color: var(--text-secondary, #666); margin-top: 0.5rem; font-style: italic; }
+        .loss-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.95rem; }
+        .loss-table th, .loss-table td { padding: 0.6rem 1rem; text-align: left; border-bottom: 1px solid var(--border, #e0e0e0); }
+        .loss-table th { font-weight: 600; background: var(--surface-alt, #f5f5f5); }
+        .loss-table tr:last-child td { border-bottom: none; }
+        [data-theme="dark"] .loss-table th { background: var(--surface-alt, #2a2a2a); }
+    </style>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-61ZX5F590H"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-61ZX5F590H');
+    </script>
+</head>
+<body>
+
+    <header class="header" id="header">
+        <div class="header__inner">
+            <a href="../" class="header__logo"><img src="../images/logo.png" alt="Mono" class="header__logo-img"></a>
+            <nav class="header__nav" id="nav">
+                <a href="../index.html#home">Home</a>
+                <a href="../index.html#about">About</a>
+                <a href="../index.html#portfolio">Portfolio</a>
+                <a href="blog-page.html" class="active">Blog</a>
+                <a href="../index.html#contact">Contact</a>
+                <button class="theme-toggle--mobile" id="themeToggleMobile" aria-label="Toggle dark mode">
+                    <i class="fa-solid fa-moon"></i><i class="fa-solid fa-sun"></i>
+                    <span class="theme-toggle--mobile__label">Dark Mode</span>
+                </button>
+            </nav>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                <i class="fa-solid fa-moon"></i><i class="fa-solid fa-sun"></i>
+            </button>
+            <button class="header__menu-btn" id="menuBtn" aria-label="Toggle menu">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <div class="article-hero"><img src="../images/blog-lumens.webp" alt="Why LED Lumens Are Misleading — Projector Brightness Explained"></div>
+
+<section class="section">
+    <div class="container" style="max-width: 800px;">
+        <div class="article-header">
+            <div class="article-header__category">Technology</div>
+            <h1 class="article-header__title">Why LED Lumens Are Misleading: What Projector Brightness Ratings Actually Mean</h1>
+            <div class="article-header__meta">8 March 2026 &bull; Manojit Ballav (Mono)</div>
+        </div>
+        <!-- Breadcrumb -->
+        <nav aria-label="Breadcrumb" style="font-size:0.85rem;margin-bottom:1.5rem;color:var(--text-secondary,#666);">
+            <a href="../index.html" style="color:var(--text-secondary,#666);text-decoration:none;">Home</a> &rsaquo;
+            <a href="blog-page.html" style="color:var(--text-secondary,#666);text-decoration:none;">Blog</a> &rsaquo;
+            <span>Why LED Lumens Are Misleading</span>
+        </nav>
+
+        <div class="article-body">
+
+            <!-- Table of Contents -->
+            <div class="callout-box" style="margin-bottom:2rem;">
+                <strong>Table of Contents</strong>
+                <ol style="margin:0.75rem 0 0;padding-left:1.2rem;line-height:1.9;">
+                    <li><a href="#the-problem">The Core Problem with LED Lumens</a></li>
+                    <li><a href="#optical-path">The Optical Path Inside an LCD Projector</a></li>
+                    <li><a href="#lcd-panel-losses">Light Loss Inside the LCD Panel</a></li>
+                    <li><a href="#loss-breakdown">Quantifying Optical Losses at Each Stage</a></li>
+                    <li><a href="#why-it-matters">Why This Matters for Consumers</a></li>
+                    <li><a href="#brightness-example">Worked Example: 2000 LED Lumens to Screen</a></li>
+                    <li><a href="#standards">ANSI, ISO, and CVIA: Standards That Measure Real Brightness</a></li>
+                    <li><a href="#takeaway">The Bottom Line</a></li>
+                    <li><a href="#references">References</a></li>
+                </ol>
+            </div>
+
+            <p>Walk into any electronics store or browse any projector listing online, and you will encounter brightness ratings like "2000 lumens" or "8000 lumens" printed in bold. These numbers look impressive. The problem is that most of them are measuring the wrong thing — and the gap between the advertised figure and the actual brightness reaching the screen can be staggering.</p>
+
+            <p>This is the LED lumen problem, and understanding it is the single most important thing a buyer can do before purchasing a projector.</p>
+
+            <!-- Section 1: The Problem -->
+            <h2 id="the-problem">The Core Problem with LED Lumens</h2>
+
+            <p>The fundamental issue with LED lumen specifications is <em>where</em> the measurement is taken. LED lumens quantify the luminous flux at the light source itself — the raw output of the LED die before it enters any optical component. This is analogous to measuring the horsepower of an engine on a dynamometer before accounting for drivetrain losses, aerodynamic drag, or rolling resistance. The number is technically accurate, but it reveals almost nothing about real-world performance.</p>
+
+            <p>In practice, the light emitted by an LED must traverse a complex optical pipeline before any of it reaches the projection surface. At every stage of that pipeline, photons are absorbed, scattered, reflected, or blocked. Research into compact LCD projector optical systems has documented this extensively — Zheng's work on compact LCD projectors with high optical performance <sup><a href="#ref-1">[1]</a></sup> and Peng et al.'s analysis of optical engine design for high-luminance projection <sup><a href="#ref-5">[5]</a></sup> both demonstrate that total system efficiency is a fraction of the source output. The result is a significant — and often dramatic — reduction in the brightness that actually forms the visible image.</p>
+
+            <!-- Section 2: Optical Path -->
+            <h2 id="optical-path">The Optical Path Inside a Single-Panel LCD Projector</h2>
+
+            <p>Most consumer and portable LED projectors use a single-panel LCD architecture rather than the three-panel (3LCD) systems found in higher-end models. In a single-panel design, one LCD panel handles all image formation, with a color wheel or sequential LED illumination cycling through red, green, and blue to produce a full-color image. This architecture is simpler and cheaper, but it introduces its own set of optical inefficiencies.</p>
+
+            <p>Zheng's SPIE research on compact LCD projectors <sup><a href="#ref-1">[1]</a></sup> and the more recent work by researchers on compact single-panel LCD projectors with high uniformity <sup><a href="#ref-8">[8]</a></sup> both trace the optical path in detail. Each stage in the pipeline introduces measurable losses.</p>
+
+            <figure class="optical-diagram">
+                <svg viewBox="0 0 560 460" xmlns="http://www.w3.org/2000/svg">
+                    <text x="280" y="18" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor">Single-Panel LCD Projector — Optical Path</text>
+
+                    <!-- LED Light Source -->
+                    <rect x="180" y="35" width="200" height="36" rx="6" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                    <text x="280" y="58" text-anchor="middle" font-size="12" fill="currentColor">LED Light Source (R/G/B)</text>
+                    <circle cx="195" cy="53" r="6" fill="none" stroke="currentColor" stroke-width="1"/>
+                    <line x1="195" y1="47" x2="195" y2="42" stroke="currentColor" stroke-width="1"/>
+                    <line x1="189" y1="48" x2="186" y2="44" stroke="currentColor" stroke-width="1"/>
+                    <line x1="201" y1="48" x2="204" y2="44" stroke="currentColor" stroke-width="1"/>
+
+                    <!-- Arrow 1 -->
+                    <line x1="280" y1="71" x2="280" y2="95" stroke="currentColor" stroke-width="1.5"/>
+                    <polygon points="276,91 280,99 284,91" fill="currentColor"/>
+                    <text x="350" y="87" font-size="10" fill="currentColor" opacity="0.6">100% flux</text>
+
+                    <!-- Collimation Optics -->
+                    <rect x="180" y="99" width="200" height="36" rx="6" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                    <text x="280" y="122" text-anchor="middle" font-size="12" fill="currentColor">Collimation &amp; Integrator Optics</text>
+
+                    <!-- Arrow 2 -->
+                    <line x1="280" y1="135" x2="280" y2="159" stroke="currentColor" stroke-width="1.5"/>
+                    <polygon points="276,155 280,163 284,155" fill="currentColor"/>
+                    <text x="350" y="151" font-size="10" fill="currentColor" opacity="0.6">~85-92%</text>
+
+                    <!-- Polarizers -->
+                    <rect x="180" y="163" width="200" height="36" rx="6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="6,3"/>
+                    <text x="280" y="186" text-anchor="middle" font-size="12" fill="currentColor">Polarizer (Input)</text>
+
+                    <!-- Arrow 3 — biggest loss -->
+                    <line x1="280" y1="199" x2="280" y2="223" stroke="currentColor" stroke-width="1.5"/>
+                    <polygon points="276,219 280,227 284,219" fill="currentColor"/>
+                    <text x="350" y="215" font-size="10" font-weight="600" fill="currentColor" opacity="0.8">~42-50%</text>
+
+                    <!-- LCD Panel -->
+                    <rect x="180" y="227" width="200" height="36" rx="6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="6,3"/>
+                    <text x="280" y="250" text-anchor="middle" font-size="12" fill="currentColor">LCD Panel (Image Modulation)</text>
+
+                    <!-- Arrow 4 -->
+                    <line x1="280" y1="263" x2="280" y2="287" stroke="currentColor" stroke-width="1.5"/>
+                    <polygon points="276,283 280,291 284,283" fill="currentColor"/>
+                    <text x="350" y="279" font-size="10" fill="currentColor" opacity="0.6">~25-35%</text>
+
+                    <!-- Analyzer -->
+                    <rect x="180" y="291" width="200" height="36" rx="6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="6,3"/>
+                    <text x="280" y="314" text-anchor="middle" font-size="12" fill="currentColor">Analyzer (Output Polarizer)</text>
+
+                    <!-- Arrow 5 -->
+                    <line x1="280" y1="327" x2="280" y2="351" stroke="currentColor" stroke-width="1.5"/>
+                    <polygon points="276,347 280,355 284,347" fill="currentColor"/>
+                    <text x="350" y="343" font-size="10" fill="currentColor" opacity="0.6">~20-30%</text>
+
+                    <!-- Projection Lens -->
+                    <rect x="180" y="355" width="200" height="36" rx="6" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                    <text x="280" y="378" text-anchor="middle" font-size="12" fill="currentColor">Projection Lens</text>
+
+                    <!-- Arrow 6 -->
+                    <line x1="280" y1="391" x2="280" y2="415" stroke="currentColor" stroke-width="1.5"/>
+                    <polygon points="276,411 280,419 284,411" fill="currentColor"/>
+                    <text x="350" y="407" font-size="10" font-weight="600" fill="currentColor" opacity="0.8">~8-15%</text>
+
+                    <!-- Screen -->
+                    <rect x="180" y="419" width="200" height="30" rx="6" fill="currentColor" opacity="0.1" stroke="currentColor" stroke-width="1.5"/>
+                    <text x="280" y="439" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor">Screen</text>
+
+                    <!-- Loss annotation -->
+                    <text x="30" y="50" font-size="10" font-weight="600" fill="currentColor">LED Lumens</text>
+                    <text x="30" y="62" font-size="10" fill="currentColor" opacity="0.6">(measured here)</text>
+                    <line x1="100" y1="55" x2="175" y2="53" stroke="currentColor" stroke-width="1" stroke-dasharray="3,3"/>
+
+                    <text x="30" y="429" font-size="10" font-weight="600" fill="currentColor">ANSI Lumens</text>
+                    <text x="30" y="441" font-size="10" fill="currentColor" opacity="0.6">(measured here)</text>
+                    <line x1="105" y1="433" x2="175" y2="433" stroke="currentColor" stroke-width="1" stroke-dasharray="3,3"/>
+                </svg>
+                <figcaption>Fig 1. Simplified optical path of a single-panel LCD projector, showing where LED lumens and ANSI lumens are measured. Percentages indicate cumulative remaining flux at each stage.</figcaption>
+            </figure>
+
+            <p>The key insight is straightforward: LED lumens are measured at the very top of this chain, before the light enters any optic. ANSI lumens are measured at the bottom, on the screen. Every component in between absorbs or redirects a portion of the light, and the cumulative effect is substantial.</p>
+
+            <!-- Section 3: LCD Panel Losses -->
+            <h2 id="lcd-panel-losses">Light Loss Inside the LCD Panel</h2>
+
+            <p>The LCD imaging stage is where the most significant brightness reduction occurs. In a single-panel LCD projector, the LED light engine cycles through red, green, and blue illumination sequentially (or uses a color wheel), and all three color fields pass through the same LCD panel. The liquid crystals modulate the light on a per-pixel basis to form each color frame in rapid succession.</p>
+
+            <p>However, LCD panels are inherently inefficient at transmitting light. The process of polarization and liquid crystal modulation blocks a significant portion of the incoming photons. Jiang et al.'s research on tri-color LED projection optical engines <sup><a href="#ref-2">[2]</a></sup> quantifies these losses across the colour-sequential illumination cycle, while Woods' work on LCD projector polarization characteristics <sup><a href="#ref-3">[3]</a></sup> documents how the polarization process alone absorbs roughly half the incoming light.</p>
+
+            <p>Teijido et al.'s study on compact LED projector engines <sup><a href="#ref-4">[4]</a></sup> further confirms that even in optimized designs, the total optical efficiency from source to screen remains a small fraction of the input — typically in the range of 8–20%.</p>
+
+            <figure class="optical-diagram">
+                <svg viewBox="0 0 560 340" xmlns="http://www.w3.org/2000/svg">
+                    <text x="280" y="18" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor">LCD Panel — Internal Light Losses</text>
+
+                    <!-- Incoming light beam -->
+                    <line x1="60" y1="170" x2="130" y2="170" stroke="currentColor" stroke-width="2"/>
+                    <polygon points="126,166 134,170 126,174" fill="currentColor"/>
+                    <text x="60" y="155" font-size="10" fill="currentColor">Incoming</text>
+                    <text x="60" y="166" font-size="10" fill="currentColor">light</text>
+
+                    <!-- Polarizer 1 -->
+                    <rect x="140" y="110" width="12" height="120" rx="2" fill="currentColor" opacity="0.15" stroke="currentColor" stroke-width="1.5"/>
+                    <text x="146" y="100" text-anchor="middle" font-size="10" fill="currentColor">Polarizer</text>
+                    <text x="146" y="248" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.7">~50% absorbed</text>
+
+                    <!-- Scattered light from polarizer -->
+                    <line x1="146" y1="120" x2="146" y2="95" stroke="currentColor" stroke-width="1" stroke-dasharray="3,2" opacity="0.4"/>
+                    <line x1="146" y1="220" x2="146" y2="245" stroke="currentColor" stroke-width="1" stroke-dasharray="3,2" opacity="0.4"/>
+
+                    <!-- Light beam after polarizer (thinner) -->
+                    <line x1="152" y1="170" x2="220" y2="170" stroke="currentColor" stroke-width="1.5"/>
+                    <polygon points="216,167 222,170 216,173" fill="currentColor"/>
+
+                    <!-- LC Layer -->
+                    <rect x="228" y="120" width="50" height="100" rx="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                    <!-- LC molecules -->
+                    <ellipse cx="243" cy="145" rx="8" ry="4" fill="none" stroke="currentColor" stroke-width="1" transform="rotate(-30,243,145)"/>
+                    <ellipse cx="263" cy="155" rx="8" ry="4" fill="none" stroke="currentColor" stroke-width="1" transform="rotate(15,263,155)"/>
+                    <ellipse cx="248" cy="175" rx="8" ry="4" fill="none" stroke="currentColor" stroke-width="1" transform="rotate(-45,248,175)"/>
+                    <ellipse cx="260" cy="190" rx="8" ry="4" fill="none" stroke="currentColor" stroke-width="1" transform="rotate(30,260,190)"/>
+                    <text x="253" y="108" text-anchor="middle" font-size="10" fill="currentColor">Liquid</text>
+                    <text x="253" y="119" text-anchor="middle" font-size="10" fill="currentColor">Crystal</text>
+                    <text x="253" y="248" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.7">~60-70% pass</text>
+
+                    <!-- Light beam after LC (even thinner) -->
+                    <line x1="278" y1="170" x2="340" y2="170" stroke="currentColor" stroke-width="1.2"/>
+                    <polygon points="336,167.5 342,170 336,172.5" fill="currentColor"/>
+
+                    <!-- Polarizer 2 (analyzer) -->
+                    <rect x="348" y="110" width="12" height="120" rx="2" fill="currentColor" opacity="0.15" stroke="currentColor" stroke-width="1.5"/>
+                    <text x="354" y="100" text-anchor="middle" font-size="10" fill="currentColor">Analyzer</text>
+                    <text x="354" y="248" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.7">~10-15% loss</text>
+
+                    <!-- Output beam (thinnest) -->
+                    <line x1="360" y1="170" x2="480" y2="170" stroke="currentColor" stroke-width="1" opacity="0.8"/>
+                    <polygon points="476,168 482,170 476,172" fill="currentColor" opacity="0.8"/>
+                    <text x="490" y="165" font-size="10" fill="currentColor">To lens</text>
+                    <text x="490" y="176" font-size="10" fill="currentColor" opacity="0.6">(~30-40%</text>
+                    <text x="490" y="187" font-size="10" fill="currentColor" opacity="0.6">remaining)</text>
+
+                    <!-- Comparison bar chart at bottom -->
+                    <text x="280" y="290" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor">Cumulative Transmission Through LCD Stage</text>
+                    <rect x="100" y="300" width="360" height="16" rx="3" fill="currentColor" opacity="0.08" stroke="currentColor" stroke-width="0.5"/>
+                    <rect x="100" y="300" width="126" height="16" rx="3" fill="currentColor" opacity="0.2"/>
+                    <text x="100" y="330" font-size="9" fill="currentColor" opacity="0.7">0%</text>
+                    <text x="270" y="330" font-size="9" fill="currentColor" opacity="0.7">~35% transmitted</text>
+                    <text x="450" y="330" font-size="9" fill="currentColor" opacity="0.7">100%</text>
+                </svg>
+                <figcaption>Fig 2. Cross-section of a single LCD imaging stage showing how polarizers and liquid crystal modulation reduce light transmission to roughly 30–40% of the incoming beam.</figcaption>
+            </figure>
+
+            <p>The losses break down across several components:</p>
+
+            <ul>
+                <li><strong>Polarizers</strong> absorb approximately 50% of incoming unpolarized light by filtering out one polarization axis entirely. Woods' research on LCD projector polarization <sup><a href="#ref-3">[3]</a></sup> confirms this is a fundamental physical constraint — not an engineering limitation that can be designed around.</li>
+                <li><strong>Liquid crystal layers</strong> reduce transmission further during pixel modulation. Even in a fully "open" state, LC layers do not achieve 100% transmittance due to molecular alignment imperfections and electrode structures. Garc&iacute;a-Domene et al.'s study on spatial homogeneity in projection systems <sup><a href="#ref-6">[6]</a></sup> documents how these non-uniformities compound across the panel area.</li>
+                <li><strong>Colour-sequential losses</strong> — in single-panel designs, only one colour channel is active at any given time. The effective brightness is reduced by approximately one-third compared to a system where all three colours are projected simultaneously. This temporal multiplexing penalty is unique to single-panel architectures.</li>
+                <li><strong>Condensing and relay optics</strong> introduce Fresnel reflection losses at every glass-air boundary, despite anti-reflection coatings.</li>
+                <li><strong>The projection lens</strong> — a multi-element assembly — absorbs and reflects a further 5–10% of the remaining light through its glass elements.</li>
+            </ul>
+
+            <p>The compounding effect of these losses is multiplicative, not additive. Each stage reduces the output of the previous stage, so the total system efficiency is the product of all individual stage efficiencies — a relationship that Peng et al. <sup><a href="#ref-5">[5]</a></sup> model quantitatively in their optical engine efficiency analysis.</p>
+
+            <!-- Section 4: Loss Breakdown -->
+            <h2 id="loss-breakdown">Quantifying Optical Losses at Each Stage</h2>
+
+            <p>The following table summarizes the approximate transmission efficiency and cumulative brightness remaining at each stage of a typical single-panel LCD projector optical path, based on values reported across multiple published studies <sup><a href="#ref-1">[1]</a></sup><sup><a href="#ref-4">[4]</a></sup><sup><a href="#ref-5">[5]</a></sup><sup><a href="#ref-8">[8]</a></sup>.</p>
+
+            <table class="loss-table">
+                <thead>
+                    <tr>
+                        <th>Optical Stage</th>
+                        <th>Transmission</th>
+                        <th>Cumulative Flux</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>LED Light Source</td>
+                        <td>100%</td>
+                        <td>2000 lm</td>
+                    </tr>
+                    <tr>
+                        <td>Collimation &amp; Integrator Optics</td>
+                        <td>85–92%</td>
+                        <td>~1770 lm</td>
+                    </tr>
+                    <tr>
+                        <td>Input Polarizer</td>
+                        <td>42–50%</td>
+                        <td>~800 lm</td>
+                    </tr>
+                    <tr>
+                        <td>LCD Panel (modulation)</td>
+                        <td>60–70%</td>
+                        <td>~520 lm</td>
+                    </tr>
+                    <tr>
+                        <td>Output Analyzer</td>
+                        <td>85–90%</td>
+                        <td>~455 lm</td>
+                    </tr>
+                    <tr>
+                        <td>Colour-Sequential Penalty (~&frac13;)</td>
+                        <td>~33%</td>
+                        <td>~150 lm</td>
+                    </tr>
+                    <tr>
+                        <td>Projection Lens</td>
+                        <td>90–95%</td>
+                        <td>~140 lm</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Screen (ANSI measured)</strong></td>
+                        <td>—</td>
+                        <td><strong>~120–180 lm</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p>The range in the final row reflects real-world variance across projector designs, optical quality, and manufacturing tolerances. Budget projectors with lower-grade optics tend to sit closer to the 120 lm end, while models with optimized LED coupling and higher-grade LCD panels approach the upper bound. Multi-panel (3LCD) architectures eliminate the colour-sequential penalty and achieve higher efficiency, which is why professional projectors use them despite the increased cost and size <sup><a href="#ref-4">[4]</a></sup><sup><a href="#ref-7">[7]</a></sup>.</p>
+
+            <figure class="optical-diagram">
+                <svg viewBox="0 0 560 280" xmlns="http://www.w3.org/2000/svg">
+                    <text x="280" y="18" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor">Brightness Attenuation — 2000 LED Lumens (Single-Panel)</text>
+
+                    <!-- Bars -->
+                    <rect x="60" y="40" width="440" height="24" rx="4" fill="currentColor" opacity="0.18"/>
+                    <text x="55" y="57" text-anchor="end" font-size="10" fill="currentColor">Source</text>
+                    <text x="510" y="57" font-size="10" fill="currentColor">2000 lm</text>
+
+                    <rect x="60" y="72" width="389" height="24" rx="4" fill="currentColor" opacity="0.16"/>
+                    <text x="55" y="89" text-anchor="end" font-size="10" fill="currentColor">Collim.</text>
+                    <text x="459" y="89" font-size="10" fill="currentColor">1770 lm</text>
+
+                    <rect x="60" y="104" width="176" height="24" rx="4" fill="currentColor" opacity="0.22"/>
+                    <text x="55" y="121" text-anchor="end" font-size="10" fill="currentColor">Polarizer</text>
+                    <text x="246" y="121" font-size="10" fill="currentColor">800 lm</text>
+
+                    <rect x="60" y="136" width="114" height="24" rx="4" fill="currentColor" opacity="0.2"/>
+                    <text x="55" y="153" text-anchor="end" font-size="10" fill="currentColor">LCD</text>
+                    <text x="184" y="153" font-size="10" fill="currentColor">520 lm</text>
+
+                    <rect x="60" y="168" width="66" height="24" rx="4" fill="currentColor" opacity="0.18"/>
+                    <text x="55" y="185" text-anchor="end" font-size="10" fill="currentColor">Colour</text>
+                    <text x="136" y="185" font-size="10" fill="currentColor">150 lm</text>
+
+                    <rect x="60" y="200" width="44" height="24" rx="4" fill="currentColor" opacity="0.25"/>
+                    <text x="55" y="217" text-anchor="end" font-size="10" fill="currentColor">Screen</text>
+                    <text x="114" y="217" font-size="10" font-weight="600" fill="currentColor">~120–180 lm</text>
+
+                    <text x="280" y="250" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.6">Each bar represents cumulative remaining brightness at that stage</text>
+                    <text x="280" y="268" text-anchor="middle" font-size="9" fill="currentColor" opacity="0.5">Based on published optical efficiency data [1][4][5][8]</text>
+                </svg>
+                <figcaption>Fig 3. Waterfall chart showing brightness attenuation through a single-panel LCD projector. A 2000 LED lumen projector typically delivers 120–180 ANSI lumens on screen.</figcaption>
+            </figure>
+
+            <!-- Section 5: Why It Matters -->
+            <h2 id="why-it-matters">Why This Matters for Consumers</h2>
+
+            <p>When a manufacturer advertises "2000 LED lumens," they are referencing the output of the LED light engine before it enters the LCD imaging system and projection optics. This number represents the potential luminous flux of the source — not the brightness that forms the image on a wall or screen.</p>
+
+            <p>The brightness a viewer actually perceives is determined exclusively by the light that survives the entire optical path and reaches the projection surface. In a single-panel LCD system, the advertised LED lumen number has already been reduced by 85–94% by the time it exits the lens.</p>
+
+            <p>This is not a defect or a flaw in any particular product. It is a fundamental property of how LCD projection systems work. Every LCD projector — regardless of brand or price — experiences these losses. The peer-reviewed literature on projection optical engines is unambiguous on this point <sup><a href="#ref-1">[1]</a></sup><sup><a href="#ref-2">[2]</a></sup><sup><a href="#ref-5">[5]</a></sup><sup><a href="#ref-8">[8]</a></sup>. The difference between brands lies in whether the manufacturer discloses the screen-measured brightness or lets the source-measured number do the marketing.</p>
+
+            <!-- Section 6: Worked Example -->
+            <h2 id="brightness-example">Worked Example: 2000 LED Lumens to Screen</h2>
+
+            <p>To illustrate the magnitude of optical losses in concrete terms, consider a single-panel LCD projector rated at 2000 LED lumens. Here is what happens as light moves through the optical pipeline:</p>
+
+            <figure class="optical-diagram">
+                <svg viewBox="0 0 560 280" xmlns="http://www.w3.org/2000/svg">
+                    <text x="280" y="18" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor">Worked Example — Brightness Path</text>
+
+                    <!-- Stage 1 -->
+                    <rect x="140" y="40" width="280" height="40" rx="8" fill="currentColor" opacity="0.12" stroke="currentColor" stroke-width="1.5"/>
+                    <text x="280" y="57" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor">2000 LED Lumens</text>
+                    <text x="280" y="72" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.6">Light source output</text>
+
+                    <!-- Arrow -->
+                    <line x1="280" y1="80" x2="280" y2="108" stroke="currentColor" stroke-width="1.5"/>
+                    <polygon points="276,104 280,112 284,104" fill="currentColor"/>
+
+                    <!-- Stage 2 -->
+                    <rect x="160" y="112" width="240" height="40" rx="8" fill="currentColor" opacity="0.09" stroke="currentColor" stroke-width="1.5"/>
+                    <text x="280" y="129" text-anchor="middle" font-size="13" font-weight="500" fill="currentColor">~1200 lumens</text>
+                    <text x="280" y="144" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.6">After collimation optics &amp; polarization</text>
+
+                    <!-- Arrow -->
+                    <line x1="280" y1="152" x2="280" y2="180" stroke="currentColor" stroke-width="1.5"/>
+                    <polygon points="276,176 280,184 284,176" fill="currentColor"/>
+
+                    <!-- Stage 3 -->
+                    <rect x="190" y="184" width="180" height="40" rx="8" fill="currentColor" opacity="0.06" stroke="currentColor" stroke-width="1.5"/>
+                    <text x="280" y="201" text-anchor="middle" font-size="13" font-weight="500" fill="currentColor">~600 lumens</text>
+                    <text x="280" y="216" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.6">After LCD panel modulation &amp; analyzer</text>
+
+                    <!-- Arrow -->
+                    <line x1="280" y1="224" x2="280" y2="252" stroke="currentColor" stroke-width="1.5"/>
+                    <polygon points="276,248 280,256 284,248" fill="currentColor"/>
+
+                    <!-- Stage 4 -->
+                    <rect x="210" y="256" width="140" height="34" rx="8" fill="currentColor" opacity="0.2" stroke="currentColor" stroke-width="2"/>
+                    <text x="280" y="278" text-anchor="middle" font-size="14" font-weight="700" fill="currentColor">120–180 ANSI lm</text>
+
+                    <!-- Side annotation -->
+                    <text x="470" y="65" font-size="10" fill="currentColor" opacity="0.5">100%</text>
+                    <text x="470" y="135" font-size="10" fill="currentColor" opacity="0.5">60%</text>
+                    <text x="470" y="207" font-size="10" fill="currentColor" opacity="0.5">30%</text>
+                    <text x="470" y="278" font-size="10" font-weight="600" fill="currentColor" opacity="0.7">6–9%</text>
+                </svg>
+                <figcaption>Fig 4. A single-panel projector rated at 2000 LED lumens may deliver only 120–180 ANSI lumens on screen — approximately 6–9% of the advertised brightness.</figcaption>
+            </figure>
+
+            <p>This is not hypothetical. Independent reviews and standardized tests consistently show that budget single-panel LCD projectors advertising 2000–3000 LED lumens measure between 100 and 200 ANSI lumens when tested on screen. The discrepancy is a direct consequence of the optical losses described above — losses that are well-documented in projection optics literature <sup><a href="#ref-1">[1]</a></sup><sup><a href="#ref-5">[5]</a></sup><sup><a href="#ref-8">[8]</a></sup>.</p>
+
+            <!-- Section 7: Standards -->
+            <h2 id="standards">ANSI, ISO, and CVIA: Standards That Measure Real Brightness</h2>
+
+            <p>Recognizing the limitations of source-measured brightness, the industry has developed several standardized measurement methods that capture brightness at the screen:</p>
+
+            <ul>
+                <li><strong>ANSI lumens</strong> (ANSI/NAPM IT7.228) — Measures brightness by averaging nine points on the projected image in a controlled environment. This has been the dominant projector brightness standard for decades and remains the most widely used reference.</li>
+                <li><strong>ISO lumens</strong> (ISO 21118) — An international standard that follows a similar methodology to ANSI but with slightly different calibration conditions. For most practical purposes, ISO lumens and ANSI lumens produce comparable results.</li>
+                <li><strong>CVIA lumens</strong> — Developed by the China Video Industry Association, this standard measures on-screen brightness and has become widely adopted by Chinese projector manufacturers. It provides a more accurate comparison point than LED lumens.</li>
+            </ul>
+
+            <p>All three standards share a critical property: they measure brightness <em>after</em> projection, on the screen surface. This means they account for every optical loss in the pipeline and reflect the brightness that a viewer actually experiences.</p>
+
+            <p>When comparing projectors, always look for ANSI, ISO, or CVIA lumen ratings. If a product lists only "LED lumens" or "light source lumens" without providing a standardized screen-measured figure, treat the brightness claim with caution.</p>
+
+            <!-- Section 8: Bottom Line -->
+            <h2 id="takeaway">The Bottom Line</h2>
+
+            <p>LED lumens are not inherently dishonest — they do measure a real physical quantity. But they measure it at the wrong point in the system for consumers to make informed purchasing decisions. The number that matters is how bright the image appears on the screen, and that number is always a fraction of the source rating.</p>
+
+            <div class="callout-box">
+                <strong>Key Takeaways</strong>
+                <ul style="margin:0.5rem 0 0;padding-left:1.2rem;line-height:1.8;">
+                    <li>LED lumens measure brightness at the source, before optical losses occur.</li>
+                    <li>ANSI/ISO/CVIA lumens measure brightness on screen, after the full optical path.</li>
+                    <li>A typical single-panel LCD projector delivers 6–9% of its LED lumen rating as actual screen brightness.</li>
+                    <li>A "2000 LED lumen" projector often produces 120–180 ANSI lumens in practice.</li>
+                    <li>Always compare projectors using the same lumen standard — preferably ANSI or CVIA.</li>
+                </ul>
+            </div>
+
+            <p>Understanding this distinction is the difference between buying a projector that meets expectations and one that looks bright on paper but underperforms in a living room. When the spec sheet says "2000 lumens," the first question should always be: measured where?</p>
+
+            <!-- References -->
+            <h2 id="references" style="margin-top:3rem;">References</h2>
+            <ol style="font-size:0.9rem;line-height:1.9;padding-left:1.2rem;">
+                <li id="ref-1">Z. Zheng, "Compact LCD Projector with High Optical Performance," <em>SPIE Proceedings</em>, Vol. 3560. <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/3560/1/Compact-LCD-projector-with-high-optical-performance/10.1117/12.319693.full" target="_blank" rel="noopener">doi:10.1117/12.319693</a></li>
+                <li id="ref-2">H. Jiang et al., "Projection Optical Engine Design Based on Tri-Color LEDs," <em>Applied Optics</em>, Vol. 60, No. 23, pp. 6971. Optica Publishing Group. <a href="https://opg.optica.org/viewmedia.cfm?r=1&seq=0&uri=ao-60-23-6971" target="_blank" rel="noopener">Link</a></li>
+                <li id="ref-3">A. J. Woods, "Optimal Usage of LCD Projectors for Polarised Stereoscopic Projection," Curtin University. <a href="https://cmst.curtin.edu.au/wp-content/uploads/sites/4/2016/05/2001-01.pdf" target="_blank" rel="noopener">PDF</a></li>
+                <li id="ref-4">J. M. Teijido et al., "Compact Three-Panel LED Projector Engine," <em>SID Symposium Digest</em>. <a href="https://www.researchgate.net/publication/240975711_732_Distinguished_Paper_Compact_Three_Panel_LED_Projector_Engine" target="_blank" rel="noopener">ResearchGate</a></li>
+                <li id="ref-5">S. Peng et al., "Optical Engine Design for a Compact High-Luminance Projection System," <em>Photonics</em> (MDPI), Vol. 10, No. 5, 559. <a href="https://www.mdpi.com/2304-6732/10/5/559" target="_blank" rel="noopener">doi:10.3390/photonics10050559</a></li>
+                <li id="ref-6">M. C. Garc&iacute;a-Domene et al., "The Problem of Spatial Homogeneity in an LCoS Projector," <em>Optics Communications</em>. <a href="https://www.sciencedirect.com/science/article/abs/pii/S0030402619311489" target="_blank" rel="noopener">ScienceDirect</a></li>
+                <li id="ref-7">SPIE, <em>Projection Displays II</em>, SPIE Proceedings Vol. 2650. <a href="https://spie.org/Publications/Proceedings/Volume/2650" target="_blank" rel="noopener">SPIE</a></li>
+                <li id="ref-8">"Compact Single-Panel LCD Projector with High Uniformity," 2023. <a href="https://www.researchgate.net/publication/374072078_Compact_single-panel_LCD_projector_with_high_uniformity" target="_blank" rel="noopener">ResearchGate</a></li>
+            </ol>
+
+        </div>
+    </div>
+</section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__text">&copy; 2026 Manojit Ballav. Content licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.</div>
+                <div class="footer__links">
+                    <a href="https://www.linkedin.com/in/manojitballav/" target="_blank" rel="noopener">LinkedIn</a>
+                    <a href="https://x.com/manojitballav" target="_blank" rel="noopener">X</a>
+                    <a href="https://github.com/manojitballav" target="_blank" rel="noopener">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => { header.classList.toggle('header--scrolled', window.scrollY > 10); });
+        const menuBtn = document.getElementById('menuBtn');
+        const nav = document.getElementById('nav');
+        menuBtn.addEventListener('click', () => {
+            nav.classList.toggle('open');
+            const isOpen = nav.classList.contains('open');
+            menuBtn.innerHTML = isOpen
+                ? '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="6" y1="6" x2="18" y2="18"/><line x1="6" y1="18" x2="18" y2="6"/></svg>'
+                : '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>';
+        });
+        nav.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                nav.classList.remove('open');
+                menuBtn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>';
+            });
+        });
+        const themeToggle = document.getElementById('themeToggle');
+        const themeToggleMobile = document.getElementById('themeToggleMobile');
+        const mobileLabel = themeToggleMobile.querySelector('.theme-toggle--mobile__label');
+        const root = document.documentElement;
+        function updateMobileLabel() {
+            const isDark = root.getAttribute('data-theme') === 'dark';
+            mobileLabel.textContent = isDark ? 'Light Mode' : 'Dark Mode';
+        }
+        function setTheme(theme) {
+            root.setAttribute('data-theme', theme);
+            localStorage.setItem('theme', theme);
+            updateMobileLabel();
+        }
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) { setTheme(savedTheme); }
+        else if (window.matchMedia('(prefers-color-scheme: dark)').matches) { setTheme('dark'); }
+        updateMobileLabel();
+        themeToggle.addEventListener('click', () => {
+            const current = root.getAttribute('data-theme');
+            setTheme(current === 'dark' ? 'light' : 'dark');
+        });
+        themeToggleMobile.addEventListener('click', () => {
+            const current = root.getAttribute('data-theme');
+            setTheme(current === 'dark' ? 'light' : 'dark');
+        });
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+            if (!localStorage.getItem('theme')) { setTheme(e.matches ? 'dark' : 'light'); }
+        });
+    </script>
+
+</body>
+</html>

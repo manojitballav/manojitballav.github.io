@@ -23,6 +23,18 @@
 
 <!-- Blog Posts (newest first) -->
 <url>
+  <loc>https://manojitballav.com/blog/led-lumens-misleading.html</loc>
+  <lastmod>2026-03-08</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.9</priority>
+  <image:image>
+    <image:loc>https://manojitballav.com/images/blog-lumens.webp</image:loc>
+    <image:title>Why LED Lumens Are Misleading — Projector Brightness Ratings Explained</image:title>
+    <image:caption>A technical breakdown of optical losses in LCD projectors by Manojit Ballav</image:caption>
+  </image:image>
+</url>
+
+<url>
   <loc>https://manojitballav.com/blog/tv-panel-types.html</loc>
   <lastmod>2026-03-07</lastmod>
   <changefreq>monthly</changefreq>

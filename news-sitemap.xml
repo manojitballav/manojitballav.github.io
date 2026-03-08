@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+
+  <url>
+    <loc>https://manojitballav.com/blog/led-lumens-misleading.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Manojit Ballav</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-08</news:publication_date>
+      <news:title>Why LED Lumens Are Misleading: What Projector Brightness Ratings Actually Mean</news:title>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://manojitballav.com/blog/tv-panel-types.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Manojit Ballav</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-07</news:publication_date>
+      <news:title>TV Display Panels Explained: From TN to MicroLED — A Deep Dive</news:title>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://manojitballav.com/blog/blog-wireless-hdmi.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Manojit Ballav</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-04</news:publication_date>
+      <news:title>Inside a Wireless HDMI System: Engineering a Pro-Grade Wireless HDMI Dongle</news:title>
+    </news:news>
+  </url>
+
+</urlset>

@@ -9,6 +9,7 @@ Disallow: /mono_brand_guidelines.md
 
 # Sitemap location
 Sitemap: https://manojitballav.com/sitemap.xml
+Sitemap: https://manojitballav.com/news-sitemap.xml
 
 # AI/LLM discovery
 # llms.txt: https://manojitballav.com/llms.txt
