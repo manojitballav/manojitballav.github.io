@@ -201,10 +201,22 @@
 
 <section class="section">
     <div class="container" style="max-width: 800px;">
+        <nav class="article-breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a> &rsaquo; <a href="/blog/blog-page.html">Blog</a> &rsaquo; <span>Inside a Wireless HDMI System</span>
+        </nav>
         <div class="article-header">
             <div class="article-header__category">Engineering</div>
             <h1 class="article-header__title">Inside a Wireless HDMI System: Engineering a Pro-Grade Wireless HDMI Dongle</h1>
             <div class="article-header__meta">4 March 2026 &bull; Manojit Ballav (Mono)</div>
+            <div class="key-takeaways">
+                <div class="key-takeaways__title">Key Takeaways</div>
+                <ul>
+                    <li>A wireless HDMI system uses a dedicated point-to-point 5 GHz RF link — completely independent of building Wi-Fi infrastructure</li>
+                    <li>The signal pipeline runs: HDMI capture → H.264 encoding on SoC → 5 GHz wireless TX/RX → HDMI output, achieving 40–80 ms latency</li>
+                    <li>Unlike Miracast, Chromecast, or AirPlay, this approach is plug-and-play with no software dependencies or network configuration</li>
+                    <li>Core hardware is surprisingly compact: HDMI receiver chip, video processing SoC, Wi-Fi module, 512 MB–1 GB DDR RAM, and HDMI transmitter chip</li>
+                </ul>
+            </div>
         </div>
         <div class="article-body">
 
