@@ -8,7 +8,7 @@
 <!-- Homepage -->
 <url>
   <loc>https://manojitballav.com/</loc>
-  <lastmod>2026-03-08</lastmod>
+  <lastmod>2026-03-09</lastmod>
   <changefreq>monthly</changefreq>
   <priority>1.0</priority>
 </url>
@@ -24,12 +24,24 @@
 <!-- Blog Listing Page -->
 <url>
   <loc>https://manojitballav.com/blog/blog-page.html</loc>
-  <lastmod>2026-03-08</lastmod>
+  <lastmod>2026-03-09</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.9</priority>
 </url>
 
 <!-- Blog Posts (newest first) -->
+<url>
+  <loc>https://manojitballav.com/blog/led-projector-lifespan.html</loc>
+  <lastmod>2026-03-09</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.9</priority>
+  <image:image>
+    <image:loc>https://manojitballav.com/images/blog-led-lifespan.jpg</image:loc>
+    <image:title>20,000-Hour LED Projector Lifespan: The Specification That Doesn't Tell the Whole Story</image:title>
+    <image:caption>A technical breakdown of LED lamp hours, lumen maintenance, and why the optical system ages faster than the light source — by Manojit Ballav</image:caption>
+  </image:image>
+</url>
+
 <url>
   <loc>https://manojitballav.com/blog/led-lumens-misleading.html</loc>
   <lastmod>2026-03-08</lastmod>

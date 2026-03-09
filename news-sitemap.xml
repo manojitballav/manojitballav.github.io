@@ -3,6 +3,18 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 
   <url>
+    <loc>https://manojitballav.com/blog/led-projector-lifespan.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Manojit Ballav</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-09</news:publication_date>
+      <news:title>20,000-Hour LED Projector Lifespan: The Specification That Doesn't Tell the Whole Story</news:title>
+    </news:news>
+  </url>
+
+  <url>
     <loc>https://manojitballav.com/blog/led-lumens-misleading.html</loc>
     <news:news>
       <news:publication>

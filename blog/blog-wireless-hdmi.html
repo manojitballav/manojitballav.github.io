@@ -4,7 +4,7 @@
     <script>(function(){var t=localStorage.getItem('theme')||(window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t)})()</script>
     <title>Inside a Wireless HDMI System: Engineering a Pro-Grade Wireless HDMI Dongle | Manojit Ballav</title>
     <meta charset="UTF-8">
-    <meta name="description" content="A deep technical breakdown of wireless HDMI dongle architecture — HDMI capture, real-time video encoding, 5 GHz wireless transmission, chipset options, SoC benchmarks, latency analysis, and engineering challenges.">
+    <meta name="description" content="A deep technical breakdown of wireless HDMI dongle architecture: HDMI capture, real-time video encoding, 5 GHz wireless transmission, chipset options, SoC benchmarks, latency analysis, and engineering challenges.">
     <meta name="keywords" content="wireless HDMI, wireless HDMI dongle, HDMI transmitter receiver, wireless display, wireless presentation, Novatek NT9666x, HiSilicon Hi3516, Ambarella, Rockchip RK3566, Amlogic S905, Allwinner, HDMI over WiFi, wireless video streaming, conference room display, wireless HDMI architecture, wireless HDMI latency, SoC benchmarks, Miracast latency, video pipeline optimization">
     <meta name="news_keywords" content="wireless HDMI, HDMI transmitter, wireless display, video streaming, conference room display">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,7 +21,7 @@
     <meta property="og:type" content="article" />
     <meta property="og:url" content="https://manojitballav.com/blog/blog-wireless-hdmi.html" />
     <meta property="og:title" content="Inside a Wireless HDMI System: Engineering a Pro-Grade Wireless HDMI Dongle" />
-    <meta property="og:description" content="A deep technical breakdown of wireless HDMI dongle architecture — chipsets, video pipeline, and engineering challenges." />
+    <meta property="og:description" content="A deep technical breakdown of wireless HDMI dongle architecture: chipsets, video pipeline, and engineering challenges." />
     <meta property="og:image" content="https://manojitballav.com/images/blog-wireless-hdmi.jpg" />
     <meta property="og:site_name" content="Manojit Ballav" />
     <meta property="article:published_time" content="2026-03-04T00:00:00+05:30" />
@@ -38,7 +38,7 @@
     <meta name="twitter:creator" content="@manojitballav" />
     <meta name="twitter:url" content="https://manojitballav.com/blog/blog-wireless-hdmi.html" />
     <meta name="twitter:title" content="Inside a Wireless HDMI System: Engineering a Pro-Grade Wireless HDMI Dongle" />
-    <meta name="twitter:description" content="A deep technical breakdown of wireless HDMI dongle architecture — chipsets, video pipeline, and engineering challenges." />
+    <meta name="twitter:description" content="A deep technical breakdown of wireless HDMI dongle architecture: chipsets, video pipeline, and engineering challenges." />
     <meta name="twitter:image" content="https://manojitballav.com/images/blog-wireless-hdmi.jpg" />
 
     <!-- Schema.org JSON-LD -->
@@ -55,13 +55,23 @@
   "inLanguage": "en",
   "author": {
     "@type": "Person",
-    "@id": "https://www.google.com/search?kgmid=/g/11f_jdjrm5",
+    "@id": "https://manojitballav.com/#person",
     "name": "Manojit Ballav",
-    "url": "https://manojitballav.com/"
+    "url": "https://manojitballav.com/",
+    "jobTitle": "Principal Product Manager",
+    "sameAs": [
+      "https://www.linkedin.com/in/manojitballav/",
+      "https://x.com/manojitballav",
+      "https://github.com/manojitballav",
+      "https://www.instagram.com/ilegalmono/",
+      "https://scholar.google.com/citations?user=Fi8Tpu4AAAAJ",
+      "https://www.wikidata.org/wiki/Q138306609",
+      "https://www.google.com/search?kgmid=/g/11f_jdjrm5"
+    ]
   },
   "publisher": {
     "@type": "Person",
-    "@id": "https://www.google.com/search?kgmid=/g/11f_jdjrm5",
+    "@id": "https://manojitballav.com/#person",
     "name": "Manojit Ballav"
   },
   "mainEntityOfPage": "https://manojitballav.com/blog/blog-wireless-hdmi.html"
@@ -211,7 +221,7 @@
             <div class="key-takeaways">
                 <div class="key-takeaways__title">Key Takeaways</div>
                 <ul>
-                    <li>A wireless HDMI system uses a dedicated point-to-point 5 GHz RF link — completely independent of building Wi-Fi infrastructure</li>
+                    <li>A wireless HDMI system uses a dedicated point-to-point 5 GHz RF link, completely independent of building Wi-Fi infrastructure</li>
                     <li>The signal pipeline runs: HDMI capture → H.264 encoding on SoC → 5 GHz wireless TX/RX → HDMI output, achieving 40–80 ms latency</li>
                     <li>Unlike Miracast, Chromecast, or AirPlay, this approach is plug-and-play with no software dependencies or network configuration</li>
                     <li>Core hardware is surprisingly compact: HDMI receiver chip, video processing SoC, Wi-Fi module, 512 MB–1 GB DDR RAM, and HDMI transmitter chip</li>
@@ -233,13 +243,13 @@
 
                     <figure class="blog-figure">
                         <img src="../images/blog-hdmi-cable.jpg" alt="HDMI cables and connectors used in wireless display systems" loading="lazy">
-                        <figcaption>HDMI connectors form the foundation of wired display — wireless HDMI replaces the cable with a dedicated RF link.</figcaption>
+                        <figcaption>HDMI connectors form the foundation of wired display. Wireless HDMI replaces the cable with a dedicated RF link.</figcaption>
                     </figure>
 
                     <p>A professional wireless HDMI system typically consists of <strong>two physical devices</strong>:</p>
 
-                    <p><strong>Transmitter (TX)</strong> — connected to a laptop<br>
-                    <strong>Receiver (RX)</strong> — connected to a TV, monitor, or projector</p>
+                    <p><strong>Transmitter (TX)</strong>, connected to a laptop<br>
+                    <strong>Receiver (RX)</strong>, connected to a TV, monitor, or projector</p>
 
                     <p>The transmitter captures the HDMI output from the laptop and sends it wirelessly to the receiver, which then outputs the video to the display.</p>
 
@@ -360,8 +370,8 @@
                     <h3>4. Memory Subsystem</h3>
 
                     <div class="callout-box">
-                        <p><strong>DDR RAM</strong> (512 MB – 1 GB) — Frame buffering, encoder pipelines, and network buffers.</p>
-                        <p><strong>Flash Storage</strong> (4 GB – 8 GB) — Firmware, bootloader, and system configuration.</p>
+                        <p><strong>DDR RAM</strong> (512 MB – 1 GB): Frame buffering, encoder pipelines, and network buffers.</p>
+                        <p><strong>Flash Storage</strong> (4 GB – 8 GB): Firmware, bootloader, and system configuration.</p>
                     </div>
 
                     <h3>5. HDMI Transmitter (Receiver Side)</h3>
@@ -377,7 +387,7 @@
 
                     <figure class="blog-figure">
                         <img src="../images/blog-latency-network.jpg" alt="Data center network infrastructure illustrating the complexity of wireless signal transmission and latency" loading="lazy">
-                        <figcaption>Wireless display latency is influenced by multiple pipeline stages — from capture to rendering.</figcaption>
+                        <figcaption>Wireless display latency is influenced by multiple pipeline stages, from capture to rendering.</figcaption>
                     </figure>
 
                     <div class="pipeline-flow">
@@ -427,11 +437,11 @@
 
                     <h3>Why Wireless HDMI Achieves Lower Latency</h3>
 
-                    <p><strong>Dedicated Wireless Link</strong> — Unlike Miracast or Chromecast, wireless HDMI systems often operate on a <strong>private wireless channel</strong>, eliminating interference from other network traffic.</p>
+                    <p><strong>Dedicated Wireless Link:</strong> Unlike Miracast or Chromecast, wireless HDMI systems often operate on a <strong>private wireless channel</strong>, eliminating interference from other network traffic.</p>
 
-                    <p><strong>Encoder Optimization</strong> — Video compression parameters are tuned specifically for <strong>low-latency streaming</strong>, minimizing frame buffering.</p>
+                    <p><strong>Encoder Optimization:</strong> Video compression parameters are tuned specifically for <strong>low-latency streaming</strong>, minimizing frame buffering.</p>
 
-                    <p><strong>Simplified Software Stack</strong> — Because the system performs only mirroring rather than full media playback, the firmware pipeline is simpler and more deterministic.</p>
+                    <p><strong>Simplified Software Stack:</strong> Because the system performs only mirroring rather than full media playback, the firmware pipeline is simpler and more deterministic.</p>
 
                     <!-- Section Divider -->
                     <hr class="section-divider">
@@ -454,7 +464,7 @@
 
                     <figure class="blog-figure">
                         <img src="../images/blog-microchip.jpg" alt="Microprocessor and chipset used in embedded video systems" loading="lazy">
-                        <figcaption>Several processor families power today's wireless HDMI reference designs — each with distinct trade-offs.</figcaption>
+                        <figcaption>Several processor families power today's wireless HDMI reference designs, each with distinct trade-offs.</figcaption>
                     </figure>
 
                     <h3>Novatek NT9666x Series</h3>
@@ -663,7 +673,7 @@
                         </tbody>
                     </table>
 
-                    <p>However, <strong>higher CPU performance does not automatically translate to lower latency</strong> in wireless HDMI systems.</p>
+                    <p>But <strong>higher CPU performance does not automatically translate to lower latency</strong> in wireless HDMI systems.</p>
 
                     <!-- Section Divider -->
                     <hr class="section-divider">
@@ -713,7 +723,7 @@
                     <p>Different laptops output different combinations of resolutions, refresh rates, and HDCP configurations. The transmitter must negotiate these parameters correctly using EDID.</p>
 
                     <h3>Wireless Stability</h3>
-                    <p>Presentation environments often contain many RF sources — multiple Wi-Fi networks, Bluetooth devices, and wireless microphones. Maintaining a stable high-bandwidth wireless link requires careful RF design and antenna placement.</p>
+                    <p>Presentation environments often contain many RF sources: multiple Wi-Fi networks, Bluetooth devices, and wireless microphones. Maintaining a stable high-bandwidth wireless link requires careful RF design and antenna placement.</p>
 
                     <h3>Latency Optimization</h3>
                     <p>Video encoder configuration has a major impact on latency. Factors include encoder buffer size, compression settings, and packet transmission strategy.</p>
@@ -744,7 +754,7 @@
 
                     <figure class="blog-figure">
                         <img src="../images/blog-performance-chart.jpg" alt="Performance analytics dashboard showing metrics and data visualization" loading="lazy">
-                        <figcaption>Raw CPU benchmarks tell only part of the story — video pipeline efficiency is the real determinant of wireless display latency.</figcaption>
+                        <figcaption>Raw CPU benchmarks tell only part of the story. Video pipeline efficiency is the real determinant of wireless display latency.</figcaption>
                     </figure>
 
                     <p>Although faster processors provide more headroom for system tasks, the most important factors influencing latency are:</p>

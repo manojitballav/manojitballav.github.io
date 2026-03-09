@@ -12,10 +12,12 @@
     <meta name="google-site-verification" content="i6y_UTjAQsHn31zuzYOSJbivoO1pZBYf5CH9dm5Bvzg" />
 
     <!-- Favicon -->
-    <link rel="icon" href="images/favicon.ico" sizes="48x48">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" href="/favicon.ico" sizes="48x48">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="/images/favicon-48x48.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
     <link rel="manifest" href="site.webmanifest">
     <link rel="canonical" href="https://manojitballav.com/">
 
@@ -42,7 +44,7 @@
     <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
 
     <!-- Preload LCP image -->
-    <link rel="preload" as="image" href="images/blog-tv-panels.webp" type="image/webp">
+    <link rel="preload" as="image" href="images/blog-led-lifespan.jpg" type="image/jpeg">
 
     <!-- Fonts (async to avoid render blocking) -->
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Google+Sans+Text:wght@400;500;700&family=Inter:wght@300;400;500;600;700&display=swap">
@@ -78,6 +80,7 @@
     {
         "@context": "https://schema.org",
         "@type": "Person",
+        "@id": "https://manojitballav.com/#person",
         "name": "Manojit Ballav",
         "alternateName": "Mono",
         "description": "Manojit Ballav (also known as Mono) is an Indian product leader and Principal Product Manager at Lumio specializing in smart TV platforms, consumer electronics, and connected device ecosystems. He previously worked at Xiaomi, where he contributed to the Xiaomi Smart TV and Redmi Smart TV product lineup and helped build PatchWall, one of India's early smart TV content aggregation platforms. Ballav has led the launch of more than 30 consumer technology products and focuses on connected TV ecosystems, smart TV product strategy, and display technologies.",
@@ -88,6 +91,12 @@
             "@type": "Place",
             "name": "Kolkata, West Bengal, India"
         },
+        "nationality": {
+            "@type": "Country",
+            "name": "India"
+        },
+        "gender": "Male",
+        "knowsLanguage": ["English", "Hindi", "Bengali"],
         "jobTitle": "Principal Product Manager",
         "worksFor": {
             "@type": "Organization",
@@ -216,15 +225,14 @@
     {
         "@context": "https://schema.org",
         "@type": "WebSite",
+        "@id": "https://manojitballav.com/#website",
         "name": "Manojit Ballav",
         "alternateName": "Mono",
         "url": "https://manojitballav.com",
-        "description": "Personal website and blog of Manojit Ballav — Principal Product Manager at Lumio, writing about smart TVs, display technology, projectors, and connected TV platforms.",
-        "inLanguage": "en",
+        "description": "Personal website and blog of Manojit Ballav, Principal Product Manager at Lumio, writing about smart TVs, display technology, projectors, and connected TV platforms.",
+        "inLanguage": "en-IN",
         "publisher": {
-            "@type": "Person",
-            "name": "Manojit Ballav",
-            "url": "https://manojitballav.com"
+            "@id": "https://manojitballav.com/#person"
         },
         "potentialAction": {
             "@type": "SearchAction",
@@ -638,20 +646,32 @@
             </div>
 
             <!-- Featured Post -->
-            <a href="blog/led-lumens-misleading.html" class="blog-featured reveal--scale">
+            <a href="blog/led-projector-lifespan.html" class="blog-featured reveal--scale">
                 <div class="blog-featured__image">
-                    <img src="images/blog-lumens.webp" alt="Why LED Lumens Are Misleading" fetchpriority="high" width="1200" height="800">
+                    <img src="images/blog-led-lifespan.jpg" alt="20,000-Hour LED Projector Lifespan — The Specification That Doesn't Tell the Whole Story" fetchpriority="high" width="1920" height="1280">
                 </div>
                 <div class="blog-featured__body">
                     <div class="blog-featured__category">Technology</div>
-                    <h3 class="blog-featured__title">Why LED Lumens Are Misleading: What Projector Brightness Ratings Actually Mean</h3>
-                    <p class="blog-featured__excerpt">A technical breakdown of why LED lumen ratings on projectors are misleading — optical losses can reduce actual brightness by up to 90%.</p>
-                    <div class="blog-featured__meta">8 March 2026</div>
+                    <h3 class="blog-featured__title">20,000-Hour LED Projector Lifespan: The Specification That Doesn't Tell the Whole Story</h3>
+                    <p class="blog-featured__excerpt">LED projectors claim 20,000-hour lifespans, but LCD panels and polarizers degrade much sooner. Here's what the spec sheet doesn't tell you.</p>
+                    <div class="blog-featured__meta">9 March 2026</div>
                 </div>
             </a>
 
             <!-- Blog Grid -->
             <div class="blog-grid stagger-children">
+                <a href="blog/led-lumens-misleading.html" class="blog-card">
+                    <div class="blog-card__image">
+                        <img src="images/blog-lumens.webp" alt="Why LED Lumens Are Misleading" loading="lazy" width="1200" height="800">
+                    </div>
+                    <div class="blog-card__body">
+                        <div class="blog-card__category">Technology</div>
+                        <h3 class="blog-card__title">Why LED Lumens Are Misleading: What Projector Brightness Ratings Actually Mean</h3>
+                        <p class="blog-card__excerpt">A technical breakdown of why LED lumen ratings on projectors are misleading — optical losses can reduce actual brightness by up to 90%.</p>
+                        <div class="blog-card__meta">8 March 2026</div>
+                    </div>
+                </a>
+
                 <a href="blog/tv-panel-types.html" class="blog-card">
                     <div class="blog-card__image">
                         <img src="images/blog-tv-panels.webp" alt="TV Display Panel Types Explained" loading="lazy" width="1600" height="899">
@@ -685,18 +705,6 @@
                         <h3 class="blog-card__title">Building Lumio: My Journey from Xiaomi to India's Next Smart TV Revolution</h3>
                         <p class="blog-card__excerpt">The story behind Lumio — how former Xiaomi executives are building India's next smart TV revolution.</p>
                         <div class="blog-card__meta">15 December 2024</div>
-                    </div>
-                </a>
-
-                <a href="blog/blog-ctv-trends-2025.html" class="blog-card">
-                    <div class="blog-card__image">
-                        <img src="images/blog-ctv.webp" alt="The State of CTV in 2025" loading="lazy" width="1200" height="804">
-                    </div>
-                    <div class="blog-card__body">
-                        <div class="blog-card__category">Industry</div>
-                        <h3 class="blog-card__title">The State of CTV in 2025: Why Connected TV is Eating Traditional Broadcasting</h3>
-                        <p class="blog-card__excerpt">Streaming now accounts for 44.8% of total TV viewership, surpassing broadcast and cable combined.</p>
-                        <div class="blog-card__meta">10 December 2024</div>
                     </div>
                 </a>
             </div>

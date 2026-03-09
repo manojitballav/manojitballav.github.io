@@ -58,6 +58,20 @@
   ]
 }
     </script>
+
+    <!-- Subscribe with Google -->
+    <script async type="application/javascript"
+        src="https://news.google.com/swg/js/v1/swg-basic.js"></script>
+    <script>
+      (self.SWG_BASIC = self.SWG_BASIC || []).push( basicSubscriptions => {
+        basicSubscriptions.init({
+          type: "NewsArticle",
+          isPartOfType: ["Product"],
+          isPartOfProductId: "CAowjt7FDA:openaccess",
+          clientOptions: { theme: "light", lang: "en" },
+        });
+      });
+    </script>
 </head>
 <body>
 
@@ -116,20 +130,32 @@
         <div class="container">
 
             <!-- Featured Post -->
-            <a href="led-lumens-misleading.html" class="blog-featured reveal--scale">
+            <a href="led-projector-lifespan.html" class="blog-featured reveal--scale">
                 <div class="blog-featured__image">
-                    <img src="../images/blog-lumens.webp" alt="Why LED Lumens Are Misleading" loading="lazy">
+                    <img src="../images/blog-led-lifespan.jpg" alt="20,000-Hour LED Projector Lifespan" loading="lazy">
                 </div>
                 <div class="blog-featured__body">
                     <div class="blog-featured__category">Technology</div>
-                    <h2 class="blog-featured__title">Why LED Lumens Are Misleading: What Projector Brightness Ratings Actually Mean</h2>
-                    <p class="blog-featured__excerpt">A technical breakdown of why LED lumen ratings on projectors are misleading — how optical losses in LCD projection systems reduce actual screen brightness by up to 90%.</p>
-                    <div class="blog-featured__meta">8 March 2026 &bull; Manojit Ballav (Mono)</div>
+                    <h2 class="blog-featured__title">20,000-Hour LED Projector Lifespan: The Specification That Doesn't Tell the Whole Story</h2>
+                    <p class="blog-featured__excerpt">LED projectors claim 20,000-hour lifespans, but LCD panels and polarizers degrade much sooner. A technical breakdown of LED lamp hours, lumen maintenance, and why the optical system ages faster than the light source.</p>
+                    <div class="blog-featured__meta">9 March 2026 &bull; Manojit Ballav (Mono)</div>
                 </div>
             </a>
 
             <!-- Blog Grid -->
             <div class="blog-grid stagger-children">
+                <a href="led-lumens-misleading.html" class="blog-card">
+                    <div class="blog-card__image">
+                        <img src="../images/blog-lumens.webp" alt="Why LED Lumens Are Misleading" loading="lazy">
+                    </div>
+                    <div class="blog-card__body">
+                        <div class="blog-card__category">Technology</div>
+                        <h3 class="blog-card__title">Why LED Lumens Are Misleading: What Projector Brightness Ratings Actually Mean</h3>
+                        <p class="blog-card__excerpt">A technical breakdown of why LED lumen ratings on projectors are misleading — how optical losses in LCD projection systems reduce actual screen brightness by up to 90%.</p>
+                        <div class="blog-card__meta">8 March 2026</div>
+                    </div>
+                </a>
+
                 <a href="tv-panel-types.html" class="blog-card">
                     <div class="blog-card__image">
                         <img src="../images/blog-tv-panels.webp" alt="TV Display Panel Types Explained" loading="lazy">
