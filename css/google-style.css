@@ -1964,78 +1964,63 @@ p + p { margin-top: 16px; }
 /* --- Scroll-triggered reveal --- */
 .reveal {
   opacity: 0;
-  transform: translateY(32px);
-  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
-              transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: opacity 0.3s ease;
 }
 
 .reveal.visible {
   opacity: 1;
-  transform: translateY(0);
 }
 
-/* Slide from left */
+/* Slide from left — now fade only */
 .reveal--left {
   opacity: 0;
-  transform: translateX(-40px);
-  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
-              transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: opacity 0.3s ease;
 }
 
 .reveal--left.visible {
   opacity: 1;
-  transform: translateX(0);
 }
 
-/* Slide from right */
+/* Slide from right — now fade only */
 .reveal--right {
   opacity: 0;
-  transform: translateX(40px);
-  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
-              transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: opacity 0.3s ease;
 }
 
 .reveal--right.visible {
   opacity: 1;
-  transform: translateX(0);
 }
 
-/* Scale up */
+/* Scale up — now fade only */
 .reveal--scale {
   opacity: 0;
-  transform: scale(0.92);
-  transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1),
-              transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: opacity 0.3s ease;
 }
 
 .reveal--scale.visible {
   opacity: 1;
-  transform: scale(1);
 }
 
-/* Stagger children — each child delays progressively */
+/* Stagger children — quick fade with tighter delays */
 .stagger-children > * {
   opacity: 0;
-  transform: translateY(24px);
-  transition: opacity 0.5s cubic-bezier(0.16, 1, 0.3, 1),
-              transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: opacity 0.3s ease;
 }
 
 .stagger-children.visible > *:nth-child(1) { transition-delay: 0ms; }
-.stagger-children.visible > *:nth-child(2) { transition-delay: 80ms; }
-.stagger-children.visible > *:nth-child(3) { transition-delay: 160ms; }
-.stagger-children.visible > *:nth-child(4) { transition-delay: 240ms; }
-.stagger-children.visible > *:nth-child(5) { transition-delay: 320ms; }
-.stagger-children.visible > *:nth-child(6) { transition-delay: 400ms; }
-.stagger-children.visible > *:nth-child(7) { transition-delay: 480ms; }
-.stagger-children.visible > *:nth-child(8) { transition-delay: 560ms; }
-.stagger-children.visible > *:nth-child(9) { transition-delay: 640ms; }
-.stagger-children.visible > *:nth-child(10) { transition-delay: 720ms; }
-.stagger-children.visible > *:nth-child(n+11) { transition-delay: 800ms; }
+.stagger-children.visible > *:nth-child(2) { transition-delay: 50ms; }
+.stagger-children.visible > *:nth-child(3) { transition-delay: 100ms; }
+.stagger-children.visible > *:nth-child(4) { transition-delay: 150ms; }
+.stagger-children.visible > *:nth-child(5) { transition-delay: 200ms; }
+.stagger-children.visible > *:nth-child(6) { transition-delay: 250ms; }
+.stagger-children.visible > *:nth-child(7) { transition-delay: 300ms; }
+.stagger-children.visible > *:nth-child(8) { transition-delay: 350ms; }
+.stagger-children.visible > *:nth-child(9) { transition-delay: 400ms; }
+.stagger-children.visible > *:nth-child(10) { transition-delay: 450ms; }
+.stagger-children.visible > *:nth-child(n+11) { transition-delay: 500ms; }
 
 .stagger-children.visible > * {
   opacity: 1;
-  transform: translateY(0);
 }
 
 /* --- Hero entrance animation --- */
@@ -2143,31 +2128,7 @@ p + p { margin-top: 16px; }
 }
 
 /* --- About image reveal --- */
-@keyframes imageReveal {
-  from {
-    opacity: 0;
-    transform: scale(0.9);
-    filter: blur(8px);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1);
-    filter: blur(0);
-  }
-}
-
-.about__image.reveal--scale.visible {
-  animation: imageReveal 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-}
-
-/* --- Blog featured card entrance --- */
-.blog-featured.reveal--scale {
-  transform: scale(0.95);
-}
-
-.blog-featured.reveal--scale.visible {
-  transform: scale(1);
-}
+/* About image and blog featured card — use same quick fade */
 
 /* ============================================
    Dark Mode

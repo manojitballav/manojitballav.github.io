@@ -910,7 +910,6 @@
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     entry.target.style.opacity = '1';
-                    entry.target.style.transform = 'translateY(0)';
                     cardObserver.unobserve(entry.target);
                 }
             });
@@ -918,8 +917,7 @@
 
         document.querySelectorAll('.portfolio-card').forEach((card, i) => {
             card.style.opacity = '0';
-            card.style.transform = 'translateY(24px)';
-            card.style.transition = `opacity 0.5s ease ${(i % 3) * 80}ms, transform 0.5s ease ${(i % 3) * 80}ms`;
+            card.style.transition = `opacity 0.3s ease ${(i % 3) * 50}ms`;
             cardObserver.observe(card);
         });
 
