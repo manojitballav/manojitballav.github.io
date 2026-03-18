@@ -42,11 +42,6 @@
         "@type": "Organization",
         "name": "Google"
       },
-      "distribution": {
-        "@type": "DataDownload",
-        "encodingFormat": "text/csv",
-        "contentUrl": "https://storage.googleapis.com/play_public/supported_devices.csv"
-      },
       "keywords": ["Google certified devices", "Android devices", "GMS certified", "Google Play supported devices"]
     }
     </script>
@@ -90,14 +85,6 @@
             font-size: 1.1rem;
             max-width: 640px;
             margin: 0 auto 8px;
-        }
-        .devices-source {
-            font-size: 0.85rem;
-            color: var(--text-secondary, #5f6368);
-            margin-top: 4px;
-        }
-        .devices-source a {
-            color: var(--accent, #1a73e8);
         }
 
         .devices-controls {
@@ -198,28 +185,6 @@
         .devices-stat i {
             color: var(--accent, #1a73e8);
             font-size: 13px;
-        }
-        .devices-download {
-            margin-left: auto;
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-            font-size: 14px;
-            font-weight: 500;
-            color: var(--accent, #1a73e8);
-            text-decoration: none;
-            padding: 6px 14px;
-            border-radius: 8px;
-            transition: background 0.2s;
-        }
-        .devices-download:hover {
-            background: rgba(26, 115, 232, 0.08);
-        }
-        [data-theme="dark"] .devices-download {
-            color: var(--accent, #0a84ff);
-        }
-        [data-theme="dark"] .devices-download:hover {
-            background: rgba(10, 132, 255, 0.12);
         }
 
         .devices-table-wrap {
@@ -460,7 +425,6 @@
             </nav>
             <h1>Google Certified Android Devices</h1>
             <p>Browse the complete global database of Google certified (GMS) Android devices. Search by brand, model, or device codename.</p>
-            <p class="devices-source">Data sourced from <a href="https://storage.googleapis.com/play_public/supported_devices.html" target="_blank" rel="noopener">Google's official supported devices list</a></p>
         </div>
     </section>
 
@@ -486,9 +450,6 @@
                     <i class="fa-solid fa-building"></i>
                     <span><strong id="brandCount">0</strong> brands</span>
                 </div>
-                <a href="https://storage.googleapis.com/play_public/supported_devices.csv" class="devices-download" target="_blank" rel="noopener">
-                    <i class="fa-solid fa-download"></i> Download CSV
-                </a>
             </div>
 
             <div id="deviceContent">
