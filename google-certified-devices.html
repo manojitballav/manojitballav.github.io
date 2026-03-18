@@ -87,20 +87,27 @@
             margin: 0 auto 8px;
         }
 
-        .devices-controls {
-            display: flex;
-            gap: 12px;
-            margin-bottom: 20px;
-            flex-wrap: wrap;
-            align-items: center;
+        /* Search bar */
+        .devices-search-wrap {
+            position: relative;
+            max-width: 560px;
+            margin: 0 auto 20px;
+        }
+        .devices-search-wrap i {
+            position: absolute;
+            left: 18px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-secondary, #5f6368);
+            font-size: 15px;
+            pointer-events: none;
         }
         .devices-search {
-            flex: 1;
-            min-width: 200px;
-            padding: 12px 16px 12px 44px;
+            width: 100%;
+            padding: 14px 18px 14px 48px;
             border: 1px solid rgba(0, 0, 0, 0.12);
-            border-radius: 12px;
-            font-size: 15px;
+            border-radius: 14px;
+            font-size: 16px;
             font-family: inherit;
             background: rgba(255, 255, 255, 0.6);
             backdrop-filter: blur(12px);
@@ -111,63 +118,78 @@
             border-color: var(--accent, #1a73e8);
             box-shadow: 0 0 0 3px rgba(26, 115, 232, 0.15);
         }
-        .search-wrapper {
-            flex: 1;
-            min-width: 200px;
-            position: relative;
-        }
-        .search-wrapper i {
-            position: absolute;
-            left: 16px;
-            top: 50%;
-            transform: translateY(-50%);
-            color: var(--text-secondary, #5f6368);
-            font-size: 14px;
-            pointer-events: none;
-        }
-        .devices-select {
-            padding: 12px 36px 12px 16px;
-            border: 1px solid rgba(0, 0, 0, 0.12);
-            border-radius: 12px;
-            font-size: 15px;
-            font-family: inherit;
-            background: rgba(255, 255, 255, 0.6);
-            backdrop-filter: blur(12px);
-            cursor: pointer;
-            appearance: none;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%235f6368' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
-            background-repeat: no-repeat;
-            background-position: right 12px center;
-            min-width: 180px;
-        }
-        .devices-select:focus {
-            outline: none;
-            border-color: var(--accent, #1a73e8);
-            box-shadow: 0 0 0 3px rgba(26, 115, 232, 0.15);
-        }
-
-        [data-theme="dark"] .devices-search,
-        [data-theme="dark"] .devices-select {
+        [data-theme="dark"] .devices-search {
             background: rgba(255, 255, 255, 0.06);
             border-color: rgba(255, 255, 255, 0.12);
             color: var(--text-primary, #f5f5f7);
         }
-        [data-theme="dark"] .devices-select {
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%239aa0a6' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
-            background-repeat: no-repeat;
-            background-position: right 12px center;
-            background-color: rgba(255, 255, 255, 0.06);
-        }
-        [data-theme="dark"] .devices-search:focus,
-        [data-theme="dark"] .devices-select:focus {
+        [data-theme="dark"] .devices-search:focus {
             border-color: var(--accent, #0a84ff);
             box-shadow: 0 0 0 3px rgba(10, 132, 255, 0.2);
         }
 
+        /* Alphabet bar */
+        .alpha-bar {
+            display: flex;
+            gap: 4px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 10px 14px;
+            background: rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(12px) saturate(180%);
+            border-radius: 14px;
+            box-shadow: 0 0 0 0.5px rgba(0, 0, 0, 0.04), 0 1px 4px rgba(0, 0, 0, 0.04);
+        }
+        [data-theme="dark"] .alpha-bar {
+            background: rgba(255, 255, 255, 0.04);
+            box-shadow: 0 0 0 0.5px rgba(255, 255, 255, 0.06), 0 1px 4px rgba(0, 0, 0, 0.2);
+        }
+        .alpha-btn {
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 13px;
+            font-weight: 600;
+            border-radius: 8px;
+            cursor: pointer;
+            color: var(--text-secondary, #5f6368);
+            transition: all 0.15s;
+            border: none;
+            background: none;
+            padding: 0;
+        }
+        .alpha-btn:hover {
+            background: rgba(26, 115, 232, 0.1);
+            color: var(--accent, #1a73e8);
+        }
+        .alpha-btn.active {
+            background: var(--accent, #1a73e8);
+            color: #fff;
+        }
+        .alpha-btn.disabled {
+            opacity: 0.2;
+            pointer-events: none;
+        }
+        [data-theme="dark"] .alpha-btn {
+            color: var(--text-secondary, #9aa0a6);
+        }
+        [data-theme="dark"] .alpha-btn:hover {
+            background: rgba(10, 132, 255, 0.15);
+            color: var(--accent, #0a84ff);
+        }
+        [data-theme="dark"] .alpha-btn.active {
+            background: var(--accent, #0a84ff);
+            color: #fff;
+        }
+
+        /* Stats bar */
         .devices-stats {
             display: flex;
             gap: 24px;
-            margin-bottom: 20px;
+            margin-bottom: 24px;
             flex-wrap: wrap;
             align-items: center;
         }
@@ -187,20 +209,189 @@
             font-size: 13px;
         }
 
+        /* Brand cards grid */
+        .brand-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 12px;
+        }
+        .brand-card {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 16px;
+            background: rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(12px) saturate(180%);
+            border: 1px solid rgba(0, 0, 0, 0.04);
+            border-radius: 14px;
+            cursor: pointer;
+            transition: all 0.2s;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+        }
+        .brand-card:hover {
+            border-color: var(--accent, #1a73e8);
+            box-shadow: 0 2px 12px rgba(26, 115, 232, 0.12);
+            transform: translateY(-1px);
+        }
+        [data-theme="dark"] .brand-card {
+            background: rgba(255, 255, 255, 0.04);
+            border-color: rgba(255, 255, 255, 0.06);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+        }
+        [data-theme="dark"] .brand-card:hover {
+            border-color: var(--accent, #0a84ff);
+            box-shadow: 0 2px 12px rgba(10, 132, 255, 0.15);
+        }
+        .brand-card__icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            background: linear-gradient(135deg, rgba(26, 115, 232, 0.08), rgba(26, 115, 232, 0.16));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--accent, #1a73e8);
+            flex-shrink: 0;
+        }
+        [data-theme="dark"] .brand-card__icon {
+            background: linear-gradient(135deg, rgba(10, 132, 255, 0.1), rgba(10, 132, 255, 0.2));
+            color: var(--accent, #0a84ff);
+        }
+        .brand-card__info {
+            flex: 1;
+            min-width: 0;
+        }
+        .brand-card__name {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-primary, #202124);
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        [data-theme="dark"] .brand-card__name {
+            color: var(--text-primary, #f5f5f7);
+        }
+        .brand-card__count {
+            font-size: 12px;
+            color: var(--text-secondary, #5f6368);
+            margin-top: 2px;
+        }
+        .brand-card__arrow {
+            color: var(--text-secondary, #5f6368);
+            font-size: 12px;
+            opacity: 0;
+            transition: opacity 0.2s, transform 0.2s;
+            flex-shrink: 0;
+        }
+        .brand-card:hover .brand-card__arrow {
+            opacity: 1;
+            transform: translateX(2px);
+        }
+
+        /* Brand detail view */
+        .brand-detail {
+            display: none;
+        }
+        .brand-detail.active {
+            display: block;
+        }
+        .brand-detail__header {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 20px;
+        }
+        .brand-detail__back {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 36px;
+            height: 36px;
+            border-radius: 10px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            background: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(12px);
+            cursor: pointer;
+            transition: all 0.2s;
+            color: var(--text-primary, #202124);
+            font-size: 14px;
+            flex-shrink: 0;
+        }
+        .brand-detail__back:hover {
+            border-color: var(--accent, #1a73e8);
+            color: var(--accent, #1a73e8);
+        }
+        [data-theme="dark"] .brand-detail__back {
+            background: rgba(255, 255, 255, 0.06);
+            border-color: rgba(255, 255, 255, 0.1);
+            color: var(--text-primary, #f5f5f7);
+        }
+        [data-theme="dark"] .brand-detail__back:hover {
+            border-color: var(--accent, #0a84ff);
+            color: var(--accent, #0a84ff);
+        }
+        .brand-detail__title {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        .brand-detail__count {
+            font-size: 14px;
+            color: var(--text-secondary, #5f6368);
+            margin-left: auto;
+        }
+        .brand-detail__search {
+            width: 100%;
+            padding: 10px 14px 10px 40px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            font-size: 14px;
+            font-family: inherit;
+            background: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(12px);
+            margin-bottom: 16px;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+        .brand-detail__search:focus {
+            outline: none;
+            border-color: var(--accent, #1a73e8);
+            box-shadow: 0 0 0 3px rgba(26, 115, 232, 0.15);
+        }
+        [data-theme="dark"] .brand-detail__search {
+            background: rgba(255, 255, 255, 0.06);
+            border-color: rgba(255, 255, 255, 0.1);
+            color: var(--text-primary, #f5f5f7);
+        }
+        [data-theme="dark"] .brand-detail__search:focus {
+            border-color: var(--accent, #0a84ff);
+            box-shadow: 0 0 0 3px rgba(10, 132, 255, 0.2);
+        }
+        .detail-search-wrap {
+            position: relative;
+        }
+        .detail-search-wrap i {
+            position: absolute;
+            left: 14px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-secondary, #5f6368);
+            font-size: 13px;
+            pointer-events: none;
+        }
+
+        /* Device table */
         .devices-table-wrap {
             border-radius: 16px;
             overflow: hidden;
             background: rgba(255, 255, 255, 0.5);
             backdrop-filter: blur(12px) saturate(180%);
-            box-shadow:
-                0 0 0 0.5px rgba(0, 0, 0, 0.04),
-                0 1px 4px rgba(0, 0, 0, 0.04);
+            box-shadow: 0 0 0 0.5px rgba(0, 0, 0, 0.04), 0 1px 4px rgba(0, 0, 0, 0.04);
         }
         [data-theme="dark"] .devices-table-wrap {
             background: rgba(255, 255, 255, 0.04);
-            box-shadow:
-                0 0 0 0.5px rgba(255, 255, 255, 0.06),
-                0 1px 4px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 0 0 0.5px rgba(255, 255, 255, 0.06), 0 1px 4px rgba(0, 0, 0, 0.2);
         }
         .devices-table {
             width: 100%;
@@ -224,9 +415,7 @@
             user-select: none;
             white-space: nowrap;
         }
-        .devices-table th:hover {
-            color: var(--accent, #1a73e8);
-        }
+        .devices-table th:hover { color: var(--accent, #1a73e8); }
         .devices-table th .sort-icon {
             margin-left: 4px;
             font-size: 11px;
@@ -249,21 +438,15 @@
             border-bottom-color: rgba(255, 255, 255, 0.04);
             color: var(--text-primary, #f5f5f7);
         }
-        .devices-table tbody tr:hover {
-            background: rgba(26, 115, 232, 0.04);
-        }
-        [data-theme="dark"] .devices-table tbody tr:hover {
-            background: rgba(10, 132, 255, 0.06);
-        }
-        .devices-table .brand-cell {
-            font-weight: 500;
-        }
+        .devices-table tbody tr:hover { background: rgba(26, 115, 232, 0.04); }
+        [data-theme="dark"] .devices-table tbody tr:hover { background: rgba(10, 132, 255, 0.06); }
         .devices-table .code-cell {
             font-family: 'SF Mono', 'Fira Code', monospace;
             font-size: 13px;
             color: var(--text-secondary, #5f6368);
         }
 
+        /* Pagination */
         .devices-pagination {
             display: flex;
             align-items: center;
@@ -288,10 +471,7 @@
             border-color: var(--accent, #1a73e8);
             color: var(--accent, #1a73e8);
         }
-        .devices-pagination button:disabled {
-            opacity: 0.4;
-            cursor: default;
-        }
+        .devices-pagination button:disabled { opacity: 0.4; cursor: default; }
         .devices-pagination button.active {
             background: var(--accent, #1a73e8);
             color: #fff;
@@ -307,12 +487,13 @@
             border-color: var(--accent, #0a84ff);
             color: #fff;
         }
-        .devices-pagination .page-info {
+        .page-info {
             font-size: 14px;
             color: var(--text-secondary, #5f6368);
             padding: 0 8px;
         }
 
+        /* Loading / empty */
         .devices-loading {
             text-align: center;
             padding: 80px 24px;
@@ -335,54 +516,26 @@
             color: var(--text-secondary, #5f6368);
             font-size: 15px;
         }
-
         .devices-empty {
             text-align: center;
             padding: 60px 24px;
             color: var(--text-secondary, #5f6368);
         }
-        .devices-empty i {
-            font-size: 48px;
-            margin-bottom: 16px;
-            opacity: 0.3;
-        }
-        .devices-empty p {
-            font-size: 16px;
-        }
+        .devices-empty i { font-size: 48px; margin-bottom: 16px; opacity: 0.3; display: block; }
+        .devices-empty p { font-size: 16px; }
 
-        .per-page-select {
-            padding: 8px 32px 8px 12px;
-            border: 1px solid rgba(0, 0, 0, 0.12);
-            border-radius: 8px;
-            font-size: 14px;
-            font-family: inherit;
-            background: rgba(255, 255, 255, 0.6);
-            backdrop-filter: blur(12px);
-            cursor: pointer;
-            appearance: none;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%235f6368' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
-            background-repeat: no-repeat;
-            background-position: right 10px center;
-        }
-        [data-theme="dark"] .per-page-select {
-            background-color: rgba(255, 255, 255, 0.06);
-            border-color: rgba(255, 255, 255, 0.12);
-            color: var(--text-primary, #f5f5f7);
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%239aa0a6' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
-            background-repeat: no-repeat;
-            background-position: right 10px center;
-        }
-
+        /* Responsive */
         @media (max-width: 768px) {
             .devices-hero h1 { font-size: 1.75rem; }
             .devices-hero p { font-size: 1rem; }
-            .devices-controls { flex-direction: column; }
-            .devices-select { width: 100%; }
+            .brand-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 8px; }
+            .brand-card { padding: 12px; }
+            .brand-card__icon { width: 34px; height: 34px; font-size: 14px; }
             .devices-stats { gap: 12px; }
-            .devices-download { margin-left: 0; }
             .devices-table { font-size: 13px; }
             .devices-table th, .devices-table td { padding: 8px 10px; }
             .devices-table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+            .brand-detail__title { font-size: 1.2rem; }
         }
     </style>
 </head>
@@ -431,35 +584,55 @@
     <section class="section" style="padding-top: 0;">
         <div class="container" style="max-width: 1100px;">
 
-            <div class="devices-controls">
-                <div class="search-wrapper">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <input type="search" class="devices-search" id="searchInput" placeholder="Search devices, brands, models..." autocomplete="off">
-                </div>
-                <select class="devices-select" id="brandFilter">
-                    <option value="">All Brands</option>
-                </select>
+            <!-- Search -->
+            <div class="devices-search-wrap">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="search" class="devices-search" id="searchInput" placeholder="Search devices, brands, models..." autocomplete="off">
             </div>
 
+            <!-- Alphabet bar -->
+            <div class="alpha-bar" id="alphaBar"></div>
+
+            <!-- Stats -->
             <div class="devices-stats" id="statsBar">
                 <div class="devices-stat">
                     <i class="fa-solid fa-microchip"></i>
-                    <span>Showing <strong id="showingCount">0</strong> of <strong id="totalCount">0</strong> devices</span>
+                    <span><strong id="totalCount">0</strong> devices</span>
                 </div>
                 <div class="devices-stat">
                     <i class="fa-solid fa-building"></i>
                     <span><strong id="brandCount">0</strong> brands</span>
                 </div>
+                <div class="devices-stat" id="showingStat" style="display:none;">
+                    <i class="fa-solid fa-filter"></i>
+                    <span>Showing <strong id="showingCount">0</strong></span>
+                </div>
             </div>
 
-            <div id="deviceContent">
+            <!-- Brand grid view -->
+            <div id="brandGridView">
                 <div class="devices-loading" id="loadingState">
                     <div class="spinner"></div>
                     <p>Loading device database...</p>
                 </div>
             </div>
 
-            <div class="devices-pagination" id="pagination" style="display: none;"></div>
+            <!-- Brand detail view -->
+            <div class="brand-detail" id="brandDetailView">
+                <div class="brand-detail__header">
+                    <button class="brand-detail__back" id="backBtn" title="Back to all brands">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </button>
+                    <h2 class="brand-detail__title" id="detailBrandName"></h2>
+                    <span class="brand-detail__count" id="detailDeviceCount"></span>
+                </div>
+                <div class="detail-search-wrap">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="search" class="brand-detail__search" id="detailSearch" placeholder="Search within this brand..." autocomplete="off">
+                </div>
+                <div id="detailTableWrap"></div>
+                <div class="devices-pagination" id="detailPagination"></div>
+            </div>
 
         </div>
     </section>
@@ -479,6 +652,7 @@
         </div>
     </footer>
 
+    <!-- Standard site scripts -->
     <script>
         const header = document.getElementById('header');
         window.addEventListener('scroll', () => { header.classList.toggle('header--scrolled', window.scrollY > 10); });
@@ -527,243 +701,346 @@
         });
     </script>
 
+    <!-- Device database logic -->
     <script>
     (function() {
+        // Data
         let allDevices = [];
-        let filteredDevices = [];
-        let currentPage = 1;
-        const perPage = 100;
-        let sortCol = 0;
-        let sortAsc = true;
+        let brandData = []; // [{name, count, letter}]
 
+        // State
+        let activeLetter = '';
+        let searchQuery = '';
+        let currentBrand = null; // null = grid view, string = detail view
+        let detailQuery = '';
+        let detailPage = 1;
+        let detailSortCol = 0;
+        let detailSortAsc = true;
+        const perPage = 50;
+
+        // DOM refs
         const searchInput = document.getElementById('searchInput');
-        const brandFilter = document.getElementById('brandFilter');
-        const deviceContent = document.getElementById('deviceContent');
-        const pagination = document.getElementById('pagination');
-        const showingCount = document.getElementById('showingCount');
-        const totalCount = document.getElementById('totalCount');
-        const brandCount = document.getElementById('brandCount');
+        const alphaBar = document.getElementById('alphaBar');
+        const totalCountEl = document.getElementById('totalCount');
+        const brandCountEl = document.getElementById('brandCount');
+        const showingStat = document.getElementById('showingStat');
+        const showingCountEl = document.getElementById('showingCount');
+        const brandGridView = document.getElementById('brandGridView');
+        const brandDetailView = document.getElementById('brandDetailView');
+        const backBtn = document.getElementById('backBtn');
+        const detailBrandName = document.getElementById('detailBrandName');
+        const detailDeviceCount = document.getElementById('detailDeviceCount');
+        const detailSearch = document.getElementById('detailSearch');
+        const detailTableWrap = document.getElementById('detailTableWrap');
+        const detailPagination = document.getElementById('detailPagination');
 
+        // CSV parser
         function parseCSV(text) {
             const rows = [];
             let i = 0;
             const len = text.length;
-            // Skip header line
             while (i < len && text[i] !== '\n') i++;
             i++;
-
             while (i < len) {
                 const row = [];
                 for (let col = 0; col < 4; col++) {
                     let val = '';
                     if (i < len && text[i] === '"') {
-                        i++; // skip opening quote
+                        i++;
                         while (i < len) {
                             if (text[i] === '"') {
-                                if (i + 1 < len && text[i + 1] === '"') {
-                                    val += '"';
-                                    i += 2;
-                                } else {
-                                    i++; // skip closing quote
-                                    break;
-                                }
-                            } else {
-                                val += text[i];
-                                i++;
-                            }
+                                if (i + 1 < len && text[i + 1] === '"') { val += '"'; i += 2; }
+                                else { i++; break; }
+                            } else { val += text[i]; i++; }
                         }
                     } else {
-                        while (i < len && text[i] !== ',' && text[i] !== '\n' && text[i] !== '\r') {
-                            val += text[i];
-                            i++;
-                        }
+                        while (i < len && text[i] !== ',' && text[i] !== '\n' && text[i] !== '\r') { val += text[i]; i++; }
                     }
                     row.push(val.trim());
                     if (i < len && text[i] === ',') i++;
                 }
                 if (row.some(v => v)) rows.push(row);
-                // Skip to next line
                 while (i < len && (text[i] === '\r' || text[i] === '\n')) i++;
             }
             return rows;
         }
 
         function escapeHTML(str) {
-            const div = document.createElement('div');
-            div.textContent = str;
-            return div.innerHTML;
+            const d = document.createElement('div');
+            d.textContent = str;
+            return d.innerHTML;
         }
 
-        function populateBrands() {
-            const brands = new Set();
-            allDevices.forEach(d => { if (d[0]) brands.add(d[0]); });
-            const sorted = Array.from(brands).sort((a, b) => a.localeCompare(b, undefined, { sensitivity: 'base' }));
-            const frag = document.createDocumentFragment();
-            sorted.forEach(b => {
-                const opt = document.createElement('option');
-                opt.value = b;
-                opt.textContent = b;
-                frag.appendChild(opt);
-            });
-            brandFilter.appendChild(frag);
-            brandCount.textContent = sorted.length.toLocaleString();
+        function getLetter(name) {
+            const ch = (name || '')[0] || '';
+            const upper = ch.toUpperCase();
+            return /[A-Z]/.test(upper) ? upper : '#';
         }
 
-        function applyFilters() {
-            const query = searchInput.value.toLowerCase().trim();
-            const brand = brandFilter.value;
-
-            filteredDevices = allDevices.filter(d => {
-                if (brand && d[0] !== brand) return false;
-                if (query) {
-                    return d[0].toLowerCase().includes(query) ||
-                           d[1].toLowerCase().includes(query) ||
-                           d[2].toLowerCase().includes(query) ||
-                           d[3].toLowerCase().includes(query);
-                }
-                return true;
+        // Build brand data from devices
+        function buildBrandData() {
+            const counts = {};
+            allDevices.forEach(d => {
+                const b = d[0];
+                if (b) counts[b] = (counts[b] || 0) + 1;
             });
-
-            // Apply sort
-            filteredDevices.sort((a, b) => {
-                const valA = a[sortCol].toLowerCase();
-                const valB = b[sortCol].toLowerCase();
-                const cmp = valA.localeCompare(valB, undefined, { sensitivity: 'base' });
-                return sortAsc ? cmp : -cmp;
-            });
-
-            currentPage = 1;
-            render();
+            brandData = Object.keys(counts)
+                .sort((a, b) => a.localeCompare(b, undefined, { sensitivity: 'base' }))
+                .map(name => ({ name, count: counts[name], letter: getLetter(name) }));
         }
 
-        function render() {
-            const total = filteredDevices.length;
-            const totalPages = Math.max(1, Math.ceil(total / perPage));
-            if (currentPage > totalPages) currentPage = totalPages;
+        // Alphabet bar
+        function buildAlphaBar() {
+            const available = new Set(brandData.map(b => b.letter));
+            const letters = '#ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+            alphaBar.innerHTML = letters.map(l =>
+                `<button type="button" class="alpha-btn${available.has(l) ? '' : ' disabled'}${activeLetter === l ? ' active' : ''}" data-letter="${l}">${l}</button>`
+            ).join('');
+        }
 
-            const start = (currentPage - 1) * perPage;
-            const end = Math.min(start + perPage, total);
-            const pageData = filteredDevices.slice(start, end);
+        alphaBar.addEventListener('click', (e) => {
+            const btn = e.target.closest('.alpha-btn');
+            if (!btn || btn.classList.contains('disabled')) return;
+            const letter = btn.dataset.letter;
+            activeLetter = activeLetter === letter ? '' : letter;
+            // If in detail view, go back to grid
+            if (currentBrand) goBackToGrid();
+            searchInput.value = '';
+            searchQuery = '';
+            buildAlphaBar();
+            renderBrandGrid();
+        });
 
-            showingCount.textContent = total.toLocaleString();
-            totalCount.textContent = allDevices.length.toLocaleString();
+        // Get filtered brands
+        function getFilteredBrands() {
+            let items = brandData;
+            if (activeLetter) items = items.filter(b => b.letter === activeLetter);
+            if (searchQuery) {
+                // Find brands that match by name OR have devices matching the query
+                const brandsWithMatchingDevices = new Set();
+                allDevices.forEach(d => {
+                    if (d[1].toLowerCase().includes(searchQuery) ||
+                        d[2].toLowerCase().includes(searchQuery) ||
+                        d[3].toLowerCase().includes(searchQuery)) {
+                        if (d[0]) brandsWithMatchingDevices.add(d[0]);
+                    }
+                });
+                items = items.filter(b =>
+                    b.name.toLowerCase().includes(searchQuery) ||
+                    brandsWithMatchingDevices.has(b.name)
+                );
+            }
+            return items;
+        }
 
-            if (total === 0) {
-                deviceContent.innerHTML = '<div class="devices-empty"><i class="fa-solid fa-magnifying-glass"></i><p>No devices found matching your search.</p></div>';
-                pagination.style.display = 'none';
+        // Render brand cards
+        function renderBrandGrid() {
+            const items = getFilteredBrands();
+
+            // Update stats
+            const totalDevicesShown = items.reduce((sum, b) => sum + b.count, 0);
+            if (activeLetter || searchQuery) {
+                showingStat.style.display = '';
+                showingCountEl.textContent = items.length.toLocaleString() + ' brands, ' + totalDevicesShown.toLocaleString() + ' devices';
+            } else {
+                showingStat.style.display = 'none';
+            }
+
+            if (items.length === 0) {
+                brandGridView.innerHTML = '<div class="devices-empty"><i class="fa-solid fa-magnifying-glass"></i><p>No brands found matching your search.</p></div>';
                 return;
             }
 
-            const colNames = ['Brand', 'Marketing Name', 'Device', 'Model'];
-            const sortIcons = ['fa-sort', 'fa-sort', 'fa-sort', 'fa-sort'];
-            if (sortAsc) sortIcons[sortCol] = 'fa-sort-up';
-            else sortIcons[sortCol] = 'fa-sort-down';
+            let html = '<div class="brand-grid">';
+            items.forEach(b => {
+                const initial = b.name[0] || '?';
+                html += `<div class="brand-card" data-brand="${escapeHTML(b.name)}">
+                    <div class="brand-card__icon">${escapeHTML(initial.toUpperCase())}</div>
+                    <div class="brand-card__info">
+                        <div class="brand-card__name">${escapeHTML(b.name)}</div>
+                        <div class="brand-card__count">${b.count.toLocaleString()} device${b.count !== 1 ? 's' : ''}</div>
+                    </div>
+                    <i class="fa-solid fa-chevron-right brand-card__arrow"></i>
+                </div>`;
+            });
+            html += '</div>';
+            brandGridView.innerHTML = html;
+        }
+
+        // Click on brand card
+        brandGridView.addEventListener('click', (e) => {
+            const card = e.target.closest('.brand-card');
+            if (!card) return;
+            openBrandDetail(card.dataset.brand);
+        });
+
+        // Open brand detail
+        function openBrandDetail(brand) {
+            currentBrand = brand;
+            detailQuery = '';
+            detailPage = 1;
+            detailSortCol = 0;
+            detailSortAsc = true;
+            detailSearch.value = '';
+            detailBrandName.textContent = brand;
+
+            brandGridView.style.display = 'none';
+            alphaBar.style.display = 'none';
+            searchInput.closest('.devices-search-wrap').style.display = 'none';
+            showingStat.style.display = 'none';
+            brandDetailView.classList.add('active');
+
+            renderDetailTable();
+            brandDetailView.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+
+        // Back to grid
+        function goBackToGrid() {
+            currentBrand = null;
+            brandDetailView.classList.remove('active');
+            brandGridView.style.display = '';
+            alphaBar.style.display = '';
+            searchInput.closest('.devices-search-wrap').style.display = '';
+            renderBrandGrid();
+        }
+
+        backBtn.addEventListener('click', goBackToGrid);
+
+        // Get devices for current brand
+        function getBrandDevices() {
+            let devices = allDevices.filter(d => d[0] === currentBrand);
+            if (detailQuery) {
+                devices = devices.filter(d =>
+                    d[1].toLowerCase().includes(detailQuery) ||
+                    d[2].toLowerCase().includes(detailQuery) ||
+                    d[3].toLowerCase().includes(detailQuery)
+                );
+            }
+            devices.sort((a, b) => {
+                const colA = a[detailSortCol].toLowerCase();
+                const colB = b[detailSortCol].toLowerCase();
+                const cmp = colA.localeCompare(colB, undefined, { sensitivity: 'base' });
+                return detailSortAsc ? cmp : -cmp;
+            });
+            return devices;
+        }
+
+        // Render detail table
+        function renderDetailTable() {
+            const devices = getBrandDevices();
+            const total = devices.length;
+            detailDeviceCount.textContent = total.toLocaleString() + ' device' + (total !== 1 ? 's' : '');
+
+            if (total === 0) {
+                detailTableWrap.innerHTML = '<div class="devices-empty"><i class="fa-solid fa-magnifying-glass"></i><p>No devices found.</p></div>';
+                detailPagination.innerHTML = '';
+                return;
+            }
+
+            const totalPages = Math.max(1, Math.ceil(total / perPage));
+            if (detailPage > totalPages) detailPage = totalPages;
+            const start = (detailPage - 1) * perPage;
+            const end = Math.min(start + perPage, total);
+            const pageData = devices.slice(start, end);
+
+            const colNames = ['Marketing Name', 'Device', 'Model'];
+            const colIdx = [1, 2, 3];
+            const sortIcons = ['fa-sort', 'fa-sort', 'fa-sort'];
+            const localSortIdx = colIdx.indexOf(detailSortCol);
+            if (localSortIdx !== -1) sortIcons[localSortIdx] = detailSortAsc ? 'fa-sort-up' : 'fa-sort-down';
 
             let html = '<div class="devices-table-wrap"><table class="devices-table"><thead><tr>';
-            colNames.forEach((name, idx) => {
-                const cls = idx === sortCol ? ' sorted' : '';
-                html += `<th class="${cls}" data-col="${idx}">${escapeHTML(name)} <i class="fa-solid ${sortIcons[idx]} sort-icon"></i></th>`;
+            colNames.forEach((name, i) => {
+                const sorted = colIdx[i] === detailSortCol ? ' sorted' : '';
+                html += `<th class="${sorted}" data-col="${colIdx[i]}">${escapeHTML(name)} <i class="fa-solid ${sortIcons[i]} sort-icon"></i></th>`;
             });
             html += '</tr></thead><tbody>';
 
             pageData.forEach(d => {
-                html += '<tr>';
-                html += `<td class="brand-cell">${escapeHTML(d[0] || '—')}</td>`;
-                html += `<td>${escapeHTML(d[1] || '—')}</td>`;
-                html += `<td class="code-cell">${escapeHTML(d[2] || '—')}</td>`;
-                html += `<td>${escapeHTML(d[3] || '—')}</td>`;
-                html += '</tr>';
+                html += `<tr>
+                    <td>${escapeHTML(d[1] || '—')}</td>
+                    <td class="code-cell">${escapeHTML(d[2] || '—')}</td>
+                    <td>${escapeHTML(d[3] || '—')}</td>
+                </tr>`;
             });
-
             html += '</tbody></table></div>';
-            deviceContent.innerHTML = html;
+            detailTableWrap.innerHTML = html;
 
-            // Re-attach sort listeners
-            deviceContent.querySelectorAll('.devices-table th').forEach(th => {
+            // Sort listeners
+            detailTableWrap.querySelectorAll('.devices-table th').forEach(th => {
                 th.addEventListener('click', () => {
                     const col = parseInt(th.dataset.col);
-                    if (sortCol === col) sortAsc = !sortAsc;
-                    else { sortCol = col; sortAsc = true; }
-                    applyFilters();
+                    if (detailSortCol === col) detailSortAsc = !detailSortAsc;
+                    else { detailSortCol = col; detailSortAsc = true; }
+                    renderDetailTable();
                 });
             });
 
             // Pagination
-            if (totalPages <= 1) {
-                pagination.style.display = 'none';
-                return;
-            }
+            if (totalPages <= 1) { detailPagination.innerHTML = ''; return; }
 
-            pagination.style.display = 'flex';
-            let pagHTML = '';
-            pagHTML += `<button id="prevBtn" ${currentPage === 1 ? 'disabled' : ''}><i class="fa-solid fa-chevron-left"></i></button>`;
-
-            const pages = getPageNumbers(currentPage, totalPages);
-            pages.forEach(p => {
-                if (p === '...') {
-                    pagHTML += '<span class="page-info">...</span>';
-                } else {
-                    pagHTML += `<button class="page-btn${p === currentPage ? ' active' : ''}" data-page="${p}">${p}</button>`;
-                }
+            let pagHTML = `<button id="dPrev" ${detailPage === 1 ? 'disabled' : ''}><i class="fa-solid fa-chevron-left"></i></button>`;
+            getPageNumbers(detailPage, totalPages).forEach(p => {
+                if (p === '...') pagHTML += '<span class="page-info">...</span>';
+                else pagHTML += `<button class="pg-btn${p === detailPage ? ' active' : ''}" data-page="${p}">${p}</button>`;
             });
-
-            pagHTML += `<button id="nextBtn" ${currentPage === totalPages ? 'disabled' : ''}><i class="fa-solid fa-chevron-right"></i></button>`;
+            pagHTML += `<button id="dNext" ${detailPage === totalPages ? 'disabled' : ''}><i class="fa-solid fa-chevron-right"></i></button>`;
             pagHTML += `<span class="page-info">${start + 1}–${end} of ${total.toLocaleString()}</span>`;
-            pagination.innerHTML = pagHTML;
+            detailPagination.innerHTML = pagHTML;
 
-            document.getElementById('prevBtn').addEventListener('click', () => { if (currentPage > 1) { currentPage--; render(); scrollToTable(); } });
-            document.getElementById('nextBtn').addEventListener('click', () => { if (currentPage < totalPages) { currentPage++; render(); scrollToTable(); } });
-            pagination.querySelectorAll('.page-btn').forEach(btn => {
-                btn.addEventListener('click', () => {
-                    currentPage = parseInt(btn.dataset.page);
-                    render();
-                    scrollToTable();
-                });
+            document.getElementById('dPrev').addEventListener('click', () => { if (detailPage > 1) { detailPage--; renderDetailTable(); detailTableWrap.scrollIntoView({ behavior: 'smooth', block: 'start' }); } });
+            document.getElementById('dNext').addEventListener('click', () => { if (detailPage < totalPages) { detailPage++; renderDetailTable(); detailTableWrap.scrollIntoView({ behavior: 'smooth', block: 'start' }); } });
+            detailPagination.querySelectorAll('.pg-btn').forEach(btn => {
+                btn.addEventListener('click', () => { detailPage = parseInt(btn.dataset.page); renderDetailTable(); detailTableWrap.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
             });
-        }
-
-        function scrollToTable() {
-            deviceContent.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
 
         function getPageNumbers(current, total) {
             if (total <= 7) return Array.from({ length: total }, (_, i) => i + 1);
-            const pages = [];
-            if (current <= 4) {
-                for (let i = 1; i <= 5; i++) pages.push(i);
-                pages.push('...', total);
-            } else if (current >= total - 3) {
-                pages.push(1, '...');
-                for (let i = total - 4; i <= total; i++) pages.push(i);
-            } else {
-                pages.push(1, '...', current - 1, current, current + 1, '...', total);
-            }
-            return pages;
+            if (current <= 4) { const p = []; for (let i = 1; i <= 5; i++) p.push(i); p.push('...', total); return p; }
+            if (current >= total - 3) { const p = [1, '...']; for (let i = total - 4; i <= total; i++) p.push(i); return p; }
+            return [1, '...', current - 1, current, current + 1, '...', total];
         }
 
-        let debounceTimer;
+        // Global search — filters brand grid, or if query matches devices, show matching brands
+        let searchTimer;
         searchInput.addEventListener('input', () => {
-            clearTimeout(debounceTimer);
-            debounceTimer = setTimeout(applyFilters, 200);
+            clearTimeout(searchTimer);
+            searchTimer = setTimeout(() => {
+                searchQuery = searchInput.value.toLowerCase().trim();
+                if (searchQuery) {
+                    activeLetter = '';
+                    buildAlphaBar();
+                }
+                renderBrandGrid();
+            }, 200);
         });
-        brandFilter.addEventListener('change', applyFilters);
+
+        // Detail search
+        let detailSearchTimer;
+        detailSearch.addEventListener('input', () => {
+            clearTimeout(detailSearchTimer);
+            detailSearchTimer = setTimeout(() => {
+                detailQuery = detailSearch.value.toLowerCase().trim();
+                detailPage = 1;
+                renderDetailTable();
+            }, 200);
+        });
 
         // Load data
         fetch('/data/supported_devices.csv')
-            .then(res => {
-                if (!res.ok) throw new Error('Failed to load device data');
-                return res.text();
-            })
+            .then(res => { if (!res.ok) throw new Error('Failed'); return res.text(); })
             .then(text => {
                 allDevices = parseCSV(text);
-                filteredDevices = allDevices.slice();
-                totalCount.textContent = allDevices.length.toLocaleString();
-                populateBrands();
-                applyFilters();
+                buildBrandData();
+                totalCountEl.textContent = allDevices.length.toLocaleString();
+                brandCountEl.textContent = brandData.length.toLocaleString();
+                buildAlphaBar();
+                renderBrandGrid();
             })
             .catch(err => {
-                deviceContent.innerHTML = '<div class="devices-empty"><i class="fa-solid fa-triangle-exclamation"></i><p>Failed to load device data. Please try refreshing the page.</p></div>';
-                console.error('Device data load error:', err);
+                brandGridView.innerHTML = '<div class="devices-empty"><i class="fa-solid fa-triangle-exclamation"></i><p>Failed to load device data. Please try refreshing.</p></div>';
+                console.error(err);
             });
     })();
     </script>
