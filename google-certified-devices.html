@@ -1,0 +1,811 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <script>(function(){var t=localStorage.getItem('theme')||(window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t)})()</script>
+    <title>Google Certified Android Devices — Global Database | Manojit Ballav</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Browse and search the complete list of 50,000+ Google certified Android devices worldwide. Filter by brand, model, or device name.">
+    <meta name="keywords" content="Google certified devices, Google Play certified, Android certified devices, Google TV devices, supported Android devices, GMS certified">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Manojit Ballav">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://manojitballav.com/google-certified-devices.html">
+    <link rel="icon" href="/images/favicon.ico" sizes="48x48">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://manojitballav.com/google-certified-devices.html">
+    <meta property="og:title" content="Google Certified Android Devices — Global Database">
+    <meta property="og:description" content="Browse and search the complete list of 50,000+ Google certified Android devices worldwide.">
+    <meta property="og:site_name" content="Manojit Ballav">
+    <meta property="og:locale" content="en_IN">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@manojitballav">
+    <meta name="twitter:title" content="Google Certified Android Devices — Global Database">
+    <meta name="twitter:description" content="Browse and search the complete list of 50,000+ Google certified Android devices worldwide.">
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Dataset",
+      "name": "Google Certified Android Devices",
+      "description": "Complete list of Google certified (GMS) Android devices worldwide, including brand, marketing name, device codename, and model number.",
+      "url": "https://manojitballav.com/google-certified-devices.html",
+      "creator": {
+        "@type": "Organization",
+        "name": "Google"
+      },
+      "distribution": {
+        "@type": "DataDownload",
+        "encodingFormat": "text/csv",
+        "contentUrl": "https://storage.googleapis.com/play_public/supported_devices.csv"
+      },
+      "keywords": ["Google certified devices", "Android devices", "GMS certified", "Google Play supported devices"]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://manojitballav.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Google Certified Devices", "item": "https://manojitballav.com/google-certified-devices.html" }
+      ]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Google+Sans+Text:wght@400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/google-style.css">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-61ZX5F590H"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-61ZX5F590H');
+    </script>
+
+    <style>
+        .devices-hero {
+            padding: 120px 0 40px;
+            text-align: center;
+        }
+        .devices-hero h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+        .devices-hero p {
+            color: var(--text-secondary, #5f6368);
+            font-size: 1.1rem;
+            max-width: 640px;
+            margin: 0 auto 8px;
+        }
+        .devices-source {
+            font-size: 0.85rem;
+            color: var(--text-secondary, #5f6368);
+            margin-top: 4px;
+        }
+        .devices-source a {
+            color: var(--accent, #1a73e8);
+        }
+
+        .devices-controls {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .devices-search {
+            flex: 1;
+            min-width: 200px;
+            padding: 12px 16px 12px 44px;
+            border: 1px solid rgba(0, 0, 0, 0.12);
+            border-radius: 12px;
+            font-size: 15px;
+            font-family: inherit;
+            background: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(12px);
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+        .devices-search:focus {
+            outline: none;
+            border-color: var(--accent, #1a73e8);
+            box-shadow: 0 0 0 3px rgba(26, 115, 232, 0.15);
+        }
+        .search-wrapper {
+            flex: 1;
+            min-width: 200px;
+            position: relative;
+        }
+        .search-wrapper i {
+            position: absolute;
+            left: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-secondary, #5f6368);
+            font-size: 14px;
+            pointer-events: none;
+        }
+        .devices-select {
+            padding: 12px 36px 12px 16px;
+            border: 1px solid rgba(0, 0, 0, 0.12);
+            border-radius: 12px;
+            font-size: 15px;
+            font-family: inherit;
+            background: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(12px);
+            cursor: pointer;
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%235f6368' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 12px center;
+            min-width: 180px;
+        }
+        .devices-select:focus {
+            outline: none;
+            border-color: var(--accent, #1a73e8);
+            box-shadow: 0 0 0 3px rgba(26, 115, 232, 0.15);
+        }
+
+        [data-theme="dark"] .devices-search,
+        [data-theme="dark"] .devices-select {
+            background: rgba(255, 255, 255, 0.06);
+            border-color: rgba(255, 255, 255, 0.12);
+            color: var(--text-primary, #f5f5f7);
+        }
+        [data-theme="dark"] .devices-select {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%239aa0a6' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 12px center;
+            background-color: rgba(255, 255, 255, 0.06);
+        }
+        [data-theme="dark"] .devices-search:focus,
+        [data-theme="dark"] .devices-select:focus {
+            border-color: var(--accent, #0a84ff);
+            box-shadow: 0 0 0 3px rgba(10, 132, 255, 0.2);
+        }
+
+        .devices-stats {
+            display: flex;
+            gap: 24px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .devices-stat {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            color: var(--text-secondary, #5f6368);
+        }
+        .devices-stat strong {
+            color: var(--text-primary, #202124);
+            font-weight: 600;
+        }
+        .devices-stat i {
+            color: var(--accent, #1a73e8);
+            font-size: 13px;
+        }
+        .devices-download {
+            margin-left: auto;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--accent, #1a73e8);
+            text-decoration: none;
+            padding: 6px 14px;
+            border-radius: 8px;
+            transition: background 0.2s;
+        }
+        .devices-download:hover {
+            background: rgba(26, 115, 232, 0.08);
+        }
+        [data-theme="dark"] .devices-download {
+            color: var(--accent, #0a84ff);
+        }
+        [data-theme="dark"] .devices-download:hover {
+            background: rgba(10, 132, 255, 0.12);
+        }
+
+        .devices-table-wrap {
+            border-radius: 16px;
+            overflow: hidden;
+            background: rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(12px) saturate(180%);
+            box-shadow:
+                0 0 0 0.5px rgba(0, 0, 0, 0.04),
+                0 1px 4px rgba(0, 0, 0, 0.04);
+        }
+        [data-theme="dark"] .devices-table-wrap {
+            background: rgba(255, 255, 255, 0.04);
+            box-shadow:
+                0 0 0 0.5px rgba(255, 255, 255, 0.06),
+                0 1px 4px rgba(0, 0, 0, 0.2);
+        }
+        .devices-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+        .devices-table th {
+            padding: 14px 16px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+            color: var(--text-secondary, #5f6368);
+            background: rgba(248, 249, 250, 0.6);
+            border-bottom: 1px solid rgba(232, 234, 237, 0.6);
+            position: sticky;
+            top: 0;
+            z-index: 1;
+            cursor: pointer;
+            user-select: none;
+            white-space: nowrap;
+        }
+        .devices-table th:hover {
+            color: var(--accent, #1a73e8);
+        }
+        .devices-table th .sort-icon {
+            margin-left: 4px;
+            font-size: 11px;
+            opacity: 0.4;
+        }
+        .devices-table th.sorted .sort-icon {
+            opacity: 1;
+            color: var(--accent, #1a73e8);
+        }
+        [data-theme="dark"] .devices-table th {
+            background: rgba(255, 255, 255, 0.04);
+            border-bottom-color: rgba(255, 255, 255, 0.06);
+        }
+        .devices-table td {
+            padding: 10px 16px;
+            border-bottom: 1px solid rgba(232, 234, 237, 0.4);
+            color: var(--text-primary, #202124);
+        }
+        [data-theme="dark"] .devices-table td {
+            border-bottom-color: rgba(255, 255, 255, 0.04);
+            color: var(--text-primary, #f5f5f7);
+        }
+        .devices-table tbody tr:hover {
+            background: rgba(26, 115, 232, 0.04);
+        }
+        [data-theme="dark"] .devices-table tbody tr:hover {
+            background: rgba(10, 132, 255, 0.06);
+        }
+        .devices-table .brand-cell {
+            font-weight: 500;
+        }
+        .devices-table .code-cell {
+            font-family: 'SF Mono', 'Fira Code', monospace;
+            font-size: 13px;
+            color: var(--text-secondary, #5f6368);
+        }
+
+        .devices-pagination {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            margin-top: 24px;
+            flex-wrap: wrap;
+        }
+        .devices-pagination button {
+            padding: 8px 14px;
+            border: 1px solid rgba(0, 0, 0, 0.12);
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(12px);
+            font-family: inherit;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.2s;
+            color: var(--text-primary, #202124);
+        }
+        .devices-pagination button:hover:not(:disabled) {
+            border-color: var(--accent, #1a73e8);
+            color: var(--accent, #1a73e8);
+        }
+        .devices-pagination button:disabled {
+            opacity: 0.4;
+            cursor: default;
+        }
+        .devices-pagination button.active {
+            background: var(--accent, #1a73e8);
+            color: #fff;
+            border-color: var(--accent, #1a73e8);
+        }
+        [data-theme="dark"] .devices-pagination button {
+            background: rgba(255, 255, 255, 0.06);
+            border-color: rgba(255, 255, 255, 0.12);
+            color: var(--text-primary, #f5f5f7);
+        }
+        [data-theme="dark"] .devices-pagination button.active {
+            background: var(--accent, #0a84ff);
+            border-color: var(--accent, #0a84ff);
+            color: #fff;
+        }
+        .devices-pagination .page-info {
+            font-size: 14px;
+            color: var(--text-secondary, #5f6368);
+            padding: 0 8px;
+        }
+
+        .devices-loading {
+            text-align: center;
+            padding: 80px 24px;
+        }
+        .devices-loading .spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid rgba(0, 0, 0, 0.08);
+            border-top-color: var(--accent, #1a73e8);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin: 0 auto 16px;
+        }
+        [data-theme="dark"] .devices-loading .spinner {
+            border-color: rgba(255, 255, 255, 0.08);
+            border-top-color: var(--accent, #0a84ff);
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        .devices-loading p {
+            color: var(--text-secondary, #5f6368);
+            font-size: 15px;
+        }
+
+        .devices-empty {
+            text-align: center;
+            padding: 60px 24px;
+            color: var(--text-secondary, #5f6368);
+        }
+        .devices-empty i {
+            font-size: 48px;
+            margin-bottom: 16px;
+            opacity: 0.3;
+        }
+        .devices-empty p {
+            font-size: 16px;
+        }
+
+        .per-page-select {
+            padding: 8px 32px 8px 12px;
+            border: 1px solid rgba(0, 0, 0, 0.12);
+            border-radius: 8px;
+            font-size: 14px;
+            font-family: inherit;
+            background: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(12px);
+            cursor: pointer;
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%235f6368' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 10px center;
+        }
+        [data-theme="dark"] .per-page-select {
+            background-color: rgba(255, 255, 255, 0.06);
+            border-color: rgba(255, 255, 255, 0.12);
+            color: var(--text-primary, #f5f5f7);
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%239aa0a6' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 10px center;
+        }
+
+        @media (max-width: 768px) {
+            .devices-hero h1 { font-size: 1.75rem; }
+            .devices-hero p { font-size: 1rem; }
+            .devices-controls { flex-direction: column; }
+            .devices-select { width: 100%; }
+            .devices-stats { gap: 12px; }
+            .devices-download { margin-left: 0; }
+            .devices-table { font-size: 13px; }
+            .devices-table th, .devices-table td { padding: 8px 10px; }
+            .devices-table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header" id="header">
+        <div class="header__inner">
+            <a href="/" class="header__logo">
+                <img src="images/logo.png" alt="Mono" class="header__logo-img">
+            </a>
+            <nav class="header__nav" id="nav">
+                <a href="index.html#home">Home</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#portfolio">Portfolio</a>
+                <a href="blog/blog-page.html">Blog</a>
+                <a href="index.html#contact">Contact</a>
+                <button class="theme-toggle--mobile" id="themeToggleMobile" aria-label="Toggle dark mode">
+                    <i class="fa-solid fa-moon"></i><i class="fa-solid fa-sun"></i>
+                    <span class="theme-toggle--mobile__label">Dark Mode</span>
+                </button>
+            </nav>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                <i class="fa-solid fa-moon"></i><i class="fa-solid fa-sun"></i>
+            </button>
+            <button class="header__menu-btn" id="menuBtn" aria-label="Toggle menu">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="3" y1="6" x2="21" y2="6"/>
+                    <line x1="3" y1="12" x2="21" y2="12"/>
+                    <line x1="3" y1="18" x2="21" y2="18"/>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <section class="devices-hero">
+        <div class="container">
+            <nav class="article-breadcrumb" aria-label="Breadcrumb">
+                <a href="/">Home</a> &rsaquo;
+                <span>Google Certified Devices</span>
+            </nav>
+            <h1>Google Certified Android Devices</h1>
+            <p>Browse the complete global database of Google certified (GMS) Android devices. Search by brand, model, or device codename.</p>
+            <p class="devices-source">Data sourced from <a href="https://storage.googleapis.com/play_public/supported_devices.html" target="_blank" rel="noopener">Google's official supported devices list</a></p>
+        </div>
+    </section>
+
+    <section class="section" style="padding-top: 0;">
+        <div class="container" style="max-width: 1100px;">
+
+            <div class="devices-controls">
+                <div class="search-wrapper">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="search" class="devices-search" id="searchInput" placeholder="Search devices, brands, models..." autocomplete="off">
+                </div>
+                <select class="devices-select" id="brandFilter">
+                    <option value="">All Brands</option>
+                </select>
+            </div>
+
+            <div class="devices-stats" id="statsBar">
+                <div class="devices-stat">
+                    <i class="fa-solid fa-microchip"></i>
+                    <span>Showing <strong id="showingCount">0</strong> of <strong id="totalCount">0</strong> devices</span>
+                </div>
+                <div class="devices-stat">
+                    <i class="fa-solid fa-building"></i>
+                    <span><strong id="brandCount">0</strong> brands</span>
+                </div>
+                <a href="https://storage.googleapis.com/play_public/supported_devices.csv" class="devices-download" target="_blank" rel="noopener">
+                    <i class="fa-solid fa-download"></i> Download CSV
+                </a>
+            </div>
+
+            <div id="deviceContent">
+                <div class="devices-loading" id="loadingState">
+                    <div class="spinner"></div>
+                    <p>Loading device database...</p>
+                </div>
+            </div>
+
+            <div class="devices-pagination" id="pagination" style="display: none;"></div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__text">&copy; 2026 Manojit Ballav. Content licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.</div>
+                <div class="footer__links">
+                    <a href="https://www.linkedin.com/in/manojitballav/" target="_blank" rel="noopener">LinkedIn</a>
+                    <a href="https://x.com/manojitballav" target="_blank" rel="noopener">X</a>
+                    <a href="https://github.com/manojitballav" target="_blank" rel="noopener">GitHub</a>
+                    <a href="privacy-policy.html">Privacy</a>
+                    <a href="terms-of-service.html">Terms</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => { header.classList.toggle('header--scrolled', window.scrollY > 10); });
+        const menuBtn = document.getElementById('menuBtn');
+        const nav = document.getElementById('nav');
+        menuBtn.addEventListener('click', () => {
+            nav.classList.toggle('open');
+            const isOpen = nav.classList.contains('open');
+            menuBtn.innerHTML = isOpen
+                ? '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="6" y1="6" x2="18" y2="18"/><line x1="6" y1="18" x2="18" y2="6"/></svg>'
+                : '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>';
+        });
+        nav.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                nav.classList.remove('open');
+                menuBtn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>';
+            });
+        });
+        const themeToggle = document.getElementById('themeToggle');
+        const themeToggleMobile = document.getElementById('themeToggleMobile');
+        const mobileLabel = themeToggleMobile.querySelector('.theme-toggle--mobile__label');
+        const root = document.documentElement;
+        function updateMobileLabel() {
+            const isDark = root.getAttribute('data-theme') === 'dark';
+            mobileLabel.textContent = isDark ? 'Light Mode' : 'Dark Mode';
+        }
+        function setTheme(theme) {
+            root.setAttribute('data-theme', theme);
+            localStorage.setItem('theme', theme);
+            updateMobileLabel();
+        }
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) { setTheme(savedTheme); }
+        else if (window.matchMedia('(prefers-color-scheme: dark)').matches) { setTheme('dark'); }
+        updateMobileLabel();
+        themeToggle.addEventListener('click', () => {
+            const current = root.getAttribute('data-theme');
+            setTheme(current === 'dark' ? 'light' : 'dark');
+        });
+        themeToggleMobile.addEventListener('click', () => {
+            const current = root.getAttribute('data-theme');
+            setTheme(current === 'dark' ? 'light' : 'dark');
+        });
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+            if (!localStorage.getItem('theme')) { setTheme(e.matches ? 'dark' : 'light'); }
+        });
+    </script>
+
+    <script>
+    (function() {
+        let allDevices = [];
+        let filteredDevices = [];
+        let currentPage = 1;
+        const perPage = 100;
+        let sortCol = 0;
+        let sortAsc = true;
+
+        const searchInput = document.getElementById('searchInput');
+        const brandFilter = document.getElementById('brandFilter');
+        const deviceContent = document.getElementById('deviceContent');
+        const pagination = document.getElementById('pagination');
+        const showingCount = document.getElementById('showingCount');
+        const totalCount = document.getElementById('totalCount');
+        const brandCount = document.getElementById('brandCount');
+
+        function parseCSV(text) {
+            const rows = [];
+            let i = 0;
+            const len = text.length;
+            // Skip header line
+            while (i < len && text[i] !== '\n') i++;
+            i++;
+
+            while (i < len) {
+                const row = [];
+                for (let col = 0; col < 4; col++) {
+                    let val = '';
+                    if (i < len && text[i] === '"') {
+                        i++; // skip opening quote
+                        while (i < len) {
+                            if (text[i] === '"') {
+                                if (i + 1 < len && text[i + 1] === '"') {
+                                    val += '"';
+                                    i += 2;
+                                } else {
+                                    i++; // skip closing quote
+                                    break;
+                                }
+                            } else {
+                                val += text[i];
+                                i++;
+                            }
+                        }
+                    } else {
+                        while (i < len && text[i] !== ',' && text[i] !== '\n' && text[i] !== '\r') {
+                            val += text[i];
+                            i++;
+                        }
+                    }
+                    row.push(val.trim());
+                    if (i < len && text[i] === ',') i++;
+                }
+                if (row.some(v => v)) rows.push(row);
+                // Skip to next line
+                while (i < len && (text[i] === '\r' || text[i] === '\n')) i++;
+            }
+            return rows;
+        }
+
+        function escapeHTML(str) {
+            const div = document.createElement('div');
+            div.textContent = str;
+            return div.innerHTML;
+        }
+
+        function populateBrands() {
+            const brands = new Set();
+            allDevices.forEach(d => { if (d[0]) brands.add(d[0]); });
+            const sorted = Array.from(brands).sort((a, b) => a.localeCompare(b, undefined, { sensitivity: 'base' }));
+            const frag = document.createDocumentFragment();
+            sorted.forEach(b => {
+                const opt = document.createElement('option');
+                opt.value = b;
+                opt.textContent = b;
+                frag.appendChild(opt);
+            });
+            brandFilter.appendChild(frag);
+            brandCount.textContent = sorted.length.toLocaleString();
+        }
+
+        function applyFilters() {
+            const query = searchInput.value.toLowerCase().trim();
+            const brand = brandFilter.value;
+
+            filteredDevices = allDevices.filter(d => {
+                if (brand && d[0] !== brand) return false;
+                if (query) {
+                    return d[0].toLowerCase().includes(query) ||
+                           d[1].toLowerCase().includes(query) ||
+                           d[2].toLowerCase().includes(query) ||
+                           d[3].toLowerCase().includes(query);
+                }
+                return true;
+            });
+
+            // Apply sort
+            filteredDevices.sort((a, b) => {
+                const valA = a[sortCol].toLowerCase();
+                const valB = b[sortCol].toLowerCase();
+                const cmp = valA.localeCompare(valB, undefined, { sensitivity: 'base' });
+                return sortAsc ? cmp : -cmp;
+            });
+
+            currentPage = 1;
+            render();
+        }
+
+        function render() {
+            const total = filteredDevices.length;
+            const totalPages = Math.max(1, Math.ceil(total / perPage));
+            if (currentPage > totalPages) currentPage = totalPages;
+
+            const start = (currentPage - 1) * perPage;
+            const end = Math.min(start + perPage, total);
+            const pageData = filteredDevices.slice(start, end);
+
+            showingCount.textContent = total.toLocaleString();
+            totalCount.textContent = allDevices.length.toLocaleString();
+
+            if (total === 0) {
+                deviceContent.innerHTML = '<div class="devices-empty"><i class="fa-solid fa-magnifying-glass"></i><p>No devices found matching your search.</p></div>';
+                pagination.style.display = 'none';
+                return;
+            }
+
+            const colNames = ['Brand', 'Marketing Name', 'Device', 'Model'];
+            const sortIcons = ['fa-sort', 'fa-sort', 'fa-sort', 'fa-sort'];
+            if (sortAsc) sortIcons[sortCol] = 'fa-sort-up';
+            else sortIcons[sortCol] = 'fa-sort-down';
+
+            let html = '<div class="devices-table-wrap"><table class="devices-table"><thead><tr>';
+            colNames.forEach((name, idx) => {
+                const cls = idx === sortCol ? ' sorted' : '';
+                html += `<th class="${cls}" data-col="${idx}">${escapeHTML(name)} <i class="fa-solid ${sortIcons[idx]} sort-icon"></i></th>`;
+            });
+            html += '</tr></thead><tbody>';
+
+            pageData.forEach(d => {
+                html += '<tr>';
+                html += `<td class="brand-cell">${escapeHTML(d[0] || '—')}</td>`;
+                html += `<td>${escapeHTML(d[1] || '—')}</td>`;
+                html += `<td class="code-cell">${escapeHTML(d[2] || '—')}</td>`;
+                html += `<td>${escapeHTML(d[3] || '—')}</td>`;
+                html += '</tr>';
+            });
+
+            html += '</tbody></table></div>';
+            deviceContent.innerHTML = html;
+
+            // Re-attach sort listeners
+            deviceContent.querySelectorAll('.devices-table th').forEach(th => {
+                th.addEventListener('click', () => {
+                    const col = parseInt(th.dataset.col);
+                    if (sortCol === col) sortAsc = !sortAsc;
+                    else { sortCol = col; sortAsc = true; }
+                    applyFilters();
+                });
+            });
+
+            // Pagination
+            if (totalPages <= 1) {
+                pagination.style.display = 'none';
+                return;
+            }
+
+            pagination.style.display = 'flex';
+            let pagHTML = '';
+            pagHTML += `<button id="prevBtn" ${currentPage === 1 ? 'disabled' : ''}><i class="fa-solid fa-chevron-left"></i></button>`;
+
+            const pages = getPageNumbers(currentPage, totalPages);
+            pages.forEach(p => {
+                if (p === '...') {
+                    pagHTML += '<span class="page-info">...</span>';
+                } else {
+                    pagHTML += `<button class="page-btn${p === currentPage ? ' active' : ''}" data-page="${p}">${p}</button>`;
+                }
+            });
+
+            pagHTML += `<button id="nextBtn" ${currentPage === totalPages ? 'disabled' : ''}><i class="fa-solid fa-chevron-right"></i></button>`;
+            pagHTML += `<span class="page-info">${start + 1}–${end} of ${total.toLocaleString()}</span>`;
+            pagination.innerHTML = pagHTML;
+
+            document.getElementById('prevBtn').addEventListener('click', () => { if (currentPage > 1) { currentPage--; render(); scrollToTable(); } });
+            document.getElementById('nextBtn').addEventListener('click', () => { if (currentPage < totalPages) { currentPage++; render(); scrollToTable(); } });
+            pagination.querySelectorAll('.page-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    currentPage = parseInt(btn.dataset.page);
+                    render();
+                    scrollToTable();
+                });
+            });
+        }
+
+        function scrollToTable() {
+            deviceContent.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+
+        function getPageNumbers(current, total) {
+            if (total <= 7) return Array.from({ length: total }, (_, i) => i + 1);
+            const pages = [];
+            if (current <= 4) {
+                for (let i = 1; i <= 5; i++) pages.push(i);
+                pages.push('...', total);
+            } else if (current >= total - 3) {
+                pages.push(1, '...');
+                for (let i = total - 4; i <= total; i++) pages.push(i);
+            } else {
+                pages.push(1, '...', current - 1, current, current + 1, '...', total);
+            }
+            return pages;
+        }
+
+        let debounceTimer;
+        searchInput.addEventListener('input', () => {
+            clearTimeout(debounceTimer);
+            debounceTimer = setTimeout(applyFilters, 200);
+        });
+        brandFilter.addEventListener('change', applyFilters);
+
+        // Load data
+        fetch('/data/supported_devices.csv')
+            .then(res => {
+                if (!res.ok) throw new Error('Failed to load device data');
+                return res.text();
+            })
+            .then(text => {
+                allDevices = parseCSV(text);
+                filteredDevices = allDevices.slice();
+                totalCount.textContent = allDevices.length.toLocaleString();
+                populateBrands();
+                applyFilters();
+            })
+            .catch(err => {
+                deviceContent.innerHTML = '<div class="devices-empty"><i class="fa-solid fa-triangle-exclamation"></i><p>Failed to load device data. Please try refreshing the page.</p></div>';
+                console.error('Device data load error:', err);
+            });
+    })();
+    </script>
+
+</body>
+</html>
