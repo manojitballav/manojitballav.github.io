@@ -32,12 +32,24 @@
 <!-- Blog Listing Page -->
 <url>
   <loc>https://manojitballav.com/blog/blog-page.html</loc>
-  <lastmod>2026-03-18</lastmod>
+  <lastmod>2026-03-22</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.9</priority>
 </url>
 
 <!-- Blog Posts (newest first) -->
+<url>
+  <loc>https://manojitballav.com/blog/blog-mini-led-explained.html</loc>
+  <lastmod>2026-03-22</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.9</priority>
+  <image:image>
+    <image:loc>https://manojitballav.com/images/blog-mini-led.webp</image:loc>
+    <image:title>Mini LED Explained: What It Really Means and Why Most People Misunderstand It</image:title>
+    <image:caption>A deep technical breakdown of Mini LED backlighting — LED density, local dimming zones, the TCL ODM controversy, and what to look for when buying</image:caption>
+  </image:image>
+</url>
+
 <url>
   <loc>https://manojitballav.com/blog/google-certified-devices.html</loc>
   <lastmod>2026-03-18</lastmod>

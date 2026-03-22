@@ -1,0 +1,1301 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <script>(function(){var t=localStorage.getItem('theme')||(window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t)})()</script>
+    <title>Mini LED Explained: What It Really Means and Why Most People Misunderstand It | Manojit Ballav</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="A deep technical breakdown of Mini LED backlighting — how direct-lit LEDs work, what makes a Mini LED, FALD and local dimming zones, and what to actually look for when buying a Mini LED TV.">
+    <meta name="keywords" content="Mini LED explained, Mini LED vs LED, Mini LED TV, local dimming zones, direct-lit LED, Mini LED backlight, Mini LED buying guide, FALD, full array local dimming, Mini LED blooming, Mini LED zone count, Mini LED vs OLED, TV buying guide India, Mini LED marketing, what is Mini LED, best Mini LED TV">
+    <meta name="news_keywords" content="Mini LED, local dimming, FALD, TV buying guide, Mini LED marketing">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Manojit Ballav">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="canonical" href="https://manojitballav.com/blog/blog-mini-led-explained.html">
+    <link rel="icon" href="/images/favicon.ico" sizes="48x48">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="manifest" href="../site.webmanifest">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://manojitballav.com/blog/blog-mini-led-explained.html" />
+    <meta property="og:title" content="Mini LED Explained: What It Really Means and Why Most People Misunderstand It" />
+    <meta property="og:description" content="A deep technical breakdown of Mini LED backlighting — how it works, what to look for, and why two Mini LED TVs can deliver wildly different picture quality." />
+    <meta property="og:image" content="https://manojitballav.com/images/blog-mini-led.jpg" />
+    <meta property="og:image:width" content="1600" />
+    <meta property="og:image:height" content="900" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:alt" content="Mini LED backlight illustration — thousands of tiny LEDs glowing through a dark panel, showing local dimming zones with indigo, cyan, and purple gradients" />
+    <meta property="og:site_name" content="Manojit Ballav" />
+    <meta property="og:locale" content="en_IN" />
+    <meta property="article:published_time" content="2026-03-22T00:00:00+05:30" />
+    <meta property="article:modified_time" content="2026-03-22T00:00:00+05:30" />
+    <meta property="article:author" content="https://www.linkedin.com/in/manojitballav/" />
+    <meta property="article:section" content="Technology" />
+    <meta property="article:tag" content="Mini LED" />
+    <meta property="article:tag" content="Display Technology" />
+    <meta property="article:tag" content="TV Buying Guide" />
+    <meta property="article:tag" content="FALD" />
+    <meta property="article:tag" content="Local Dimming" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@manojitballav" />
+    <meta name="twitter:creator" content="@manojitballav" />
+    <meta name="twitter:url" content="https://manojitballav.com/blog/blog-mini-led-explained.html" />
+    <meta name="twitter:title" content="Mini LED Explained: What It Really Means and Why Most People Misunderstand It" />
+    <meta name="twitter:description" content="A deep technical breakdown of Mini LED backlighting — how it works, what to look for, and why two Mini LED TVs can deliver wildly different picture quality." />
+    <meta name="twitter:image" content="https://manojitballav.com/images/blog-mini-led.jpg" />
+    <meta name="twitter:image:alt" content="Mini LED backlight illustration — thousands of tiny LEDs glowing through a dark panel, showing local dimming zones with indigo, cyan, and purple gradients" />
+
+    <!-- Schema.org JSON-LD: Article -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Mini LED Explained: What It Really Means and Why Most People Misunderstand It",
+  "description": "A deep technical breakdown of Mini LED backlighting — how direct-lit LEDs work, what makes a Mini LED, FALD and local dimming zones, and what to actually look for when buying a Mini LED TV.",
+  "image": [
+    "https://manojitballav.com/images/blog-mini-led.jpg",
+    "https://manojitballav.com/images/blog-mini-led.webp"
+  ],
+  "thumbnailUrl": "https://manojitballav.com/images/blog-mini-led.webp",
+  "datePublished": "2026-03-22",
+  "dateModified": "2026-03-22",
+  "url": "https://manojitballav.com/blog/blog-mini-led-explained.html",
+  "inLanguage": "en",
+  "keywords": ["Mini LED", "local dimming zones", "direct-lit LED", "Mini LED TV", "TV buying guide", "FALD", "full array local dimming", "Mini LED backlight", "Mini LED vs OLED"],
+  "author": {
+    "@type": "Person",
+    "@id": "https://manojitballav.com/#person",
+    "name": "Manojit Ballav",
+    "url": "https://manojitballav.com/",
+    "jobTitle": "Principal Product Manager",
+    "sameAs": [
+      "https://www.linkedin.com/in/manojitballav/",
+      "https://x.com/manojitballav",
+      "https://github.com/manojitballav",
+      "https://www.instagram.com/ilegalmono/",
+      "https://scholar.google.com/citations?user=Fi8Tpu4AAAAJ",
+      "https://www.wikidata.org/wiki/Q138306609",
+      "https://www.google.com/search?kgmid=/g/11f_jdjrm5"
+    ]
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://manojitballav.com/#person",
+    "name": "Manojit Ballav"
+  },
+  "mainEntityOfPage": "https://manojitballav.com/blog/blog-mini-led-explained.html",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [".article-header__title", ".article-body > p:first-of-type"]
+  }
+}
+    </script>
+
+    <!-- Schema.org JSON-LD: FAQPage -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Mini LED?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mini LED is a backlight technology used in LCD TVs. Instead of using large LEDs (typically 1-2 mm), Mini LED uses much smaller LEDs approximately 100-200 micrometers in size. This allows manufacturers to pack thousands of LEDs behind the panel instead of hundreds, enabling finer backlight control and better contrast."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between Mini LED and regular LED TV?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Both use LEDs behind an LCD panel, but Mini LED uses LEDs that are roughly 5-10x smaller (100-200 micrometers vs 1-2 mm). This allows thousands more LEDs to be packed behind the screen, enabling hundreds or thousands of independently controlled dimming zones compared to the 20-300 zones in conventional LED TVs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many local dimming zones should a good Mini LED TV have?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Expert reviewers generally consider 500+ zones the threshold where Mini LED starts delivering genuinely better performance than standard full-array local dimming. 1,000+ zones is where the technology truly shines. Budget Mini LED TVs with under 300 zones often perform only marginally better than conventional LED backlights."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why do some Mini LED TVs still have blooming?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Blooming occurs when a dimming zone lights up and spills light into adjacent dark areas. Mini LED TVs with fewer zones have larger zones, which means more light spill. TVs with very high zone counts (1,500+) have much smaller zones, significantly reducing blooming. The dimming algorithm quality also plays a major role."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Mini LED better than OLED?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "They serve different purposes. OLED has self-emissive pixels with perfect per-pixel light control and infinite contrast. Mini LED cannot match that precision but can achieve much higher peak brightness (3,000-4,000+ nits vs 1,000-2,000 nits for OLED). Mini LED is generally more affordable at larger screen sizes. Neither is universally better — it depends on viewing conditions and priorities."
+      }
+    }
+  ]
+}
+    </script>
+
+    <!-- Schema.org JSON-LD: BreadcrumbList -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://manojitballav.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://manojitballav.com/blog/blog-page.html" },
+    { "@type": "ListItem", "position": 3, "name": "Mini LED Explained", "item": "https://manojitballav.com/blog/blog-mini-led-explained.html" }
+  ]
+}
+    </script>
+
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Google+Sans+Text:wght@400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="../css/google-style.css">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-61ZX5F590H"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-61ZX5F590H');
+    </script>
+    <!-- Google News Subscribe with Google -->
+    <script async type="application/javascript"
+        src="https://news.google.com/swg/js/v1/swg-basic.js"></script>
+    <script>
+      (self.SWG_BASIC = self.SWG_BASIC || []).push( basicSubscriptions => {
+        basicSubscriptions.init({
+          type: "NewsArticle",
+          isPartOfType: ["Product"],
+          isPartOfProductId: "CAowjt7FDA:openaccess",
+          clientOptions: { theme: "light", lang: "en" },
+        });
+      });
+    </script>
+
+    <!-- Inline SVG illustration styles -->
+    <style>
+        .svg-illustration {
+            width: 100%;
+            max-width: 720px;
+            margin: 24px auto;
+            display: block;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .svg-illustration svg {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        [data-theme="dark"] .svg-illustration svg .svg-bg { fill: #1a1a2e; }
+        [data-theme="dark"] .svg-illustration svg .svg-panel { fill: #16213e; stroke: #334155; }
+        [data-theme="dark"] .svg-illustration svg .svg-text { fill: #e2e8f0; }
+        [data-theme="dark"] .svg-illustration svg .svg-text-sm { fill: #94a3b8; }
+        [data-theme="dark"] .svg-illustration svg .svg-line { stroke: #475569; }
+        [data-theme="dark"] .svg-illustration svg .svg-label-bg { fill: #1e293b; }
+
+        .svg-illustration svg .svg-bg { fill: #f8fafc; }
+        .svg-illustration svg .svg-panel { fill: #ffffff; stroke: #e2e8f0; }
+        .svg-illustration svg .svg-text { fill: #1e293b; }
+        .svg-illustration svg .svg-text-sm { fill: #64748b; }
+        .svg-illustration svg .svg-line { stroke: #cbd5e1; }
+        .svg-illustration svg .svg-label-bg { fill: #f1f5f9; }
+    </style>
+</head>
+<body>
+
+    <header class="header" id="header">
+        <div class="header__inner">
+            <a href="../" class="header__logo">
+                <img src="../images/logo.png" alt="Mono" class="header__logo-img">
+            </a>
+            <nav class="header__nav" id="nav">
+                <a href="../index.html#home">Home</a>
+                <a href="../index.html#about">About</a>
+                <a href="../index.html#portfolio">Portfolio</a>
+                <a href="blog-page.html" class="active">Blog</a>
+                <div class="nav-dropdown" id="toolsDropdown">
+                    <button type="button" class="nav-dropdown__trigger">Tools <i class="fa-solid fa-chevron-down dd-chevron"></i></button>
+                    <div class="nav-dropdown__menu">
+                        <a href="/google-certified-devices.html"><i class="fa-solid fa-microchip"></i> Google Certified Devices</a>
+                    </div>
+                </div>
+                <a href="../index.html#contact">Contact</a>
+                <button class="theme-toggle--mobile" id="themeToggleMobile" aria-label="Toggle dark mode">
+                    <i class="fa-solid fa-moon"></i>
+                    <i class="fa-solid fa-sun"></i>
+                    <span class="theme-toggle--mobile__label">Dark Mode</span>
+                </button>
+            </nav>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                <i class="fa-solid fa-moon"></i>
+                <i class="fa-solid fa-sun"></i>
+            </button>
+            <button class="header__menu-btn" id="menuBtn" aria-label="Toggle menu">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="3" y1="6" x2="21" y2="6"/>
+                    <line x1="3" y1="12" x2="21" y2="12"/>
+                    <line x1="3" y1="18" x2="21" y2="18"/>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <div class="article-hero"><img src="../images/blog-mini-led.webp" alt="Mini LED TV backlight technology explained — LED density and dimming zone comparison"></div>
+
+<section class="section">
+    <div class="container" style="max-width: 800px;">
+        <nav class="article-breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a> &rsaquo; <a href="/blog/blog-page.html">Blog</a> &rsaquo; <span>Mini LED Explained</span>
+        </nav>
+        <div class="article-header">
+            <div class="article-header__category">Technology</div>
+            <h1 class="article-header__title">Mini LED Explained: What It Really Means (And Why Most People Misunderstand It)</h1>
+            <div class="article-header__meta">22 March 2026 &bull; Manojit Ballav (Mono)</div>
+            <div class="key-takeaways">
+                <div class="key-takeaways__title">Key Takeaways</div>
+                <ul>
+                    <li>Mini LED is a backlight technology, not a display technology &mdash; it controls the light behind an LCD panel, it does not create the image itself</li>
+                    <li>What separates good Mini LED from bad Mini LED is the <strong>number of local dimming zones</strong>, not just the total LED count</li>
+                    <li>Two TVs both labeled &ldquo;Mini LED&rdquo; can have anywhere from 160 to 14,000+ dimming zones &mdash; delivering completely different picture quality</li>
+                    <li>Some brands use TCL&rsquo;s ODM designs with low zone counts and market them as premium Mini LED, without disclosing meaningful specifications</li>
+                    <li>Always check actual zone count, zone density relative to screen size, and independent blooming reviews before buying</li>
+                </ul>
+            </div>
+        </div>
+        <div class="article-body">
+
+                    <p>Mini LED has quickly become one of the most overused &mdash; and misunderstood &mdash; terms in the TV industry. At first glance, it sounds like a breakthrough display technology. In reality, it is something more subtle: a <strong>better way to control light in LCD TVs</strong>. And while that sounds simple, the implications for picture quality are significant.</p>
+
+                    <p>The problem is this: today, two TVs labeled &ldquo;Mini LED&rdquo; can deliver <strong>wildly different picture quality</strong>. One might offer near-OLED contrast with barely visible blooming; the other might look only marginally better than a basic LED TV you could buy for half the price.</p>
+
+                    <p>To understand why, you need to go beyond the label and understand what is actually happening behind the screen.</p>
+
+                    <!-- Section Divider -->
+                    <hr class="section-divider">
+
+                    <h2>First, Understand How Any LCD TV Works</h2>
+
+                    <p>Every LCD TV &mdash; whether it says LED, QLED, or Mini LED on the box &mdash; follows the same fundamental architecture. The LCD panel itself <strong>does not emit light</strong>. It is a layer of liquid crystals that acts as a shutter, selectively blocking or allowing light to pass through. The light comes from behind.</p>
+
+                    <p>Here is the layer stack, from back to front:</p>
+
+                    <!-- SVG: LCD Layer Stack -->
+                    <div class="svg-illustration">
+                        <svg viewBox="0 0 720 340" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="svg-bg" width="720" height="340" rx="0"/>
+                            <text class="svg-text" x="360" y="30" text-anchor="middle" font-size="15" font-weight="600">LCD TV Layer Stack (Cross-Section)</text>
+
+                            <!-- Layer 1: Backlight -->
+                            <rect x="60" y="55" width="600" height="45" rx="6" fill="#fbbf24" fill-opacity="0.25" stroke="#f59e0b" stroke-width="1.5"/>
+                            <text class="svg-text" x="360" y="83" text-anchor="middle" font-size="13" font-weight="500">Backlight (LEDs)</text>
+                            <!-- LED circles -->
+                            <circle cx="120" cy="78" r="8" fill="#f59e0b" opacity="0.7"/>
+                            <circle cx="200" cy="78" r="8" fill="#f59e0b" opacity="0.7"/>
+                            <circle cx="280" cy="78" r="8" fill="#f59e0b" opacity="0.7"/>
+                            <circle cx="440" cy="78" r="8" fill="#f59e0b" opacity="0.7"/>
+                            <circle cx="520" cy="78" r="8" fill="#f59e0b" opacity="0.7"/>
+                            <circle cx="600" cy="78" r="8" fill="#f59e0b" opacity="0.7"/>
+
+                            <!-- Arrow -->
+                            <line x1="360" y1="100" x2="360" y2="115" class="svg-line" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+                            <text class="svg-text-sm" x="400" y="112" font-size="10">light passes up</text>
+
+                            <!-- Layer 2: Diffuser -->
+                            <rect x="60" y="118" width="600" height="35" rx="6" fill="#a78bfa" fill-opacity="0.18" stroke="#8b5cf6" stroke-width="1.5"/>
+                            <text class="svg-text" x="360" y="141" text-anchor="middle" font-size="13" font-weight="500">Diffuser Layers</text>
+
+                            <!-- Arrow -->
+                            <line x1="360" y1="153" x2="360" y2="168" class="svg-line" stroke-width="1.5"/>
+
+                            <!-- Layer 3: LCD Panel -->
+                            <rect x="60" y="170" width="600" height="45" rx="6" fill="#60a5fa" fill-opacity="0.18" stroke="#3b82f6" stroke-width="1.5"/>
+                            <text class="svg-text" x="360" y="198" text-anchor="middle" font-size="13" font-weight="500">LCD Panel (Liquid Crystals)</text>
+
+                            <!-- Arrow -->
+                            <line x1="360" y1="215" x2="360" y2="230" class="svg-line" stroke-width="1.5"/>
+
+                            <!-- Layer 4: Color Filter -->
+                            <rect x="60" y="233" width="600" height="35" rx="6" fill="#f472b6" fill-opacity="0.18" stroke="#ec4899" stroke-width="1.5"/>
+                            <text class="svg-text" x="360" y="256" text-anchor="middle" font-size="13" font-weight="500">Color Filter (RGB Sub-pixels)</text>
+
+                            <!-- Arrow -->
+                            <line x1="360" y1="268" x2="360" y2="283" class="svg-line" stroke-width="1.5"/>
+
+                            <!-- Viewer -->
+                            <rect x="280" y="288" width="160" height="32" rx="16" fill="#34d399" fill-opacity="0.2" stroke="#10b981" stroke-width="1.5"/>
+                            <text class="svg-text" x="360" y="309" text-anchor="middle" font-size="13" font-weight="500">Viewer</text>
+
+                            <!-- Side labels -->
+                            <text class="svg-text-sm" x="40" y="83" text-anchor="end" font-size="10" transform="rotate(-90 40 83)">Back</text>
+                            <text class="svg-text-sm" x="40" y="256" text-anchor="end" font-size="10" transform="rotate(-90 40 256)">Front</text>
+
+                            <defs>
+                                <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="4" refY="3" orient="auto">
+                                    <polygon points="0 0, 8 3, 0 6" fill="#94a3b8"/>
+                                </marker>
+                            </defs>
+                        </svg>
+                    </div>
+
+                    <p>This structure is identical across all LCD-based TVs. The <strong>only difference</strong> between a basic LED TV and a Mini LED TV is the backlight layer &mdash; specifically, the size, number, and control of the LEDs in it.</p>
+
+                    <div class="callout-box">
+                        <p><strong>Key distinction:</strong> Mini LED is not a display technology like OLED, where each pixel produces its own light. Mini LED is a <strong>backlight improvement</strong>. The LCD panel still creates the image. Mini LED just gives it better light to work with.</p>
+                    </div>
+
+                    <!-- Section Divider -->
+                    <hr class="section-divider">
+
+                    <h2>How Direct-Lit LED Backlights Work</h2>
+
+                    <p>The most common backlight type in mid-range and budget TVs today is <strong>direct-lit LED</strong> (also called full-array when it includes local dimming). In this design, LEDs are placed directly behind the LCD panel, spread across the entire back surface.</p>
+
+                    <p>The concept is straightforward: LEDs sit behind the screen, light passes through a diffuser to spread evenly, and the LCD panel modulates that light to form an image.</p>
+
+                    <!-- SVG: Direct-Lit LED Layout (Top-Down View) -->
+                    <div class="svg-illustration">
+                        <svg viewBox="0 0 720 400" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="svg-bg" width="720" height="400" rx="0"/>
+                            <text class="svg-text" x="360" y="30" text-anchor="middle" font-size="15" font-weight="600">Direct-Lit LED Layout (Top-Down View &mdash; Behind the Panel)</text>
+                            <text class="svg-text-sm" x="360" y="50" text-anchor="middle" font-size="11">Typical 55-inch TV: ~100&ndash;200 LEDs, each ~1&ndash;2 mm in size</text>
+
+                            <!-- TV frame -->
+                            <rect class="svg-panel" x="80" y="70" width="560" height="310" rx="8" stroke-width="2"/>
+
+                            <!-- LED grid: 8 columns x 5 rows = 40 LEDs shown (representing hundreds) -->
+                            <!-- Row 1 -->
+                            <circle cx="145" cy="110" r="10" fill="#f59e0b" opacity="0.6" stroke="#d97706" stroke-width="1"/>
+                            <circle cx="215" cy="110" r="10" fill="#f59e0b" opacity="0.6" stroke="#d97706" stroke-width="1"/>
+                            <circle cx="285" cy="110" r="10" fill="#f59e0b" opacity="0.6" stroke="#d97706" stroke-width="1"/>
+                            <circle cx="355" cy="110" r="10" fill="#f59e0b" opacity="0.6" stroke="#d97706" stroke-width="1"/>
+                            <circle cx="425" cy="110" r="10" fill="#f59e0b" opacity="0.6" stroke="#d97706" stroke-width="1"/>
+                            <circle cx="495" cy="110" r="10" fill="#f59e0b" opacity="0.6" stroke="#d97706" stroke-width="1"/>
+                            <circle cx="565" cy="110" r="10" fill="#f59e0b" opacity="0.6" stroke="#d97706" stroke-width="1"/>
+                            <!-- Row 2 -->
+                            <circle cx="145" cy="170" r="10" fill="#f59e0b" opacity="0.6" stroke="#d97706" stroke-width="1"/>
+                            <circle cx="215" cy="170" r="10" fill="#f59e0b" opacity="0.6" stroke="#d97706" stroke-width="1"/>
+                            <circle cx="285" cy="170" r="10" fill="#f59e0b" opacity="0.6" stroke="#d97706" stroke-width="1"/>
+                            <circle cx="355" cy="170" r="10" fill="#f59e0b" opacity="0.6" stroke="#d97706" stroke-width="1"/>
+                            <circle cx="425" cy="170" r="10" fill="#f59e0b" opacity="0.6" stroke="#d97706" stroke-width="1"/>
+                            <circle cx="495" cy="170" r="10" fill="#f59e0b" opacity="0.6" stroke="#d97706" stroke-width="1"/>
+                            <circle cx="565" cy="170" r="10" fill="#f59e0b" opacity="0.6" stroke="#d97706" stroke-width="1"/>
+                            <!-- Row 3 -->
+                            <circle cx="145" cy="230" r="10" fill="#f59e0b" opacity="0.6" stroke="#d97706" stroke-width="1"/>
+                            <circle cx="215" cy="230" r="10" fill="#f59e0b" opacity="0.6" stroke="#d97706" stroke-width="1"/>
+                            <circle cx="285" cy="230" r="10" fill="#f59e0b" opacity="0.6" stroke="#d97706" stroke-width="1"/>
+                            <circle cx="355" cy="230" r="10" fill="#f59e0b" opacity="0.6" stroke="#d97706" stroke-width="1"/>
+                            <circle cx="425" cy="230" r="10" fill="#f59e0b" opacity="0.6" stroke="#d97706" stroke-width="1"/>
+                            <circle cx="495" cy="230" r="10" fill="#f59e0b" opacity="0.6" stroke="#d97706" stroke-width="1"/>
+                            <circle cx="565" cy="230" r="10" fill="#f59e0b" opacity="0.6" stroke="#d97706" stroke-width="1"/>
+                            <!-- Row 4 -->
+                            <circle cx="145" cy="290" r="10" fill="#f59e0b" opacity="0.6" stroke="#d97706" stroke-width="1"/>
+                            <circle cx="215" cy="290" r="10" fill="#f59e0b" opacity="0.6" stroke="#d97706" stroke-width="1"/>
+                            <circle cx="285" cy="290" r="10" fill="#f59e0b" opacity="0.6" stroke="#d97706" stroke-width="1"/>
+                            <circle cx="355" cy="290" r="10" fill="#f59e0b" opacity="0.6" stroke="#d97706" stroke-width="1"/>
+                            <circle cx="425" cy="290" r="10" fill="#f59e0b" opacity="0.6" stroke="#d97706" stroke-width="1"/>
+                            <circle cx="495" cy="290" r="10" fill="#f59e0b" opacity="0.6" stroke="#d97706" stroke-width="1"/>
+                            <circle cx="565" cy="290" r="10" fill="#f59e0b" opacity="0.6" stroke="#d97706" stroke-width="1"/>
+                            <!-- Row 5 -->
+                            <circle cx="145" cy="350" r="10" fill="#f59e0b" opacity="0.6" stroke="#d97706" stroke-width="1"/>
+                            <circle cx="215" cy="350" r="10" fill="#f59e0b" opacity="0.6" stroke="#d97706" stroke-width="1"/>
+                            <circle cx="285" cy="350" r="10" fill="#f59e0b" opacity="0.6" stroke="#d97706" stroke-width="1"/>
+                            <circle cx="355" cy="350" r="10" fill="#f59e0b" opacity="0.6" stroke="#d97706" stroke-width="1"/>
+                            <circle cx="425" cy="350" r="10" fill="#f59e0b" opacity="0.6" stroke="#d97706" stroke-width="1"/>
+                            <circle cx="495" cy="350" r="10" fill="#f59e0b" opacity="0.6" stroke="#d97706" stroke-width="1"/>
+                            <circle cx="565" cy="350" r="10" fill="#f59e0b" opacity="0.6" stroke="#d97706" stroke-width="1"/>
+
+                            <!-- Spacing annotation -->
+                            <line x1="145" y1="95" x2="215" y2="95" stroke="#3b82f6" stroke-width="1" stroke-dasharray="4"/>
+                            <text fill="#3b82f6" x="180" y="90" text-anchor="middle" font-size="10">~70 mm gap</text>
+
+                            <!-- LED size annotation -->
+                            <line x1="555" y1="340" x2="575" y2="340" stroke="#ef4444" stroke-width="2"/>
+                            <text fill="#ef4444" x="595" y="344" font-size="10">~1&ndash;2 mm</text>
+                        </svg>
+                    </div>
+
+                    <h3>How Many LEDs Are in a Typical Direct-Lit TV?</h3>
+
+                    <p>The actual number of LEDs depends on the screen size, panel design, and whether the TV supports local dimming. Here are typical ranges based on teardown data and manufacturer specs:</p>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Screen Size</th>
+                                <th>Typical LED Count</th>
+                                <th>Typical Dimming Zones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>32&Prime;</td>
+                                <td>12&ndash;36</td>
+                                <td>None (single zone)</td>
+                            </tr>
+                            <tr>
+                                <td>43&Prime;</td>
+                                <td>36&ndash;80</td>
+                                <td>8&ndash;16</td>
+                            </tr>
+                            <tr>
+                                <td>50&Prime;</td>
+                                <td>60&ndash;120</td>
+                                <td>12&ndash;32</td>
+                            </tr>
+                            <tr>
+                                <td>55&Prime;</td>
+                                <td>80&ndash;200</td>
+                                <td>20&ndash;80</td>
+                            </tr>
+                            <tr>
+                                <td>65&Prime;</td>
+                                <td>100&ndash;300</td>
+                                <td>30&ndash;120</td>
+                            </tr>
+                            <tr>
+                                <td>75&Prime;</td>
+                                <td>150&ndash;400</td>
+                                <td>40&ndash;200</td>
+                            </tr>
+                            <tr>
+                                <td>85&Prime;</td>
+                                <td>200&ndash;600</td>
+                                <td>60&ndash;300</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <p>Budget direct-lit TVs without local dimming treat the entire backlight as a <strong>single zone</strong> &mdash; every LED is at the same brightness. Better models divide the backlight into zones, but the zones are large because the LEDs are physically large and widely spaced.</p>
+
+                    <p>This is where the ceiling exists. With LEDs that are 1&ndash;2 mm in size, you cannot physically fit enough of them behind the panel to create fine-grained light control. You are limited by the size of the emitter itself.</p>
+
+                    <!-- Section Divider -->
+                    <hr class="section-divider">
+
+                    <h2>What Makes a Mini LED a &ldquo;Mini&rdquo; LED?</h2>
+
+                    <p>The answer is physical size. The industry-accepted definitions, established by bodies like LEDinside/TrendForce and China&rsquo;s T/SLDA standards, are:</p>
+
+                    <!-- SVG: LED Size Comparison -->
+                    <div class="svg-illustration">
+                        <svg viewBox="0 0 720 280" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="svg-bg" width="720" height="280" rx="0"/>
+                            <text class="svg-text" x="360" y="30" text-anchor="middle" font-size="15" font-weight="600">LED Size Comparison (To Scale)</text>
+
+                            <!-- Conventional LED -->
+                            <circle cx="140" cy="130" r="45" fill="#f59e0b" fill-opacity="0.3" stroke="#f59e0b" stroke-width="2"/>
+                            <text class="svg-text" x="140" y="135" text-anchor="middle" font-size="12" font-weight="500">1&ndash;2 mm</text>
+                            <text class="svg-text" x="140" y="200" text-anchor="middle" font-size="13" font-weight="600">Conventional</text>
+                            <text class="svg-text" x="140" y="218" text-anchor="middle" font-size="13" font-weight="600">LED</text>
+                            <text class="svg-text-sm" x="140" y="240" text-anchor="middle" font-size="10">&gt; 200 &#181;m</text>
+
+                            <!-- Mini LED -->
+                            <circle cx="360" cy="130" r="18" fill="#3b82f6" fill-opacity="0.35" stroke="#3b82f6" stroke-width="2"/>
+                            <text class="svg-text" x="360" y="135" text-anchor="middle" font-size="10" font-weight="500">~0.15 mm</text>
+                            <text class="svg-text" x="360" y="200" text-anchor="middle" font-size="13" font-weight="600">Mini LED</text>
+                            <text class="svg-text-sm" x="360" y="222" text-anchor="middle" font-size="10">100&ndash;200 &#181;m</text>
+
+                            <!-- Micro LED -->
+                            <circle cx="560" cy="130" r="5" fill="#10b981" fill-opacity="0.5" stroke="#10b981" stroke-width="2"/>
+                            <text class="svg-text" x="560" y="170" text-anchor="middle" font-size="10" font-weight="500">&lt; 0.1 mm</text>
+                            <text class="svg-text" x="560" y="200" text-anchor="middle" font-size="13" font-weight="600">Micro LED</text>
+                            <text class="svg-text-sm" x="560" y="222" text-anchor="middle" font-size="10">&lt; 100 &#181;m</text>
+
+                            <!-- Scale reference -->
+                            <line x1="80" y1="260" x2="130" y2="260" stroke="#94a3b8" stroke-width="1"/>
+                            <circle cx="105" cy="260" r="0.5" fill="#94a3b8"/>
+                            <text class="svg-text-sm" x="145" y="264" font-size="10">Human hair &#8776; 70 &#181;m</text>
+
+                            <!-- Comparison arrows -->
+                            <text class="svg-text-sm" x="250" y="105" text-anchor="middle" font-size="10">~5&ndash;10x smaller</text>
+                            <line x1="195" y1="110" x2="335" y2="110" stroke="#64748b" stroke-width="1" stroke-dasharray="4" marker-end="url(#arrowhead2)" marker-start="url(#arrowhead3)"/>
+
+                            <defs>
+                                <marker id="arrowhead2" markerWidth="6" markerHeight="5" refX="3" refY="2.5" orient="auto">
+                                    <polygon points="0 0, 6 2.5, 0 5" fill="#64748b"/>
+                                </marker>
+                                <marker id="arrowhead3" markerWidth="6" markerHeight="5" refX="3" refY="2.5" orient="auto-start-reverse">
+                                    <polygon points="0 0, 6 2.5, 0 5" fill="#64748b"/>
+                                </marker>
+                            </defs>
+                        </svg>
+                    </div>
+
+                    <p>A conventional LED used in TV backlights is typically <strong>1&ndash;2 mm</strong> when packaged. A Mini LED chip, after CSP (Chip Scale Packaging), is approximately <strong>100&ndash;200 micrometers</strong> &mdash; roughly the diameter of a human hair. A Micro LED is even smaller, at under 100 micrometers, but that is a self-emissive technology and a different conversation entirely.</p>
+
+                    <p>This size reduction is the fundamental enabler. When each LED is 5&ndash;10x smaller, you can fit <strong>thousands to tens of thousands</strong> behind a single panel instead of hundreds.</p>
+
+                    <!-- Section Divider -->
+                    <hr class="section-divider">
+
+                    <h2>Mini LED Layout: What Changes</h2>
+
+                    <p>The architectural idea is identical to direct-lit: LEDs placed behind the panel, light passing through a diffuser and LCD. The execution is radically different.</p>
+
+                    <!-- SVG: Mini LED Layout (Top-Down View) -->
+                    <div class="svg-illustration">
+                        <svg viewBox="0 0 720 400" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="svg-bg" width="720" height="400" rx="0"/>
+                            <text class="svg-text" x="360" y="30" text-anchor="middle" font-size="15" font-weight="600">Mini LED Layout (Top-Down View &mdash; Behind the Panel)</text>
+                            <text class="svg-text-sm" x="360" y="50" text-anchor="middle" font-size="11">Typical 55-inch Mini LED: 5,000&ndash;25,000 LEDs, each ~100&ndash;200 &#181;m</text>
+
+                            <!-- TV frame -->
+                            <rect class="svg-panel" x="80" y="70" width="560" height="310" rx="8" stroke-width="2"/>
+
+                            <!-- Dense grid of small LEDs -->
+                            <!-- Using a pattern of small dots to represent high density -->
+                            <!-- Row pattern: 28 columns x 16 rows = 448 visible dots representing thousands -->
+                            <g fill="#3b82f6" opacity="0.5">
+                                <!-- Rows of mini LEDs -->
+                                <g>
+                                    <circle cx="100" cy="85" r="3"/><circle cx="120" cy="85" r="3"/><circle cx="140" cy="85" r="3"/><circle cx="160" cy="85" r="3"/><circle cx="180" cy="85" r="3"/><circle cx="200" cy="85" r="3"/><circle cx="220" cy="85" r="3"/><circle cx="240" cy="85" r="3"/><circle cx="260" cy="85" r="3"/><circle cx="280" cy="85" r="3"/><circle cx="300" cy="85" r="3"/><circle cx="320" cy="85" r="3"/><circle cx="340" cy="85" r="3"/><circle cx="360" cy="85" r="3"/><circle cx="380" cy="85" r="3"/><circle cx="400" cy="85" r="3"/><circle cx="420" cy="85" r="3"/><circle cx="440" cy="85" r="3"/><circle cx="460" cy="85" r="3"/><circle cx="480" cy="85" r="3"/><circle cx="500" cy="85" r="3"/><circle cx="520" cy="85" r="3"/><circle cx="540" cy="85" r="3"/><circle cx="560" cy="85" r="3"/><circle cx="580" cy="85" r="3"/><circle cx="600" cy="85" r="3"/><circle cx="620" cy="85" r="3"/>
+                                </g>
+                                <g>
+                                    <circle cx="100" cy="103" r="3"/><circle cx="120" cy="103" r="3"/><circle cx="140" cy="103" r="3"/><circle cx="160" cy="103" r="3"/><circle cx="180" cy="103" r="3"/><circle cx="200" cy="103" r="3"/><circle cx="220" cy="103" r="3"/><circle cx="240" cy="103" r="3"/><circle cx="260" cy="103" r="3"/><circle cx="280" cy="103" r="3"/><circle cx="300" cy="103" r="3"/><circle cx="320" cy="103" r="3"/><circle cx="340" cy="103" r="3"/><circle cx="360" cy="103" r="3"/><circle cx="380" cy="103" r="3"/><circle cx="400" cy="103" r="3"/><circle cx="420" cy="103" r="3"/><circle cx="440" cy="103" r="3"/><circle cx="460" cy="103" r="3"/><circle cx="480" cy="103" r="3"/><circle cx="500" cy="103" r="3"/><circle cx="520" cy="103" r="3"/><circle cx="540" cy="103" r="3"/><circle cx="560" cy="103" r="3"/><circle cx="580" cy="103" r="3"/><circle cx="600" cy="103" r="3"/><circle cx="620" cy="103" r="3"/>
+                                </g>
+                                <g>
+                                    <circle cx="100" cy="121" r="3"/><circle cx="120" cy="121" r="3"/><circle cx="140" cy="121" r="3"/><circle cx="160" cy="121" r="3"/><circle cx="180" cy="121" r="3"/><circle cx="200" cy="121" r="3"/><circle cx="220" cy="121" r="3"/><circle cx="240" cy="121" r="3"/><circle cx="260" cy="121" r="3"/><circle cx="280" cy="121" r="3"/><circle cx="300" cy="121" r="3"/><circle cx="320" cy="121" r="3"/><circle cx="340" cy="121" r="3"/><circle cx="360" cy="121" r="3"/><circle cx="380" cy="121" r="3"/><circle cx="400" cy="121" r="3"/><circle cx="420" cy="121" r="3"/><circle cx="440" cy="121" r="3"/><circle cx="460" cy="121" r="3"/><circle cx="480" cy="121" r="3"/><circle cx="500" cy="121" r="3"/><circle cx="520" cy="121" r="3"/><circle cx="540" cy="121" r="3"/><circle cx="560" cy="121" r="3"/><circle cx="580" cy="121" r="3"/><circle cx="600" cy="121" r="3"/><circle cx="620" cy="121" r="3"/>
+                                </g>
+                                <g>
+                                    <circle cx="100" cy="139" r="3"/><circle cx="120" cy="139" r="3"/><circle cx="140" cy="139" r="3"/><circle cx="160" cy="139" r="3"/><circle cx="180" cy="139" r="3"/><circle cx="200" cy="139" r="3"/><circle cx="220" cy="139" r="3"/><circle cx="240" cy="139" r="3"/><circle cx="260" cy="139" r="3"/><circle cx="280" cy="139" r="3"/><circle cx="300" cy="139" r="3"/><circle cx="320" cy="139" r="3"/><circle cx="340" cy="139" r="3"/><circle cx="360" cy="139" r="3"/><circle cx="380" cy="139" r="3"/><circle cx="400" cy="139" r="3"/><circle cx="420" cy="139" r="3"/><circle cx="440" cy="139" r="3"/><circle cx="460" cy="139" r="3"/><circle cx="480" cy="139" r="3"/><circle cx="500" cy="139" r="3"/><circle cx="520" cy="139" r="3"/><circle cx="540" cy="139" r="3"/><circle cx="560" cy="139" r="3"/><circle cx="580" cy="139" r="3"/><circle cx="600" cy="139" r="3"/><circle cx="620" cy="139" r="3"/>
+                                </g>
+                                <g>
+                                    <circle cx="100" cy="157" r="3"/><circle cx="120" cy="157" r="3"/><circle cx="140" cy="157" r="3"/><circle cx="160" cy="157" r="3"/><circle cx="180" cy="157" r="3"/><circle cx="200" cy="157" r="3"/><circle cx="220" cy="157" r="3"/><circle cx="240" cy="157" r="3"/><circle cx="260" cy="157" r="3"/><circle cx="280" cy="157" r="3"/><circle cx="300" cy="157" r="3"/><circle cx="320" cy="157" r="3"/><circle cx="340" cy="157" r="3"/><circle cx="360" cy="157" r="3"/><circle cx="380" cy="157" r="3"/><circle cx="400" cy="157" r="3"/><circle cx="420" cy="157" r="3"/><circle cx="440" cy="157" r="3"/><circle cx="460" cy="157" r="3"/><circle cx="480" cy="157" r="3"/><circle cx="500" cy="157" r="3"/><circle cx="520" cy="157" r="3"/><circle cx="540" cy="157" r="3"/><circle cx="560" cy="157" r="3"/><circle cx="580" cy="157" r="3"/><circle cx="600" cy="157" r="3"/><circle cx="620" cy="157" r="3"/>
+                                </g>
+                                <g>
+                                    <circle cx="100" cy="175" r="3"/><circle cx="120" cy="175" r="3"/><circle cx="140" cy="175" r="3"/><circle cx="160" cy="175" r="3"/><circle cx="180" cy="175" r="3"/><circle cx="200" cy="175" r="3"/><circle cx="220" cy="175" r="3"/><circle cx="240" cy="175" r="3"/><circle cx="260" cy="175" r="3"/><circle cx="280" cy="175" r="3"/><circle cx="300" cy="175" r="3"/><circle cx="320" cy="175" r="3"/><circle cx="340" cy="175" r="3"/><circle cx="360" cy="175" r="3"/><circle cx="380" cy="175" r="3"/><circle cx="400" cy="175" r="3"/><circle cx="420" cy="175" r="3"/><circle cx="440" cy="175" r="3"/><circle cx="460" cy="175" r="3"/><circle cx="480" cy="175" r="3"/><circle cx="500" cy="175" r="3"/><circle cx="520" cy="175" r="3"/><circle cx="540" cy="175" r="3"/><circle cx="560" cy="175" r="3"/><circle cx="580" cy="175" r="3"/><circle cx="600" cy="175" r="3"/><circle cx="620" cy="175" r="3"/>
+                                </g>
+                                <g>
+                                    <circle cx="100" cy="193" r="3"/><circle cx="120" cy="193" r="3"/><circle cx="140" cy="193" r="3"/><circle cx="160" cy="193" r="3"/><circle cx="180" cy="193" r="3"/><circle cx="200" cy="193" r="3"/><circle cx="220" cy="193" r="3"/><circle cx="240" cy="193" r="3"/><circle cx="260" cy="193" r="3"/><circle cx="280" cy="193" r="3"/><circle cx="300" cy="193" r="3"/><circle cx="320" cy="193" r="3"/><circle cx="340" cy="193" r="3"/><circle cx="360" cy="193" r="3"/><circle cx="380" cy="193" r="3"/><circle cx="400" cy="193" r="3"/><circle cx="420" cy="193" r="3"/><circle cx="440" cy="193" r="3"/><circle cx="460" cy="193" r="3"/><circle cx="480" cy="193" r="3"/><circle cx="500" cy="193" r="3"/><circle cx="520" cy="193" r="3"/><circle cx="540" cy="193" r="3"/><circle cx="560" cy="193" r="3"/><circle cx="580" cy="193" r="3"/><circle cx="600" cy="193" r="3"/><circle cx="620" cy="193" r="3"/>
+                                </g>
+                                <g>
+                                    <circle cx="100" cy="211" r="3"/><circle cx="120" cy="211" r="3"/><circle cx="140" cy="211" r="3"/><circle cx="160" cy="211" r="3"/><circle cx="180" cy="211" r="3"/><circle cx="200" cy="211" r="3"/><circle cx="220" cy="211" r="3"/><circle cx="240" cy="211" r="3"/><circle cx="260" cy="211" r="3"/><circle cx="280" cy="211" r="3"/><circle cx="300" cy="211" r="3"/><circle cx="320" cy="211" r="3"/><circle cx="340" cy="211" r="3"/><circle cx="360" cy="211" r="3"/><circle cx="380" cy="211" r="3"/><circle cx="400" cy="211" r="3"/><circle cx="420" cy="211" r="3"/><circle cx="440" cy="211" r="3"/><circle cx="460" cy="211" r="3"/><circle cx="480" cy="211" r="3"/><circle cx="500" cy="211" r="3"/><circle cx="520" cy="211" r="3"/><circle cx="540" cy="211" r="3"/><circle cx="560" cy="211" r="3"/><circle cx="580" cy="211" r="3"/><circle cx="600" cy="211" r="3"/><circle cx="620" cy="211" r="3"/>
+                                </g>
+                                <g>
+                                    <circle cx="100" cy="229" r="3"/><circle cx="120" cy="229" r="3"/><circle cx="140" cy="229" r="3"/><circle cx="160" cy="229" r="3"/><circle cx="180" cy="229" r="3"/><circle cx="200" cy="229" r="3"/><circle cx="220" cy="229" r="3"/><circle cx="240" cy="229" r="3"/><circle cx="260" cy="229" r="3"/><circle cx="280" cy="229" r="3"/><circle cx="300" cy="229" r="3"/><circle cx="320" cy="229" r="3"/><circle cx="340" cy="229" r="3"/><circle cx="360" cy="229" r="3"/><circle cx="380" cy="229" r="3"/><circle cx="400" cy="229" r="3"/><circle cx="420" cy="229" r="3"/><circle cx="440" cy="229" r="3"/><circle cx="460" cy="229" r="3"/><circle cx="480" cy="229" r="3"/><circle cx="500" cy="229" r="3"/><circle cx="520" cy="229" r="3"/><circle cx="540" cy="229" r="3"/><circle cx="560" cy="229" r="3"/><circle cx="580" cy="229" r="3"/><circle cx="600" cy="229" r="3"/><circle cx="620" cy="229" r="3"/>
+                                </g>
+                                <g>
+                                    <circle cx="100" cy="247" r="3"/><circle cx="120" cy="247" r="3"/><circle cx="140" cy="247" r="3"/><circle cx="160" cy="247" r="3"/><circle cx="180" cy="247" r="3"/><circle cx="200" cy="247" r="3"/><circle cx="220" cy="247" r="3"/><circle cx="240" cy="247" r="3"/><circle cx="260" cy="247" r="3"/><circle cx="280" cy="247" r="3"/><circle cx="300" cy="247" r="3"/><circle cx="320" cy="247" r="3"/><circle cx="340" cy="247" r="3"/><circle cx="360" cy="247" r="3"/><circle cx="380" cy="247" r="3"/><circle cx="400" cy="247" r="3"/><circle cx="420" cy="247" r="3"/><circle cx="440" cy="247" r="3"/><circle cx="460" cy="247" r="3"/><circle cx="480" cy="247" r="3"/><circle cx="500" cy="247" r="3"/><circle cx="520" cy="247" r="3"/><circle cx="540" cy="247" r="3"/><circle cx="560" cy="247" r="3"/><circle cx="580" cy="247" r="3"/><circle cx="600" cy="247" r="3"/><circle cx="620" cy="247" r="3"/>
+                                </g>
+                                <g>
+                                    <circle cx="100" cy="265" r="3"/><circle cx="120" cy="265" r="3"/><circle cx="140" cy="265" r="3"/><circle cx="160" cy="265" r="3"/><circle cx="180" cy="265" r="3"/><circle cx="200" cy="265" r="3"/><circle cx="220" cy="265" r="3"/><circle cx="240" cy="265" r="3"/><circle cx="260" cy="265" r="3"/><circle cx="280" cy="265" r="3"/><circle cx="300" cy="265" r="3"/><circle cx="320" cy="265" r="3"/><circle cx="340" cy="265" r="3"/><circle cx="360" cy="265" r="3"/><circle cx="380" cy="265" r="3"/><circle cx="400" cy="265" r="3"/><circle cx="420" cy="265" r="3"/><circle cx="440" cy="265" r="3"/><circle cx="460" cy="265" r="3"/><circle cx="480" cy="265" r="3"/><circle cx="500" cy="265" r="3"/><circle cx="520" cy="265" r="3"/><circle cx="540" cy="265" r="3"/><circle cx="560" cy="265" r="3"/><circle cx="580" cy="265" r="3"/><circle cx="600" cy="265" r="3"/><circle cx="620" cy="265" r="3"/>
+                                </g>
+                                <g>
+                                    <circle cx="100" cy="283" r="3"/><circle cx="120" cy="283" r="3"/><circle cx="140" cy="283" r="3"/><circle cx="160" cy="283" r="3"/><circle cx="180" cy="283" r="3"/><circle cx="200" cy="283" r="3"/><circle cx="220" cy="283" r="3"/><circle cx="240" cy="283" r="3"/><circle cx="260" cy="283" r="3"/><circle cx="280" cy="283" r="3"/><circle cx="300" cy="283" r="3"/><circle cx="320" cy="283" r="3"/><circle cx="340" cy="283" r="3"/><circle cx="360" cy="283" r="3"/><circle cx="380" cy="283" r="3"/><circle cx="400" cy="283" r="3"/><circle cx="420" cy="283" r="3"/><circle cx="440" cy="283" r="3"/><circle cx="460" cy="283" r="3"/><circle cx="480" cy="283" r="3"/><circle cx="500" cy="283" r="3"/><circle cx="520" cy="283" r="3"/><circle cx="540" cy="283" r="3"/><circle cx="560" cy="283" r="3"/><circle cx="580" cy="283" r="3"/><circle cx="600" cy="283" r="3"/><circle cx="620" cy="283" r="3"/>
+                                </g>
+                                <g>
+                                    <circle cx="100" cy="301" r="3"/><circle cx="120" cy="301" r="3"/><circle cx="140" cy="301" r="3"/><circle cx="160" cy="301" r="3"/><circle cx="180" cy="301" r="3"/><circle cx="200" cy="301" r="3"/><circle cx="220" cy="301" r="3"/><circle cx="240" cy="301" r="3"/><circle cx="260" cy="301" r="3"/><circle cx="280" cy="301" r="3"/><circle cx="300" cy="301" r="3"/><circle cx="320" cy="301" r="3"/><circle cx="340" cy="301" r="3"/><circle cx="360" cy="301" r="3"/><circle cx="380" cy="301" r="3"/><circle cx="400" cy="301" r="3"/><circle cx="420" cy="301" r="3"/><circle cx="440" cy="301" r="3"/><circle cx="460" cy="301" r="3"/><circle cx="480" cy="301" r="3"/><circle cx="500" cy="301" r="3"/><circle cx="520" cy="301" r="3"/><circle cx="540" cy="301" r="3"/><circle cx="560" cy="301" r="3"/><circle cx="580" cy="301" r="3"/><circle cx="600" cy="301" r="3"/><circle cx="620" cy="301" r="3"/>
+                                </g>
+                                <g>
+                                    <circle cx="100" cy="319" r="3"/><circle cx="120" cy="319" r="3"/><circle cx="140" cy="319" r="3"/><circle cx="160" cy="319" r="3"/><circle cx="180" cy="319" r="3"/><circle cx="200" cy="319" r="3"/><circle cx="220" cy="319" r="3"/><circle cx="240" cy="319" r="3"/><circle cx="260" cy="319" r="3"/><circle cx="280" cy="319" r="3"/><circle cx="300" cy="319" r="3"/><circle cx="320" cy="319" r="3"/><circle cx="340" cy="319" r="3"/><circle cx="360" cy="319" r="3"/><circle cx="380" cy="319" r="3"/><circle cx="400" cy="319" r="3"/><circle cx="420" cy="319" r="3"/><circle cx="440" cy="319" r="3"/><circle cx="460" cy="319" r="3"/><circle cx="480" cy="319" r="3"/><circle cx="520" cy="319" r="3"/><circle cx="540" cy="319" r="3"/><circle cx="560" cy="319" r="3"/><circle cx="580" cy="319" r="3"/><circle cx="600" cy="319" r="3"/><circle cx="620" cy="319" r="3"/>
+                                </g>
+                                <g>
+                                    <circle cx="100" cy="337" r="3"/><circle cx="120" cy="337" r="3"/><circle cx="140" cy="337" r="3"/><circle cx="160" cy="337" r="3"/><circle cx="180" cy="337" r="3"/><circle cx="200" cy="337" r="3"/><circle cx="220" cy="337" r="3"/><circle cx="240" cy="337" r="3"/><circle cx="260" cy="337" r="3"/><circle cx="280" cy="337" r="3"/><circle cx="300" cy="337" r="3"/><circle cx="320" cy="337" r="3"/><circle cx="340" cy="337" r="3"/><circle cx="360" cy="337" r="3"/><circle cx="380" cy="337" r="3"/><circle cx="400" cy="337" r="3"/><circle cx="420" cy="337" r="3"/><circle cx="440" cy="337" r="3"/><circle cx="460" cy="337" r="3"/><circle cx="480" cy="337" r="3"/><circle cx="500" cy="337" r="3"/><circle cx="520" cy="337" r="3"/><circle cx="540" cy="337" r="3"/><circle cx="560" cy="337" r="3"/><circle cx="580" cy="337" r="3"/><circle cx="600" cy="337" r="3"/><circle cx="620" cy="337" r="3"/>
+                                </g>
+                                <g>
+                                    <circle cx="100" cy="355" r="3"/><circle cx="120" cy="355" r="3"/><circle cx="140" cy="355" r="3"/><circle cx="160" cy="355" r="3"/><circle cx="180" cy="355" r="3"/><circle cx="200" cy="355" r="3"/><circle cx="220" cy="355" r="3"/><circle cx="240" cy="355" r="3"/><circle cx="260" cy="355" r="3"/><circle cx="280" cy="355" r="3"/><circle cx="300" cy="355" r="3"/><circle cx="320" cy="355" r="3"/><circle cx="340" cy="355" r="3"/><circle cx="360" cy="355" r="3"/><circle cx="380" cy="355" r="3"/><circle cx="400" cy="355" r="3"/><circle cx="420" cy="355" r="3"/><circle cx="440" cy="355" r="3"/><circle cx="460" cy="355" r="3"/><circle cx="480" cy="355" r="3"/><circle cx="500" cy="355" r="3"/><circle cx="520" cy="355" r="3"/><circle cx="540" cy="355" r="3"/><circle cx="560" cy="355" r="3"/><circle cx="580" cy="355" r="3"/><circle cx="600" cy="355" r="3"/><circle cx="620" cy="355" r="3"/>
+                                </g>
+                            </g>
+
+                            <!-- LED size annotation -->
+                            <line x1="612" y1="370" x2="622" y2="370" stroke="#ef4444" stroke-width="2"/>
+                            <text fill="#ef4444" x="627" y="374" font-size="9">~0.1&ndash;0.2 mm</text>
+                        </svg>
+                    </div>
+
+                    <p>Compare the two diagrams above. The direct-lit layout has large LEDs with wide gaps between them. The Mini LED layout packs the panel with thousands of tiny emitters. This density is what enables the real benefit: <strong>much finer control over which parts of the screen are bright and which are dark</strong>.</p>
+
+                    <!-- Section Divider -->
+                    <hr class="section-divider">
+
+                    <h2>How Local Dimming Actually Works</h2>
+
+                    <p>Local dimming is the mechanism that turns a backlight from a dumb light source into an intelligent one. Instead of lighting the entire screen uniformly, the backlight is divided into independently controllable <strong>zones</strong>.</p>
+
+                    <p>When the LEDs are placed directly behind the panel (not on the edges) and each zone can be dimmed independently, the industry term for this is <strong>FALD &mdash; Full Array Local Dimming</strong>. &ldquo;Full array&rdquo; means the LEDs cover the entire back surface. &ldquo;Local dimming&rdquo; means individual zones can be brightened or darkened independently.</p>
+
+                    <h3>Types of Local Dimming</h3>
+
+                    <p>Not all local dimming is created equal. There are three main implementations, and knowing the difference matters:</p>
+
+                    <ul class="list-style">
+                        <li><strong>Edge-lit local dimming:</strong> LEDs sit along the edges of the panel (typically top and bottom, or all four sides). Dimming zones are large vertical or horizontal strips. This is the cheapest approach and delivers the weakest dimming performance &mdash; light bleeds across the entire width or height of the screen. Many budget TVs that claim &ldquo;local dimming&rdquo; use this method</li>
+                        <li><strong>Direct-lit FALD (Full Array Local Dimming):</strong> LEDs are spread across the entire back surface, grouped into zones. Each zone can dim independently. This is a significant upgrade over edge-lit &mdash; zones are smaller and more numerous, giving better contrast control. Standard LED TVs with FALD typically have 20&ndash;300 zones</li>
+                        <li><strong>Mini LED FALD:</strong> The same full-array architecture, but with thousands of smaller LEDs enabling hundreds to thousands of zones. This is the highest-performing LCD backlight approach available today</li>
+                    </ul>
+
+                    <!-- SVG: Three Types of Local Dimming -->
+                    <div class="svg-illustration">
+                        <svg viewBox="0 0 720 520" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="svg-bg" width="720" height="520" rx="0"/>
+                            <text class="svg-text" x="360" y="28" text-anchor="middle" font-size="15" font-weight="600">Three Types of Local Dimming (Cross-Section View)</text>
+
+                            <!-- ===== 1. EDGE-LIT ===== -->
+                            <text class="svg-text" x="120" y="60" text-anchor="middle" font-size="12" font-weight="600">Edge-Lit</text>
+                            <text class="svg-text-sm" x="120" y="75" text-anchor="middle" font-size="9">LEDs on edges only</text>
+
+                            <!-- TV cross-section -->
+                            <rect x="20" y="88" width="200" height="100" rx="4" fill="none" stroke="#475569" stroke-width="1.2"/>
+
+                            <!-- Edge LEDs (left and right sides) -->
+                            <circle cx="26" cy="103" r="4" fill="#f59e0b" opacity="0.8"/><circle cx="26" cy="118" r="4" fill="#f59e0b" opacity="0.8"/><circle cx="26" cy="133" r="4" fill="#f59e0b" opacity="0.8"/><circle cx="26" cy="148" r="4" fill="#f59e0b" opacity="0.8"/><circle cx="26" cy="163" r="4" fill="#f59e0b" opacity="0.5"/><circle cx="26" cy="178" r="4" fill="#f59e0b" opacity="0.3"/>
+                            <circle cx="214" cy="103" r="4" fill="#f59e0b" opacity="0.3"/><circle cx="214" cy="118" r="4" fill="#f59e0b" opacity="0.5"/><circle cx="214" cy="133" r="4" fill="#f59e0b" opacity="0.8"/><circle cx="214" cy="148" r="4" fill="#f59e0b" opacity="0.8"/><circle cx="214" cy="163" r="4" fill="#f59e0b" opacity="0.8"/><circle cx="214" cy="178" r="4" fill="#f59e0b" opacity="0.8"/>
+
+                            <!-- Light spread (horizontal strips showing uneven dimming) -->
+                            <rect x="35" y="92" width="170" height="16" rx="1" fill="#fbbf24" opacity="0.12"/>
+                            <rect x="35" y="108" width="170" height="16" rx="1" fill="#fbbf24" opacity="0.10"/>
+                            <rect x="35" y="124" width="170" height="16" rx="1" fill="#fbbf24" opacity="0.08"/>
+                            <rect x="35" y="140" width="170" height="16" rx="1" fill="#fbbf24" opacity="0.06"/>
+                            <rect x="35" y="156" width="170" height="16" rx="1" fill="#fbbf24" opacity="0.08"/>
+                            <rect x="35" y="172" width="170" height="16" rx="1" fill="#fbbf24" opacity="0.10"/>
+
+                            <!-- Dimming zone lines (wide horizontal strips) -->
+                            <line x1="35" y1="124" x2="205" y2="124" stroke="#ef4444" stroke-width="0.6" stroke-dasharray="3"/>
+                            <line x1="35" y1="156" x2="205" y2="156" stroke="#ef4444" stroke-width="0.6" stroke-dasharray="3"/>
+
+                            <!-- Label -->
+                            <text fill="#ef4444" x="120" y="202" text-anchor="middle" font-size="9">3 wide strip zones</text>
+                            <text class="svg-text-sm" x="120" y="215" text-anchor="middle" font-size="8">Poor contrast control</text>
+
+                            <!-- ===== 2. DIRECT-LIT FALD ===== -->
+                            <text class="svg-text" x="370" y="60" text-anchor="middle" font-size="12" font-weight="600">Direct-Lit FALD</text>
+                            <text class="svg-text-sm" x="370" y="75" text-anchor="middle" font-size="9">LEDs behind panel, grouped zones</text>
+
+                            <!-- TV cross-section -->
+                            <rect x="270" y="88" width="200" height="100" rx="4" fill="none" stroke="#475569" stroke-width="1.2"/>
+
+                            <!-- LED grid (fewer, larger) -->
+                            <circle cx="303" cy="110" r="5" fill="#f59e0b" opacity="0.8"/><circle cx="337" cy="110" r="5" fill="#f59e0b" opacity="0.8"/><circle cx="370" cy="110" r="5" fill="#f59e0b" opacity="0.3"/><circle cx="403" cy="110" r="5" fill="#f59e0b" opacity="0.3"/><circle cx="437" cy="110" r="5" fill="#f59e0b" opacity="0.8"/>
+                            <circle cx="303" cy="140" r="5" fill="#f59e0b" opacity="0.8"/><circle cx="337" cy="140" r="5" fill="#f59e0b" opacity="0.3"/><circle cx="370" cy="140" r="5" fill="#f59e0b" opacity="0.3"/><circle cx="403" cy="140" r="5" fill="#f59e0b" opacity="0.8"/><circle cx="437" cy="140" r="5" fill="#f59e0b" opacity="0.8"/>
+                            <circle cx="303" cy="170" r="5" fill="#f59e0b" opacity="0.3"/><circle cx="337" cy="170" r="5" fill="#f59e0b" opacity="0.3"/><circle cx="370" cy="170" r="5" fill="#f59e0b" opacity="0.8"/><circle cx="403" cy="170" r="5" fill="#f59e0b" opacity="0.8"/><circle cx="437" cy="170" r="5" fill="#f59e0b" opacity="0.3"/>
+
+                            <!-- Zone grid lines -->
+                            <line x1="270" y1="125" x2="470" y2="125" stroke="#3b82f6" stroke-width="0.6" stroke-dasharray="3"/>
+                            <line x1="270" y1="155" x2="470" y2="155" stroke="#3b82f6" stroke-width="0.6" stroke-dasharray="3"/>
+                            <line x1="337" y1="88" x2="337" y2="188" stroke="#3b82f6" stroke-width="0.6" stroke-dasharray="3"/>
+                            <line x1="403" y1="88" x2="403" y2="188" stroke="#3b82f6" stroke-width="0.6" stroke-dasharray="3"/>
+
+                            <!-- Zone fills showing dimming -->
+                            <rect x="271" y="89" width="66" height="36" fill="#fbbf24" opacity="0.1"/>
+                            <rect x="271" y="125" width="66" height="30" fill="#fbbf24" opacity="0.1"/>
+                            <rect x="337" y="89" width="66" height="36" fill="#fbbf24" opacity="0.1"/>
+                            <rect x="337" y="125" width="66" height="30" fill="#fbbf24" opacity="0.03"/>
+                            <rect x="337" y="155" width="66" height="33" fill="#fbbf24" opacity="0.03"/>
+                            <rect x="403" y="89" width="66" height="36" fill="#fbbf24" opacity="0.03"/>
+                            <rect x="403" y="125" width="66" height="30" fill="#fbbf24" opacity="0.1"/>
+                            <rect x="403" y="155" width="66" height="33" fill="#fbbf24" opacity="0.1"/>
+                            <rect x="271" y="155" width="66" height="33" fill="#fbbf24" opacity="0.03"/>
+
+                            <!-- Label -->
+                            <text fill="#3b82f6" x="370" y="202" text-anchor="middle" font-size="9">~9 zones shown (20&ndash;300 typical)</text>
+                            <text class="svg-text-sm" x="370" y="215" text-anchor="middle" font-size="8">Good contrast, some blooming</text>
+
+                            <!-- ===== 3. MINI LED FALD ===== -->
+                            <text class="svg-text" x="610" y="60" text-anchor="middle" font-size="12" font-weight="600">Mini LED FALD</text>
+                            <text class="svg-text-sm" x="610" y="75" text-anchor="middle" font-size="9">Thousands of tiny LEDs, many zones</text>
+
+                            <!-- TV cross-section -->
+                            <rect x="510" y="88" width="200" height="100" rx="4" fill="none" stroke="#475569" stroke-width="1.2"/>
+
+                            <!-- Dense mini LED grid -->
+                            <g fill="#3b82f6">
+                                <!-- Row 1 -->
+                                <circle cx="522" cy="97" r="1.6" opacity="0.8"/><circle cx="532" cy="97" r="1.6" opacity="0.8"/><circle cx="542" cy="97" r="1.6" opacity="0.7"/><circle cx="552" cy="97" r="1.6" opacity="0.3"/><circle cx="562" cy="97" r="1.6" opacity="0.2"/><circle cx="572" cy="97" r="1.6" opacity="0.2"/><circle cx="582" cy="97" r="1.6" opacity="0.3"/><circle cx="592" cy="97" r="1.6" opacity="0.7"/><circle cx="602" cy="97" r="1.6" opacity="0.8"/><circle cx="612" cy="97" r="1.6" opacity="0.8"/><circle cx="622" cy="97" r="1.6" opacity="0.8"/><circle cx="632" cy="97" r="1.6" opacity="0.7"/><circle cx="642" cy="97" r="1.6" opacity="0.3"/><circle cx="652" cy="97" r="1.6" opacity="0.2"/><circle cx="662" cy="97" r="1.6" opacity="0.2"/><circle cx="672" cy="97" r="1.6" opacity="0.2"/><circle cx="682" cy="97" r="1.6" opacity="0.3"/><circle cx="692" cy="97" r="1.6" opacity="0.6"/><circle cx="702" cy="97" r="1.6" opacity="0.8"/>
+                                <!-- Row 2 -->
+                                <circle cx="522" cy="107" r="1.6" opacity="0.8"/><circle cx="532" cy="107" r="1.6" opacity="0.8"/><circle cx="542" cy="107" r="1.6" opacity="0.6"/><circle cx="552" cy="107" r="1.6" opacity="0.2"/><circle cx="562" cy="107" r="1.6" opacity="0.15"/><circle cx="572" cy="107" r="1.6" opacity="0.15"/><circle cx="582" cy="107" r="1.6" opacity="0.2"/><circle cx="592" cy="107" r="1.6" opacity="0.6"/><circle cx="602" cy="107" r="1.6" opacity="0.8"/><circle cx="612" cy="107" r="1.6" opacity="0.8"/><circle cx="622" cy="107" r="1.6" opacity="0.7"/><circle cx="632" cy="107" r="1.6" opacity="0.3"/><circle cx="642" cy="107" r="1.6" opacity="0.15"/><circle cx="652" cy="107" r="1.6" opacity="0.15"/><circle cx="662" cy="107" r="1.6" opacity="0.15"/><circle cx="672" cy="107" r="1.6" opacity="0.15"/><circle cx="682" cy="107" r="1.6" opacity="0.2"/><circle cx="692" cy="107" r="1.6" opacity="0.5"/><circle cx="702" cy="107" r="1.6" opacity="0.8"/>
+                                <!-- Row 3 -->
+                                <circle cx="522" cy="117" r="1.6" opacity="0.6"/><circle cx="532" cy="117" r="1.6" opacity="0.3"/><circle cx="542" cy="117" r="1.6" opacity="0.2"/><circle cx="552" cy="117" r="1.6" opacity="0.15"/><circle cx="562" cy="117" r="1.6" opacity="0.1"/><circle cx="572" cy="117" r="1.6" opacity="0.1"/><circle cx="582" cy="117" r="1.6" opacity="0.15"/><circle cx="592" cy="117" r="1.6" opacity="0.2"/><circle cx="602" cy="117" r="1.6" opacity="0.3"/><circle cx="612" cy="117" r="1.6" opacity="0.3"/><circle cx="622" cy="117" r="1.6" opacity="0.2"/><circle cx="632" cy="117" r="1.6" opacity="0.15"/><circle cx="642" cy="117" r="1.6" opacity="0.1"/><circle cx="652" cy="117" r="1.6" opacity="0.1"/><circle cx="662" cy="117" r="1.6" opacity="0.1"/><circle cx="672" cy="117" r="1.6" opacity="0.1"/><circle cx="682" cy="117" r="1.6" opacity="0.15"/><circle cx="692" cy="117" r="1.6" opacity="0.2"/><circle cx="702" cy="117" r="1.6" opacity="0.3"/>
+                                <!-- Row 4 -->
+                                <circle cx="522" cy="127" r="1.6" opacity="0.15"/><circle cx="532" cy="127" r="1.6" opacity="0.15"/><circle cx="542" cy="127" r="1.6" opacity="0.1"/><circle cx="552" cy="127" r="1.6" opacity="0.1"/><circle cx="562" cy="127" r="1.6" opacity="0.1"/><circle cx="572" cy="127" r="1.6" opacity="0.1"/><circle cx="582" cy="127" r="1.6" opacity="0.1"/><circle cx="592" cy="127" r="1.6" opacity="0.1"/><circle cx="602" cy="127" r="1.6" opacity="0.15"/><circle cx="612" cy="127" r="1.6" opacity="0.15"/><circle cx="622" cy="127" r="1.6" opacity="0.1"/><circle cx="632" cy="127" r="1.6" opacity="0.1"/><circle cx="642" cy="127" r="1.6" opacity="0.1"/><circle cx="652" cy="127" r="1.6" opacity="0.1"/><circle cx="662" cy="127" r="1.6" opacity="0.1"/><circle cx="672" cy="127" r="1.6" opacity="0.1"/><circle cx="682" cy="127" r="1.6" opacity="0.1"/><circle cx="692" cy="127" r="1.6" opacity="0.1"/><circle cx="702" cy="127" r="1.6" opacity="0.15"/>
+                                <!-- Row 5 -->
+                                <circle cx="522" cy="137" r="1.6" opacity="0.1"/><circle cx="532" cy="137" r="1.6" opacity="0.1"/><circle cx="542" cy="137" r="1.6" opacity="0.1"/><circle cx="552" cy="137" r="1.6" opacity="0.15"/><circle cx="562" cy="137" r="1.6" opacity="0.2"/><circle cx="572" cy="137" r="1.6" opacity="0.3"/><circle cx="582" cy="137" r="1.6" opacity="0.3"/><circle cx="592" cy="137" r="1.6" opacity="0.2"/><circle cx="602" cy="137" r="1.6" opacity="0.1"/><circle cx="612" cy="137" r="1.6" opacity="0.1"/><circle cx="622" cy="137" r="1.6" opacity="0.15"/><circle cx="632" cy="137" r="1.6" opacity="0.3"/><circle cx="642" cy="137" r="1.6" opacity="0.5"/><circle cx="652" cy="137" r="1.6" opacity="0.6"/><circle cx="662" cy="137" r="1.6" opacity="0.6"/><circle cx="672" cy="137" r="1.6" opacity="0.5"/><circle cx="682" cy="137" r="1.6" opacity="0.3"/><circle cx="692" cy="137" r="1.6" opacity="0.15"/><circle cx="702" cy="137" r="1.6" opacity="0.1"/>
+                                <!-- Row 6 -->
+                                <circle cx="522" cy="147" r="1.6" opacity="0.1"/><circle cx="532" cy="147" r="1.6" opacity="0.1"/><circle cx="542" cy="147" r="1.6" opacity="0.15"/><circle cx="552" cy="147" r="1.6" opacity="0.3"/><circle cx="562" cy="147" r="1.6" opacity="0.5"/><circle cx="572" cy="147" r="1.6" opacity="0.7"/><circle cx="582" cy="147" r="1.6" opacity="0.7"/><circle cx="592" cy="147" r="1.6" opacity="0.5"/><circle cx="602" cy="147" r="1.6" opacity="0.3"/><circle cx="612" cy="147" r="1.6" opacity="0.15"/><circle cx="622" cy="147" r="1.6" opacity="0.3"/><circle cx="632" cy="147" r="1.6" opacity="0.5"/><circle cx="642" cy="147" r="1.6" opacity="0.7"/><circle cx="652" cy="147" r="1.6" opacity="0.8"/><circle cx="662" cy="147" r="1.6" opacity="0.8"/><circle cx="672" cy="147" r="1.6" opacity="0.7"/><circle cx="682" cy="147" r="1.6" opacity="0.5"/><circle cx="692" cy="147" r="1.6" opacity="0.3"/><circle cx="702" cy="147" r="1.6" opacity="0.15"/>
+                                <!-- Row 7 -->
+                                <circle cx="522" cy="157" r="1.6" opacity="0.1"/><circle cx="532" cy="157" r="1.6" opacity="0.15"/><circle cx="542" cy="157" r="1.6" opacity="0.3"/><circle cx="552" cy="157" r="1.6" opacity="0.5"/><circle cx="562" cy="157" r="1.6" opacity="0.7"/><circle cx="572" cy="157" r="1.6" opacity="0.8"/><circle cx="582" cy="157" r="1.6" opacity="0.8"/><circle cx="592" cy="157" r="1.6" opacity="0.7"/><circle cx="602" cy="157" r="1.6" opacity="0.5"/><circle cx="612" cy="157" r="1.6" opacity="0.3"/><circle cx="622" cy="157" r="1.6" opacity="0.5"/><circle cx="632" cy="157" r="1.6" opacity="0.7"/><circle cx="642" cy="157" r="1.6" opacity="0.8"/><circle cx="652" cy="157" r="1.6" opacity="0.8"/><circle cx="662" cy="157" r="1.6" opacity="0.8"/><circle cx="672" cy="157" r="1.6" opacity="0.8"/><circle cx="682" cy="157" r="1.6" opacity="0.7"/><circle cx="692" cy="157" r="1.6" opacity="0.5"/><circle cx="702" cy="157" r="1.6" opacity="0.3"/>
+                                <!-- Row 8 -->
+                                <circle cx="522" cy="167" r="1.6" opacity="0.15"/><circle cx="532" cy="167" r="1.6" opacity="0.2"/><circle cx="542" cy="167" r="1.6" opacity="0.3"/><circle cx="552" cy="167" r="1.6" opacity="0.5"/><circle cx="562" cy="167" r="1.6" opacity="0.6"/><circle cx="572" cy="167" r="1.6" opacity="0.7"/><circle cx="582" cy="167" r="1.6" opacity="0.7"/><circle cx="592" cy="167" r="1.6" opacity="0.6"/><circle cx="602" cy="167" r="1.6" opacity="0.5"/><circle cx="612" cy="167" r="1.6" opacity="0.3"/><circle cx="622" cy="167" r="1.6" opacity="0.5"/><circle cx="632" cy="167" r="1.6" opacity="0.6"/><circle cx="642" cy="167" r="1.6" opacity="0.7"/><circle cx="652" cy="167" r="1.6" opacity="0.7"/><circle cx="662" cy="167" r="1.6" opacity="0.7"/><circle cx="672" cy="167" r="1.6" opacity="0.7"/><circle cx="682" cy="167" r="1.6" opacity="0.6"/><circle cx="692" cy="167" r="1.6" opacity="0.5"/><circle cx="702" cy="167" r="1.6" opacity="0.3"/>
+                                <!-- Row 9 -->
+                                <circle cx="522" cy="177" r="1.6" opacity="0.2"/><circle cx="532" cy="177" r="1.6" opacity="0.3"/><circle cx="542" cy="177" r="1.6" opacity="0.3"/><circle cx="552" cy="177" r="1.6" opacity="0.3"/><circle cx="562" cy="177" r="1.6" opacity="0.3"/><circle cx="572" cy="177" r="1.6" opacity="0.3"/><circle cx="582" cy="177" r="1.6" opacity="0.3"/><circle cx="592" cy="177" r="1.6" opacity="0.3"/><circle cx="602" cy="177" r="1.6" opacity="0.3"/><circle cx="612" cy="177" r="1.6" opacity="0.2"/><circle cx="622" cy="177" r="1.6" opacity="0.3"/><circle cx="632" cy="177" r="1.6" opacity="0.3"/><circle cx="642" cy="177" r="1.6" opacity="0.3"/><circle cx="652" cy="177" r="1.6" opacity="0.3"/><circle cx="662" cy="177" r="1.6" opacity="0.3"/><circle cx="672" cy="177" r="1.6" opacity="0.3"/><circle cx="682" cy="177" r="1.6" opacity="0.3"/><circle cx="692" cy="177" r="1.6" opacity="0.3"/><circle cx="702" cy="177" r="1.6" opacity="0.3"/>
+                            </g>
+
+                            <!-- Fine zone grid -->
+                            <g stroke="#3b82f6" stroke-width="0.3" stroke-dasharray="2" opacity="0.4">
+                                <line x1="540" y1="88" x2="540" y2="188"/><line x1="560" y1="88" x2="560" y2="188"/><line x1="580" y1="88" x2="580" y2="188"/><line x1="600" y1="88" x2="600" y2="188"/><line x1="620" y1="88" x2="620" y2="188"/><line x1="640" y1="88" x2="640" y2="188"/><line x1="660" y1="88" x2="660" y2="188"/><line x1="680" y1="88" x2="680" y2="188"/><line x1="700" y1="88" x2="700" y2="188"/>
+                                <line x1="510" y1="107" x2="710" y2="107"/><line x1="510" y1="127" x2="710" y2="127"/><line x1="510" y1="147" x2="710" y2="147"/><line x1="510" y1="167" x2="710" y2="167"/>
+                            </g>
+
+                            <!-- Label -->
+                            <text fill="#10b981" x="610" y="202" text-anchor="middle" font-size="9">~50 zones shown (500&ndash;14,000+ typical)</text>
+                            <text class="svg-text-sm" x="610" y="215" text-anchor="middle" font-size="8">Excellent contrast, minimal blooming</text>
+
+                            <!-- ===== COMPARISON ARROWS ===== -->
+                            <line x1="230" y1="138" x2="262" y2="138" stroke="#64748b" stroke-width="1" marker-end="url(#fald-arrow)"/>
+                            <line x1="478" y1="138" x2="503" y2="138" stroke="#64748b" stroke-width="1" marker-end="url(#fald-arrow)"/>
+                            <text class="svg-text-sm" x="246" y="132" text-anchor="middle" font-size="8">better</text>
+                            <text class="svg-text-sm" x="490" y="132" text-anchor="middle" font-size="8">best</text>
+
+                            <!-- ===== BOTTOM: How FALD works — scene example ===== -->
+                            <line x1="40" y1="240" x2="680" y2="240" class="svg-line" stroke-width="0.5"/>
+                            <text class="svg-text" x="360" y="265" text-anchor="middle" font-size="14" font-weight="600">How FALD Works: Scene &rarr; Zone Map &rarr; Backlight Output</text>
+                            <text class="svg-text-sm" x="360" y="282" text-anchor="middle" font-size="10">The processor maps bright and dark regions of each frame to backlight zones in real time</text>
+
+                            <!-- Step 1: Scene content -->
+                            <text class="svg-text-sm" x="120" y="308" text-anchor="middle" font-size="10" font-weight="500">1. Scene Content</text>
+                            <rect x="30" y="316" width="180" height="100" rx="5" fill="#111827" stroke="#334155" stroke-width="1"/>
+                            <!-- Moon in dark sky -->
+                            <rect x="30" y="316" width="180" height="100" rx="5" fill="#0a0a12"/>
+                            <circle cx="90" cy="350" r="14" fill="#fef3c7" opacity="0.9"/>
+                            <circle cx="86" cy="346" r="11" fill="#0a0a12"/>
+                            <!-- Landscape silhouette -->
+                            <polygon points="30,400 60,375 90,390 120,370 150,385 180,365 210,380 210,416 30,416" fill="#1a1a2e"/>
+                            <!-- Stars -->
+                            <circle cx="160" cy="335" r="1" fill="#fef9c3" opacity="0.7"/><circle cx="140" cy="355" r="0.8" fill="#fef9c3" opacity="0.5"/><circle cx="50" cy="330" r="1" fill="#fef9c3" opacity="0.6"/><circle cx="180" cy="345" r="0.8" fill="#fef9c3" opacity="0.4"/>
+
+                            <!-- Arrow 1 -->
+                            <line x1="218" y1="366" x2="248" y2="366" stroke="#64748b" stroke-width="1.2" marker-end="url(#fald-arrow)"/>
+
+                            <!-- Step 2: Zone brightness map -->
+                            <text class="svg-text-sm" x="360" y="308" text-anchor="middle" font-size="10" font-weight="500">2. Zone Brightness Map</text>
+                            <rect x="270" y="316" width="180" height="100" rx="5" fill="#111827" stroke="#334155" stroke-width="1"/>
+
+                            <!-- Zone grid with brightness levels -->
+                            <!-- 6x4 = 24 zones, brightness mapped to scene -->
+                            <!-- Top row: mostly dark, moon zone bright -->
+                            <rect x="271" y="317" width="30" height="25" fill="#fbbf24" opacity="0.05" rx="1"/><rect x="301" y="317" width="30" height="25" fill="#fbbf24" opacity="0.35" rx="1"/><rect x="331" y="317" width="30" height="25" fill="#fbbf24" opacity="0.08" rx="1"/><rect x="361" y="317" width="30" height="25" fill="#fbbf24" opacity="0.04" rx="1"/><rect x="391" y="317" width="30" height="25" fill="#fbbf24" opacity="0.04" rx="1"/><rect x="421" y="317" width="28" height="25" fill="#fbbf24" opacity="0.04" rx="1"/>
+                            <!-- Row 2 -->
+                            <rect x="271" y="342" width="30" height="25" fill="#fbbf24" opacity="0.04" rx="1"/><rect x="301" y="342" width="30" height="25" fill="#fbbf24" opacity="0.12" rx="1"/><rect x="331" y="342" width="30" height="25" fill="#fbbf24" opacity="0.04" rx="1"/><rect x="361" y="342" width="30" height="25" fill="#fbbf24" opacity="0.04" rx="1"/><rect x="391" y="342" width="30" height="25" fill="#fbbf24" opacity="0.04" rx="1"/><rect x="421" y="342" width="28" height="25" fill="#fbbf24" opacity="0.04" rx="1"/>
+                            <!-- Row 3 -->
+                            <rect x="271" y="367" width="30" height="25" fill="#fbbf24" opacity="0.06" rx="1"/><rect x="301" y="367" width="30" height="25" fill="#fbbf24" opacity="0.06" rx="1"/><rect x="331" y="367" width="30" height="25" fill="#fbbf24" opacity="0.06" rx="1"/><rect x="361" y="367" width="30" height="25" fill="#fbbf24" opacity="0.06" rx="1"/><rect x="391" y="367" width="30" height="25" fill="#fbbf24" opacity="0.06" rx="1"/><rect x="421" y="367" width="28" height="25" fill="#fbbf24" opacity="0.06" rx="1"/>
+                            <!-- Row 4 (ground) -->
+                            <rect x="271" y="392" width="30" height="24" fill="#fbbf24" opacity="0.03" rx="1"/><rect x="301" y="392" width="30" height="24" fill="#fbbf24" opacity="0.03" rx="1"/><rect x="331" y="392" width="30" height="24" fill="#fbbf24" opacity="0.03" rx="1"/><rect x="361" y="392" width="30" height="24" fill="#fbbf24" opacity="0.03" rx="1"/><rect x="391" y="392" width="30" height="24" fill="#fbbf24" opacity="0.03" rx="1"/><rect x="421" y="392" width="28" height="24" fill="#fbbf24" opacity="0.03" rx="1"/>
+
+                            <!-- Zone grid lines -->
+                            <g stroke="#475569" stroke-width="0.5">
+                                <line x1="301" y1="317" x2="301" y2="416"/><line x1="331" y1="317" x2="331" y2="416"/><line x1="361" y1="317" x2="361" y2="416"/><line x1="391" y1="317" x2="391" y2="416"/><line x1="421" y1="317" x2="421" y2="416"/>
+                                <line x1="271" y1="342" x2="449" y2="342"/><line x1="271" y1="367" x2="449" y2="367"/><line x1="271" y1="392" x2="449" y2="392"/>
+                            </g>
+
+                            <!-- Bright zone highlight (moon) -->
+                            <rect x="301" y="317" width="30" height="25" fill="none" stroke="#fbbf24" stroke-width="1.5" rx="1"/>
+                            <text fill="#fbbf24" x="316" y="333" text-anchor="middle" font-size="7" font-weight="600">HIGH</text>
+
+                            <!-- Dark zone label -->
+                            <text fill="#475569" x="376" y="408" text-anchor="middle" font-size="6">OFF</text>
+
+                            <!-- Arrow 2 -->
+                            <line x1="458" y1="366" x2="488" y2="366" stroke="#64748b" stroke-width="1.2" marker-end="url(#fald-arrow)"/>
+
+                            <!-- Step 3: Backlight output -->
+                            <text class="svg-text-sm" x="600" y="308" text-anchor="middle" font-size="10" font-weight="500">3. Backlight Output</text>
+                            <rect x="510" y="316" width="180" height="100" rx="5" fill="#050508" stroke="#334155" stroke-width="1"/>
+
+                            <!-- Backlight visualization: only moon zone glows -->
+                            <rect x="510" y="316" width="180" height="100" rx="5" fill="#020204"/>
+                            <!-- Moon zone glow -->
+                            <ellipse cx="555" cy="342" rx="22" ry="18" fill="#fbbf24" opacity="0.3"/>
+                            <ellipse cx="555" cy="342" rx="14" ry="11" fill="#fef3c7" opacity="0.5"/>
+                            <!-- Very faint ground glow -->
+                            <rect x="511" y="385" width="178" height="30" rx="3" fill="#fbbf24" opacity="0.02"/>
+                            <!-- Rest is dark -->
+
+                            <text fill="#10b981" x="600" y="435" text-anchor="middle" font-size="9">Only the moon zone lights up</text>
+                            <text class="svg-text-sm" x="600" y="448" text-anchor="middle" font-size="8">Dark areas stay truly dark</text>
+
+                            <!-- Bottom annotation -->
+                            <text class="svg-text-sm" x="360" y="490" text-anchor="middle" font-size="9">This process repeats for every frame &mdash; 60 or 120 times per second</text>
+                            <text class="svg-text-sm" x="360" y="505" text-anchor="middle" font-size="9">More zones = finer mapping = better contrast and less blooming</text>
+
+                            <defs>
+                                <marker id="fald-arrow" markerWidth="7" markerHeight="5" refX="3.5" refY="2.5" orient="auto">
+                                    <polygon points="0 0, 7 2.5, 0 5" fill="#64748b"/>
+                                </marker>
+                            </defs>
+                        </svg>
+                    </div>
+
+                    <div class="callout-box">
+                        <p><strong>Why FALD matters:</strong> When you see a TV marketed as &ldquo;Full Array Local Dimming&rdquo; or &ldquo;FALD,&rdquo; it means LEDs are behind the entire panel with independent zone control. This is always better than edge-lit dimming. But FALD alone does not tell you <em>how many</em> zones there are &mdash; and that number is what determines real-world performance. A FALD TV with 30 zones and a Mini LED FALD TV with 2,000 zones are architecturally the same. The difference is resolution of control.</p>
+                    </div>
+
+                    <p>A <strong>zone</strong> is a group of LEDs that are controlled together as a single brightness unit. The TV&rsquo;s processor analyzes each frame of content in real time, determines which zones should be bright and which should be dim, and adjusts accordingly.</p>
+
+                    <h3>The Local Dimming Pipeline</h3>
+
+                    <p>For every frame of video, the TV&rsquo;s image processor executes the following:</p>
+
+                    <ol>
+                        <li><strong>Scene analysis:</strong> The processor examines the brightness values across the entire frame</li>
+                        <li><strong>Zone mapping:</strong> It maps regions of the image to their corresponding backlight zones</li>
+                        <li><strong>Brightness calculation:</strong> For each zone, it calculates the optimal brightness level</li>
+                        <li><strong>Driver signal:</strong> Brightness values are sent to the LED driver ICs, which set each zone&rsquo;s output</li>
+                        <li><strong>LCD compensation:</strong> The LCD panel adjusts its pixel values to compensate for the varying backlight levels, maintaining color accuracy</li>
+                    </ol>
+
+                    <p>This entire pipeline runs at 60 or 120 times per second, depending on the content&rsquo;s refresh rate. More zones means more data to process, more driver ICs to control, and stricter latency requirements.</p>
+
+                    <!-- Section Divider -->
+                    <hr class="section-divider">
+
+                    <h2>Why Zones Matter More Than LED Count</h2>
+
+                    <p>This is the most important concept in this entire article. Marketing pushes LED count because larger numbers sound impressive. But LED count primarily affects peak brightness and thermal distribution. <strong>Zone count determines contrast and blooming performance</strong> &mdash; the things you actually see.</p>
+
+                    <p>Consider a bright subtitle on a dark background:</p>
+
+                    <!-- SVG: Blooming Comparison -->
+                    <div class="svg-illustration">
+                        <svg viewBox="0 0 720 360" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="720" height="360" fill="#0f172a" rx="0"/>
+                            <text fill="#e2e8f0" x="360" y="28" text-anchor="middle" font-size="15" font-weight="600">Blooming Effect: Few Zones vs Many Zones</text>
+
+                            <!-- LEFT: Few zones -->
+                            <text fill="#94a3b8" x="180" y="55" text-anchor="middle" font-size="12" font-weight="500">~50 Large Dimming Zones</text>
+
+                            <!-- Dark screen with large zone grid -->
+                            <rect x="30" y="70" width="300" height="200" rx="6" fill="#111827" stroke="#334155" stroke-width="1.5"/>
+
+                            <!-- Zone grid lines (5x4 = 20 visible zones) -->
+                            <line x1="90" y1="70" x2="90" y2="270" stroke="#1e293b" stroke-width="0.5"/>
+                            <line x1="150" y1="70" x2="150" y2="270" stroke="#1e293b" stroke-width="0.5"/>
+                            <line x1="210" y1="70" x2="210" y2="270" stroke="#1e293b" stroke-width="0.5"/>
+                            <line x1="270" y1="70" x2="270" y2="270" stroke="#1e293b" stroke-width="0.5"/>
+                            <line x1="30" y1="120" x2="330" y2="120" stroke="#1e293b" stroke-width="0.5"/>
+                            <line x1="30" y1="170" x2="330" y2="170" stroke="#1e293b" stroke-width="0.5"/>
+                            <line x1="30" y1="220" x2="330" y2="220" stroke="#1e293b" stroke-width="0.5"/>
+
+                            <!-- Bright zone (large area lights up) -->
+                            <rect x="90" y="170" width="120" height="50" fill="#fbbf24" opacity="0.15" rx="2"/>
+                            <!-- Blooming halo -->
+                            <rect x="30" y="170" width="60" height="50" fill="#fbbf24" opacity="0.06" rx="2"/>
+                            <rect x="210" y="170" width="60" height="50" fill="#fbbf24" opacity="0.06" rx="2"/>
+                            <rect x="90" y="120" width="120" height="50" fill="#fbbf24" opacity="0.05" rx="2"/>
+                            <rect x="90" y="220" width="120" height="50" fill="#fbbf24" opacity="0.05" rx="2"/>
+                            <!-- Subtitle text -->
+                            <text fill="#ffffff" x="150" y="200" text-anchor="middle" font-size="11" font-weight="600">Hello World</text>
+
+                            <text fill="#ef4444" x="180" y="290" text-anchor="middle" font-size="11">Visible blooming / halo</text>
+                            <text fill="#ef4444" x="180" y="305" text-anchor="middle" font-size="10">Entire zones light up around text</text>
+
+                            <!-- RIGHT: Many zones -->
+                            <text fill="#94a3b8" x="540" y="55" text-anchor="middle" font-size="12" font-weight="500">~1,500+ Small Dimming Zones</text>
+
+                            <!-- Dark screen with dense zone grid -->
+                            <rect x="390" y="70" width="300" height="200" rx="6" fill="#111827" stroke="#334155" stroke-width="1.5"/>
+
+                            <!-- Dense zone grid -->
+                            <g stroke="#1e293b" stroke-width="0.3">
+                                <line x1="420" y1="70" x2="420" y2="270"/><line x1="450" y1="70" x2="450" y2="270"/>
+                                <line x1="480" y1="70" x2="480" y2="270"/><line x1="510" y1="70" x2="510" y2="270"/>
+                                <line x1="540" y1="70" x2="540" y2="270"/><line x1="570" y1="70" x2="570" y2="270"/>
+                                <line x1="600" y1="70" x2="600" y2="270"/><line x1="630" y1="70" x2="630" y2="270"/>
+                                <line x1="660" y1="70" x2="660" y2="270"/>
+                                <line x1="390" y1="90" x2="690" y2="90"/><line x1="390" y1="110" x2="690" y2="110"/>
+                                <line x1="390" y1="130" x2="690" y2="130"/><line x1="390" y1="150" x2="690" y2="150"/>
+                                <line x1="390" y1="170" x2="690" y2="170"/><line x1="390" y1="190" x2="690" y2="190"/>
+                                <line x1="390" y1="210" x2="690" y2="210"/><line x1="390" y1="230" x2="690" y2="230"/>
+                                <line x1="390" y1="250" x2="690" y2="250"/>
+                            </g>
+
+                            <!-- Tight bright zone (only small area lights up) -->
+                            <rect x="480" y="190" width="90" height="20" fill="#fbbf24" opacity="0.18" rx="1"/>
+                            <!-- Minimal blooming -->
+                            <rect x="480" y="170" width="90" height="20" fill="#fbbf24" opacity="0.03" rx="1"/>
+                            <rect x="480" y="210" width="90" height="20" fill="#fbbf24" opacity="0.03" rx="1"/>
+                            <!-- Subtitle text -->
+                            <text fill="#ffffff" x="525" y="205" text-anchor="middle" font-size="11" font-weight="600">Hello World</text>
+
+                            <text fill="#34d399" x="540" y="290" text-anchor="middle" font-size="11">Minimal blooming</text>
+                            <text fill="#34d399" x="540" y="305" text-anchor="middle" font-size="10">Only the text region lights up</text>
+
+                            <!-- VS label -->
+                            <text fill="#475569" x="360" y="178" text-anchor="middle" font-size="14" font-weight="700">vs</text>
+
+                            <!-- Bottom annotation -->
+                            <text fill="#64748b" x="360" y="340" text-anchor="middle" font-size="10">Same content, same Mini LED count &mdash; different zone count produces different results</text>
+                        </svg>
+                    </div>
+
+                    <p>In the left panel, the backlight has large zones. When the subtitle appears, entire zones light up, spilling light into the dark regions around it. This is <strong>blooming</strong> &mdash; the halo effect that is immediately noticeable in dark scenes.</p>
+
+                    <p>In the right panel, the zones are small enough that only the region around the subtitle lights up. The rest of the screen stays dark. Same LED count, same Mini LED label &mdash; completely different viewing experience.</p>
+
+                    <!-- Section Divider -->
+                    <hr class="section-divider">
+
+                    <h2>The Specification That Matters: Zone Count</h2>
+
+                    <p>Here is where marketing meets reality. There is <strong>no standardized definition of Mini LED performance</strong>. A TV with 160 zones and a TV with 14,000 zones can both be marketed as &ldquo;Mini LED.&rdquo; In practice, this creates a massive spectrum of real-world picture quality under the same label.</p>
+
+                    <p>Based on independent reviewer consensus from sites like Rtings, HDTVTest, and FlatpanelsHD, here is what different zone counts actually deliver:</p>
+
+                    <div class="callout-box">
+                        <p><strong>Zone count performance tiers:</strong></p>
+                        <p><strong>Under 300 zones:</strong> Barely better than standard direct-lit. Blooming is readily visible. Many budget &ldquo;Mini LED&rdquo; TVs fall here.<br>
+                        <strong>300&ndash;700 zones:</strong> Entry-level Mini LED. Noticeable improvement in dark scenes, but halos still visible around bright objects.<br>
+                        <strong>700&ndash;1,500 zones:</strong> Solid mid-tier. Strong contrast with minimal blooming in most real-world content.<br>
+                        <strong>1,500&ndash;3,000 zones:</strong> Excellent HDR performance. Blooming only visible in extreme test patterns.<br>
+                        <strong>3,000+ zones:</strong> Flagship-level. Approaches OLED-like contrast for most practical viewing.</p>
+                    </div>
+
+                    <p>The gap is enormous. A budget Mini LED TV with 120 zones delivers a subtle upgrade over basic LED. A flagship with 2,000+ zones is a genuinely impressive HDR performer. Yet both carry the same &ldquo;Mini LED&rdquo; label on the box.</p>
+
+                    <p>This is why you should <strong>always check the actual zone count</strong> for the specific screen size you are buying. The same model name across different sizes often hides vastly different zone counts &mdash; the 85-inch version might have 2,300 zones while the 55-inch version has 500.</p>
+
+                    <!-- Section Divider -->
+                    <hr class="section-divider">
+
+                    <h2>Recent Controversies That Prove the Point</h2>
+
+                    <p>Two recent cases illustrate how far the marketing stretch can go:</p>
+
+                    <h3>TCL&rsquo;s &ldquo;RGB Mini LED&rdquo; Controversy (January 2026)</h3>
+
+                    <p>TCL&rsquo;s Q9M budget Mini LED TV was marketed as using &ldquo;RGB Mini LED&rdquo; backlighting &mdash; implying separate red, green, and blue LED chips for wider color reproduction. Investigations by Omdia revealed the TV actually uses <strong>two blue chips and one green chip with red phosphor</strong>, not genuine RGB LED chips. Red LED chips are significantly more expensive, and TCL substituted them with cheaper phosphor-converted alternatives while retaining the &ldquo;RGB&rdquo; branding.</p>
+
+                    <p>The 85-inch Q9M was priced at approximately $1,680 &mdash; more than comparable conventional Mini LED TVs &mdash; partly on the strength of its &ldquo;RGB&rdquo; claim. This was reported by Korea Times, Korea Herald, and Seoul Economic Daily.</p>
+
+                    <h3>TCL QLED Ruling (2025&ndash;2026)</h3>
+
+                    <p>In a separate case, the Munich I District Court ruled that TCL <strong>violated Germany&rsquo;s Unfair Competition Act</strong> by marketing certain TVs (including the QLED870 series) as &ldquo;QLED&rdquo; when independent testing by SGS (Geneva) and Intertek (UK) found <strong>no trace of quantum dot materials</strong> (indium or cadmium) in the tested panels. TCL was banned from marketing these models as QLED in Germany.</p>
+
+                    <p>These are not isolated incidents. They reflect a broader pattern where technical labels are stretched to their marketing limits.</p>
+
+                    <h3>LG QNED Naming Confusion</h3>
+
+                    <p>LG&rsquo;s QNED lineup has also drawn criticism. Some QNED models use Mini LED backlighting; others (like certain QNED86T models) use <strong>standard edge-lit backlighting</strong> despite carrying the same &ldquo;QNED&rdquo; brand. The LG QNED91, a Mini LED model, ships with only <strong>~160 dimming zones</strong>. What Hi-Fi? described its performance as producing &ldquo;pretty noticeable and distracting haloing/blooming.&rdquo;</p>
+
+                    <!-- Section Divider -->
+                    <hr class="section-divider">
+
+                    <h2>What You Should Look for When Buying a Mini LED TV</h2>
+
+                    <p>Cut through the marketing by focusing on these four things:</p>
+
+                    <!-- SVG: Buying Checklist -->
+                    <div class="svg-illustration">
+                        <svg viewBox="0 0 720 320" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="svg-bg" width="720" height="320" rx="0"/>
+                            <text class="svg-text" x="360" y="30" text-anchor="middle" font-size="15" font-weight="600">Mini LED TV Buying Checklist</text>
+
+                            <!-- Item 1 -->
+                            <rect class="svg-label-bg" x="40" y="50" width="300" height="110" rx="10" stroke="#3b82f6" stroke-width="1.5"/>
+                            <text fill="#3b82f6" x="60" y="75" font-size="24" font-weight="700">1</text>
+                            <text class="svg-text" x="85" y="75" font-size="13" font-weight="600">Zone Count (Actual)</text>
+                            <text class="svg-text-sm" x="60" y="95" font-size="10.5">Look for the actual number, not</text>
+                            <text class="svg-text-sm" x="60" y="110" font-size="10.5">&ldquo;up to&rdquo; claims. 500+ zones is the</text>
+                            <text class="svg-text-sm" x="60" y="125" font-size="10.5">minimum for meaningful improvement.</text>
+                            <text class="svg-text-sm" x="60" y="140" font-size="10.5">1,000+ is where it really shines.</text>
+
+                            <!-- Item 2 -->
+                            <rect class="svg-label-bg" x="380" y="50" width="300" height="110" rx="10" stroke="#10b981" stroke-width="1.5"/>
+                            <text fill="#10b981" x="400" y="75" font-size="24" font-weight="700">2</text>
+                            <text class="svg-text" x="425" y="75" font-size="13" font-weight="600">Zone Density vs Screen Size</text>
+                            <text class="svg-text-sm" x="400" y="95" font-size="10.5">1,000 zones on a 55&Prime; TV is very</text>
+                            <text class="svg-text-sm" x="400" y="110" font-size="10.5">different from 1,000 zones on an</text>
+                            <text class="svg-text-sm" x="400" y="125" font-size="10.5">85&Prime; TV. Calculate zones per square</text>
+                            <text class="svg-text-sm" x="400" y="140" font-size="10.5">inch for a fair comparison.</text>
+
+                            <!-- Item 3 -->
+                            <rect class="svg-label-bg" x="40" y="180" width="300" height="110" rx="10" stroke="#f59e0b" stroke-width="1.5"/>
+                            <text fill="#f59e0b" x="60" y="205" font-size="24" font-weight="700">3</text>
+                            <text class="svg-text" x="85" y="205" font-size="13" font-weight="600">Peak Brightness (Measured)</text>
+                            <text class="svg-text-sm" x="60" y="225" font-size="10.5">Check independent measurements,</text>
+                            <text class="svg-text-sm" x="60" y="240" font-size="10.5">not spec sheet claims. Look for</text>
+                            <text class="svg-text-sm" x="60" y="255" font-size="10.5">real-world HDR peak brightness in</text>
+                            <text class="svg-text-sm" x="60" y="270" font-size="10.5">reviews from Rtings or HDTVTest.</text>
+
+                            <!-- Item 4 -->
+                            <rect class="svg-label-bg" x="380" y="180" width="300" height="110" rx="10" stroke="#ef4444" stroke-width="1.5"/>
+                            <text fill="#ef4444" x="400" y="205" font-size="24" font-weight="700">4</text>
+                            <text class="svg-text" x="425" y="205" font-size="13" font-weight="600">Blooming Performance</text>
+                            <text class="svg-text-sm" x="400" y="225" font-size="10.5">Only visible in actual use. Trust</text>
+                            <text class="svg-text-sm" x="400" y="240" font-size="10.5">independent video reviews that show</text>
+                            <text class="svg-text-sm" x="400" y="255" font-size="10.5">real dark-scene performance, not</text>
+                            <text class="svg-text-sm" x="400" y="270" font-size="10.5">manufacturer demos or lab numbers.</text>
+                        </svg>
+                    </div>
+
+                    <h3>What to Stay Away From</h3>
+
+                    <ul class="list-style">
+                        <li><strong>TVs that advertise LED count but not zone count.</strong> If a brand proudly states &ldquo;10,000 Mini LEDs&rdquo; but does not disclose dimming zones, that is a red flag. LED count without zone count is meaningless for picture quality</li>
+                        <li><strong>Budget &ldquo;Mini LED&rdquo; TVs under 300 zones.</strong> These are technically Mini LED but practically deliver marginal improvement over basic FALD. If you are paying a premium for the Mini LED label, check what you are actually getting</li>
+                        <li><strong>The same brand name across different sizes with no specification breakdown.</strong> A 55-inch and an 85-inch model from the same product line often have vastly different zone counts, but are marketed identically. The larger size usually has more zones; the smaller size may be underwhelming</li>
+                        <li><strong>Brands that layer buzzwords.</strong> &ldquo;Quantum Mini LED QLED Pro&rdquo; means nothing if the zone count is 160. Ignore the adjectives; read the spec sheet</li>
+                    </ul>
+
+                    <!-- Section Divider -->
+                    <hr class="section-divider">
+
+                    <h2>What Determines Mini LED Quality Beyond Zones</h2>
+
+                    <p>Zone count is the single most important number, but it is not the only factor. Several engineering constraints determine real-world performance:</p>
+
+                    <h3>Hardware: Driver ICs</h3>
+                    <p>Each zone requires control circuitry. More zones mean more driver ICs, higher cost, and increased PCB complexity. This is a primary reason why budget models cut zones &mdash; the driver IC cost scales roughly linearly with zone count.</p>
+
+                    <h3>Optics: Diffuser Design</h3>
+                    <p>Diffuser layers spread light to avoid harsh hotspots. If zones become too small relative to the diffuser design, the optical system starts blending zones together, reducing the effectiveness of having more zones. This is why there are diminishing returns beyond a certain density.</p>
+
+                    <h3>Thermal Management</h3>
+                    <p>Higher LED density means more concentrated heat in a thinner chassis. Flagship models invest in better thermal solutions &mdash; thicker back panels, copper heat spreaders, active cooling in extreme cases. Budget models cut these corners, which limits how hard they can drive the LEDs.</p>
+
+                    <h3>Algorithm Quality</h3>
+                    <p>Even with identical hardware, software makes a significant difference. The dimming algorithm determines:</p>
+                    <ul class="list-style">
+                        <li>How brightness transitions are handled between zones</li>
+                        <li>How motion affects dimming decisions</li>
+                        <li>How aggressively dark zones are dimmed (too aggressive = detail loss; too conservative = reduced contrast)</li>
+                        <li>How well the LCD panel compensates for varying backlight levels</li>
+                    </ul>
+                    <p>This is often the hidden differentiator between brands with similar hardware. Sony&rsquo;s local dimming algorithms are widely regarded as best-in-class, often extracting better performance from fewer zones than competitors with more. Samsung&rsquo;s argument for reducing zones in the QN85D while relying on improved processing is an acknowledgment that algorithms matter &mdash; though reviews suggest the tradeoff was not entirely successful.</p>
+
+                    <!-- Section Divider -->
+                    <hr class="section-divider">
+
+                    <h2>Mini LED vs OLED: The Honest Comparison</h2>
+
+                    <p>It is worth addressing this directly because Mini LED marketing often implies OLED-level performance. It does not achieve that, and it is not trying to. Here is the honest comparison:</p>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Factor</th>
+                                <th>Mini LED (Flagship)</th>
+                                <th>OLED</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Light control</td>
+                                <td>Zone-level (hundreds to thousands of zones)</td>
+                                <td>Pixel-level (8.3 million individual pixels)</td>
+                            </tr>
+                            <tr>
+                                <td>Peak brightness</td>
+                                <td>3,000&ndash;4,000+ nits</td>
+                                <td>1,000&ndash;2,000 nits</td>
+                            </tr>
+                            <tr>
+                                <td>Black level</td>
+                                <td>Near-black (with blooming)</td>
+                                <td>Perfect black (pixel turns off)</td>
+                            </tr>
+                            <tr>
+                                <td>Blooming</td>
+                                <td>Present (severity depends on zones)</td>
+                                <td>None</td>
+                            </tr>
+                            <tr>
+                                <td>Price (65&Prime;)</td>
+                                <td>$800&ndash;$2,500</td>
+                                <td>$1,300&ndash;$3,500</td>
+                            </tr>
+                            <tr>
+                                <td>Burn-in risk</td>
+                                <td>None</td>
+                                <td>Minimal (modern panels), but present</td>
+                            </tr>
+                            <tr>
+                                <td>Best for</td>
+                                <td>Bright rooms, HDR content, sports</td>
+                                <td>Dark rooms, movies, perfect blacks</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <p>Mini LED at its best (3,000+ zones, excellent algorithm) gets impressively close to OLED contrast in most real-world content. But it does not replace OLED for viewers who prioritize perfect blacks and zero blooming. The two technologies serve different priorities, and neither is universally superior.</p>
+
+                    <!-- Section Divider -->
+                    <hr class="section-divider">
+
+                    <h2>The Bottom Line</h2>
+
+                    <p>Mini LED is not a magic upgrade. It is a <strong>scaling improvement in LCD backlighting</strong> &mdash; more LEDs, more zones, better control. But performance depends entirely on execution.</p>
+
+                    <p>Two TVs labeled &ldquo;Mini LED&rdquo; can deliver completely different experiences because:</p>
+
+                    <ul class="list-style">
+                        <li>Zone counts vary from 120 to 14,000+</li>
+                        <li>Hardware investment (driver ICs, thermal design, optics) differs enormously</li>
+                        <li>Dimming algorithms are not equal</li>
+                        <li>The same model name across screen sizes often hides different specifications</li>
+                    </ul>
+
+                    <p>No device is inherently bad. A Mini LED TV with 200 zones is still a functional television that delivers a picture. But when brands <strong>suppress information, avoid disclosing zone counts, layer buzzwords to obscure specifications, or use technical labels that stretch the truth</strong> &mdash; that is not acceptable.</p>
+
+                    <blockquote>&ldquo;Mini LED&rdquo; is a category &mdash; not a guarantee of quality. The label tells you the type of LED used. It tells you nothing about how many zones control that light, how good the algorithm is, or whether the engineering investment matches the price tag. Always look behind the marketing.</blockquote>
+
+                    <p>The most important takeaway is simple: <strong>ask for the zone count</strong>. If a brand will not tell you, that itself is an answer.</p>
+
+                    <!-- Sources & References -->
+                    <hr>
+                    <div class="image-credits">
+                        <h4>Sources &amp; References</h4>
+                        <p>This article draws on data, measurements, and reporting from the following sources:</p>
+                        <ul>
+                            <li><a href="https://www.rtings.com/tv/reviews/samsung/qn85d-qn85dd-qled" target="_blank" rel="noopener">Rtings &mdash; Samsung QN85D QLED Review</a> (dimming zone measurements)</li>
+                            <li><a href="https://www.rtings.com/tv/reviews/samsung/qn90d-qn90dd-qled" target="_blank" rel="noopener">Rtings &mdash; Samsung QN90D QLED Review</a></li>
+                            <li><a href="https://www.flatpanelshd.com/review.php?subaction=showfull&id=1729508352" target="_blank" rel="noopener">FlatpanelsHD &mdash; TCL C855 Review</a> (zone count data up to 2,304)</li>
+                            <li><a href="https://www.flatpanelshd.com/news.php?subaction=showfull&id=1673000307" target="_blank" rel="noopener">FlatpanelsHD &mdash; 2023 Samsung Neo QLED Dimming Zone Analysis</a></li>
+                            <li><a href="https://www.flatpanelshd.com/news.php?subaction=showfull&id=1712648496" target="_blank" rel="noopener">FlatpanelsHD &mdash; TCL C855 Up to 2,304 Zones</a></li>
+                            <li><a href="https://www.whathifi.com/tv-home-cinema/televisions/ive-tested-some-of-the-best-and-the-big-problem-with-mini-led-tvs-is-they-try-too-hard" target="_blank" rel="noopener">What Hi-Fi? &mdash; The Big Problem with Mini LED TVs</a></li>
+                            <li><a href="https://www.whathifi.com/tv-home-cinema/lg-qned91-qned90-65qned91" target="_blank" rel="noopener">What Hi-Fi? &mdash; LG QNED91 Review</a> (160 zones, visible blooming)</li>
+                            <li><a href="https://www.tomsguide.com/reviews/hisense-u6k-mini-led-tv" target="_blank" rel="noopener">Tom&rsquo;s Guide &mdash; Hisense U6K Mini LED TV Review</a> (120&ndash;192 zones)</li>
+                            <li><a href="https://www.tomsguide.com/reference/tv-backlights-explained-edge-lit-vs-full-array-vs-mini-led" target="_blank" rel="noopener">Tom&rsquo;s Guide &mdash; TV Backlights Explained: Edge-Lit vs Full-Array vs Mini LED</a></li>
+                            <li><a href="https://www.techradar.com/televisions/hisense-u8n-review" target="_blank" rel="noopener">TechRadar &mdash; Hisense U8N Review</a> (1,600&ndash;2,000 zones)</li>
+                            <li><a href="https://www.techradar.com/televisions/sony-x95l-review" target="_blank" rel="noopener">TechRadar &mdash; Sony X95L Review</a></li>
+                            <li><a href="https://www.flatpanelshd.com/review.php?subaction=showfull&id=1728467405" target="_blank" rel="noopener">FlatpanelsHD &mdash; Sony Bravia 9 / XR90 Review</a> (1,512&ndash;2,808 zones)</li>
+                            <li><a href="https://www.koreatimes.co.kr/business/companies/20260102/tcl-accused-of-misleading-marketing-on-rgb-mini-led-tvs" target="_blank" rel="noopener">Korea Times &mdash; TCL Accused of Misleading Marketing on RGB Mini LED TVs</a></li>
+                            <li><a href="https://www.koreaherald.com/article/10647863" target="_blank" rel="noopener">Korea Herald &mdash; TCL RGB Mini LED False Advertising</a></li>
+                            <li><a href="https://en.sedaily.com/technology/2026/01/02/tcl-faces-fake-tv-controversy-again-over-phosphor-use" target="_blank" rel="noopener">Seoul Economic Daily &mdash; TCL Faces Fake TV Controversy Over Phosphor Use</a></li>
+                            <li><a href="https://www.techradar.com/televisions/tcl-now-cant-call-some-of-its-tvs-qled-after-losing-in-court-to-samsung-and-there-are-more-legal-cases-coming" target="_blank" rel="noopener">TechRadar &mdash; TCL Can&rsquo;t Call Some TVs QLED After Losing Court Case</a></li>
+                            <li><a href="https://www.techspot.com/news/111693-samsung-wins-court-ruling-after-german-judge-tcl.html" target="_blank" rel="noopener">TechSpot &mdash; Samsung Wins Court Ruling Against TCL QLED Claims</a></li>
+                            <li><a href="https://www.ledinside.com/news/2020/7/miniled_microled_comparison" target="_blank" rel="noopener">LEDinside / TrendForce &mdash; Mini LED and Micro LED Definition and Comparison</a></li>
+                            <li><a href="https://www.minimicroled.com/mini-led-commercial-displays-standards/" target="_blank" rel="noopener">MiniMicroLED.com &mdash; T/SLDA Mini LED Commercial Display Standards</a></li>
+                            <li><a href="https://www.howtogeek.com/818768/edge-lit-vs-direct-lit-vs-full-array-tvs/" target="_blank" rel="noopener">How-To Geek &mdash; Edge-Lit vs Direct-Lit vs Full-Array TVs</a></li>
+                            <li><a href="https://us.community.samsung.com/t5/QLED-and-The-Frame-TVs/Fewer-dimming-zones-with-qn85d-than-previous-models/td-p/2987785" target="_blank" rel="noopener">Samsung Community &mdash; QN85D Fewer Dimming Zones Discussion</a></li>
+                            <li><a href="https://www.avsforum.com/threads/mini-led-density-who-is-king.3258596/" target="_blank" rel="noopener">AVS Forum &mdash; Mini LED Density: Who Is King?</a> (blooming threshold research)</li>
+                            <li><a href="https://www.avforums.com/reviews/hisense-u7k-65u7k-4k-mini-led-tv-review.21014/" target="_blank" rel="noopener">AVForums &mdash; Hisense U7K Mini LED TV Review</a></li>
+                            <li><a href="https://en.wikipedia.org/wiki/LED-backlit_LCD" target="_blank" rel="noopener">Wikipedia &mdash; LED-backlit LCD</a></li>
+                            <li><a href="https://vision-pi.net/mini-led-and-micro-led/" target="_blank" rel="noopener">Vision-Pi &mdash; Mini LED and Micro LED Technology Overview</a></li>
+                        </ul>
+                        <p>All SVG illustrations are original works created for this article.</p>
+                    </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__text">&copy; 2026 Manojit Ballav. Content licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.</div>
+                <div class="footer__links">
+                    <a href="https://www.linkedin.com/in/manojitballav/" target="_blank" rel="noopener">LinkedIn</a>
+                    <a href="https://x.com/manojitballav" target="_blank" rel="noopener">X</a>
+                    <a href="https://github.com/manojitballav" target="_blank" rel="noopener">GitHub</a>
+                    <a href="../privacy-policy.html">Privacy</a>
+                    <a href="../terms-of-service.html">Terms</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+            header.classList.toggle('header--scrolled', window.scrollY > 10);
+        });
+
+        const menuBtn = document.getElementById('menuBtn');
+        const nav = document.getElementById('nav');
+        menuBtn.addEventListener('click', () => {
+            nav.classList.toggle('open');
+            const isOpen = nav.classList.contains('open');
+            menuBtn.innerHTML = isOpen
+                ? '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="6" y1="6" x2="18" y2="18"/><line x1="6" y1="18" x2="18" y2="6"/></svg>'
+                : '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>';
+        });
+
+        nav.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                nav.classList.remove('open');
+                menuBtn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>';
+            });
+        });
+
+        // Dark mode toggle
+        const themeToggle = document.getElementById('themeToggle');
+        const themeToggleMobile = document.getElementById('themeToggleMobile');
+        const mobileLabel = themeToggleMobile.querySelector('.theme-toggle--mobile__label');
+        const root = document.documentElement;
+
+        function updateMobileLabel() {
+            const isDark = root.getAttribute('data-theme') === 'dark';
+            mobileLabel.textContent = isDark ? 'Light Mode' : 'Dark Mode';
+        }
+
+        function setTheme(theme) {
+            root.setAttribute('data-theme', theme);
+            localStorage.setItem('theme', theme);
+            updateMobileLabel();
+        }
+
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) {
+            setTheme(savedTheme);
+        } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            setTheme('dark');
+        }
+        updateMobileLabel();
+
+        themeToggle.addEventListener('click', () => {
+            const current = root.getAttribute('data-theme');
+            setTheme(current === 'dark' ? 'light' : 'dark');
+        });
+
+        themeToggleMobile.addEventListener('click', () => {
+            const current = root.getAttribute('data-theme');
+            setTheme(current === 'dark' ? 'light' : 'dark');
+        });
+
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+            if (!localStorage.getItem('theme')) {
+                setTheme(e.matches ? 'dark' : 'light');
+            }
+        });
+
+        // Scroll-triggered animations
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    revealObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+
+        document.querySelectorAll('.reveal, .reveal--left, .reveal--right, .reveal--scale, .stagger-children').forEach(el => {
+            revealObserver.observe(el);
+        });
+
+        // Tools dropdown
+        const toolsDropdown = document.getElementById('toolsDropdown');
+        if (toolsDropdown) {
+            const trigger = toolsDropdown.querySelector('.nav-dropdown__trigger');
+            trigger.addEventListener('click', (e) => {
+                e.stopPropagation();
+                toolsDropdown.classList.toggle('open');
+            });
+            document.addEventListener('click', () => {
+                toolsDropdown.classList.remove('open');
+            });
+        }
+    </script>
+</body>
+</html>
