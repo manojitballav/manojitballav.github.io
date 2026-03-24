@@ -2,8 +2,8 @@ name: Update Google Certified Devices
 
 on:
   schedule:
-    # Runs every Monday at 06:00 UTC
-    - cron: '0 6 * * 1'
+    # Runs daily at 06:00 UTC — temporary: detecting Google's update cadence
+    - cron: '0 6 * * *'
   workflow_dispatch: # Allow manual trigger
 
 permissions:
@@ -22,12 +22,286 @@ jobs:
 
       - name: Convert UTF-16 to UTF-8
         run: |
-          iconv -f UTF-16 -t UTF-8 /tmp/devices_raw.csv > data/supported_devices.csv
+          iconv -f UTF-16 -t UTF-8 /tmp/devices_raw.csv > /tmp/devices_new.csv
+
+      - name: Detect new devices and update metadata
+        run: |
+          TODAY=$(date -u +"%Y-%m-%d")
+
+          # Find lines present in new but not in old (added devices)
+          # comm requires sorted input; skip header row
+          tail -n +2 data/supported_devices.csv | sort > /tmp/old_sorted.csv
+          tail -n +2 /tmp/devices_new.csv | sort > /tmp/new_sorted.csv
+          comm -13 /tmp/old_sorted.csv /tmp/new_sorted.csv > /tmp/added_lines.csv
+
+          ADDED_COUNT=$(wc -l < /tmp/added_lines.csv | tr -d ' ')
+          echo "New devices detected: $ADDED_COUNT"
+
+          # Build devices_meta.json using python (available on ubuntu runners)
+          # If no new devices found, keep the previous newDevices list intact
+          python3 << 'PYEOF'
+          import csv, json, os
+
+          today = os.popen('date -u +"%Y-%m-%d"').read().strip()
+
+          # Parse added lines
+          new_devices = []
+          added_file = "/tmp/added_lines.csv"
+          if os.path.getsize(added_file) > 0:
+              with open(added_file, "r", encoding="utf-8") as f:
+                  reader = csv.reader(f)
+                  for row in reader:
+                      if len(row) >= 4 and any(cell.strip() for cell in row):
+                          new_devices.append([col.strip() for col in row[:4]])
+
+          # If no new devices this run, preserve the previous batch
+          if len(new_devices) == 0:
+              try:
+                  with open("data/devices_meta.json", "r", encoding="utf-8") as f:
+                      prev = json.load(f)
+                  new_devices = prev.get("newDevices", [])
+                  print(f"No new devices this run — keeping {len(new_devices)} from previous update")
+              except (FileNotFoundError, json.JSONDecodeError):
+                  pass
+
+          meta = {
+              "lastUpdated": today,
+              "newDevicesCount": len(new_devices),
+              "newDevices": new_devices
+          }
+
+          with open("data/devices_meta.json", "w", encoding="utf-8") as f:
+              json.dump(meta, f, ensure_ascii=False, indent=2)
+
+          print(f"Wrote devices_meta.json: {len(new_devices)} new devices, updated {today}")
+          PYEOF
+
+      - name: Overwrite CSV with new version
+        run: |
+          cp /tmp/devices_new.csv data/supported_devices.csv
+
+      - name: Update Atom feed
+        run: |
+          python3 << 'PYEOF'
+          import json, html, datetime, csv, os, re
+          import xml.etree.ElementTree as ET
+
+          FEED_PATH = "data/google-certified-devices-feed.xml"
+          META_PATH = "data/devices_meta.json"
+          CSV_PATH = "data/supported_devices.csv"
+          SITE = "https://manojitballav.com"
+          NS = "http://www.w3.org/2005/Atom"
+          MAX_ENTRIES = 20
+
+          with open(META_PATH, "r", encoding="utf-8") as f:
+              meta = json.load(f)
+
+          # Only add a feed entry if there are genuinely new devices from this diff
+          added_file = "/tmp/added_lines.csv"
+          if os.path.getsize(added_file) == 0:
+              print("No new devices this run — skipping feed update")
+              exit(0)
+
+          today = meta["lastUpdated"]
+          devices = meta["newDevices"]
+          count = meta["newDevicesCount"]
+          now = today + "T06:00:00Z"
+          date_pretty = datetime.datetime.strptime(today, "%Y-%m-%d").strftime("%-d %B %Y")
+
+          # --- Database stats ---
+          with open(CSV_PATH, "r", encoding="utf-8") as f:
+              total_devices = sum(1 for _ in f) - 1  # minus header
+          all_brands = set()
+          with open(CSV_PATH, "r", encoding="utf-8") as f:
+              reader = csv.reader(f)
+              next(reader)  # skip header
+              for row in reader:
+                  if row and row[0].strip():
+                      all_brands.add(row[0].strip())
+          total_brands = len(all_brands)
+
+          # --- Category detection (simplified mirror of the JS logic) ---
+          CAT_EMOJI = {
+              "phone": "\U0001F4F1", "tablet": "\U0001F4DD", "tv": "\U0001F4FA",
+              "streaming": "\u25B6\uFE0F", "projector": "\U0001F3AC",
+              "watch": "\u231A", "auto": "\U0001F697", "other": "\u2699\uFE0F"
+          }
+          CAT_LABEL = {
+              "phone": "Phones", "tablet": "Tablets", "tv": "TVs",
+              "streaming": "Streaming Devices", "projector": "Projectors",
+              "watch": "Wearables", "auto": "Automotive", "other": "Other"
+          }
+          # Order for display
+          CAT_ORDER = ["phone", "tablet", "tv", "streaming", "projector", "watch", "auto", "other"]
+
+          TV_BRANDS = {"Arcelik","Altus","Beko","Grundig","Changhong","CHiQ","Sceptre",
+              "Element","Westinghouse","Cello","Linsar","Engel","Cecotec","TD SYSTEMS",
+              "INFINITON","Aconatic","Devant","Star-X","Dyon","KUNFT","EDENWOOD","Syinix",
+              "BPL","LLOYD","Prism","iSTAR","TORNADO","ORION","SABA","Continental Edison",
+              "Bang & Olufsen","Seiki","METZ","Evvoli","Dual","Magnavox","Bauhn",
+              "SCHNEIDER","MAG","4iG TV","KTCtv"}
+          STREAMING_BRANDS = {"Mecool","Homatics","Formuler","Dynalink","WeTek","MINIX",
+              "RockTek","AirTV","HiMedia","Amino","Arris","Technicolor","Austrostream",
+              "COSMOTE TV","DishTV-NZ","Magenta TV","TVCore","eroc","Sagemcom","COOCAA"}
+          PROJECTOR_BRANDS = {"XGIMI","Dangbei","JMGO","Nebula","Formovie","Epson",
+              "Wemax","HAPPRUN","ETOE","WIMIUS","GOODEE","ELEPHAS","LUMIO"}
+          WATCH_BRANDS = {"Mobvoi","Fossil","TAG Heuer","Montblanc","Hublot","Suunto"}
+          AUTO_BRANDS = {"Polestar","Volvo","Rivian","Honda","Renault","Nissan","Porsche",
+              "General Motors","Mazda","Subaru","ALPINE"}
+          TABLET_BRANDS = {"Wacom"}
+
+          def detect_type(brand, marketing, model):
+              b = brand.strip()
+              if b in TV_BRANDS: return "tv"
+              if b in STREAMING_BRANDS: return "streaming"
+              if b in PROJECTOR_BRANDS: return "projector"
+              if b in WATCH_BRANDS: return "watch"
+              if b in AUTO_BRANDS: return "auto"
+              if b in TABLET_BRANDS: return "tablet"
+              text = (marketing + " " + model).lower()
+              if re.search(r"\b(projector|laser.?projector|dlp)\b", text): return "projector"
+              if re.search(r"\b(streaming.?box|streaming.?stick|chromecast|dongle|set.?top|stb|media.?box|media.?player)\b", text): return "streaming"
+              if re.search(r"\b(tv|television|android tv|google tv|smart tv)\b", text): return "tv"
+              if re.search(r"\b(tab|tablet|pad)\b", text) and "gamepad" not in text: return "tablet"
+              if re.search(r"\b(watch|band|wearable|wear\s?os|smartwatch)\b", text): return "watch"
+              if re.search(r"\b(auto|car|vehicle|infotainment|automotive)\b", text): return "auto"
+              return "phone"
+
+          # --- Categorize new devices ---
+          categorized = {}
+          for d in devices:
+              cat = detect_type(d[0], d[1], d[3])
+              categorized.setdefault(cat, []).append(d)
+
+          # --- Brand summary ---
+          brands_in_update = sorted(set(d[0] for d in devices if d[0]))
+
+          # --- Build editorial title ---
+          # Pick up to 2 notable marketing names for the title
+          notable_names = [d[1] for d in devices if d[1] and d[1] not in ("MOTOROLA", "Motorola", "GOTO")][:2]
+          if len(notable_names) >= 2:
+              title = f"{notable_names[0]}, {notable_names[1]}"
+              if count > 2:
+                  title += f" + {count - 2} more devices certified"
+              else:
+                  title += " certified"
+          elif len(notable_names) == 1:
+              title = f"{notable_names[0]}"
+              if count > 1:
+                  title += f" + {count - 1} more devices certified"
+              else:
+                  title += " certified"
+          else:
+              title = f"{count} new devices certified"
+          title += f" — {date_pretty}"
+
+          # --- Build summary (short — details are in the card) ---
+          summary = f"{count} new devices just passed Google certification from {', '.join(brands_in_update[:3])}"
+          if len(brands_in_update) > 3:
+              summary += f" and {len(brands_in_update) - 3} more"
+          summary += "."
+
+          # --- Build rich HTML content ---
+          S = {
+              "wrap": "font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;max-width:600px;color:#202124;",
+              "header": "background:linear-gradient(135deg,#1a73e8,#174ea6);color:#fff;padding:20px 24px;border-radius:16px 16px 0 0;",
+              "header_top": "display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;",
+              "header_count": "font-size:36px;font-weight:800;line-height:1;",
+              "header_label": "font-size:15px;font-weight:500;opacity:0.9;",
+              "header_pills": "margin-top:12px;display:flex;gap:6px;flex-wrap:wrap;",
+              "header_pill": "display:inline-block;padding:3px 10px;border-radius:20px;font-size:11px;font-weight:600;background:rgba(255,255,255,0.2);color:#fff;",
+              "section": "padding:16px 24px;",
+              "cat_title": "font-size:14px;font-weight:700;color:#202124;margin:16px 0 8px;padding-bottom:6px;border-bottom:1px solid #e8eaed;",
+              "table": "width:100%;border-collapse:collapse;font-size:13px;margin-bottom:8px;",
+              "th": "text-align:left;padding:8px 10px;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;color:#5f6368;background:#f8f9fa;border-bottom:2px solid #e8eaed;",
+              "td": "padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#202124;",
+              "td_code": "padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#5f6368;font-family:monospace;font-size:12px;",
+              "brand_td": "padding:8px 10px;border-bottom:1px solid #f0f0f0;font-weight:600;color:#202124;",
+              "footer": "padding:20px 24px;background:#f8f9fa;border-radius:0 0 16px 16px;text-align:center;",
+              "cta": "display:inline-block;padding:10px 24px;background:#1a73e8;color:#fff;text-decoration:none;border-radius:24px;font-size:14px;font-weight:600;",
+              "footer_note": "margin-top:12px;font-size:12px;color:#9aa0a6;",
+          }
+
+          # Build header pills
+          pills_html = ""
+          for cat in CAT_ORDER:
+              if cat in categorized:
+                  pills_html += f'<span style="{S["header_pill"]}">{CAT_EMOJI[cat]} {len(categorized[cat])} {CAT_LABEL[cat]}</span>'
+
+          content = f'''<div style="{S["wrap"]}">
+          <div style="{S["header"]}">
+            <div style="{S["header_top"]}">
+              <span style="{S["header_count"]}">+{count}</span>
+              <span style="{S["header_label"]}">new devices &middot; {date_pretty}</span>
+            </div>
+            <div style="{S["header_pills"]}">{pills_html}</div>
+          </div>
+          <div style="{S["section"]}">'''
+
+          # Render each category group
+          for cat in CAT_ORDER:
+              if cat not in categorized:
+                  continue
+              items = categorized[cat]
+              content += f'<div style="{S["cat_title"]}">{CAT_EMOJI[cat]} {CAT_LABEL[cat]} ({len(items)})</div>'
+              content += f'<table style="{S["table"]}"><tr><th style="{S["th"]}">Brand</th><th style="{S["th"]}">Device</th><th style="{S["th"]}">Model</th></tr>'
+              for d in items:
+                  content += f'<tr><td style="{S["brand_td"]}">{html.escape(d[0] or "—")}</td><td style="{S["td"]}">{html.escape(d[1] or "—")}</td><td style="{S["td_code"]}">{html.escape(d[3] or "—")}</td></tr>'
+              content += '</table>'
+
+          content += f'''</div>
+          <div style="{S["footer"]}">
+            <a href="{SITE}/google-certified-devices.html" style="{S["cta"]}">Browse All Certified Devices &rarr;</a>
+            <div style="{S["footer_note"]}">Published by Mono &middot; <a href="{SITE}" style="color:#9aa0a6;">manojitballav.com</a></div>
+          </div>
+          </div>'''
+
+          # --- Build Atom entry ---
+          ET.register_namespace("", NS)
+          tree = ET.parse(FEED_PATH)
+          root = tree.getroot()
+
+          for el in root.findall(f"{{{NS}}}updated"):
+              el.text = now
+
+          entry = ET.SubElement(root, f"{{{NS}}}entry")
+          ET.SubElement(entry, f"{{{NS}}}title").text = title
+          ET.SubElement(entry, f"{{{NS}}}id").text = f"{SITE}/google-certified-devices.html#update-{today}"
+          link = ET.SubElement(entry, f"{{{NS}}}link")
+          link.set("href", f"{SITE}/google-certified-devices.html")
+          link.set("rel", "alternate")
+          link.set("type", "text/html")
+          ET.SubElement(entry, f"{{{NS}}}updated").text = now
+          ET.SubElement(entry, f"{{{NS}}}summary").text = summary
+          content_el = ET.SubElement(entry, f"{{{NS}}}content")
+          content_el.set("type", "html")
+          content_el.text = content
+
+          # Sort entries newest-first, cap at MAX_ENTRIES
+          entries = root.findall(f"{{{NS}}}entry")
+          entries.sort(key=lambda e: (e.find(f"{{{NS}}}updated").text if e.find(f"{{{NS}}}updated") is not None else ""), reverse=True)
+          for e in root.findall(f"{{{NS}}}entry"):
+              root.remove(e)
+          for e in entries[:MAX_ENTRIES]:
+              root.append(e)
+
+          tree.write(FEED_PATH, encoding="unicode", xml_declaration=True)
+
+          # Prettify
+          with open(FEED_PATH, "r", encoding="utf-8") as f:
+              xml_str = f.read()
+          xml_str = re.sub(r"(>)(<)", r"\1\n\2", xml_str)
+          with open(FEED_PATH, "w", encoding="utf-8") as f:
+              f.write(xml_str)
+
+          print(f"Feed updated: {title}")
+          PYEOF
 
       - name: Check for changes
         id: diff
         run: |
-          if git diff --quiet data/supported_devices.csv; then
+          git add data/supported_devices.csv data/devices_meta.json data/google-certified-devices-feed.xml
+          if git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
@@ -38,7 +312,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/supported_devices.csv
           DEVICE_COUNT=$(wc -l < data/supported_devices.csv | tr -d ' ')
-          git commit -m "Update Google certified devices list ($DEVICE_COUNT entries)"
+          NEW_COUNT=$(python3 -c "import json; print(json.load(open('data/devices_meta.json'))['newDevicesCount'])")
+          git commit -m "Update Google certified devices list ($DEVICE_COUNT entries, $NEW_COUNT new)"
           git push

@@ -15,6 +15,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
     <link rel="manifest" href="site.webmanifest">
+    <link rel="alternate" type="application/atom+xml" title="Google Certified Devices — New Additions" href="/data/google-certified-devices-feed.xml">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
@@ -209,6 +210,40 @@
         .devices-stat i {
             color: var(--accent, #1a73e8);
             font-size: 13px;
+        }
+
+        /* RSS button */
+        .devices-rss-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            margin-left: auto;
+            padding: 6px 14px;
+            border: 1px solid rgba(242, 142, 38, 0.3);
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 500;
+            font-family: inherit;
+            color: #f28e26;
+            background: rgba(242, 142, 38, 0.06);
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .devices-rss-btn:hover {
+            background: rgba(242, 142, 38, 0.12);
+            border-color: rgba(242, 142, 38, 0.5);
+        }
+        .devices-rss-btn i {
+            font-size: 12px;
+        }
+        [data-theme="dark"] .devices-rss-btn {
+            color: #f5a623;
+            border-color: rgba(245, 166, 35, 0.25);
+            background: rgba(245, 166, 35, 0.08);
+        }
+        [data-theme="dark"] .devices-rss-btn:hover {
+            background: rgba(245, 166, 35, 0.15);
+            border-color: rgba(245, 166, 35, 0.4);
         }
 
         /* Brand cards grid */
@@ -581,6 +616,125 @@
             border-color: var(--accent, #0a84ff);
         }
 
+        /* Classification info pill */
+        .devices-classification-info {
+            max-width: 640px;
+            margin: 10px auto 0;
+            padding: 10px 16px;
+            display: flex;
+            align-items: baseline;
+            gap: 8px;
+            background: rgba(245, 166, 35, 0.06);
+            border-radius: 10px;
+            font-size: 0.8rem;
+            color: var(--text-secondary, #5f6368);
+            line-height: 1.5;
+        }
+        .devices-classification-info i {
+            color: #f5a623;
+            font-size: 0.8rem;
+            flex-shrink: 0;
+        }
+        .devices-classification-info a {
+            color: var(--accent, #1a73e8);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .devices-classification-info a:hover {
+            text-decoration: underline;
+        }
+        [data-theme="dark"] .devices-classification-info {
+            background: rgba(245, 166, 35, 0.06);
+        }
+        [data-theme="dark"] .devices-classification-info a {
+            color: var(--accent, #0a84ff);
+        }
+
+        /* Last updated badge */
+        .devices-last-updated {
+            margin: 12px auto 0;
+            text-align: center;
+            font-size: 0.8rem;
+            color: var(--text-secondary, #5f6368);
+        }
+        .devices-last-updated i {
+            margin-right: 4px;
+            font-size: 0.75rem;
+        }
+
+        /* Recently Added view */
+        .recently-added-group {
+            margin-bottom: 28px;
+        }
+        .recently-added-group__header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+        }
+        [data-theme="dark"] .recently-added-group__header {
+            border-bottom-color: rgba(255, 255, 255, 0.06);
+        }
+        .recently-added-group__icon {
+            width: 32px;
+            height: 32px;
+            border-radius: 8px;
+            background: linear-gradient(135deg, rgba(26, 115, 232, 0.08), rgba(26, 115, 232, 0.16));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 13px;
+            color: var(--accent, #1a73e8);
+            flex-shrink: 0;
+        }
+        [data-theme="dark"] .recently-added-group__icon {
+            background: linear-gradient(135deg, rgba(10, 132, 255, 0.1), rgba(10, 132, 255, 0.2));
+            color: var(--accent, #0a84ff);
+        }
+        .recently-added-group__title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--text-primary, #202124);
+        }
+        [data-theme="dark"] .recently-added-group__title {
+            color: var(--text-primary, #f5f5f7);
+        }
+        .recently-added-group__count {
+            font-size: 0.8rem;
+            color: var(--text-secondary, #5f6368);
+            margin-left: auto;
+        }
+        .recently-added-browse {
+            text-align: center;
+            margin-top: 32px;
+            padding-top: 24px;
+            border-top: 1px solid rgba(0, 0, 0, 0.06);
+        }
+        [data-theme="dark"] .recently-added-browse {
+            border-top-color: rgba(255, 255, 255, 0.06);
+        }
+        .recently-added-empty {
+            text-align: center;
+            padding: 48px 24px;
+            color: var(--text-secondary, #5f6368);
+        }
+        .recently-added-empty i {
+            font-size: 40px;
+            margin-bottom: 12px;
+            opacity: 0.25;
+            display: block;
+        }
+        .recently-added-empty p {
+            font-size: 15px;
+            margin-bottom: 4px;
+        }
+        .recently-added-empty .sub {
+            font-size: 13px;
+            opacity: 0.7;
+        }
+
         /* Responsive */
         @media (max-width: 768px) {
             .devices-hero h1 { font-size: 1.75rem; }
@@ -644,6 +798,11 @@
             <div style="max-width: 640px; margin: 16px auto 0; padding: 12px 16px; background: rgba(26, 115, 232, 0.06); border-left: 3px solid var(--accent, #1a73e8); border-radius: 0 8px 8px 0; font-size: 0.85rem; color: var(--text-secondary, #5f6368); line-height: 1.5;">
                 <strong style="color: var(--text-primary, #202124);">Note:</strong> When an OEM shares the same mainboard across multiple products, they may appear as a single certified entry. Data refreshes automatically every week.
             </div>
+            <div class="devices-classification-info">
+                <i class="fa-solid fa-circle-info"></i>
+                <span>Device categories are auto-detected and may occasionally be off. Spot something wrong? Drop me a note on <a href="https://x.com/manojitballav" target="_blank" rel="noopener">X (@manojitballav)</a> or <a href="mailto:manojitballav@gmail.com">email me</a> — happy to fix it!</span>
+            </div>
+            <div class="devices-last-updated" id="lastUpdated" style="display:none;"></div>
         </div>
     </section>
 
@@ -676,6 +835,9 @@
                     <i class="fa-solid fa-filter"></i>
                     <span>Showing <strong id="showingCount">0</strong></span>
                 </div>
+                <a href="/data/google-certified-devices-feed.xml" class="devices-rss-btn" target="_blank" rel="noopener" title="Subscribe via RSS/Atom feed">
+                    <i class="fa-solid fa-rss"></i> <span>Subscribe</span>
+                </a>
             </div>
 
             <!-- Brand grid view -->
@@ -683,6 +845,16 @@
                 <div class="devices-loading" id="loadingState">
                     <div class="spinner"></div>
                     <p>Loading device database...</p>
+                </div>
+            </div>
+
+            <!-- Recently Added view -->
+            <div id="recentlyAddedView" style="display:none;">
+                <div id="recentlyAddedContent"></div>
+                <div class="recently-added-browse">
+                    <button type="button" class="btn btn--primary" id="browseAllBtn">
+                        <i class="fa-solid fa-layer-group"></i> Browse All Devices
+                    </button>
                 </div>
             </div>
 
@@ -776,6 +948,8 @@
         // Data
         let allDevices = []; // each row: [brand, marketing, device, model, type]
         let brandData = []; // [{name, count, letter}]
+        let devicesMeta = null; // { lastUpdated, newDevicesCount, newDevices }
+        let showingRecentlyAdded = false;
 
         // Device type detection
         const CATEGORIES = [
@@ -794,6 +968,7 @@
         const DEVICE_OVERRIDES = {
             'himalaya': 'projector', // Lumio Arc 5/7
             'khardi': 'tv',          // Lumio Vision
+            'Elise_T65V': 'tablet',  // Quantum Elise pen tablet
         };
 
         // === BRAND-LEVEL OVERRIDES (all devices from brand = this type) ===
@@ -824,6 +999,8 @@
             'Wemax': 'projector', 'HAPPRUN': 'projector', 'ETOE': 'projector',
             'WIMIUS': 'projector', 'GOODEE': 'projector', 'ELEPHAS': 'projector',
             'LUMIO': 'projector',
+            // Tablets
+            'Wacom': 'tablet',
             // Wearables
             'Mobvoi': 'watch', 'Fossil': 'watch', 'TAG Heuer': 'watch',
             'Montblanc': 'watch', 'Hublot': 'watch', 'Suunto': 'watch',
@@ -997,6 +1174,10 @@
         const detailSearch = document.getElementById('detailSearch');
         const detailTableWrap = document.getElementById('detailTableWrap');
         const detailPagination = document.getElementById('detailPagination');
+        const recentlyAddedView = document.getElementById('recentlyAddedView');
+        const recentlyAddedContent = document.getElementById('recentlyAddedContent');
+        const browseAllBtn = document.getElementById('browseAllBtn');
+        const lastUpdatedEl = document.getElementById('lastUpdated');
 
         // CSV parser
         function parseCSV(text) {
@@ -1058,10 +1239,19 @@
         function buildCategoryTabs() {
             const typeCounts = {};
             allDevices.forEach(d => { typeCounts[d[4]] = (typeCounts[d[4]] || 0) + 1; });
-            categoryTabs.innerHTML = CATEGORIES.map(c => {
+
+            // "Recently Added" tab (only if meta loaded with new devices)
+            let recentTab = '';
+            if (devicesMeta && devicesMeta.newDevicesCount > 0) {
+                recentTab = `<button type="button" class="cat-tab${showingRecentlyAdded ? ' active' : ''}" data-cat="recent">
+                    <i class="fa-solid fa-sparkles"></i> Recently Added <span class="cat-count">${devicesMeta.newDevicesCount.toLocaleString()}</span>
+                </button>`;
+            }
+
+            categoryTabs.innerHTML = recentTab + CATEGORIES.map(c => {
                 const count = c.id === 'all' ? allDevices.length : (typeCounts[c.id] || 0);
                 if (c.id !== 'all' && !count) return '';
-                return `<button type="button" class="cat-tab${activeCategory === c.id ? ' active' : ''}" data-cat="${c.id}">
+                return `<button type="button" class="cat-tab${!showingRecentlyAdded && activeCategory === c.id ? ' active' : ''}" data-cat="${c.id}">
                     <i class="fa-solid ${c.icon}"></i> ${c.label} <span class="cat-count">${count.toLocaleString()}</span>
                 </button>`;
             }).join('');
@@ -1070,12 +1260,22 @@
         categoryTabs.addEventListener('click', (e) => {
             const tab = e.target.closest('.cat-tab');
             if (!tab) return;
-            activeCategory = tab.dataset.cat;
-            if (currentBrand) goBackToGrid();
+            const cat = tab.dataset.cat;
+
+            if (cat === 'recent') {
+                showingRecentlyAdded = true;
+                if (currentBrand) goBackToGrid();
+                showRecentlyAddedView();
+            } else {
+                showingRecentlyAdded = false;
+                activeCategory = cat;
+                if (currentBrand) goBackToGrid();
+                hideRecentlyAddedView();
+                buildBrandData();
+                buildAlphaBar();
+                renderBrandGrid();
+            }
             buildCategoryTabs();
-            buildBrandData();
-            buildAlphaBar();
-            renderBrandGrid();
         });
 
         // Alphabet bar
@@ -1293,6 +1493,100 @@
             return [1, '...', current - 1, current, current + 1, '...', total];
         }
 
+        // Recently Added view
+        function showRecentlyAddedView() {
+            brandGridView.style.display = 'none';
+            alphaBar.style.display = 'none';
+            searchInput.closest('.devices-search-wrap').style.display = 'none';
+            showingStat.style.display = 'none';
+            recentlyAddedView.style.display = '';
+            renderRecentlyAdded();
+        }
+
+        function hideRecentlyAddedView() {
+            recentlyAddedView.style.display = 'none';
+            brandGridView.style.display = '';
+            alphaBar.style.display = '';
+            searchInput.closest('.devices-search-wrap').style.display = '';
+        }
+
+        function renderRecentlyAdded() {
+            if (!devicesMeta || devicesMeta.newDevicesCount === 0) {
+                recentlyAddedContent.innerHTML = `<div class="recently-added-empty">
+                    <i class="fa-solid fa-check-circle"></i>
+                    <p>No new devices since the last update.</p>
+                    <p class="sub">The database refreshes every Monday. Check back soon.</p>
+                </div>`;
+                return;
+            }
+
+            // Tag each new device with its category using the same detectType logic
+            const tagged = devicesMeta.newDevices.map(d => ({
+                brand: d[0], marketing: d[1], device: d[2], model: d[3],
+                type: detectType(d[1], d[3], d[2], d[0])
+            }));
+
+            // Group by category
+            const groups = {};
+            tagged.forEach(d => {
+                if (!groups[d.type]) groups[d.type] = [];
+                groups[d.type].push(d);
+            });
+
+            // Render in CATEGORIES order, skip empty
+            const catMeta = {};
+            CATEGORIES.forEach(c => { catMeta[c.id] = c; });
+
+            let html = '';
+            CATEGORIES.forEach(c => {
+                if (c.id === 'all') return;
+                const items = groups[c.id];
+                if (!items || items.length === 0) return;
+
+                html += `<div class="recently-added-group">
+                    <div class="recently-added-group__header">
+                        <div class="recently-added-group__icon"><i class="fa-solid ${c.icon}"></i></div>
+                        <span class="recently-added-group__title">${c.label}</span>
+                        <span class="recently-added-group__count">${items.length.toLocaleString()} new</span>
+                    </div>
+                    <div class="devices-table-wrap"><table class="devices-table">
+                        <thead><tr>
+                            <th>Brand</th><th>Marketing Name</th><th>Device</th><th>Model</th>
+                        </tr></thead><tbody>`;
+                items.forEach(d => {
+                    html += `<tr>
+                        <td>${escapeHTML(d.brand || '—')}</td>
+                        <td>${escapeHTML(d.marketing || '—')}</td>
+                        <td class="code-cell">${escapeHTML(d.device || '—')}</td>
+                        <td>${escapeHTML(d.model || '—')}</td>
+                    </tr>`;
+                });
+                html += `</tbody></table></div></div>`;
+            });
+
+            recentlyAddedContent.innerHTML = html;
+        }
+
+        browseAllBtn.addEventListener('click', () => {
+            showingRecentlyAdded = false;
+            activeCategory = 'all';
+            hideRecentlyAddedView();
+            buildCategoryTabs();
+            buildBrandData();
+            buildAlphaBar();
+            renderBrandGrid();
+            document.querySelector('.devices-hero').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+
+        // Show last updated date
+        function showLastUpdated() {
+            if (!devicesMeta || !devicesMeta.lastUpdated) return;
+            const d = new Date(devicesMeta.lastUpdated + 'T00:00:00');
+            const formatted = d.toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' });
+            lastUpdatedEl.innerHTML = `<i class="fa-solid fa-clock-rotate-left"></i> Database last updated: <strong>${formatted}</strong>`;
+            lastUpdatedEl.style.display = '';
+        }
+
         // Global search — filters brand grid, or if query matches devices, show matching brands
         let searchTimer;
         searchInput.addEventListener('input', () => {
@@ -1302,6 +1596,13 @@
                 if (searchQuery) {
                     activeLetter = '';
                     buildAlphaBar();
+                }
+                // If Recently Added is showing and user starts searching, switch back to grid
+                if (showingRecentlyAdded) {
+                    showingRecentlyAdded = false;
+                    hideRecentlyAddedView();
+                    buildCategoryTabs();
+                    buildBrandData();
                 }
                 renderBrandGrid();
             }, 200);
@@ -1318,19 +1619,29 @@
             }, 200);
         });
 
-        // Load data
-        fetch('/data/supported_devices.csv')
-            .then(res => { if (!res.ok) throw new Error('Failed'); return res.text(); })
-            .then(text => {
-                allDevices = parseCSV(text);
+        // Load data (CSV + meta in parallel)
+        Promise.all([
+            fetch('/data/supported_devices.csv').then(res => { if (!res.ok) throw new Error('Failed'); return res.text(); }),
+            fetch('/data/devices_meta.json').then(res => res.ok ? res.json() : null).catch(() => null)
+        ]).then(([csvText, meta]) => {
+                allDevices = parseCSV(csvText);
                 // Tag each device with inferred type
                 allDevices.forEach(d => { d[4] = detectType(d[1], d[3], d[2], d[0]); });
+                devicesMeta = meta;
                 buildBrandData();
                 totalCountEl.textContent = allDevices.length.toLocaleString();
                 brandCountEl.textContent = brandData.length.toLocaleString();
                 buildCategoryTabs();
                 buildAlphaBar();
-                renderBrandGrid();
+                showLastUpdated();
+                // Default to Recently Added view if new devices exist
+                if (devicesMeta && devicesMeta.newDevicesCount > 0) {
+                    showingRecentlyAdded = true;
+                    buildCategoryTabs();
+                    showRecentlyAddedView();
+                } else {
+                    renderBrandGrid();
+                }
             })
             .catch(err => {
                 brandGridView.innerHTML = '<div class="devices-empty"><i class="fa-solid fa-triangle-exclamation"></i><p>Failed to load device data. Please try refreshing.</p></div>';
