@@ -524,13 +524,14 @@ p + p { margin-top: 16px; }
   font-size: 10px;
   transition: transform 0.2s;
 }
-.nav-dropdown:hover .dd-chevron {
+.nav-dropdown:hover .dd-chevron,
+.nav-dropdown:focus-within .dd-chevron {
   transform: rotate(180deg);
 }
 .nav-dropdown__menu {
   display: none;
   position: absolute;
-  top: calc(100% + 4px);
+  top: 100%;
   left: 0;
   min-width: 220px;
   background: rgba(255, 255, 255, 0.96);
@@ -539,9 +540,11 @@ p + p { margin-top: 16px; }
   border-radius: 12px;
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1), 0 1px 4px rgba(0, 0, 0, 0.05);
   padding: 6px;
+  padding-top: 10px;
   z-index: 200;
 }
-.nav-dropdown:hover .nav-dropdown__menu {
+.nav-dropdown:hover .nav-dropdown__menu,
+.nav-dropdown:focus-within .nav-dropdown__menu {
   display: block;
 }
 .nav-dropdown__menu a {
