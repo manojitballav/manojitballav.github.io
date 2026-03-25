@@ -1,15 +1,60 @@
 {
-  "lastUpdated": "2026-03-24",
+  "lastUpdated": "2026-03-25",
   "newDevicesCount": 9,
   "newDevices": [
-    ["Hisense", "Hisense Infinity H72 Pro", "HLTE271E", "Hisense H73"],
-    ["KTCtv", "GOTO", "elliniko", "4K SMART TV"],
-    ["KTCtv", "GOTO", "templeton", "4K SMART TV"],
-    ["Motorola", "MOTOROLA", "elliniko", "4K SMART TV"],
-    ["Motorola", "Motorola", "templeton", "4K SMART TV"],
-    ["Motorola", "motorola razr fold", "blanc", "motorola razr fold"],
-    ["OnePlus", "OnePlus 15T", "OP64DDL1", "PLZ110"],
-    ["Quantum", "Elise_T65V", "Elise_T65V", "Elise T80P"],
-    ["Wacom", "DTHA140", "Wacom_MovinkPad_14", "DTHA140"]
+    [
+      "Hisense",
+      "Hisense Infinity H72 Pro",
+      "HLTE271E",
+      "Hisense H73"
+    ],
+    [
+      "KTCtv",
+      "GOTO",
+      "elliniko",
+      "4K SMART TV"
+    ],
+    [
+      "KTCtv",
+      "GOTO",
+      "templeton",
+      "4K SMART TV"
+    ],
+    [
+      "Motorola",
+      "MOTOROLA",
+      "elliniko",
+      "4K SMART TV"
+    ],
+    [
+      "Motorola",
+      "Motorola",
+      "templeton",
+      "4K SMART TV"
+    ],
+    [
+      "Motorola",
+      "motorola razr fold",
+      "blanc",
+      "motorola razr fold"
+    ],
+    [
+      "OnePlus",
+      "OnePlus 15T",
+      "OP64DDL1",
+      "PLZ110"
+    ],
+    [
+      "Quantum",
+      "Elise_T65V",
+      "Elise_T65V",
+      "Elise T80P"
+    ],
+    [
+      "Wacom",
+      "DTHA140",
+      "Wacom_MovinkPad_14",
+      "DTHA140"
+    ]
   ]
 }
