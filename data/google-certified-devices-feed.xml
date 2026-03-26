@@ -1,64 +1,85 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Google Certified Devices — New Additions</title>
   <subtitle>Tracking every newly Google certified (GMS) Android device worldwide — phones, tablets, TVs, streaming devices, projectors, wearables, and automotive.</subtitle>
-  <link href="https://manojitballav.com/google-certified-devices.html" rel="alternate" type="text/html"/>
-  <link href="https://manojitballav.com/data/google-certified-devices-feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://manojitballav.com/google-certified-devices.html" rel="alternate" type="text/html" />
+  <link href="https://manojitballav.com/data/google-certified-devices-feed.xml" rel="self" type="application/atom+xml" />
   <id>https://manojitballav.com/data/google-certified-devices-feed.xml</id>
-  <updated>2026-03-24T06:00:00Z</updated>
+  <updated>2026-03-26T06:00:00Z</updated>
   <author>
     <name>Manojit Ballav</name>
     <uri>https://manojitballav.com</uri>
   </author>
   <icon>https://manojitballav.com/images/favicon-32x32.png</icon>
   <entry>
+<title>Tab11SE_RU, QTAB_PLUS_LTE + 7 more devices certified — 26 March 2026</title>
+<id>https://manojitballav.com/google-certified-devices.html#update-2026-03-26</id>
+<link href="https://manojitballav.com/google-certified-devices.html" rel="alternate" type="text/html" />
+<updated>2026-03-26T06:00:00Z</updated>
+<summary>9 new devices just passed Google certification from Blackview, Compaq, RockTek and 5 more.</summary>
+<content type="html">&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;max-width:600px;color:#202124;"&gt;
+&lt;div style="background:linear-gradient(135deg,#1a73e8,#174ea6);color:#fff;padding:20px 24px;border-radius:16px 16px 0 0;"&gt;
+  &lt;div style="display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;"&gt;
+    &lt;span style="font-size:36px;font-weight:800;line-height:1;"&gt;+9&lt;/span&gt;
+    &lt;span style="font-size:15px;font-weight:500;opacity:0.9;"&gt;new devices &amp;middot; 26 March 2026&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;div style="margin-top:12px;display:flex;gap:6px;flex-wrap:wrap;"&gt;&lt;span style="display:inline-block;padding:3px 10px;border-radius:20px;font-size:11px;font-weight:600;background:rgba(255,255,255,0.2);color:#fff;"&gt;📱 7 Phones&lt;/span&gt;&lt;span style="display:inline-block;padding:3px 10px;border-radius:20px;font-size:11px;font-weight:600;background:rgba(255,255,255,0.2);color:#fff;"&gt;📝 1 Tablets&lt;/span&gt;&lt;span style="display:inline-block;padding:3px 10px;border-radius:20px;font-size:11px;font-weight:600;background:rgba(255,255,255,0.2);color:#fff;"&gt;▶️ 1 Streaming Devices&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="padding:16px 24px;"&gt;&lt;div style="font-size:14px;font-weight:700;color:#202124;margin:16px 0 8px;padding-bottom:6px;border-bottom:1px solid #e8eaed;"&gt;📱 Phones (7)&lt;/div&gt;&lt;table style="width:100%;border-collapse:collapse;font-size:13px;margin-bottom:8px;"&gt;&lt;tr&gt;&lt;th style="text-align:left;padding:8px 10px;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;color:#5f6368;background:#f8f9fa;border-bottom:2px solid #e8eaed;"&gt;Brand&lt;/th&gt;&lt;th style="text-align:left;padding:8px 10px;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;color:#5f6368;background:#f8f9fa;border-bottom:2px solid #e8eaed;"&gt;Device&lt;/th&gt;&lt;th style="text-align:left;padding:8px 10px;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;color:#5f6368;background:#f8f9fa;border-bottom:2px solid #e8eaed;"&gt;Model&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;font-weight:600;color:#202124;"&gt;Compaq&lt;/td&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#202124;"&gt;QTAB_PLUS_LTE&lt;/td&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#5f6368;font-family:monospace;font-size:12px;"&gt;QTAB_PLUS_LTE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;font-weight:600;color:#202124;"&gt;TABWEE&lt;/td&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#202124;"&gt;T70_EEA&lt;/td&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#5f6368;font-family:monospace;font-size:12px;"&gt;T70&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;font-weight:600;color:#202124;"&gt;ZOLON&lt;/td&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#202124;"&gt;MP1x&lt;/td&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#5f6368;font-family:monospace;font-size:12px;"&gt;MP1x&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;font-weight:600;color:#202124;"&gt;ZTE&lt;/td&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#202124;"&gt;Z2570N&lt;/td&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#5f6368;font-family:monospace;font-size:12px;"&gt;Z2570N&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;font-weight:600;color:#202124;"&gt;raemond&lt;/td&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#202124;"&gt;M70_EEA_A&lt;/td&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#5f6368;font-family:monospace;font-size:12px;"&gt;M70&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;font-weight:600;color:#202124;"&gt;vivo&lt;/td&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#202124;"&gt;Y60&lt;/td&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#5f6368;font-family:monospace;font-size:12px;"&gt;V2559A&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;font-weight:600;color:#202124;"&gt;vivo&lt;/td&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#202124;"&gt;Y60m&lt;/td&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#5f6368;font-family:monospace;font-size:12px;"&gt;V2559BA&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;div style="font-size:14px;font-weight:700;color:#202124;margin:16px 0 8px;padding-bottom:6px;border-bottom:1px solid #e8eaed;"&gt;📝 Tablets (1)&lt;/div&gt;&lt;table style="width:100%;border-collapse:collapse;font-size:13px;margin-bottom:8px;"&gt;&lt;tr&gt;&lt;th style="text-align:left;padding:8px 10px;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;color:#5f6368;background:#f8f9fa;border-bottom:2px solid #e8eaed;"&gt;Brand&lt;/th&gt;&lt;th style="text-align:left;padding:8px 10px;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;color:#5f6368;background:#f8f9fa;border-bottom:2px solid #e8eaed;"&gt;Device&lt;/th&gt;&lt;th style="text-align:left;padding:8px 10px;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;color:#5f6368;background:#f8f9fa;border-bottom:2px solid #e8eaed;"&gt;Model&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;font-weight:600;color:#202124;"&gt;Blackview&lt;/td&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#202124;"&gt;Tab11SE_RU&lt;/td&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#5f6368;font-family:monospace;font-size:12px;"&gt;Tab 11 RU&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;div style="font-size:14px;font-weight:700;color:#202124;margin:16px 0 8px;padding-bottom:6px;border-bottom:1px solid #e8eaed;"&gt;▶️ Streaming Devices (1)&lt;/div&gt;&lt;table style="width:100%;border-collapse:collapse;font-size:13px;margin-bottom:8px;"&gt;&lt;tr&gt;&lt;th style="text-align:left;padding:8px 10px;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;color:#5f6368;background:#f8f9fa;border-bottom:2px solid #e8eaed;"&gt;Brand&lt;/th&gt;&lt;th style="text-align:left;padding:8px 10px;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;color:#5f6368;background:#f8f9fa;border-bottom:2px solid #e8eaed;"&gt;Device&lt;/th&gt;&lt;th style="text-align:left;padding:8px 10px;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;color:#5f6368;background:#f8f9fa;border-bottom:2px solid #e8eaed;"&gt;Model&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;font-weight:600;color:#202124;"&gt;RockTek&lt;/td&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#202124;"&gt;RT-G2&lt;/td&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#5f6368;font-family:monospace;font-size:12px;"&gt;RT-G2&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+&lt;div style="padding:20px 24px;background:#f8f9fa;border-radius:0 0 16px 16px;text-align:center;"&gt;
+  &lt;a href="https://manojitballav.com/google-certified-devices.html" style="display:inline-block;padding:10px 24px;background:#1a73e8;color:#fff;text-decoration:none;border-radius:24px;font-size:14px;font-weight:600;"&gt;Browse All Certified Devices &amp;rarr;&lt;/a&gt;
+  &lt;div style="margin-top:12px;font-size:12px;color:#9aa0a6;"&gt;Published by Mono &amp;middot; &lt;a href="https://manojitballav.com" style="color:#9aa0a6;"&gt;manojitballav.com&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content>
+</entry>
+<entry>
     <title>Hisense Infinity H72 Pro, OnePlus 15T + 7 more devices certified — 24 March 2026</title>
     <id>https://manojitballav.com/google-certified-devices.html#update-2026-03-24</id>
-    <link href="https://manojitballav.com/google-certified-devices.html" rel="alternate" type="text/html"/>
+    <link href="https://manojitballav.com/google-certified-devices.html" rel="alternate" type="text/html" />
     <updated>2026-03-24T06:00:00Z</updated>
     <summary>9 new devices just passed Google certification from Hisense, KTCtv, Motorola and 3 more.</summary>
-    <content type="html"><![CDATA[
-<div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;max-width:600px;color:#202124;">
-  <div style="background:linear-gradient(135deg,#1a73e8,#174ea6);color:#fff;padding:20px 24px;border-radius:16px 16px 0 0;">
-    <div style="display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;">
-      <span style="font-size:36px;font-weight:800;line-height:1;">+9</span>
-      <span style="font-size:15px;font-weight:500;opacity:0.9;">new devices &middot; 24 March 2026</span>
-    </div>
-    <div style="margin-top:12px;display:flex;gap:6px;flex-wrap:wrap;">
-      <span style="display:inline-block;padding:3px 10px;border-radius:20px;font-size:11px;font-weight:600;background:rgba(255,255,255,0.2);color:#fff;">&#x1F4F1; 3 Phones</span>
-      <span style="display:inline-block;padding:3px 10px;border-radius:20px;font-size:11px;font-weight:600;background:rgba(255,255,255,0.2);color:#fff;">&#x1F4DD; 2 Tablets</span>
-      <span style="display:inline-block;padding:3px 10px;border-radius:20px;font-size:11px;font-weight:600;background:rgba(255,255,255,0.2);color:#fff;">&#x1F4FA; 4 TVs</span>
-    </div>
-  </div>
+    <content type="html">
+&lt;div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;max-width:600px;color:#202124;"&gt;
+  &lt;div style="background:linear-gradient(135deg,#1a73e8,#174ea6);color:#fff;padding:20px 24px;border-radius:16px 16px 0 0;"&gt;
+    &lt;div style="display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;"&gt;
+      &lt;span style="font-size:36px;font-weight:800;line-height:1;"&gt;+9&lt;/span&gt;
+      &lt;span style="font-size:15px;font-weight:500;opacity:0.9;"&gt;new devices &amp;middot; 24 March 2026&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div style="margin-top:12px;display:flex;gap:6px;flex-wrap:wrap;"&gt;
+      &lt;span style="display:inline-block;padding:3px 10px;border-radius:20px;font-size:11px;font-weight:600;background:rgba(255,255,255,0.2);color:#fff;"&gt;&amp;#x1F4F1; 3 Phones&lt;/span&gt;
+      &lt;span style="display:inline-block;padding:3px 10px;border-radius:20px;font-size:11px;font-weight:600;background:rgba(255,255,255,0.2);color:#fff;"&gt;&amp;#x1F4DD; 2 Tablets&lt;/span&gt;
+      &lt;span style="display:inline-block;padding:3px 10px;border-radius:20px;font-size:11px;font-weight:600;background:rgba(255,255,255,0.2);color:#fff;"&gt;&amp;#x1F4FA; 4 TVs&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
 
-  <div style="padding:16px 24px;">
-    <div style="font-size:14px;font-weight:700;color:#202124;margin:16px 0 8px;padding-bottom:6px;border-bottom:1px solid #e8eaed;">&#x1F4F1; Phones (3)</div>
-    <table style="width:100%;border-collapse:collapse;font-size:13px;margin-bottom:8px;"><tr><th style="text-align:left;padding:8px 10px;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;color:#5f6368;background:#f8f9fa;border-bottom:2px solid #e8eaed;">Brand</th><th style="text-align:left;padding:8px 10px;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;color:#5f6368;background:#f8f9fa;border-bottom:2px solid #e8eaed;">Device</th><th style="text-align:left;padding:8px 10px;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;color:#5f6368;background:#f8f9fa;border-bottom:2px solid #e8eaed;">Model</th></tr>
-    <tr><td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;font-weight:600;color:#202124;">Hisense</td><td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#202124;">Hisense Infinity H72 Pro</td><td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#5f6368;font-family:monospace;font-size:12px;">Hisense H73</td></tr>
-    <tr><td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;font-weight:600;color:#202124;">Motorola</td><td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#202124;">motorola razr fold</td><td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#5f6368;font-family:monospace;font-size:12px;">motorola razr fold</td></tr>
-    <tr><td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;font-weight:600;color:#202124;">OnePlus</td><td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#202124;">OnePlus 15T</td><td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#5f6368;font-family:monospace;font-size:12px;">PLZ110</td></tr>
-    </table>
+  &lt;div style="padding:16px 24px;"&gt;
+    &lt;div style="font-size:14px;font-weight:700;color:#202124;margin:16px 0 8px;padding-bottom:6px;border-bottom:1px solid #e8eaed;"&gt;&amp;#x1F4F1; Phones (3)&lt;/div&gt;
+    &lt;table style="width:100%;border-collapse:collapse;font-size:13px;margin-bottom:8px;"&gt;&lt;tr&gt;&lt;th style="text-align:left;padding:8px 10px;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;color:#5f6368;background:#f8f9fa;border-bottom:2px solid #e8eaed;"&gt;Brand&lt;/th&gt;&lt;th style="text-align:left;padding:8px 10px;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;color:#5f6368;background:#f8f9fa;border-bottom:2px solid #e8eaed;"&gt;Device&lt;/th&gt;&lt;th style="text-align:left;padding:8px 10px;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;color:#5f6368;background:#f8f9fa;border-bottom:2px solid #e8eaed;"&gt;Model&lt;/th&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;font-weight:600;color:#202124;"&gt;Hisense&lt;/td&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#202124;"&gt;Hisense Infinity H72 Pro&lt;/td&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#5f6368;font-family:monospace;font-size:12px;"&gt;Hisense H73&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;font-weight:600;color:#202124;"&gt;Motorola&lt;/td&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#202124;"&gt;motorola razr fold&lt;/td&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#5f6368;font-family:monospace;font-size:12px;"&gt;motorola razr fold&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;font-weight:600;color:#202124;"&gt;OnePlus&lt;/td&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#202124;"&gt;OnePlus 15T&lt;/td&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#5f6368;font-family:monospace;font-size:12px;"&gt;PLZ110&lt;/td&gt;&lt;/tr&gt;
+    &lt;/table&gt;
 
-    <div style="font-size:14px;font-weight:700;color:#202124;margin:16px 0 8px;padding-bottom:6px;border-bottom:1px solid #e8eaed;">&#x1F4DD; Tablets (2)</div>
-    <table style="width:100%;border-collapse:collapse;font-size:13px;margin-bottom:8px;"><tr><th style="text-align:left;padding:8px 10px;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;color:#5f6368;background:#f8f9fa;border-bottom:2px solid #e8eaed;">Brand</th><th style="text-align:left;padding:8px 10px;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;color:#5f6368;background:#f8f9fa;border-bottom:2px solid #e8eaed;">Device</th><th style="text-align:left;padding:8px 10px;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;color:#5f6368;background:#f8f9fa;border-bottom:2px solid #e8eaed;">Model</th></tr>
-    <tr><td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;font-weight:600;color:#202124;">Quantum</td><td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#202124;">Elise_T65V</td><td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#5f6368;font-family:monospace;font-size:12px;">Elise T80P</td></tr>
-    <tr><td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;font-weight:600;color:#202124;">Wacom</td><td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#202124;">DTHA140</td><td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#5f6368;font-family:monospace;font-size:12px;">DTHA140</td></tr>
-    </table>
+    &lt;div style="font-size:14px;font-weight:700;color:#202124;margin:16px 0 8px;padding-bottom:6px;border-bottom:1px solid #e8eaed;"&gt;&amp;#x1F4DD; Tablets (2)&lt;/div&gt;
+    &lt;table style="width:100%;border-collapse:collapse;font-size:13px;margin-bottom:8px;"&gt;&lt;tr&gt;&lt;th style="text-align:left;padding:8px 10px;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;color:#5f6368;background:#f8f9fa;border-bottom:2px solid #e8eaed;"&gt;Brand&lt;/th&gt;&lt;th style="text-align:left;padding:8px 10px;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;color:#5f6368;background:#f8f9fa;border-bottom:2px solid #e8eaed;"&gt;Device&lt;/th&gt;&lt;th style="text-align:left;padding:8px 10px;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;color:#5f6368;background:#f8f9fa;border-bottom:2px solid #e8eaed;"&gt;Model&lt;/th&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;font-weight:600;color:#202124;"&gt;Quantum&lt;/td&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#202124;"&gt;Elise_T65V&lt;/td&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#5f6368;font-family:monospace;font-size:12px;"&gt;Elise T80P&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;font-weight:600;color:#202124;"&gt;Wacom&lt;/td&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#202124;"&gt;DTHA140&lt;/td&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#5f6368;font-family:monospace;font-size:12px;"&gt;DTHA140&lt;/td&gt;&lt;/tr&gt;
+    &lt;/table&gt;
 
-    <div style="font-size:14px;font-weight:700;color:#202124;margin:16px 0 8px;padding-bottom:6px;border-bottom:1px solid #e8eaed;">&#x1F4FA; TVs (4)</div>
-    <table style="width:100%;border-collapse:collapse;font-size:13px;margin-bottom:8px;"><tr><th style="text-align:left;padding:8px 10px;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;color:#5f6368;background:#f8f9fa;border-bottom:2px solid #e8eaed;">Brand</th><th style="text-align:left;padding:8px 10px;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;color:#5f6368;background:#f8f9fa;border-bottom:2px solid #e8eaed;">Device</th><th style="text-align:left;padding:8px 10px;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;color:#5f6368;background:#f8f9fa;border-bottom:2px solid #e8eaed;">Model</th></tr>
-    <tr><td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;font-weight:600;color:#202124;">KTCtv</td><td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#202124;">GOTO</td><td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#5f6368;font-family:monospace;font-size:12px;">4K SMART TV</td></tr>
-    <tr><td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;font-weight:600;color:#202124;">KTCtv</td><td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#202124;">GOTO</td><td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#5f6368;font-family:monospace;font-size:12px;">4K SMART TV</td></tr>
-    <tr><td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;font-weight:600;color:#202124;">Motorola</td><td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#202124;">MOTOROLA</td><td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#5f6368;font-family:monospace;font-size:12px;">4K SMART TV</td></tr>
-    <tr><td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;font-weight:600;color:#202124;">Motorola</td><td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#202124;">Motorola</td><td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#5f6368;font-family:monospace;font-size:12px;">4K SMART TV</td></tr>
-    </table>
-  </div>
+    &lt;div style="font-size:14px;font-weight:700;color:#202124;margin:16px 0 8px;padding-bottom:6px;border-bottom:1px solid #e8eaed;"&gt;&amp;#x1F4FA; TVs (4)&lt;/div&gt;
+    &lt;table style="width:100%;border-collapse:collapse;font-size:13px;margin-bottom:8px;"&gt;&lt;tr&gt;&lt;th style="text-align:left;padding:8px 10px;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;color:#5f6368;background:#f8f9fa;border-bottom:2px solid #e8eaed;"&gt;Brand&lt;/th&gt;&lt;th style="text-align:left;padding:8px 10px;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;color:#5f6368;background:#f8f9fa;border-bottom:2px solid #e8eaed;"&gt;Device&lt;/th&gt;&lt;th style="text-align:left;padding:8px 10px;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;color:#5f6368;background:#f8f9fa;border-bottom:2px solid #e8eaed;"&gt;Model&lt;/th&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;font-weight:600;color:#202124;"&gt;KTCtv&lt;/td&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#202124;"&gt;GOTO&lt;/td&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#5f6368;font-family:monospace;font-size:12px;"&gt;4K SMART TV&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;font-weight:600;color:#202124;"&gt;KTCtv&lt;/td&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#202124;"&gt;GOTO&lt;/td&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#5f6368;font-family:monospace;font-size:12px;"&gt;4K SMART TV&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;font-weight:600;color:#202124;"&gt;Motorola&lt;/td&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#202124;"&gt;MOTOROLA&lt;/td&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#5f6368;font-family:monospace;font-size:12px;"&gt;4K SMART TV&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;font-weight:600;color:#202124;"&gt;Motorola&lt;/td&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#202124;"&gt;Motorola&lt;/td&gt;&lt;td style="padding:8px 10px;border-bottom:1px solid #f0f0f0;color:#5f6368;font-family:monospace;font-size:12px;"&gt;4K SMART TV&lt;/td&gt;&lt;/tr&gt;
+    &lt;/table&gt;
+  &lt;/div&gt;
 
-  <div style="padding:20px 24px;background:#f8f9fa;border-radius:0 0 16px 16px;text-align:center;">
-    <a href="https://manojitballav.com/google-certified-devices.html" style="display:inline-block;padding:10px 24px;background:#1a73e8;color:#fff;text-decoration:none;border-radius:24px;font-size:14px;font-weight:600;">Browse All Certified Devices &rarr;</a>
-    <div style="margin-top:12px;font-size:12px;color:#9aa0a6;">Published by Mono &middot; <a href="https://manojitballav.com" style="color:#9aa0a6;">manojitballav.com</a></div>
-  </div>
-</div>
-]]></content>
+  &lt;div style="padding:20px 24px;background:#f8f9fa;border-radius:0 0 16px 16px;text-align:center;"&gt;
+    &lt;a href="https://manojitballav.com/google-certified-devices.html" style="display:inline-block;padding:10px 24px;background:#1a73e8;color:#fff;text-decoration:none;border-radius:24px;font-size:14px;font-weight:600;"&gt;Browse All Certified Devices &amp;rarr;&lt;/a&gt;
+    &lt;div style="margin-top:12px;font-size:12px;color:#9aa0a6;"&gt;Published by Mono &amp;middot; &lt;a href="https://manojitballav.com" style="color:#9aa0a6;"&gt;manojitballav.com&lt;/a&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
   </entry>
 </feed>

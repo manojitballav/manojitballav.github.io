@@ -1,60 +1,60 @@
 {
-  "lastUpdated": "2026-03-25",
+  "lastUpdated": "2026-03-26",
   "newDevicesCount": 9,
   "newDevices": [
     [
-      "Hisense",
-      "Hisense Infinity H72 Pro",
-      "HLTE271E",
-      "Hisense H73"
+      "Blackview",
+      "Tab11SE_RU",
+      "Tab11SE_RU",
+      "Tab 11 RU"
     ],
     [
-      "KTCtv",
-      "GOTO",
-      "elliniko",
-      "4K SMART TV"
+      "Compaq",
+      "QTAB_PLUS_LTE",
+      "QTAB_PLUS_LTE",
+      "QTAB_PLUS_LTE"
     ],
     [
-      "KTCtv",
-      "GOTO",
-      "templeton",
-      "4K SMART TV"
+      "RockTek",
+      "RT-G2",
+      "YYJ",
+      "RT-G2"
     ],
     [
-      "Motorola",
-      "MOTOROLA",
-      "elliniko",
-      "4K SMART TV"
+      "TABWEE",
+      "T70_EEA",
+      "T70",
+      "T70"
     ],
     [
-      "Motorola",
-      "Motorola",
-      "templeton",
-      "4K SMART TV"
+      "ZOLON",
+      "MP1x",
+      "MP1x",
+      "MP1x"
     ],
     [
-      "Motorola",
-      "motorola razr fold",
-      "blanc",
-      "motorola razr fold"
+      "ZTE",
+      "Z2570N",
+      "P688F02",
+      "Z2570N"
     ],
     [
-      "OnePlus",
-      "OnePlus 15T",
-      "OP64DDL1",
-      "PLZ110"
+      "raemond",
+      "M70_EEA_A",
+      "M70_EEA_A",
+      "M70"
     ],
     [
-      "Quantum",
-      "Elise_T65V",
-      "Elise_T65V",
-      "Elise T80P"
+      "vivo",
+      "Y60",
+      "PD2559",
+      "V2559A"
     ],
     [
-      "Wacom",
-      "DTHA140",
-      "Wacom_MovinkPad_14",
-      "DTHA140"
+      "vivo",
+      "Y60m",
+      "PD2559",
+      "V2559BA"
     ]
   ]
 }
