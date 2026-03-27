@@ -1,60 +1,36 @@
 {
-  "lastUpdated": "2026-03-26",
-  "newDevicesCount": 9,
+  "lastUpdated": "2026-03-27",
+  "newDevicesCount": 5,
   "newDevices": [
     [
-      "Blackview",
-      "Tab11SE_RU",
-      "Tab11SE_RU",
-      "Tab 11 RU"
+      "Honor",
+      "HONOR X5d  Plus",
+      "HNNLA-M",
+      "NAA-LX2P"
     ],
     [
-      "Compaq",
-      "QTAB_PLUS_LTE",
-      "QTAB_PLUS_LTE",
-      "QTAB_PLUS_LTE"
+      "Honor",
+      "HONOR X5d",
+      "HNNLA-M",
+      "NAA-LX2"
     ],
     [
-      "RockTek",
-      "RT-G2",
-      "YYJ",
-      "RT-G2"
+      "Redmi",
+      "Redmi 15C 5G",
+      "tornado",
+      "2508CRN2BI"
     ],
     [
-      "TABWEE",
-      "T70_EEA",
-      "T70",
-      "T70"
+      "Umidigi",
+      "G5_Tab",
+      "G5_Tab",
+      "3Q-3"
     ],
     [
       "ZOLON",
-      "MP1x",
+      "MP1x_EEA",
       "MP1x",
       "MP1x"
-    ],
-    [
-      "ZTE",
-      "Z2570N",
-      "P688F02",
-      "Z2570N"
-    ],
-    [
-      "raemond",
-      "M70_EEA_A",
-      "M70_EEA_A",
-      "M70"
-    ],
-    [
-      "vivo",
-      "Y60",
-      "PD2559",
-      "V2559A"
-    ],
-    [
-      "vivo",
-      "Y60m",
-      "PD2559",
-      "V2559BA"
     ]
   ]
 }
