@@ -1,36 +1,90 @@
 {
-  "lastUpdated": "2026-03-27",
-  "newDevicesCount": 5,
+  "lastUpdated": "2026-03-28",
+  "newDevicesCount": 14,
   "newDevices": [
     [
-      "Honor",
-      "HONOR X5d  Plus",
-      "HNNLA-M",
-      "NAA-LX2P"
+      "Gigaset",
+      "GIG-X14",
+      "GIG-X14",
+      "GIG-X14"
     ],
     [
-      "Honor",
-      "HONOR X5d",
-      "HNNLA-M",
-      "NAA-LX2"
+      "Jeazans",
+      "X100PRO_EEA",
+      "X100PRO",
+      "X100PRO"
+    ],
+    [
+      "OLAX",
+      "Ocean_K11_Pro_Plus",
+      "Ocean_K11_Pro_Plus",
+      "Ocean K11 Pro Plus"
+    ],
+    [
+      "Oppo",
+      "A6k",
+      "OP62A3L1",
+      "CPH2891"
+    ],
+    [
+      "Oppo",
+      "K15 Pro",
+      "OP61E9L1",
+      "PMH110"
+    ],
+    [
+      "Oppo",
+      "K15 Pro+",
+      "OP61E5L1",
+      "PMG110"
     ],
     [
       "Redmi",
-      "Redmi 15C 5G",
+      "REDMI 15C 5G",
       "tornado",
       "2508CRN2BI"
     ],
     [
-      "Umidigi",
-      "G5_Tab",
-      "G5_Tab",
-      "3Q-3"
+      "Redmi",
+      "REDMI A7 Pro",
+      "arctic",
+      "25128RN17A"
     ],
     [
-      "ZOLON",
-      "MP1x_EEA",
-      "MP1x",
-      "MP1x"
+      "TCL",
+      "TCL K70 SE",
+      "Thyme",
+      "T453D"
+    ],
+    [
+      "TCL",
+      "TCL NXTPAPER 60 Ultra",
+      "MonaLisa",
+      "T951K"
+    ],
+    [
+      "Urovo",
+      "DT630",
+      "DT630",
+      "DT630"
+    ],
+    [
+      "realme",
+      "realme C100 5G",
+      "RE6478L1",
+      "RMX5258"
+    ],
+    [
+      "vivo",
+      "Y500s AI版",
+      "PD2531",
+      "V2531A"
+    ],
+    [
+      "vivo",
+      "Y60 AI版",
+      "PD2559",
+      "V2559A"
     ]
   ]
 }
