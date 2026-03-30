@@ -1,90 +1,12 @@
 {
-  "lastUpdated": "2026-03-29",
-  "newDevicesCount": 14,
+  "lastUpdated": "2026-03-30",
+  "newDevicesCount": 1,
   "newDevices": [
     [
-      "Gigaset",
-      "GIG-X14",
-      "GIG-X14",
-      "GIG-X14"
-    ],
-    [
-      "Jeazans",
-      "X100PRO_EEA",
-      "X100PRO",
-      "X100PRO"
-    ],
-    [
-      "OLAX",
-      "Ocean_K11_Pro_Plus",
-      "Ocean_K11_Pro_Plus",
-      "Ocean K11 Pro Plus"
-    ],
-    [
-      "Oppo",
-      "A6k",
-      "OP62A3L1",
-      "CPH2891"
-    ],
-    [
-      "Oppo",
-      "K15 Pro",
-      "OP61E9L1",
-      "PMH110"
-    ],
-    [
-      "Oppo",
-      "K15 Pro+",
-      "OP61E5L1",
-      "PMG110"
-    ],
-    [
-      "Redmi",
-      "REDMI 15C 5G",
-      "tornado",
-      "2508CRN2BI"
-    ],
-    [
-      "Redmi",
-      "REDMI A7 Pro",
-      "arctic",
-      "25128RN17A"
-    ],
-    [
-      "TCL",
-      "TCL K70 SE",
-      "Thyme",
-      "T453D"
-    ],
-    [
-      "TCL",
-      "TCL NXTPAPER 60 Ultra",
-      "MonaLisa",
-      "T951K"
-    ],
-    [
-      "Urovo",
-      "DT630",
-      "DT630",
-      "DT630"
-    ],
-    [
-      "realme",
-      "realme C100 5G",
-      "RE6478L1",
-      "RMX5258"
-    ],
-    [
-      "vivo",
-      "Y500s AI版",
-      "PD2531",
-      "V2531A"
-    ],
-    [
-      "vivo",
-      "Y60 AI版",
-      "PD2559",
-      "V2559A"
+      "BMAX",
+      "I9_Plus_WireFree",
+      "I9_Plus_WireFree",
+      "I9_Plus_WireFree"
     ]
   ]
 }
