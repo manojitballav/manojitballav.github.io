@@ -1,12 +1,30 @@
 {
-  "lastUpdated": "2026-03-30",
-  "newDevicesCount": 1,
+  "lastUpdated": "2026-03-31",
+  "newDevicesCount": 4,
   "newDevices": [
     [
-      "BMAX",
-      "I9_Plus_WireFree",
-      "I9_Plus_WireFree",
-      "I9_Plus_WireFree"
+      "BenQ",
+      "RE05A_series",
+      "RE05A_series",
+      "RE05A_series"
+    ],
+    [
+      "FEONAL",
+      "D122_EEA",
+      "D122_EEA",
+      "D122_EEA"
+    ],
+    [
+      "NEMO",
+      "G99",
+      "G99",
+      "G99"
+    ],
+    [
+      "TABWEE",
+      "T12_Pro_NEU",
+      "T12_Pro",
+      "T12 Pro"
     ]
   ]
 }
