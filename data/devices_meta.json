@@ -1,30 +1,96 @@
 {
-  "lastUpdated": "2026-03-31",
-  "newDevicesCount": 4,
+  "lastUpdated": "2026-04-01",
+  "newDevicesCount": 15,
   "newDevices": [
     [
-      "BenQ",
-      "RE05A_series",
-      "RE05A_series",
-      "RE05A_series"
+      "GreenLion",
+      "G-30_ULTRA",
+      "G-30_ULTRA",
+      "Max Tab22"
     ],
     [
-      "FEONAL",
-      "D122_EEA",
-      "D122_EEA",
-      "D122_EEA"
+      "HOLO",
+      "X_Play_Ultra",
+      "X_Play_Ultra",
+      "X_Play_Ultra"
     ],
     [
-      "NEMO",
-      "G99",
-      "G99",
-      "G99"
+      "Honor",
+      "HONOR X5d Plus",
+      "HNNLA-M",
+      "NAA-LX2P"
+    ],
+    [
+      "JOVI",
+      "JOVI Y21 5G",
+      "J2508",
+      "J2508"
+    ],
+    [
+      "Kyocera",
+      "DIGNO SX5",
+      "KY25L-ST100",
+      "KC-S306"
+    ],
+    [
+      "POCO",
+      "POCO X8 Pro Max",
+      "dash",
+      "2602BPC18G"
+    ],
+    [
+      "POCO",
+      "POCO X8 Pro Max",
+      "dash",
+      "2602BPC18I"
+    ],
+    [
+      "Redmi",
+      "Redmi 15C",
+      "dew",
+      "25078RA3EA"
+    ],
+    [
+      "Redmi",
+      "Redmi 15C",
+      "dew",
+      "25078RA3EE"
+    ],
+    [
+      "Redmi",
+      "Redmi 15C",
+      "dew",
+      "25078RA3EL"
+    ],
+    [
+      "Redmi",
+      "Redmi 15C",
+      "dew",
+      "25078RA3EY"
     ],
     [
       "TABWEE",
-      "T12_Pro_NEU",
-      "T12_Pro",
-      "T12 Pro"
+      "T70_NEU",
+      "T70",
+      "T70"
+    ],
+    [
+      "Xiaomi",
+      "Leitzphone powered by Xiaomi",
+      "nezha",
+      "2512BPNDAG"
+    ],
+    [
+      "vivo",
+      "X300s",
+      "PD2548",
+      "V2548A"
+    ],
+    [
+      "vivo",
+      "Y21 5G",
+      "V2553",
+      "V2554"
     ]
   ]
 }
