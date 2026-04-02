@@ -1,96 +1,30 @@
 {
-  "lastUpdated": "2026-04-01",
-  "newDevicesCount": 15,
+  "lastUpdated": "2026-04-02",
+  "newDevicesCount": 4,
   "newDevices": [
     [
-      "GreenLion",
-      "G-30_ULTRA",
-      "G-30_ULTRA",
-      "Max Tab22"
+      "Zebra",
+      "TC101",
+      "TC101L",
+      "TC101"
     ],
     [
-      "HOLO",
-      "X_Play_Ultra",
-      "X_Play_Ultra",
-      "X_Play_Ultra"
+      "Zebra",
+      "TC101",
+      "TC101L",
+      "TC101L"
     ],
     [
-      "Honor",
-      "HONOR X5d Plus",
-      "HNNLA-M",
-      "NAA-LX2P"
+      "Zebra",
+      "TC101",
+      "TC101W",
+      "TC101"
     ],
     [
-      "JOVI",
-      "JOVI Y21 5G",
-      "J2508",
-      "J2508"
-    ],
-    [
-      "Kyocera",
-      "DIGNO SX5",
-      "KY25L-ST100",
-      "KC-S306"
-    ],
-    [
-      "POCO",
-      "POCO X8 Pro Max",
-      "dash",
-      "2602BPC18G"
-    ],
-    [
-      "POCO",
-      "POCO X8 Pro Max",
-      "dash",
-      "2602BPC18I"
-    ],
-    [
-      "Redmi",
-      "Redmi 15C",
-      "dew",
-      "25078RA3EA"
-    ],
-    [
-      "Redmi",
-      "Redmi 15C",
-      "dew",
-      "25078RA3EE"
-    ],
-    [
-      "Redmi",
-      "Redmi 15C",
-      "dew",
-      "25078RA3EL"
-    ],
-    [
-      "Redmi",
-      "Redmi 15C",
-      "dew",
-      "25078RA3EY"
-    ],
-    [
-      "TABWEE",
-      "T70_NEU",
-      "T70",
-      "T70"
-    ],
-    [
-      "Xiaomi",
-      "Leitzphone powered by Xiaomi",
-      "nezha",
-      "2512BPNDAG"
-    ],
-    [
-      "vivo",
-      "X300s",
-      "PD2548",
-      "V2548A"
-    ],
-    [
-      "vivo",
-      "Y21 5G",
-      "V2553",
-      "V2554"
+      "Zebra",
+      "TC101",
+      "TC101W",
+      "TC101W"
     ]
   ]
 }
