@@ -1,30 +1,72 @@
 {
-  "lastUpdated": "2026-04-02",
-  "newDevicesCount": 4,
+  "lastUpdated": "2026-04-03",
+  "newDevicesCount": 11,
   "newDevices": [
     [
-      "Zebra",
-      "TC101",
-      "TC101L",
-      "TC101"
+      "KTCtv",
+      "SLCD_24PGV2",
+      "araku",
+      "EcoPro"
     ],
     [
-      "Zebra",
-      "TC101",
-      "TC101L",
-      "TC101L"
+      "Packard Bell",
+      "TARGA-F14PRO",
+      "TARGA-F14PRO",
+      "TARGA-F14PRO"
     ],
     [
-      "Zebra",
-      "TC101",
-      "TC101W",
-      "TC101"
+      "Riotouch",
+      "RK882",
+      "RK882",
+      "RK882"
     ],
     [
-      "Zebra",
-      "TC101",
-      "TC101W",
-      "TC101W"
+      "Teclast",
+      "P30T_Y_ROW",
+      "P30T_Y",
+      "P30T"
+    ],
+    [
+      "VL Wireless Inc",
+      "VL68_Lite",
+      "VL68_Lite",
+      "VL68"
+    ],
+    [
+      "realme",
+      "RMX5258",
+      "RE6478L1",
+      "RMX5258"
+    ],
+    [
+      "vivo",
+      "Pad6 Pro",
+      "DPD2540",
+      "PA2671"
+    ],
+    [
+      "vivo",
+      "X300 Ultra 卫星通信版",
+      "PD2547",
+      "V2547DA"
+    ],
+    [
+      "vivo",
+      "X300 Ultra",
+      "PD2547",
+      "V2547A"
+    ],
+    [
+      "vivo",
+      "X300 Ultra",
+      "PD2547",
+      "V2547DA"
+    ],
+    [
+      "wanbo",
+      "Vali1 Pro",
+      "coorg",
+      "Vali1 Pro"
     ]
   ]
 }
