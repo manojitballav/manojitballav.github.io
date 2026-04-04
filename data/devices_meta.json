@@ -1,72 +1,90 @@
 {
-  "lastUpdated": "2026-04-03",
-  "newDevicesCount": 11,
+  "lastUpdated": "2026-04-04",
+  "newDevicesCount": 14,
   "newDevices": [
     [
-      "KTCtv",
-      "SLCD_24PGV2",
-      "araku",
-      "EcoPro"
+      "Blackshark",
+      "Pad_7_Pro_UE",
+      "Pad_7_Pro_UE",
+      "Pad_7_Pro_UE"
     ],
     [
-      "Packard Bell",
-      "TARGA-F14PRO",
-      "TARGA-F14PRO",
-      "TARGA-F14PRO"
+      "Clover",
+      "K1196",
+      "K1196",
+      "K1196"
     ],
     [
-      "Riotouch",
-      "RK882",
-      "RK882",
-      "RK882"
+      "Itel",
+      "A515W",
+      "itel-A515W",
+      "itel A515W"
     ],
     [
-      "Teclast",
-      "P30T_Y_ROW",
-      "P30T_Y",
-      "P30T"
+      "Itel",
+      "POWER 80",
+      "itel-P685L",
+      "itel P685L"
     ],
     [
-      "VL Wireless Inc",
-      "VL68_Lite",
-      "VL68_Lite",
-      "VL68"
+      "NEWORK",
+      "NewBoard",
+      "Interactive_Smart_Display",
+      "NB_65P1D_WW_X"
+    ],
+    [
+      "Redmi",
+      "REDMI A7 Pro",
+      "arctic",
+      "25128RN17L"
+    ],
+    [
+      "Redmi",
+      "REDMI A7 Pro",
+      "arctic",
+      "25128RN17Y"
+    ],
+    [
+      "Rizzen",
+      "Rizzen_X_26X2",
+      "Rizzen_X_26X2",
+      "Rizzen_X_26X2"
+    ],
+    [
+      "Sohar",
+      "S67",
+      "S67",
+      "S67"
+    ],
+    [
+      "TMEE",
+      "T1185S4RT-TMEE",
+      "T1185S4RT-TMEE",
+      "T1185S4RT-TMEE"
+    ],
+    [
+      "WIMIUS",
+      "G2",
+      "coorg",
+      "G2"
+    ],
+    [
+      "Winny",
+      "K11",
+      "K11",
+      "K11"
     ],
     [
       "realme",
-      "RMX5258",
-      "RE6478L1",
-      "RMX5258"
+      "RMX5377",
+      "RE648B",
+      "RMX5377"
     ],
     [
-      "vivo",
-      "Pad6 Pro",
-      "DPD2540",
-      "PA2671"
-    ],
-    [
-      "vivo",
-      "X300 Ultra 卫星通信版",
-      "PD2547",
-      "V2547DA"
-    ],
-    [
-      "vivo",
-      "X300 Ultra",
-      "PD2547",
-      "V2547A"
-    ],
-    [
-      "vivo",
-      "X300 Ultra",
-      "PD2547",
-      "V2547DA"
-    ],
-    [
-      "wanbo",
-      "Vali1 Pro",
-      "coorg",
-      "Vali1 Pro"
+      "realme",
+      "realme C100i",
+      "RE648B",
+      "RMX5377"
     ]
   ]
 }
