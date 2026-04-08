@@ -1,90 +1,42 @@
 {
-  "lastUpdated": "2026-04-07",
-  "newDevicesCount": 14,
+  "lastUpdated": "2026-04-08",
+  "newDevicesCount": 6,
   "newDevices": [
     [
-      "Blackshark",
-      "Pad_7_Pro_UE",
-      "Pad_7_Pro_UE",
-      "Pad_7_Pro_UE"
+      "OnePlus",
+      "OnePlus Nord 6",
+      "OP6135L1",
+      "CPH2793"
     ],
     [
-      "Clover",
-      "K1196",
-      "K1196",
-      "K1196"
+      "OnePlus",
+      "OnePlus Nord 6",
+      "OP6135L1",
+      "CPH2795"
     ],
     [
-      "Itel",
-      "A515W",
-      "itel-A515W",
-      "itel A515W"
-    ],
-    [
-      "Itel",
-      "POWER 80",
-      "itel-P685L",
-      "itel P685L"
-    ],
-    [
-      "NEWORK",
-      "NewBoard",
-      "Interactive_Smart_Display",
-      "NB_65P1D_WW_X"
+      "Pixcase",
+      "Pixcase2",
+      "MP1211001P02",
+      "121-1001P02"
     ],
     [
       "Redmi",
-      "REDMI A7 Pro",
-      "arctic",
-      "25128RN17L"
+      "REDMI 15A 5G",
+      "somalia",
+      "2602BRNA4I"
     ],
     [
-      "Redmi",
-      "REDMI A7 Pro",
-      "arctic",
-      "25128RN17Y"
-    ],
-    [
-      "Rizzen",
-      "Rizzen_X_26X2",
-      "Rizzen_X_26X2",
-      "Rizzen_X_26X2"
-    ],
-    [
-      "Sohar",
-      "S67",
-      "S67",
-      "S67"
-    ],
-    [
-      "TMEE",
-      "T1185S4RT-TMEE",
-      "T1185S4RT-TMEE",
-      "T1185S4RT-TMEE"
-    ],
-    [
-      "WIMIUS",
-      "G2",
-      "coorg",
-      "G2"
-    ],
-    [
-      "Winny",
-      "K11",
-      "K11",
-      "K11"
+      "VILLAON",
+      "VP1002L-OP",
+      "VILLAON-VP1002L",
+      "VILLAON-VP1002L"
     ],
     [
       "realme",
-      "RMX5377",
-      "RE648B",
-      "RMX5377"
-    ],
-    [
-      "realme",
-      "realme C100i",
-      "RE648B",
-      "RMX5377"
+      "realme C100",
+      "RE646B",
+      "RMX5353"
     ]
   ]
 }
