@@ -1,42 +1,30 @@
 {
-  "lastUpdated": "2026-04-09",
-  "newDevicesCount": 6,
+  "lastUpdated": "2026-04-10",
+  "newDevicesCount": 4,
   "newDevices": [
     [
-      "OnePlus",
-      "OnePlus Nord 6",
-      "OP6135L1",
-      "CPH2793"
+      "Blu",
+      "C9 MAX",
+      "C0260",
+      "C9 MAX"
     ],
     [
-      "OnePlus",
-      "OnePlus Nord 6",
-      "OP6135L1",
-      "CPH2795"
+      "Pritom",
+      "K7Pro",
+      "K7Pro",
+      "New kids tablet"
     ],
     [
-      "Pixcase",
-      "Pixcase2",
-      "MP1211001P02",
-      "121-1001P02"
+      "TCL",
+      "TCL NXTPAPER 70 Pro",
+      "Swing_TMO",
+      "T807W"
     ],
     [
-      "Redmi",
-      "REDMI 15A 5G",
-      "somalia",
-      "2602BRNA4I"
-    ],
-    [
-      "VILLAON",
-      "VP1002L-OP",
-      "VILLAON-VP1002L",
-      "VILLAON-VP1002L"
-    ],
-    [
-      "realme",
-      "realme C100",
-      "RE646B",
-      "RMX5353"
+      "Unitech",
+      "EA530",
+      "EA530",
+      "EA530"
     ]
   ]
 }
