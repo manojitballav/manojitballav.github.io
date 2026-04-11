@@ -1,0 +1,985 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <script>(function(){var t=localStorage.getItem('theme')||(window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t)})()</script>
+    <title>Travel Requests — Buy from Japan, HK & China | Manojit Ballav</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Request items from Japan, Hong Kong, or China. See what others have requested and submit your own wishlist.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Manojit Ballav">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="icon" href="/images/favicon.ico" sizes="48x48">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://manojitballav.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Travel Requests", "item": "https://manojitballav.com/travel-requests.html" }
+      ]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Google+Sans+Text:wght@400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/google-style.css">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-61ZX5F590H"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-61ZX5F590H');
+    </script>
+
+    <style>
+        .travel-hero {
+            padding: 120px 0 40px;
+            text-align: center;
+        }
+        .travel-hero h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+        .travel-hero p {
+            color: var(--text-secondary, #5f6368);
+            font-size: 1.1rem;
+            max-width: 640px;
+            margin: 0 auto 24px;
+        }
+
+        /* Destination tabs */
+        .dest-tabs {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+        .dest-tab {
+            padding: 8px 20px;
+            border-radius: 48px;
+            font-size: 14px;
+            font-weight: 500;
+            font-family: inherit;
+            border: 1px solid rgba(0, 0, 0, 0.08);
+            background: rgba(255, 255, 255, 0.55);
+            backdrop-filter: blur(12px);
+            color: #5f6368;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .dest-tab:hover {
+            color: #1a73e8;
+            border-color: rgba(26, 115, 232, 0.2);
+            background: rgba(26, 115, 232, 0.06);
+        }
+        .dest-tab.active {
+            color: #fff;
+            background: rgba(26, 115, 232, 0.88);
+            border-color: transparent;
+        }
+        [data-theme="dark"] .dest-tab {
+            background: rgba(255, 255, 255, 0.06);
+            border-color: rgba(255, 255, 255, 0.1);
+            color: #a1a1a6;
+        }
+        [data-theme="dark"] .dest-tab:hover {
+            color: #0a84ff;
+            border-color: rgba(10, 132, 255, 0.3);
+            background: rgba(10, 132, 255, 0.1);
+        }
+        [data-theme="dark"] .dest-tab.active {
+            color: #fff;
+            background: rgba(10, 132, 255, 0.85);
+            border-color: transparent;
+        }
+
+        /* Stats bar */
+        .requests-stats {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            font-size: 0.9rem;
+            color: var(--text-secondary, #5f6368);
+        }
+        .requests-stats strong {
+            color: var(--text-primary, #202124);
+            font-weight: 600;
+        }
+
+        /* Two-column grid */
+        .travel-grid {
+            display: grid;
+            grid-template-columns: 400px 1fr;
+            gap: 32px;
+            align-items: start;
+        }
+        @media (max-width: 900px) {
+            .travel-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Form card */
+        .request-form-card {
+            border-radius: 16px;
+            padding: 32px;
+            position: sticky;
+            top: 88px;
+        }
+        .request-form-card h3 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 24px;
+        }
+        .form-group {
+            margin-bottom: 18px;
+        }
+        .form-group label {
+            display: block;
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--text-secondary, #5f6368);
+            margin-bottom: 6px;
+        }
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px 16px;
+            border: 1px solid rgba(0, 0, 0, 0.12);
+            border-radius: 12px;
+            font-size: 14px;
+            font-family: inherit;
+            background: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(12px);
+            color: inherit;
+            transition: border-color 0.2s, box-shadow 0.2s;
+            box-sizing: border-box;
+        }
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #1a73e8;
+            box-shadow: 0 0 0 3px rgba(26, 115, 232, 0.12);
+        }
+        .form-group textarea {
+            resize: vertical;
+            min-height: 72px;
+        }
+        .form-group select {
+            cursor: pointer;
+        }
+        [data-theme="dark"] .form-group input,
+        [data-theme="dark"] .form-group select,
+        [data-theme="dark"] .form-group textarea {
+            background: rgba(255, 255, 255, 0.06);
+            border-color: rgba(255, 255, 255, 0.12);
+            color: #f5f5f7;
+        }
+        [data-theme="dark"] .form-group input:focus,
+        [data-theme="dark"] .form-group select:focus,
+        [data-theme="dark"] .form-group textarea:focus {
+            border-color: #0a84ff;
+            box-shadow: 0 0 0 3px rgba(10, 132, 255, 0.15);
+        }
+        [data-theme="dark"] .form-group select option {
+            background: #2c2c2e;
+            color: #f5f5f7;
+        }
+        .form-submit-btn {
+            width: 100%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 14px 28px;
+            font-size: 14px;
+            font-weight: 500;
+            font-family: inherit;
+            border-radius: 48px;
+            border: none;
+            cursor: pointer;
+            transition: all 0.25s ease;
+            background: rgba(26, 115, 232, 0.88);
+            backdrop-filter: blur(12px) saturate(180%);
+            color: #ffffff;
+            border: 1px solid rgba(26, 115, 232, 0.3);
+            box-shadow:
+                0 0 0 0.5px rgba(26, 115, 232, 0.2),
+                0 2px 8px rgba(26, 115, 232, 0.2),
+                inset 0 0.5px 0 rgba(255, 255, 255, 0.25);
+        }
+        .form-submit-btn:hover {
+            background: rgba(23, 78, 166, 0.92);
+            box-shadow:
+                0 0 0 0.5px rgba(26, 115, 232, 0.25),
+                0 4px 16px rgba(26, 115, 232, 0.3),
+                inset 0 0.5px 0 rgba(255, 255, 255, 0.3);
+            transform: translateY(-1px);
+        }
+        .form-submit-btn:disabled {
+            opacity: 0.7;
+            cursor: not-allowed;
+            transform: none;
+        }
+        [data-theme="dark"] .form-submit-btn {
+            background: rgba(10, 132, 255, 0.85);
+            border-color: rgba(10, 132, 255, 0.3);
+        }
+        [data-theme="dark"] .form-submit-btn:hover {
+            background: rgba(10, 132, 255, 0.95);
+        }
+
+        /* Request cards */
+        .requests-list h3 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+        .requests-container {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .request-card {
+            border-radius: 14px;
+            padding: 20px;
+            transition: transform 0.15s, box-shadow 0.15s;
+        }
+        .request-card:hover {
+            transform: translateY(-1px);
+        }
+        .request-card__header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            gap: 12px;
+        }
+        .request-card__name {
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+        .request-card__dest {
+            font-size: 0.8rem;
+            color: var(--text-secondary, #5f6368);
+            white-space: nowrap;
+        }
+        .request-card__dest i {
+            margin-right: 4px;
+        }
+        .request-card__item {
+            font-size: 1rem;
+            font-weight: 500;
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+        .request-card__meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 8px;
+        }
+        .request-card__meta span {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            font-size: 0.78rem;
+            padding: 3px 10px;
+            border-radius: 48px;
+            font-weight: 500;
+        }
+        .request-card__category {
+            background: rgba(26, 115, 232, 0.08);
+            color: #1a73e8;
+        }
+        [data-theme="dark"] .request-card__category {
+            background: rgba(10, 132, 255, 0.12);
+            color: #0a84ff;
+        }
+        .request-card__budget {
+            background: rgba(52, 168, 83, 0.08);
+            color: #34a853;
+        }
+        [data-theme="dark"] .request-card__budget {
+            background: rgba(48, 209, 88, 0.12);
+            color: #30d158;
+        }
+        .priority--nice-to-have {
+            background: rgba(0, 0, 0, 0.04);
+            color: #5f6368;
+        }
+        [data-theme="dark"] .priority--nice-to-have {
+            background: rgba(255, 255, 255, 0.06);
+            color: #a1a1a6;
+        }
+        .priority--would-really-appreciate {
+            background: rgba(251, 188, 4, 0.1);
+            color: #e37400;
+        }
+        [data-theme="dark"] .priority--would-really-appreciate {
+            background: rgba(255, 214, 10, 0.12);
+            color: #ffd60a;
+        }
+        .priority--must-have {
+            background: rgba(234, 67, 53, 0.08);
+            color: #d93025;
+        }
+        [data-theme="dark"] .priority--must-have {
+            background: rgba(255, 69, 58, 0.12);
+            color: #ff453a;
+        }
+        .request-card__notes {
+            font-size: 0.85rem;
+            color: var(--text-secondary, #5f6368);
+            margin-bottom: 8px;
+            line-height: 1.5;
+        }
+        .request-card__footer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+        }
+        .request-card__date {
+            font-size: 0.75rem;
+            color: var(--text-secondary, #5f6368);
+        }
+        .status-badge {
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 3px 10px;
+            border-radius: 48px;
+            text-transform: capitalize;
+        }
+        .status--pending {
+            background: rgba(251, 188, 4, 0.1);
+            color: #e37400;
+        }
+        [data-theme="dark"] .status--pending {
+            background: rgba(255, 214, 10, 0.12);
+            color: #ffd60a;
+        }
+        .status--accepted {
+            background: rgba(26, 115, 232, 0.08);
+            color: #1a73e8;
+        }
+        [data-theme="dark"] .status--accepted {
+            background: rgba(10, 132, 255, 0.12);
+            color: #0a84ff;
+        }
+        .status--purchased {
+            background: rgba(52, 168, 83, 0.08);
+            color: #34a853;
+        }
+        [data-theme="dark"] .status--purchased {
+            background: rgba(48, 209, 88, 0.12);
+            color: #30d158;
+        }
+        .status--delivered {
+            background: rgba(0, 0, 0, 0.04);
+            color: #5f6368;
+        }
+        [data-theme="dark"] .status--delivered {
+            background: rgba(255, 255, 255, 0.06);
+            color: #a1a1a6;
+        }
+
+        /* Loading skeleton */
+        .skeleton-card {
+            border-radius: 14px;
+            padding: 20px;
+            animation: shimmer 1.5s infinite;
+        }
+        .skeleton-line {
+            height: 14px;
+            border-radius: 7px;
+            background: rgba(0, 0, 0, 0.06);
+            margin-bottom: 10px;
+        }
+        [data-theme="dark"] .skeleton-line {
+            background: rgba(255, 255, 255, 0.06);
+        }
+        .skeleton-line:last-child { margin-bottom: 0; }
+        .skeleton-line--short { width: 40%; }
+        .skeleton-line--medium { width: 70%; }
+        @keyframes shimmer {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        /* Empty state */
+        .requests-empty {
+            text-align: center;
+            padding: 48px 24px;
+            color: var(--text-secondary, #5f6368);
+        }
+        .requests-empty i {
+            font-size: 2.5rem;
+            margin-bottom: 16px;
+            opacity: 0.4;
+        }
+        .requests-empty p {
+            font-size: 0.95rem;
+        }
+
+        /* Error state */
+        .requests-error {
+            text-align: center;
+            padding: 32px 24px;
+            color: var(--text-secondary, #5f6368);
+        }
+        .requests-error i {
+            font-size: 2rem;
+            margin-bottom: 12px;
+            color: #d93025;
+            opacity: 0.6;
+        }
+        [data-theme="dark"] .requests-error i {
+            color: #ff453a;
+        }
+
+        /* Toast notification */
+        .toast {
+            position: fixed;
+            bottom: 24px;
+            left: 50%;
+            transform: translateX(-50%) translateY(100px);
+            padding: 14px 24px;
+            border-radius: 12px;
+            font-size: 14px;
+            font-weight: 500;
+            background: rgba(32, 33, 36, 0.95);
+            color: #fff;
+            backdrop-filter: blur(20px);
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+            transition: transform 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .toast.show {
+            transform: translateX(-50%) translateY(0);
+        }
+        [data-theme="dark"] .toast {
+            background: rgba(58, 58, 60, 0.95);
+        }
+
+        /* Setup banner */
+        .setup-banner {
+            max-width: 640px;
+            margin: 0 auto 24px;
+            padding: 14px 18px;
+            background: rgba(251, 188, 4, 0.08);
+            border-left: 3px solid #fbbc04;
+            border-radius: 0 8px 8px 0;
+            font-size: 0.85rem;
+            color: var(--text-secondary, #5f6368);
+            line-height: 1.5;
+        }
+        .setup-banner strong {
+            color: var(--text-primary, #202124);
+        }
+        .setup-banner code {
+            background: rgba(0, 0, 0, 0.05);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.82rem;
+        }
+        [data-theme="dark"] .setup-banner {
+            background: rgba(255, 214, 10, 0.06);
+            border-color: #ffd60a;
+        }
+        [data-theme="dark"] .setup-banner code {
+            background: rgba(255, 255, 255, 0.08);
+        }
+
+        /* Country flag icons */
+        .flag-jp::before { content: "\1F1EF\1F1F5 "; }
+        .flag-hk::before { content: "\1F1ED\1F1F0 "; }
+        .flag-cn::before { content: "\1F1E8\1F1F3 "; }
+    </style>
+</head>
+<body>
+
+    <header class="header" id="header">
+        <div class="header__inner">
+            <a href="/" class="header__logo">
+                <img src="images/logo.png" alt="Mono" class="header__logo-img">
+            </a>
+            <nav class="header__nav" id="nav">
+                <a href="index.html#home">Home</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#portfolio">Portfolio</a>
+                <a href="blog/blog-page.html">Blog</a>
+                <div class="nav-dropdown" id="toolsDropdown">
+                    <button type="button" class="nav-dropdown__trigger">Tools <i class="fa-solid fa-chevron-down dd-chevron"></i></button>
+                    <div class="nav-dropdown__menu">
+                        <a href="google-certified-devices.html"><i class="fa-solid fa-microchip"></i> Google Certified Devices</a>
+                        <a href="travel-requests.html"><i class="fa-solid fa-plane-departure"></i> Travel Requests</a>
+                    </div>
+                </div>
+                <a href="index.html#contact">Contact</a>
+                <button class="theme-toggle--mobile" id="themeToggleMobile" aria-label="Toggle dark mode">
+                    <i class="fa-solid fa-moon"></i><i class="fa-solid fa-sun"></i>
+                    <span class="theme-toggle--mobile__label">Dark Mode</span>
+                </button>
+            </nav>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                <i class="fa-solid fa-moon"></i><i class="fa-solid fa-sun"></i>
+            </button>
+            <button class="header__menu-btn" id="menuBtn" aria-label="Toggle menu">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="3" y1="6" x2="21" y2="6"/>
+                    <line x1="3" y1="12" x2="21" y2="12"/>
+                    <line x1="3" y1="18" x2="21" y2="18"/>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <section class="travel-hero">
+        <div class="container">
+            <nav class="article-breadcrumb" aria-label="Breadcrumb">
+                <a href="/">Home</a> &rsaquo;
+                <span>Travel Requests</span>
+            </nav>
+            <h1>Travel Requests</h1>
+            <p>Request items from Japan, Hong Kong, or China. Browse existing requests to see what's already in the queue.</p>
+
+            <div class="setup-banner" id="setupBanner" style="display:none;">
+                <strong>Setup required:</strong> This page needs a Google Sheets backend. Set your Apps Script URL in the <code>SCRIPT_URL</code> variable in this page's JavaScript.
+            </div>
+
+            <div class="dest-tabs" id="destTabs">
+                <button class="dest-tab active" data-dest="all">All</button>
+                <button class="dest-tab" data-dest="Japan"><span class="flag-jp"></span>Japan</button>
+                <button class="dest-tab" data-dest="Hong Kong"><span class="flag-hk"></span>Hong Kong</button>
+                <button class="dest-tab" data-dest="China"><span class="flag-cn"></span>China</button>
+            </div>
+
+            <div class="requests-stats" id="requestsStats"></div>
+        </div>
+    </section>
+
+    <section class="section" style="padding-top: 0;">
+        <div class="container">
+            <div class="travel-grid">
+
+                <!-- Form -->
+                <div class="request-form-card glass">
+                    <h3><i class="fa-solid fa-paper-plane" style="margin-right:8px; opacity:0.6;"></i>Submit a Request</h3>
+                    <form id="requestForm">
+                        <div class="form-group">
+                            <label for="reqName">Your Name *</label>
+                            <input type="text" id="reqName" name="name" required placeholder="e.g., Rahul">
+                        </div>
+                        <div class="form-group">
+                            <label for="reqDest">Destination *</label>
+                            <select id="reqDest" name="destination" required>
+                                <option value="">Select country...</option>
+                                <option value="Japan">Japan</option>
+                                <option value="Hong Kong">Hong Kong</option>
+                                <option value="China">China</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="reqItem">Item *</label>
+                            <input type="text" id="reqItem" name="item" required placeholder="e.g., Kit Kat Matcha flavor">
+                        </div>
+                        <div class="form-group">
+                            <label for="reqCategory">Category</label>
+                            <select id="reqCategory" name="category">
+                                <option value="Electronics">Electronics</option>
+                                <option value="Fashion">Fashion</option>
+                                <option value="Food & Snacks">Food & Snacks</option>
+                                <option value="Beauty & Skincare">Beauty & Skincare</option>
+                                <option value="Toys & Collectibles">Toys & Collectibles</option>
+                                <option value="Home & Kitchen">Home & Kitchen</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="reqBudget">Max Budget</label>
+                            <input type="text" id="reqBudget" name="budget" placeholder="e.g., &#8377;2,000 or $25">
+                        </div>
+                        <div class="form-group">
+                            <label for="reqPriority">Priority</label>
+                            <select id="reqPriority" name="priority">
+                                <option value="Nice to have">Nice to have</option>
+                                <option value="Would really appreciate">Would really appreciate</option>
+                                <option value="Must have">Must have</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="reqLink">Product Link</label>
+                            <input type="url" id="reqLink" name="link" placeholder="https://...">
+                        </div>
+                        <div class="form-group">
+                            <label for="reqNotes">Notes</label>
+                            <textarea id="reqNotes" name="notes" rows="3" placeholder="Sizes, colors, specific store, etc."></textarea>
+                        </div>
+                        <!-- Honeypot for spam -->
+                        <div style="position:absolute;left:-9999px;" aria-hidden="true">
+                            <input type="text" name="website" tabindex="-1" autocomplete="off">
+                        </div>
+                        <button type="submit" class="form-submit-btn" id="submitBtn">
+                            <i class="fa-solid fa-paper-plane"></i> Submit Request
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Requests list -->
+                <div class="requests-list">
+                    <h3 id="listHeading">All Requests</h3>
+                    <div class="requests-container" id="requestsContainer">
+                        <!-- Loading skeleton -->
+                        <div class="skeleton-card glass">
+                            <div class="skeleton-line skeleton-line--short"></div>
+                            <div class="skeleton-line"></div>
+                            <div class="skeleton-line skeleton-line--medium"></div>
+                        </div>
+                        <div class="skeleton-card glass">
+                            <div class="skeleton-line skeleton-line--short"></div>
+                            <div class="skeleton-line"></div>
+                            <div class="skeleton-line skeleton-line--medium"></div>
+                        </div>
+                        <div class="skeleton-card glass">
+                            <div class="skeleton-line skeleton-line--short"></div>
+                            <div class="skeleton-line"></div>
+                            <div class="skeleton-line skeleton-line--medium"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__text">&copy; 2026 Manojit Ballav. Content licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.</div>
+                <div class="footer__links">
+                    <a href="https://www.linkedin.com/in/manojitballav/" target="_blank" rel="noopener">LinkedIn</a>
+                    <a href="https://x.com/manojitballav" target="_blank" rel="noopener">X</a>
+                    <a href="https://github.com/manojitballav" target="_blank" rel="noopener">GitHub</a>
+                    <a href="privacy-policy.html">Privacy</a>
+                    <a href="terms-of-service.html">Terms</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="toast" id="toast"></div>
+
+    <!-- Standard site scripts -->
+    <script>
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => { header.classList.toggle('header--scrolled', window.scrollY > 10); });
+        const menuBtn = document.getElementById('menuBtn');
+        const nav = document.getElementById('nav');
+        menuBtn.addEventListener('click', () => {
+            nav.classList.toggle('open');
+            const isOpen = nav.classList.contains('open');
+            menuBtn.innerHTML = isOpen
+                ? '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="6" y1="6" x2="18" y2="18"/><line x1="6" y1="18" x2="18" y2="6"/></svg>'
+                : '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>';
+        });
+        nav.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                nav.classList.remove('open');
+                menuBtn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>';
+            });
+        });
+        const themeToggle = document.getElementById('themeToggle');
+        const themeToggleMobile = document.getElementById('themeToggleMobile');
+        const mobileLabel = themeToggleMobile.querySelector('.theme-toggle--mobile__label');
+        const root = document.documentElement;
+        function updateMobileLabel() {
+            const isDark = root.getAttribute('data-theme') === 'dark';
+            mobileLabel.textContent = isDark ? 'Light Mode' : 'Dark Mode';
+        }
+        function setTheme(theme) {
+            root.setAttribute('data-theme', theme);
+            localStorage.setItem('theme', theme);
+            updateMobileLabel();
+        }
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) { setTheme(savedTheme); }
+        else if (window.matchMedia('(prefers-color-scheme: dark)').matches) { setTheme('dark'); }
+        updateMobileLabel();
+        themeToggle.addEventListener('click', () => {
+            const current = root.getAttribute('data-theme');
+            setTheme(current === 'dark' ? 'light' : 'dark');
+        });
+        themeToggleMobile.addEventListener('click', () => {
+            const current = root.getAttribute('data-theme');
+            setTheme(current === 'dark' ? 'light' : 'dark');
+        });
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+            if (!localStorage.getItem('theme')) { setTheme(e.matches ? 'dark' : 'light'); }
+        });
+    </script>
+
+    <!-- Travel Requests logic -->
+    <script>
+    (function() {
+        // =====================================================================
+        // SETUP: Replace this URL with your deployed Google Apps Script web app URL.
+        //
+        // Google Apps Script code to deploy:
+        //
+        //   const SHEET_ID = 'YOUR_GOOGLE_SHEET_ID';
+        //   const SHEET_NAME = 'Requests';
+        //
+        //   function doGet(e) {
+        //     const sheet = SpreadsheetApp.openById(SHEET_ID).getSheetByName(SHEET_NAME);
+        //     const data = sheet.getDataRange().getValues();
+        //     const headers = data[0];
+        //     const rows = data.slice(1).map(row => {
+        //       const obj = {};
+        //       headers.forEach((h, i) => obj[h] = row[i]);
+        //       return obj;
+        //     });
+        //     return ContentService
+        //       .createTextOutput(JSON.stringify({ success: true, data: rows }))
+        //       .setMimeType(ContentService.MimeType.JSON);
+        //   }
+        //
+        //   function doPost(e) {
+        //     const sheet = SpreadsheetApp.openById(SHEET_ID).getSheetByName(SHEET_NAME);
+        //     const body = JSON.parse(e.postData.contents);
+        //     if (body.website) return ContentService.createTextOutput(JSON.stringify({ success: false })).setMimeType(ContentService.MimeType.JSON);
+        //     sheet.appendRow([
+        //       new Date().toISOString(),
+        //       body.name || '',
+        //       body.destination || '',
+        //       body.item || '',
+        //       body.category || '',
+        //       body.budget || '',
+        //       body.priority || '',
+        //       body.link || '',
+        //       body.notes || '',
+        //       'Pending'
+        //     ]);
+        //     return ContentService
+        //       .createTextOutput(JSON.stringify({ success: true }))
+        //       .setMimeType(ContentService.MimeType.JSON);
+        //   }
+        //
+        // Google Sheet columns (row 1 headers):
+        //   Timestamp | Name | Destination | Item | Category | Budget | Priority | Link | Notes | Status
+        //
+        // Deploy as: Web App → Execute as: Me → Access: Anyone
+        // =====================================================================
+        const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzQUoFnOv-PRz6v1bbjdwU3gHMcft-hdkqSJx3Y3F70bFKBuWh9QebDWxcF0ACtim6paw/exec';
+
+        const container = document.getElementById('requestsContainer');
+        const statsEl = document.getElementById('requestsStats');
+        const listHeading = document.getElementById('listHeading');
+        const form = document.getElementById('requestForm');
+        const submitBtn = document.getElementById('submitBtn');
+        const toast = document.getElementById('toast');
+        const setupBanner = document.getElementById('setupBanner');
+        let allRequests = [];
+        let activeFilter = 'all';
+
+        function escapeHtml(str) {
+            if (!str) return '';
+            const d = document.createElement('div');
+            d.textContent = String(str);
+            return d.innerHTML;
+        }
+
+        function showToast(message, icon) {
+            toast.innerHTML = '<i class="fa-solid fa-' + icon + '"></i> ' + escapeHtml(message);
+            toast.classList.add('show');
+            setTimeout(() => toast.classList.remove('show'), 3000);
+        }
+
+        function formatDate(dateStr) {
+            if (!dateStr) return '';
+            try {
+                const d = new Date(dateStr);
+                return d.toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' });
+            } catch { return ''; }
+        }
+
+        function flagClass(dest) {
+            if (dest === 'Japan') return 'flag-jp';
+            if (dest === 'Hong Kong') return 'flag-hk';
+            if (dest === 'China') return 'flag-cn';
+            return '';
+        }
+
+        function priorityClass(p) {
+            if (!p) return '';
+            return 'priority--' + p.toLowerCase().replace(/\s+/g, '-');
+        }
+
+        function statusClass(s) {
+            if (!s) return 'status--pending';
+            return 'status--' + s.toLowerCase();
+        }
+
+        function updateStats(data) {
+            const total = data.length;
+            const pending = data.filter(r => (r.Status || 'Pending').toLowerCase() === 'pending').length;
+            const purchased = data.filter(r => (r.Status || '').toLowerCase() === 'purchased').length;
+            const delivered = data.filter(r => (r.Status || '').toLowerCase() === 'delivered').length;
+            statsEl.innerHTML =
+                '<span><strong>' + total + '</strong> total</span>' +
+                '<span><strong>' + pending + '</strong> pending</span>' +
+                (purchased ? '<span><strong>' + purchased + '</strong> purchased</span>' : '') +
+                (delivered ? '<span><strong>' + delivered + '</strong> delivered</span>' : '');
+        }
+
+        function renderRequests(data) {
+            const filtered = activeFilter === 'all' ? data : data.filter(r => r.Destination === activeFilter);
+            listHeading.textContent = (activeFilter === 'all' ? 'All' : activeFilter) + ' Requests (' + filtered.length + ')';
+
+            if (!filtered.length) {
+                container.innerHTML =
+                    '<div class="requests-empty">' +
+                    '<i class="fa-solid fa-box-open"></i>' +
+                    '<p>' + (activeFilter === 'all' ? 'No requests yet. Be the first!' : 'No requests for ' + escapeHtml(activeFilter) + ' yet.') + '</p>' +
+                    '</div>';
+                return;
+            }
+
+            container.innerHTML = filtered.map(function(r) {
+                var linkHtml = '';
+                if (r.Link) {
+                    linkHtml = ' <a href="' + escapeHtml(r.Link) + '" target="_blank" rel="noopener" style="color:var(--accent,#1a73e8);font-size:0.82rem;text-decoration:none;"><i class="fa-solid fa-arrow-up-right-from-square"></i> Link</a>';
+                }
+                return '<div class="request-card glass" data-dest="' + escapeHtml(r.Destination) + '">' +
+                    '<div class="request-card__header">' +
+                        '<span class="request-card__name">' + escapeHtml(r.Name) + '</span>' +
+                        '<span class="request-card__dest"><span class="' + flagClass(r.Destination) + '"></span>' + escapeHtml(r.Destination) + '</span>' +
+                    '</div>' +
+                    '<div class="request-card__item">' + escapeHtml(r.Item) + linkHtml + '</div>' +
+                    '<div class="request-card__meta">' +
+                        (r.Category ? '<span class="request-card__category"><i class="fa-solid fa-tag"></i> ' + escapeHtml(r.Category) + '</span>' : '') +
+                        (r.Budget ? '<span class="request-card__budget"><i class="fa-solid fa-coins"></i> ' + escapeHtml(r.Budget) + '</span>' : '') +
+                        (r.Priority ? '<span class="' + priorityClass(r.Priority) + '">' + escapeHtml(r.Priority) + '</span>' : '') +
+                    '</div>' +
+                    (r.Notes ? '<div class="request-card__notes">' + escapeHtml(r.Notes) + '</div>' : '') +
+                    '<div class="request-card__footer">' +
+                        '<span class="request-card__date">' + formatDate(r.Timestamp) + '</span>' +
+                        '<span class="status-badge ' + statusClass(r.Status) + '">' + escapeHtml(r.Status || 'Pending') + '</span>' +
+                    '</div>' +
+                '</div>';
+            }).join('');
+        }
+
+        async function loadRequests() {
+            if (!SCRIPT_URL) {
+                setupBanner.style.display = '';
+                container.innerHTML =
+                    '<div class="requests-empty">' +
+                    '<i class="fa-solid fa-gear"></i>' +
+                    '<p>Backend not configured yet. Set the <code>SCRIPT_URL</code> to connect to Google Sheets.</p>' +
+                    '</div>';
+                statsEl.innerHTML = '<span><strong>0</strong> total</span>';
+                return;
+            }
+            try {
+                const res = await fetch(SCRIPT_URL);
+                const json = await res.json();
+                if (json.success && json.data) {
+                    // Normalize keys to title case so header casing in the Sheet doesn't matter
+                    var keyMap = {timestamp:'Timestamp',name:'Name',destination:'Destination',item:'Item',category:'Category',budget:'Budget',priority:'Priority',link:'Link',notes:'Notes',status:'Status'};
+                    allRequests = json.data.map(function(row) {
+                        var norm = {};
+                        Object.keys(row).forEach(function(k) { norm[keyMap[k.toLowerCase()] || k] = row[k]; });
+                        return norm;
+                    }).reverse();
+                    updateStats(allRequests);
+                    renderRequests(allRequests);
+                }
+            } catch (err) {
+                container.innerHTML =
+                    '<div class="requests-error">' +
+                    '<i class="fa-solid fa-triangle-exclamation"></i>' +
+                    '<p>Unable to load requests. Please try again later.</p>' +
+                    '</div>';
+            }
+        }
+
+        // Destination filter tabs
+        document.querySelectorAll('.dest-tab').forEach(function(tab) {
+            tab.addEventListener('click', function() {
+                document.querySelectorAll('.dest-tab').forEach(function(t) { t.classList.remove('active'); });
+                tab.classList.add('active');
+                activeFilter = tab.dataset.dest;
+                renderRequests(allRequests);
+            });
+        });
+
+        // Form submission
+        form.addEventListener('submit', async function(e) {
+            e.preventDefault();
+
+            if (!SCRIPT_URL) {
+                showToast('Backend not configured yet', 'circle-exclamation');
+                return;
+            }
+
+            // Honeypot check
+            if (form.querySelector('[name="website"]').value) return;
+
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Submitting...';
+
+            var data = {
+                name: form.name.value.trim(),
+                destination: form.destination.value,
+                item: form.item.value.trim(),
+                category: form.category.value,
+                budget: form.budget.value.trim(),
+                priority: form.priority.value,
+                link: form.link.value.trim(),
+                notes: form.notes.value.trim(),
+                website: form.website.value
+            };
+
+            try {
+                await fetch(SCRIPT_URL, {
+                    method: 'POST',
+                    body: JSON.stringify(data),
+                    headers: { 'Content-Type': 'text/plain' }
+                });
+                form.reset();
+                showToast('Request submitted!', 'check-circle');
+                submitBtn.innerHTML = '<i class="fa-solid fa-check"></i> Submitted!';
+                setTimeout(function() {
+                    submitBtn.disabled = false;
+                    submitBtn.innerHTML = '<i class="fa-solid fa-paper-plane"></i> Submit Request';
+                }, 2000);
+                loadRequests();
+            } catch (err) {
+                showToast('Something went wrong. Try again.', 'triangle-exclamation');
+                submitBtn.disabled = false;
+                submitBtn.innerHTML = '<i class="fa-solid fa-paper-plane"></i> Submit Request';
+            }
+        });
+
+        loadRequests();
+    })();
+    </script>
+
+</body>
+</html>
