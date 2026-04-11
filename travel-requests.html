@@ -116,6 +116,84 @@
             font-weight: 600;
         }
 
+        /* Dashboard meters */
+        .travel-dashboard {
+            display: flex;
+            gap: 16px;
+            max-width: 700px;
+            margin: 20px auto 0;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .meter-card {
+            flex: 1;
+            min-width: 200px;
+            max-width: 320px;
+            padding: 16px 20px;
+            border-radius: 14px;
+            background: rgba(255, 255, 255, 0.55);
+            backdrop-filter: blur(20px) saturate(180%);
+            border: 1px solid rgba(255, 255, 255, 0.6);
+            box-shadow: 0 0 0 0.5px rgba(0, 0, 0, 0.04), 0 2px 8px rgba(0, 0, 0, 0.04);
+        }
+        [data-theme="dark"] .meter-card {
+            background: var(--glass-bg, rgba(44, 44, 46, 0.8));
+            border-color: var(--glass-border, rgba(255, 255, 255, 0.08));
+        }
+        .meter-card__label {
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-secondary, #5f6368);
+            margin-bottom: 8px;
+        }
+        .meter-card__value {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .meter-bar {
+            height: 6px;
+            border-radius: 3px;
+            background: rgba(0, 0, 0, 0.06);
+            overflow: hidden;
+        }
+        [data-theme="dark"] .meter-bar {
+            background: rgba(255, 255, 255, 0.08);
+        }
+        .meter-bar__fill {
+            height: 100%;
+            border-radius: 3px;
+            transition: width 0.4s ease, background 0.4s ease;
+        }
+        .meter-bar__fill--safe { background: #34a853; }
+        .meter-bar__fill--moderate { background: #fbbc04; }
+        .meter-bar__fill--risky { background: #ea4335; }
+        .meter-card__hint {
+            font-size: 0.72rem;
+            color: var(--text-secondary, #5f6368);
+            margin-top: 6px;
+        }
+
+        /* Warning badge on cards */
+        .request-card__customs-warn {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            font-size: 0.72rem;
+            font-weight: 600;
+            padding: 3px 9px;
+            border-radius: 48px;
+            background: rgba(234, 67, 53, 0.08);
+            color: #d93025;
+            margin-top: 6px;
+        }
+        [data-theme="dark"] .request-card__customs-warn {
+            background: rgba(255, 69, 58, 0.12);
+            color: #ff453a;
+        }
+
         /* Two-column grid */
         .travel-grid {
             display: grid;
@@ -739,6 +817,21 @@
             </div>
 
             <div class="requests-stats" id="requestsStats"></div>
+
+            <div class="travel-dashboard" id="travelDashboard" style="display:none;">
+                <div class="meter-card">
+                    <div class="meter-card__label"><i class="fa-solid fa-shield-halved"></i> Safety Meter</div>
+                    <div class="meter-card__value" id="safetyLabel">Safe</div>
+                    <div class="meter-bar"><div class="meter-bar__fill meter-bar__fill--safe" id="safetyBar" style="width:0%"></div></div>
+                    <div class="meter-card__hint" id="safetyHint"></div>
+                </div>
+                <div class="meter-card">
+                    <div class="meter-card__label"><i class="fa-solid fa-coins"></i> Total Estimated Cost</div>
+                    <div class="meter-card__value" id="costLabel">₹0</div>
+                    <div class="meter-bar"><div class="meter-bar__fill meter-bar__fill--safe" id="costBar" style="width:0%"></div></div>
+                    <div class="meter-card__hint" id="costHint">Duty-free limit: ₹50,000 per person</div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -1034,6 +1127,93 @@
             return 'status--' + s.toLowerCase();
         }
 
+        function isCautionItem(itemName) {
+            if (!itemName) return false;
+            var lower = itemName.toLowerCase();
+            for (var i = 0; i < blockedPatterns.length; i++) {
+                if (blockedPatterns[i].test(lower)) return true;
+            }
+            for (var j = 0; j < cautionPatterns.length; j++) {
+                if (cautionPatterns[j].test(lower)) return true;
+            }
+            return false;
+        }
+
+        // Approximate INR conversion rates
+        var toINR = { '₹': 1, '¥': 0.57, 'CN¥': 11.6, 'HK$': 10.8, '$': 85, 'Rs': 1, 'INR': 1, 'JPY': 0.57, 'CNY': 11.6, 'HKD': 10.8, 'USD': 85 };
+        var DUTY_FREE_LIMIT = 50000;
+
+        function parseBudgetINR(budgetStr) {
+            if (!budgetStr) return 0;
+            var str = String(budgetStr).trim();
+            // Extract currency symbol and number
+            var match = str.match(/^(₹|CN¥|HK\$|\$|¥|Rs\.?|INR|JPY|CNY|HKD|USD)?\s*([\d,]+(?:\.\d+)?)/i);
+            if (!match) return 0;
+            var symbol = match[1] || '₹';
+            var amount = parseFloat(match[2].replace(/,/g, ''));
+            if (isNaN(amount)) return 0;
+            var rate = toINR[symbol] || 1;
+            return Math.round(amount * rate);
+        }
+
+        function updateDashboard(data) {
+            var dashboard = document.getElementById('travelDashboard');
+            if (!data.length) { dashboard.style.display = 'none'; return; }
+            dashboard.style.display = '';
+
+            // Safety meter
+            var cautionCount = 0;
+            data.forEach(function(r) { if (isCautionItem(r.Item)) cautionCount++; });
+            var safetyPct = Math.min((cautionCount / Math.max(data.length, 1)) * 100, 100);
+            var safetyBar = document.getElementById('safetyBar');
+            var safetyLabel = document.getElementById('safetyLabel');
+            var safetyHint = document.getElementById('safetyHint');
+
+            if (cautionCount === 0) {
+                safetyLabel.textContent = 'All Clear';
+                safetyLabel.style.color = '#34a853';
+                safetyBar.style.width = '5%';
+                safetyBar.className = 'meter-bar__fill meter-bar__fill--safe';
+                safetyHint.textContent = 'No flagged items — smooth sailing through customs';
+            } else if (cautionCount <= 2) {
+                safetyLabel.textContent = 'Moderate';
+                safetyLabel.style.color = '#e37400';
+                safetyBar.style.width = Math.max(safetyPct, 30) + '%';
+                safetyBar.className = 'meter-bar__fill meter-bar__fill--moderate';
+                safetyHint.textContent = cautionCount + ' flagged item' + (cautionCount > 1 ? 's' : '') + ' — expect a possible bag check';
+            } else {
+                safetyLabel.textContent = 'Risky';
+                safetyLabel.style.color = '#d93025';
+                safetyBar.style.width = Math.max(safetyPct, 50) + '%';
+                safetyBar.className = 'meter-bar__fill meter-bar__fill--risky';
+                safetyHint.textContent = cautionCount + ' flagged items — high chance of inspection and delays';
+            }
+
+            // Cost tracker
+            var totalINR = 0;
+            data.forEach(function(r) { totalINR += parseBudgetINR(r.Budget); });
+            var costLabel = document.getElementById('costLabel');
+            var costBar = document.getElementById('costBar');
+            var costHint = document.getElementById('costHint');
+            var costPct = Math.min((totalINR / DUTY_FREE_LIMIT) * 100, 100);
+
+            costLabel.textContent = '₹' + totalINR.toLocaleString('en-IN');
+
+            if (totalINR <= DUTY_FREE_LIMIT * 0.7) {
+                costBar.style.width = Math.max(costPct, 3) + '%';
+                costBar.className = 'meter-bar__fill meter-bar__fill--safe';
+                costHint.textContent = '₹' + (DUTY_FREE_LIMIT - totalINR).toLocaleString('en-IN') + ' remaining under duty-free limit (₹50,000/person)';
+            } else if (totalINR <= DUTY_FREE_LIMIT) {
+                costBar.style.width = costPct + '%';
+                costBar.className = 'meter-bar__fill meter-bar__fill--moderate';
+                costHint.textContent = 'Approaching duty-free limit — only ₹' + (DUTY_FREE_LIMIT - totalINR).toLocaleString('en-IN') + ' left';
+            } else {
+                costBar.style.width = '100%';
+                costBar.className = 'meter-bar__fill meter-bar__fill--risky';
+                costHint.textContent = 'Over duty-free limit by ₹' + (totalINR - DUTY_FREE_LIMIT).toLocaleString('en-IN') + ' — customs duty will apply';
+            }
+        }
+
         function updateStats(data) {
             const total = data.length;
             const pending = data.filter(r => (r.Status || 'Pending').toLowerCase() === 'pending').length;
@@ -1077,6 +1257,7 @@
                         (r.Priority ? '<span class="' + priorityClass(r.Priority) + '">' + escapeHtml(r.Priority) + '</span>' : '') +
                     '</div>' +
                     (r.Notes ? '<div class="request-card__notes">' + escapeHtml(r.Notes) + '</div>' : '') +
+                    (isCautionItem(r.Item) ? '<div class="request-card__customs-warn"><i class="fa-solid fa-triangle-exclamation"></i> Customs attention likely</div>' : '') +
                     '<div class="request-card__footer">' +
                         '<span class="request-card__date">' + formatDate(r.Timestamp) + '</span>' +
                         '<span class="status-badge ' + statusClass(r.Status) + '">' + escapeHtml(r.Status || 'Pending') + '</span>' +
@@ -1109,6 +1290,7 @@
                     }).reverse();
                     updateStats(allRequests);
                     renderRequests(allRequests);
+                    updateDashboard(allRequests);
                 }
             } catch (err) {
                 container.innerHTML =
