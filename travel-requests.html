@@ -1209,8 +1209,12 @@
         function obfuscateName(name) {
             if (!name) return '';
             var parts = name.trim().split(/\s+/);
-            if (parts.length === 1) return parts[0];
-            return parts[0] + ' ' + parts[parts.length - 1].charAt(0).toUpperCase() + '.';
+            function mask(word) {
+                if (word.length <= 2) return word + '*';
+                return word.substring(0, 2) + '*'.repeat(word.length - 2);
+            }
+            if (parts.length === 1) return mask(parts[0]);
+            return parts[0].charAt(0).toUpperCase() + '. ' + mask(parts[parts.length - 1]);
         }
 
         function isCautionItem(itemName) {
