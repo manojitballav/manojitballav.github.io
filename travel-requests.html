@@ -511,6 +511,115 @@
         .flag-hk::before { content: "\1F1ED\1F1F0 "; }
         .flag-cn::before { content: "\1F1E8\1F1F3 "; }
 
+        /* Image upload */
+        .image-upload-area {
+            border: 2px dashed rgba(0, 0, 0, 0.12);
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.2s;
+            position: relative;
+        }
+        .image-upload-area:hover {
+            border-color: #1a73e8;
+            background: rgba(26, 115, 232, 0.03);
+        }
+        .image-upload-area i {
+            font-size: 1.5rem;
+            color: var(--text-secondary, #5f6368);
+            margin-bottom: 6px;
+        }
+        .image-upload-area p {
+            font-size: 0.82rem;
+            color: var(--text-secondary, #5f6368);
+            margin: 0;
+        }
+        .image-upload-area input[type="file"] {
+            position: absolute;
+            inset: 0;
+            opacity: 0;
+            cursor: pointer;
+        }
+        [data-theme="dark"] .image-upload-area {
+            border-color: rgba(255, 255, 255, 0.12);
+        }
+        [data-theme="dark"] .image-upload-area:hover {
+            border-color: #0a84ff;
+            background: rgba(10, 132, 255, 0.06);
+        }
+        .image-preview {
+            display: none;
+            position: relative;
+            margin-top: 10px;
+        }
+        .image-preview img {
+            max-width: 100%;
+            max-height: 200px;
+            border-radius: 8px;
+            object-fit: contain;
+        }
+        .image-preview__remove {
+            position: absolute;
+            top: 6px;
+            right: 6px;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            border: none;
+            background: rgba(0, 0, 0, 0.6);
+            color: #fff;
+            font-size: 12px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .image-preview__remove:hover {
+            background: rgba(234, 67, 53, 0.9);
+        }
+
+        /* Reference image on cards */
+        .request-card__image {
+            margin: 8px 0;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .request-card__image img {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .request-card__image img:hover {
+            opacity: 0.85;
+        }
+
+        /* Image lightbox */
+        .lightbox {
+            display: none;
+            position: fixed;
+            inset: 0;
+            z-index: 2000;
+            background: rgba(0, 0, 0, 0.85);
+            backdrop-filter: blur(8px);
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+            cursor: pointer;
+        }
+        .lightbox.show {
+            display: flex;
+        }
+        .lightbox img {
+            max-width: 90vw;
+            max-height: 90vh;
+            object-fit: contain;
+            border-radius: 8px;
+        }
+
         /* Currency input group */
         .budget-group {
             display: flex;
@@ -653,8 +762,21 @@
                             </select>
                         </div>
                         <div class="form-group">
-                            <label for="reqLink">Product Link</label>
+                            <label for="reqLink">Reference Product Link</label>
                             <input type="url" id="reqLink" name="link" placeholder="https://...">
+                        </div>
+                        <div class="form-group">
+                            <label>Reference Image</label>
+                            <div class="image-upload-area" id="imageUploadArea">
+                                <input type="file" id="reqImage" name="image" accept="image/*">
+                                <i class="fa-solid fa-cloud-arrow-up"></i>
+                                <p>Click or drag an image here</p>
+                                <p style="font-size:0.75rem;margin-top:4px;opacity:0.6;">Max 5 MB</p>
+                            </div>
+                            <div class="image-preview" id="imagePreview">
+                                <img id="imagePreviewImg" alt="Preview">
+                                <button type="button" class="image-preview__remove" id="imageRemoveBtn"><i class="fa-solid fa-xmark"></i></button>
+                            </div>
                         </div>
                         <div class="form-group">
                             <label for="reqNotes">Notes</label>
@@ -712,6 +834,7 @@
         </div>
     </footer>
 
+    <div class="lightbox" id="lightbox"><img id="lightboxImg" alt="Reference image"></div>
     <div class="toast" id="toast"></div>
 
     <!-- Standard site scripts -->
@@ -814,7 +937,7 @@
         //
         // Deploy as: Web App → Execute as: Me → Access: Anyone
         // =====================================================================
-        const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzQUoFnOv-PRz6v1bbjdwU3gHMcft-hdkqSJx3Y3F70bFKBuWh9QebDWxcF0ACtim6paw/exec';
+        const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyPEGAOIJuc5DZ-XB_OWPdKB7epI8B5YFyIc5VNACeTaOVpPxLczB2BYpUdYS23GkOIGA/exec';
 
         const container = document.getElementById('requestsContainer');
         const statsEl = document.getElementById('requestsStats');
@@ -900,6 +1023,7 @@
                         '<span class="request-card__dest"><span class="' + flagClass(r.Destination) + '"></span>' + escapeHtml(r.Destination) + '</span>' +
                     '</div>' +
                     '<div class="request-card__item">' + escapeHtml(r.Item) + linkHtml + '</div>' +
+                    (r.Image ? '<div class="request-card__image"><img src="' + escapeHtml(r.Image) + '" alt="Reference" loading="lazy" onclick="showLightbox(this.src)"></div>' : '') +
                     '<div class="request-card__meta">' +
                         (r.Category ? '<span class="request-card__category"><i class="fa-solid fa-tag"></i> ' + escapeHtml(r.Category) + '</span>' : '') +
                         (r.Budget ? '<span class="request-card__budget"><i class="fa-solid fa-coins"></i> ' + escapeHtml(r.Budget) + '</span>' : '') +
@@ -930,7 +1054,7 @@
                 const json = await res.json();
                 if (json.success && json.data) {
                     // Normalize keys to title case so header casing in the Sheet doesn't matter
-                    var keyMap = {timestamp:'Timestamp',name:'Name',destination:'Destination',item:'Item',category:'Category',budget:'Budget',priority:'Priority',link:'Link',notes:'Notes',status:'Status'};
+                    var keyMap = {timestamp:'Timestamp',name:'Name',destination:'Destination',item:'Item',category:'Category',budget:'Budget',priority:'Priority',link:'Link',notes:'Notes',image:'Image',status:'Status'};
                     allRequests = json.data.map(function(row) {
                         var norm = {};
                         Object.keys(row).forEach(function(k) { norm[keyMap[k.toLowerCase()] || k] = row[k]; });
@@ -958,6 +1082,59 @@
             });
         });
 
+        // Image upload handling
+        var imageBase64 = '';
+        var imageInput = document.getElementById('reqImage');
+        var imagePreview = document.getElementById('imagePreview');
+        var imagePreviewImg = document.getElementById('imagePreviewImg');
+        var imageRemoveBtn = document.getElementById('imageRemoveBtn');
+        var imageUploadArea = document.getElementById('imageUploadArea');
+
+        function resizeImage(file, maxDim, quality, callback) {
+            var reader = new FileReader();
+            reader.onload = function(e) {
+                var img = new Image();
+                img.onload = function() {
+                    var w = img.width, h = img.height;
+                    if (w > maxDim || h > maxDim) {
+                        if (w > h) { h = Math.round(h * maxDim / w); w = maxDim; }
+                        else { w = Math.round(w * maxDim / h); h = maxDim; }
+                    }
+                    var canvas = document.createElement('canvas');
+                    canvas.width = w; canvas.height = h;
+                    canvas.getContext('2d').drawImage(img, 0, 0, w, h);
+                    var dataUrl = canvas.toDataURL('image/jpeg', quality);
+                    callback(dataUrl);
+                };
+                img.src = e.target.result;
+            };
+            reader.readAsDataURL(file);
+        }
+
+        imageInput.addEventListener('change', function() {
+            var file = imageInput.files[0];
+            if (!file) return;
+            if (file.size > 5 * 1024 * 1024) {
+                showToast('Image must be under 5 MB', 'circle-exclamation');
+                imageInput.value = '';
+                return;
+            }
+            resizeImage(file, 800, 0.75, function(dataUrl) {
+                imageBase64 = dataUrl.split(',')[1]; // strip data:image/jpeg;base64,
+                imagePreviewImg.src = dataUrl;
+                imagePreview.style.display = 'block';
+                imageUploadArea.style.display = 'none';
+            });
+        });
+
+        imageRemoveBtn.addEventListener('click', function() {
+            imageBase64 = '';
+            imageInput.value = '';
+            imagePreviewImg.src = '';
+            imagePreview.style.display = 'none';
+            imageUploadArea.style.display = '';
+        });
+
         // Form submission
         form.addEventListener('submit', async function(e) {
             e.preventDefault();
@@ -982,6 +1159,7 @@
                 priority: form.priority.value,
                 link: form.link.value.trim(),
                 notes: form.notes.value.trim(),
+                image: imageBase64,
                 website: form.website.value
             };
 
@@ -992,6 +1170,10 @@
                     headers: { 'Content-Type': 'text/plain' }
                 });
                 form.reset();
+                imageBase64 = '';
+                imagePreviewImg.src = '';
+                imagePreview.style.display = 'none';
+                imageUploadArea.style.display = '';
                 showToast('Request submitted!', 'check-circle');
                 submitBtn.innerHTML = '<i class="fa-solid fa-check"></i> Submitted!';
                 setTimeout(function() {
@@ -1008,6 +1190,16 @@
 
         loadRequests();
     })();
+
+    // Lightbox (global scope for onclick)
+    function showLightbox(src) {
+        var lb = document.getElementById('lightbox');
+        document.getElementById('lightboxImg').src = src;
+        lb.classList.add('show');
+    }
+    document.getElementById('lightbox').addEventListener('click', function() {
+        this.classList.remove('show');
+    });
     </script>
 
 </body>
