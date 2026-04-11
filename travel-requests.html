@@ -1136,14 +1136,14 @@
             'ivory','rhino horn','tiger','pangolin','shahtoosh','tortoise shell',
             'counterfeit','fake passport','fake id','forged',
             'child porn','obscene material',
-            'brass knuckles','knuckle duster','switchblade','butterfly knife','balisong','nunchaku','nunchucks','throwing star','shuriken',
+            'brass knuckles','knuckle duster','switchblade','butterfly knife','butterfly knives','balisong','nunchaku','nunchucks','throwing star','shuriken',
             'pepper spray','taser','stun gun',
             'poison','cyanide','ricin','anthrax',
             'nuclear','radioactive','uranium','plutonium',
             'human organ','human tissue'
         ];
         var cautionKeywords = [
-            'knife','sword','katana','dagger','machete','blade',
+            'knife','knives','sword','katana','dagger','machete','blade',
             'vape','e-cigarette','e-cig','juul','vaping','iqos','heets',
             'tobacco','cigarette','cigar',
             'alcohol','whisky','whiskey','vodka','rum','sake','baijiu','wine','beer','liquor','spirits','soju',
@@ -1167,6 +1167,18 @@
         var itemInput = document.getElementById('reqItem');
         var itemBlocked = false;
 
+        // Build regex patterns that match keyword stems + common suffixes (s, es, ing, ed, er, ers)
+        function buildPatterns(keywords) {
+            return keywords.map(function(kw) {
+                // Escape regex special chars, then allow optional common endings
+                var escaped = kw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+                // For multi-word keywords, only add suffix to the last word
+                return new RegExp(escaped + '(?:s|es|ing|ed|er|ers|ies)?\\b', 'i');
+            });
+        }
+        var blockedPatterns = buildPatterns(blockedKeywords);
+        var cautionPatterns = buildPatterns(cautionKeywords);
+
         function checkCustoms(value) {
             var lower = value.toLowerCase().trim();
             itemBlocked = false;
@@ -1174,15 +1186,15 @@
             customsCautionEl.classList.remove('show');
             if (!lower) return;
 
-            for (var i = 0; i < blockedKeywords.length; i++) {
-                if (lower.indexOf(blockedKeywords[i]) !== -1) {
+            for (var i = 0; i < blockedPatterns.length; i++) {
+                if (blockedPatterns[i].test(lower)) {
                     itemBlocked = true;
                     customsBlockedEl.classList.add('show');
                     return;
                 }
             }
-            for (var j = 0; j < cautionKeywords.length; j++) {
-                if (lower.indexOf(cautionKeywords[j]) !== -1) {
+            for (var j = 0; j < cautionPatterns.length; j++) {
+                if (cautionPatterns[j].test(lower)) {
                     customsCautionEl.classList.add('show');
                     return;
                 }
