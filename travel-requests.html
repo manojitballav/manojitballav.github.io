@@ -211,10 +211,58 @@
             gap: 32px;
             align-items: start;
         }
+        /* Floating add button (mobile) */
+        .fab-add {
+            display: none;
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            z-index: 500;
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            border: none;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.3rem;
+            color: #fff;
+            cursor: pointer;
+            background: rgba(26, 115, 232, 0.92);
+            backdrop-filter: blur(12px);
+            box-shadow: 0 4px 16px rgba(26, 115, 232, 0.35), 0 2px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.25s ease;
+        }
+        .fab-add:hover {
+            transform: scale(1.08);
+            box-shadow: 0 6px 24px rgba(26, 115, 232, 0.45);
+        }
+        .fab-add.active {
+            background: rgba(234, 67, 53, 0.9);
+            box-shadow: 0 4px 16px rgba(234, 67, 53, 0.35);
+            transform: rotate(45deg);
+        }
+        [data-theme="dark"] .fab-add {
+            background: rgba(10, 132, 255, 0.9);
+            box-shadow: 0 4px 16px rgba(10, 132, 255, 0.35);
+        }
+        [data-theme="dark"] .fab-add.active {
+            background: rgba(255, 69, 58, 0.9);
+            box-shadow: 0 4px 16px rgba(255, 69, 58, 0.35);
+        }
+
+        /* Mobile layout: meters → requests → form (behind FAB) */
         @media (max-width: 900px) {
             .travel-grid {
                 grid-template-columns: 1fr;
             }
+            .requests-list { order: 1; }
+            .request-form-card {
+                order: 2;
+                position: static;
+                display: none;
+            }
+            .request-form-card.show { display: block; }
+            .fab-add { display: flex; }
         }
 
         /* Form card */
@@ -990,6 +1038,7 @@
         </div>
     </footer>
 
+    <button class="fab-add" id="fabAdd" aria-label="Add request"><i class="fa-solid fa-plus"></i></button>
     <div class="lightbox" id="lightbox"><img id="lightboxImg" alt="Reference image"></div>
     <div class="toast" id="toast"></div>
 
@@ -1039,6 +1088,17 @@
         });
         window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
             if (!localStorage.getItem('theme')) { setTheme(e.matches ? 'dark' : 'light'); }
+        });
+
+        // Mobile FAB — toggle form visibility
+        const fabAdd = document.getElementById('fabAdd');
+        const formCard = document.querySelector('.request-form-card');
+        fabAdd.addEventListener('click', () => {
+            const isOpen = formCard.classList.toggle('show');
+            fabAdd.classList.toggle('active', isOpen);
+            if (isOpen) {
+                formCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
         });
     </script>
 
