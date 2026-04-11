@@ -1,30 +1,24 @@
 {
-  "lastUpdated": "2026-04-10",
-  "newDevicesCount": 4,
+  "lastUpdated": "2026-04-11",
+  "newDevicesCount": 3,
   "newDevices": [
     [
-      "Blu",
-      "C9 MAX",
-      "C0260",
-      "C9 MAX"
+      "Homatics",
+      "Box R 4K",
+      "YVR",
+      "Box R 4K"
     ],
     [
-      "Pritom",
-      "K7Pro",
-      "K7Pro",
-      "New kids tablet"
+      "Homatics",
+      "Test",
+      "YYZ",
+      "Box R Lite 4K"
     ],
     [
-      "TCL",
-      "TCL NXTPAPER 70 Pro",
-      "Swing_TMO",
-      "T807W"
-    ],
-    [
-      "Unitech",
-      "EA530",
-      "EA530",
-      "EA530"
+      "Walton",
+      "Smart TV",
+      "alimos",
+      "WALTON GOOGLE TV FF"
     ]
   ]
 }
