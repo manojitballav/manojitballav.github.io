@@ -1302,7 +1302,11 @@
                 imagePreviewImg.src = '';
                 imagePreview.style.display = 'none';
                 imageUploadArea.style.display = '';
-                showToast('Request submitted!', 'check-circle');
+                if (customsCautionEl.classList.contains('show')) {
+                    showToast('Submitted — but heads up, this item can get the entire luggage flagged at customs', 'triangle-exclamation');
+                } else {
+                    showToast('Request submitted!', 'check-circle');
+                }
                 submitBtn.innerHTML = '<i class="fa-solid fa-check"></i> Submitted!';
                 setTimeout(function() {
                     submitBtn.disabled = false;
