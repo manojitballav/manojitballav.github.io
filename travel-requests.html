@@ -893,9 +893,12 @@
                     <div class="meter-card__label"><i class="fa-solid fa-suitcase-rolling"></i> Baggage Estimate</div>
                     <div class="meter-card__value" id="weightLabel">0 kg</div>
                     <div class="meter-bar"><div class="meter-bar__fill meter-bar__fill--safe" id="weightBar" style="width:0%"></div></div>
-                    <div class="meter-card__hint" id="weightHint">1 bag limit — 25 kg for gifts</div>
+                    <div class="meter-card__hint" id="weightHint">1 bag (25 kg) — 4.5 kg bag weight, 20.5 kg usable</div>
                 </div>
             </div>
+            <p style="max-width:640px; margin:16px auto 0; font-size:0.75rem; color:var(--text-secondary, #5f6368); text-align:center; line-height:1.5;">
+                All original product packaging will be discarded to save weight and suitcase space. Items will be safely repacked.
+            </p>
         </div>
     </section>
 
@@ -1203,6 +1206,13 @@
             return 'status--' + s.toLowerCase();
         }
 
+        function obfuscateName(name) {
+            if (!name) return '';
+            var parts = name.trim().split(/\s+/);
+            if (parts.length === 1) return parts[0];
+            return parts[0] + ' ' + parts[parts.length - 1].charAt(0).toUpperCase() + '.';
+        }
+
         function isCautionItem(itemName) {
             if (!itemName) return false;
             var lower = itemName.toLowerCase();
@@ -1233,7 +1243,8 @@
         }
 
         // Weight estimation engine (kg) — keyword match then category fallback
-        var BAGGAGE_LIMIT = 25;
+        var BAG_WEIGHT = 4.5; // empty suitcase weight
+        var BAGGAGE_LIMIT = 25 - BAG_WEIGHT; // usable capacity
         var weightKeywords = [
             // Electronics
             {p:/router/i, w:0.5}, {p:/modem/i, w:0.4}, {p:/wifi.*extender/i, w:0.3},
@@ -1387,12 +1398,12 @@
             var weightHint = document.getElementById('weightHint');
             var weightPct = Math.min((totalWeight / BAGGAGE_LIMIT) * 100, 100);
 
-            weightLabel.textContent = totalWeight + ' kg';
+            weightLabel.textContent = totalWeight + ' / ' + BAGGAGE_LIMIT + ' kg';
 
             if (totalWeight <= BAGGAGE_LIMIT * 0.6) {
                 weightBar.style.width = Math.max(weightPct, 3) + '%';
                 weightBar.className = 'meter-bar__fill meter-bar__fill--safe';
-                weightHint.textContent = (BAGGAGE_LIMIT - totalWeight).toFixed(1) + ' kg left in the bag — plenty of room';
+                weightHint.textContent = (BAGGAGE_LIMIT - totalWeight).toFixed(1) + ' kg left — plenty of room (bag itself is ' + BAG_WEIGHT + ' kg)';
             } else if (totalWeight <= BAGGAGE_LIMIT) {
                 weightBar.style.width = weightPct + '%';
                 weightBar.className = 'meter-bar__fill meter-bar__fill--moderate';
@@ -1436,7 +1447,7 @@
                 }
                 return '<div class="request-card glass" data-dest="' + escapeHtml(r.Destination) + '">' +
                     '<div class="request-card__header">' +
-                        '<span class="request-card__name">' + escapeHtml(r.Name) + '</span>' +
+                        '<span class="request-card__name">' + escapeHtml(obfuscateName(r.Name)) + '</span>' +
                         '<span class="request-card__dest"><span class="' + flagClass(r.Destination) + '"></span>' + escapeHtml(r.Destination) + '</span>' +
                     '</div>' +
                     '<div class="request-card__item">' + escapeHtml(r.Item) + linkHtml + '</div>' +
@@ -1478,6 +1489,8 @@
                         var norm = {};
                         Object.keys(row).forEach(function(k) { norm[keyMap[k.toLowerCase()] || k] = row[k]; });
                         return norm;
+                    }).filter(function(r) {
+                        return r.Name || r.Item;
                     }).reverse();
                     updateStats(allRequests);
                     renderRequests(allRequests);
