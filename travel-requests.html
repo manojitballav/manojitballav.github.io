@@ -506,6 +506,45 @@
             background: rgba(255, 255, 255, 0.08);
         }
 
+        /* Customs warning */
+        .customs-warning {
+            display: none;
+            margin-top: 8px;
+            padding: 10px 14px;
+            border-radius: 10px;
+            font-size: 0.82rem;
+            line-height: 1.5;
+            gap: 8px;
+            align-items: flex-start;
+        }
+        .customs-warning i {
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+        .customs-warning.show {
+            display: flex;
+        }
+        .customs-warning--blocked {
+            background: rgba(234, 67, 53, 0.08);
+            border: 1px solid rgba(234, 67, 53, 0.2);
+            color: #d93025;
+        }
+        .customs-warning--caution {
+            background: rgba(251, 188, 4, 0.08);
+            border: 1px solid rgba(251, 188, 4, 0.2);
+            color: #e37400;
+        }
+        [data-theme="dark"] .customs-warning--blocked {
+            background: rgba(255, 69, 58, 0.1);
+            border-color: rgba(255, 69, 58, 0.2);
+            color: #ff453a;
+        }
+        [data-theme="dark"] .customs-warning--caution {
+            background: rgba(255, 214, 10, 0.08);
+            border-color: rgba(255, 214, 10, 0.15);
+            color: #ffd60a;
+        }
+
         /* Country flag icons */
         .flag-jp::before { content: "\1F1EF\1F1F5 "; }
         .flag-hk::before { content: "\1F1ED\1F1F0 "; }
@@ -727,6 +766,14 @@
                         <div class="form-group">
                             <label for="reqItem">Item *</label>
                             <input type="text" id="reqItem" name="item" required placeholder="e.g., Kit Kat Matcha flavor">
+                            <div class="customs-warning customs-warning--blocked" id="customsBlocked">
+                                <i class="fa-solid fa-ban"></i>
+                                <span><strong>Prohibited item.</strong> This item is not allowed through customs and cannot be requested. It is likely illegal to import and will be seized at the border.</span>
+                            </div>
+                            <div class="customs-warning customs-warning--caution" id="customsCaution">
+                                <i class="fa-solid fa-triangle-exclamation"></i>
+                                <span><strong>Customs attention likely.</strong> This item may require declaration, attract inspection, or face quantity restrictions at immigration. Proceed with caution.</span>
+                            </div>
                         </div>
                         <div class="form-group">
                             <label for="reqCategory">Category</label>
@@ -1082,6 +1129,68 @@
             });
         });
 
+        // Customs item screening
+        var blockedKeywords = [
+            'gun','pistol','rifle','firearm','ammunition','ammo','bullet','explosive','grenade','dynamite',
+            'drug','cocaine','heroin','meth','amphetamine','mdma','ecstasy','opium','marijuana','cannabis','weed','ganja','hashish','lsd',
+            'ivory','rhino horn','tiger','pangolin','shahtoosh','tortoise shell',
+            'counterfeit','fake passport','fake id','forged',
+            'child porn','obscene material',
+            'brass knuckles','knuckle duster','switchblade','butterfly knife','balisong','nunchaku','nunchucks','throwing star','shuriken',
+            'pepper spray','taser','stun gun',
+            'poison','cyanide','ricin','anthrax',
+            'nuclear','radioactive','uranium','plutonium',
+            'human organ','human tissue'
+        ];
+        var cautionKeywords = [
+            'knife','sword','katana','dagger','machete','blade',
+            'vape','e-cigarette','e-cig','juul','vaping','iqos','heets',
+            'tobacco','cigarette','cigar',
+            'alcohol','whisky','whiskey','vodka','rum','sake','baijiu','wine','beer','liquor','spirits','soju',
+            'prescription','medicine','pharma','pill','steroid','syringe','insulin',
+            'drone','quadcopter','uav',
+            'meat','pork','beef','jerky','salami','sausage',
+            'seeds','plant','soil','sapling','live animal','pet','insect',
+            'firework','firecracker','sparkler',
+            'lithium battery','power bank','lipo',
+            'currency','gold bar','gold coin','bullion',
+            'satellite phone','walkie talkie','radio transmitter',
+            'telescope','binocular','night vision','thermal scope',
+            'replica','airsoft','bb gun','pellet gun',
+            'sim card','prepaid sim',
+            'cheese','dairy','raw milk',
+            'perfume','aerosol'
+        ];
+
+        var customsBlockedEl = document.getElementById('customsBlocked');
+        var customsCautionEl = document.getElementById('customsCaution');
+        var itemInput = document.getElementById('reqItem');
+        var itemBlocked = false;
+
+        function checkCustoms(value) {
+            var lower = value.toLowerCase().trim();
+            itemBlocked = false;
+            customsBlockedEl.classList.remove('show');
+            customsCautionEl.classList.remove('show');
+            if (!lower) return;
+
+            for (var i = 0; i < blockedKeywords.length; i++) {
+                if (lower.indexOf(blockedKeywords[i]) !== -1) {
+                    itemBlocked = true;
+                    customsBlockedEl.classList.add('show');
+                    return;
+                }
+            }
+            for (var j = 0; j < cautionKeywords.length; j++) {
+                if (lower.indexOf(cautionKeywords[j]) !== -1) {
+                    customsCautionEl.classList.add('show');
+                    return;
+                }
+            }
+        }
+
+        itemInput.addEventListener('input', function() { checkCustoms(this.value); });
+
         // Image upload handling
         var imageBase64 = '';
         var imageInput = document.getElementById('reqImage');
@@ -1141,6 +1250,13 @@
 
             if (!SCRIPT_URL) {
                 showToast('Backend not configured yet', 'circle-exclamation');
+                return;
+            }
+
+            // Customs block check
+            checkCustoms(form.item.value);
+            if (itemBlocked) {
+                showToast('Prohibited item — cannot submit', 'ban');
                 return;
             }
 
