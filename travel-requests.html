@@ -176,6 +176,16 @@
             margin-top: 6px;
         }
 
+        /* Weight pill on cards */
+        .request-card__weight {
+            background: rgba(109, 76, 165, 0.08);
+            color: #6d4ca5;
+        }
+        [data-theme="dark"] .request-card__weight {
+            background: rgba(175, 130, 255, 0.12);
+            color: #bf94ff;
+        }
+
         /* Warning badge on cards */
         .request-card__customs-warn {
             display: inline-flex;
@@ -831,6 +841,12 @@
                     <div class="meter-bar"><div class="meter-bar__fill meter-bar__fill--safe" id="costBar" style="width:0%"></div></div>
                     <div class="meter-card__hint" id="costHint">Duty-free limit: ₹50,000 per person</div>
                 </div>
+                <div class="meter-card">
+                    <div class="meter-card__label"><i class="fa-solid fa-suitcase-rolling"></i> Baggage Estimate</div>
+                    <div class="meter-card__value" id="weightLabel">0 kg</div>
+                    <div class="meter-bar"><div class="meter-bar__fill meter-bar__fill--safe" id="weightBar" style="width:0%"></div></div>
+                    <div class="meter-card__hint" id="weightHint">1 bag limit — 25 kg for gifts</div>
+                </div>
             </div>
         </div>
     </section>
@@ -1156,6 +1172,95 @@
             return Math.round(amount * rate);
         }
 
+        // Weight estimation engine (kg) — keyword match then category fallback
+        var BAGGAGE_LIMIT = 25;
+        var weightKeywords = [
+            // Electronics
+            {p:/router/i, w:0.5}, {p:/modem/i, w:0.4}, {p:/wifi.*extender/i, w:0.3},
+            {p:/laptop/i, w:2.0}, {p:/macbook/i, w:2.0}, {p:/notebook/i, w:1.8},
+            {p:/tablet|ipad/i, w:0.5}, {p:/phone|iphone|pixel|galaxy/i, w:0.2},
+            {p:/smartwatch|watch/i, w:0.1}, {p:/earbuds|airpods|earpod/i, w:0.05},
+            {p:/headphone/i, w:0.3}, {p:/speaker/i, w:0.8},
+            {p:/camera/i, w:0.7}, {p:/lens/i, w:0.5}, {p:/gopro/i, w:0.2},
+            {p:/console|playstation|ps5|xbox|switch/i, w:3.5}, {p:/controller|gamepad|joycon/i, w:0.3},
+            {p:/keyboard/i, w:0.8}, {p:/mouse/i, w:0.1},
+            {p:/hard.*drive|ssd|hdd/i, w:0.2}, {p:/usb|flash.*drive|pen.*drive/i, w:0.05},
+            {p:/charger|adapter|cable/i, w:0.15}, {p:/power.*bank/i, w:0.3},
+            {p:/monitor|display/i, w:5.0}, {p:/tv\b/i, w:8.0},
+            {p:/drone/i, w:1.5}, {p:/projector/i, w:2.5},
+            {p:/rice.*cooker/i, w:3.0}, {p:/iron|steamer/i, w:1.2},
+            {p:/blender|mixer/i, w:2.0}, {p:/toaster/i, w:1.5},
+            {p:/hair.*dryer|blow.*dry/i, w:0.6}, {p:/straightener|curler/i, w:0.4},
+            {p:/electric.*shaver|trimmer|razor/i, w:0.3},
+            {p:/massager|massage.*gun/i, w:1.0},
+            // Food & Snacks
+            {p:/kit.*kat/i, w:0.2}, {p:/pocky/i, w:0.15}, {p:/matcha.*powder/i, w:0.3},
+            {p:/chocolate/i, w:0.3}, {p:/candy|candies|sweet/i, w:0.25},
+            {p:/cookie|biscuit/i, w:0.3}, {p:/snack.*box|snack.*pack/i, w:0.5},
+            {p:/ramen|noodle|instant/i, w:0.5}, {p:/mochi/i, w:0.3},
+            {p:/tea\b|green.*tea|oolong/i, w:0.2}, {p:/coffee/i, w:0.3},
+            {p:/sauce|soy.*sauce|miso/i, w:0.5}, {p:/seasoning|spice/i, w:0.2},
+            {p:/rice.*cracker|senbei/i, w:0.2}, {p:/dried.*fruit|dried.*fish/i, w:0.3},
+            {p:/sake\b/i, w:1.3}, {p:/whisky|whiskey/i, w:1.3}, {p:/wine/i, w:1.3},
+            {p:/beer/i, w:1.0}, {p:/baijiu|liquor|spirits|vodka|rum|soju/i, w:1.2},
+            // Fashion
+            {p:/sneaker|shoe|boot/i, w:0.9}, {p:/sandal|slipper/i, w:0.4},
+            {p:/jacket|coat|parka|hoodie/i, w:0.8}, {p:/shirt|tee|t-shirt/i, w:0.25},
+            {p:/jeans|pants|trouser/i, w:0.5}, {p:/dress/i, w:0.4},
+            {p:/bag\b|backpack|tote/i, w:0.7}, {p:/wallet|purse/i, w:0.2},
+            {p:/belt/i, w:0.2}, {p:/scarf|shawl/i, w:0.15},
+            {p:/hat|cap|beanie/i, w:0.15}, {p:/sunglasses|glasses/i, w:0.1},
+            {p:/kimono|yukata/i, w:0.5}, {p:/silk/i, w:0.3},
+            // Beauty & Skincare
+            {p:/sunscreen|spf/i, w:0.2}, {p:/moisturizer|cream|lotion/i, w:0.25},
+            {p:/serum|essence/i, w:0.15}, {p:/toner/i, w:0.2},
+            {p:/sheet.*mask|face.*mask/i, w:0.3}, {p:/lip.*balm|lipstick/i, w:0.05},
+            {p:/shampoo|conditioner/i, w:0.4}, {p:/perfume|fragrance|cologne/i, w:0.3},
+            {p:/makeup|cosmetic/i, w:0.3}, {p:/nail.*polish/i, w:0.1},
+            {p:/skincare.*set/i, w:0.8}, {p:/beauty.*set/i, w:0.8},
+            // Toys & Collectibles
+            {p:/figurine|figure|statue/i, w:0.4}, {p:/gundam|model.*kit/i, w:0.5},
+            {p:/plush|stuffed/i, w:0.3}, {p:/lego/i, w:0.8},
+            {p:/card.*game|trading.*card|pokemon.*card/i, w:0.2},
+            {p:/manga|comic/i, w:0.3}, {p:/book/i, w:0.4},
+            {p:/puzzle/i, w:0.5}, {p:/board.*game/i, w:1.0},
+            {p:/toy/i, w:0.4}, {p:/doll/i, w:0.3},
+            // Home & Kitchen
+            {p:/knife|knives/i, w:0.3}, {p:/chopstick/i, w:0.1},
+            {p:/plate|bowl|cup|mug/i, w:0.4}, {p:/teapot|kettle/i, w:0.8},
+            {p:/thermos|flask|bottle/i, w:0.4}, {p:/bento|lunch.*box/i, w:0.3},
+            {p:/towel/i, w:0.3}, {p:/pillow|cushion/i, w:0.5},
+            {p:/candle|incense/i, w:0.3}, {p:/vase|ceramic/i, w:0.8},
+            {p:/fan\b/i, w:0.3}, {p:/umbrella/i, w:0.4},
+            {p:/stationery|pen\b|pencil/i, w:0.1}, {p:/notebook|diary/i, w:0.2}
+        ];
+        var categoryWeights = {
+            'Electronics': 0.5,
+            'Fashion': 0.4,
+            'Food & Snacks': 0.3,
+            'Beauty & Skincare': 0.25,
+            'Toys & Collectibles': 0.4,
+            'Home & Kitchen': 0.5,
+            'Other': 0.4
+        };
+
+        function estimateWeight(itemName, category) {
+            if (!itemName) return categoryWeights[category] || 0.4;
+            var lower = itemName.toLowerCase();
+            // Check for quantity hints (e.g., "box of 12", "x3", "5 packs")
+            var qtyMatch = lower.match(/(?:box\s*(?:of\s*)?|x\s*|pack\s*(?:of\s*)?)(\d+)/);
+            var qty = qtyMatch ? Math.min(parseInt(qtyMatch[1], 10), 20) : 1;
+            // If qty is very large (like "box of 12" kit kats), it's items inside a box
+            if (qty > 5) qty = Math.ceil(qty / 5); // grouped in packs
+
+            for (var i = 0; i < weightKeywords.length; i++) {
+                if (weightKeywords[i].p.test(lower)) {
+                    return Math.round(weightKeywords[i].w * qty * 100) / 100;
+                }
+            }
+            return categoryWeights[category] || 0.4;
+        }
+
         function updateDashboard(data) {
             var dashboard = document.getElementById('travelDashboard');
             if (!data.length) { dashboard.style.display = 'none'; return; }
@@ -1212,6 +1317,31 @@
                 costBar.className = 'meter-bar__fill meter-bar__fill--risky';
                 costHint.textContent = 'Over duty-free limit by ₹' + (totalINR - DUTY_FREE_LIMIT).toLocaleString('en-IN') + ' — customs duty will apply';
             }
+
+            // Baggage meter
+            var totalWeight = 0;
+            data.forEach(function(r) { totalWeight += estimateWeight(r.Item, r.Category); });
+            totalWeight = Math.round(totalWeight * 10) / 10;
+            var weightLabel = document.getElementById('weightLabel');
+            var weightBar = document.getElementById('weightBar');
+            var weightHint = document.getElementById('weightHint');
+            var weightPct = Math.min((totalWeight / BAGGAGE_LIMIT) * 100, 100);
+
+            weightLabel.textContent = totalWeight + ' kg';
+
+            if (totalWeight <= BAGGAGE_LIMIT * 0.6) {
+                weightBar.style.width = Math.max(weightPct, 3) + '%';
+                weightBar.className = 'meter-bar__fill meter-bar__fill--safe';
+                weightHint.textContent = (BAGGAGE_LIMIT - totalWeight).toFixed(1) + ' kg left in the bag — plenty of room';
+            } else if (totalWeight <= BAGGAGE_LIMIT) {
+                weightBar.style.width = weightPct + '%';
+                weightBar.className = 'meter-bar__fill meter-bar__fill--moderate';
+                weightHint.textContent = 'Only ' + (BAGGAGE_LIMIT - totalWeight).toFixed(1) + ' kg left — bag is getting heavy';
+            } else {
+                weightBar.style.width = '100%';
+                weightBar.className = 'meter-bar__fill meter-bar__fill--risky';
+                weightHint.textContent = 'Over by ' + (totalWeight - BAGGAGE_LIMIT).toFixed(1) + ' kg — won\'t fit in 1 bag, some items will need to be dropped';
+            }
         }
 
         function updateStats(data) {
@@ -1254,6 +1384,7 @@
                     '<div class="request-card__meta">' +
                         (r.Category ? '<span class="request-card__category"><i class="fa-solid fa-tag"></i> ' + escapeHtml(r.Category) + '</span>' : '') +
                         (r.Budget ? '<span class="request-card__budget"><i class="fa-solid fa-coins"></i> ' + escapeHtml(r.Budget) + '</span>' : '') +
+                        '<span class="request-card__weight"><i class="fa-solid fa-weight-hanging"></i> ~' + estimateWeight(r.Item, r.Category) + ' kg</span>' +
                         (r.Priority ? '<span class="' + priorityClass(r.Priority) + '">' + escapeHtml(r.Priority) + '</span>' : '') +
                     '</div>' +
                     (r.Notes ? '<div class="request-card__notes">' + escapeHtml(r.Notes) + '</div>' : '') +
