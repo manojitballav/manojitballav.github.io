@@ -887,13 +887,13 @@
                     <div class="meter-card__label"><i class="fa-solid fa-coins"></i> Total Estimated Cost</div>
                     <div class="meter-card__value" id="costLabel">₹0</div>
                     <div class="meter-bar"><div class="meter-bar__fill meter-bar__fill--safe" id="costBar" style="width:0%"></div></div>
-                    <div class="meter-card__hint" id="costHint">Duty-free limit: ₹50,000 per person</div>
+                    <div class="meter-card__hint" id="costHint">Duty-free limit: ₹1,00,000 (₹50,000 x 2 travelers)</div>
                 </div>
                 <div class="meter-card">
                     <div class="meter-card__label"><i class="fa-solid fa-suitcase-rolling"></i> Baggage Estimate</div>
                     <div class="meter-card__value" id="weightLabel">0 kg</div>
                     <div class="meter-bar"><div class="meter-bar__fill meter-bar__fill--safe" id="weightBar" style="width:0%"></div></div>
-                    <div class="meter-card__hint" id="weightHint">1 bag (25 kg) — 4.5 kg bag weight, 20.5 kg usable</div>
+                    <div class="meter-card__hint" id="weightHint">2 bags (25 kg each) — 41 kg usable after bag weight</div>
                 </div>
             </div>
             <p style="max-width:640px; margin:16px auto 0; font-size:0.75rem; color:var(--text-secondary, #5f6368); text-align:center; line-height:1.5;">
@@ -1231,7 +1231,8 @@
 
         // Approximate INR conversion rates
         var toINR = { '₹': 1, '¥': 0.57, 'CN¥': 11.6, 'HK$': 10.8, '$': 85, 'Rs': 1, 'INR': 1, 'JPY': 0.57, 'CNY': 11.6, 'HKD': 10.8, 'USD': 85 };
-        var DUTY_FREE_LIMIT = 50000;
+        var TRAVELERS = 2;
+        var DUTY_FREE_LIMIT = 50000 * TRAVELERS;
 
         function parseBudgetINR(budgetStr) {
             if (!budgetStr) return 0;
@@ -1247,8 +1248,8 @@
         }
 
         // Weight estimation engine (kg) — keyword match then category fallback
-        var BAG_WEIGHT = 4.5; // empty suitcase weight
-        var BAGGAGE_LIMIT = 25 - BAG_WEIGHT; // usable capacity
+        var BAG_WEIGHT = 4.5; // empty suitcase weight per bag
+        var BAGGAGE_LIMIT = (25 - BAG_WEIGHT) * TRAVELERS; // usable capacity across all bags
         var weightKeywords = [
             // Electronics
             {p:/router/i, w:0.5}, {p:/modem/i, w:0.4}, {p:/wifi.*extender/i, w:0.3},
@@ -1382,7 +1383,7 @@
             if (totalINR <= DUTY_FREE_LIMIT * 0.7) {
                 costBar.style.width = Math.max(costPct, 3) + '%';
                 costBar.className = 'meter-bar__fill meter-bar__fill--safe';
-                costHint.textContent = '₹' + (DUTY_FREE_LIMIT - totalINR).toLocaleString('en-IN') + ' remaining under duty-free limit (₹50,000/person)';
+                costHint.textContent = '₹' + (DUTY_FREE_LIMIT - totalINR).toLocaleString('en-IN') + ' remaining (₹50,000 x ' + TRAVELERS + ' travelers)';
             } else if (totalINR <= DUTY_FREE_LIMIT) {
                 costBar.style.width = costPct + '%';
                 costBar.className = 'meter-bar__fill meter-bar__fill--moderate';
@@ -1407,7 +1408,7 @@
             if (totalWeight <= BAGGAGE_LIMIT * 0.6) {
                 weightBar.style.width = Math.max(weightPct, 3) + '%';
                 weightBar.className = 'meter-bar__fill meter-bar__fill--safe';
-                weightHint.textContent = (BAGGAGE_LIMIT - totalWeight).toFixed(1) + ' kg left — plenty of room (bag itself is ' + BAG_WEIGHT + ' kg)';
+                weightHint.textContent = (BAGGAGE_LIMIT - totalWeight).toFixed(1) + ' kg left across ' + TRAVELERS + ' bags — plenty of room';
             } else if (totalWeight <= BAGGAGE_LIMIT) {
                 weightBar.style.width = weightPct + '%';
                 weightBar.className = 'meter-bar__fill meter-bar__fill--moderate';
@@ -1415,7 +1416,7 @@
             } else {
                 weightBar.style.width = '100%';
                 weightBar.className = 'meter-bar__fill meter-bar__fill--risky';
-                weightHint.textContent = 'Over by ' + (totalWeight - BAGGAGE_LIMIT).toFixed(1) + ' kg — won\'t fit in 1 bag, some items will need to be dropped';
+                weightHint.textContent = 'Over by ' + (totalWeight - BAGGAGE_LIMIT).toFixed(1) + ' kg — won\'t fit in ' + TRAVELERS + ' bags, some items will need to be dropped';
             }
         }
 
