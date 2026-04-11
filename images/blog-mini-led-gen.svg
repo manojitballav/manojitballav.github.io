@@ -1,0 +1,216 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <!-- Radial gradients for the ambient glow regions -->
+    <radialGradient id="glow1" cx="30%" cy="40%" r="45%" fx="28%" fy="38%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.5"/>
+      <stop offset="40%" stop-color="#4f46e5" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#0f0a1a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="72%" cy="55%" r="40%" fx="74%" fy="52%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.45"/>
+      <stop offset="35%" stop-color="#0891b2" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0f0a1a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow3" cx="50%" cy="70%" r="35%" fx="48%" fy="68%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.35"/>
+      <stop offset="40%" stop-color="#7c3aed" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#0f0a1a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow4" cx="15%" cy="75%" r="30%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#1d4ed8" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#0f0a1a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow5" cx="85%" cy="25%" r="28%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.25"/>
+      <stop offset="45%" stop-color="#0e7490" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#0f0a1a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow6" cx="50%" cy="20%" r="32%">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#4338ca" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#0f0a1a" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Dot glow filter -->
+    <filter id="dotglow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softglow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Deep black background -->
+  <rect width="1600" height="900" fill="#08060e"/>
+
+  <!-- Ambient glow layers -->
+  <rect width="1600" height="900" fill="url(#glow1)"/>
+  <rect width="1600" height="900" fill="url(#glow2)"/>
+  <rect width="1600" height="900" fill="url(#glow3)"/>
+  <rect width="1600" height="900" fill="url(#glow4)"/>
+  <rect width="1600" height="900" fill="url(#glow5)"/>
+  <rect width="1600" height="900" fill="url(#glow6)"/>
+
+  <!-- Mini LED grid - thousands of tiny dots -->
+  <!-- The dots vary in opacity based on their position relative to the glow centers -->
+  <!-- This creates the effect of seeing the backlight grid through a diffuser -->
+
+  <g filter="url(#dotglow)">
+    <!-- Generated grid: 80 columns x 45 rows = 3600 dots -->
+    <!-- Row spacing: 20px, Column spacing: 20px -->
+    <!-- Dots in glow regions are brighter, dots in dark regions are dimmer -->
+
+    <!-- REGION: Top-left area (indigo glow) - brighter dots -->
+    <g fill="#a5b4fc">
+      <!-- Rows 5-20, Cols 5-35 - gradient brightness -->
+      <circle cx="100" cy="100" r="2" opacity="0.15"/><circle cx="120" cy="100" r="2" opacity="0.18"/><circle cx="140" cy="100" r="2" opacity="0.2"/><circle cx="160" cy="100" r="2" opacity="0.22"/><circle cx="180" cy="100" r="2" opacity="0.25"/><circle cx="200" cy="100" r="2" opacity="0.28"/><circle cx="220" cy="100" r="2" opacity="0.3"/><circle cx="240" cy="100" r="2" opacity="0.33"/><circle cx="260" cy="100" r="2" opacity="0.35"/><circle cx="280" cy="100" r="2" opacity="0.37"/><circle cx="300" cy="100" r="2" opacity="0.38"/><circle cx="320" cy="100" r="2" opacity="0.4"/><circle cx="340" cy="100" r="2" opacity="0.38"/><circle cx="360" cy="100" r="2" opacity="0.35"/><circle cx="380" cy="100" r="2" opacity="0.3"/><circle cx="400" cy="100" r="2" opacity="0.25"/><circle cx="420" cy="100" r="2" opacity="0.2"/><circle cx="440" cy="100" r="2" opacity="0.15"/>
+
+      <circle cx="100" cy="120" r="2" opacity="0.18"/><circle cx="120" cy="120" r="2" opacity="0.22"/><circle cx="140" cy="120" r="2" opacity="0.26"/><circle cx="160" cy="120" r="2" opacity="0.3"/><circle cx="180" cy="120" r="2" opacity="0.34"/><circle cx="200" cy="120" r="2" opacity="0.38"/><circle cx="220" cy="120" r="2" opacity="0.42"/><circle cx="240" cy="120" r="2" opacity="0.45"/><circle cx="260" cy="120" r="2" opacity="0.48"/><circle cx="280" cy="120" r="2" opacity="0.5"/><circle cx="300" cy="120" r="2" opacity="0.52"/><circle cx="320" cy="120" r="2" opacity="0.5"/><circle cx="340" cy="120" r="2" opacity="0.47"/><circle cx="360" cy="120" r="2" opacity="0.42"/><circle cx="380" cy="120" r="2" opacity="0.36"/><circle cx="400" cy="120" r="2" opacity="0.3"/><circle cx="420" cy="120" r="2" opacity="0.24"/><circle cx="440" cy="120" r="2" opacity="0.18"/>
+
+      <circle cx="80" cy="140" r="2" opacity="0.2"/><circle cx="100" cy="140" r="2" opacity="0.25"/><circle cx="120" cy="140" r="2" opacity="0.3"/><circle cx="140" cy="140" r="2" opacity="0.36"/><circle cx="160" cy="140" r="2" opacity="0.42"/><circle cx="180" cy="140" r="2" opacity="0.48"/><circle cx="200" cy="140" r="2" opacity="0.54"/><circle cx="220" cy="140" r="2" opacity="0.58"/><circle cx="240" cy="140" r="2" opacity="0.62"/><circle cx="260" cy="140" r="2" opacity="0.65"/><circle cx="280" cy="140" r="2" opacity="0.67"/><circle cx="300" cy="140" r="2" opacity="0.65"/><circle cx="320" cy="140" r="2" opacity="0.62"/><circle cx="340" cy="140" r="2" opacity="0.56"/><circle cx="360" cy="140" r="2" opacity="0.48"/><circle cx="380" cy="140" r="2" opacity="0.4"/><circle cx="400" cy="140" r="2" opacity="0.32"/><circle cx="420" cy="140" r="2" opacity="0.24"/><circle cx="440" cy="140" r="2" opacity="0.18"/><circle cx="460" cy="140" r="2" opacity="0.13"/>
+
+      <circle cx="80" cy="160" r="2" opacity="0.22"/><circle cx="100" cy="160" r="2" opacity="0.28"/><circle cx="120" cy="160" r="2" opacity="0.35"/><circle cx="140" cy="160" r="2" opacity="0.42"/><circle cx="160" cy="160" r="2" opacity="0.5"/><circle cx="180" cy="160" r="2" opacity="0.58"/><circle cx="200" cy="160" r="2" opacity="0.64"/><circle cx="220" cy="160" r="2" opacity="0.7"/><circle cx="240" cy="160" r="2" opacity="0.74"/><circle cx="260" cy="160" r="2" opacity="0.78"/><circle cx="280" cy="160" r="2" opacity="0.8"/><circle cx="300" cy="160" r="2" opacity="0.78"/><circle cx="320" cy="160" r="2" opacity="0.72"/><circle cx="340" cy="160" r="2" opacity="0.64"/><circle cx="360" cy="160" r="2" opacity="0.54"/><circle cx="380" cy="160" r="2" opacity="0.44"/><circle cx="400" cy="160" r="2" opacity="0.34"/><circle cx="420" cy="160" r="2" opacity="0.26"/><circle cx="440" cy="160" r="2" opacity="0.18"/><circle cx="460" cy="160" r="2" opacity="0.13"/>
+    </g>
+
+    <!-- Central indigo peak -->
+    <g fill="#c7d2fe">
+      <circle cx="180" cy="180" r="2" opacity="0.6"/><circle cx="200" cy="180" r="2" opacity="0.68"/><circle cx="220" cy="180" r="2" opacity="0.75"/><circle cx="240" cy="180" r="2" opacity="0.8"/><circle cx="260" cy="180" r="2" opacity="0.85"/><circle cx="280" cy="180" r="2" opacity="0.88"/><circle cx="300" cy="180" r="2" opacity="0.85"/><circle cx="320" cy="180" r="2" opacity="0.78"/><circle cx="340" cy="180" r="2" opacity="0.68"/><circle cx="360" cy="180" r="2" opacity="0.56"/><circle cx="380" cy="180" r="2" opacity="0.44"/><circle cx="400" cy="180" r="2" opacity="0.32"/><circle cx="420" cy="180" r="2" opacity="0.22"/>
+      <circle cx="100" cy="180" r="2" opacity="0.28"/><circle cx="120" cy="180" r="2" opacity="0.36"/><circle cx="140" cy="180" r="2" opacity="0.45"/><circle cx="160" cy="180" r="2" opacity="0.52"/>
+
+      <circle cx="160" cy="200" r="2" opacity="0.5"/><circle cx="180" cy="200" r="2" opacity="0.58"/><circle cx="200" cy="200" r="2" opacity="0.65"/><circle cx="220" cy="200" r="2" opacity="0.72"/><circle cx="240" cy="200" r="2" opacity="0.77"/><circle cx="260" cy="200" r="2" opacity="0.82"/><circle cx="280" cy="200" r="2" opacity="0.85"/><circle cx="300" cy="200" r="2" opacity="0.82"/><circle cx="320" cy="200" r="2" opacity="0.75"/><circle cx="340" cy="200" r="2" opacity="0.65"/><circle cx="360" cy="200" r="2" opacity="0.53"/><circle cx="380" cy="200" r="2" opacity="0.4"/><circle cx="400" cy="200" r="2" opacity="0.3"/><circle cx="420" cy="200" r="2" opacity="0.2"/>
+      <circle cx="100" cy="200" r="2" opacity="0.25"/><circle cx="120" cy="200" r="2" opacity="0.32"/><circle cx="140" cy="200" r="2" opacity="0.4"/>
+    </g>
+
+    <!-- Indigo glow continuation rows -->
+    <g fill="#a5b4fc">
+      <circle cx="140" cy="220" r="2" opacity="0.35"/><circle cx="160" cy="220" r="2" opacity="0.42"/><circle cx="180" cy="220" r="2" opacity="0.5"/><circle cx="200" cy="220" r="2" opacity="0.55"/><circle cx="220" cy="220" r="2" opacity="0.6"/><circle cx="240" cy="220" r="2" opacity="0.64"/><circle cx="260" cy="220" r="2" opacity="0.68"/><circle cx="280" cy="220" r="2" opacity="0.7"/><circle cx="300" cy="220" r="2" opacity="0.68"/><circle cx="320" cy="220" r="2" opacity="0.62"/><circle cx="340" cy="220" r="2" opacity="0.52"/><circle cx="360" cy="220" r="2" opacity="0.42"/><circle cx="380" cy="220" r="2" opacity="0.32"/><circle cx="400" cy="220" r="2" opacity="0.22"/><circle cx="420" cy="220" r="2" opacity="0.15"/>
+      <circle cx="100" cy="220" r="2" opacity="0.2"/><circle cx="120" cy="220" r="2" opacity="0.26"/>
+
+      <circle cx="160" cy="240" r="2" opacity="0.32"/><circle cx="180" cy="240" r="2" opacity="0.38"/><circle cx="200" cy="240" r="2" opacity="0.43"/><circle cx="220" cy="240" r="2" opacity="0.48"/><circle cx="240" cy="240" r="2" opacity="0.52"/><circle cx="260" cy="240" r="2" opacity="0.55"/><circle cx="280" cy="240" r="2" opacity="0.57"/><circle cx="300" cy="240" r="2" opacity="0.55"/><circle cx="320" cy="240" r="2" opacity="0.5"/><circle cx="340" cy="240" r="2" opacity="0.42"/><circle cx="360" cy="240" r="2" opacity="0.33"/><circle cx="380" cy="240" r="2" opacity="0.24"/><circle cx="400" cy="240" r="2" opacity="0.16"/>
+    </g>
+
+    <!-- REGION: Center-right area (cyan/teal glow) -->
+    <g fill="#67e8f9">
+      <!-- Core bright area around cx=1150, cy=500 -->
+      <circle cx="980" cy="420" r="2" opacity="0.2"/><circle cx="1000" cy="420" r="2" opacity="0.25"/><circle cx="1020" cy="420" r="2" opacity="0.3"/><circle cx="1040" cy="420" r="2" opacity="0.35"/><circle cx="1060" cy="420" r="2" opacity="0.4"/><circle cx="1080" cy="420" r="2" opacity="0.45"/><circle cx="1100" cy="420" r="2" opacity="0.5"/><circle cx="1120" cy="420" r="2" opacity="0.55"/><circle cx="1140" cy="420" r="2" opacity="0.58"/><circle cx="1160" cy="420" r="2" opacity="0.6"/><circle cx="1180" cy="420" r="2" opacity="0.58"/><circle cx="1200" cy="420" r="2" opacity="0.55"/><circle cx="1220" cy="420" r="2" opacity="0.5"/><circle cx="1240" cy="420" r="2" opacity="0.44"/><circle cx="1260" cy="420" r="2" opacity="0.38"/><circle cx="1280" cy="420" r="2" opacity="0.3"/><circle cx="1300" cy="420" r="2" opacity="0.22"/>
+
+      <circle cx="960" cy="440" r="2" opacity="0.22"/><circle cx="980" cy="440" r="2" opacity="0.28"/><circle cx="1000" cy="440" r="2" opacity="0.35"/><circle cx="1020" cy="440" r="2" opacity="0.42"/><circle cx="1040" cy="440" r="2" opacity="0.48"/><circle cx="1060" cy="440" r="2" opacity="0.55"/><circle cx="1080" cy="440" r="2" opacity="0.62"/><circle cx="1100" cy="440" r="2" opacity="0.68"/><circle cx="1120" cy="440" r="2" opacity="0.72"/><circle cx="1140" cy="440" r="2" opacity="0.75"/><circle cx="1160" cy="440" r="2" opacity="0.78"/><circle cx="1180" cy="440" r="2" opacity="0.75"/><circle cx="1200" cy="440" r="2" opacity="0.7"/><circle cx="1220" cy="440" r="2" opacity="0.62"/><circle cx="1240" cy="440" r="2" opacity="0.52"/><circle cx="1260" cy="440" r="2" opacity="0.42"/><circle cx="1280" cy="440" r="2" opacity="0.32"/><circle cx="1300" cy="440" r="2" opacity="0.24"/>
+    </g>
+    <g fill="#a5f3fc">
+      <circle cx="960" cy="460" r="2" opacity="0.3"/><circle cx="980" cy="460" r="2" opacity="0.38"/><circle cx="1000" cy="460" r="2" opacity="0.46"/><circle cx="1020" cy="460" r="2" opacity="0.54"/><circle cx="1040" cy="460" r="2" opacity="0.62"/><circle cx="1060" cy="460" r="2" opacity="0.7"/><circle cx="1080" cy="460" r="2" opacity="0.76"/><circle cx="1100" cy="460" r="2" opacity="0.82"/><circle cx="1120" cy="460" r="2" opacity="0.86"/><circle cx="1140" cy="460" r="2.2" opacity="0.9"/><circle cx="1160" cy="460" r="2.2" opacity="0.92"/><circle cx="1180" cy="460" r="2" opacity="0.88"/><circle cx="1200" cy="460" r="2" opacity="0.82"/><circle cx="1220" cy="460" r="2" opacity="0.72"/><circle cx="1240" cy="460" r="2" opacity="0.6"/><circle cx="1260" cy="460" r="2" opacity="0.48"/><circle cx="1280" cy="460" r="2" opacity="0.36"/><circle cx="1300" cy="460" r="2" opacity="0.26"/>
+
+      <circle cx="960" cy="480" r="2" opacity="0.35"/><circle cx="980" cy="480" r="2" opacity="0.44"/><circle cx="1000" cy="480" r="2" opacity="0.53"/><circle cx="1020" cy="480" r="2" opacity="0.62"/><circle cx="1040" cy="480" r="2" opacity="0.7"/><circle cx="1060" cy="480" r="2" opacity="0.78"/><circle cx="1080" cy="480" r="2.2" opacity="0.84"/><circle cx="1100" cy="480" r="2.2" opacity="0.9"/><circle cx="1120" cy="480" r="2.3" opacity="0.94"/><circle cx="1140" cy="480" r="2.3" opacity="0.96"/><circle cx="1160" cy="480" r="2.3" opacity="0.97"/><circle cx="1180" cy="480" r="2.2" opacity="0.94"/><circle cx="1200" cy="480" r="2" opacity="0.88"/><circle cx="1220" cy="480" r="2" opacity="0.78"/><circle cx="1240" cy="480" r="2" opacity="0.65"/><circle cx="1260" cy="480" r="2" opacity="0.52"/><circle cx="1280" cy="480" r="2" opacity="0.38"/><circle cx="1300" cy="480" r="2" opacity="0.26"/>
+
+      <circle cx="960" cy="500" r="2" opacity="0.38"/><circle cx="980" cy="500" r="2" opacity="0.47"/><circle cx="1000" cy="500" r="2" opacity="0.56"/><circle cx="1020" cy="500" r="2" opacity="0.65"/><circle cx="1040" cy="500" r="2" opacity="0.73"/><circle cx="1060" cy="500" r="2.2" opacity="0.8"/><circle cx="1080" cy="500" r="2.3" opacity="0.87"/><circle cx="1100" cy="500" r="2.3" opacity="0.92"/><circle cx="1120" cy="500" r="2.4" opacity="0.96"/><circle cx="1140" cy="500" r="2.5" opacity="0.98"/><circle cx="1160" cy="500" r="2.5" opacity="1"/><circle cx="1180" cy="500" r="2.3" opacity="0.96"/><circle cx="1200" cy="500" r="2.2" opacity="0.9"/><circle cx="1220" cy="500" r="2" opacity="0.8"/><circle cx="1240" cy="500" r="2" opacity="0.67"/><circle cx="1260" cy="500" r="2" opacity="0.52"/><circle cx="1280" cy="500" r="2" opacity="0.38"/><circle cx="1300" cy="500" r="2" opacity="0.26"/>
+
+      <circle cx="960" cy="520" r="2" opacity="0.35"/><circle cx="980" cy="520" r="2" opacity="0.44"/><circle cx="1000" cy="520" r="2" opacity="0.53"/><circle cx="1020" cy="520" r="2" opacity="0.62"/><circle cx="1040" cy="520" r="2" opacity="0.7"/><circle cx="1060" cy="520" r="2" opacity="0.78"/><circle cx="1080" cy="520" r="2.2" opacity="0.84"/><circle cx="1100" cy="520" r="2.2" opacity="0.9"/><circle cx="1120" cy="520" r="2.3" opacity="0.94"/><circle cx="1140" cy="520" r="2.3" opacity="0.96"/><circle cx="1160" cy="520" r="2.3" opacity="0.97"/><circle cx="1180" cy="520" r="2.2" opacity="0.94"/><circle cx="1200" cy="520" r="2" opacity="0.88"/><circle cx="1220" cy="520" r="2" opacity="0.78"/><circle cx="1240" cy="520" r="2" opacity="0.65"/><circle cx="1260" cy="520" r="2" opacity="0.52"/><circle cx="1280" cy="520" r="2" opacity="0.38"/><circle cx="1300" cy="520" r="2" opacity="0.26"/>
+
+      <circle cx="960" cy="540" r="2" opacity="0.3"/><circle cx="980" cy="540" r="2" opacity="0.38"/><circle cx="1000" cy="540" r="2" opacity="0.46"/><circle cx="1020" cy="540" r="2" opacity="0.54"/><circle cx="1040" cy="540" r="2" opacity="0.62"/><circle cx="1060" cy="540" r="2" opacity="0.7"/><circle cx="1080" cy="540" r="2" opacity="0.76"/><circle cx="1100" cy="540" r="2" opacity="0.82"/><circle cx="1120" cy="540" r="2" opacity="0.86"/><circle cx="1140" cy="540" r="2.2" opacity="0.9"/><circle cx="1160" cy="540" r="2.2" opacity="0.92"/><circle cx="1180" cy="540" r="2" opacity="0.88"/><circle cx="1200" cy="540" r="2" opacity="0.82"/><circle cx="1220" cy="540" r="2" opacity="0.72"/><circle cx="1240" cy="540" r="2" opacity="0.6"/><circle cx="1260" cy="540" r="2" opacity="0.48"/><circle cx="1280" cy="540" r="2" opacity="0.36"/>
+    </g>
+    <!-- Outer cyan fade -->
+    <g fill="#67e8f9">
+      <circle cx="980" cy="560" r="2" opacity="0.3"/><circle cx="1000" cy="560" r="2" opacity="0.36"/><circle cx="1020" cy="560" r="2" opacity="0.42"/><circle cx="1040" cy="560" r="2" opacity="0.48"/><circle cx="1060" cy="560" r="2" opacity="0.54"/><circle cx="1080" cy="560" r="2" opacity="0.6"/><circle cx="1100" cy="560" r="2" opacity="0.65"/><circle cx="1120" cy="560" r="2" opacity="0.7"/><circle cx="1140" cy="560" r="2" opacity="0.72"/><circle cx="1160" cy="560" r="2" opacity="0.74"/><circle cx="1180" cy="560" r="2" opacity="0.72"/><circle cx="1200" cy="560" r="2" opacity="0.66"/><circle cx="1220" cy="560" r="2" opacity="0.58"/><circle cx="1240" cy="560" r="2" opacity="0.48"/><circle cx="1260" cy="560" r="2" opacity="0.38"/><circle cx="1280" cy="560" r="2" opacity="0.28"/>
+
+      <circle cx="1020" cy="580" r="2" opacity="0.28"/><circle cx="1040" cy="580" r="2" opacity="0.34"/><circle cx="1060" cy="580" r="2" opacity="0.4"/><circle cx="1080" cy="580" r="2" opacity="0.46"/><circle cx="1100" cy="580" r="2" opacity="0.52"/><circle cx="1120" cy="580" r="2" opacity="0.56"/><circle cx="1140" cy="580" r="2" opacity="0.58"/><circle cx="1160" cy="580" r="2" opacity="0.56"/><circle cx="1180" cy="580" r="2" opacity="0.52"/><circle cx="1200" cy="580" r="2" opacity="0.46"/><circle cx="1220" cy="580" r="2" opacity="0.38"/><circle cx="1240" cy="580" r="2" opacity="0.28"/>
+    </g>
+
+    <!-- REGION: Bottom-center (purple glow) -->
+    <g fill="#d8b4fe">
+      <circle cx="600" cy="560" r="2" opacity="0.2"/><circle cx="620" cy="560" r="2" opacity="0.26"/><circle cx="640" cy="560" r="2" opacity="0.32"/><circle cx="660" cy="560" r="2" opacity="0.38"/><circle cx="680" cy="560" r="2" opacity="0.44"/><circle cx="700" cy="560" r="2" opacity="0.5"/><circle cx="720" cy="560" r="2" opacity="0.55"/><circle cx="740" cy="560" r="2" opacity="0.58"/><circle cx="760" cy="560" r="2" opacity="0.6"/><circle cx="780" cy="560" r="2" opacity="0.62"/><circle cx="800" cy="560" r="2" opacity="0.64"/><circle cx="820" cy="560" r="2" opacity="0.62"/><circle cx="840" cy="560" r="2" opacity="0.58"/><circle cx="860" cy="560" r="2" opacity="0.52"/><circle cx="880" cy="560" r="2" opacity="0.44"/><circle cx="900" cy="560" r="2" opacity="0.35"/><circle cx="920" cy="560" r="2" opacity="0.26"/>
+
+      <circle cx="620" cy="580" r="2" opacity="0.3"/><circle cx="640" cy="580" r="2" opacity="0.37"/><circle cx="660" cy="580" r="2" opacity="0.44"/><circle cx="680" cy="580" r="2" opacity="0.52"/><circle cx="700" cy="580" r="2" opacity="0.58"/><circle cx="720" cy="580" r="2" opacity="0.64"/><circle cx="740" cy="580" r="2" opacity="0.7"/><circle cx="760" cy="580" r="2" opacity="0.74"/><circle cx="780" cy="580" r="2" opacity="0.78"/><circle cx="800" cy="580" r="2.2" opacity="0.8"/><circle cx="820" cy="580" r="2" opacity="0.78"/><circle cx="840" cy="580" r="2" opacity="0.72"/><circle cx="860" cy="580" r="2" opacity="0.62"/><circle cx="880" cy="580" r="2" opacity="0.5"/><circle cx="900" cy="580" r="2" opacity="0.38"/>
+
+      <circle cx="640" cy="600" r="2" opacity="0.38"/><circle cx="660" cy="600" r="2" opacity="0.47"/><circle cx="680" cy="600" r="2" opacity="0.56"/><circle cx="700" cy="600" r="2" opacity="0.64"/><circle cx="720" cy="600" r="2" opacity="0.72"/><circle cx="740" cy="600" r="2.2" opacity="0.78"/><circle cx="760" cy="600" r="2.2" opacity="0.84"/><circle cx="780" cy="600" r="2.3" opacity="0.88"/><circle cx="800" cy="600" r="2.3" opacity="0.9"/><circle cx="820" cy="600" r="2.2" opacity="0.88"/><circle cx="840" cy="600" r="2" opacity="0.8"/><circle cx="860" cy="600" r="2" opacity="0.68"/><circle cx="880" cy="600" r="2" opacity="0.54"/><circle cx="900" cy="600" r="2" opacity="0.4"/>
+    </g>
+    <g fill="#e9d5ff">
+      <circle cx="660" cy="620" r="2" opacity="0.48"/><circle cx="680" cy="620" r="2" opacity="0.58"/><circle cx="700" cy="620" r="2.2" opacity="0.68"/><circle cx="720" cy="620" r="2.2" opacity="0.76"/><circle cx="740" cy="620" r="2.3" opacity="0.83"/><circle cx="760" cy="620" r="2.4" opacity="0.9"/><circle cx="780" cy="620" r="2.5" opacity="0.94"/><circle cx="800" cy="620" r="2.5" opacity="0.96"/><circle cx="820" cy="620" r="2.4" opacity="0.94"/><circle cx="840" cy="620" r="2.2" opacity="0.86"/><circle cx="860" cy="620" r="2" opacity="0.72"/><circle cx="880" cy="620" r="2" opacity="0.56"/>
+
+      <circle cx="660" cy="640" r="2" opacity="0.48"/><circle cx="680" cy="640" r="2" opacity="0.58"/><circle cx="700" cy="640" r="2.2" opacity="0.68"/><circle cx="720" cy="640" r="2.2" opacity="0.76"/><circle cx="740" cy="640" r="2.3" opacity="0.82"/><circle cx="760" cy="640" r="2.4" opacity="0.88"/><circle cx="780" cy="640" r="2.5" opacity="0.92"/><circle cx="800" cy="640" r="2.5" opacity="0.94"/><circle cx="820" cy="640" r="2.4" opacity="0.92"/><circle cx="840" cy="640" r="2.2" opacity="0.84"/><circle cx="860" cy="640" r="2" opacity="0.7"/><circle cx="880" cy="640" r="2" opacity="0.54"/>
+
+      <circle cx="680" cy="660" r="2" opacity="0.48"/><circle cx="700" cy="660" r="2" opacity="0.58"/><circle cx="720" cy="660" r="2.2" opacity="0.66"/><circle cx="740" cy="660" r="2.2" opacity="0.74"/><circle cx="760" cy="660" r="2.3" opacity="0.8"/><circle cx="780" cy="660" r="2.3" opacity="0.84"/><circle cx="800" cy="660" r="2.3" opacity="0.86"/><circle cx="820" cy="660" r="2.2" opacity="0.82"/><circle cx="840" cy="660" r="2" opacity="0.72"/><circle cx="860" cy="660" r="2" opacity="0.58"/>
+    </g>
+    <g fill="#d8b4fe">
+      <circle cx="700" cy="680" r="2" opacity="0.42"/><circle cx="720" cy="680" r="2" opacity="0.5"/><circle cx="740" cy="680" r="2" opacity="0.58"/><circle cx="760" cy="680" r="2" opacity="0.64"/><circle cx="780" cy="680" r="2" opacity="0.68"/><circle cx="800" cy="680" r="2" opacity="0.7"/><circle cx="820" cy="680" r="2" opacity="0.66"/><circle cx="840" cy="680" r="2" opacity="0.56"/><circle cx="860" cy="680" r="2" opacity="0.44"/>
+
+      <circle cx="720" cy="700" r="2" opacity="0.35"/><circle cx="740" cy="700" r="2" opacity="0.42"/><circle cx="760" cy="700" r="2" opacity="0.48"/><circle cx="780" cy="700" r="2" opacity="0.52"/><circle cx="800" cy="700" r="2" opacity="0.54"/><circle cx="820" cy="700" r="2" opacity="0.5"/><circle cx="840" cy="700" r="2" opacity="0.42"/>
+
+      <circle cx="740" cy="720" r="2" opacity="0.28"/><circle cx="760" cy="720" r="2" opacity="0.34"/><circle cx="780" cy="720" r="2" opacity="0.38"/><circle cx="800" cy="720" r="2" opacity="0.4"/><circle cx="820" cy="720" r="2" opacity="0.36"/><circle cx="840" cy="720" r="2" opacity="0.28"/>
+    </g>
+
+    <!-- REGION: Bottom-left (blue glow) -->
+    <g fill="#93c5fd">
+      <circle cx="120" cy="580" r="2" opacity="0.15"/><circle cx="140" cy="580" r="2" opacity="0.2"/><circle cx="160" cy="580" r="2" opacity="0.26"/><circle cx="180" cy="580" r="2" opacity="0.32"/><circle cx="200" cy="580" r="2" opacity="0.38"/><circle cx="220" cy="580" r="2" opacity="0.44"/><circle cx="240" cy="580" r="2" opacity="0.48"/><circle cx="260" cy="580" r="2" opacity="0.52"/><circle cx="280" cy="580" r="2" opacity="0.54"/><circle cx="300" cy="580" r="2" opacity="0.52"/><circle cx="320" cy="580" r="2" opacity="0.46"/><circle cx="340" cy="580" r="2" opacity="0.38"/><circle cx="360" cy="580" r="2" opacity="0.28"/>
+
+      <circle cx="100" cy="600" r="2" opacity="0.18"/><circle cx="120" cy="600" r="2" opacity="0.24"/><circle cx="140" cy="600" r="2" opacity="0.32"/><circle cx="160" cy="600" r="2" opacity="0.4"/><circle cx="180" cy="600" r="2" opacity="0.48"/><circle cx="200" cy="600" r="2" opacity="0.56"/><circle cx="220" cy="600" r="2" opacity="0.62"/><circle cx="240" cy="600" r="2" opacity="0.66"/><circle cx="260" cy="600" r="2" opacity="0.7"/><circle cx="280" cy="600" r="2" opacity="0.68"/><circle cx="300" cy="600" r="2" opacity="0.62"/><circle cx="320" cy="600" r="2" opacity="0.52"/><circle cx="340" cy="600" r="2" opacity="0.4"/><circle cx="360" cy="600" r="2" opacity="0.28"/>
+
+      <circle cx="100" cy="620" r="2" opacity="0.22"/><circle cx="120" cy="620" r="2" opacity="0.3"/><circle cx="140" cy="620" r="2" opacity="0.38"/><circle cx="160" cy="620" r="2" opacity="0.48"/><circle cx="180" cy="620" r="2" opacity="0.56"/><circle cx="200" cy="620" r="2.2" opacity="0.64"/><circle cx="220" cy="620" r="2.2" opacity="0.7"/><circle cx="240" cy="620" r="2.2" opacity="0.74"/><circle cx="260" cy="620" r="2.2" opacity="0.76"/><circle cx="280" cy="620" r="2" opacity="0.72"/><circle cx="300" cy="620" r="2" opacity="0.64"/><circle cx="320" cy="620" r="2" opacity="0.52"/><circle cx="340" cy="620" r="2" opacity="0.38"/>
+
+      <circle cx="120" cy="640" r="2" opacity="0.28"/><circle cx="140" cy="640" r="2" opacity="0.36"/><circle cx="160" cy="640" r="2" opacity="0.44"/><circle cx="180" cy="640" r="2" opacity="0.52"/><circle cx="200" cy="640" r="2" opacity="0.58"/><circle cx="220" cy="640" r="2" opacity="0.62"/><circle cx="240" cy="640" r="2" opacity="0.64"/><circle cx="260" cy="640" r="2" opacity="0.62"/><circle cx="280" cy="640" r="2" opacity="0.56"/><circle cx="300" cy="640" r="2" opacity="0.46"/><circle cx="320" cy="640" r="2" opacity="0.34"/>
+
+      <circle cx="140" cy="660" r="2" opacity="0.26"/><circle cx="160" cy="660" r="2" opacity="0.32"/><circle cx="180" cy="660" r="2" opacity="0.38"/><circle cx="200" cy="660" r="2" opacity="0.44"/><circle cx="220" cy="660" r="2" opacity="0.48"/><circle cx="240" cy="660" r="2" opacity="0.5"/><circle cx="260" cy="660" r="2" opacity="0.48"/><circle cx="280" cy="660" r="2" opacity="0.4"/><circle cx="300" cy="660" r="2" opacity="0.3"/>
+    </g>
+
+    <!-- REGION: Top-right (lighter cyan glow) -->
+    <g fill="#a5f3fc">
+      <circle cx="1260" cy="160" r="2" opacity="0.15"/><circle cx="1280" cy="160" r="2" opacity="0.2"/><circle cx="1300" cy="160" r="2" opacity="0.25"/><circle cx="1320" cy="160" r="2" opacity="0.3"/><circle cx="1340" cy="160" r="2" opacity="0.35"/><circle cx="1360" cy="160" r="2" opacity="0.38"/><circle cx="1380" cy="160" r="2" opacity="0.4"/><circle cx="1400" cy="160" r="2" opacity="0.38"/><circle cx="1420" cy="160" r="2" opacity="0.34"/><circle cx="1440" cy="160" r="2" opacity="0.28"/><circle cx="1460" cy="160" r="2" opacity="0.2"/>
+
+      <circle cx="1240" cy="180" r="2" opacity="0.2"/><circle cx="1260" cy="180" r="2" opacity="0.26"/><circle cx="1280" cy="180" r="2" opacity="0.33"/><circle cx="1300" cy="180" r="2" opacity="0.4"/><circle cx="1320" cy="180" r="2" opacity="0.47"/><circle cx="1340" cy="180" r="2" opacity="0.52"/><circle cx="1360" cy="180" r="2" opacity="0.56"/><circle cx="1380" cy="180" r="2" opacity="0.58"/><circle cx="1400" cy="180" r="2" opacity="0.55"/><circle cx="1420" cy="180" r="2" opacity="0.48"/><circle cx="1440" cy="180" r="2" opacity="0.38"/><circle cx="1460" cy="180" r="2" opacity="0.28"/>
+
+      <circle cx="1240" cy="200" r="2" opacity="0.26"/><circle cx="1260" cy="200" r="2" opacity="0.34"/><circle cx="1280" cy="200" r="2" opacity="0.42"/><circle cx="1300" cy="200" r="2" opacity="0.5"/><circle cx="1320" cy="200" r="2.2" opacity="0.58"/><circle cx="1340" cy="200" r="2.2" opacity="0.64"/><circle cx="1360" cy="200" r="2.2" opacity="0.68"/><circle cx="1380" cy="200" r="2.2" opacity="0.66"/><circle cx="1400" cy="200" r="2" opacity="0.6"/><circle cx="1420" cy="200" r="2" opacity="0.5"/><circle cx="1440" cy="200" r="2" opacity="0.38"/><circle cx="1460" cy="200" r="2" opacity="0.26"/>
+
+      <circle cx="1260" cy="220" r="2" opacity="0.3"/><circle cx="1280" cy="220" r="2" opacity="0.38"/><circle cx="1300" cy="220" r="2" opacity="0.46"/><circle cx="1320" cy="220" r="2" opacity="0.54"/><circle cx="1340" cy="220" r="2.2" opacity="0.6"/><circle cx="1360" cy="220" r="2.2" opacity="0.64"/><circle cx="1380" cy="220" r="2" opacity="0.6"/><circle cx="1400" cy="220" r="2" opacity="0.52"/><circle cx="1420" cy="220" r="2" opacity="0.42"/><circle cx="1440" cy="220" r="2" opacity="0.3"/>
+
+      <circle cx="1280" cy="240" r="2" opacity="0.3"/><circle cx="1300" cy="240" r="2" opacity="0.36"/><circle cx="1320" cy="240" r="2" opacity="0.42"/><circle cx="1340" cy="240" r="2" opacity="0.46"/><circle cx="1360" cy="240" r="2" opacity="0.44"/><circle cx="1380" cy="240" r="2" opacity="0.38"/><circle cx="1400" cy="240" r="2" opacity="0.3"/><circle cx="1420" cy="240" r="2" opacity="0.22"/>
+    </g>
+
+    <!-- Scattered dim ambient dots across the entire frame -->
+    <!-- These give the "hidden grid" feeling in dark areas -->
+    <g fill="#6366f1" opacity="0.08">
+      <circle cx="500" cy="100" r="1.5"/><circle cx="520" cy="100" r="1.5"/><circle cx="540" cy="100" r="1.5"/><circle cx="560" cy="100" r="1.5"/><circle cx="580" cy="100" r="1.5"/><circle cx="600" cy="100" r="1.5"/><circle cx="620" cy="100" r="1.5"/><circle cx="640" cy="100" r="1.5"/><circle cx="660" cy="100" r="1.5"/><circle cx="680" cy="100" r="1.5"/><circle cx="700" cy="100" r="1.5"/><circle cx="720" cy="100" r="1.5"/><circle cx="740" cy="100" r="1.5"/><circle cx="760" cy="100" r="1.5"/><circle cx="780" cy="100" r="1.5"/><circle cx="800" cy="100" r="1.5"/><circle cx="820" cy="100" r="1.5"/><circle cx="840" cy="100" r="1.5"/><circle cx="860" cy="100" r="1.5"/><circle cx="880" cy="100" r="1.5"/>
+      <circle cx="500" cy="120" r="1.5"/><circle cx="520" cy="120" r="1.5"/><circle cx="540" cy="120" r="1.5"/><circle cx="560" cy="120" r="1.5"/><circle cx="580" cy="120" r="1.5"/><circle cx="600" cy="120" r="1.5"/><circle cx="620" cy="120" r="1.5"/><circle cx="640" cy="120" r="1.5"/><circle cx="660" cy="120" r="1.5"/><circle cx="680" cy="120" r="1.5"/><circle cx="700" cy="120" r="1.5"/><circle cx="720" cy="120" r="1.5"/><circle cx="740" cy="120" r="1.5"/><circle cx="760" cy="120" r="1.5"/><circle cx="780" cy="120" r="1.5"/><circle cx="800" cy="120" r="1.5"/><circle cx="820" cy="120" r="1.5"/><circle cx="840" cy="120" r="1.5"/><circle cx="860" cy="120" r="1.5"/><circle cx="880" cy="120" r="1.5"/>
+      <circle cx="500" cy="140" r="1.5"/><circle cx="520" cy="140" r="1.5"/><circle cx="540" cy="140" r="1.5"/><circle cx="560" cy="140" r="1.5"/><circle cx="580" cy="140" r="1.5"/><circle cx="600" cy="140" r="1.5"/><circle cx="620" cy="140" r="1.5"/><circle cx="640" cy="140" r="1.5"/><circle cx="660" cy="140" r="1.5"/><circle cx="680" cy="140" r="1.5"/><circle cx="700" cy="140" r="1.5"/><circle cx="720" cy="140" r="1.5"/><circle cx="740" cy="140" r="1.5"/><circle cx="760" cy="140" r="1.5"/><circle cx="780" cy="140" r="1.5"/><circle cx="800" cy="140" r="1.5"/><circle cx="820" cy="140" r="1.5"/><circle cx="840" cy="140" r="1.5"/><circle cx="860" cy="140" r="1.5"/><circle cx="880" cy="140" r="1.5"/>
+      <circle cx="500" cy="160" r="1.5"/><circle cx="520" cy="160" r="1.5"/><circle cx="540" cy="160" r="1.5"/><circle cx="560" cy="160" r="1.5"/><circle cx="580" cy="160" r="1.5"/><circle cx="600" cy="160" r="1.5"/><circle cx="620" cy="160" r="1.5"/><circle cx="640" cy="160" r="1.5"/><circle cx="660" cy="160" r="1.5"/><circle cx="680" cy="160" r="1.5"/><circle cx="700" cy="160" r="1.5"/><circle cx="720" cy="160" r="1.5"/><circle cx="740" cy="160" r="1.5"/><circle cx="760" cy="160" r="1.5"/><circle cx="780" cy="160" r="1.5"/><circle cx="800" cy="160" r="1.5"/><circle cx="820" cy="160" r="1.5"/><circle cx="840" cy="160" r="1.5"/><circle cx="860" cy="160" r="1.5"/><circle cx="880" cy="160" r="1.5"/>
+    </g>
+    <!-- More ambient dots in the mid-dark regions -->
+    <g fill="#818cf8" opacity="0.06">
+      <circle cx="500" cy="300" r="1.5"/><circle cx="520" cy="300" r="1.5"/><circle cx="540" cy="300" r="1.5"/><circle cx="560" cy="300" r="1.5"/><circle cx="580" cy="300" r="1.5"/><circle cx="600" cy="300" r="1.5"/><circle cx="620" cy="300" r="1.5"/><circle cx="640" cy="300" r="1.5"/><circle cx="660" cy="300" r="1.5"/><circle cx="680" cy="300" r="1.5"/><circle cx="700" cy="300" r="1.5"/><circle cx="720" cy="300" r="1.5"/><circle cx="740" cy="300" r="1.5"/><circle cx="760" cy="300" r="1.5"/><circle cx="780" cy="300" r="1.5"/><circle cx="800" cy="300" r="1.5"/><circle cx="820" cy="300" r="1.5"/><circle cx="840" cy="300" r="1.5"/><circle cx="860" cy="300" r="1.5"/><circle cx="880" cy="300" r="1.5"/>
+      <circle cx="500" cy="320" r="1.5"/><circle cx="520" cy="320" r="1.5"/><circle cx="540" cy="320" r="1.5"/><circle cx="560" cy="320" r="1.5"/><circle cx="580" cy="320" r="1.5"/><circle cx="600" cy="320" r="1.5"/><circle cx="620" cy="320" r="1.5"/><circle cx="640" cy="320" r="1.5"/><circle cx="660" cy="320" r="1.5"/><circle cx="680" cy="320" r="1.5"/><circle cx="700" cy="320" r="1.5"/><circle cx="720" cy="320" r="1.5"/><circle cx="740" cy="320" r="1.5"/><circle cx="760" cy="320" r="1.5"/><circle cx="780" cy="320" r="1.5"/><circle cx="800" cy="320" r="1.5"/><circle cx="820" cy="320" r="1.5"/><circle cx="840" cy="320" r="1.5"/><circle cx="860" cy="320" r="1.5"/><circle cx="880" cy="320" r="1.5"/>
+      <circle cx="500" cy="340" r="1.5"/><circle cx="520" cy="340" r="1.5"/><circle cx="540" cy="340" r="1.5"/><circle cx="560" cy="340" r="1.5"/><circle cx="580" cy="340" r="1.5"/><circle cx="600" cy="340" r="1.5"/><circle cx="620" cy="340" r="1.5"/><circle cx="640" cy="340" r="1.5"/><circle cx="660" cy="340" r="1.5"/><circle cx="680" cy="340" r="1.5"/><circle cx="700" cy="340" r="1.5"/><circle cx="720" cy="340" r="1.5"/><circle cx="740" cy="340" r="1.5"/><circle cx="760" cy="340" r="1.5"/><circle cx="780" cy="340" r="1.5"/><circle cx="800" cy="340" r="1.5"/><circle cx="820" cy="340" r="1.5"/><circle cx="840" cy="340" r="1.5"/><circle cx="860" cy="340" r="1.5"/><circle cx="880" cy="340" r="1.5"/>
+      <circle cx="500" cy="360" r="1.5"/><circle cx="520" cy="360" r="1.5"/><circle cx="540" cy="360" r="1.5"/><circle cx="560" cy="360" r="1.5"/><circle cx="580" cy="360" r="1.5"/><circle cx="600" cy="360" r="1.5"/><circle cx="620" cy="360" r="1.5"/><circle cx="640" cy="360" r="1.5"/><circle cx="660" cy="360" r="1.5"/><circle cx="680" cy="360" r="1.5"/><circle cx="700" cy="360" r="1.5"/><circle cx="720" cy="360" r="1.5"/><circle cx="740" cy="360" r="1.5"/><circle cx="760" cy="360" r="1.5"/><circle cx="780" cy="360" r="1.5"/><circle cx="800" cy="360" r="1.5"/><circle cx="820" cy="360" r="1.5"/><circle cx="840" cy="360" r="1.5"/><circle cx="860" cy="360" r="1.5"/><circle cx="880" cy="360" r="1.5"/>
+      <circle cx="500" cy="380" r="1.5"/><circle cx="520" cy="380" r="1.5"/><circle cx="540" cy="380" r="1.5"/><circle cx="560" cy="380" r="1.5"/><circle cx="580" cy="380" r="1.5"/><circle cx="600" cy="380" r="1.5"/><circle cx="620" cy="380" r="1.5"/><circle cx="640" cy="380" r="1.5"/><circle cx="660" cy="380" r="1.5"/><circle cx="680" cy="380" r="1.5"/><circle cx="700" cy="380" r="1.5"/><circle cx="720" cy="380" r="1.5"/><circle cx="740" cy="380" r="1.5"/><circle cx="760" cy="380" r="1.5"/><circle cx="780" cy="380" r="1.5"/><circle cx="800" cy="380" r="1.5"/><circle cx="820" cy="380" r="1.5"/><circle cx="840" cy="380" r="1.5"/><circle cx="860" cy="380" r="1.5"/><circle cx="880" cy="380" r="1.5"/>
+      <circle cx="500" cy="400" r="1.5"/><circle cx="520" cy="400" r="1.5"/><circle cx="540" cy="400" r="1.5"/><circle cx="560" cy="400" r="1.5"/><circle cx="580" cy="400" r="1.5"/><circle cx="600" cy="400" r="1.5"/><circle cx="620" cy="400" r="1.5"/><circle cx="640" cy="400" r="1.5"/><circle cx="660" cy="400" r="1.5"/><circle cx="680" cy="400" r="1.5"/><circle cx="700" cy="400" r="1.5"/><circle cx="720" cy="400" r="1.5"/><circle cx="740" cy="400" r="1.5"/><circle cx="760" cy="400" r="1.5"/><circle cx="780" cy="400" r="1.5"/><circle cx="800" cy="400" r="1.5"/><circle cx="820" cy="400" r="1.5"/><circle cx="840" cy="400" r="1.5"/><circle cx="860" cy="400" r="1.5"/><circle cx="880" cy="400" r="1.5"/>
+    </g>
+
+    <!-- Edge dots barely visible -->
+    <g fill="#4338ca" opacity="0.04">
+      <circle cx="60" cy="400" r="1.5"/><circle cx="80" cy="400" r="1.5"/><circle cx="100" cy="400" r="1.5"/><circle cx="120" cy="400" r="1.5"/><circle cx="140" cy="400" r="1.5"/><circle cx="160" cy="400" r="1.5"/><circle cx="180" cy="400" r="1.5"/><circle cx="200" cy="400" r="1.5"/><circle cx="220" cy="400" r="1.5"/><circle cx="240" cy="400" r="1.5"/><circle cx="260" cy="400" r="1.5"/><circle cx="280" cy="400" r="1.5"/><circle cx="300" cy="400" r="1.5"/><circle cx="320" cy="400" r="1.5"/><circle cx="340" cy="400" r="1.5"/><circle cx="360" cy="400" r="1.5"/><circle cx="380" cy="400" r="1.5"/><circle cx="400" cy="400" r="1.5"/><circle cx="420" cy="400" r="1.5"/><circle cx="440" cy="400" r="1.5"/>
+      <circle cx="60" cy="420" r="1.5"/><circle cx="80" cy="420" r="1.5"/><circle cx="100" cy="420" r="1.5"/><circle cx="120" cy="420" r="1.5"/><circle cx="140" cy="420" r="1.5"/><circle cx="160" cy="420" r="1.5"/><circle cx="180" cy="420" r="1.5"/><circle cx="200" cy="420" r="1.5"/><circle cx="220" cy="420" r="1.5"/><circle cx="240" cy="420" r="1.5"/><circle cx="260" cy="420" r="1.5"/><circle cx="280" cy="420" r="1.5"/><circle cx="300" cy="420" r="1.5"/><circle cx="320" cy="420" r="1.5"/><circle cx="340" cy="420" r="1.5"/><circle cx="360" cy="420" r="1.5"/><circle cx="380" cy="420" r="1.5"/><circle cx="400" cy="420" r="1.5"/><circle cx="420" cy="420" r="1.5"/><circle cx="440" cy="420" r="1.5"/>
+      <circle cx="60" cy="440" r="1.5"/><circle cx="80" cy="440" r="1.5"/><circle cx="100" cy="440" r="1.5"/><circle cx="120" cy="440" r="1.5"/><circle cx="140" cy="440" r="1.5"/><circle cx="160" cy="440" r="1.5"/><circle cx="180" cy="440" r="1.5"/><circle cx="200" cy="440" r="1.5"/><circle cx="220" cy="440" r="1.5"/><circle cx="240" cy="440" r="1.5"/><circle cx="260" cy="440" r="1.5"/><circle cx="280" cy="440" r="1.5"/><circle cx="300" cy="440" r="1.5"/><circle cx="320" cy="440" r="1.5"/><circle cx="340" cy="440" r="1.5"/><circle cx="360" cy="440" r="1.5"/><circle cx="380" cy="440" r="1.5"/><circle cx="400" cy="440" r="1.5"/><circle cx="420" cy="440" r="1.5"/><circle cx="440" cy="440" r="1.5"/>
+      <!-- Right edge dark dots -->
+      <circle cx="1340" cy="400" r="1.5"/><circle cx="1360" cy="400" r="1.5"/><circle cx="1380" cy="400" r="1.5"/><circle cx="1400" cy="400" r="1.5"/><circle cx="1420" cy="400" r="1.5"/><circle cx="1440" cy="400" r="1.5"/><circle cx="1460" cy="400" r="1.5"/><circle cx="1480" cy="400" r="1.5"/><circle cx="1500" cy="400" r="1.5"/><circle cx="1520" cy="400" r="1.5"/><circle cx="1540" cy="400" r="1.5"/>
+      <circle cx="1340" cy="420" r="1.5"/><circle cx="1360" cy="420" r="1.5"/><circle cx="1380" cy="420" r="1.5"/><circle cx="1400" cy="420" r="1.5"/><circle cx="1420" cy="420" r="1.5"/><circle cx="1440" cy="420" r="1.5"/><circle cx="1460" cy="420" r="1.5"/><circle cx="1480" cy="420" r="1.5"/><circle cx="1500" cy="420" r="1.5"/><circle cx="1520" cy="420" r="1.5"/><circle cx="1540" cy="420" r="1.5"/>
+      <!-- Top edge -->
+      <circle cx="940" cy="60" r="1.5"/><circle cx="960" cy="60" r="1.5"/><circle cx="980" cy="60" r="1.5"/><circle cx="1000" cy="60" r="1.5"/><circle cx="1020" cy="60" r="1.5"/><circle cx="1040" cy="60" r="1.5"/><circle cx="1060" cy="60" r="1.5"/><circle cx="1080" cy="60" r="1.5"/><circle cx="1100" cy="60" r="1.5"/><circle cx="1120" cy="60" r="1.5"/><circle cx="1140" cy="60" r="1.5"/><circle cx="1160" cy="60" r="1.5"/><circle cx="1180" cy="60" r="1.5"/><circle cx="1200" cy="60" r="1.5"/>
+      <!-- Bottom edge -->
+      <circle cx="400" cy="780" r="1.5"/><circle cx="420" cy="780" r="1.5"/><circle cx="440" cy="780" r="1.5"/><circle cx="460" cy="780" r="1.5"/><circle cx="480" cy="780" r="1.5"/><circle cx="500" cy="780" r="1.5"/><circle cx="520" cy="780" r="1.5"/><circle cx="540" cy="780" r="1.5"/><circle cx="560" cy="780" r="1.5"/><circle cx="580" cy="780" r="1.5"/><circle cx="600" cy="780" r="1.5"/><circle cx="1060" cy="780" r="1.5"/><circle cx="1080" cy="780" r="1.5"/><circle cx="1100" cy="780" r="1.5"/><circle cx="1120" cy="780" r="1.5"/><circle cx="1140" cy="780" r="1.5"/>
+      <circle cx="400" cy="800" r="1.5"/><circle cx="420" cy="800" r="1.5"/><circle cx="440" cy="800" r="1.5"/><circle cx="460" cy="800" r="1.5"/><circle cx="480" cy="800" r="1.5"/><circle cx="500" cy="800" r="1.5"/><circle cx="520" cy="800" r="1.5"/><circle cx="540" cy="800" r="1.5"/><circle cx="560" cy="800" r="1.5"/><circle cx="580" cy="800" r="1.5"/><circle cx="600" cy="800" r="1.5"/><circle cx="1060" cy="800" r="1.5"/><circle cx="1080" cy="800" r="1.5"/><circle cx="1100" cy="800" r="1.5"/><circle cx="1120" cy="800" r="1.5"/><circle cx="1140" cy="800" r="1.5"/>
+    </g>
+  </g>
+
+  <!-- Very subtle vignette overlay -->
+  <radialGradient id="vignette" cx="50%" cy="50%" r="70%">
+    <stop offset="0%" stop-color="#08060e" stop-opacity="0"/>
+    <stop offset="70%" stop-color="#08060e" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#08060e" stop-opacity="0.6"/>
+  </radialGradient>
+  <rect width="1600" height="900" fill="url(#vignette)"/>
+</svg>
