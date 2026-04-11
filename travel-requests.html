@@ -510,6 +510,26 @@
         .flag-jp::before { content: "\1F1EF\1F1F5 "; }
         .flag-hk::before { content: "\1F1ED\1F1F0 "; }
         .flag-cn::before { content: "\1F1E8\1F1F3 "; }
+
+        /* Currency input group */
+        .budget-group {
+            display: flex;
+            gap: 0;
+        }
+        .budget-group select {
+            width: 80px;
+            flex-shrink: 0;
+            border-radius: 12px 0 0 12px;
+            border-right: none;
+            text-align: center;
+            padding: 12px 8px;
+            font-size: 15px;
+        }
+        .budget-group input {
+            flex: 1;
+            border-radius: 0 12px 12px 0;
+            min-width: 0;
+        }
     </style>
 </head>
 <body>
@@ -613,7 +633,16 @@
                         </div>
                         <div class="form-group">
                             <label for="reqBudget">Max Budget</label>
-                            <input type="text" id="reqBudget" name="budget" placeholder="e.g., &#8377;2,000 or $25">
+                            <div class="budget-group">
+                                <select id="reqCurrency" name="currency">
+                                    <option value="₹">₹ INR</option>
+                                    <option value="¥">¥ JPY</option>
+                                    <option value="CN¥">CN¥</option>
+                                    <option value="HK$">HK$</option>
+                                    <option value="$">$ USD</option>
+                                </select>
+                                <input type="number" id="reqBudget" name="budget" placeholder="e.g., 2000" min="0">
+                            </div>
                         </div>
                         <div class="form-group">
                             <label for="reqPriority">Priority</label>
@@ -949,7 +978,7 @@
                 destination: form.destination.value,
                 item: form.item.value.trim(),
                 category: form.category.value,
-                budget: form.budget.value.trim(),
+                budget: form.budget.value ? (form.currency.value + form.budget.value.trim()) : '',
                 priority: form.priority.value,
                 link: form.link.value.trim(),
                 notes: form.notes.value.trim(),
