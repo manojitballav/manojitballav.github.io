@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <script>(function(){var t=localStorage.getItem('theme')||(window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t)})()</script>
-    <title>Travel Requests — Buy from Japan, HK & China | Manojit Ballav</title>
+    <title>Travel Requests — Buy from Japan & HK | Manojit Ballav</title>
     <meta charset="UTF-8">
-    <meta name="description" content="Request items from Japan, Hong Kong, or China. See what others have requested and submit your own wishlist.">
+    <meta name="description" content="Request items from Japan or Hong Kong. See what others have requested and submit your own wishlist.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Manojit Ballav">
     <meta name="robots" content="noindex, nofollow">
@@ -861,7 +861,7 @@
                 <span>Travel Requests</span>
             </nav>
             <h1>Travel Requests</h1>
-            <p>Request items from Japan, Hong Kong, or China. Browse existing requests to see what's already in the queue.</p>
+            <p>Request items from Japan or Hong Kong. Browse existing requests to see what's already in the queue.</p>
 
             <div class="setup-banner" id="setupBanner" style="display:none;">
                 <strong>Setup required:</strong> This page needs a Google Sheets backend. Set your Apps Script URL in the <code>SCRIPT_URL</code> variable in this page's JavaScript.
@@ -871,7 +871,6 @@
                 <button class="dest-tab active" data-dest="all">All</button>
                 <button class="dest-tab" data-dest="Japan"><span class="flag-jp"></span>Japan</button>
                 <button class="dest-tab" data-dest="Hong Kong"><span class="flag-hk"></span>Hong Kong</button>
-                <button class="dest-tab" data-dest="China"><span class="flag-cn"></span>China</button>
             </div>
 
             <div class="requests-stats" id="requestsStats"></div>
@@ -920,7 +919,6 @@
                                 <option value="">Select country...</option>
                                 <option value="Japan">Japan</option>
                                 <option value="Hong Kong">Hong Kong</option>
-                                <option value="China">China</option>
                             </select>
                         </div>
                         <div class="form-group">
@@ -1192,7 +1190,6 @@
         function flagClass(dest) {
             if (dest === 'Japan') return 'flag-jp';
             if (dest === 'Hong Kong') return 'flag-hk';
-            if (dest === 'China') return 'flag-cn';
             return '';
         }
 
