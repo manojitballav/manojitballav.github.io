@@ -1,24 +1,60 @@
 {
-  "lastUpdated": "2026-04-11",
-  "newDevicesCount": 3,
+  "lastUpdated": "2026-04-12",
+  "newDevicesCount": 9,
   "newDevices": [
     [
-      "Homatics",
-      "Box R 4K",
-      "YVR",
-      "Box R 4K"
+      "DABLIU",
+      "T1B",
+      "T1B",
+      "T1B"
     ],
     [
-      "Homatics",
-      "Test",
-      "YYZ",
-      "Box R Lite 4K"
+      "FOSSiBOT",
+      "F105_Pro_EEA",
+      "F105_Pro",
+      "F105 Pro"
     ],
     [
-      "Walton",
-      "Smart TV",
-      "alimos",
-      "WALTON GOOGLE TV FF"
+      "G-Tab",
+      "GTAB_P8",
+      "GTAB_P8",
+      "P8"
+    ],
+    [
+      "KONKA",
+      "KONKA U4K Google TV",
+      "daxi",
+      "KONKA U4K Google TV"
+    ],
+    [
+      "Mobiwire",
+      "H6733 Pro",
+      "GH6733",
+      "H6733 Pro"
+    ],
+    [
+      "NEC",
+      "LAVIE Tab 11QHD3",
+      "LAVIETab11QHD3",
+      "LAVIE Tab 11QHD3"
+    ],
+    [
+      "NEC",
+      "LAVIE Tab 11QHD3",
+      "LAVIETab11QHD3",
+      "LAVIETab11QHD3"
+    ],
+    [
+      "Samsung",
+      "Galaxy A57 5G",
+      "SC-54G",
+      "SC-54G"
+    ],
+    [
+      "Zynex",
+      "G16L",
+      "G16L",
+      "G16L"
     ]
   ]
 }
