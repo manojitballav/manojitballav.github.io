@@ -1,60 +1,18 @@
 {
-  "lastUpdated": "2026-04-12",
-  "newDevicesCount": 9,
+  "lastUpdated": "2026-04-13",
+  "newDevicesCount": 2,
   "newDevices": [
     [
-      "DABLIU",
-      "T1B",
-      "T1B",
-      "T1B"
+      "Oppo",
+      "A6s Pro 5G",
+      "OP61DFL1",
+      "PMT110"
     ],
     [
-      "FOSSiBOT",
-      "F105_Pro_EEA",
-      "F105_Pro",
-      "F105 Pro"
-    ],
-    [
-      "G-Tab",
-      "GTAB_P8",
-      "GTAB_P8",
-      "P8"
-    ],
-    [
-      "KONKA",
-      "KONKA U4K Google TV",
-      "daxi",
-      "KONKA U4K Google TV"
-    ],
-    [
-      "Mobiwire",
-      "H6733 Pro",
-      "GH6733",
-      "H6733 Pro"
-    ],
-    [
-      "NEC",
-      "LAVIE Tab 11QHD3",
-      "LAVIETab11QHD3",
-      "LAVIE Tab 11QHD3"
-    ],
-    [
-      "NEC",
-      "LAVIE Tab 11QHD3",
-      "LAVIETab11QHD3",
-      "LAVIETab11QHD3"
-    ],
-    [
-      "Samsung",
-      "Galaxy A57 5G",
-      "SC-54G",
-      "SC-54G"
-    ],
-    [
-      "Zynex",
-      "G16L",
-      "G16L",
-      "G16L"
+      "Oppo",
+      "F33 Pro 5G",
+      "OP62CBL1",
+      "CPH2835"
     ]
   ]
 }
