@@ -1,18 +1,48 @@
 {
-  "lastUpdated": "2026-04-13",
-  "newDevicesCount": 2,
+  "lastUpdated": "2026-04-14",
+  "newDevicesCount": 7,
   "newDevices": [
     [
-      "Oppo",
-      "A6s Pro 5G",
-      "OP61DFL1",
-      "PMT110"
+      "BenQ",
+      "NE001A_series",
+      "NE001A_series",
+      "NE001A_series"
     ],
     [
-      "Oppo",
-      "F33 Pro 5G",
-      "OP62CBL1",
-      "CPH2835"
+      "Honor",
+      "荣耀X80i",
+      "HNLNA-M",
+      "LNA-AN00"
+    ],
+    [
+      "LIFEPHONE",
+      "F1",
+      "F1",
+      "F1"
+    ],
+    [
+      "LIFEPHONE",
+      "K1",
+      "K1",
+      "K1"
+    ],
+    [
+      "LOGIC",
+      "EX_Series",
+      "RK3576",
+      "LT-IR65EX"
+    ],
+    [
+      "TABWEE",
+      "T30_NEU",
+      "T30_NEU",
+      "T30"
+    ],
+    [
+      "Teclast",
+      "P30T_BN_EEA",
+      "P30T_BN_EEA",
+      "bnd"
     ]
   ]
 }
