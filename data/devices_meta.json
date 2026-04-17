@@ -1,48 +1,186 @@
 {
-  "lastUpdated": "2026-04-16",
-  "newDevicesCount": 7,
+  "lastUpdated": "2026-04-17",
+  "newDevicesCount": 30,
   "newDevices": [
     [
-      "BenQ",
-      "NE001A_series",
-      "NE001A_series",
-      "NE001A_series"
+      "AOC",
+      "M10_EEA",
+      "M10_EEA",
+      "M10_EEA"
     ],
     [
-      "Honor",
-      "荣耀X80i",
-      "HNLNA-M",
-      "LNA-AN00"
+      "Azeyou",
+      "T12E",
+      "T12E",
+      "T12E"
     ],
     [
-      "LIFEPHONE",
-      "F1",
-      "F1",
-      "F1"
+      "BYYBUO",
+      "A70W_A_UK",
+      "A70W_A_UK",
+      "A70W_A_UK"
     ],
     [
-      "LIFEPHONE",
-      "K1",
-      "K1",
-      "K1"
+      "Briotouch",
+      "Interactive_Flat_Panel_ADPM",
+      "Interactive_Flat_Panel_ADPM",
+      "BrioTouch_BR"
     ],
     [
-      "LOGIC",
-      "EX_Series",
-      "RK3576",
-      "LT-IR65EX"
+      "CAIXUN",
+      "AiPro2K",
+      "dongnae",
+      "AiPro2K"
     ],
     [
-      "TABWEE",
-      "T30_NEU",
-      "T30_NEU",
-      "T30"
+      "CCC",
+      "TV Stick",
+      "ts403",
+      "TV Stick"
     ],
     [
-      "Teclast",
-      "P30T_BN_EEA",
-      "P30T_BN_EEA",
-      "bnd"
+      "Ergo",
+      "Smart TV",
+      "dangni",
+      "ERGOGS"
+    ],
+    [
+      "IRA (explore more)",
+      "T1021M",
+      "T1021M",
+      "T1021M"
+    ],
+    [
+      "MLAB",
+      "MLAB9786",
+      "MLAB9786",
+      "MLAB 9786 STUDIO SUITE PRO 12"
+    ],
+    [
+      "OnePlus",
+      "OnePlus Watch 4",
+      "OPWWE261",
+      "OPWWE261"
+    ],
+    [
+      "Oppo",
+      "Find X9 Ultra 卫星通信版",
+      "OP61BDL1",
+      "PMA120"
+    ],
+    [
+      "Oppo",
+      "Find X9 Ultra",
+      "OP61BDL1",
+      "PMA110"
+    ],
+    [
+      "Oppo",
+      "Find X9s Pro",
+      "OP61C1L1",
+      "PME110"
+    ],
+    [
+      "Oppo",
+      "Pad 5 Pro",
+      "OP6546L1",
+      "OPD2511"
+    ],
+    [
+      "Oppo",
+      "Pad Mini",
+      "OP6548L1",
+      "OPD2515"
+    ],
+    [
+      "PACTGROUP",
+      "B10_RO7_EEA",
+      "B10_RO7_EEA",
+      "FONDATION_ORANGE_2026"
+    ],
+    [
+      "PAITANRY",
+      "H40_EEA",
+      "H40_EEA",
+      "H40_EEA"
+    ],
+    [
+      "PEICHENG",
+      "CP31W",
+      "CP31W",
+      "CP31W"
+    ],
+    [
+      "Packard Bell",
+      "TARGA-F14PROX",
+      "TARGA-F14PROX",
+      "TARGA-F14PROX"
+    ],
+    [
+      "Quantic",
+      "CM4861",
+      "CM4861",
+      "CM4861"
+    ],
+    [
+      "Redmi",
+      "REDMI A7 Pro 5G",
+      "somalia",
+      "26020RN1AI"
+    ],
+    [
+      "Redmi",
+      "REDMI Note 15 SE 5G",
+      "kunzite",
+      "26022PCACI"
+    ],
+    [
+      "Rizzen",
+      "S1_pro_26501",
+      "S1_pro_26501",
+      "S1_pro_26501"
+    ],
+    [
+      "Veidoo",
+      "Veidoo_S10_PLUS",
+      "Veidoo_S10_PLUS",
+      "Veidoo_S10_PLUS"
+    ],
+    [
+      "Veidoo",
+      "Veidoo_S20_Pro",
+      "Veidoo_S20_Pro",
+      "Veidoo_S20_Pro"
+    ],
+    [
+      "Zynex",
+      "KB1006",
+      "KB1006",
+      "KB1006"
+    ],
+    [
+      "raemond",
+      "M70_B_ROW",
+      "M70_B_ROW",
+      "M70"
+    ],
+    [
+      "raemond",
+      "M70_ROW_A",
+      "M70_ROW_A",
+      "M70"
+    ],
+    [
+      "vivo",
+      "X300 Ultra",
+      "V2562",
+      "V2562"
+    ],
+    [
+      "vivo",
+      "Y6t",
+      "PD2559",
+      "V2559A"
     ]
   ]
 }
