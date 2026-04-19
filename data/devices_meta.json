@@ -1,84 +1,12 @@
 {
-  "lastUpdated": "2026-04-18",
-  "newDevicesCount": 13,
+  "lastUpdated": "2026-04-19",
+  "newDevicesCount": 1,
   "newDevices": [
     [
-      "Alldocube",
-      "iPlay80miniTurbo",
-      "T860",
-      "iPlay80miniTurbo"
-    ],
-    [
-      "COLORROOM",
-      "K07-pro",
-      "K07-pro_EEA",
-      "TC70W"
-    ],
-    [
-      "Ceibal",
-      "Minchir",
-      "Minchir",
-      "bnd"
-    ],
-    [
-      "Clover",
-      "gama_alta_6_128G",
-      "gama_alta_6_128G",
-      "gama_alta_6_128G"
-    ],
-    [
-      "CrownHeights",
-      "8inchDigitalTablet",
-      "CROWNTAB8",
-      "CROWNTAB8"
-    ],
-    [
-      "Honor",
-      "HONOR 600 Pro",
-      "HNVKPX",
-      "VKP-NX9"
-    ],
-    [
-      "Honor",
-      "HONOR 600",
-      "HNVKJX",
-      "VKJ-NX9"
-    ],
-    [
-      "Motorola",
-      "motorola razr fold 2026",
-      "blanc",
-      "motorola razr fold 2026"
-    ],
-    [
-      "Oppo",
-      "Find X9 Ultra",
-      "OP627CL1",
-      "CPH2841"
-    ],
-    [
-      "Oppo",
-      "Find X9s",
-      "OP6275L1",
-      "CPH2873"
-    ],
-    [
-      "PEICHENG",
-      "CP10S_Pro",
-      "CP10S_Pro",
-      "CP10S_Pro"
-    ],
-    [
-      "eNOVA",
-      "TAE10N12",
-      "TAE10N12",
-      "TAE10N12"
-    ],
-    [
-      "vivo",
-      "Y31d",
-      "V2543",
-      "V2636"
+      "MYCOM",
+      "COMEKPad",
+      "COMEKPad",
+      "COMEK Pad"
     ]
   ]
 }
