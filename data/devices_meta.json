@@ -1,12 +1,78 @@
 {
-  "lastUpdated": "2026-04-20",
-  "newDevicesCount": 1,
+  "lastUpdated": "2026-04-21",
+  "newDevicesCount": 12,
   "newDevices": [
     [
-      "MYCOM",
-      "COMEKPad",
-      "COMEKPad",
-      "COMEK Pad"
+      "Acer",
+      "AS10WF_NEO_EEA",
+      "AS10WF_NEO",
+      "AS10WF NEO"
+    ],
+    [
+      "BITTAP",
+      "BITTAP-KST11PRO-M8775",
+      "M8775",
+      "KST-BT-11-PRO"
+    ],
+    [
+      "ECOPAD",
+      "C30plus",
+      "C30plus",
+      "C30plus"
+    ],
+    [
+      "ECOPAD",
+      "C30plus_EEA",
+      "C30plus",
+      "C30plus"
+    ],
+    [
+      "IRA (explore more)",
+      "T1015",
+      "T1015",
+      "T1015"
+    ],
+    [
+      "LOGIC",
+      "L-PAD-PRO-BK",
+      "Logic_L-PAD_PRO",
+      "Logic_L-PAD_PRO"
+    ],
+    [
+      "LZF(shenzhen)",
+      "Z1A",
+      "Z1A",
+      "Z1A"
+    ],
+    [
+      "RebotAi",
+      "K101",
+      "K101",
+      "K101"
+    ],
+    [
+      "Smartfy",
+      "T701S",
+      "T701S",
+      "T701S"
+    ],
+    [
+      "ZTE",
+      "nubia Neo 5 5G",
+      "P830F01",
+      "Z2571N"
+    ],
+    [
+      "iQOO",
+      "iQOO Z9 Lite",
+      "I2306",
+      "I2306"
+    ],
+    [
+      "prowise",
+      "ProwiseTouchscreenTen",
+      "Prowise",
+      "Prowise"
     ]
   ]
 }
