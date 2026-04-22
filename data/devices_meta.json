@@ -1,78 +1,60 @@
 {
-  "lastUpdated": "2026-04-21",
-  "newDevicesCount": 12,
+  "lastUpdated": "2026-04-22",
+  "newDevicesCount": 9,
   "newDevices": [
     [
-      "Acer",
-      "AS10WF_NEO_EEA",
-      "AS10WF_NEO",
-      "AS10WF NEO"
+      "Acepad",
+      "Acepad_HIGH_E202_EEA",
+      "Acepad_HIGH_E202_EEA",
+      "Acepad HIGH"
     ],
     [
-      "BITTAP",
-      "BITTAP-KST11PRO-M8775",
-      "M8775",
-      "KST-BT-11-PRO"
+      "Good_Planning",
+      "TWGP8",
+      "TWGP8",
+      "TWGP8"
     ],
     [
-      "ECOPAD",
-      "C30plus",
-      "C30plus",
-      "C30plus"
+      "M-Horse",
+      "Pad_17ProMax",
+      "Pad_17ProMax",
+      "Pad_17ProMax"
     ],
     [
-      "ECOPAD",
-      "C30plus_EEA",
-      "C30plus",
-      "C30plus"
+      "M-Horse",
+      "Pad_17ProMax_RU",
+      "Pad_17ProMax",
+      "Pad_17ProMax"
     ],
     [
-      "IRA (explore more)",
-      "T1015",
-      "T1015",
-      "T1015"
+      "OLAX",
+      "Magic_Q8_Pro_Plus",
+      "Magic_Q8_Pro_Plus",
+      "Magic Q8 Pro Plus"
     ],
     [
-      "LOGIC",
-      "L-PAD-PRO-BK",
-      "Logic_L-PAD_PRO",
-      "Logic_L-PAD_PRO"
+      "Pritom",
+      "M10_C11",
+      "M10_C11",
+      "M10"
     ],
     [
-      "LZF(shenzhen)",
-      "Z1A",
-      "Z1A",
-      "Z1A"
+      "VILLAON",
+      "F30",
+      "VILLAON-V671N",
+      "VILLAON V671N"
     ],
     [
-      "RebotAi",
-      "K101",
-      "K101",
-      "K101"
+      "faytech",
+      "faytech",
+      "ALL-IN-One_Touch_Screen",
+      "FT75RK3588OB"
     ],
     [
-      "Smartfy",
-      "T701S",
-      "T701S",
-      "T701S"
-    ],
-    [
-      "ZTE",
-      "nubia Neo 5 5G",
-      "P830F01",
-      "Z2571N"
-    ],
-    [
-      "iQOO",
-      "iQOO Z9 Lite",
-      "I2306",
-      "I2306"
-    ],
-    [
-      "prowise",
-      "ProwiseTouchscreenTen",
-      "Prowise",
-      "Prowise"
+      "vivo",
+      "T5 Pro 5G",
+      "V2568",
+      "V2568"
     ]
   ]
 }
