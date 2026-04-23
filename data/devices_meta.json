@@ -1,60 +1,114 @@
 {
-  "lastUpdated": "2026-04-22",
-  "newDevicesCount": 9,
+  "lastUpdated": "2026-04-23",
+  "newDevicesCount": 18,
   "newDevices": [
     [
-      "Acepad",
-      "Acepad_HIGH_E202_EEA",
-      "Acepad_HIGH_E202_EEA",
-      "Acepad HIGH"
+      "Acer",
+      "AS20WF_NEO",
+      "AS20WF_NEO",
+      "AS20WF"
     ],
     [
-      "Good_Planning",
-      "TWGP8",
-      "TWGP8",
-      "TWGP8"
+      "HUIHUANG",
+      "M11",
+      "M11",
+      "M11"
+    ],
+    [
+      "HUIHUANG",
+      "M11_EEA",
+      "M11",
+      "M11"
+    ],
+    [
+      "Haier",
+      "IFPD",
+      "IFPD",
+      "E30ID"
+    ],
+    [
+      "Invens",
+      "ULTRA_S25_EEA",
+      "ULTRA_S25",
+      "ULTRA S25"
+    ],
+    [
+      "JCB_Phone",
+      "Toughphone_E50_EEA",
+      "Toughphone_E50",
+      "Toughphone E50"
+    ],
+    [
+      "JOVI",
+      "JOVI X300 Ultra",
+      "J2510",
+      "J2510"
+    ],
+    [
+      "LT_Mobile",
+      "LT_mobile_C28",
+      "LT_mobile_C28",
+      "LT C28"
     ],
     [
       "M-Horse",
-      "Pad_17ProMax",
-      "Pad_17ProMax",
-      "Pad_17ProMax"
+      "M_HORSE_M26",
+      "M_HORSE_M26",
+      "M26"
     ],
     [
       "M-Horse",
-      "Pad_17ProMax_RU",
-      "Pad_17ProMax",
-      "Pad_17ProMax"
+      "Pad_17",
+      "Pad_17",
+      "Pad_17"
     ],
     [
-      "OLAX",
-      "Magic_Q8_Pro_Plus",
-      "Magic_Q8_Pro_Plus",
-      "Magic Q8 Pro Plus"
+      "Oppo",
+      "OPPO Watch X3",
+      "OWWE261",
+      "OWWE261"
     ],
     [
-      "Pritom",
-      "M10_C11",
-      "M10_C11",
-      "M10"
+      "Redmi",
+      "REDMI K Pad 2",
+      "yili",
+      "26048RP6AC"
+    ],
+    [
+      "SPC",
+      "ZEUS_2_ELITE_EEA",
+      "ZEUS_2_ELITE",
+      "ZEUS 2 ELITE"
+    ],
+    [
+      "TECHLIFE",
+      "TLPADP05",
+      "TLPADP05",
+      "TLPADP05"
     ],
     [
       "VILLAON",
-      "F30",
+      "VILLAON Aeon One 5G",
       "VILLAON-V671N",
       "VILLAON V671N"
     ],
     [
-      "faytech",
-      "faytech",
-      "ALL-IN-One_Touch_Screen",
-      "FT75RK3588OB"
+      "VILLAON",
+      "VILLAON F30",
+      "VILLAON-V671N",
+      "VILLAON V671N"
     ],
     [
-      "vivo",
-      "T5 Pro 5G",
-      "V2568",
-      "V2568"
+      "VILLAON",
+      "VILLAON X50",
+      "VILLAON-V671NP",
+      "VILLAON V671NP"
+    ],
+    [
+      "Vu Televisions",
+      "VU SMART TV",
+      "hengshan",
+      "VU TV FFM"
     ]
   ]
 }
