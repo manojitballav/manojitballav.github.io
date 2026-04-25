@@ -1,48 +1,108 @@
 {
-  "lastUpdated": "2026-04-24",
-  "newDevicesCount": 7,
+  "lastUpdated": "2026-04-25",
+  "newDevicesCount": 17,
   "newDevices": [
     [
-      "EL(elongmobile)",
-      "Pad_S8",
-      "Pad_S8",
-      "CF-TBC103S"
+      "Azeyou",
+      "AT1002",
+      "AT1002",
+      "AT1002J"
     ],
     [
-      "Kruger_Matz",
-      "DRIVE_11_EEA",
-      "DRIVE_11",
-      "DRIVE 11"
+      "Blackshark",
+      "Pad_Air7",
+      "Pad_Air7",
+      "BSM4"
+    ],
+    [
+      "Cipherlab",
+      "RK96",
+      "RK96",
+      "RK96"
+    ],
+    [
+      "Greentel",
+      "A10_Pro",
+      "A10_Pro",
+      "A10_Pro"
+    ],
+    [
+      "HEROFUN",
+      "BH1002H",
+      "BH1002H",
+      "BH1002H"
+    ],
+    [
+      "Honor",
+      "荣耀MagicPad3 Pro 12.3",
+      "HNYLE-Q",
+      "YLE-W09"
+    ],
+    [
+      "Horion",
+      "HORION",
+      "jagalchi",
+      "2K SMART TV"
+    ],
+    [
+      "MIRAI_TOUCH",
+      "MXXCE4X",
+      "InteractiveFlatPanelDisplay",
+      "MXXCE4X"
+    ],
+    [
+      "MLAB",
+      "MLAB9785",
+      "MLAB9785",
+      "MLAB 9785 STUDIO COVER PRO 10"
     ],
     [
       "Motorola",
-      "motorola edge 70 pro",
-      "merc",
-      "motorola edge 2025"
+      "moto g stylus - 2026",
+      "lamy",
+      "moto g stylus - 2025"
     ],
     [
       "Motorola",
-      "motorola edge 70 pro",
-      "merc",
-      "motorola edge 70 pro"
+      "moto g stylus - 2026",
+      "lamy",
+      "moto g stylus - 2026"
     ],
     [
-      "Xiaomi",
-      "Xiaomi Watch 5",
-      "blenny",
-      "Xiaomi Watch 5"
+      "Motorola",
+      "motorola edge 70 fusion +",
+      "marvel",
+      "motorola edge 50 ultra"
     ],
     [
-      "fibwi",
-      "fibwi",
-      "fibwi_B866W12M",
-      "fibwi"
+      "Motorola",
+      "motorola edge 70 fusion +",
+      "marvel",
+      "motorola edge 70 fusion plus"
     ],
     [
-      "iMuz",
-      "IM-B102",
-      "IM-B102",
-      "IM-B102"
+      "Pritom",
+      "K7_A07K",
+      "K7_A07K",
+      "K7"
+    ],
+    [
+      "Redmi",
+      "REDMI Pad 2 SE",
+      "guitar",
+      "2603ARP14C"
+    ],
+    [
+      "Samsung",
+      "Galaxy Buddy5",
+      "a17x",
+      "SM-A176L"
+    ],
+    [
+      "Teclast",
+      "M50T_EEA",
+      "M50T_EEA",
+      "M50T_EEA"
     ]
   ]
 }
