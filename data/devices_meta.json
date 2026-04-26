@@ -1,108 +1,192 @@
 {
-  "lastUpdated": "2026-04-25",
-  "newDevicesCount": 17,
+  "lastUpdated": "2026-04-26",
+  "newDevicesCount": 31,
   "newDevices": [
     [
-      "Azeyou",
-      "AT1002",
-      "AT1002",
-      "AT1002J"
+      "ARTRAN",
+      "IB868H_A",
+      "IB868H_A",
+      "IB868H_A"
     ],
     [
-      "Blackshark",
-      "Pad_Air7",
-      "Pad_Air7",
-      "BSM4"
+      "BNCF",
+      "CinePad_13",
+      "CinePad_13",
+      "CinePad_13"
     ],
     [
-      "Cipherlab",
-      "RK96",
-      "RK96",
-      "RK96"
+      "Blackview",
+      "FORT 200",
+      "FORT_200",
+      "FORT 200"
     ],
     [
-      "Greentel",
-      "A10_Pro",
-      "A10_Pro",
-      "A10_Pro"
+      "Blackview",
+      "LINK Mini Kids",
+      "LINK_Mini_Kids",
+      "LINK Mini Kids"
     ],
     [
-      "HEROFUN",
-      "BH1002H",
-      "BH1002H",
-      "BH1002H"
+      "Blackview",
+      "MEGA 5",
+      "MEGA_5",
+      "MEGA 5"
     ],
     [
-      "Honor",
-      "荣耀MagicPad3 Pro 12.3",
-      "HNYLE-Q",
-      "YLE-W09"
+      "Blackview",
+      "WAVE 10C",
+      "WAVE_10C",
+      "WAVE 10C"
     ],
     [
-      "Horion",
-      "HORION",
-      "jagalchi",
-      "2K SMART TV"
+      "Blackview",
+      "ZENO 2",
+      "ZENO_2",
+      "ZENO 2"
     ],
     [
-      "MIRAI_TOUCH",
-      "MXXCE4X",
-      "InteractiveFlatPanelDisplay",
-      "MXXCE4X"
+      "Digit",
+      "Digit TabOne",
+      "Tablet",
+      "Digit TabOne"
     ],
     [
-      "MLAB",
-      "MLAB9785",
-      "MLAB9785",
-      "MLAB 9785 STUDIO COVER PRO 10"
+      "Doogee",
+      "B10 Pro",
+      "1932S",
+      "B10 Pro"
     ],
     [
-      "Motorola",
-      "moto g stylus - 2026",
-      "lamy",
-      "moto g stylus - 2025"
+      "Doogee",
+      "M30",
+      "1930T",
+      "M30"
     ],
     [
-      "Motorola",
-      "moto g stylus - 2026",
-      "lamy",
-      "moto g stylus - 2026"
+      "Doogee",
+      "Note 58 Pro",
+      "1929H-C",
+      "Note58 Pro"
     ],
     [
-      "Motorola",
-      "motorola edge 70 fusion +",
-      "marvel",
-      "motorola edge 50 ultra"
+      "Doogee",
+      "Note 58",
+      "1929C-C",
+      "Note 58"
     ],
     [
-      "Motorola",
-      "motorola edge 70 fusion +",
-      "marvel",
-      "motorola edge 70 fusion plus"
+      "Doogee",
+      "S300 Pro",
+      "M25TE",
+      "S300 Pro"
     ],
     [
-      "Pritom",
-      "K7_A07K",
-      "K7_A07K",
-      "K7"
+      "Doogee",
+      "V50 Pro",
+      "M25",
+      "V50"
     ],
     [
-      "Redmi",
-      "REDMI Pad 2 SE",
-      "guitar",
-      "2603ARP14C"
+      "Doogee",
+      "VPad Pro",
+      "P8T",
+      "U13 Pro"
     ],
     [
-      "Samsung",
-      "Galaxy Buddy5",
-      "a17x",
-      "SM-A176L"
+      "HUIHUANG",
+      "S90Pro_EEA",
+      "S90Pro",
+      "S90Pro"
     ],
     [
-      "Teclast",
-      "M50T_EEA",
-      "M50T_EEA",
-      "M50T_EEA"
+      "Hiking",
+      "A90",
+      "A90",
+      "A90"
+    ],
+    [
+      "Hotwav",
+      "W11 Pro",
+      "W11_Pro",
+      "W11 Pro"
+    ],
+    [
+      "Jckkcfug",
+      "M70_B",
+      "M70_B",
+      "M70"
+    ],
+    [
+      "LeBest",
+      "i17mini",
+      "i17mini",
+      "i17 mini"
+    ],
+    [
+      "OSCAL",
+      "FLAT 3C",
+      "FLAT_3C",
+      "FLAT 3C"
+    ],
+    [
+      "OSCAL",
+      "KIDO 2",
+      "KIDO_2",
+      "KIDO 2"
+    ],
+    [
+      "Ruio",
+      "RS2632-AU",
+      "RS2632-AU",
+      "RS2632-AU"
+    ],
+    [
+      "Sinum",
+      "TAB-11",
+      "TAB-11",
+      "TAB-11"
+    ],
+    [
+      "TABWEE",
+      "T30_EA",
+      "T30_EA",
+      "T30"
+    ],
+    [
+      "ZCS(SZ)",
+      "Z92-S",
+      "Z92-S",
+      "Z92S"
+    ],
+    [
+      "i.safe MOBILE",
+      "IS941",
+      "IS941",
+      "IS941"
+    ],
+    [
+      "iMuz",
+      "IM-H093",
+      "IM-H093",
+      "IM-H093"
+    ],
+    [
+      "raemond",
+      "M70_A",
+      "M70_A",
+      "K70_PRO"
+    ],
+    [
+      "raemond",
+      "M70_A",
+      "M70_A",
+      "M70"
+    ],
+    [
+      "viwoods",
+      "T18A",
+      "T18A",
+      "T18A"
     ]
   ]
 }
