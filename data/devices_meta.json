@@ -1,192 +1,114 @@
 {
-  "lastUpdated": "2026-04-27",
-  "newDevicesCount": 31,
+  "lastUpdated": "2026-04-28",
+  "newDevicesCount": 18,
   "newDevices": [
     [
-      "ARTRAN",
-      "IB868H_A",
-      "IB868H_A",
-      "IB868H_A"
+      "ADOC",
+      "Adoc_T20",
+      "Adoc_T20",
+      "Adoc_T20"
     ],
     [
-      "BNCF",
-      "CinePad_13",
-      "CinePad_13",
-      "CinePad_13"
+      "G-Tab",
+      "MEGA13",
+      "MEGA13",
+      "MEGA13"
     ],
     [
-      "Blackview",
-      "FORT 200",
-      "FORT_200",
-      "FORT 200"
+      "GeoPhone",
+      "geo_s9",
+      "geo_S9",
+      "Geo S9"
     ],
     [
-      "Blackview",
-      "LINK Mini Kids",
-      "LINK_Mini_Kids",
-      "LINK Mini Kids"
+      "OnePlus",
+      "OnePlus Ace 6 至尊版",
+      "OP64D7L1",
+      "PMB110"
     ],
     [
-      "Blackview",
-      "MEGA 5",
-      "MEGA_5",
-      "MEGA 5"
+      "PEICHENG",
+      "YQ10SC_MAX",
+      "YQ10SC_MAX",
+      "YQ10SC_MAX"
     ],
     [
-      "Blackview",
-      "WAVE 10C",
-      "WAVE_10C",
-      "WAVE 10C"
+      "POCO",
+      "POCO C81x",
+      "serenity",
+      "26020PCB4I"
     ],
     [
-      "Blackview",
-      "ZENO 2",
-      "ZENO_2",
-      "ZENO 2"
+      "Pritom",
+      "P10MAX",
+      "P10MAX",
+      "P10MAX"
     ],
     [
-      "Digit",
-      "Digit TabOne",
-      "Tablet",
-      "Digit TabOne"
+      "Redmi",
+      "REDMI A7 Pro",
+      "arctic",
+      "25128RN17I"
     ],
     [
-      "Doogee",
-      "B10 Pro",
-      "1932S",
-      "B10 Pro"
+      "Redmi",
+      "REDMI A7",
+      "serenity",
+      "26020RNB4I"
     ],
     [
-      "Doogee",
-      "M30",
-      "1930T",
-      "M30"
+      "Redmi",
+      "REDMI Note 15R Pro",
+      "beryl",
+      "24094RAD4C"
     ],
     [
-      "Doogee",
-      "Note 58 Pro",
-      "1929H-C",
-      "Note58 Pro"
+      "Sinoeview",
+      "TA_IFPD",
+      "TA-L",
+      "TA-L"
     ],
     [
-      "Doogee",
-      "Note 58",
-      "1929C-C",
-      "Note 58"
+      "Smartfy",
+      "T702S",
+      "T702S",
+      "T702S"
     ],
     [
-      "Doogee",
-      "S300 Pro",
-      "M25TE",
-      "S300 Pro"
+      "TOXIIK",
+      "A30",
+      "A30",
+      "TOXIIK_A30"
     ],
     [
-      "Doogee",
-      "V50 Pro",
-      "M25",
-      "V50"
+      "TOXIIK",
+      "A40",
+      "A40",
+      "A40"
     ],
     [
-      "Doogee",
-      "VPad Pro",
-      "P8T",
-      "U13 Pro"
+      "Zuum",
+      "Sens_G_Ultra",
+      "Sens_G_Ultra",
+      "Sens G Ultra"
     ],
     [
-      "HUIHUANG",
-      "S90Pro_EEA",
-      "S90Pro",
-      "S90Pro"
+      "vivo",
+      "Y6",
+      "PD2531",
+      "V2531A"
     ],
     [
-      "Hiking",
-      "A90",
-      "A90",
-      "A90"
+      "vivo",
+      "Y600 Pro AI版",
+      "PD2561",
+      "V2561A"
     ],
     [
-      "Hotwav",
-      "W11 Pro",
-      "W11_Pro",
-      "W11 Pro"
-    ],
-    [
-      "Jckkcfug",
-      "M70_B",
-      "M70_B",
-      "M70"
-    ],
-    [
-      "LeBest",
-      "i17mini",
-      "i17mini",
-      "i17 mini"
-    ],
-    [
-      "OSCAL",
-      "FLAT 3C",
-      "FLAT_3C",
-      "FLAT 3C"
-    ],
-    [
-      "OSCAL",
-      "KIDO 2",
-      "KIDO_2",
-      "KIDO 2"
-    ],
-    [
-      "Ruio",
-      "RS2632-AU",
-      "RS2632-AU",
-      "RS2632-AU"
-    ],
-    [
-      "Sinum",
-      "TAB-11",
-      "TAB-11",
-      "TAB-11"
-    ],
-    [
-      "TABWEE",
-      "T30_EA",
-      "T30_EA",
-      "T30"
-    ],
-    [
-      "ZCS(SZ)",
-      "Z92-S",
-      "Z92-S",
-      "Z92S"
-    ],
-    [
-      "i.safe MOBILE",
-      "IS941",
-      "IS941",
-      "IS941"
-    ],
-    [
-      "iMuz",
-      "IM-H093",
-      "IM-H093",
-      "IM-H093"
-    ],
-    [
-      "raemond",
-      "M70_A",
-      "M70_A",
-      "K70_PRO"
-    ],
-    [
-      "raemond",
-      "M70_A",
-      "M70_A",
-      "M70"
-    ],
-    [
-      "viwoods",
-      "T18A",
-      "T18A",
-      "T18A"
+      "vivo",
+      "Y600 Pro",
+      "PD2561",
+      "V2561A"
     ]
   ]
 }
