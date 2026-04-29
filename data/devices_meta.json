@@ -1,114 +1,36 @@
 {
-  "lastUpdated": "2026-04-28",
-  "newDevicesCount": 18,
+  "lastUpdated": "2026-04-29",
+  "newDevicesCount": 5,
   "newDevices": [
     [
-      "ADOC",
-      "Adoc_T20",
-      "Adoc_T20",
-      "Adoc_T20"
+      "Acer",
+      "AS10L_A16",
+      "AS10L_A16",
+      "AS10L"
     ],
     [
-      "G-Tab",
-      "MEGA13",
-      "MEGA13",
-      "MEGA13"
+      "Ceibal",
+      "Minchir",
+      "Minchir",
+      "Minchir"
     ],
     [
-      "GeoPhone",
-      "geo_s9",
-      "geo_S9",
-      "Geo S9"
+      "SPC",
+      "GRAVITY_7_PRO_11_EEA",
+      "GRAVITY_7_PRO_11",
+      "GRAVITY_PRO"
     ],
     [
-      "OnePlus",
-      "OnePlus Ace 6 至尊版",
-      "OP64D7L1",
-      "PMB110"
+      "Techview",
+      "S15Pro",
+      "S15Pro",
+      "S15Pro"
     ],
     [
-      "PEICHENG",
-      "YQ10SC_MAX",
-      "YQ10SC_MAX",
-      "YQ10SC_MAX"
-    ],
-    [
-      "POCO",
-      "POCO C81x",
-      "serenity",
-      "26020PCB4I"
-    ],
-    [
-      "Pritom",
-      "P10MAX",
-      "P10MAX",
-      "P10MAX"
-    ],
-    [
-      "Redmi",
-      "REDMI A7 Pro",
-      "arctic",
-      "25128RN17I"
-    ],
-    [
-      "Redmi",
-      "REDMI A7",
-      "serenity",
-      "26020RNB4I"
-    ],
-    [
-      "Redmi",
-      "REDMI Note 15R Pro",
-      "beryl",
-      "24094RAD4C"
-    ],
-    [
-      "Sinoeview",
-      "TA_IFPD",
-      "TA-L",
-      "TA-L"
-    ],
-    [
-      "Smartfy",
-      "T702S",
-      "T702S",
-      "T702S"
-    ],
-    [
-      "TOXIIK",
-      "A30",
-      "A30",
-      "TOXIIK_A30"
-    ],
-    [
-      "TOXIIK",
-      "A40",
-      "A40",
-      "A40"
-    ],
-    [
-      "Zuum",
-      "Sens_G_Ultra",
-      "Sens_G_Ultra",
-      "Sens G Ultra"
-    ],
-    [
-      "vivo",
-      "Y6",
-      "PD2531",
-      "V2531A"
-    ],
-    [
-      "vivo",
-      "Y600 Pro AI版",
-      "PD2561",
-      "V2561A"
-    ],
-    [
-      "vivo",
-      "Y600 Pro",
-      "PD2561",
-      "V2561A"
+      "hoco",
+      "hoco_A15",
+      "hoco_A15",
+      "hoco_A15"
     ]
   ]
 }
