@@ -1,36 +1,18 @@
 {
-  "lastUpdated": "2026-04-29",
-  "newDevicesCount": 5,
+  "lastUpdated": "2026-04-30",
+  "newDevicesCount": 2,
   "newDevices": [
     [
-      "Acer",
-      "AS10L_A16",
-      "AS10L_A16",
-      "AS10L"
+      "POCO",
+      "POCO C81",
+      "arctic",
+      "25128PC17I"
     ],
     [
-      "Ceibal",
-      "Minchir",
-      "Minchir",
-      "Minchir"
-    ],
-    [
-      "SPC",
-      "GRAVITY_7_PRO_11_EEA",
-      "GRAVITY_7_PRO_11",
-      "GRAVITY_PRO"
-    ],
-    [
-      "Techview",
-      "S15Pro",
-      "S15Pro",
-      "S15Pro"
-    ],
-    [
-      "hoco",
-      "hoco_A15",
-      "hoco_A15",
-      "hoco_A15"
+      "Tecno",
+      "TECNO POVA 8 5G",
+      "TECNO-LK6",
+      "TECNO LK6"
     ]
   ]
 }
