@@ -1,18 +1,96 @@
 {
-  "lastUpdated": "2026-04-30",
-  "newDevicesCount": 2,
+  "lastUpdated": "2026-05-01",
+  "newDevicesCount": 15,
   "newDevices": [
     [
-      "POCO",
-      "POCO C81",
-      "arctic",
-      "25128PC17I"
+      "Azeyou",
+      "M17T11_US",
+      "M17T11",
+      "M17T11"
     ],
     [
-      "Tecno",
-      "TECNO POVA 8 5G",
-      "TECNO-LK6",
-      "TECNO LK6"
+      "ECOPAD",
+      "C30plus_US",
+      "C30plus",
+      "C30plus"
+    ],
+    [
+      "HUIHUANG",
+      "M11_US",
+      "M11",
+      "M11"
+    ],
+    [
+      "JOVI",
+      "JOVI T1 5G",
+      "J2502",
+      "J2502"
+    ],
+    [
+      "LZF(shenzhen)",
+      "Z1A_US",
+      "Z1A",
+      "Z1A"
+    ],
+    [
+      "PEICHENG",
+      "ZB10A",
+      "ZB10A",
+      "ZB10A"
+    ],
+    [
+      "Quantum",
+      "Elise_T65V",
+      "Elise_T65V",
+      "Elise T90A"
+    ],
+    [
+      "RebotAi",
+      "D101",
+      "D101",
+      "D101_PRO"
+    ],
+    [
+      "SVITOO",
+      "P12_A",
+      "P12_A",
+      "P12_A"
+    ],
+    [
+      "SVITOO",
+      "P12_A_EEA",
+      "P12_A",
+      "P12_A"
+    ],
+    [
+      "SVITOO",
+      "P12_A_US",
+      "P12_A",
+      "P12_A"
+    ],
+    [
+      "TrumpMobile",
+      "T1",
+      "T1",
+      "SGG-06"
+    ],
+    [
+      "Unifone",
+      "Q6511Y",
+      "Q6511Y",
+      "Q6511Y"
+    ],
+    [
+      "vivo",
+      "T5 Pro",
+      "V2529",
+      "V2602"
+    ],
+    [
+      "vivo",
+      "V70 Lite 5G",
+      "V2529",
+      "V2615"
     ]
   ]
 }
