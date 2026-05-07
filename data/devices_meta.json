@@ -1,12 +1,126 @@
 {
-  "lastUpdated": "2026-05-05",
-  "newDevicesCount": 1,
+  "lastUpdated": "2026-05-07",
+  "newDevicesCount": 20,
   "newDevices": [
     [
-      "Prosonic",
-      "SGC4K",
-      "BDO",
-      "SGC4K"
+      "Apolosign",
+      "PackgoAP2718T",
+      "AP2718TS2",
+      "AP2718T"
+    ],
+    [
+      "CEPTER",
+      "CTABNEXT10S",
+      "CTABNEXT10S",
+      "CTABNEXT10S"
+    ],
+    [
+      "Homatics",
+      "G Series",
+      "HPH",
+      "G Series"
+    ],
+    [
+      "INStaD",
+      "YP-10",
+      "YP-10",
+      "YP-10"
+    ],
+    [
+      "Lenovo",
+      "Lenovo ThinkTab X11 Gen 1 / Lenovo ThinkTab X11 (EG)",
+      "TB353FU",
+      "TB353FU"
+    ],
+    [
+      "Lenovo",
+      "Lenovo ThinkTab X11 Gen 1 / Lenovo ThinkTab X11 (EG)",
+      "TB353ZA",
+      "TB353ZA"
+    ],
+    [
+      "Lenovo",
+      "Lenovo ThinkTab X11 Gen 1 / Lenovo ThinkTab X11 (EG)",
+      "TB353ZU",
+      "TB353ZU"
+    ],
+    [
+      "OnePlus",
+      "OnePlus Nord CE6 Lite",
+      "OP68D9L1",
+      "CPH2943"
+    ],
+    [
+      "OnePlus",
+      "OnePlus Nord CE6",
+      "OP6505L1",
+      "CPH2807"
+    ],
+    [
+      "PEICHENG",
+      "CP10SPro",
+      "CP10SPro",
+      "CP10SPro"
+    ],
+    [
+      "POCO",
+      "POCO C81 Pro",
+      "arctic",
+      "25128PC17G"
+    ],
+    [
+      "Pretech",
+      "L1008",
+      "L1008",
+      "L1008"
+    ],
+    [
+      "Rhino",
+      "sentinel",
+      "sentinel",
+      "T85"
+    ],
+    [
+      "SVITOO",
+      "V13_B_US",
+      "V13_B",
+      "V13_B"
+    ],
+    [
+      "TABWEE",
+      "T12_Pro_RU",
+      "T12_Pro",
+      "T12 Pro"
+    ],
+    [
+      "TABWEE",
+      "T30_US",
+      "T30_US",
+      "T30"
+    ],
+    [
+      "Volvo",
+      "Volvo",
+      "ihu42",
+      "Volvo"
+    ],
+    [
+      "realme",
+      "RMX5366",
+      "RE6488",
+      "RMX5366"
+    ],
+    [
+      "realme",
+      "realme C100x",
+      "RE6488",
+      "RMX5366"
+    ],
+    [
+      "vivo",
+      "V70 Lite 5G",
+      "V2529",
+      "V2637"
     ]
   ]
 }
