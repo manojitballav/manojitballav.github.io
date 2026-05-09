@@ -1,48 +1,180 @@
 {
-  "lastUpdated": "2026-05-08",
-  "newDevicesCount": 7,
+  "lastUpdated": "2026-05-09",
+  "newDevicesCount": 29,
   "newDevices": [
     [
-      "Azeyou",
-      "F27E",
-      "F27E",
-      "F27E"
+      "CEPTER",
+      "CTABLOTUS11KB",
+      "CTABLOTUS11KB",
+      "CTABLOTUS11KB"
     ],
     [
-      "HOLO",
-      "XULTRA2",
-      "XULTRA2",
-      "A510 4G"
+      "Homatics",
+      "Box R Lite 4K",
+      "YYZ",
+      "Box R Lite 4K"
     ],
     [
-      "PAX (CN)",
-      "M11",
-      "M11",
-      "M11"
+      "Honor",
+      "HONOR X5d",
+      "HNNLA-M",
+      "NAA-LX3"
     ],
     [
-      "Relndoo",
-      "P60_U",
-      "P60_U",
-      "P60_U"
+      "Honor",
+      "HONOR X7e",
+      "HNLAB-M",
+      "LAB-LX2"
+    ],
+    [
+      "Motorola",
+      "moto g - 2026",
+      "utah",
+      "moto g - 2025"
+    ],
+    [
+      "Motorola",
+      "moto g - 2026",
+      "utah",
+      "moto g - 2026"
+    ],
+    [
+      "Motorola",
+      "moto g max",
+      "naples",
+      "moto g max"
+    ],
+    [
+      "Motorola",
+      "moto g max",
+      "naples",
+      "moto g67"
+    ],
+    [
+      "Motorola",
+      "moto g play - 2026",
+      "nevada",
+      "moto g - 2025"
+    ],
+    [
+      "Motorola",
+      "moto g play - 2026",
+      "nevada",
+      "moto g play - 2026"
+    ],
+    [
+      "Motorola",
+      "moto g87",
+      "naples",
+      "moto g max"
+    ],
+    [
+      "Motorola",
+      "moto g87",
+      "naples",
+      "moto g67"
+    ],
+    [
+      "Motorola",
+      "moto g87",
+      "naples",
+      "moto g87"
+    ],
+    [
+      "Motorola",
+      "motorola razr 70 plus",
+      "eiger",
+      "motorola razr 50 ultra"
+    ],
+    [
+      "Motorola",
+      "motorola razr 70 plus",
+      "eiger",
+      "motorola razr 70 plus"
+    ],
+    [
+      "OnePlus",
+      "OnePlus Pad 4",
+      "OP657AL1",
+      "OPD2514"
+    ],
+    [
+      "PEICHENG",
+      "CP20SA",
+      "CP20SA",
+      "CP20"
+    ],
+    [
+      "Philips",
+      "S8308",
+      "S8308",
+      "S8308"
+    ],
+    [
+      "Ruio",
+      "S5521Q",
+      "S5521",
+      "Orange Kova one"
+    ],
+    [
+      "Ruio",
+      "S5521Q",
+      "S5521",
+      "S5521"
+    ],
+    [
+      "SWTV",
+      "SWTV-26AE-4K",
+      "sapporo",
+      "SWTV-26AE-4K"
+    ],
+    [
+      "Sharp",
+      "SHARP PH 2K Smart TV",
+      "umeda",
+      "SHARP 2K Smart TV"
+    ],
+    [
+      "TCL",
+      "AT&T amiGO™ Jr. Tab 2",
+      "Selene_ATT",
+      "8189K"
+    ],
+    [
+      "TCL",
+      "TCL TAB 8 NXTPAPER 5G",
+      "Selene_ATT",
+      "8189R"
+    ],
+    [
+      "Teclast",
+      "P30T_BN_EEA",
+      "P30T_BN_EEA",
+      "P30T"
+    ],
+    [
+      "Topwise",
+      "SK-315",
+      "SK-315",
+      "SK-315"
+    ],
+    [
+      "TrumpMobile",
+      "T1",
+      "T1",
+      "SGG-06"
     ],
     [
       "vivo",
-      "X300 FE",
-      "V2537",
-      "V2537"
+      "T5",
+      "V2543",
+      "V2583"
     ],
     [
       "vivo",
-      "X300 FE",
-      "V2537",
-      "V2542"
-    ],
-    [
-      "vivo",
-      "X300 FE",
-      "V2537",
-      "V2633"
+      "Y31d Pro",
+      "V2543U",
+      "V2543"
     ]
   ]
 }
