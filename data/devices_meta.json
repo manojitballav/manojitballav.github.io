@@ -1,42 +1,60 @@
 {
-  "lastUpdated": "2026-05-11",
-  "newDevicesCount": 6,
+  "lastUpdated": "2026-05-12",
+  "newDevicesCount": 9,
   "newDevices": [
     [
-      "Blu",
-      "X6",
-      "X0060",
-      "C8"
+      "Bubblegum",
+      "Junior_7_LTE",
+      "Junior_7_LTE",
+      "Junior_7_LTE"
     ],
     [
-      "CEPTER",
-      "vileparle",
-      "vileparle",
-      "R6G"
+      "Entity",
+      "ENTITY_ERA_TAB_8",
+      "ENTITY_ERA_TAB_8",
+      "ENTITY_ERA_TAB_8"
     ],
     [
-      "Motorola",
-      "moto g37",
-      "sydnyl",
-      "moto g - 2025"
+      "Itel",
+      "itel A06",
+      "itel-A669W",
+      "itel A669W"
     ],
     [
-      "Motorola",
-      "moto g37",
-      "sydnyl",
-      "moto g37"
+      "Itel",
+      "itel CITY 200s",
+      "itel-C681LN",
+      "itel C681LN"
     ],
     [
-      "Motorola",
-      "motorola razr 70 ultra",
-      "lhotse",
-      "motorola razr 60 ultra"
+      "Itel",
+      "itel-A669L",
+      "itel-A669L",
+      "itel A669L"
     ],
     [
-      "Motorola",
-      "motorola razr 70 ultra",
-      "lhotse",
-      "motorola razr 70 ultra"
+      "JoyStar",
+      "JoyStar_J10",
+      "JoyStar_J10",
+      "A310 4G"
+    ],
+    [
+      "M-Horse",
+      "Pad_17Pro",
+      "Pad_17Pro",
+      "Pad_17Pro"
+    ],
+    [
+      "PEEPandLEARN",
+      "PLPro",
+      "PLPro",
+      "PLPro"
+    ],
+    [
+      "SEGO",
+      "SEGO_Smart_20_HD",
+      "SEGO_Smart_20_HD",
+      "Smart_20_HD"
     ]
   ]
 }
