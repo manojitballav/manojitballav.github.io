@@ -1,60 +1,78 @@
 {
-  "lastUpdated": "2026-05-12",
-  "newDevicesCount": 9,
+  "lastUpdated": "2026-05-13",
+  "newDevicesCount": 12,
   "newDevices": [
     [
-      "Bubblegum",
-      "Junior_7_LTE",
-      "Junior_7_LTE",
-      "Junior_7_LTE"
+      "Acer",
+      "Acer One 8 T4-82L-G2",
+      "AcerOne8T4-82L-G2",
+      "Acer One 8 T4-82L-G2"
     ],
     [
-      "Entity",
-      "ENTITY_ERA_TAB_8",
-      "ENTITY_ERA_TAB_8",
-      "ENTITY_ERA_TAB_8"
+      "CEPTER",
+      "CTABNEXUS6128",
+      "CTABNEXUS6128",
+      "CTABNEXUS6128"
     ],
     [
-      "Itel",
-      "itel A06",
-      "itel-A669W",
-      "itel A669W"
+      "DEPLAY",
+      "SMART5PLUS_B",
+      "SMART5PLUS_B",
+      "DEPLAY_SMART5PLUS"
     ],
     [
-      "Itel",
-      "itel CITY 200s",
-      "itel-C681LN",
-      "itel C681LN"
+      "OnePlus",
+      "一加平板 3 Pro",
+      "OP6547L1",
+      "OPD2513"
     ],
     [
-      "Itel",
-      "itel-A669L",
-      "itel-A669L",
-      "itel A669L"
+      "Samsung",
+      "Galaxy Wide9",
+      "a17x",
+      "SM-M176S"
     ],
     [
-      "JoyStar",
-      "JoyStar_J10",
-      "JoyStar_J10",
-      "A310 4G"
+      "TIM",
+      "TIMVISION Box",
+      "uzy4087tim",
+      "TIMVISION Crystal"
     ],
     [
-      "M-Horse",
-      "Pad_17Pro",
-      "Pad_17Pro",
-      "Pad_17Pro"
+      "Zebra",
+      "TC501",
+      "TCX01W",
+      "TC501"
     ],
     [
-      "PEEPandLEARN",
-      "PLPro",
-      "PLPro",
-      "PLPro"
+      "Zebra",
+      "TC501",
+      "TCX01WD",
+      "TC501"
     ],
     [
-      "SEGO",
-      "SEGO_Smart_20_HD",
-      "SEGO_Smart_20_HD",
-      "Smart_20_HD"
+      "Zebra",
+      "TC501",
+      "TCX01WU",
+      "TC501"
+    ],
+    [
+      "Zebra",
+      "TC701",
+      "TCX01W",
+      "TC701"
+    ],
+    [
+      "Zebra",
+      "TC701",
+      "TCX01WD",
+      "TC701"
+    ],
+    [
+      "Zebra",
+      "TC701",
+      "TCX01WU",
+      "TC701"
     ]
   ]
 }
