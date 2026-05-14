@@ -1,78 +1,48 @@
 {
-  "lastUpdated": "2026-05-13",
-  "newDevicesCount": 12,
+  "lastUpdated": "2026-05-14",
+  "newDevicesCount": 7,
   "newDevices": [
     [
-      "Acer",
-      "Acer One 8 T4-82L-G2",
-      "AcerOne8T4-82L-G2",
-      "Acer One 8 T4-82L-G2"
+      "M-Horse",
+      "Pad_17Pro_RU",
+      "Pad_17Pro",
+      "Pad_17Pro"
     ],
     [
-      "CEPTER",
-      "CTABNEXUS6128",
-      "CTABNEXUS6128",
-      "CTABNEXUS6128"
+      "Oppo",
+      "F33 5G",
+      "OP5E1BL1",
+      "CPH2777"
     ],
     [
-      "DEPLAY",
-      "SMART5PLUS_B",
-      "SMART5PLUS_B",
-      "DEPLAY_SMART5PLUS"
+      "Realix",
+      "RxIS203",
+      "RxIS203",
+      "RxIS203"
     ],
     [
-      "OnePlus",
-      "一加平板 3 Pro",
-      "OP6547L1",
-      "OPD2513"
+      "Redmi",
+      "REDMI Pad 2 9.7 4G",
+      "erhu",
+      "2604ERP4DG"
     ],
     [
-      "Samsung",
-      "Galaxy Wide9",
-      "a17x",
-      "SM-M176S"
+      "Redmi",
+      "REDMI Pad 2 9.7",
+      "guitar",
+      "2603ARP14G"
     ],
     [
-      "TIM",
-      "TIMVISION Box",
-      "uzy4087tim",
-      "TIMVISION Crystal"
+      "Redmi",
+      "REDMI Pad 2 SE 4G",
+      "erhu",
+      "2604ERP4DC"
     ],
     [
-      "Zebra",
-      "TC501",
-      "TCX01W",
-      "TC501"
-    ],
-    [
-      "Zebra",
-      "TC501",
-      "TCX01WD",
-      "TC501"
-    ],
-    [
-      "Zebra",
-      "TC501",
-      "TCX01WU",
-      "TC501"
-    ],
-    [
-      "Zebra",
-      "TC701",
-      "TCX01W",
-      "TC701"
-    ],
-    [
-      "Zebra",
-      "TC701",
-      "TCX01WD",
-      "TC701"
-    ],
-    [
-      "Zebra",
-      "TC701",
-      "TCX01WU",
-      "TC701"
+      "TABWEE",
+      "T90_US",
+      "T90",
+      "T90"
     ]
   ]
 }
