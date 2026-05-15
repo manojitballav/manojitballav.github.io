@@ -1,48 +1,66 @@
 {
-  "lastUpdated": "2026-05-14",
-  "newDevicesCount": 7,
+  "lastUpdated": "2026-05-15",
+  "newDevicesCount": 10,
   "newDevices": [
     [
-      "M-Horse",
-      "Pad_17Pro_RU",
-      "Pad_17Pro",
-      "Pad_17Pro"
+      "EVO FUSE 4K",
+      "EVOFUSE4K-AS",
+      "SEI700TV",
+      "FUSE4K-Armstrong"
     ],
     [
-      "Oppo",
-      "F33 5G",
-      "OP5E1BL1",
-      "CPH2777"
+      "Get",
+      "72839",
+      "72839",
+      "66896"
     ],
     [
-      "Realix",
-      "RxIS203",
-      "RxIS203",
-      "RxIS203"
+      "Rebecco",
+      "X30",
+      "X30",
+      "A20Pro_ROW"
     ],
     [
-      "Redmi",
-      "REDMI Pad 2 9.7 4G",
-      "erhu",
-      "2604ERP4DG"
+      "Sony",
+      "Xperia 1 VIII",
+      "XQ-GE",
+      "A601SO"
     ],
     [
-      "Redmi",
-      "REDMI Pad 2 9.7",
-      "guitar",
-      "2603ARP14G"
+      "Sony",
+      "Xperia 1 VIII",
+      "XQ-GE",
+      "SO-51G"
     ],
     [
-      "Redmi",
-      "REDMI Pad 2 SE 4G",
-      "erhu",
-      "2604ERP4DC"
+      "Sony",
+      "Xperia 1 VIII",
+      "XQ-GE",
+      "SOG17"
     ],
     [
-      "TABWEE",
-      "T90_US",
-      "T90",
-      "T90"
+      "Sony",
+      "Xperia 1 VIII",
+      "XQ-GE",
+      "XQ-GE44"
+    ],
+    [
+      "Sony",
+      "Xperia 1 VIII",
+      "XQ-GE",
+      "XQ-GE54"
+    ],
+    [
+      "Sony",
+      "Xperia 1 VIII",
+      "XQ-GE",
+      "XQ-GE74"
+    ],
+    [
+      "iQOO",
+      "iQOO Z11 5G",
+      "I2512",
+      "I2512"
     ]
   ]
 }
