@@ -1,66 +1,48 @@
 {
-  "lastUpdated": "2026-05-15",
-  "newDevicesCount": 10,
+  "lastUpdated": "2026-05-16",
+  "newDevicesCount": 7,
   "newDevices": [
     [
-      "EVO FUSE 4K",
-      "EVOFUSE4K-AS",
-      "SEI700TV",
-      "FUSE4K-Armstrong"
+      "Ciontek",
+      "CS50S",
+      "CS50S",
+      "CS50S"
     ],
     [
-      "Get",
-      "72839",
-      "72839",
-      "66896"
+      "Motorola",
+      "motorola razr 70",
+      "volcano",
+      "motorola razr 50"
     ],
     [
-      "Rebecco",
-      "X30",
-      "X30",
-      "A20Pro_ROW"
+      "Motorola",
+      "motorola razr 70",
+      "volcano",
+      "motorola razr 70"
     ],
     [
-      "Sony",
-      "Xperia 1 VIII",
-      "XQ-GE",
-      "A601SO"
+      "ONPAD",
+      "Luxon",
+      "Luxon",
+      "Luxon"
     ],
     [
-      "Sony",
-      "Xperia 1 VIII",
-      "XQ-GE",
-      "SO-51G"
+      "Plimpton",
+      "Kids10_A15_US",
+      "Kids10_A15",
+      "Kids10_A15_US"
     ],
     [
-      "Sony",
-      "Xperia 1 VIII",
-      "XQ-GE",
-      "SOG17"
+      "RebotAi",
+      "AF12_EEA",
+      "AF12",
+      "AF12_EEA"
     ],
     [
-      "Sony",
-      "Xperia 1 VIII",
-      "XQ-GE",
-      "XQ-GE44"
-    ],
-    [
-      "Sony",
-      "Xperia 1 VIII",
-      "XQ-GE",
-      "XQ-GE54"
-    ],
-    [
-      "Sony",
-      "Xperia 1 VIII",
-      "XQ-GE",
-      "XQ-GE74"
-    ],
-    [
-      "iQOO",
-      "iQOO Z11 5G",
-      "I2512",
-      "I2512"
+      "TCL",
+      "TCL K70 5G",
+      "Monet",
+      "T523H"
     ]
   ]
 }
