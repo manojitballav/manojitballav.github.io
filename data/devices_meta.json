@@ -1,48 +1,66 @@
 {
-  "lastUpdated": "2026-05-18",
-  "newDevicesCount": 7,
+  "lastUpdated": "2026-05-19",
+  "newDevicesCount": 10,
   "newDevices": [
     [
-      "Ciontek",
-      "CS50S",
-      "CS50S",
-      "CS50S"
+      "ECOPAD",
+      "C5Pro_US",
+      "C5Pro",
+      "C5Pro"
     ],
     [
-      "Motorola",
-      "motorola razr 70",
-      "volcano",
-      "motorola razr 50"
+      "Fairphone",
+      "The Fairphone (Gen. 6+)",
+      "FP6",
+      "Fairphone 6"
     ],
     [
-      "Motorola",
-      "motorola razr 70",
-      "volcano",
-      "motorola razr 70"
+      "Franko",
+      "Franko A03",
+      "Franko_A03",
+      "H6573"
     ],
     [
-      "ONPAD",
-      "Luxon",
-      "Luxon",
-      "Luxon"
+      "HUIHUANG",
+      "C90_US",
+      "C90",
+      "C90"
     ],
     [
-      "Plimpton",
-      "Kids10_A15_US",
-      "Kids10_A15",
-      "Kids10_A15_US"
+      "Optoma",
+      "5XX3RK",
+      "rk3588_t",
+      "UXXSRK"
     ],
     [
-      "RebotAi",
-      "AF12_EEA",
-      "AF12",
-      "AF12_EEA"
+      "PAX (CN)",
+      "M11_US",
+      "M11",
+      "M11"
     ],
     [
-      "TCL",
-      "TCL K70 5G",
-      "Monet",
-      "T523H"
+      "Sharp",
+      "4T-**S7A/X7A",
+      "tcmar3uj",
+      "AQUOS-4KTVJ26-2"
+    ],
+    [
+      "Sharp",
+      "4T-**S9A/X9A",
+      "tcmar3uj",
+      "AQUOS-4KTVJ26-1"
+    ],
+    [
+      "Sun_King",
+      "EZ 3 Pro",
+      "EZ_3_Pro",
+      "EZ 3 Pro"
+    ],
+    [
+      "vivo",
+      "V70",
+      "V2538",
+      "V2588"
     ]
   ]
 }
