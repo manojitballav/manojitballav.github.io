@@ -1,66 +1,108 @@
 {
-  "lastUpdated": "2026-05-19",
-  "newDevicesCount": 10,
+  "lastUpdated": "2026-05-20",
+  "newDevicesCount": 17,
   "newDevices": [
     [
-      "ECOPAD",
-      "C5Pro_US",
-      "C5Pro",
-      "C5Pro"
+      "Acer",
+      "C1_TELCEL",
+      "C1",
+      "C1"
     ],
     [
-      "Fairphone",
-      "The Fairphone (Gen. 6+)",
-      "FP6",
-      "Fairphone 6"
+      "FCNT",
+      "arrows We3 M09",
+      "M09",
+      "M09"
+    ],
+    [
+      "FCNT",
+      "arrows We3",
+      "M09",
+      "M09"
     ],
     [
       "Franko",
-      "Franko A03",
-      "Franko_A03",
-      "H6573"
+      "Franko A01",
+      "Franko_A01",
+      "H6733"
+    ],
+    [
+      "G-Tab",
+      "T13_PRO",
+      "T13_PRO",
+      "T13_PRO"
     ],
     [
       "HUIHUANG",
-      "C90_US",
-      "C90",
-      "C90"
+      "X10S",
+      "X10S",
+      "X10S"
     ],
     [
-      "Optoma",
-      "5XX3RK",
-      "rk3588_t",
-      "UXXSRK"
+      "JOVI",
+      "JOVI Y21e",
+      "J2601",
+      "J2601"
     ],
     [
-      "PAX (CN)",
-      "M11_US",
-      "M11",
-      "M11"
+      "Krono",
+      "NET-X2-2",
+      "NET_X2",
+      "NET_X2"
     ],
     [
-      "Sharp",
-      "4T-**S7A/X7A",
-      "tcmar3uj",
-      "AQUOS-4KTVJ26-2"
+      "Motorola",
+      "motorola razr 70",
+      "volcano",
+      "motorola razr 2026"
     ],
     [
-      "Sharp",
-      "4T-**S9A/X9A",
-      "tcmar3uj",
-      "AQUOS-4KTVJ26-1"
+      "Pritom",
+      "K7_A07K_EEA",
+      "K7_A07K_EEA",
+      "K7"
     ],
     [
-      "Sun_King",
-      "EZ 3 Pro",
-      "EZ_3_Pro",
-      "EZ 3 Pro"
+      "Riotouch",
+      "RK88",
+      "RK88",
+      "RK88"
+    ],
+    [
+      "SenlinTech",
+      "S30-Pro",
+      "S30-Pro",
+      "hoco_A15"
+    ],
+    [
+      "redbeat",
+      "redbeatA2L",
+      "redbeatA2L",
+      "A2L"
     ],
     [
       "vivo",
-      "V70",
-      "V2538",
-      "V2588"
+      "Y31s 5G",
+      "V2521",
+      "V2614"
+    ],
+    [
+      "vivo",
+      "Y60s AI版",
+      "PD2559",
+      "V2559A"
+    ],
+    [
+      "vivo",
+      "Y60s m版",
+      "PD2559",
+      "V2559BA"
+    ],
+    [
+      "vivo",
+      "Y60s",
+      "PD2559",
+      "V2559A"
     ]
   ]
 }
