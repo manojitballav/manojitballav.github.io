@@ -1,108 +1,60 @@
 {
-  "lastUpdated": "2026-05-20",
-  "newDevicesCount": 17,
+  "lastUpdated": "2026-05-21",
+  "newDevicesCount": 9,
   "newDevices": [
     [
-      "Acer",
-      "C1_TELCEL",
-      "C1",
-      "C1"
+      "DAMASCO",
+      "DAMASCO",
+      "dawu",
+      "4K SMART TV"
     ],
     [
-      "FCNT",
-      "arrows We3 M09",
-      "M09",
-      "M09"
+      "KTCtv",
+      "ESLEY",
+      "dawu",
+      "4K SMART TV"
     ],
     [
-      "FCNT",
-      "arrows We3",
-      "M09",
-      "M09"
+      "LOGIC",
+      "AZ_Series",
+      "rk3576_u",
+      "Logic_LT_IRXXHX"
     ],
     [
-      "Franko",
-      "Franko A01",
-      "Franko_A01",
-      "H6733"
+      "Lenovo",
+      "Lenovo Legion Tab (8.8\",5)",
+      "TB323FU",
+      "TB323FU"
     ],
     [
-      "G-Tab",
-      "T13_PRO",
-      "T13_PRO",
-      "T13_PRO"
+      "Lenovo",
+      "平板拯救者Y700 五代",
+      "TB323FU",
+      "TB323FU"
     ],
     [
-      "HUIHUANG",
-      "X10S",
-      "X10S",
-      "X10S"
+      "Master-G",
+      "MASTER_G",
+      "dawu",
+      "4K SMART TV"
     ],
     [
-      "JOVI",
-      "JOVI Y21e",
-      "J2601",
-      "J2601"
+      "Rebecco",
+      "X30_EEA",
+      "X30",
+      "A20Pro_EEA"
     ],
     [
-      "Krono",
-      "NET-X2-2",
-      "NET_X2",
-      "NET_X2"
+      "Rhino",
+      "supernova",
+      "supernova",
+      "C65"
     ],
     [
-      "Motorola",
-      "motorola razr 70",
-      "volcano",
-      "motorola razr 2026"
-    ],
-    [
-      "Pritom",
-      "K7_A07K_EEA",
-      "K7_A07K_EEA",
-      "K7"
-    ],
-    [
-      "Riotouch",
-      "RK88",
-      "RK88",
-      "RK88"
-    ],
-    [
-      "SenlinTech",
-      "S30-Pro",
-      "S30-Pro",
-      "hoco_A15"
-    ],
-    [
-      "redbeat",
-      "redbeatA2L",
-      "redbeatA2L",
-      "A2L"
-    ],
-    [
-      "vivo",
-      "Y31s 5G",
-      "V2521",
-      "V2614"
-    ],
-    [
-      "vivo",
-      "Y60s AI版",
-      "PD2559",
-      "V2559A"
-    ],
-    [
-      "vivo",
-      "Y60s m版",
-      "PD2559",
-      "V2559BA"
-    ],
-    [
-      "vivo",
-      "Y60s",
-      "PD2559",
-      "V2559A"
+      "Xtratech",
+      "XTRATECH",
+      "dawu",
+      "4K SMART TV"
     ]
   ]
 }
