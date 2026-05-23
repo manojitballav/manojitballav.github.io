@@ -1,186 +1,84 @@
 {
-  "lastUpdated": "2026-05-22",
-  "newDevicesCount": 30,
+  "lastUpdated": "2026-05-23",
+  "newDevicesCount": 13,
   "newDevices": [
     [
-      "BOTECH",
-      "BOTECH",
-      "jagalchi",
-      "2K SMART TV"
+      "ACER_ALTOS",
+      "ALTOS_EZAA",
+      "ALTOS_EZAA",
+      "ALTOS_EZAA"
     ],
     [
-      "Casper",
-      "CTP900",
-      "PAD_Z10_PRO",
-      "CTP900"
+      "Cubot",
+      "KINGKONG ES 5",
+      "KINGKONG_ES_5",
+      "KINGKONG ES 5"
     ],
     [
-      "Dahua",
-      "DAHUA",
-      "jagalchi",
-      "DAHUA 2K SMART TV"
+      "DOMO",
+      "Slate",
+      "Slate",
+      "Slate"
     ],
     [
-      "EKO",
-      "EKO",
-      "jagalchi",
-      "2K SMART TV"
+      "DOMO",
+      "Slate",
+      "Slate",
+      "T115G"
     ],
     [
-      "HAZARD_TALK",
-      "TUF-1",
-      "TUF-1",
-      "TUF-1"
+      "Homeplustv",
+      "HCA6010",
+      "generic",
+      "HCA-6010"
     ],
     [
-      "HUIHUANG",
-      "S90Pro_ROW",
-      "S90Pro",
-      "S90Pro"
-    ],
-    [
-      "HUIHUANG",
-      "S90Pro_US",
-      "S90Pro",
-      "S90Pro"
-    ],
-    [
-      "Hyundai",
-      "HYUNDAI",
-      "jagalchi",
-      "EcoTV FHD"
-    ],
-    [
-      "Infinix",
-      "Infinix XPAD Edge",
-      "Infinix-X1302",
-      "Infinix X1302"
-    ],
-    [
-      "KTC",
-      "Pisces",
-      "Pisces",
-      "Eco Smart Display Pro"
-    ],
-    [
-      "KTCtv",
-      "MAXEN",
-      "jagalchi",
-      "2K SMART TV"
-    ],
-    [
-      "KTCtv",
-      "MAXIPOWER",
-      "jagalchi",
-      "MAXIPOWER SMART TV"
-    ],
-    [
-      "Lanix",
-      "LANIX",
-      "jagalchi",
-      "2K SMART TV"
-    ],
-    [
-      "Lenovo",
-      "Lenovo Idea Tab Pro Gen 2",
-      "TB390FU",
-      "TB390FU"
+      "HonlinBook",
+      "HL-1012A-333U",
+      "HL-1012A-333U",
+      "HL-1012A-333U"
     ],
     [
       "Motorola",
-      "moto pad – 2026",
-      "XT2575-4",
-      "XT2575-4"
+      "moto razr 70 ultra",
+      "lhotse",
+      "XT2655-4"
     ],
     [
       "Motorola",
-      "motorola razr 2026",
-      "volcano",
-      "motorola razr 2025"
+      "motorola razr ultra 2026",
+      "lhotse",
+      "motorola razr 60 ultra"
     ],
     [
       "Motorola",
-      "motorola razr 2026",
-      "volcano",
-      "motorola razr 2026"
+      "motorola razr ultra 2026",
+      "lhotse",
+      "motorola razr ultra 2026"
     ],
     [
-      "Next",
-      "NEXT",
-      "jagalchi",
-      "NEXT SMART TV"
+      "Nexel",
+      "Infinity_Lite",
+      "Infinity_Lite",
+      "Infinity_Lite"
     ],
     [
-      "PAX (CN)",
-      "M11_EEA",
-      "M11",
-      "M11"
+      "Oppo",
+      "Reno16",
+      "OP61F3L1",
+      "PMM110"
     ],
     [
-      "QBell",
-      "QBELL",
-      "jagalchi",
-      "2K SMART TV"
+      "Telpo",
+      "L5",
+      "L5",
+      "L5"
     ],
     [
-      "Qtouch",
-      "QTOUCH",
-      "jagalchi",
-      "2K SMART TV"
-    ],
-    [
-      "Silo",
-      "SILO",
-      "jagalchi",
-      "2K SMART TV"
-    ],
-    [
-      "TABWEE",
-      "T80_US",
-      "T80_2025",
-      "T80"
-    ],
-    [
-      "Topwise",
-      "SK315",
-      "SK315",
-      "SK315"
-    ],
-    [
-      "Wismann",
-      "WISMANN",
-      "jagalchi",
-      "2K SMART TV"
-    ],
-    [
-      "iMin",
-      "Swan 3 Pro",
-      "Swan3Pro",
-      "I25D04"
-    ],
-    [
-      "iMin",
-      "Swan3",
-      "Swan3",
-      "I25D03"
-    ],
-    [
-      "iQOO",
-      "iQOO 15T",
-      "PD2564",
-      "V2564A"
-    ],
-    [
-      "realme",
-      "realme 16T 5G",
-      "RE6491L1",
-      "RMX5268"
-    ],
-    [
-      "vivo",
-      "S50t",
-      "PD2528",
-      "V2528A"
+      "raemond",
+      "K80_US_BND",
+      "K80_US_BND",
+      "K80"
     ]
   ]
 }
