@@ -1,84 +1,42 @@
 {
-  "lastUpdated": "2026-05-23",
-  "newDevicesCount": 13,
+  "lastUpdated": "2026-05-24",
+  "newDevicesCount": 6,
   "newDevices": [
     [
-      "ACER_ALTOS",
-      "ALTOS_EZAA",
-      "ALTOS_EZAA",
-      "ALTOS_EZAA"
-    ],
-    [
-      "Cubot",
-      "KINGKONG ES 5",
-      "KINGKONG_ES_5",
-      "KINGKONG ES 5"
-    ],
-    [
-      "DOMO",
-      "Slate",
-      "Slate",
-      "Slate"
-    ],
-    [
-      "DOMO",
-      "Slate",
-      "Slate",
-      "T115G"
-    ],
-    [
-      "Homeplustv",
-      "HCA6010",
-      "generic",
-      "HCA-6010"
-    ],
-    [
-      "HonlinBook",
-      "HL-1012A-333U",
-      "HL-1012A-333U",
-      "HL-1012A-333U"
+      "Motorola",
+      "moto g37 power",
+      "sydnyl",
+      "moto g - 2025"
     ],
     [
       "Motorola",
-      "moto razr 70 ultra",
-      "lhotse",
-      "XT2655-4"
+      "moto g37 power",
+      "sydnyl",
+      "moto g37 power"
     ],
     [
       "Motorola",
-      "motorola razr ultra 2026",
-      "lhotse",
-      "motorola razr 60 ultra"
+      "moto g47",
+      "sydnyl",
+      "moto g - 2025"
     ],
     [
       "Motorola",
-      "motorola razr ultra 2026",
-      "lhotse",
-      "motorola razr ultra 2026"
+      "moto g47",
+      "sydnyl",
+      "moto g47"
     ],
     [
-      "Nexel",
-      "Infinity_Lite",
-      "Infinity_Lite",
-      "Infinity_Lite"
+      "Motorola",
+      "motorola razr plus 2026",
+      "eiger",
+      "motorola razr 50 ultra"
     ],
     [
-      "Oppo",
-      "Reno16",
-      "OP61F3L1",
-      "PMM110"
-    ],
-    [
-      "Telpo",
-      "L5",
-      "L5",
-      "L5"
-    ],
-    [
-      "raemond",
-      "K80_US_BND",
-      "K80_US_BND",
-      "K80"
+      "Motorola",
+      "motorola razr plus 2026",
+      "eiger",
+      "motorola razr plus 2026"
     ]
   ]
 }
