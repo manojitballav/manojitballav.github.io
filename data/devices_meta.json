@@ -1,42 +1,36 @@
 {
-  "lastUpdated": "2026-05-25",
-  "newDevicesCount": 6,
+  "lastUpdated": "2026-05-26",
+  "newDevicesCount": 5,
   "newDevices": [
     [
-      "Motorola",
-      "moto g37 power",
-      "sydnyl",
-      "moto g - 2025"
+      "LT_Mobile",
+      "LT_mobile_E101",
+      "LT_mobile_E101",
+      "LT E101"
     ],
     [
-      "Motorola",
-      "moto g37 power",
-      "sydnyl",
-      "moto g37 power"
+      "Oppo",
+      "OPPO Pad 6",
+      "OP6929L1",
+      "OPD2601"
     ],
     [
-      "Motorola",
-      "moto g47",
-      "sydnyl",
-      "moto g - 2025"
+      "Teclast",
+      "P30T_BN_ROW",
+      "P30T_BN_ROW",
+      "P30T_BN_ROW"
     ],
     [
-      "Motorola",
-      "moto g47",
-      "sydnyl",
-      "moto g47"
+      "Tecno",
+      "TECNO MEGAPAD 2",
+      "TECNO-T1103",
+      "TECNO T1103"
     ],
     [
-      "Motorola",
-      "motorola razr plus 2026",
-      "eiger",
-      "motorola razr 50 ultra"
-    ],
-    [
-      "Motorola",
-      "motorola razr plus 2026",
-      "eiger",
-      "motorola razr plus 2026"
+      "raemond",
+      "M70_US_A",
+      "M70_US_A",
+      "M70"
     ]
   ]
 }
