@@ -1,36 +1,96 @@
 {
-  "lastUpdated": "2026-05-26",
-  "newDevicesCount": 5,
+  "lastUpdated": "2026-05-27",
+  "newDevicesCount": 15,
   "newDevices": [
     [
-      "LT_Mobile",
-      "LT_mobile_E101",
-      "LT_mobile_E101",
-      "LT E101"
+      "BudgetThuis",
+      "BTV",
+      "DIW253V",
+      "DIW253V"
+    ],
+    [
+      "Honor",
+      "荣耀平板20 柔光版",
+      "HNHEY4-Q",
+      "HEY4-W19"
+    ],
+    [
+      "Honor",
+      "荣耀平板20",
+      "HNHEY4-Q",
+      "HEY4-AN00"
+    ],
+    [
+      "Honor",
+      "荣耀平板20",
+      "HNHEY4-Q",
+      "HEY4-W09"
+    ],
+    [
+      "KODTEC",
+      "L10",
+      "L10",
+      "L10"
     ],
     [
       "Oppo",
-      "OPPO Pad 6",
-      "OP6929L1",
-      "OPD2601"
+      "Reno16 Pro",
+      "OP61EFL1",
+      "PMK110"
     ],
     [
-      "Teclast",
-      "P30T_BN_ROW",
-      "P30T_BN_ROW",
-      "P30T_BN_ROW"
+      "POCO",
+      "POCO Pad C1",
+      "guitar",
+      "2603APC14G"
     ],
     [
-      "Tecno",
-      "TECNO MEGAPAD 2",
-      "TECNO-T1103",
-      "TECNO T1103"
+      "RebotAi",
+      "AG11",
+      "AG11",
+      "AG11"
+    ],
+    [
+      "TABWEE",
+      "T20_US",
+      "T20",
+      "T20"
+    ],
+    [
+      "TABWEE",
+      "T60_Pro_US",
+      "T60_Pro",
+      "T60 Pro"
+    ],
+    [
+      "Xiaomi",
+      "Xiaomi 17 Max",
+      "byron",
+      "2605EPN8EC"
+    ],
+    [
+      "myAvro",
+      "myAvro A1",
+      "Agate",
+      "A1"
     ],
     [
       "raemond",
-      "M70_US_A",
-      "M70_US_A",
-      "M70"
+      "K50_US_C",
+      "K50_US_C",
+      "K50"
+    ],
+    [
+      "raemond",
+      "K70_US_C",
+      "K70_US_C",
+      "K70"
+    ],
+    [
+      "realme",
+      "RMX5266",
+      "RE6491L1",
+      "RMX5266"
     ]
   ]
 }
