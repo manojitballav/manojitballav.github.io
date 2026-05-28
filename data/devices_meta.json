@@ -1,96 +1,48 @@
 {
-  "lastUpdated": "2026-05-27",
-  "newDevicesCount": 15,
+  "lastUpdated": "2026-05-28",
+  "newDevicesCount": 7,
   "newDevices": [
     [
-      "BudgetThuis",
-      "BTV",
-      "DIW253V",
-      "DIW253V"
+      "Ghia",
+      "GA826M",
+      "GA826M",
+      "GA826M"
     ],
     [
-      "Honor",
-      "荣耀平板20 柔光版",
-      "HNHEY4-Q",
-      "HEY4-W19"
+      "IRIS_OHYAMA",
+      "TM15F1W74",
+      "TM15F1W74",
+      "TM15F1W74"
     ],
     [
-      "Honor",
-      "荣耀平板20",
-      "HNHEY4-Q",
-      "HEY4-AN00"
+      "M3 Mobile",
+      "M3SM24",
+      "M3SM24",
+      "M3SM24"
     ],
     [
-      "Honor",
-      "荣耀平板20",
-      "HNHEY4-Q",
-      "HEY4-W09"
+      "URANYX",
+      "S5_BR",
+      "S5",
+      "S5"
     ],
     [
-      "KODTEC",
-      "L10",
-      "L10",
-      "L10"
+      "YOTECH",
+      "YOTECH_YP",
+      "RK3576",
+      "YOTECH_YP"
     ],
     [
-      "Oppo",
-      "Reno16 Pro",
-      "OP61EFL1",
-      "PMK110"
+      "vivo",
+      "T5 Lite 44W 5G",
+      "V2553",
+      "V2557"
     ],
     [
-      "POCO",
-      "POCO Pad C1",
-      "guitar",
-      "2603APC14G"
-    ],
-    [
-      "RebotAi",
-      "AG11",
-      "AG11",
-      "AG11"
-    ],
-    [
-      "TABWEE",
-      "T20_US",
-      "T20",
-      "T20"
-    ],
-    [
-      "TABWEE",
-      "T60_Pro_US",
-      "T60_Pro",
-      "T60 Pro"
-    ],
-    [
-      "Xiaomi",
-      "Xiaomi 17 Max",
-      "byron",
-      "2605EPN8EC"
-    ],
-    [
-      "myAvro",
-      "myAvro A1",
-      "Agate",
-      "A1"
-    ],
-    [
-      "raemond",
-      "K50_US_C",
-      "K50_US_C",
-      "K50"
-    ],
-    [
-      "raemond",
-      "K70_US_C",
-      "K70_US_C",
-      "K70"
-    ],
-    [
-      "realme",
-      "RMX5266",
-      "RE6491L1",
-      "RMX5266"
+      "vivo",
+      "Y6m",
+      "PD2532",
+      "V2532BA"
     ]
   ]
 }
