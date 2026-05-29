@@ -1,48 +1,78 @@
 {
-  "lastUpdated": "2026-05-28",
-  "newDevicesCount": 7,
+  "lastUpdated": "2026-05-29",
+  "newDevicesCount": 12,
   "newDevices": [
     [
-      "Ghia",
-      "GA826M",
-      "GA826M",
-      "GA826M"
+      "Krono",
+      "NET_S",
+      "NET_S",
+      "NET_S"
     ],
     [
-      "IRIS_OHYAMA",
-      "TM15F1W74",
-      "TM15F1W74",
-      "TM15F1W74"
+      "MSI",
+      "MS-5575",
+      "MS-5575",
+      "MS-5575"
     ],
     [
-      "M3 Mobile",
-      "M3SM24",
-      "M3SM24",
-      "M3SM24"
+      "Mobiwire",
+      "H6033",
+      "H6032",
+      "H6033"
     ],
     [
-      "URANYX",
-      "S5_BR",
-      "S5",
-      "S5"
+      "NAUIX",
+      "N803S",
+      "N803S",
+      "N803S"
     ],
     [
-      "YOTECH",
-      "YOTECH_YP",
-      "RK3576",
-      "YOTECH_YP"
+      "PRAMA",
+      "PRAMA_3576",
+      "PRAMA_3576",
+      "PRAMA_3576"
     ],
     [
-      "vivo",
-      "T5 Lite 44W 5G",
-      "V2553",
-      "V2557"
+      "Philips",
+      "T8520",
+      "T8520",
+      "T8520"
     ],
     [
-      "vivo",
-      "Y6m",
-      "PD2532",
-      "V2532BA"
+      "SURWISE",
+      "HUAKETEK",
+      "rk3588_h",
+      "HS_IFPD08"
+    ],
+    [
+      "Sony",
+      "BRAVIA AE3",
+      "BRAVIA_AE3",
+      "BRAVIA 4K AE3"
+    ],
+    [
+      "TCL",
+      "TCL 50 LE",
+      "Scarab_Pro_TF",
+      "T510D"
+    ],
+    [
+      "TECHLIFE",
+      "TechLife  TLPADM04",
+      "TLPADM04",
+      "TLPADM04"
+    ],
+    [
+      "Tecno",
+      "TECNO CAMON Slim",
+      "TECNO-CN6c",
+      "TECNO CN6c"
+    ],
+    [
+      "Tecno",
+      "TECNO CAMON Slim/Air",
+      "TECNO-CN6c",
+      "TECNO CN6c"
     ]
   ]
 }
