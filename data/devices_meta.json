@@ -1,78 +1,72 @@
 {
-  "lastUpdated": "2026-05-29",
-  "newDevicesCount": 12,
+  "lastUpdated": "2026-05-30",
+  "newDevicesCount": 11,
   "newDevices": [
     [
-      "Krono",
-      "NET_S",
-      "NET_S",
-      "NET_S"
+      "BMAX",
+      "10_Pro",
+      "10_Pro",
+      "10_Pro"
     ],
     [
-      "MSI",
-      "MS-5575",
-      "MS-5575",
-      "MS-5575"
+      "JMGO",
+      "H93A",
+      "songni",
+      "H93A"
     ],
     [
-      "Mobiwire",
-      "H6033",
-      "H6032",
-      "H6033"
+      "Lenovo",
+      "Lenovo Idea Tab Pro Gen 2 / Lenovo Tab K13",
+      "TB390FU",
+      "TB390FU"
     ],
     [
-      "NAUIX",
-      "N803S",
-      "N803S",
-      "N803S"
+      "METZ",
+      "V6M",
+      "V6M",
+      "V6M"
     ],
     [
-      "PRAMA",
-      "PRAMA_3576",
-      "PRAMA_3576",
-      "PRAMA_3576"
+      "OnePlus",
+      "一加 Turbo 6X Pro",
+      "OP68E3L1",
+      "PYR110"
     ],
     [
-      "Philips",
-      "T8520",
-      "T8520",
-      "T8520"
+      "OnePlus",
+      "一加 Turbo 6X",
+      "OP68F7L1",
+      "PYS110"
     ],
     [
-      "SURWISE",
-      "HUAKETEK",
-      "rk3588_h",
-      "HS_IFPD08"
+      "Xiaomi",
+      "Xiaomi 17T Pro",
+      "warhol",
+      "2602EPTC0G"
     ],
     [
-      "Sony",
-      "BRAVIA AE3",
-      "BRAVIA_AE3",
-      "BRAVIA 4K AE3"
+      "Xiaomi",
+      "Xiaomi 17T Pro",
+      "warhol",
+      "2602EPTC0R"
     ],
     [
-      "TCL",
-      "TCL 50 LE",
-      "Scarab_Pro_TF",
-      "T510D"
+      "Xiaomi",
+      "Xiaomi 17T",
+      "chagall",
+      "2602DPT53G"
     ],
     [
-      "TECHLIFE",
-      "TechLife  TLPADM04",
-      "TLPADM04",
-      "TLPADM04"
+      "Xiaomi",
+      "Xiaomi 17T",
+      "chagall",
+      "2602DPT53I"
     ],
     [
-      "Tecno",
-      "TECNO CAMON Slim",
-      "TECNO-CN6c",
-      "TECNO CN6c"
-    ],
-    [
-      "Tecno",
-      "TECNO CAMON Slim/Air",
-      "TECNO-CN6c",
-      "TECNO CN6c"
+      "vivo",
+      "S60 元气版",
+      "PD2572",
+      "V2572A"
     ]
   ]
 }
