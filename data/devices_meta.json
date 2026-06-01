@@ -1,72 +1,12 @@
 {
-  "lastUpdated": "2026-05-31",
-  "newDevicesCount": 11,
+  "lastUpdated": "2026-06-01",
+  "newDevicesCount": 1,
   "newDevices": [
     [
-      "BMAX",
-      "10_Pro",
-      "10_Pro",
-      "10_Pro"
-    ],
-    [
-      "JMGO",
-      "H93A",
-      "songni",
-      "H93A"
-    ],
-    [
-      "Lenovo",
-      "Lenovo Idea Tab Pro Gen 2 / Lenovo Tab K13",
-      "TB390FU",
-      "TB390FU"
-    ],
-    [
-      "METZ",
-      "V6M",
-      "V6M",
-      "V6M"
-    ],
-    [
-      "OnePlus",
-      "一加 Turbo 6X Pro",
-      "OP68E3L1",
-      "PYR110"
-    ],
-    [
-      "OnePlus",
-      "一加 Turbo 6X",
-      "OP68F7L1",
-      "PYS110"
-    ],
-    [
-      "Xiaomi",
-      "Xiaomi 17T Pro",
-      "warhol",
-      "2602EPTC0G"
-    ],
-    [
-      "Xiaomi",
-      "Xiaomi 17T Pro",
-      "warhol",
-      "2602EPTC0R"
-    ],
-    [
-      "Xiaomi",
-      "Xiaomi 17T",
-      "chagall",
-      "2602DPT53G"
-    ],
-    [
-      "Xiaomi",
-      "Xiaomi 17T",
-      "chagall",
-      "2602DPT53I"
-    ],
-    [
-      "vivo",
-      "S60 元气版",
-      "PD2572",
-      "V2572A"
+      "MicroTouch",
+      "MACH_POS",
+      "MACH_POS",
+      "MACH_POS"
     ]
   ]
 }
