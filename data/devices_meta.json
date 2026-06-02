@@ -1,12 +1,42 @@
 {
-  "lastUpdated": "2026-06-01",
-  "newDevicesCount": 1,
+  "lastUpdated": "2026-06-02",
+  "newDevicesCount": 6,
   "newDevices": [
     [
-      "MicroTouch",
-      "MACH_POS",
-      "MACH_POS",
-      "MACH_POS"
+      "DigiLand",
+      "M10AA",
+      "M10AA",
+      "M10AA"
+    ],
+    [
+      "Infinix",
+      "Infinix XPAD 30 pro",
+      "Infinix-X1103",
+      "Infinix X1103"
+    ],
+    [
+      "Mintt",
+      "P26",
+      "P26",
+      "Mintt P26"
+    ],
+    [
+      "SEGO",
+      "Hot_100",
+      "Hot_100",
+      "Hot 100"
+    ],
+    [
+      "SEGO",
+      "Smart_20x",
+      "SEGO_Smart_20x",
+      "Smart_20x"
+    ],
+    [
+      "SVITOO",
+      "P108_S_EEA",
+      "P108_S",
+      "P108_S"
     ]
   ]
 }
