@@ -1,42 +1,150 @@
 {
-  "lastUpdated": "2026-06-02",
-  "newDevicesCount": 6,
+  "lastUpdated": "2026-06-03",
+  "newDevicesCount": 24,
   "newDevices": [
     [
-      "DigiLand",
-      "M10AA",
-      "M10AA",
-      "M10AA"
+      "AWOW",
+      "P13A_EEA",
+      "P13A",
+      "P13A"
     ],
     [
-      "Infinix",
-      "Infinix XPAD 30 pro",
-      "Infinix-X1103",
-      "Infinix X1103"
+      "AWOW",
+      "P13A_US",
+      "P13A",
+      "P13A"
     ],
     [
-      "Mintt",
-      "P26",
-      "P26",
-      "Mintt P26"
+      "BenQ",
+      "RE05AC_series",
+      "RE05AC_series",
+      "RE05AC_series"
     ],
     [
-      "SEGO",
-      "Hot_100",
-      "Hot_100",
-      "Hot 100"
+      "Blu",
+      "G96",
+      "G1210",
+      "G96"
     ],
     [
-      "SEGO",
-      "Smart_20x",
-      "SEGO_Smart_20x",
-      "Smart_20x"
+      "CENAVA",
+      "6769-4G",
+      "6769-4G",
+      "6769-4G"
+    ],
+    [
+      "Centerm",
+      "Q7",
+      "Q7",
+      "Q7"
+    ],
+    [
+      "FEC",
+      "XX-X15X",
+      "XX-X15X",
+      "XX-X15X"
+    ],
+    [
+      "GAOKEview",
+      "GAOKEview_3576",
+      "GAOKEview_3576",
+      "GAOKEview_3576"
+    ],
+    [
+      "Honor",
+      "HONOR Magic V6",
+      "HNPNMX",
+      "PNM-N49"
+    ],
+    [
+      "Micropos",
+      "D2",
+      "D2",
+      "D2"
+    ],
+    [
+      "Mobiwire",
+      "H6733",
+      "GH6733",
+      "H6733"
+    ],
+    [
+      "Mobiwire",
+      "eNOVA",
+      "H6032",
+      "H6033"
+    ],
+    [
+      "PEICHENG",
+      "ZB32UA",
+      "ZB32UA",
+      "ZB32"
+    ],
+    [
+      "Pritom",
+      "K7_A07K_US",
+      "K7_A07K_US",
+      "K7"
+    ],
+    [
+      "RebotAi",
+      "B11Air_EEA",
+      "B11Air",
+      "B11Air"
     ],
     [
       "SVITOO",
-      "P108_S_EEA",
+      "P108_S",
       "P108_S",
       "P108_S"
+    ],
+    [
+      "SVITOO",
+      "P108_S_US",
+      "P108_S",
+      "P108_S"
+    ],
+    [
+      "Selvas",
+      "BrailleSense7_EEA",
+      "BrailleSense7",
+      "H732B"
+    ],
+    [
+      "TES (Touch Embedded Solutions)",
+      "TBX_200",
+      "TBX_200",
+      "TBX_200"
+    ],
+    [
+      "YINBER",
+      "S12PLUS",
+      "S12PLUS",
+      "S12PLUS"
+    ],
+    [
+      "Zynex",
+      "G13R",
+      "G13R",
+      "G13R"
+    ],
+    [
+      "i_smart",
+      "i_smart_Interactive_Whiteboard",
+      "oversea_v",
+      "ISA_AN15"
+    ],
+    [
+      "raemond",
+      "K30_US_C",
+      "K30_US_C",
+      "K30"
+    ],
+    [
+      "vivo",
+      "Y11d",
+      "V2556",
+      "V2646"
     ]
   ]
 }
