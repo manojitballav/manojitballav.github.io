@@ -1,150 +1,72 @@
 {
-  "lastUpdated": "2026-06-03",
-  "newDevicesCount": 24,
+  "lastUpdated": "2026-06-04",
+  "newDevicesCount": 11,
   "newDevices": [
     [
-      "AWOW",
-      "P13A_EEA",
-      "P13A",
-      "P13A"
+      "Clover",
+      "G17_3_32",
+      "G17",
+      "G17"
     ],
     [
-      "AWOW",
-      "P13A_US",
-      "P13A",
-      "P13A"
+      "Clover",
+      "RWT-NE-RGPH5-12812",
+      "R9X-01",
+      "RWT-NE-RGPH5-12812"
     ],
     [
-      "BenQ",
-      "RE05AC_series",
-      "RE05AC_series",
-      "RE05AC_series"
+      "Contixo",
+      "A8_B",
+      "A8_B",
+      "A8_B"
     ],
     [
-      "Blu",
-      "G96",
-      "G1210",
-      "G96"
+      "Heco",
+      "KiddoPad_K2",
+      "KiddoPad_K2",
+      "KiddoPad_K2"
     ],
     [
-      "CENAVA",
-      "6769-4G",
-      "6769-4G",
-      "6769-4G"
+      "JMGO",
+      "N1 Pro",
+      "songni",
+      "H80A"
     ],
     [
-      "Centerm",
-      "Q7",
-      "Q7",
-      "Q7"
+      "JMGO",
+      "N1",
+      "songni",
+      "S70A"
     ],
     [
-      "FEC",
-      "XX-X15X",
-      "XX-X15X",
-      "XX-X15X"
-    ],
-    [
-      "GAOKEview",
-      "GAOKEview_3576",
-      "GAOKEview_3576",
-      "GAOKEview_3576"
-    ],
-    [
-      "Honor",
-      "HONOR Magic V6",
-      "HNPNMX",
-      "PNM-N49"
-    ],
-    [
-      "Micropos",
-      "D2",
-      "D2",
-      "D2"
-    ],
-    [
-      "Mobiwire",
-      "H6733",
-      "GH6733",
-      "H6733"
-    ],
-    [
-      "Mobiwire",
-      "eNOVA",
-      "H6032",
-      "H6033"
-    ],
-    [
-      "PEICHENG",
-      "ZB32UA",
-      "ZB32UA",
-      "ZB32"
-    ],
-    [
-      "Pritom",
-      "K7_A07K_US",
-      "K7_A07K_US",
-      "K7"
+      "Kyocera",
+      "KC-T207DT",
+      "SZJ204",
+      "SZJ-JS204"
     ],
     [
       "RebotAi",
-      "B11Air_EEA",
-      "B11Air",
-      "B11Air"
+      "D101_EEA",
+      "D101_EEA",
+      "D101_PRO"
     ],
     [
-      "SVITOO",
-      "P108_S",
-      "P108_S",
-      "P108_S"
+      "TABWEE",
+      "W80_NEU",
+      "W80",
+      "W80"
     ],
     [
-      "SVITOO",
-      "P108_S_US",
-      "P108_S",
-      "P108_S"
+      "Teletab",
+      "TL_9_ROW",
+      "TL_9_ROW",
+      "TL-9"
     ],
     [
-      "Selvas",
-      "BrailleSense7_EEA",
-      "BrailleSense7",
-      "H732B"
-    ],
-    [
-      "TES (Touch Embedded Solutions)",
-      "TBX_200",
-      "TBX_200",
-      "TBX_200"
-    ],
-    [
-      "YINBER",
-      "S12PLUS",
-      "S12PLUS",
-      "S12PLUS"
-    ],
-    [
-      "Zynex",
-      "G13R",
-      "G13R",
-      "G13R"
-    ],
-    [
-      "i_smart",
-      "i_smart_Interactive_Whiteboard",
-      "oversea_v",
-      "ISA_AN15"
-    ],
-    [
-      "raemond",
-      "K30_US_C",
-      "K30_US_C",
-      "K30"
-    ],
-    [
-      "vivo",
-      "Y11d",
-      "V2556",
-      "V2646"
+      "YIKEMI",
+      "S7P_EEA",
+      "S7P_EEA",
+      "S7P"
     ]
   ]
 }
