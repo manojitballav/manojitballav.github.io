@@ -1,72 +1,84 @@
 {
-  "lastUpdated": "2026-06-04",
-  "newDevicesCount": 11,
+  "lastUpdated": "2026-06-05",
+  "newDevicesCount": 13,
   "newDevices": [
     [
-      "Clover",
-      "G17_3_32",
-      "G17",
-      "G17"
+      "CORN",
+      "The_Leader_Kids_4G",
+      "The_Leader_Kids_4G",
+      "The Leader Kids 4G"
     ],
     [
-      "Clover",
-      "RWT-NE-RGPH5-12812",
-      "R9X-01",
-      "RWT-NE-RGPH5-12812"
+      "CRONIC",
+      "Tab_20_Kids",
+      "Tab_20_Kids",
+      "Tab 20 Kids"
     ],
     [
-      "Contixo",
-      "A8_B",
-      "A8_B",
-      "A8_B"
+      "ECOPAD",
+      "A30Pro_A_US",
+      "A30Pro_A",
+      "A30Pro_A_US"
     ],
     [
-      "Heco",
-      "KiddoPad_K2",
-      "KiddoPad_K2",
-      "KiddoPad_K2"
+      "Emporia",
+      "E8-5G-v1_EEA",
+      "E8-5G-v1",
+      "E8-5G-v1"
     ],
     [
-      "JMGO",
-      "N1 Pro",
-      "songni",
-      "H80A"
+      "Helio",
+      "helio_62",
+      "helio_62",
+      "helio 62"
     ],
     [
-      "JMGO",
-      "N1",
-      "songni",
-      "S70A"
+      "Honor",
+      "荣耀WIN Turbo",
+      "HNSER-M",
+      "SER-AN00"
     ],
     [
-      "Kyocera",
-      "KC-T207DT",
-      "SZJ204",
-      "SZJ-JS204"
+      "PEICHENG",
+      "CP20UA",
+      "CP20UA",
+      "CP20"
     ],
     [
       "RebotAi",
-      "D101_EEA",
-      "D101_EEA",
-      "D101_PRO"
+      "B11Air",
+      "B11Air",
+      "B11Air"
     ],
     [
-      "TABWEE",
-      "W80_NEU",
-      "W80",
-      "W80"
+      "RebotAi",
+      "B11Air_US",
+      "B11Air",
+      "B11Air"
     ],
     [
-      "Teletab",
-      "TL_9_ROW",
-      "TL_9_ROW",
-      "TL-9"
+      "SVITOO",
+      "TAB_P10_USA",
+      "TAB_P10_USA",
+      "TAB_P10"
     ],
     [
-      "YIKEMI",
-      "S7P_EEA",
-      "S7P_EEA",
-      "S7P"
+      "TCL",
+      "G17_4K_GB",
+      "G17",
+      "Smart TV Pro"
+    ],
+    [
+      "TCL",
+      "G17_4K_US",
+      "G17",
+      "Smart TV Pro"
+    ],
+    [
+      "eNOVA",
+      "T1081NE",
+      "T1081NE",
+      "T1081NE"
     ]
   ]
 }
