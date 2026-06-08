@@ -1,120 +1,30 @@
 {
-  "lastUpdated": "2026-06-07",
-  "newDevicesCount": 19,
+  "lastUpdated": "2026-06-08",
+  "newDevicesCount": 4,
   "newDevices": [
     [
-      "ECOPAD",
-      "T60_US",
-      "T60",
-      "T60"
+      "Vertu",
+      "VERTU AGENT Q",
+      "VTL-202403",
+      "VTL-202403"
     ],
     [
-      "G-Tab",
-      "X_PRO_AI",
-      "X_PRO_AI",
-      "X"
+      "ZTE",
+      "A601ZT",
+      "P445F01",
+      "A601ZT"
     ],
     [
-      "HUIHUANG",
-      "E10_A_US",
-      "E10_A",
-      "E10_A"
+      "ZTE",
+      "Z2466",
+      "P963F66",
+      "Z2466"
     ],
     [
-      "Omniphone",
-      "New10",
-      "New10",
-      "New10"
-    ],
-    [
-      "PEAQ",
-      "PET_10180_H428S_EEA",
-      "PET_10180_H428S",
-      "PET-10180-H428S"
-    ],
-    [
-      "POCO",
-      "POCO C81 Pro",
-      "arctic",
-      "25128PC17L"
-    ],
-    [
-      "PointMobile",
-      "PS32",
-      "PS32",
-      "PS32"
-    ],
-    [
-      "Pritom",
-      "M10_C10_USA",
-      "M10_C10_USA",
-      "M10"
-    ],
-    [
-      "SUN_EAGLE_INDONESIA",
-      "SUN EAGLE IFPD",
-      "SEITWD13CA",
-      "SEITWD13CA"
-    ],
-    [
-      "TABWEE",
-      "T70_US",
-      "T70",
-      "T70"
-    ],
-    [
-      "TABWEE",
-      "W80_US",
-      "W80",
-      "W80"
-    ],
-    [
-      "vivo",
-      "S60",
-      "PD2571",
-      "V2571A"
-    ],
-    [
-      "vivo",
-      "V70 Lite",
-      "V2570",
-      "V2604"
-    ],
-    [
-      "vivo",
-      "Y500",
-      "V2570",
-      "V2570"
-    ],
-    [
-      "vivo",
-      "Y500",
-      "V2570",
-      "V2584"
-    ],
-    [
-      "vivo",
-      "Y500",
-      "V2570",
-      "V2627"
-    ],
-    [
-      "vivo",
-      "Y500",
-      "V2570",
-      "V2634"
-    ],
-    [
-      "vivo",
-      "Y500",
-      "V2570",
-      "V2635"
-    ],
-    [
-      "vivo",
-      "Y600 Turbo",
-      "PD2553",
-      "V2553A"
+      "ZTE",
+      "Z2577",
+      "P615F02_A",
+      "Z2577"
     ]
   ]
 }
