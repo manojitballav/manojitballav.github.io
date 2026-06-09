@@ -1,30 +1,42 @@
 {
-  "lastUpdated": "2026-06-08",
-  "newDevicesCount": 4,
+  "lastUpdated": "2026-06-09",
+  "newDevicesCount": 6,
   "newDevices": [
     [
-      "Vertu",
-      "VERTU AGENT Q",
-      "VTL-202403",
-      "VTL-202403"
+      "AcerPure",
+      "Acer Acerpure",
+      "Acerone_Liquid_S262F5",
+      "Acerone Liquid S262F5"
     ],
     [
-      "ZTE",
-      "A601ZT",
-      "P445F01",
-      "A601ZT"
+      "ECOPAD",
+      "A30L1_US",
+      "A30L1",
+      "A30L1"
     ],
     [
-      "ZTE",
-      "Z2466",
-      "P963F66",
-      "Z2466"
+      "ETOE",
+      "D2G",
+      "himalaya",
+      "D2G"
     ],
     [
-      "ZTE",
-      "Z2577",
-      "P615F02_A",
-      "Z2577"
+      "OBE(CN)",
+      "Minisons3",
+      "himalaya",
+      "Minions3"
+    ],
+    [
+      "OBE(CN)",
+      "X7D Ultra",
+      "himalaya",
+      "X7D Ultra"
+    ],
+    [
+      "Rovos",
+      "R-TP10_EEA",
+      "R-TP10",
+      "R-TP10"
     ]
   ]
 }
