@@ -1,42 +1,54 @@
 {
-  "lastUpdated": "2026-06-09",
-  "newDevicesCount": 6,
+  "lastUpdated": "2026-06-10",
+  "newDevicesCount": 8,
   "newDevices": [
     [
-      "AcerPure",
-      "Acer Acerpure",
-      "Acerone_Liquid_S262F5",
-      "Acerone Liquid S262F5"
-    ],
-    [
-      "ECOPAD",
-      "A30L1_US",
-      "A30L1",
-      "A30L1"
-    ],
-    [
-      "ETOE",
-      "D2G",
-      "himalaya",
-      "D2G"
-    ],
-    [
-      "OBE(CN)",
-      "Minisons3",
-      "himalaya",
-      "Minions3"
-    ],
-    [
-      "OBE(CN)",
-      "X7D Ultra",
-      "himalaya",
-      "X7D Ultra"
+      "CORN",
+      "The_Leader_Tab8_4G",
+      "The_Leader_Tab8_4G",
+      "The Leader Tab8 4G"
     ],
     [
       "Rovos",
-      "R-TP10_EEA",
+      "R-TP10",
       "R-TP10",
       "R-TP10"
+    ],
+    [
+      "Tecno",
+      "TECNO POVA 8 Pro 5G",
+      "TECNO-LK7",
+      "TECNO LK7"
+    ],
+    [
+      "Xiaomi",
+      "Xiaomi 17T Pro",
+      "warhol",
+      "M025EC"
+    ],
+    [
+      "Xiaomi",
+      "Xiaomi 17T",
+      "chagall",
+      "M531DA"
+    ],
+    [
+      "iQOO",
+      "IQOO Z11 Lite 5G",
+      "I2510",
+      "I2510"
+    ],
+    [
+      "iQOO",
+      "iQOO Z11 Lite 44W 5G",
+      "I2510",
+      "I2510"
+    ],
+    [
+      "iQOO",
+      "iQOO Z11 Lite 44W 5G",
+      "I2510",
+      "I2515"
     ]
   ]
 }
