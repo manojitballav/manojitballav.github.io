@@ -1,54 +1,72 @@
 {
-  "lastUpdated": "2026-06-10",
-  "newDevicesCount": 8,
+  "lastUpdated": "2026-06-11",
+  "newDevicesCount": 11,
   "newDevices": [
     [
-      "CORN",
-      "The_Leader_Tab8_4G",
-      "The_Leader_Tab8_4G",
-      "The Leader Tab8 4G"
+      "DECIBELL",
+      "DB6621",
+      "DB6621",
+      "DB6621"
     ],
     [
-      "Rovos",
-      "R-TP10",
-      "R-TP10",
-      "R-TP10"
+      "EdPro",
+      "EdPro_Series_S",
+      "RK3576",
+      "EdPro_Series_S"
     ],
     [
-      "Tecno",
-      "TECNO POVA 8 Pro 5G",
-      "TECNO-LK7",
-      "TECNO LK7"
+      "HUIHUANG",
+      "X11_US",
+      "X11",
+      "X11"
     ],
     [
-      "Xiaomi",
-      "Xiaomi 17T Pro",
-      "warhol",
-      "M025EC"
+      "Nubia",
+      "红魔10 Air",
+      "PQ83A06",
+      "NX779J"
     ],
     [
-      "Xiaomi",
-      "Xiaomi 17T",
-      "chagall",
-      "M531DA"
+      "Pritom",
+      "M10_C11_Kids",
+      "M10_C11_Kids",
+      "M10"
     ],
     [
-      "iQOO",
-      "IQOO Z11 Lite 5G",
-      "I2510",
-      "I2510"
+      "REDMAGIC",
+      "红魔11 Air",
+      "NX799J",
+      "NX799J"
     ],
     [
-      "iQOO",
-      "iQOO Z11 Lite 44W 5G",
-      "I2510",
-      "I2510"
+      "Topicon",
+      "mdt880",
+      "mdt880",
+      "mdt880"
     ],
     [
-      "iQOO",
-      "iQOO Z11 Lite 44W 5G",
-      "I2510",
-      "I2515"
+      "ZTE",
+      "METAVERTU 2",
+      "VTL-202301",
+      "VTL-202301"
+    ],
+    [
+      "ZTE",
+      "nubia Flip2",
+      "P678A01",
+      "NX732J"
+    ],
+    [
+      "ZTE",
+      "中兴畅行60 Ultra",
+      "P820S01",
+      "ZTE 7661N"
+    ],
+    [
+      "vivo",
+      "Y6e",
+      "PD2559",
+      "V2559A"
     ]
   ]
 }
