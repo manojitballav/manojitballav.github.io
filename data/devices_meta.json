@@ -1,72 +1,48 @@
 {
-  "lastUpdated": "2026-06-11",
-  "newDevicesCount": 11,
+  "lastUpdated": "2026-06-12",
+  "newDevicesCount": 7,
   "newDevices": [
     [
-      "DECIBELL",
-      "DB6621",
-      "DB6621",
-      "DB6621"
+      "ATECcomputer",
+      "A8KD",
+      "A8KD",
+      "A8KD"
     ],
     [
-      "EdPro",
-      "EdPro_Series_S",
-      "RK3576",
-      "EdPro_Series_S"
+      "BenQ",
+      "RE98_110_series",
+      "RE98_110_series",
+      "RE98_110_series"
     ],
     [
-      "HUIHUANG",
-      "X11_US",
-      "X11",
-      "X11"
+      "DEPLAY",
+      "SMART5PLUS_P",
+      "SMART5PLUS_P",
+      "DEPLAY_SMART5PLUS"
     ],
     [
-      "Nubia",
-      "红魔10 Air",
-      "PQ83A06",
-      "NX779J"
+      "IRIS_OHYAMA",
+      "TE11F5W64",
+      "TE11F5W64",
+      "TE11F5W64"
     ],
     [
-      "Pritom",
-      "M10_C11_Kids",
-      "M10_C11_Kids",
-      "M10"
-    ],
-    [
-      "REDMAGIC",
-      "红魔11 Air",
-      "NX799J",
-      "NX799J"
-    ],
-    [
-      "Topicon",
-      "mdt880",
-      "mdt880",
-      "mdt880"
+      "Teclast",
+      "ArtPad_ROW",
+      "ArtPad",
+      "ArtPad_ROW"
     ],
     [
       "ZTE",
-      "METAVERTU 2",
-      "VTL-202301",
-      "VTL-202301"
+      "uSmart Cloud Terminal",
+      "W210DS",
+      "W216DS"
     ],
     [
-      "ZTE",
-      "nubia Flip2",
-      "P678A01",
-      "NX732J"
-    ],
-    [
-      "ZTE",
-      "中兴畅行60 Ultra",
-      "P820S01",
-      "ZTE 7661N"
-    ],
-    [
-      "vivo",
-      "Y6e",
-      "PD2559",
-      "V2559A"
+      "realme",
+      "realme P4x",
+      "RE6488",
+      "RMX5367"
     ]
   ]
 }
