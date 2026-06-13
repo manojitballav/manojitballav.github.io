@@ -1,48 +1,84 @@
 {
-  "lastUpdated": "2026-06-12",
-  "newDevicesCount": 7,
+  "lastUpdated": "2026-06-13",
+  "newDevicesCount": 13,
   "newDevices": [
     [
-      "ATECcomputer",
-      "A8KD",
-      "A8KD",
-      "A8KD"
+      "AcerPure",
+      "ACERPURE INDIA CE PRIVATE LIMITED",
+      "jialu",
+      "ACP65P"
     ],
     [
-      "BenQ",
-      "RE98_110_series",
-      "RE98_110_series",
-      "RE98_110_series"
+      "BMobile",
+      "BL62B",
+      "Bmobile_BL62B",
+      "BL62B"
     ],
     [
-      "DEPLAY",
-      "SMART5PLUS_P",
-      "SMART5PLUS_P",
-      "DEPLAY_SMART5PLUS"
+      "CORN",
+      "Star9_4G",
+      "Star9_4G",
+      "Star9 4G"
     ],
     [
-      "IRIS_OHYAMA",
-      "TE11F5W64",
-      "TE11F5W64",
-      "TE11F5W64"
+      "FCNT",
+      "arrows We3",
+      "F-52G",
+      "F-52G"
     ],
     [
-      "Teclast",
-      "ArtPad_ROW",
-      "ArtPad",
-      "ArtPad_ROW"
+      "Infinix",
+      "SMART Series",
+      "Infinix-X6725",
+      "Infinix X6725"
     ],
     [
-      "ZTE",
-      "uSmart Cloud Terminal",
-      "W210DS",
-      "W216DS"
+      "Jckkcfug",
+      "A10PLUS_US",
+      "A10PLUS_US",
+      "A10 PLUS"
+    ],
+    [
+      "Oppo",
+      "Reno 16 F 5G",
+      "OP62F3L1",
+      "CPH2859"
+    ],
+    [
+      "Oppo",
+      "Reno 16 FS 5G/Reno 16 F 5G",
+      "OP62F3L1",
+      "CPH2859"
+    ],
+    [
+      "Oppo",
+      "Reno 16c 5G",
+      "OP62F3L1",
+      "CPH2859"
+    ],
+    [
+      "Tecno",
+      "TECNO SPARK 50T",
+      "TECNO-KO5",
+      "TECNO KO5"
     ],
     [
       "realme",
-      "realme P4x",
-      "RE6488",
-      "RMX5367"
+      "realme P4 Lite",
+      "RE648B",
+      "RMX5378"
+    ],
+    [
+      "vivo",
+      "Y500i m版",
+      "PD2531",
+      "V2531A"
+    ],
+    [
+      "vivo",
+      "Y6a",
+      "PD2531",
+      "V2531A"
     ]
   ]
 }
