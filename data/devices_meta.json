@@ -1,42 +1,144 @@
 {
-  "lastUpdated": "2026-06-16",
-  "newDevicesCount": 6,
+  "lastUpdated": "2026-06-17",
+  "newDevicesCount": 23,
   "newDevices": [
     [
-      "G-Tab",
-      "GTab_S",
-      "S",
-      "S"
+      "Anyreal",
+      "Note56 Plus",
+      "1928CV-AR",
+      "Note56 Plus"
     ],
     [
-      "Hyundai",
-      "HYUNDAI",
-      "templeton",
-      "EcoTV Ultra"
+      "Anyreal",
+      "Note56 Pro",
+      "1928CT-AR",
+      "Note56 Pro"
     ],
     [
-      "Lava",
-      "LT4900",
-      "LT4900",
-      "LT4900"
+      "Anyreal",
+      "Note56X Pro",
+      "1928SE-AR",
+      "Note56X Pro"
     ],
     [
-      "Lunnen",
-      "TL85612L01",
-      "TL85612L01",
-      "Lunnen Ground 12.2"
+      "Anyreal",
+      "P5C-AR",
+      "P5C-AR",
+      "U13"
     ],
     [
-      "Velox",
-      "Velox_10X_Pro",
-      "Velox_10X_Pro",
-      "Velox 10X Pro"
+      "Anyreal",
+      "T2U-AR",
+      "T2U-AR",
+      "U11 Pro"
     ],
     [
-      "leaderhub",
-      "Mini_Tab8",
-      "Mini_Tab8",
-      "Mini_Tab8"
+      "Anyreal",
+      "Tab A9",
+      "RK5-AR",
+      "Tab A9"
+    ],
+    [
+      "Anyreal",
+      "Tab G5",
+      "T5-AR",
+      "Tab G5"
+    ],
+    [
+      "BIRDCLAW",
+      "P13",
+      "P8C-B",
+      "P13"
+    ],
+    [
+      "CORN",
+      "CPhone17ProMax4G",
+      "CPhone17ProMax4G",
+      "CPhone17 Pro Max 4G"
+    ],
+    [
+      "DARVEEN",
+      "RTC_M82",
+      "RTC_M82",
+      "RTC_M82"
+    ],
+    [
+      "Doogee",
+      "Blade10 Power",
+      "F1G-C",
+      "Blade10 Power"
+    ],
+    [
+      "Easerush",
+      "P8-E",
+      "P8-E",
+      "P13 Pro"
+    ],
+    [
+      "Easerush",
+      "RK5S-E",
+      "RK5S-E",
+      "P10"
+    ],
+    [
+      "Entity",
+      "ENTITY_ERA_TAB_12",
+      "ENTITY_ERA_TAB_12",
+      "ENTITY_ERA_TAB_12"
+    ],
+    [
+      "Pritom",
+      "P7_A10_EEA",
+      "P7_A10_EEA",
+      "P7"
+    ],
+    [
+      "Redmi",
+      "REDMI Turbo 5",
+      "klee",
+      "2511FPC34I"
+    ],
+    [
+      "Redmi",
+      "REDMI Turbo 5",
+      "klee",
+      "2606FRT34I"
+    ],
+    [
+      "Rovos",
+      "R-TP10_US",
+      "R-TP10",
+      "R-TP10"
+    ],
+    [
+      "SEGO",
+      "Note 80 Ultra",
+      "SEGO_Note_80_Ultra",
+      "Note 80 Ultra"
+    ],
+    [
+      "SINAT",
+      "SINAT TOUCH ST",
+      "SINAT_TOUCH_ST",
+      "SINAT_TOUCH_ST"
+    ],
+    [
+      "Swissvoice",
+      "S515",
+      "S515",
+      "S515"
+    ],
+    [
+      "Teclast",
+      "T70Pro_ROW",
+      "T70Pro",
+      "T70Pro_ROW"
+    ],
+    [
+      "vivo",
+      "Y60i",
+      "PD2542",
+      "V2542A"
     ]
   ]
 }
