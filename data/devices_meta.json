@@ -1,144 +1,108 @@
 {
-  "lastUpdated": "2026-06-17",
-  "newDevicesCount": 23,
+  "lastUpdated": "2026-06-18",
+  "newDevicesCount": 17,
   "newDevices": [
     [
-      "Anyreal",
-      "Note56 Plus",
-      "1928CV-AR",
-      "Note56 Plus"
+      "Acer",
+      "Acer One Pro 87",
+      "AcerOnePro87",
+      "Acer One Pro 87"
     ],
     [
-      "Anyreal",
-      "Note56 Pro",
-      "1928CT-AR",
-      "Note56 Pro"
+      "Blu",
+      "BOLD K12",
+      "K0230",
+      "BOLD K12"
     ],
     [
-      "Anyreal",
-      "Note56X Pro",
-      "1928SE-AR",
-      "Note56X Pro"
+      "DGTEC",
+      "DG101SVGB6MB",
+      "DG101SVGB6MB",
+      "DG101SVGB6MB"
     ],
     [
-      "Anyreal",
-      "P5C-AR",
-      "P5C-AR",
-      "U13"
+      "Honor",
+      "HONOR 600 Elite",
+      "HNMRK-Q",
+      "MRK-NX3"
     ],
     [
-      "Anyreal",
-      "T2U-AR",
-      "T2U-AR",
-      "U11 Pro"
+      "Honor",
+      "HONOR 600 Smart 5G",
+      "HNMRK-Q",
+      "MRK-NX1"
     ],
     [
-      "Anyreal",
-      "Tab A9",
-      "RK5-AR",
-      "Tab A9"
+      "Multilaser",
+      "M7 WIFI",
+      "ML_SO1AA_M7_WIFI",
+      "M7_WIFI"
     ],
     [
-      "Anyreal",
-      "Tab G5",
-      "T5-AR",
-      "Tab G5"
+      "Partner",
+      "CLEO_SERIES",
+      "CLEO_SERIES",
+      "CLEO_SERIES"
     ],
     [
-      "BIRDCLAW",
-      "P13",
-      "P8C-B",
-      "P13"
+      "Safaricom",
+      "Neon_Smarta_3",
+      "Neon_Smarta_3",
+      "Neon Smarta 3"
     ],
     [
-      "CORN",
-      "CPhone17ProMax4G",
-      "CPhone17ProMax4G",
-      "CPhone17 Pro Max 4G"
+      "Samsung",
+      "Galaxy A27 5G",
+      "a27xq",
+      "SM-A2760"
     ],
     [
-      "DARVEEN",
-      "RTC_M82",
-      "RTC_M82",
-      "RTC_M82"
+      "Samsung",
+      "Galaxy A27 5G",
+      "a27xq",
+      "SM-A276B"
     ],
     [
-      "Doogee",
-      "Blade10 Power",
-      "F1G-C",
-      "Blade10 Power"
+      "Samsung",
+      "Galaxy A27 5G",
+      "a27xq",
+      "SM-A276U"
     ],
     [
-      "Easerush",
-      "P8-E",
-      "P8-E",
-      "P13 Pro"
+      "Samsung",
+      "Galaxy A27 5G",
+      "a27xq",
+      "SM-A276U1"
     ],
     [
-      "Easerush",
-      "RK5S-E",
-      "RK5S-E",
-      "P10"
+      "Samsung",
+      "Galaxy A27 5G",
+      "a27xq",
+      "SM-S276V"
     ],
     [
-      "Entity",
-      "ENTITY_ERA_TAB_12",
-      "ENTITY_ERA_TAB_12",
-      "ENTITY_ERA_TAB_12"
+      "Samsung",
+      "Galaxy Jump5",
+      "a27xq",
+      "SM-A276K"
     ],
     [
-      "Pritom",
-      "P7_A10_EEA",
-      "P7_A10_EEA",
-      "P7"
+      "TouchBoard",
+      "TBP_V6_PRO",
+      "TouchBoard_V6_EDLA",
+      "TBP_V6_PRO"
     ],
     [
-      "Redmi",
-      "REDMI Turbo 5",
-      "klee",
-      "2511FPC34I"
+      "iFLYTEK",
+      "AI_Board_Ultra",
+      "AI_Board_Ultra",
+      "AI_Board_Ultra"
     ],
     [
-      "Redmi",
-      "REDMI Turbo 5",
-      "klee",
-      "2606FRT34I"
-    ],
-    [
-      "Rovos",
-      "R-TP10_US",
-      "R-TP10",
-      "R-TP10"
-    ],
-    [
-      "SEGO",
-      "Note 80 Ultra",
-      "SEGO_Note_80_Ultra",
-      "Note 80 Ultra"
-    ],
-    [
-      "SINAT",
-      "SINAT TOUCH ST",
-      "SINAT_TOUCH_ST",
-      "SINAT_TOUCH_ST"
-    ],
-    [
-      "Swissvoice",
-      "S515",
-      "S515",
-      "S515"
-    ],
-    [
-      "Teclast",
-      "T70Pro_ROW",
-      "T70Pro",
-      "T70Pro_ROW"
-    ],
-    [
-      "vivo",
-      "Y60i",
-      "PD2542",
-      "V2542A"
+      "raemond",
+      "K80_EEA_BND",
+      "K80_EEA_BND",
+      "K80"
     ]
   ]
 }
