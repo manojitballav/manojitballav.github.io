@@ -1,108 +1,66 @@
 {
-  "lastUpdated": "2026-06-18",
-  "newDevicesCount": 17,
+  "lastUpdated": "2026-06-19",
+  "newDevicesCount": 10,
   "newDevices": [
     [
-      "Acer",
-      "Acer One Pro 87",
-      "AcerOnePro87",
-      "Acer One Pro 87"
+      "GOTO",
+      "GOTO",
+      "elliniko",
+      "4K SMART TV"
     ],
     [
-      "Blu",
-      "BOLD K12",
-      "K0230",
-      "BOLD K12"
+      "GOTO",
+      "GOTO",
+      "templeton",
+      "4K SMART TV"
     ],
     [
-      "DGTEC",
-      "DG101SVGB6MB",
-      "DG101SVGB6MB",
-      "DG101SVGB6MB"
+      "PixFrame",
+      "PixFrame",
+      "MP1231001P",
+      "MP1231001P"
     ],
     [
-      "Honor",
-      "HONOR 600 Elite",
-      "HNMRK-Q",
-      "MRK-NX3"
+      "TCL",
+      "TCL K70",
+      "Monet_TF",
+      "T523V"
     ],
     [
-      "Honor",
-      "HONOR 600 Smart 5G",
-      "HNMRK-Q",
-      "MRK-NX1"
+      "TCL",
+      "TCL K70",
+      "Monet_VZW",
+      "T523SP"
     ],
     [
-      "Multilaser",
-      "M7 WIFI",
-      "ML_SO1AA_M7_WIFI",
-      "M7_WIFI"
+      "TCL",
+      "TCL NXTPAPER 70 Pro",
+      "Swing_NA_OM",
+      "T807M"
     ],
     [
-      "Partner",
-      "CLEO_SERIES",
-      "CLEO_SERIES",
-      "CLEO_SERIES"
+      "TCL",
+      "TCL TAB A1",
+      "Athena_WIFI",
+      "9425X"
     ],
     [
-      "Safaricom",
-      "Neon_Smarta_3",
-      "Neon_Smarta_3",
-      "Neon Smarta 3"
+      "TCT (Alcatel)",
+      "Alcatel A33",
+      "Dahlia",
+      "T450A"
     ],
     [
-      "Samsung",
-      "Galaxy A27 5G",
-      "a27xq",
-      "SM-A2760"
-    ],
-    [
-      "Samsung",
-      "Galaxy A27 5G",
-      "a27xq",
-      "SM-A276B"
-    ],
-    [
-      "Samsung",
-      "Galaxy A27 5G",
-      "a27xq",
-      "SM-A276U"
-    ],
-    [
-      "Samsung",
-      "Galaxy A27 5G",
-      "a27xq",
-      "SM-A276U1"
-    ],
-    [
-      "Samsung",
-      "Galaxy A27 5G",
-      "a27xq",
-      "SM-S276V"
-    ],
-    [
-      "Samsung",
-      "Galaxy Jump5",
-      "a27xq",
-      "SM-A276K"
-    ],
-    [
-      "TouchBoard",
-      "TBP_V6_PRO",
-      "TouchBoard_V6_EDLA",
-      "TBP_V6_PRO"
-    ],
-    [
-      "iFLYTEK",
-      "AI_Board_Ultra",
-      "AI_Board_Ultra",
-      "AI_Board_Ultra"
+      "TCT (Alcatel)",
+      "Alcatel A33",
+      "DahliaPro",
+      "T451A"
     ],
     [
       "raemond",
-      "K80_EEA_BND",
-      "K80_EEA_BND",
-      "K80"
+      "K70_PRO_ROW_A",
+      "K70_PRO_ROW_A",
+      "K70_PRO_ROW_A"
     ]
   ]
 }
