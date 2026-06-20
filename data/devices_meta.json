@@ -1,66 +1,60 @@
 {
-  "lastUpdated": "2026-06-19",
-  "newDevicesCount": 10,
+  "lastUpdated": "2026-06-20",
+  "newDevicesCount": 9,
   "newDevices": [
     [
-      "GOTO",
-      "GOTO",
-      "elliniko",
-      "4K SMART TV"
+      "Colorlight",
+      "conference_aio",
+      "conference_aio",
+      "conference_aio"
     ],
     [
-      "GOTO",
-      "GOTO",
-      "templeton",
-      "4K SMART TV"
+      "Infinix",
+      "Infinix HOT 70 Pro 5G",
+      "Infinix-X6896",
+      "Infinix X6896"
     ],
     [
-      "PixFrame",
-      "PixFrame",
-      "MP1231001P",
-      "MP1231001P"
+      "MIRAI_TOUCH",
+      "MXXCE4S",
+      "InteractiveFlatPanelDisplay",
+      "CE4S_Series"
+    ],
+    [
+      "PEICHENG",
+      "CP10R_Pro",
+      "CP10R_Pro",
+      "CP10_Pro"
+    ],
+    [
+      "Pritom",
+      "P7_A10_M",
+      "P7_A10_M",
+      "P7"
+    ],
+    [
+      "TABWEE",
+      "T12_Pro_US",
+      "T12_Pro",
+      "T12 Pro"
     ],
     [
       "TCL",
-      "TCL K70",
-      "Monet_TF",
-      "T523V"
+      "TCL K70 XE",
+      "Monet_SE_CAN",
+      "T524J"
     ],
     [
-      "TCL",
-      "TCL K70",
-      "Monet_VZW",
-      "T523SP"
-    ],
-    [
-      "TCL",
-      "TCL NXTPAPER 70 Pro",
-      "Swing_NA_OM",
-      "T807M"
-    ],
-    [
-      "TCL",
-      "TCL TAB A1",
-      "Athena_WIFI",
-      "9425X"
-    ],
-    [
-      "TCT (Alcatel)",
-      "Alcatel A33",
-      "Dahlia",
-      "T450A"
-    ],
-    [
-      "TCT (Alcatel)",
-      "Alcatel A33",
-      "DahliaPro",
-      "T451A"
+      "Tecno",
+      "TECNO MEGAPAD SE 2",
+      "TECNO-T1002",
+      "TECNO T1002"
     ],
     [
       "raemond",
-      "K70_PRO_ROW_A",
-      "K70_PRO_ROW_A",
-      "K70_PRO_ROW_A"
+      "K70_C_EEA",
+      "K70_C",
+      "K70"
     ]
   ]
 }
