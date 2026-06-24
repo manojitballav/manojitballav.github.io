@@ -1,270 +1,84 @@
 {
-  "lastUpdated": "2026-06-23",
-  "newDevicesCount": 44,
+  "lastUpdated": "2026-06-24",
+  "newDevicesCount": 13,
   "newDevices": [
     [
-      "Acer",
-      "ACTAB10KB26",
-      "ACTAB10KB26",
-      "ACTAB10KB26"
+      "Jckkcfug",
+      "A20_EEA_YK",
+      "A20_YK",
+      "A20"
     ],
     [
-      "Acer",
-      "Acer One Pro 11",
-      "AcerOnePro11",
-      "Acer One Pro 11"
+      "MEGAAUDIO",
+      "Multimedia_Megaaudio",
+      "Multimedia_Megaaudio",
+      "Multimedia_Megaaudio"
     ],
     [
-      "BMAX",
-      "I13_LTE",
-      "I13_LTE",
-      "I13_LTE"
-    ],
-    [
-      "BYYBUO",
-      "A10_A16_UK",
-      "A10_A16_UK",
-      "A10_A16_UK"
-    ],
-    [
-      "BYYBUO",
-      "A10_A16_US",
-      "A10_A16_US",
-      "A10_A16_US"
-    ],
-    [
-      "BioRugged",
-      "BioWolf_8RS",
-      "BioWolf_8RS",
-      "BioWolf_8RS"
-    ],
-    [
-      "Blu",
-      "T500B",
-      "T500B",
-      "T500B"
-    ],
-    [
-      "CEPTER",
-      "CTABNEXA10V2",
-      "CTABNEXA10V2",
-      "CTABNEXA10V2"
-    ],
-    [
-      "Clover",
-      "RWT-NE-RGPH5-25612",
-      "R9X-01",
-      "RWT-NE-RGPH5-25612"
-    ],
-    [
-      "Cubot",
-      "KINGKONG Dura",
-      "KINGKONG_Dura",
-      "KINGKONG Dura"
-    ],
-    [
-      "DLSYS",
-      "IFPD_86",
-      "oversea_v",
-      "DLSI-86CJC"
-    ],
-    [
-      "DigiLand",
-      "R11pro",
-      "mid1109_mx_pro",
-      "R11pro"
-    ],
-    [
-      "ECOPAD",
-      "C5L1_US",
-      "C5L1",
-      "C5L1"
-    ],
-    [
-      "FFFSMARTLIFE",
-      "F3T11-WG4",
-      "F3T11-WG4",
-      "F3T11-WG4"
-    ],
-    [
-      "FOSSiBOT",
-      "F105_Pro_ROW",
-      "F105_Pro",
-      "F105 Pro"
-    ],
-    [
-      "H(tab)",
-      "H_Tab_Mini",
-      "H_Tab_Mini",
-      "H_Tab_Mini"
-    ],
-    [
-      "H(tab)",
-      "H_Tab_Mini_Plus",
-      "H_Tab_Mini_Plus",
-      "H_Tab_Mini_Plus"
-    ],
-    [
-      "HEROFUN",
-      "MO137G",
-      "MO137G",
-      "MO137G"
-    ],
-    [
-      "HOLO",
-      "X_PLAY_3",
-      "X_PLAY_3",
-      "X_PLAY_3"
-    ],
-    [
-      "Imagineear",
-      "Sonato",
-      "Sonato",
-      "Sonato by imagineear"
-    ],
-    [
-      "Invens",
-      "TK02_EEA",
-      "TK02",
-      "TK02"
-    ],
-    [
-      "Itel",
-      "P10006L-OP",
-      "itel-P10006L",
-      "itel P10006L"
-    ],
-    [
-      "Jumper",
-      "Z3_EEA",
-      "Z3_EEA",
-      "Z3"
-    ],
-    [
-      "KTCtv",
-      "VOXICON",
-      "elliniko",
-      "4K SMART TV"
-    ],
-    [
-      "Linkvil",
-      "CP90",
-      "CP90",
-      "CP90"
-    ],
-    [
-      "Meswao",
-      "MES-B",
-      "MES-B",
-      "MES-B"
-    ],
-    [
-      "PEAQ",
-      "PET_11080_H656S_EEA",
-      "PET_11080_H656S",
-      "PET 11080-H656S"
-    ],
-    [
-      "Philips",
-      "T8010P",
-      "T8010P",
-      "T8010P"
-    ],
-    [
-      "Plimpton",
-      "P80",
-      "P80",
-      "P80"
-    ],
-    [
-      "Premio",
-      "Premio_Aura",
-      "Premio_Aura",
-      "Premio Aura"
-    ],
-    [
-      "Pritom",
-      "M10_R06_Kids_EEA",
-      "M10_R06_Kids_EEA",
-      "M10_R06_Kids_EEA"
-    ],
-    [
-      "RebotAi",
-      "K101_EEA",
-      "K101_EEA",
-      "K101"
+      "OnePlus",
+      "OnePlus N6",
+      "OP68DD",
+      "CPH2955"
     ],
     [
       "SVITOO",
-      "P10_D_EEA",
+      "P10_D_ROW",
       "P10_D",
       "P10_D"
     ],
     [
-      "Smartfy",
-      "T101S",
-      "T101S",
-      "T101S"
+      "SVITOO",
+      "P10_D_US",
+      "P10_D",
+      "P10_D"
+    ],
+    [
+      "Sharp",
+      "AQUOS R11",
+      "Kira",
+      "A602SH"
+    ],
+    [
+      "Sharp",
+      "AQUOS R11",
+      "Kira",
+      "SH-51G"
+    ],
+    [
+      "Sharp",
+      "AQUOS R11",
+      "Kira",
+      "SH-M35"
     ],
     [
       "TCL",
-      "Jitterbug Smart5",
-      "Beryl_BBH",
-      "T513G"
+      "TCL K70 5G",
+      "Monet",
+      "T523P"
     ],
     [
-      "TCL",
-      "TCL TAB A1 NXTPAPER",
-      "Athena_Vision",
-      "9425X"
+      "TWL",
+      "S24",
+      "S24",
+      "S24"
     ],
     [
-      "TVT VIET NAM",
-      "TVT-T10",
-      "TVT-T10",
-      "TVT-T10"
+      "Teclast",
+      "P50T_Y_EEA",
+      "P50T_Y",
+      "P50T"
     ],
     [
-      "Technopc",
-      "Zircon_12NS",
-      "Zircon_12NS",
-      "Signtech 12NS"
+      "vivo",
+      "T5e",
+      "V2606",
+      "V2628"
     ],
     [
-      "Technopc",
-      "Zircon_12NS",
-      "Zircon_12NS",
-      "Zircon 12NS"
-    ],
-    [
-      "Tibuta",
-      "A10_A16_EU",
-      "A10_A16_EU",
-      "A10_A16_EU"
-    ],
-    [
-      "iKKO",
-      "MindOne",
-      "MindOne",
-      "MindOne"
-    ],
-    [
-      "iMin",
-      "Falcon2",
-      "Falcon2",
-      "I24T02"
-    ],
-    [
-      "raemond",
-      "K50_EEA_C",
-      "K50_EEA_C",
-      "K50"
-    ],
-    [
-      "raemond",
-      "K70_C_ROW",
-      "K70_C",
-      "K70"
+      "vivo",
+      "Y05e",
+      "V2606",
+      "V2606"
     ]
   ]
 }
