@@ -1,84 +1,72 @@
 {
-  "lastUpdated": "2026-06-24",
-  "newDevicesCount": 13,
+  "lastUpdated": "2026-06-25",
+  "newDevicesCount": 11,
   "newDevices": [
     [
+      "Blu",
+      "BOLD_K22",
+      "K0250",
+      "BOLD K22"
+    ],
+    [
+      "CHiQ",
+      "Smart TV",
+      "bridgeport",
+      "AI PONT PLUS FF"
+    ],
+    [
+      "CHiQ",
+      "Smart TV",
+      "hakata",
+      "AI PONT"
+    ],
+    [
+      "HKC Elec",
+      "Google TV",
+      "dongbaek",
+      "2K 9216L Google TV"
+    ],
+    [
       "Jckkcfug",
-      "A20_EEA_YK",
+      "A20_ROW_YK",
       "A20_YK",
       "A20"
     ],
     [
-      "MEGAAUDIO",
-      "Multimedia_Megaaudio",
-      "Multimedia_Megaaudio",
-      "Multimedia_Megaaudio"
+      "Jckkcfug",
+      "A20_US_YK",
+      "A20_YK",
+      "A20"
     ],
     [
-      "OnePlus",
-      "OnePlus N6",
-      "OP68DD",
-      "CPH2955"
+      "Oppo",
+      "Reno15 A",
+      "OP628FL1",
+      "A601OP"
     ],
     [
-      "SVITOO",
-      "P10_D_ROW",
-      "P10_D",
-      "P10_D"
-    ],
-    [
-      "SVITOO",
-      "P10_D_US",
-      "P10_D",
-      "P10_D"
-    ],
-    [
-      "Sharp",
-      "AQUOS R11",
-      "Kira",
-      "A602SH"
-    ],
-    [
-      "Sharp",
-      "AQUOS R11",
-      "Kira",
-      "SH-51G"
-    ],
-    [
-      "Sharp",
-      "AQUOS R11",
-      "Kira",
-      "SH-M35"
-    ],
-    [
-      "TCL",
-      "TCL K70 5G",
-      "Monet",
-      "T523P"
-    ],
-    [
-      "TWL",
-      "S24",
-      "S24",
-      "S24"
+      "Oppo",
+      "Reno15 A",
+      "OP628FL1",
+      "OPG08"
     ],
     [
       "Teclast",
-      "P50T_Y_EEA",
+      "P50T_Y_US",
       "P50T_Y",
       "P50T"
     ],
     [
-      "vivo",
-      "T5e",
-      "V2606",
-      "V2628"
+      "Teletab",
+      "TL-5_ROW",
+      "TL-5_ROW",
+      "TL-5_ROW"
     ],
     [
-      "vivo",
-      "Y05e",
-      "V2606",
-      "V2606"
+      "YINBER",
+      "matepadpro",
+      "matepadpro",
+      "matepadpro"
     ]
   ]
 }
