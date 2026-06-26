@@ -1,72 +1,60 @@
 {
-  "lastUpdated": "2026-06-25",
-  "newDevicesCount": 11,
+  "lastUpdated": "2026-06-26",
+  "newDevicesCount": 9,
   "newDevices": [
     [
-      "Blu",
-      "BOLD_K22",
-      "K0250",
-      "BOLD K22"
+      "Honor",
+      "荣耀X80 Pro Max",
+      "HNBSN-Q",
+      "BSN-AN00"
     ],
     [
-      "CHiQ",
-      "Smart TV",
-      "bridgeport",
-      "AI PONT PLUS FF"
-    ],
-    [
-      "CHiQ",
-      "Smart TV",
-      "hakata",
-      "AI PONT"
-    ],
-    [
-      "HKC Elec",
-      "Google TV",
-      "dongbaek",
-      "2K 9216L Google TV"
-    ],
-    [
-      "Jckkcfug",
-      "A20_ROW_YK",
-      "A20_YK",
-      "A20"
-    ],
-    [
-      "Jckkcfug",
-      "A20_US_YK",
-      "A20_YK",
-      "A20"
-    ],
-    [
-      "Oppo",
-      "Reno15 A",
-      "OP628FL1",
-      "A601OP"
-    ],
-    [
-      "Oppo",
-      "Reno15 A",
-      "OP628FL1",
-      "OPG08"
+      "IRIS_OHYAMA",
+      "TE10F3W64",
+      "TE10F3W64",
+      "TE10F3W64"
     ],
     [
       "Teclast",
-      "P50T_Y_US",
+      "P50T_Y_ROW",
       "P50T_Y",
       "P50T"
     ],
     [
-      "Teletab",
-      "TL-5_ROW",
-      "TL-5_ROW",
-      "TL-5_ROW"
+      "vivo",
+      "Y60e AI版",
+      "PD2542",
+      "V2542A"
     ],
     [
-      "YINBER",
-      "matepadpro",
-      "matepadpro",
-      "matepadpro"
+      "vivo",
+      "Y60e m版",
+      "PD2542",
+      "V2542A"
+    ],
+    [
+      "vivo",
+      "Y60e",
+      "PD2542",
+      "V2542A"
+    ],
+    [
+      "vivo",
+      "Y60i AI版",
+      "PD2542",
+      "V2542A"
+    ],
+    [
+      "vivo",
+      "Y60i m版",
+      "PD2542",
+      "V2542A"
+    ],
+    [
+      "vivo",
+      "Y6t m版",
+      "PD2542",
+      "V2542A"
     ]
   ]
 }
