@@ -1,60 +1,102 @@
 {
-  "lastUpdated": "2026-06-26",
-  "newDevicesCount": 9,
+  "lastUpdated": "2026-06-27",
+  "newDevicesCount": 16,
   "newDevices": [
     [
-      "Honor",
-      "荣耀X80 Pro Max",
-      "HNBSN-Q",
-      "BSN-AN00"
+      "BMAX",
+      "11_Pro_WLAN",
+      "11_Pro_WLAN",
+      "11_Pro_WLAN"
+    ],
+    [
+      "Clevertouch",
+      "Clevertouch_Focus",
+      "Interactive_Flat_Panel",
+      "FOCUS"
     ],
     [
       "IRIS_OHYAMA",
-      "TE10F3W64",
-      "TE10F3W64",
-      "TE10F3W64"
+      "TE08F5W64",
+      "TE08F5W64",
+      "TE08F5W64"
     ],
     [
-      "Teclast",
-      "P50T_Y_ROW",
-      "P50T_Y",
-      "P50T"
+      "Oppo",
+      "PLT140",
+      "OP5E1EL1",
+      "PLT140"
+    ],
+    [
+      "Oppo",
+      "Pad 5",
+      "OP6573L1",
+      "OPD2502"
+    ],
+    [
+      "Oppo",
+      "Pad 5",
+      "OP6573L1",
+      "OPD2503"
+    ],
+    [
+      "Oppo",
+      "Reno16 5G",
+      "OP6307L1",
+      "CPH2865"
+    ],
+    [
+      "Oppo",
+      "Reno16 F 5G",
+      "OP62F3L1",
+      "CPH2859"
+    ],
+    [
+      "Oppo",
+      "Reno16 FS 5G/Reno16 F 5G",
+      "OP62F3L1",
+      "CPH2859"
+    ],
+    [
+      "Oppo",
+      "Reno16 Pro 5G",
+      "OP62FDL1",
+      "CPH2863"
+    ],
+    [
+      "Oppo",
+      "Reno16c 5G",
+      "OP62F3L1",
+      "CPH2859"
+    ],
+    [
+      "VID(CN)",
+      "GQ3131RF1",
+      "GQ3131RF1_VID",
+      "GQ3131RF1"
+    ],
+    [
+      "ZOOMSMART",
+      "ZM800",
+      "ZM800",
+      "ZM800"
+    ],
+    [
+      "iQOO",
+      "iQOO Z11i",
+      "PD2559",
+      "V2559UA"
     ],
     [
       "vivo",
-      "Y60e AI版",
-      "PD2542",
-      "V2542A"
+      "G5i",
+      "PD2531",
+      "V2531A"
     ],
     [
       "vivo",
-      "Y60e m版",
-      "PD2542",
-      "V2542A"
-    ],
-    [
-      "vivo",
-      "Y60e",
-      "PD2542",
-      "V2542A"
-    ],
-    [
-      "vivo",
-      "Y60i AI版",
-      "PD2542",
-      "V2542A"
-    ],
-    [
-      "vivo",
-      "Y60i m版",
-      "PD2542",
-      "V2542A"
-    ],
-    [
-      "vivo",
-      "Y6t m版",
-      "PD2542",
-      "V2542A"
+      "G5z",
+      "PD2531",
+      "V2531A"
     ]
   ]
 }
