@@ -1,102 +1,60 @@
 {
-  "lastUpdated": "2026-06-27",
-  "newDevicesCount": 16,
+  "lastUpdated": "2026-06-28",
+  "newDevicesCount": 9,
   "newDevices": [
     [
-      "BMAX",
-      "11_Pro_WLAN",
-      "11_Pro_WLAN",
-      "11_Pro_WLAN"
+      "AvidPad",
+      "S30Pro",
+      "S30Pro",
+      "S30Pro"
     ],
     [
-      "Clevertouch",
-      "Clevertouch_Focus",
-      "Interactive_Flat_Panel",
-      "FOCUS"
+      "Bouygues Telecom",
+      "BboxTV-4B",
+      "UIW4084BYT",
+      "BboxTV-4B"
     ],
     [
-      "IRIS_OHYAMA",
-      "TE08F5W64",
-      "TE08F5W64",
-      "TE08F5W64"
+      "FOSSiBOT",
+      "F105",
+      "F105",
+      "F125"
     ],
     [
-      "Oppo",
-      "PLT140",
-      "OP5E1EL1",
-      "PLT140"
+      "Hisense",
+      "HLTE243E",
+      "HLTE243E",
+      "Hisense M73 Pro"
     ],
     [
-      "Oppo",
-      "Pad 5",
-      "OP6573L1",
-      "OPD2502"
+      "Meswao",
+      "B3-EEA",
+      "B3",
+      "B3"
     ],
     [
-      "Oppo",
-      "Pad 5",
-      "OP6573L1",
-      "OPD2503"
+      "Plimpton",
+      "Kids10_A16_US_JAE",
+      "Kids10_A16_US_JAE",
+      "Kids10_A16_US_JAE"
     ],
     [
-      "Oppo",
-      "Reno16 5G",
-      "OP6307L1",
-      "CPH2865"
+      "Teletab",
+      "TL_4_ROW",
+      "TL_4_ROW",
+      "TL_4_ROW"
     ],
     [
-      "Oppo",
-      "Reno16 F 5G",
-      "OP62F3L1",
-      "CPH2859"
+      "raemond",
+      "K30_EEA_C",
+      "K30_EEA_C",
+      "K30"
     ],
     [
-      "Oppo",
-      "Reno16 FS 5G/Reno16 F 5G",
-      "OP62F3L1",
-      "CPH2859"
-    ],
-    [
-      "Oppo",
-      "Reno16 Pro 5G",
-      "OP62FDL1",
-      "CPH2863"
-    ],
-    [
-      "Oppo",
-      "Reno16c 5G",
-      "OP62F3L1",
-      "CPH2859"
-    ],
-    [
-      "VID(CN)",
-      "GQ3131RF1",
-      "GQ3131RF1_VID",
-      "GQ3131RF1"
-    ],
-    [
-      "ZOOMSMART",
-      "ZM800",
-      "ZM800",
-      "ZM800"
-    ],
-    [
-      "iQOO",
-      "iQOO Z11i",
-      "PD2559",
-      "V2559UA"
-    ],
-    [
-      "vivo",
-      "G5i",
-      "PD2531",
-      "V2531A"
-    ],
-    [
-      "vivo",
-      "G5z",
-      "PD2531",
-      "V2531A"
+      "raemond",
+      "K80_ROW_BND",
+      "K80_ROW_BND",
+      "K80"
     ]
   ]
 }
