@@ -1,60 +1,12 @@
 {
-  "lastUpdated": "2026-06-28",
-  "newDevicesCount": 9,
+  "lastUpdated": "2026-06-29",
+  "newDevicesCount": 1,
   "newDevices": [
     [
-      "AvidPad",
-      "S30Pro",
-      "S30Pro",
-      "S30Pro"
-    ],
-    [
-      "Bouygues Telecom",
-      "BboxTV-4B",
-      "UIW4084BYT",
-      "BboxTV-4B"
-    ],
-    [
-      "FOSSiBOT",
-      "F105",
-      "F105",
-      "F125"
-    ],
-    [
-      "Hisense",
-      "HLTE243E",
-      "HLTE243E",
-      "Hisense M73 Pro"
-    ],
-    [
-      "Meswao",
-      "B3-EEA",
-      "B3",
-      "B3"
-    ],
-    [
-      "Plimpton",
-      "Kids10_A16_US_JAE",
-      "Kids10_A16_US_JAE",
-      "Kids10_A16_US_JAE"
-    ],
-    [
-      "Teletab",
-      "TL_4_ROW",
-      "TL_4_ROW",
-      "TL_4_ROW"
-    ],
-    [
-      "raemond",
-      "K30_EEA_C",
-      "K30_EEA_C",
-      "K30"
-    ],
-    [
-      "raemond",
-      "K80_ROW_BND",
-      "K80_ROW_BND",
-      "K80"
+      "POCO",
+      "POCO C81 Pro",
+      "arctic",
+      "25128PC17Y"
     ]
   ]
 }
