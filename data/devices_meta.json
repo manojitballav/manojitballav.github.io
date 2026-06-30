@@ -1,12 +1,72 @@
 {
-  "lastUpdated": "2026-06-29",
-  "newDevicesCount": 1,
+  "lastUpdated": "2026-06-30",
+  "newDevicesCount": 11,
   "newDevices": [
     [
-      "POCO",
-      "POCO C81 Pro",
-      "arctic",
-      "25128PC17Y"
+      "CORN",
+      "Star9_4G",
+      "Star9_4G",
+      "Star9_4G"
+    ],
+    [
+      "Danew",
+      "DSlide_1096",
+      "DSlide_1096",
+      "DSlide_1096"
+    ],
+    [
+      "Entity",
+      "ENTITY_ERA_TAB_10",
+      "ENTITY_ERA_TAB_10",
+      "ENTITY_ERA_TAB_10"
+    ],
+    [
+      "Hoozo",
+      "W56_US",
+      "W56",
+      "W56"
+    ],
+    [
+      "JOVI",
+      "JOVI Y21",
+      "J2503",
+      "J2609"
+    ],
+    [
+      "M3 Mobile",
+      "M3SM25",
+      "M3SM25",
+      "M3SM25"
+    ],
+    [
+      "Motorola",
+      "moto g max",
+      "naples",
+      "moto g87"
+    ],
+    [
+      "TCL",
+      "TCL TAB A1 Plus NXTPAPER",
+      "Hermes_12_2_Vis",
+      "9445X"
+    ],
+    [
+      "VID(CN)",
+      "GQ8002RH1",
+      "GQ8002RH1_VID",
+      "GQ8002RH1"
+    ],
+    [
+      "raemond",
+      "K90Pro_EEA_BND",
+      "K90Pro_EEA_BND",
+      "K90Pro_EEA_BND"
+    ],
+    [
+      "vivo",
+      "X Fold6",
+      "PD2545",
+      "V2545A"
     ]
   ]
 }
