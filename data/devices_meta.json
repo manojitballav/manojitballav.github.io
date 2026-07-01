@@ -1,72 +1,60 @@
 {
-  "lastUpdated": "2026-06-30",
-  "newDevicesCount": 11,
+  "lastUpdated": "2026-07-01",
+  "newDevicesCount": 9,
   "newDevices": [
     [
-      "CORN",
-      "Star9_4G",
-      "Star9_4G",
-      "Star9_4G"
+      "DEEMWOLF",
+      "M686-EEA",
+      "M686-EEA",
+      "M686-EEA"
     ],
     [
-      "Danew",
-      "DSlide_1096",
-      "DSlide_1096",
-      "DSlide_1096"
+      "Lunnen",
+      "TL85612B01",
+      "TL85612B01",
+      "Lunnen Ground 12.2"
     ],
     [
-      "Entity",
-      "ENTITY_ERA_TAB_10",
-      "ENTITY_ERA_TAB_10",
-      "ENTITY_ERA_TAB_10"
+      "MEIZE",
+      "D126_PRO_US",
+      "D126_PRO_US",
+      "D126_PRO_US"
     ],
     [
-      "Hoozo",
-      "W56_US",
-      "W56",
-      "W56"
+      "Nexall",
+      "N90_US",
+      "N90",
+      "N90"
     ],
     [
-      "JOVI",
-      "JOVI Y21",
-      "J2503",
-      "J2609"
+      "SEGO",
+      "SEGO_Smart_20_HD",
+      "SEGO_Smart_20_HD",
+      "Smart 20 HD"
     ],
     [
-      "M3 Mobile",
-      "M3SM25",
-      "M3SM25",
-      "M3SM25"
+      "Stylo",
+      "ECLIPSE_TAB_8",
+      "ECLIPSE_TAB_8",
+      "ECLIPSE TAB 8"
     ],
     [
-      "Motorola",
-      "moto g max",
-      "naples",
-      "moto g87"
-    ],
-    [
-      "TCL",
-      "TCL TAB A1 Plus NXTPAPER",
-      "Hermes_12_2_Vis",
-      "9445X"
-    ],
-    [
-      "VID(CN)",
-      "GQ8002RH1",
-      "GQ8002RH1_VID",
-      "GQ8002RH1"
+      "iQOO",
+      "iQOO Z11",
+      "PD2551",
+      "V2551A"
     ],
     [
       "raemond",
-      "K90Pro_EEA_BND",
-      "K90Pro_EEA_BND",
-      "K90Pro_EEA_BND"
+      "T30_ROW",
+      "T30_ROW",
+      "T30"
     ],
     [
       "vivo",
-      "X Fold6",
-      "PD2545",
-      "V2545A"
+      "Y60c",
+      "PD2542",
+      "V2542A"
     ]
   ]
 }
