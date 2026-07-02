@@ -1,60 +1,84 @@
 {
-  "lastUpdated": "2026-07-01",
-  "newDevicesCount": 9,
+  "lastUpdated": "2026-07-02",
+  "newDevicesCount": 13,
   "newDevices": [
     [
-      "DEEMWOLF",
-      "M686-EEA",
-      "M686-EEA",
-      "M686-EEA"
+      "CORN",
+      "T12Pro",
+      "T12Pro",
+      "P98"
     ],
     [
-      "Lunnen",
-      "TL85612B01",
-      "TL85612B01",
-      "Lunnen Ground 12.2"
+      "CORN",
+      "The_Leader_Tab8_4G",
+      "The_Leader_Tab8_4G",
+      "The_Leader_Tab8_4G"
     ],
     [
-      "MEIZE",
-      "D126_PRO_US",
-      "D126_PRO_US",
-      "D126_PRO_US"
+      "Cubot",
+      "MegaPad",
+      "MegaPad",
+      "MegaPad"
     ],
     [
-      "Nexall",
-      "N90_US",
-      "N90",
-      "N90"
+      "DGTEC",
+      "DG101TBLS",
+      "101inch_tablet",
+      "DG101TBLS"
     ],
     [
-      "SEGO",
-      "SEGO_Smart_20_HD",
-      "SEGO_Smart_20_HD",
-      "Smart 20 HD"
+      "Digit",
+      "Titan_5G",
+      "Titan_5G",
+      "Titan 5G"
     ],
     [
-      "Stylo",
-      "ECLIPSE_TAB_8",
-      "ECLIPSE_TAB_8",
-      "ECLIPSE TAB 8"
+      "Honor",
+      "HONOR X7e",
+      "HNLAB-M",
+      "LAB-LX3"
     ],
     [
-      "iQOO",
-      "iQOO Z11",
-      "PD2551",
-      "V2551A"
+      "IRIS_OHYAMA",
+      "TM11F6W74",
+      "TM11F6W74",
+      "TM11F6W74"
     ],
     [
-      "raemond",
-      "T30_ROW",
-      "T30_ROW",
-      "T30"
+      "IRIS_OHYAMA",
+      "TM11F7W74",
+      "TM11F7W74",
+      "TM11F7W74"
+    ],
+    [
+      "Pretech",
+      "L1208",
+      "L1208",
+      "L1208"
+    ],
+    [
+      "SENSES",
+      "EDGE_PRO",
+      "SE82B_83B",
+      "RK3576"
+    ],
+    [
+      "TABWEE",
+      "W90_US",
+      "W90",
+      "W90"
+    ],
+    [
+      "Teclast",
+      "M50_W_ROW",
+      "M50_W",
+      "M50_W_ROW"
     ],
     [
       "vivo",
-      "Y60c",
-      "PD2542",
-      "V2542A"
+      "Y31d",
+      "V2543U",
+      "V2611"
     ]
   ]
 }
