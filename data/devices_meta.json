@@ -1,84 +1,42 @@
 {
-  "lastUpdated": "2026-07-02",
-  "newDevicesCount": 13,
+  "lastUpdated": "2026-07-03",
+  "newDevicesCount": 6,
   "newDevices": [
     [
-      "CORN",
-      "T12Pro",
-      "T12Pro",
-      "P98"
+      "Cloud_Mobile",
+      "C9",
+      "Stratus_C9",
+      "Stratus C9"
     ],
     [
-      "CORN",
-      "The_Leader_Tab8_4G",
-      "The_Leader_Tab8_4G",
-      "The_Leader_Tab8_4G"
+      "Hotwav",
+      "Hyper 8E",
+      "Hyper_8E",
+      "Hyper 8E"
     ],
     [
-      "Cubot",
-      "MegaPad",
-      "MegaPad",
-      "MegaPad"
+      "Morep",
+      "V6",
+      "V6",
+      "V6"
     ],
     [
-      "DGTEC",
-      "DG101TBLS",
-      "101inch_tablet",
-      "DG101TBLS"
+      "PEICHENG",
+      "AT74K",
+      "AT74K",
+      "BG-7"
     ],
     [
-      "Digit",
-      "Titan_5G",
-      "Titan_5G",
-      "Titan 5G"
+      "Philips",
+      "Philips S706P",
+      "Philips_S706P",
+      "Philips S706P"
     ],
     [
-      "Honor",
-      "HONOR X7e",
-      "HNLAB-M",
-      "LAB-LX3"
-    ],
-    [
-      "IRIS_OHYAMA",
-      "TM11F6W74",
-      "TM11F6W74",
-      "TM11F6W74"
-    ],
-    [
-      "IRIS_OHYAMA",
-      "TM11F7W74",
-      "TM11F7W74",
-      "TM11F7W74"
-    ],
-    [
-      "Pretech",
-      "L1208",
-      "L1208",
-      "L1208"
-    ],
-    [
-      "SENSES",
-      "EDGE_PRO",
-      "SE82B_83B",
-      "RK3576"
-    ],
-    [
-      "TABWEE",
-      "W90_US",
-      "W90",
-      "W90"
-    ],
-    [
-      "Teclast",
-      "M50_W_ROW",
-      "M50_W",
-      "M50_W_ROW"
-    ],
-    [
-      "vivo",
-      "Y31d",
-      "V2543U",
-      "V2611"
+      "SILVERWIN",
+      "SWA8F1K",
+      "SWA8F1K",
+      "SWA8F1K"
     ]
   ]
 }
