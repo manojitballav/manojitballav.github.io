@@ -1,42 +1,114 @@
 {
-  "lastUpdated": "2026-07-03",
-  "newDevicesCount": 6,
+  "lastUpdated": "2026-07-04",
+  "newDevicesCount": 18,
   "newDevices": [
     [
-      "Cloud_Mobile",
-      "C9",
-      "Stratus_C9",
-      "Stratus C9"
+      "CAIXUN",
+      "Caixun 4K Google TV",
+      "halandri",
+      "Caixun 4K Google TV"
     ],
     [
-      "Hotwav",
-      "Hyper 8E",
-      "Hyper_8E",
-      "Hyper 8E"
+      "CAIXUN",
+      "Caixun 4K TV",
+      "halandri",
+      "Caixun 4K TV"
     ],
     [
-      "Morep",
-      "V6",
-      "V6",
-      "V6"
+      "Dwsummus",
+      "DWSUMMUS Google TV",
+      "halandri",
+      "DWSUMMUS Google TV"
     ],
     [
-      "PEICHENG",
-      "AT74K",
-      "AT74K",
-      "BG-7"
+      "ECOPAD",
+      "A30L1_US",
+      "A30L1",
+      "A30L2"
     ],
     [
-      "Philips",
-      "Philips S706P",
-      "Philips_S706P",
-      "Philips S706P"
+      "HK_HUAHONG",
+      "HK-M01",
+      "HK-M01",
+      "HK-M01"
     ],
     [
-      "SILVERWIN",
-      "SWA8F1K",
-      "SWA8F1K",
-      "SWA8F1K"
+      "HUIHUANG",
+      "XC90_US",
+      "XC90_US",
+      "XC90_US"
+    ],
+    [
+      "Honor",
+      "HONOR X7e",
+      "HNLAB-M",
+      "LAB-LX1"
+    ],
+    [
+      "INGSCREEN",
+      "Interactive_Panel",
+      "Interactive_Flat_Panel",
+      "IS-Series"
+    ],
+    [
+      "IRIS_OHYAMA",
+      "TM12F8W74",
+      "TM12F8W74",
+      "TM12F8W74"
+    ],
+    [
+      "KONVO",
+      "KONVO 4K GOOGLE TV",
+      "halandri",
+      "KONVO 4K GOOGLE TV"
+    ],
+    [
+      "Kogan",
+      "Kogan G6",
+      "halandri",
+      "Kogan G6"
+    ],
+    [
+      "ONERugged",
+      "M87XE",
+      "M87XE",
+      "M87XE"
+    ],
+    [
+      "Phone Max",
+      "X10_EEA",
+      "X10",
+      "X10"
+    ],
+    [
+      "Relndoo",
+      "P60-U1",
+      "P60-U1",
+      "P60-U1"
+    ],
+    [
+      "SmartMedia",
+      "SMA16X65M",
+      "SMA16X65M",
+      "SMA16X65M"
+    ],
+    [
+      "StarBoard",
+      "TE_YL_SE",
+      "TE_YL_SE",
+      "TE_YL_SE"
+    ],
+    [
+      "Widevu",
+      "WIDEVU_4K_ATV5S",
+      "halandri",
+      "WIDEVU Google TV"
+    ],
+    [
+      "raemond",
+      "K50_ROW_C",
+      "K50_ROW_C",
+      "K50"
     ]
   ]
 }
