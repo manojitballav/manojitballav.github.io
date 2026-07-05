@@ -1,114 +1,54 @@
 {
-  "lastUpdated": "2026-07-04",
-  "newDevicesCount": 18,
+  "lastUpdated": "2026-07-05",
+  "newDevicesCount": 8,
   "newDevices": [
     [
-      "CAIXUN",
-      "Caixun 4K Google TV",
-      "halandri",
-      "Caixun 4K Google TV"
+      "Blu",
+      "BOLD_K12",
+      "K0230",
+      "BOLD K12"
     ],
     [
-      "CAIXUN",
-      "Caixun 4K TV",
-      "halandri",
-      "Caixun 4K TV"
+      "Cubot",
+      "KINGKONG E1",
+      "KINGKONG_E1",
+      "KINGKONG E1"
     ],
     [
-      "Dwsummus",
-      "DWSUMMUS Google TV",
-      "halandri",
-      "DWSUMMUS Google TV"
+      "Cubot",
+      "KINGKONG ES PRO",
+      "KKESPRO",
+      "KINGKONG ES PRO"
     ],
     [
-      "ECOPAD",
-      "A30L1_US",
-      "A30L1",
-      "A30L2"
+      "FOXXD",
+      "A67L Gen2",
+      "A67L_Gen2",
+      "A67L Gen2"
     ],
     [
-      "HK_HUAHONG",
-      "HK-M01",
-      "HK-M01",
-      "HK-M01"
+      "Haus",
+      "JS430 _Wave",
+      "JS430_Wave",
+      "JS430_Wave"
     ],
     [
-      "HUIHUANG",
-      "XC90_US",
-      "XC90_US",
-      "XC90_US"
+      "MYCOM",
+      "COMEK_Smart20",
+      "COMEK_Smart20",
+      "COMEK_Smart20"
     ],
     [
-      "Honor",
-      "HONOR X7e",
-      "HNLAB-M",
-      "LAB-LX1"
+      "X-Age",
+      "Leap_Plus",
+      "Leap_Plus",
+      "X-AGE"
     ],
     [
-      "INGSCREEN",
-      "Interactive_Panel",
-      "Interactive_Flat_Panel",
-      "IS-Series"
-    ],
-    [
-      "IRIS_OHYAMA",
-      "TM12F8W74",
-      "TM12F8W74",
-      "TM12F8W74"
-    ],
-    [
-      "KONVO",
-      "KONVO 4K GOOGLE TV",
-      "halandri",
-      "KONVO 4K GOOGLE TV"
-    ],
-    [
-      "Kogan",
-      "Kogan G6",
-      "halandri",
-      "Kogan G6"
-    ],
-    [
-      "ONERugged",
-      "M87XE",
-      "M87XE",
-      "M87XE"
-    ],
-    [
-      "Phone Max",
-      "X10_EEA",
-      "X10",
-      "X10"
-    ],
-    [
-      "Relndoo",
-      "P60-U1",
-      "P60-U1",
-      "P60-U1"
-    ],
-    [
-      "SmartMedia",
-      "SMA16X65M",
-      "SMA16X65M",
-      "SMA16X65M"
-    ],
-    [
-      "StarBoard",
-      "TE_YL_SE",
-      "TE_YL_SE",
-      "TE_YL_SE"
-    ],
-    [
-      "Widevu",
-      "WIDEVU_4K_ATV5S",
-      "halandri",
-      "WIDEVU Google TV"
-    ],
-    [
-      "raemond",
-      "K50_ROW_C",
-      "K50_ROW_C",
-      "K50"
+      "spectramobile",
+      "SPECTRA GO",
+      "SPECTRA_GO",
+      "SPECTRA GO"
     ]
   ]
 }
