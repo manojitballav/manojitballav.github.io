@@ -1,54 +1,36 @@
 {
-  "lastUpdated": "2026-07-06",
-  "newDevicesCount": 8,
+  "lastUpdated": "2026-07-07",
+  "newDevicesCount": 5,
   "newDevices": [
     [
-      "Blu",
-      "BOLD_K12",
-      "K0230",
-      "BOLD K12"
+      "Google",
+      "gambit",
+      "gambit",
+      "gambit"
     ],
     [
-      "Cubot",
-      "KINGKONG E1",
-      "KINGKONG_E1",
-      "KINGKONG E1"
+      "IRIS_OHYAMA",
+      "TE08F3W64",
+      "TE08F3W64",
+      "TE08F3W64"
     ],
     [
-      "Cubot",
-      "KINGKONG ES PRO",
-      "KKESPRO",
-      "KINGKONG ES PRO"
+      "OnePlus",
+      "OnePlus Nord CE6",
+      "OP6505L1",
+      "CPH2805"
     ],
     [
-      "FOXXD",
-      "A67L Gen2",
-      "A67L_Gen2",
-      "A67L Gen2"
+      "Relndoo",
+      "T901_Y_US",
+      "T901_Y",
+      "T901"
     ],
     [
-      "Haus",
-      "JS430 _Wave",
-      "JS430_Wave",
-      "JS430_Wave"
-    ],
-    [
-      "MYCOM",
-      "COMEK_Smart20",
-      "COMEK_Smart20",
-      "COMEK_Smart20"
-    ],
-    [
-      "X-Age",
-      "Leap_Plus",
-      "Leap_Plus",
-      "X-AGE"
-    ],
-    [
-      "spectramobile",
-      "SPECTRA GO",
-      "SPECTRA_GO",
-      "SPECTRA GO"
+      "raemond",
+      "M90_MAX_EEA",
+      "M90_MAX_EEA",
+      "M90_MAX"
     ]
   ]
 }
