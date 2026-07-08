@@ -1,36 +1,96 @@
 {
-  "lastUpdated": "2026-07-07",
-  "newDevicesCount": 5,
+  "lastUpdated": "2026-07-08",
+  "newDevicesCount": 15,
   "newDevices": [
     [
-      "Google",
-      "gambit",
-      "gambit",
-      "gambit"
+      "AT&T",
+      "SN333A",
+      "SN333A",
+      "SN333A"
     ],
     [
-      "IRIS_OHYAMA",
-      "TE08F3W64",
-      "TE08F3W64",
-      "TE08F3W64"
+      "AWOW",
+      "P10A_US",
+      "P10A",
+      "P10A"
     ],
     [
-      "OnePlus",
-      "OnePlus Nord CE6",
-      "OP6505L1",
-      "CPH2805"
+      "Blu",
+      "Tab One 5G",
+      "T500B",
+      "T500B"
     ],
     [
-      "Relndoo",
-      "T901_Y_US",
-      "T901_Y",
-      "T901"
+      "Cricket",
+      "SN333C",
+      "SN333C",
+      "SN333C"
     ],
     [
-      "raemond",
-      "M90_MAX_EEA",
-      "M90_MAX_EEA",
-      "M90_MAX"
+      "Daewoo",
+      "THINK EBIKEGO PRIVATE LIMITED",
+      "chester",
+      "DAE75P"
+    ],
+    [
+      "Infinix",
+      "Infinix XPAD 30 pro",
+      "Infinix-X1103B",
+      "Infinix X1103B"
+    ],
+    [
+      "Moov_Africa",
+      "S50",
+      "S50",
+      "S50"
+    ],
+    [
+      "OFD(Display)",
+      "HSD-M03",
+      "M03",
+      "HSD-M03"
+    ],
+    [
+      "TCL",
+      "TCL K70 NXTPAPER",
+      "Monet_NP_CAN",
+      "T624J"
+    ],
+    [
+      "TCL",
+      "TCL K70",
+      "Bamboo",
+      "T522A"
+    ],
+    [
+      "Whitedeer",
+      "X7K_E",
+      "X7K",
+      "X7K"
+    ],
+    [
+      "XGIMI",
+      "MIRA Pro",
+      "kasol",
+      "XP06C"
+    ],
+    [
+      "XGIMI",
+      "MIRA",
+      "kasol",
+      "XP03C"
+    ],
+    [
+      "XTRAGEN",
+      "XTCTR_201",
+      "RUGGED_TABLET",
+      "XTCTR_201"
+    ],
+    [
+      "zcobro",
+      "KIDS710_EEA",
+      "KIDS710_EEA",
+      "KIDS710"
     ]
   ]
 }
