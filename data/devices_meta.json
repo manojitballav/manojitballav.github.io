@@ -1,270 +1,54 @@
 {
-  "lastUpdated": "2026-07-09",
-  "newDevicesCount": 44,
+  "lastUpdated": "2026-07-10",
+  "newDevicesCount": 8,
   "newDevices": [
     [
-      "Anyreal",
-      "P8-AR",
-      "P8-AR",
-      "Tab G6 Max"
+      "BenQ",
+      "RE05_series",
+      "RE05_series",
+      "RE05_series"
     ],
     [
-      "Anyreal",
-      "U13 Pro",
-      "P8T-AR",
-      "U13 Pro"
+      "Cozyla",
+      "Calendar3_32",
+      "Calendar3_32",
+      "Calendar3_32"
     ],
     [
-      "CAIXUN",
-      "Caixun 2K",
-      "dongnae",
-      "Caixun 2K"
+      "Cozyla",
+      "CalendarPlus3_24",
+      "CalendarPlus3_24",
+      "CalendarPlus3_24"
     ],
     [
-      "CAIXUN",
-      "Caixun 2K Smart TV",
-      "dongnae",
-      "Caixun 2K Smart TV"
+      "Google",
+      "Pixel Watch 5",
+      "godric_btwifi",
+      "Pixel Watch 5"
     ],
     [
-      "CAIXUN",
-      "Caixun 2K Smart TV",
-      "dongnae",
-      "Caixun 2K Smart TV"
+      "HAJUND",
+      "HJD-TM54-1612H",
+      "HJD-TM54-1612H",
+      "HJD-TM54-1612H"
     ],
     [
-      "CAIXUN",
-      "Caixun Google TV",
-      "dongnae",
-      "Caixun Google TV"
+      "ISONIC",
+      "CT-Splus",
+      "IFP-3576",
+      "IFP-3576"
     ],
     [
-      "CAIXUN",
-      "Smart TV 2K",
-      "dongnae",
-      "Smart TV 2K"
+      "M-KOPA",
+      "X4e",
+      "X4e",
+      "X4e"
     ],
     [
-      "Compaq",
-      "COMPAQ GOOGLE TV",
-      "dongnae",
-      "COMPAQ GOOGLE TV"
-    ],
-    [
-      "Compaq",
-      "COMPAQ SMART TV",
-      "dongnae",
-      "COMPAQ SMART TV"
-    ],
-    [
-      "Compaq",
-      "COMPAQ TV",
-      "dongnae",
-      "COMPAQ TV"
-    ],
-    [
-      "Doogee",
-      "V50",
-      "M25",
-      "V50"
-    ],
-    [
-      "EQUINOXE",
-      "SE 2K Google TV",
-      "dongnae",
-      "SE 2K Google TV"
-    ],
-    [
-      "Easerush",
-      "P11 Pro",
-      "T4-E",
-      "P11 Pro"
-    ],
-    [
-      "HP",
-      "OmniPad 12",
-      "Arjuna",
-      "OmniPad 12"
-    ],
-    [
-      "IMPEX",
-      "Impex Smart TV",
-      "dongnae",
-      "Impex Smart TV"
-    ],
-    [
-      "INFINITON",
-      "INFINITON Google TV",
-      "dongnae",
-      "INFINITON Google TV"
-    ],
-    [
-      "JLC ELECTRONICS",
-      "JLC 2K GOOGLE TV",
-      "dongnae",
-      "JLC 2K GOOGLE TV"
-    ],
-    [
-      "KONVO",
-      "KONVO 2K SMART TV",
-      "dongnae",
-      "KONVO 2K SMART TV"
-    ],
-    [
-      "KYDOS",
-      "KYDOS Smart TV",
-      "dongnae",
-      "KYDOS Smart TV"
-    ],
-    [
-      "Kanji",
-      "KANJI 2K TV",
-      "dongnae",
-      "KANJI 2K TV"
-    ],
-    [
-      "Kodak",
-      "KODAK 2K Smart TV",
-      "dongnae",
-      "KODAK 2K Smart TV"
-    ],
-    [
-      "Kodak",
-      "KODAK Google TV",
-      "dongnae",
-      "KODAK Google TV"
-    ],
-    [
-      "Kodak",
-      "KODAK Smart TV",
-      "dongnae",
-      "KODAK Smart TV"
-    ],
-    [
-      "Kogan",
-      "Kogan G6",
-      "dongnae",
-      "Kogan G6"
-    ],
-    [
-      "Lenovo",
-      "Lenovo Tab Plus Gen 2",
-      "TB355FU",
-      "TB355FU"
-    ],
-    [
-      "Lightwave",
-      "LIGHTWAVE Google 2K TV",
-      "dongnae",
-      "LIGHTWAVE Google 2K TV"
-    ],
-    [
-      "Magnavox",
-      "Magnavox Google TV",
-      "dongnae",
-      "Magnavox Google TV"
-    ],
-    [
-      "Magnavox",
-      "Magnavox Smart TV",
-      "dongnae",
-      "Magnavox Smart TV"
-    ],
-    [
-      "Magnavox",
-      "Magnavox TV",
-      "dongnae",
-      "Magnavox TV"
-    ],
-    [
-      "Motorola",
-      "moto pad 70 groove",
-      "XT2675-1",
-      "XT2675-1"
-    ],
-    [
-      "NCE TV",
-      "NCE Google Smart TV",
-      "dongnae",
-      "NCE Google Smart TV"
-    ],
-    [
-      "Nothing",
-      "Nothing Phone (4b)",
-      "SuperContra",
-      "A009P"
-    ],
-    [
-      "ONVO",
-      "ONVO TV",
-      "dongnae",
-      "ONVO TV"
-    ],
-    [
-      "PRIMA",
-      "Interactive_Screens",
-      "RC",
-      "RC_Series"
-    ],
-    [
-      "Panasonic",
-      "Panasonic_LH_GT1ND",
-      "Panasonic_LH_GT1ND",
-      "Panasonic_LH_GT1ND"
-    ],
-    [
-      "Panavox",
-      "PANAVOX Google TV",
-      "dongnae",
-      "PANAVOX Google TV"
-    ],
-    [
-      "SALORA",
-      "SALORA",
-      "dongnae",
-      "SALORA"
-    ],
-    [
-      "SHOWNIC",
-      "SHOWNIC 2K Google TV",
-      "dongnae",
-      "SHOWNIC 2K Google TV"
-    ],
-    [
-      "SMART TECHNOLOGY",
-      "Smarttech TV",
-      "dongnae",
-      "Smarttech TV"
-    ],
-    [
-      "Stargorilla",
-      "Blade10 Pro Energy",
-      "F1C-S_GO",
-      "Blade10 Pro Energy"
-    ],
-    [
-      "Tesla",
-      "Tesla Google TV",
-      "dongnae",
-      "Tesla Google TV"
-    ],
-    [
-      "Theros",
-      "Theros 2K Google TV",
-      "dongnae",
-      "Theros 2K Google TV"
-    ],
-    [
-      "Turbo-X",
-      "Turbo-X Smart TV",
-      "dongnae",
-      "Turbo-X Smart TV"
-    ],
-    [
-      "Widevu",
-      "WIDEVU Smart TV",
-      "dongnae",
-      "WIDEVU Smart TV"
+      "TCL",
+      "TCL TAB 10L Gen 4",
+      "Lugh_10_WiFi",
+      "8483A"
     ]
   ]
 }
