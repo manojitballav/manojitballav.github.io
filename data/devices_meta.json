@@ -1,54 +1,126 @@
 {
-  "lastUpdated": "2026-07-10",
-  "newDevicesCount": 8,
+  "lastUpdated": "2026-07-11",
+  "newDevicesCount": 20,
   "newDevices": [
     [
-      "BenQ",
-      "RE05_series",
-      "RE05_series",
-      "RE05_series"
+      "ADVAN",
+      "ADVAN_V11",
+      "ADVAN_V11",
+      "ADVAN_V11"
     ],
     [
-      "Cozyla",
-      "Calendar3_32",
-      "Calendar3_32",
-      "Calendar3_32"
+      "AcerPure",
+      "ACERPURE INDIA CE PRIVATE LIMITED",
+      "jialu",
+      "ACP65PAV"
     ],
     [
-      "Cozyla",
-      "CalendarPlus3_24",
-      "CalendarPlus3_24",
-      "CalendarPlus3_24"
+      "Crelander",
+      "W30B",
+      "W30B",
+      "W30"
     ],
     [
-      "Google",
-      "Pixel Watch 5",
-      "godric_btwifi",
-      "Pixel Watch 5"
+      "Crelander",
+      "W30_NEU",
+      "W30_NEU",
+      "W30"
     ],
     [
-      "HAJUND",
-      "HJD-TM54-1612H",
-      "HJD-TM54-1612H",
-      "HJD-TM54-1612H"
+      "Datamini",
+      "T8004GR",
+      "T8004GR",
+      "T8004G"
     ],
     [
-      "ISONIC",
-      "CT-Splus",
-      "IFP-3576",
-      "IFP-3576"
+      "DishTV (IN)",
+      "DISHTV INDIA LTD.",
+      "jialu",
+      "VZY65P"
     ],
     [
-      "M-KOPA",
-      "X4e",
-      "X4e",
-      "X4e"
+      "HANKOOK_CREA",
+      "CREA_LEAP_Series",
+      "CREA_LEAP_Series",
+      "CREA_LEAP_Series"
     ],
     [
-      "TCL",
-      "TCL TAB 10L Gen 4",
-      "Lugh_10_WiFi",
-      "8483A"
+      "Honor",
+      "HONOR Pad 10 Papermatte Display WIFI",
+      "HNHEY3-Q1",
+      "HEY3-W00"
+    ],
+    [
+      "IDEMIA",
+      "IDScreen ONE",
+      "IDScreen_ONE",
+      "MPH-MB005A"
+    ],
+    [
+      "Kalley",
+      "Black G4S2",
+      "Black_G4S2",
+      "Black G4S2"
+    ],
+    [
+      "Meswao",
+      "B3",
+      "B3",
+      "B3"
+    ],
+    [
+      "Nordic",
+      "Funpad-10",
+      "Funpad-10",
+      "Funpad-10"
+    ],
+    [
+      "PEICHENG",
+      "CP20UR",
+      "CP20UR",
+      "CP20_PRO"
+    ],
+    [
+      "Relndoo",
+      "T901_U1",
+      "T901_U1",
+      "T901"
+    ],
+    [
+      "SEGO",
+      "Smart_20",
+      "Smart_20",
+      "Smart 20"
+    ],
+    [
+      "iFLYTEK",
+      "AI_Board_75",
+      "AI_Board_75",
+      "AI_Board_75"
+    ],
+    [
+      "iFLYTEK",
+      "AI_Board_86",
+      "AI_Board_86",
+      "AI_Board_86"
+    ],
+    [
+      "onn.",
+      "PM876T",
+      "PM876T",
+      "PM876T"
+    ],
+    [
+      "vivo",
+      "Y05i",
+      "V2556",
+      "V2556"
+    ],
+    [
+      "vivo",
+      "Y05i",
+      "V2556",
+      "V2650"
     ]
   ]
 }
