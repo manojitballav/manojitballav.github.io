@@ -1,126 +1,30 @@
 {
-  "lastUpdated": "2026-07-11",
-  "newDevicesCount": 20,
+  "lastUpdated": "2026-07-12",
+  "newDevicesCount": 4,
   "newDevices": [
     [
-      "ADVAN",
-      "ADVAN_V11",
-      "ADVAN_V11",
-      "ADVAN_V11"
+      "Hisense",
+      "HLTE243E",
+      "HLTE243E",
+      "Hisense F36 Pro"
     ],
     [
-      "AcerPure",
-      "ACERPURE INDIA CE PRIVATE LIMITED",
-      "jialu",
-      "ACP65PAV"
+      "ZTE",
+      "DBZA55",
+      "P963F65",
+      "Z2450"
     ],
     [
-      "Crelander",
-      "W30B",
-      "W30B",
-      "W30"
+      "ZTE",
+      "Salt A45s",
+      "P606F21",
+      "Z2473"
     ],
     [
-      "Crelander",
-      "W30_NEU",
-      "W30_NEU",
-      "W30"
-    ],
-    [
-      "Datamini",
-      "T8004GR",
-      "T8004GR",
-      "T8004G"
-    ],
-    [
-      "DishTV (IN)",
-      "DISHTV INDIA LTD.",
-      "jialu",
-      "VZY65P"
-    ],
-    [
-      "HANKOOK_CREA",
-      "CREA_LEAP_Series",
-      "CREA_LEAP_Series",
-      "CREA_LEAP_Series"
-    ],
-    [
-      "Honor",
-      "HONOR Pad 10 Papermatte Display WIFI",
-      "HNHEY3-Q1",
-      "HEY3-W00"
-    ],
-    [
-      "IDEMIA",
-      "IDScreen ONE",
-      "IDScreen_ONE",
-      "MPH-MB005A"
-    ],
-    [
-      "Kalley",
-      "Black G4S2",
-      "Black_G4S2",
-      "Black G4S2"
-    ],
-    [
-      "Meswao",
-      "B3",
-      "B3",
-      "B3"
-    ],
-    [
-      "Nordic",
-      "Funpad-10",
-      "Funpad-10",
-      "Funpad-10"
-    ],
-    [
-      "PEICHENG",
-      "CP20UR",
-      "CP20UR",
-      "CP20_PRO"
-    ],
-    [
-      "Relndoo",
-      "T901_U1",
-      "T901_U1",
-      "T901"
-    ],
-    [
-      "SEGO",
-      "Smart_20",
-      "Smart_20",
-      "Smart 20"
-    ],
-    [
-      "iFLYTEK",
-      "AI_Board_75",
-      "AI_Board_75",
-      "AI_Board_75"
-    ],
-    [
-      "iFLYTEK",
-      "AI_Board_86",
-      "AI_Board_86",
-      "AI_Board_86"
-    ],
-    [
-      "onn.",
-      "PM876T",
-      "PM876T",
-      "PM876T"
-    ],
-    [
-      "vivo",
-      "Y05i",
-      "V2556",
-      "V2556"
-    ],
-    [
-      "vivo",
-      "Y05i",
-      "V2556",
-      "V2650"
+      "ZTE",
+      "Z2571N",
+      "P830F01",
+      "Z2571N"
     ]
   ]
 }
