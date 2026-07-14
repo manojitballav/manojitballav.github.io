@@ -1,30 +1,18 @@
 {
-  "lastUpdated": "2026-07-13",
-  "newDevicesCount": 4,
+  "lastUpdated": "2026-07-14",
+  "newDevicesCount": 2,
   "newDevices": [
     [
-      "Hisense",
-      "HLTE243E",
-      "HLTE243E",
-      "Hisense F36 Pro"
+      "Blackview",
+      "BL7000",
+      "BL7000",
+      "BL7000 Pro"
     ],
     [
-      "ZTE",
-      "DBZA55",
-      "P963F65",
-      "Z2450"
-    ],
-    [
-      "ZTE",
-      "Salt A45s",
-      "P606F21",
-      "Z2473"
-    ],
-    [
-      "ZTE",
-      "Z2571N",
-      "P830F01",
-      "Z2571N"
+      "raemond",
+      "M90_MAX_ROW",
+      "M90_MAX_ROW",
+      "M90_MAX"
     ]
   ]
 }
