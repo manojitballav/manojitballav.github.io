@@ -1,18 +1,66 @@
 {
-  "lastUpdated": "2026-07-14",
-  "newDevicesCount": 2,
+  "lastUpdated": "2026-07-15",
+  "newDevicesCount": 10,
   "newDevices": [
     [
-      "Blackview",
-      "BL7000",
-      "BL7000",
-      "BL7000 Pro"
+      "8849",
+      "A101",
+      "A101",
+      "A101"
     ],
     [
-      "raemond",
-      "M90_MAX_ROW",
-      "M90_MAX_ROW",
-      "M90_MAX"
+      "Lunnen",
+      "TL828S01",
+      "TL828S01",
+      "TL828S01"
+    ],
+    [
+      "ONERugged",
+      "M87X",
+      "M87X",
+      "M87X"
+    ],
+    [
+      "Oppo",
+      "Reno16 F 5G",
+      "OP62F3L1",
+      "CPH2967"
+    ],
+    [
+      "PEICHENG",
+      "ZB10A",
+      "ZB10A",
+      "ZB10"
+    ],
+    [
+      "RebotAi",
+      "AF12_US",
+      "AF12_US",
+      "AF12_US"
+    ],
+    [
+      "Tecno",
+      "TECNO MEGAPAD SE 2",
+      "TECNO-T1002W",
+      "TECNO T1002W"
+    ],
+    [
+      "Welio",
+      "RugPad",
+      "RugPad_Pro",
+      "RugPad Pro"
+    ],
+    [
+      "Whitedeer",
+      "X7K_U",
+      "X7K",
+      "X7K"
+    ],
+    [
+      "iQOO",
+      "iQOO Z11i AI版",
+      "PD2559",
+      "V2559UA"
     ]
   ]
 }
