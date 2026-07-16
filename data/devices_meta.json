@@ -1,66 +1,60 @@
 {
-  "lastUpdated": "2026-07-15",
-  "newDevicesCount": 10,
+  "lastUpdated": "2026-07-16",
+  "newDevicesCount": 9,
   "newDevices": [
     [
-      "8849",
-      "A101",
-      "A101",
-      "A101"
+      "Blu",
+      "View Speed Ultra 5G",
+      "B1661V",
+      "B1661V"
+    ],
+    [
+      "FCNT",
+      "arrows Alpha2 F-51G",
+      "F-51G",
+      "F-51G"
+    ],
+    [
+      "Gadnic",
+      "TBAI698",
+      "TBAI698",
+      "TBAI698"
     ],
     [
       "Lunnen",
-      "TL828S01",
-      "TL828S01",
-      "TL828S01"
+      "TL4648S02",
+      "TL4648S02",
+      "TL4648S02"
     ],
     [
-      "ONERugged",
-      "M87X",
-      "M87X",
-      "M87X"
+      "Motorola",
+      "moto g77 power",
+      "sydney",
+      "moto g47"
     ],
     [
-      "Oppo",
-      "Reno16 F 5G",
-      "OP62F3L1",
-      "CPH2967"
+      "Motorola",
+      "moto g77 power",
+      "sydney",
+      "moto g77 power"
     ],
     [
       "PEICHENG",
-      "ZB10A",
-      "ZB10A",
-      "ZB10"
+      "CP10SPro",
+      "CP10SPro",
+      "CP10_Pro"
     ],
     [
-      "RebotAi",
-      "AF12_US",
-      "AF12_US",
-      "AF12_US"
+      "Redmi",
+      "REDMI Note 17",
+      "mist",
+      "26021RN18C"
     ],
     [
-      "Tecno",
-      "TECNO MEGAPAD SE 2",
-      "TECNO-T1002W",
-      "TECNO T1002W"
-    ],
-    [
-      "Welio",
-      "RugPad",
-      "RugPad_Pro",
-      "RugPad Pro"
-    ],
-    [
-      "Whitedeer",
-      "X7K_U",
-      "X7K",
-      "X7K"
-    ],
-    [
-      "iQOO",
-      "iQOO Z11i AI版",
-      "PD2559",
-      "V2559UA"
+      "Shenzhen SEI Robotics",
+      "MH700",
+      "MH700",
+      "MH700"
     ]
   ]
 }
