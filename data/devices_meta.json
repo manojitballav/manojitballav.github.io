@@ -1,60 +1,48 @@
 {
-  "lastUpdated": "2026-07-16",
-  "newDevicesCount": 9,
+  "lastUpdated": "2026-07-17",
+  "newDevicesCount": 7,
   "newDevices": [
     [
-      "Blu",
-      "View Speed Ultra 5G",
-      "B1661V",
-      "B1661V"
+      "Helio",
+      "helio_110",
+      "helio_110",
+      "helio 110"
     ],
     [
-      "FCNT",
-      "arrows Alpha2 F-51G",
-      "F-51G",
-      "F-51G"
+      "Hotwav",
+      "TAB R12 Pro",
+      "TAB_R12_Pro",
+      "TAB R12 Pro"
     ],
     [
-      "Gadnic",
-      "TBAI698",
-      "TBAI698",
-      "TBAI698"
-    ],
-    [
-      "Lunnen",
-      "TL4648S02",
-      "TL4648S02",
-      "TL4648S02"
+      "Lenovo",
+      "Legion Phone Y70 New Generation",
+      "avr",
+      "XT2611-1"
     ],
     [
       "Motorola",
-      "moto g77 power",
-      "sydney",
-      "moto g47"
+      "motorola edge 70 max",
+      "avr",
+      "motorola edge 70 max"
     ],
     [
-      "Motorola",
-      "moto g77 power",
-      "sydney",
-      "moto g77 power"
+      "Point Mobile",
+      "MF52e",
+      "MF52e",
+      "MF52e"
     ],
     [
-      "PEICHENG",
-      "CP10SPro",
-      "CP10SPro",
-      "CP10_Pro"
+      "VS Visu",
+      "VS_SA14",
+      "oversea_v",
+      "VS_SA14"
     ],
     [
-      "Redmi",
-      "REDMI Note 17",
-      "mist",
-      "26021RN18C"
-    ],
-    [
-      "Shenzhen SEI Robotics",
-      "MH700",
-      "MH700",
-      "MH700"
+      "Whitedeer",
+      "X13L_EEA",
+      "X13L",
+      "X13L"
     ]
   ]
 }
