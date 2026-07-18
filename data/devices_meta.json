@@ -1,48 +1,96 @@
 {
-  "lastUpdated": "2026-07-17",
-  "newDevicesCount": 7,
+  "lastUpdated": "2026-07-18",
+  "newDevicesCount": 15,
   "newDevices": [
     [
-      "Helio",
-      "helio_110",
-      "helio_110",
-      "helio 110"
+      "CEPTER",
+      "CTABNEXUSC",
+      "CTABNEXUSC",
+      "CTABNEXUSC"
     ],
     [
-      "Hotwav",
-      "TAB R12 Pro",
-      "TAB_R12_Pro",
-      "TAB R12 Pro"
+      "DEPLAY",
+      "PRO5_P",
+      "PRO5_P",
+      "PRO5_P"
     ],
     [
-      "Lenovo",
-      "Legion Phone Y70 New Generation",
-      "avr",
-      "XT2611-1"
+      "DSIC",
+      "Mobilebase DS65",
+      "DS65",
+      "DS65"
     ],
     [
-      "Motorola",
-      "motorola edge 70 max",
-      "avr",
-      "motorola edge 70 max"
+      "Hometech",
+      "ALFA10MX",
+      "ALFA10MX",
+      "Alfa 11BT Lite"
     ],
     [
-      "Point Mobile",
-      "MF52e",
-      "MF52e",
-      "MF52e"
+      "Itel",
+      "itel CITY 200/200s",
+      "itel-C681LN",
+      "itel C681LN"
     ],
     [
-      "VS Visu",
-      "VS_SA14",
-      "oversea_v",
-      "VS_SA14"
+      "M-Horse",
+      "Pad_17_US",
+      "Pad_17",
+      "Pad_17"
+    ],
+    [
+      "Newline",
+      "26S",
+      "newline26S",
+      "newline26S"
+    ],
+    [
+      "Pritom",
+      "K7_A07_US",
+      "K7_A07_US",
+      "K7"
+    ],
+    [
+      "TABWEE",
+      "V90_NEU",
+      "V90_NEU",
+      "V90_NEU"
+    ],
+    [
+      "Topsand",
+      "G12_Mini_S",
+      "G12_Mini_S",
+      "G12_Mini_S"
     ],
     [
       "Whitedeer",
-      "X13L_EEA",
-      "X13L",
-      "X13L"
+      "X7K_G",
+      "X7K",
+      "X7K"
+    ],
+    [
+      "innex",
+      "EU_Lite_3576",
+      "innex_Meeting_Hub",
+      "Eu_Lite"
+    ],
+    [
+      "raemond",
+      "A90_ROW",
+      "A90_ROW",
+      "A90"
+    ],
+    [
+      "raemond",
+      "K90Pro_ROW_BND",
+      "K90Pro_ROW_BND",
+      "K90Pro"
+    ],
+    [
+      "raemond",
+      "S90_ROW_BND",
+      "S90_ROW_BND",
+      "S90"
     ]
   ]
 }
