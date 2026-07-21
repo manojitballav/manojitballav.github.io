@@ -1,96 +1,24 @@
 {
-  "lastUpdated": "2026-07-20",
-  "newDevicesCount": 15,
+  "lastUpdated": "2026-07-21",
+  "newDevicesCount": 3,
   "newDevices": [
     [
-      "CEPTER",
-      "CTABNEXUSC",
-      "CTABNEXUSC",
-      "CTABNEXUSC"
+      "Digit",
+      "Digit_Tab2",
+      "Digit_Tab2",
+      "Digit_Tab2"
     ],
     [
-      "DEPLAY",
-      "PRO5_P",
-      "PRO5_P",
-      "PRO5_P"
+      "Invens",
+      "ULTRA_S26",
+      "ULTRA_S26",
+      "ULTRA S26"
     ],
     [
-      "DSIC",
-      "Mobilebase DS65",
-      "DS65",
-      "DS65"
-    ],
-    [
-      "Hometech",
-      "ALFA10MX",
-      "ALFA10MX",
-      "Alfa 11BT Lite"
-    ],
-    [
-      "Itel",
-      "itel CITY 200/200s",
-      "itel-C681LN",
-      "itel C681LN"
-    ],
-    [
-      "M-Horse",
-      "Pad_17_US",
-      "Pad_17",
-      "Pad_17"
-    ],
-    [
-      "Newline",
-      "26S",
-      "newline26S",
-      "newline26S"
-    ],
-    [
-      "Pritom",
-      "K7_A07_US",
-      "K7_A07_US",
-      "K7"
-    ],
-    [
-      "TABWEE",
-      "V90_NEU",
-      "V90_NEU",
-      "V90_NEU"
-    ],
-    [
-      "Topsand",
-      "G12_Mini_S",
-      "G12_Mini_S",
-      "G12_Mini_S"
-    ],
-    [
-      "Whitedeer",
-      "X7K_G",
-      "X7K",
-      "X7K"
-    ],
-    [
-      "innex",
-      "EU_Lite_3576",
-      "innex_Meeting_Hub",
-      "Eu_Lite"
-    ],
-    [
-      "raemond",
-      "A90_ROW",
-      "A90_ROW",
-      "A90"
-    ],
-    [
-      "raemond",
-      "K90Pro_ROW_BND",
-      "K90Pro_ROW_BND",
-      "K90Pro"
-    ],
-    [
-      "raemond",
-      "S90_ROW_BND",
-      "S90_ROW_BND",
-      "S90"
+      "aigo",
+      "AIGO_Pad_Y800",
+      "AIGO_Pad_Y800",
+      "AIGO_Pad_Y800"
     ]
   ]
 }
