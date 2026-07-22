@@ -1,24 +1,66 @@
 {
-  "lastUpdated": "2026-07-21",
-  "newDevicesCount": 3,
+  "lastUpdated": "2026-07-22",
+  "newDevicesCount": 10,
   "newDevices": [
     [
+      "Avtek",
+      "TS_9_Mate_G",
+      "TS_9_Mate_G",
+      "TS_9_Mate_G"
+    ],
+    [
+      "Contixo",
+      "A10e",
+      "A10e",
+      "A10e"
+    ],
+    [
       "Digit",
-      "Digit_Tab2",
-      "Digit_Tab2",
-      "Digit_Tab2"
+      "Tab2",
+      "Tab2",
+      "Tab2"
     ],
     [
-      "Invens",
-      "ULTRA_S26",
-      "ULTRA_S26",
-      "ULTRA S26"
+      "MultiPad",
+      "MP_8660QC",
+      "MP_8660QC",
+      "MP_8660QC"
     ],
     [
-      "aigo",
-      "AIGO_Pad_Y800",
-      "AIGO_Pad_Y800",
-      "AIGO_Pad_Y800"
+      "Multilaser",
+      "M12_4G",
+      "ML_BO07_M12_4G",
+      "M12_4G"
+    ],
+    [
+      "Oppo",
+      "OPPO K15",
+      "OP61FDL1",
+      "PYD110"
+    ],
+    [
+      "PEICHENG",
+      "YQ10ST",
+      "YQ10ST",
+      "YQ10S"
+    ],
+    [
+      "PRIMA",
+      "SA_Interactive_Screens",
+      "SA",
+      "SA_Series"
+    ],
+    [
+      "Xiaomi",
+      "Xiaomi TV Stick",
+      "coco",
+      "MiTV-AXTU0"
+    ],
+    [
+      "raemond",
+      "M90_MAX_ROW",
+      "M90_MAX_ROW",
+      "M90 MAX"
     ]
   ]
 }
