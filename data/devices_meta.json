@@ -1,66 +1,36 @@
 {
-  "lastUpdated": "2026-07-22",
-  "newDevicesCount": 10,
+  "lastUpdated": "2026-07-23",
+  "newDevicesCount": 5,
   "newDevices": [
     [
-      "Avtek",
-      "TS_9_Mate_G",
-      "TS_9_Mate_G",
-      "TS_9_Mate_G"
+      "Motorola",
+      "motorola edge - 2026",
+      "masera",
+      "motorola edge - 2026"
     ],
     [
-      "Contixo",
-      "A10e",
-      "A10e",
-      "A10e"
+      "Motorola",
+      "motorola edge - 2026",
+      "masera",
+      "motorola edge 60 fusion"
     ],
     [
-      "Digit",
-      "Tab2",
-      "Tab2",
-      "Tab2"
+      "NOS",
+      "Box V4",
+      "HY4AA-NOS",
+      "BOX v4"
     ],
     [
-      "MultiPad",
-      "MP_8660QC",
-      "MP_8660QC",
-      "MP_8660QC"
+      "OMAX",
+      "FeelMook6_Series",
+      "FeelMook6_Series",
+      "FeelMook6_Series"
     ],
     [
-      "Multilaser",
-      "M12_4G",
-      "ML_BO07_M12_4G",
-      "M12_4G"
-    ],
-    [
-      "Oppo",
-      "OPPO K15",
-      "OP61FDL1",
-      "PYD110"
-    ],
-    [
-      "PEICHENG",
-      "YQ10ST",
-      "YQ10ST",
-      "YQ10S"
-    ],
-    [
-      "PRIMA",
-      "SA_Interactive_Screens",
-      "SA",
-      "SA_Series"
-    ],
-    [
-      "Xiaomi",
-      "Xiaomi TV Stick",
-      "coco",
-      "MiTV-AXTU0"
-    ],
-    [
-      "raemond",
-      "M90_MAX_ROW",
-      "M90_MAX_ROW",
-      "M90 MAX"
+      "PERSONA",
+      "KTA_PRO_100W",
+      "KTA_PRO_100W",
+      "KTA_PRO_100W"
     ]
   ]
 }
