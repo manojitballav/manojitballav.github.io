@@ -1,36 +1,114 @@
 {
-  "lastUpdated": "2026-07-23",
-  "newDevicesCount": 5,
+  "lastUpdated": "2026-07-24",
+  "newDevicesCount": 18,
   "newDevices": [
     [
-      "Motorola",
-      "motorola edge - 2026",
-      "masera",
-      "motorola edge - 2026"
+      "Crosscall",
+      "Core-Z6",
+      "L790",
+      "AD-Z5"
     ],
     [
-      "Motorola",
-      "motorola edge - 2026",
-      "masera",
-      "motorola edge 60 fusion"
+      "ENV(EC)",
+      "ENV_PAD_17_PRO",
+      "ENV_PAD_17_PRO",
+      "ENV PAD 17 PRO"
     ],
     [
-      "NOS",
-      "Box V4",
-      "HY4AA-NOS",
-      "BOX v4"
+      "LT_Mobile",
+      "LT_K82",
+      "LT_K82",
+      "LT K82"
     ],
     [
-      "OMAX",
-      "FeelMook6_Series",
-      "FeelMook6_Series",
-      "FeelMook6_Series"
+      "Lumallax",
+      "G127D",
+      "G127D",
+      "G127D"
     ],
     [
-      "PERSONA",
-      "KTA_PRO_100W",
-      "KTA_PRO_100W",
-      "KTA_PRO_100W"
+      "SVITOO",
+      "P11_T_US",
+      "P11_T",
+      "P11_T"
+    ],
+    [
+      "Samsung",
+      "Galaxy Z Flip8",
+      "b8q",
+      "SC-55G"
+    ],
+    [
+      "Samsung",
+      "Galaxy Z Flip8",
+      "b8q",
+      "SCG40"
+    ],
+    [
+      "Samsung",
+      "Galaxy Z Flip8",
+      "b8q",
+      "SM-F7760"
+    ],
+    [
+      "Samsung",
+      "Galaxy Z Flip8",
+      "b8q",
+      "SM-F776C"
+    ],
+    [
+      "Samsung",
+      "Galaxy Z Flip8",
+      "b8q",
+      "SM-F776Q"
+    ],
+    [
+      "Samsung",
+      "Galaxy Z Flip8",
+      "b8q",
+      "SM-F776U"
+    ],
+    [
+      "Samsung",
+      "Galaxy Z Flip8",
+      "b8q",
+      "SM-F776U1"
+    ],
+    [
+      "Samsung",
+      "Galaxy Z Flip8",
+      "b8q",
+      "SM-F776W"
+    ],
+    [
+      "Samsung",
+      "Galaxy Z Flip8",
+      "b8q",
+      "SM-F776Z"
+    ],
+    [
+      "Samsung",
+      "Galaxy Z Flip8",
+      "b8s",
+      "SM-F776B"
+    ],
+    [
+      "Samsung",
+      "Galaxy Z Flip8",
+      "b8s",
+      "SM-F776N"
+    ],
+    [
+      "Samsung",
+      "Galaxy Z Fold8 Ultra",
+      "q8q",
+      "SM-F9760"
+    ],
+    [
+      "Samsung",
+      "Galaxy Z Fold8 Ultra",
+      "q8q",
+      "SM-F976U1"
     ]
   ]
 }
