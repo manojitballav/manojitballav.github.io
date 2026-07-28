@@ -1,12 +1,72 @@
 {
-  "lastUpdated": "2026-07-27",
-  "newDevicesCount": 1,
+  "lastUpdated": "2026-07-28",
+  "newDevicesCount": 11,
   "newDevices": [
     [
-      "ECOPAD",
-      "A30Pro_A_US",
-      "A30Pro_A",
-      "A30Pro_A_US"
+      "Aiwa",
+      "JA6-TBA1103",
+      "JA6-TBA1103",
+      "JA6-TBA1103"
+    ],
+    [
+      "Blu",
+      "B1680V",
+      "B1680V",
+      "B1680V"
+    ],
+    [
+      "FPD",
+      "CP12-J1",
+      "CP12-J1",
+      "CP12-J1"
+    ],
+    [
+      "Horion",
+      "Horion_K8M8A",
+      "K8M8A",
+      "K8M8A"
+    ],
+    [
+      "Maxzz",
+      "TA-04",
+      "TA-04",
+      "TA-04"
+    ],
+    [
+      "Oppo",
+      "A7 Pro Max 5G",
+      "OP620DL1",
+      "PYC110"
+    ],
+    [
+      "Relndoo",
+      "P90_Y_US",
+      "P90_Y",
+      "P90"
+    ],
+    [
+      "SMART_KASSEL",
+      "SK-5503ARX",
+      "SK-5503ARX",
+      "SK-5503ARX"
+    ],
+    [
+      "Samsung",
+      "Galaxy A57 5G",
+      "a57x",
+      "SM-A576U"
+    ],
+    [
+      "Whitedeer",
+      "X13LG",
+      "X13L",
+      "X13L"
+    ],
+    [
+      "raemond",
+      "M90_MAX_EEA",
+      "M90_MAX_EEA",
+      "M90 MAX"
     ]
   ]
 }
