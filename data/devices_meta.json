@@ -1,72 +1,180 @@
 {
-  "lastUpdated": "2026-07-28",
-  "newDevicesCount": 11,
+  "lastUpdated": "2026-07-29",
+  "newDevicesCount": 29,
   "newDevices": [
     [
-      "Aiwa",
-      "JA6-TBA1103",
-      "JA6-TBA1103",
-      "JA6-TBA1103"
+      "AIPLUS",
+      "AI+ Nova 2 Ultra",
+      "Nova_2_Ultra",
+      "AI+ Nova 2 Ultra"
     ],
     [
-      "Blu",
-      "B1680V",
-      "B1680V",
-      "B1680V"
+      "AOC",
+      "M21",
+      "M21",
+      "M21"
     ],
     [
-      "FPD",
-      "CP12-J1",
-      "CP12-J1",
-      "CP12-J1"
+      "Alldocube",
+      "Kido",
+      "kido",
+      "U818"
     ],
     [
-      "Horion",
-      "Horion_K8M8A",
-      "K8M8A",
-      "K8M8A"
+      "Amdox",
+      "AME_QT08UM",
+      "Smart_Whiteboard",
+      "AME_QT08UM"
     ],
     [
-      "Maxzz",
-      "TA-04",
-      "TA-04",
-      "TA-04"
+      "CEPTER",
+      "CTABNEXUSP",
+      "CTABNEXUSP",
+      "CTABNEXUSP"
     ],
     [
-      "Oppo",
-      "A7 Pro Max 5G",
-      "OP620DL1",
-      "PYC110"
+      "Cubot",
+      "A50",
+      "A50",
+      "A50"
     ],
     [
-      "Relndoo",
-      "P90_Y_US",
-      "P90_Y",
-      "P90"
+      "FOSSiBOT",
+      "F106_Plus",
+      "F106_Plus",
+      "F106 Plus"
     ],
     [
-      "SMART_KASSEL",
-      "SK-5503ARX",
-      "SK-5503ARX",
-      "SK-5503ARX"
+      "FOSSiBOT",
+      "F123_EEA",
+      "F123",
+      "F123"
     ],
     [
-      "Samsung",
-      "Galaxy A57 5G",
-      "a57x",
-      "SM-A576U"
+      "Honor",
+      "HONOR X6e",
+      "HNLBU-M",
+      "LBU-LX1"
     ],
     [
-      "Whitedeer",
-      "X13LG",
-      "X13L",
-      "X13L"
+      "Honor",
+      "HONOR X6e",
+      "HNLBU-M",
+      "LBU-LX2"
     ],
     [
-      "raemond",
-      "M90_MAX_EEA",
-      "M90_MAX_EEA",
-      "M90 MAX"
+      "Honor",
+      "HONOR X6e",
+      "HNLBU-M",
+      "LBU-LX3"
+    ],
+    [
+      "JCB_Phone",
+      "Tough_Tablet_T10",
+      "Tough_Tablet_T10",
+      "Tough_Tablet_T10"
+    ],
+    [
+      "Oukitel",
+      "C17_go_EEA",
+      "C17",
+      "C17"
+    ],
+    [
+      "PEICHENG",
+      "CP10R_Pro",
+      "CP10R_Pro",
+      "CP10-proK"
+    ],
+    [
+      "PROTON",
+      "Zen 6T",
+      "Proton_Zen_6T",
+      "Zen 6T"
+    ],
+    [
+      "Pritom",
+      "M10_C10_Kids_USA",
+      "M10_C10_Kids_USA",
+      "M10"
+    ],
+    [
+      "Pritom",
+      "P7_A10K_EEA",
+      "P7_A10K_EEA",
+      "P7"
+    ],
+    [
+      "RUGTAKE",
+      "RUGTAKE_T5Pro",
+      "RUGTAKE_T5Pro",
+      "RUGTAKE_T5 Pro"
+    ],
+    [
+      "RugOne",
+      "Xever 8",
+      "GR1001TF1",
+      "Xever 8"
+    ],
+    [
+      "SPECTRA",
+      "Spectra J3 MTN",
+      "Spectra_J3_MTN",
+      "Spectra_J3_MTN"
+    ],
+    [
+      "Sun_King",
+      "EZ 3",
+      "EZ_3",
+      "EZ 3"
+    ],
+    [
+      "Ulefone",
+      "Tab A12 Pro",
+      "UF1201RK1",
+      "Tab A12 Pro"
+    ],
+    [
+      "Ulefone",
+      "UF1201RK1",
+      "UF1201RK1",
+      "Tab A12 Pro"
+    ],
+    [
+      "Unnecto",
+      "Eco 1",
+      "Eco_1",
+      "Eco_1"
+    ],
+    [
+      "Walton",
+      "zenx Z3",
+      "zenx_Z3",
+      "Z3"
+    ],
+    [
+      "ZEED",
+      "Z-PAD_PRO",
+      "ZP210P",
+      "Z-PAD PRO ZP210P"
+    ],
+    [
+      "Zebra",
+      "TC201",
+      "TCW01L",
+      "TC201L"
+    ],
+    [
+      "Zebra",
+      "TC201",
+      "TCW01W",
+      "TC201"
+    ],
+    [
+      "Zebra",
+      "TC201",
+      "TCW01W",
+      "TC201W"
     ]
   ]
 }
