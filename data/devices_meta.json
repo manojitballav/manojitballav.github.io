@@ -1,180 +1,276 @@
 {
-  "lastUpdated": "2026-07-29",
-  "newDevicesCount": 29,
+  "lastUpdated": "2026-07-30",
+  "newDevicesCount": 45,
   "newDevices": [
     [
-      "AIPLUS",
-      "AI+ Nova 2 Ultra",
-      "Nova_2_Ultra",
-      "AI+ Nova 2 Ultra"
+      "AWOW",
+      "P11A_EEA",
+      "P11A",
+      "P11A"
     ],
     [
-      "AOC",
-      "M21",
-      "M21",
-      "M21"
+      "AWOW",
+      "P11A_US",
+      "P11A",
+      "P11A"
     ],
     [
       "Alldocube",
-      "Kido",
-      "kido",
-      "U818"
+      "iPlay 80 mini Pro",
+      "T830",
+      "iPlay80miniPro"
     ],
     [
-      "Amdox",
-      "AME_QT08UM",
-      "Smart_Whiteboard",
-      "AME_QT08UM"
+      "Condor",
+      "80 Lite 5G",
+      "80_Lite_5G",
+      "80 Lite 5G"
     ],
     [
-      "CEPTER",
-      "CTABNEXUSP",
-      "CTABNEXUSP",
-      "CTABNEXUSP"
+      "Condor",
+      "A5",
+      "A5",
+      "A5"
     ],
     [
-      "Cubot",
-      "A50",
-      "A50",
-      "A50"
+      "Coolpad",
+      "K23",
+      "K23",
+      "K23"
     ],
     [
-      "FOSSiBOT",
-      "F106_Plus",
-      "F106_Plus",
-      "F106 Plus"
+      "HMD",
+      "HMD Vibe2 5G",
+      "KKT",
+      "HMD Vibe2 5G"
     ],
     [
-      "FOSSiBOT",
-      "F123_EEA",
-      "F123",
-      "F123"
+      "Helio",
+      "helio 46",
+      "helio_46",
+      "helio 46"
     ],
     [
-      "Honor",
-      "HONOR X6e",
-      "HNLBU-M",
-      "LBU-LX1"
+      "Hot Pepper",
+      "HPPL61B",
+      "HPPL61B",
+      "HPPL61B"
     ],
     [
-      "Honor",
-      "HONOR X6e",
-      "HNLBU-M",
-      "LBU-LX2"
+      "JOVI",
+      "JOVI X300 Ultra",
+      "J2510",
+      "J2510"
     ],
     [
-      "Honor",
-      "HONOR X6e",
-      "HNLBU-M",
-      "LBU-LX3"
+      "Kalley",
+      "Kalley Note 10 Lite",
+      "Kalley_Note10Lite",
+      "Kalley Note 10 Lite"
     ],
     [
-      "JCB_Phone",
-      "Tough_Tablet_T10",
-      "Tough_Tablet_T10",
-      "Tough_Tablet_T10"
+      "LAGENIO",
+      "Eagle Pro",
+      "Eagle_Pro",
+      "Eagle Pro"
+    ],
+    [
+      "LIFEPHONE",
+      "a1",
+      "a1",
+      "a1"
+    ],
+    [
+      "LT_Mobile",
+      "LT_9910",
+      "LT_9910",
+      "LT_9910"
+    ],
+    [
+      "Lucky_Fox",
+      "QT26",
+      "QT26",
+      "QT26"
+    ],
+    [
+      "MYCOM",
+      "COMEK C20",
+      "COMEK_C20",
+      "MYCOM COMEK C20"
+    ],
+    [
+      "Maxwest",
+      "NITRO N68",
+      "MX-N68MM",
+      "NITRO_N68"
+    ],
+    [
+      "Nuu",
+      "N10 Plus",
+      "S6605LA",
+      "S6605L"
     ],
     [
       "Oukitel",
-      "C17_go_EEA",
+      "C17_go_ROW",
       "C17",
       "C17"
     ],
     [
-      "PEICHENG",
-      "CP10R_Pro",
-      "CP10R_Pro",
-      "CP10-proK"
+      "Oukitel",
+      "C26_Mini_go_EEA",
+      "C26_Mini",
+      "C26 Mini"
+    ],
+    [
+      "Oukitel",
+      "C69_Pro_EEA",
+      "C69_Pro",
+      "C69 Pro"
+    ],
+    [
+      "Oukitel",
+      "C69_Pro_NFC_EEA",
+      "C69_Pro",
+      "C69 Pro"
+    ],
+    [
+      "Oukitel",
+      "C69_Pro_NFC_ROW",
+      "C69_Pro",
+      "C69 Pro"
+    ],
+    [
+      "Oukitel",
+      "C71_Pro_ROW",
+      "C71_Pro",
+      "C71 Pro"
+    ],
+    [
+      "Oukitel",
+      "C71_ROW",
+      "C71",
+      "C71"
+    ],
+    [
+      "Oukitel",
+      "C72_Pro_ROW",
+      "C72_Pro",
+      "C72 Pro"
+    ],
+    [
+      "Oukitel",
+      "C72_ROW",
+      "C72",
+      "C72"
+    ],
+    [
+      "Oukitel",
+      "WP500 Ultra",
+      "WP500_Ultra",
+      "WP500 Ultra"
+    ],
+    [
+      "Oukitel",
+      "WP68_EEA",
+      "WP68",
+      "WP68 Air 4G"
+    ],
+    [
+      "Oukitel",
+      "WP68_EEA",
+      "WP68",
+      "WP68"
+    ],
+    [
+      "Oukitel",
+      "WP68_Pro_EEA",
+      "WP68_Pro",
+      "WP68 Air"
+    ],
+    [
+      "Oukitel",
+      "WP68_Pro_EEA",
+      "WP68_Pro",
+      "WP68 Pro"
     ],
     [
       "PROTON",
-      "Zen 6T",
-      "Proton_Zen_6T",
-      "Zen 6T"
+      "Eagle X",
+      "Proton_Eagle_X",
+      "Eagle X"
     ],
     [
-      "Pritom",
-      "M10_C10_Kids_USA",
-      "M10_C10_Kids_USA",
-      "M10"
-    ],
-    [
-      "Pritom",
-      "P7_A10K_EEA",
-      "P7_A10K_EEA",
-      "P7"
-    ],
-    [
-      "RUGTAKE",
-      "RUGTAKE_T5Pro",
-      "RUGTAKE_T5Pro",
-      "RUGTAKE_T5 Pro"
-    ],
-    [
-      "RugOne",
-      "Xever 8",
-      "GR1001TF1",
-      "Xever 8"
+      "PROTON",
+      "Power 50",
+      "Proton_Power_50",
+      "Power 50"
     ],
     [
       "SPECTRA",
-      "Spectra J3 MTN",
-      "Spectra_J3_MTN",
-      "Spectra_J3_MTN"
+      "Spectra J3",
+      "Spectra_J3",
+      "Spectra_J3"
     ],
     [
-      "Sun_King",
-      "EZ 3",
-      "EZ_3",
-      "EZ 3"
+      "SPECTRA",
+      "Spectra J4",
+      "Spectra_J4",
+      "Spectra_J4"
+    ],
+    [
+      "SVITOO",
+      "P108_R_EEA",
+      "P108_R",
+      "P108_R"
+    ],
+    [
+      "Specktron",
+      "UDX_ProLite_series",
+      "UDX_S2_series",
+      "UDX_ProLite_series"
     ],
     [
       "Ulefone",
-      "Tab A12 Pro",
-      "UF1201RK1",
-      "Tab A12 Pro"
+      "Note 22",
+      "GQ3295RW1",
+      "Note 22"
     ],
     [
-      "Ulefone",
-      "UF1201RK1",
-      "UF1201RK1",
-      "Tab A12 Pro"
-    ],
-    [
-      "Unnecto",
-      "Eco 1",
-      "Eco_1",
-      "Eco_1"
+      "VERAIZON",
+      "V81",
+      "V81",
+      "V81"
     ],
     [
       "Walton",
-      "zenx Z3",
-      "zenx_Z3",
-      "Z3"
+      "XANON X22 5G",
+      "XANON_X22",
+      "XANON X22 5G"
     ],
     [
-      "ZEED",
-      "Z-PAD_PRO",
-      "ZP210P",
-      "Z-PAD PRO ZP210P"
+      "raemond",
+      "M70_C_EEA",
+      "M70_C",
+      "M70"
     ],
     [
-      "Zebra",
-      "TC201",
-      "TCW01L",
-      "TC201L"
+      "raemond",
+      "M70_C_ROW",
+      "M70_C",
+      "M70"
     ],
     [
-      "Zebra",
-      "TC201",
-      "TCW01W",
-      "TC201"
+      "raemond",
+      "M70_C_US",
+      "M70_C",
+      "M70"
     ],
     [
-      "Zebra",
-      "TC201",
-      "TCW01W",
-      "TC201W"
+      "vivo",
+      "X300 E",
+      "PD2612",
+      "V2612A"
     ]
   ]
 }
