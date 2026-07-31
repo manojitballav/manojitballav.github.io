@@ -1,276 +1,138 @@
 {
-  "lastUpdated": "2026-07-30",
-  "newDevicesCount": 45,
+  "lastUpdated": "2026-07-31",
+  "newDevicesCount": 22,
   "newDevices": [
     [
-      "AWOW",
-      "P11A_EEA",
-      "P11A",
-      "P11A"
+      "ASTECH",
+      "ASTECH_IRIS_60",
+      "ASTECH_IRIS_60",
+      "ASTECH_IRIS_60"
     ],
     [
-      "AWOW",
-      "P11A_US",
-      "P11A",
-      "P11A"
+      "Anyreal",
+      "Note 56",
+      "1928C-A",
+      "Note 56"
     ],
     [
-      "Alldocube",
-      "iPlay 80 mini Pro",
-      "T830",
-      "iPlay80miniPro"
+      "Anyreal",
+      "Note56 X",
+      "1928SC-A",
+      "Note56 X"
     ],
     [
-      "Condor",
-      "80 Lite 5G",
-      "80_Lite_5G",
-      "80 Lite 5G"
+      "Anyreal",
+      "T2-AR",
+      "T2-AR",
+      "U11"
     ],
     [
-      "Condor",
-      "A5",
-      "A5",
-      "A5"
+      "BIRDCLAW",
+      "P7C-B",
+      "P7C-B",
+      "P12"
     ],
     [
-      "Coolpad",
-      "K23",
-      "K23",
-      "K23"
+      "BIRDCLAW",
+      "P8-B",
+      "P8-B",
+      "P13 Pro"
     ],
     [
-      "HMD",
-      "HMD Vibe2 5G",
-      "KKT",
-      "HMD Vibe2 5G"
+      "BIRDCLAW",
+      "T2-B",
+      "T2-B",
+      "P11"
     ],
     [
-      "Helio",
-      "helio 46",
-      "helio_46",
-      "helio 46"
+      "Blackview",
+      "BL7000 Pro",
+      "BL7000_Pro",
+      "BL7000 Pro"
     ],
     [
-      "Hot Pepper",
-      "HPPL61B",
-      "HPPL61B",
-      "HPPL61B"
+      "CEPTER",
+      "CTABNEXT10C",
+      "CTABNEXT10C",
+      "CTABNEXT10C"
     ],
     [
-      "JOVI",
-      "JOVI X300 Ultra",
-      "J2510",
-      "J2510"
+      "Easerush",
+      "P13",
+      "P8C-E",
+      "P13"
     ],
     [
-      "Kalley",
-      "Kalley Note 10 Lite",
-      "Kalley_Note10Lite",
-      "Kalley Note 10 Lite"
+      "Easerush",
+      "P7C-E",
+      "P7C-E",
+      "P12"
     ],
     [
-      "LAGENIO",
-      "Eagle Pro",
-      "Eagle_Pro",
-      "Eagle Pro"
+      "Easerush",
+      "P7S-E",
+      "P7S-E",
+      "P12 Pro"
     ],
     [
-      "LIFEPHONE",
-      "a1",
-      "a1",
-      "a1"
+      "Easerush",
+      "P9T-E",
+      "P9T-E",
+      "P12 Plus"
     ],
     [
-      "LT_Mobile",
-      "LT_9910",
-      "LT_9910",
-      "LT_9910"
+      "Easerush",
+      "P9T-E",
+      "P9T-E",
+      "P12 Power"
     ],
     [
-      "Lucky_Fox",
-      "QT26",
-      "QT26",
-      "QT26"
+      "Fanconn",
+      "DC695",
+      "Tablet",
+      "DC695"
     ],
     [
-      "MYCOM",
-      "COMEK C20",
-      "COMEK_C20",
-      "MYCOM COMEK C20"
+      "Gloria",
+      "A60",
+      "gloria_A60",
+      "A60"
     ],
     [
-      "Maxwest",
-      "NITRO N68",
-      "MX-N68MM",
-      "NITRO_N68"
+      "HUIHUANG",
+      "XC70_US",
+      "XC70_US",
+      "XC70_US"
     ],
     [
-      "Nuu",
-      "N10 Plus",
-      "S6605LA",
-      "S6605L"
+      "IACTIVE",
+      "lactive_IA75",
+      "lactive_IA75",
+      "lactive_IA75"
     ],
     [
-      "Oukitel",
-      "C17_go_ROW",
-      "C17",
-      "C17"
+      "OSCAL",
+      "BOLT 2",
+      "BOLT_2",
+      "BOLT 2"
     ],
     [
-      "Oukitel",
-      "C26_Mini_go_EEA",
-      "C26_Mini",
-      "C26 Mini"
+      "OSCAL",
+      "FLAT 3C Mini",
+      "FLAT_3C_Mini",
+      "FLAT 3C Mini"
     ],
     [
-      "Oukitel",
-      "C69_Pro_EEA",
-      "C69_Pro",
-      "C69 Pro"
+      "Pritom",
+      "L10_001",
+      "L10_001",
+      "L10"
     ],
     [
-      "Oukitel",
-      "C69_Pro_NFC_EEA",
-      "C69_Pro",
-      "C69 Pro"
-    ],
-    [
-      "Oukitel",
-      "C69_Pro_NFC_ROW",
-      "C69_Pro",
-      "C69 Pro"
-    ],
-    [
-      "Oukitel",
-      "C71_Pro_ROW",
-      "C71_Pro",
-      "C71 Pro"
-    ],
-    [
-      "Oukitel",
-      "C71_ROW",
-      "C71",
-      "C71"
-    ],
-    [
-      "Oukitel",
-      "C72_Pro_ROW",
-      "C72_Pro",
-      "C72 Pro"
-    ],
-    [
-      "Oukitel",
-      "C72_ROW",
-      "C72",
-      "C72"
-    ],
-    [
-      "Oukitel",
-      "WP500 Ultra",
-      "WP500_Ultra",
-      "WP500 Ultra"
-    ],
-    [
-      "Oukitel",
-      "WP68_EEA",
-      "WP68",
-      "WP68 Air 4G"
-    ],
-    [
-      "Oukitel",
-      "WP68_EEA",
-      "WP68",
-      "WP68"
-    ],
-    [
-      "Oukitel",
-      "WP68_Pro_EEA",
-      "WP68_Pro",
-      "WP68 Air"
-    ],
-    [
-      "Oukitel",
-      "WP68_Pro_EEA",
-      "WP68_Pro",
-      "WP68 Pro"
-    ],
-    [
-      "PROTON",
-      "Eagle X",
-      "Proton_Eagle_X",
-      "Eagle X"
-    ],
-    [
-      "PROTON",
-      "Power 50",
-      "Proton_Power_50",
-      "Power 50"
-    ],
-    [
-      "SPECTRA",
-      "Spectra J3",
-      "Spectra_J3",
-      "Spectra_J3"
-    ],
-    [
-      "SPECTRA",
-      "Spectra J4",
-      "Spectra_J4",
-      "Spectra_J4"
-    ],
-    [
-      "SVITOO",
-      "P108_R_EEA",
-      "P108_R",
-      "P108_R"
-    ],
-    [
-      "Specktron",
-      "UDX_ProLite_series",
-      "UDX_S2_series",
-      "UDX_ProLite_series"
-    ],
-    [
-      "Ulefone",
-      "Note 22",
-      "GQ3295RW1",
-      "Note 22"
-    ],
-    [
-      "VERAIZON",
-      "V81",
-      "V81",
-      "V81"
-    ],
-    [
-      "Walton",
-      "XANON X22 5G",
-      "XANON_X22",
-      "XANON X22 5G"
-    ],
-    [
-      "raemond",
-      "M70_C_EEA",
-      "M70_C",
-      "M70"
-    ],
-    [
-      "raemond",
-      "M70_C_ROW",
-      "M70_C",
-      "M70"
-    ],
-    [
-      "raemond",
-      "M70_C_US",
-      "M70_C",
-      "M70"
-    ],
-    [
-      "vivo",
-      "X300 E",
-      "PD2612",
-      "V2612A"
+      "Pritom",
+      "L10_001_USA",
+      "L10_001",
+      "L10"
     ]
   ]
 }
