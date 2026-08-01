@@ -1,138 +1,330 @@
 {
-  "lastUpdated": "2026-07-31",
-  "newDevicesCount": 22,
+  "lastUpdated": "2026-08-01",
+  "newDevicesCount": 54,
   "newDevices": [
     [
-      "ASTECH",
-      "ASTECH_IRIS_60",
-      "ASTECH_IRIS_60",
-      "ASTECH_IRIS_60"
+      "ARATEK",
+      "Marshall-8R",
+      "Marshall-8R",
+      "Marshall-8R"
     ],
     [
       "Anyreal",
-      "Note 56",
-      "1928C-A",
-      "Note 56"
+      "P8S-AR",
+      "P8S-AR",
+      "Tab G6 Max"
     ],
     [
       "Anyreal",
-      "Note56 X",
-      "1928SC-A",
-      "Note56 X"
+      "T2CS-AR",
+      "T2CS-AR",
+      "Tab A9 Pro+"
     ],
     [
       "Anyreal",
-      "T2-AR",
-      "T2-AR",
-      "U11"
+      "Tab E3 Max",
+      "P6T",
+      "Tab E3 Max"
     ],
     [
-      "BIRDCLAW",
-      "P7C-B",
-      "P7C-B",
-      "P12"
+      "Anyreal",
+      "U12",
+      "P7C-AR",
+      "U12"
     ],
     [
-      "BIRDCLAW",
-      "P8-B",
-      "P8-B",
-      "P13 Pro"
+      "Asus",
+      "ASUS Pad",
+      "T3201M5A",
+      "ASUS Pad T3201M5A"
     ],
     [
-      "BIRDCLAW",
-      "T2-B",
-      "T2-B",
-      "P11"
+      "BLACKLINE",
+      "PHD20",
+      "PHD20",
+      "PHD20"
     ],
     [
       "Blackview",
-      "BL7000 Pro",
-      "BL7000_Pro",
-      "BL7000 Pro"
+      "ROCK 5",
+      "ROCK_5",
+      "ROCK 5"
     ],
     [
-      "CEPTER",
-      "CTABNEXT10C",
-      "CTABNEXT10C",
-      "CTABNEXT10C"
+      "Blackview",
+      "WAVE 2C",
+      "WAVE_2C",
+      "WAVE 2C"
+    ],
+    [
+      "Blackview",
+      "ZENO 5",
+      "ZENO_5",
+      "ZENO 5"
+    ],
+    [
+      "Doogee",
+      "Note56 Lite",
+      "1928C-C",
+      "Note56 Lite"
+    ],
+    [
+      "Doogee",
+      "Note56 X",
+      "1928SC-C",
+      "Note56 X Lite"
+    ],
+    [
+      "Doogee",
+      "S200 E",
+      "M24PC",
+      "S200 E"
+    ],
+    [
+      "Doogee",
+      "Tab E3 Max",
+      "P6T_IN",
+      "Tab E3 Max"
+    ],
+    [
+      "Doogee",
+      "Tab G6 Max",
+      "P8S",
+      "Tab G6 Max"
+    ],
+    [
+      "Doogee",
+      "Tab G6 Pro",
+      "P9",
+      "Tab G6 Pro"
+    ],
+    [
+      "Doogee",
+      "V Max 2",
+      "M25HE",
+      "V Max 2"
     ],
     [
       "Easerush",
-      "P13",
-      "P8C-E",
-      "P13"
+      "P11",
+      "T2-E",
+      "P11"
     ],
     [
-      "Easerush",
-      "P7C-E",
-      "P7C-E",
-      "P12"
+      "ElectroMax",
+      "YE2647170W",
+      "EMU_21",
+      "EMU 21"
     ],
     [
-      "Easerush",
-      "P7S-E",
-      "P7S-E",
-      "P12 Pro"
+      "FEONAL",
+      "D117_EEA",
+      "D117_EEA",
+      "D117_EEA"
     ],
     [
-      "Easerush",
-      "P9T-E",
-      "P9T-E",
-      "P12 Plus"
+      "HelloPro",
+      "A900",
+      "A900",
+      "A900"
     ],
     [
-      "Easerush",
-      "P9T-E",
-      "P9T-E",
-      "P12 Power"
+      "Hotwav",
+      "A17 Pro Max",
+      "A17_ProMax",
+      "A17 Pro Max"
     ],
     [
-      "Fanconn",
-      "DC695",
-      "Tablet",
-      "DC695"
+      "JOVI",
+      "X300 FE",
+      "J2505",
+      "J2505"
     ],
     [
-      "Gloria",
-      "A60",
-      "gloria_A60",
-      "A60"
+      "MYCOM",
+      "COMEK SMART 20",
+      "COMEK_SMART_20",
+      "COMEK SMART 20Pro"
     ],
     [
-      "HUIHUANG",
-      "XC70_US",
-      "XC70_US",
-      "XC70_US"
+      "Mintt",
+      "Niu 2",
+      "Niu_2",
+      "Niu 2"
     ],
     [
-      "IACTIVE",
-      "lactive_IA75",
-      "lactive_IA75",
-      "lactive_IA75"
+      "NEXGO",
+      "EF930",
+      "EF930",
+      "EF930"
     ],
     [
-      "OSCAL",
-      "BOLT 2",
-      "BOLT_2",
-      "BOLT 2"
+      "Neutral",
+      "CK_HYYT",
+      "IFP",
+      "CK_HYYT"
     ],
     [
-      "OSCAL",
-      "FLAT 3C Mini",
-      "FLAT_3C_Mini",
-      "FLAT 3C Mini"
+      "OnePlus",
+      "OnePlus N6x",
+      "OP68DD",
+      "CPH2971"
+    ],
+    [
+      "PRAZteck",
+      "PT73G1",
+      "PT73G1",
+      "PT73G1"
     ],
     [
       "Pritom",
-      "L10_001",
+      "L10_001_EEA",
       "L10_001",
       "L10"
     ],
     [
       "Pritom",
-      "L10_001_USA",
-      "L10_001",
-      "L10"
+      "M10_C12_EEA",
+      "M10_C12_EEA",
+      "M10"
+    ],
+    [
+      "Pritom",
+      "P7_A10",
+      "P7_A10",
+      "P7"
+    ],
+    [
+      "Pritom",
+      "P7_A11",
+      "P7_A11",
+      "P7"
+    ],
+    [
+      "Pritom",
+      "P7_A11",
+      "P7_A11",
+      "P7_A11"
+    ],
+    [
+      "Pritom",
+      "P7_A11_EEA",
+      "P7_A11_EEA",
+      "P7"
+    ],
+    [
+      "Pritom",
+      "P7_A11_EEA",
+      "P7_A11_EEA",
+      "P7_A11"
+    ],
+    [
+      "Pritom",
+      "P7_A11_ROW",
+      "P7_A11_ROW",
+      "P7"
+    ],
+    [
+      "Relndoo",
+      "P30_U",
+      "P30_U",
+      "P30"
+    ],
+    [
+      "SEGO",
+      "SEGO_Zero_60",
+      "SEGO_Zero_60",
+      "Zero_60"
+    ],
+    [
+      "Seuic",
+      "CRUISE GeP",
+      "D737P",
+      "CRUISE GeP"
+    ],
+    [
+      "Seuic",
+      "CRUISE3",
+      "d770",
+      "CRUISE3"
+    ],
+    [
+      "Techview",
+      "S16PRO",
+      "S16PRO",
+      "S16PRO"
+    ],
+    [
+      "Tecno",
+      "TECNO SPARK 50 Pro",
+      "TECNO-KO5",
+      "TECNO KO5"
+    ],
+    [
+      "Umidigi",
+      "UMIDIGI A71C",
+      "CPA2611",
+      "UMIDIGI A71C"
+    ],
+    [
+      "Umidigi",
+      "UMIDIGI A75",
+      "CPA2650",
+      "UMIDIGI A75"
+    ],
+    [
+      "Umidigi",
+      "UMIDIGI A78C",
+      "CPA2681",
+      "UMIDIGI A78C"
+    ],
+    [
+      "Urovo",
+      "DT50 Pro",
+      "DT50_Pro",
+      "DT50"
+    ],
+    [
+      "Urovo",
+      "DT50",
+      "DT50_Pro",
+      "DT50"
+    ],
+    [
+      "Wintouch",
+      "A80",
+      "A80",
+      "A80"
+    ],
+    [
+      "YISHENGTC",
+      "EMEETING_3588",
+      "EMEETING_3588",
+      "EMEETING_3588"
+    ],
+    [
+      "vivo",
+      "V70 Lite",
+      "V2570",
+      "V2584"
+    ],
+    [
+      "vivo",
+      "V70 Lite",
+      "V2570",
+      "V2627"
+    ],
+    [
+      "vivo",
+      "V70 Lite",
+      "V2570",
+      "V2634"
+    ],
+    [
+      "vivo",
+      "V70 Lite",
+      "V2570",
+      "V2635"
     ]
   ]
 }
