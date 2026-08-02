@@ -1,330 +1,108 @@
 {
-  "lastUpdated": "2026-08-01",
-  "newDevicesCount": 54,
+  "lastUpdated": "2026-08-02",
+  "newDevicesCount": 17,
   "newDevices": [
     [
-      "ARATEK",
-      "Marshall-8R",
-      "Marshall-8R",
-      "Marshall-8R"
+      "Abans",
+      "65E-L3576C-E7",
+      "65E-L3576C-E7",
+      "65E-L3576C-E7"
     ],
     [
-      "Anyreal",
-      "P8S-AR",
-      "P8S-AR",
-      "Tab G6 Max"
+      "Advance",
+      "SP3702",
+      "SP3702",
+      "SP3702"
     ],
     [
-      "Anyreal",
-      "T2CS-AR",
-      "T2CS-AR",
-      "Tab A9 Pro+"
+      "Artel",
+      "Smart TV",
+      "dangni",
+      "AI PONT"
     ],
     [
-      "Anyreal",
-      "Tab E3 Max",
-      "P6T",
-      "Tab E3 Max"
+      "Boltt",
+      "Evo",
+      "Evo",
+      "Evo"
     ],
     [
-      "Anyreal",
-      "U12",
-      "P7C-AR",
-      "U12"
+      "Cozyla",
+      "Calendar3_32",
+      "Calendar3_32",
+      "CD-8V545F0"
     ],
     [
-      "Asus",
-      "ASUS Pad",
-      "T3201M5A",
-      "ASUS Pad T3201M5A"
+      "Cozyla",
+      "CalendarPlus3_24",
+      "CalendarPlus3_24",
+      "CD-8R545F0"
     ],
     [
-      "BLACKLINE",
-      "PHD20",
-      "PHD20",
-      "PHD20"
+      "Danew",
+      "Dslide_118_EEA",
+      "Dslide_118",
+      "Dslide_118"
     ],
     [
-      "Blackview",
-      "ROCK 5",
-      "ROCK_5",
-      "ROCK 5"
+      "DigitEdge",
+      "Pad12pro",
+      "Pad12pro",
+      "Pad12pro"
     ],
     [
-      "Blackview",
-      "WAVE 2C",
-      "WAVE_2C",
-      "WAVE 2C"
+      "HUIHUANG",
+      "XC90_US",
+      "XC90_US",
+      "XC90_US"
     ],
     [
-      "Blackview",
-      "ZENO 5",
-      "ZENO_5",
-      "ZENO 5"
+      "Lumallax",
+      "G127D-ROM",
+      "G127D-ROM",
+      "G127D"
     ],
     [
-      "Doogee",
-      "Note56 Lite",
-      "1928C-C",
-      "Note56 Lite"
+      "Oppo",
+      "PLT150",
+      "OP5E1EL1",
+      "PLT150"
     ],
     [
-      "Doogee",
-      "Note56 X",
-      "1928SC-C",
-      "Note56 X Lite"
+      "Oukitel",
+      "C17_Mini_go_EEA",
+      "C17_Mini",
+      "C17 Mini"
     ],
     [
-      "Doogee",
-      "S200 E",
-      "M24PC",
-      "S200 E"
-    ],
-    [
-      "Doogee",
-      "Tab E3 Max",
-      "P6T_IN",
-      "Tab E3 Max"
-    ],
-    [
-      "Doogee",
-      "Tab G6 Max",
-      "P8S",
-      "Tab G6 Max"
-    ],
-    [
-      "Doogee",
-      "Tab G6 Pro",
-      "P9",
-      "Tab G6 Pro"
-    ],
-    [
-      "Doogee",
-      "V Max 2",
-      "M25HE",
-      "V Max 2"
-    ],
-    [
-      "Easerush",
-      "P11",
-      "T2-E",
-      "P11"
-    ],
-    [
-      "ElectroMax",
-      "YE2647170W",
-      "EMU_21",
-      "EMU 21"
-    ],
-    [
-      "FEONAL",
-      "D117_EEA",
-      "D117_EEA",
-      "D117_EEA"
-    ],
-    [
-      "HelloPro",
-      "A900",
-      "A900",
-      "A900"
-    ],
-    [
-      "Hotwav",
-      "A17 Pro Max",
-      "A17_ProMax",
-      "A17 Pro Max"
-    ],
-    [
-      "JOVI",
-      "X300 FE",
-      "J2505",
-      "J2505"
-    ],
-    [
-      "MYCOM",
-      "COMEK SMART 20",
-      "COMEK_SMART_20",
-      "COMEK SMART 20Pro"
-    ],
-    [
-      "Mintt",
-      "Niu 2",
-      "Niu_2",
-      "Niu 2"
-    ],
-    [
-      "NEXGO",
-      "EF930",
-      "EF930",
-      "EF930"
-    ],
-    [
-      "Neutral",
-      "CK_HYYT",
-      "IFP",
-      "CK_HYYT"
-    ],
-    [
-      "OnePlus",
-      "OnePlus N6x",
-      "OP68DD",
-      "CPH2971"
-    ],
-    [
-      "PRAZteck",
-      "PT73G1",
-      "PT73G1",
-      "PT73G1"
-    ],
-    [
-      "Pritom",
-      "L10_001_EEA",
-      "L10_001",
-      "L10"
-    ],
-    [
-      "Pritom",
-      "M10_C12_EEA",
-      "M10_C12_EEA",
-      "M10"
-    ],
-    [
-      "Pritom",
-      "P7_A10",
-      "P7_A10",
-      "P7"
-    ],
-    [
-      "Pritom",
-      "P7_A11",
-      "P7_A11",
-      "P7"
-    ],
-    [
-      "Pritom",
-      "P7_A11",
-      "P7_A11",
-      "P7_A11"
-    ],
-    [
-      "Pritom",
-      "P7_A11_EEA",
-      "P7_A11_EEA",
-      "P7"
-    ],
-    [
-      "Pritom",
-      "P7_A11_EEA",
-      "P7_A11_EEA",
-      "P7_A11"
-    ],
-    [
-      "Pritom",
-      "P7_A11_ROW",
-      "P7_A11_ROW",
-      "P7"
+      "Positivo",
+      "Vision Tab 11",
+      "T3011D",
+      "T3011D"
     ],
     [
       "Relndoo",
-      "P30_U",
-      "P30_U",
-      "P30"
+      "T901_US_U",
+      "T901_US_U",
+      "T901"
     ],
     [
-      "SEGO",
-      "SEGO_Zero_60",
-      "SEGO_Zero_60",
-      "Zero_60"
+      "TABWEE",
+      "V20_EEA",
+      "V20_EEA",
+      "V20"
     ],
     [
-      "Seuic",
-      "CRUISE GeP",
-      "D737P",
-      "CRUISE GeP"
+      "Thomson",
+      "Pad_Pro_EEA",
+      "Pad_Pro",
+      "Pad_Pro"
     ],
     [
-      "Seuic",
-      "CRUISE3",
-      "d770",
-      "CRUISE3"
-    ],
-    [
-      "Techview",
-      "S16PRO",
-      "S16PRO",
-      "S16PRO"
-    ],
-    [
-      "Tecno",
-      "TECNO SPARK 50 Pro",
-      "TECNO-KO5",
-      "TECNO KO5"
-    ],
-    [
-      "Umidigi",
-      "UMIDIGI A71C",
-      "CPA2611",
-      "UMIDIGI A71C"
-    ],
-    [
-      "Umidigi",
-      "UMIDIGI A75",
-      "CPA2650",
-      "UMIDIGI A75"
-    ],
-    [
-      "Umidigi",
-      "UMIDIGI A78C",
-      "CPA2681",
-      "UMIDIGI A78C"
-    ],
-    [
-      "Urovo",
-      "DT50 Pro",
-      "DT50_Pro",
-      "DT50"
-    ],
-    [
-      "Urovo",
-      "DT50",
-      "DT50_Pro",
-      "DT50"
-    ],
-    [
-      "Wintouch",
-      "A80",
-      "A80",
-      "A80"
-    ],
-    [
-      "YISHENGTC",
-      "EMEETING_3588",
-      "EMEETING_3588",
-      "EMEETING_3588"
-    ],
-    [
-      "vivo",
-      "V70 Lite",
-      "V2570",
-      "V2584"
-    ],
-    [
-      "vivo",
-      "V70 Lite",
-      "V2570",
-      "V2627"
-    ],
-    [
-      "vivo",
-      "V70 Lite",
-      "V2570",
-      "V2634"
-    ],
-    [
-      "vivo",
-      "V70 Lite",
-      "V2570",
-      "V2635"
+      "Zuum",
+      "MAGNO_R_II",
+      "MAGNO_R_II",
+      "MAGNO R II"
     ]
   ]
 }
