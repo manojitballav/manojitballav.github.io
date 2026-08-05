@@ -1,36 +1,72 @@
 {
-  "lastUpdated": "2026-08-04",
-  "newDevicesCount": 5,
+  "lastUpdated": "2026-08-05",
+  "newDevicesCount": 11,
   "newDevices": [
     [
-      "Heco",
-      "Pad_Mini",
-      "Pad_Mini",
-      "Pad_Mini"
+      "FPD",
+      "CP08-J2",
+      "CP08-J2",
+      "CP08-J2"
     ],
     [
-      "Stylo",
-      "ECLIPSE_TAB_8",
-      "ECLIPSE_TAB_8",
-      "STYLO ECLIPSE TAB 8"
+      "Honor",
+      "HONOR Pad X9b Max",
+      "HNYAG-Q1",
+      "YAG-W09"
     ],
     [
-      "Veidoo",
-      "Veidoo_S30",
-      "Veidoo_S30",
-      "Veidoo S30"
+      "Honor",
+      "HONOR Pad X9b Max",
+      "HNYAG-Q1",
+      "YAG-W19"
     ],
     [
-      "ZTE",
-      "Z2581",
-      "P615F03",
-      "Z2581"
+      "NEXORX",
+      "JUNO_Tab_10",
+      "JUNO_Tab_10",
+      "JUNO_Tab_10"
     ],
     [
-      "ZTLEKE",
-      "S8Plus3",
-      "S8Plus3",
-      "S8Plus3"
+      "SVITOO",
+      "P10_T_US",
+      "P10_T",
+      "P10_T"
+    ],
+    [
+      "XD-Enjoy",
+      "XDDGM10-1",
+      "XDDGM10-1",
+      "XDDGM10-1"
+    ],
+    [
+      "vivo",
+      "S2",
+      "V2576",
+      "V2576"
+    ],
+    [
+      "vivo",
+      "S50t Series",
+      "PD2528",
+      "V2528A"
+    ],
+    [
+      "vivo",
+      "V80 Lite 5G",
+      "V2576",
+      "V2576"
+    ],
+    [
+      "vivo",
+      "V80 Lite 5G",
+      "V2576",
+      "V2643"
+    ],
+    [
+      "vivo",
+      "V80 Lite 5G",
+      "V2576",
+      "V2644"
     ]
   ]
 }
