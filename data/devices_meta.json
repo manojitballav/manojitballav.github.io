@@ -1,72 +1,258 @@
 {
-  "lastUpdated": "2026-08-05",
-  "newDevicesCount": 11,
+  "lastUpdated": "2026-08-06",
+  "newDevicesCount": 42,
   "newDevices": [
     [
-      "FPD",
-      "CP08-J2",
-      "CP08-J2",
-      "CP08-J2"
+      "AGM Mobile",
+      "AGM_NOTE_N2",
+      "AGM_NOTE_N2",
+      "AGM_NOTE_N2"
     ],
     [
-      "Honor",
-      "HONOR Pad X9b Max",
-      "HNYAG-Q1",
-      "YAG-W09"
+      "AGM Mobile",
+      "Rugged_Tablet_A",
+      "Android_Tablet",
+      "Android_Tablet"
     ],
     [
-      "Honor",
-      "HONOR Pad X9b Max",
-      "HNYAG-Q1",
-      "YAG-W19"
+      "AIPLUS",
+      "AI+ Nova 2 Neo",
+      "Nova_2_Neo",
+      "AI+ Nova 2 Neo"
     ],
     [
-      "NEXORX",
-      "JUNO_Tab_10",
-      "JUNO_Tab_10",
-      "JUNO_Tab_10"
+      "AIPLUS",
+      "AI+ Nova 2 Pro",
+      "Nova_2_Pro",
+      "AI+ Nova 2 Pro"
     ],
     [
-      "SVITOO",
-      "P10_T_US",
-      "P10_T",
-      "P10_T"
+      "AIPLUS",
+      "Ai+NovaTab",
+      "AIPLUS_NovaTab_5G",
+      "AIXT2602"
     ],
     [
-      "XD-Enjoy",
-      "XDDGM10-1",
-      "XDDGM10-1",
-      "XDDGM10-1"
+      "AIPLUS",
+      "Ai+PulseTab",
+      "AIPLUS_PulseTab",
+      "AIXT2601"
     ],
     [
-      "vivo",
-      "S2",
-      "V2576",
-      "V2576"
+      "AYN",
+      "Odin3",
+      "Odin3",
+      "Odin3"
     ],
     [
-      "vivo",
-      "S50t Series",
-      "PD2528",
-      "V2528A"
+      "Alldocube",
+      "iPlay 80 SE",
+      "U1053",
+      "iPlay80SE"
     ],
     [
-      "vivo",
-      "V80 Lite 5G",
-      "V2576",
-      "V2576"
+      "Condor",
+      "80 Air 5G",
+      "80_Air_5G",
+      "80 Air 5G"
     ],
     [
-      "vivo",
-      "V80 Lite 5G",
-      "V2576",
-      "V2643"
+      "Coolpad",
+      "X30",
+      "X30",
+      "X30"
     ],
     [
-      "vivo",
-      "V80 Lite 5G",
-      "V2576",
-      "V2644"
+      "FOSSiBOT",
+      "S8",
+      "S8",
+      "S8"
+    ],
+    [
+      "General Mobile",
+      "GM 26 SE 5G",
+      "G907",
+      "G907"
+    ],
+    [
+      "GeneralSupreme",
+      "Smart TV",
+      "dangni",
+      "AI PONT"
+    ],
+    [
+      "HTC",
+      "Wildfire E9 Plus",
+      "Wildfire_E9_Plus",
+      "Wildfire E9 Plus"
+    ],
+    [
+      "Helio",
+      "helio 47",
+      "helio_47",
+      "helio 47"
+    ],
+    [
+      "Helio",
+      "helio_150",
+      "helio_150",
+      "helio 150"
+    ],
+    [
+      "Huion",
+      "Kamvas Pad 12",
+      "Kamvas_Pad_12",
+      "KP1202"
+    ],
+    [
+      "LT_Mobile",
+      "LT_6323",
+      "LT_6323",
+      "LT_6323"
+    ],
+    [
+      "LT_Mobile",
+      "LT_8112",
+      "LT_8112",
+      "LT_8112"
+    ],
+    [
+      "Oukitel",
+      "C17_A16_EEA",
+      "C17_A16",
+      "C17"
+    ],
+    [
+      "Oukitel",
+      "C17_Plus_EEA",
+      "C17_Plus",
+      "C17 Plus"
+    ],
+    [
+      "Oukitel",
+      "C62_CDMA_ROW",
+      "C62_CDMA",
+      "C62 CDMA"
+    ],
+    [
+      "Oukitel",
+      "C67_CDMA_ROW",
+      "C67_CDMA",
+      "C67 CDMA"
+    ],
+    [
+      "Oukitel",
+      "C67_ROW",
+      "C67",
+      "C67"
+    ],
+    [
+      "Oukitel",
+      "C69_Pro_ROW",
+      "C69_Pro",
+      "C69 Pro"
+    ],
+    [
+      "Oukitel",
+      "RT11_EEA",
+      "RT11",
+      "RT11"
+    ],
+    [
+      "Oukitel",
+      "WP100_Plus_EEA",
+      "WP100_Plus",
+      "WP100 Plus"
+    ],
+    [
+      "Oukitel",
+      "WP63_EEA",
+      "WP63",
+      "WP63"
+    ],
+    [
+      "RugOne",
+      "Xsnap 7 Pro",
+      "GR1002AF1",
+      "Xsnap 7 Pro"
+    ],
+    [
+      "SPECTRA",
+      "Spectra A1",
+      "Spectra_A1",
+      "Spectra_A1"
+    ],
+    [
+      "Sky Devices",
+      "Elite_T11Pro2",
+      "Elite_T11Pro2",
+      "Elite T11Pro2"
+    ],
+    [
+      "Ulefone",
+      "Note 23",
+      "GQ3296RH1",
+      "Note 23"
+    ],
+    [
+      "VID(CN)",
+      "GQ8001RH1",
+      "GQ8001RH1_VID",
+      "GQ8001RH1"
+    ],
+    [
+      "VID(CN)",
+      "GR1001TF1",
+      "GR1001TF1_VID",
+      "GR1001TF1"
+    ],
+    [
+      "Vgo Tel",
+      "Onyx 2",
+      "Onyx_2",
+      "Onyx 2"
+    ],
+    [
+      "Vgo Tel",
+      "Onyx 3",
+      "Onyx_3",
+      "Onyx 3"
+    ],
+    [
+      "Walton",
+      "NEXG N77",
+      "NEXG_N77",
+      "NEXG N77"
+    ],
+    [
+      "ZEED",
+      "ZEED Z-ONE",
+      "Z210",
+      "Z210"
+    ],
+    [
+      "iHunt",
+      "P22000",
+      "P22000",
+      "P22000"
+    ],
+    [
+      "iPark",
+      "IM-H031P",
+      "IM-H031P",
+      "IM-H031P"
+    ],
+    [
+      "iotapk",
+      "BLK-L09",
+      "BLK-L09",
+      "BLK-L09"
+    ],
+    [
+      "raemond",
+      "M90_MAX_US",
+      "M90_MAX_US",
+      "M90 MAX"
     ]
   ]
 }
