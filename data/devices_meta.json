@@ -1,42 +1,60 @@
 {
-  "lastUpdated": "2026-08-07",
-  "newDevicesCount": 6,
+  "lastUpdated": "2026-08-08",
+  "newDevicesCount": 9,
   "newDevices": [
     [
-      "ADVAN",
-      "NASA ONE",
-      "ADVAN_NASA_ONE",
-      "NASA ONE"
+      "Evertek",
+      "HALO",
+      "HALO",
+      "HALO"
     ],
     [
-      "Evergreen Wireless",
-      "PULSE",
-      "PULSE",
-      "PULSE"
+      "Haier",
+      "Smart TV",
+      "dangni",
+      "AI PONT"
     ],
     [
-      "Ovion",
-      "V40_ULTRA_TR",
-      "V40_ULTRA",
-      "V40 Ultra"
+      "KTCtv",
+      "FPD",
+      "araku",
+      "Projector"
     ],
     [
-      "Premio",
-      "PREMIO_Blaze",
-      "Blaze",
-      "PREMIO_Blaze"
+      "MLINK",
+      "M808",
+      "M808",
+      "M808"
     ],
     [
-      "Teclast",
-      "T60Mini_ROW",
-      "T60Mini",
-      "T60Mini_ROW"
+      "MTN",
+      "Alola 5G",
+      "Alola_5G",
+      "Alola 5G"
     ],
     [
-      "VAMAA",
-      "SG-TM-xxXP",
-      "VM-EDLA",
-      "SG-TM-xxXP"
+      "MTN",
+      "Alola Max 2",
+      "Alola_Max2",
+      "Alola Max 2"
+    ],
+    [
+      "PRAZteck",
+      "10_Tablet_PC",
+      "PT10EduPad21-4G",
+      "PT10EduPad21-4G"
+    ],
+    [
+      "PRAZteck",
+      "11_Tablet_PC",
+      "PT11EduPad21-4G",
+      "PT11EduPad21-4G"
+    ],
+    [
+      "Symphony",
+      "MAX_70",
+      "MAX_70",
+      "MAX 70"
     ]
   ]
 }

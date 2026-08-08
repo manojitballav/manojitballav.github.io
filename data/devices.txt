@@ -11127,6 +11127,7 @@ Everpad
 Evertek
 	E7224HG	=	=	0
 	E8224HG	=	=	0
+	HALO	=	=	0
 	Hero	=	=	0
 	M10	=	=	0
 	M10 Nano	M10_Nano	~	0
@@ -14935,6 +14936,7 @@ Haier
 	S5_Silk	=	S5 Silk	0
 	SP-5100	=	=	0
 	Skill	=	=	0
+	Smart TV	dangni	AI PONT	2
 	Smartfren Andromax AD681H	AD681H	~	0
 	Smartfren Andromax AD9A1H	AD9A1H	~	0
 	StarQ_Q5002	=	Q5002	0
@@ -21113,6 +21115,7 @@ KTCtv
 	EcoTV2	kapellen	~	2
 	FOL	hongkong	4K SMART TV	2
 	FOL	mountbaker	2K SMART TV	2
+	FPD	araku	Projector	2
 	FPS	elliniko	4K SMART TV	2
 	FPS	hongkong	4K SMART TV	2
 	GTRONIC	elliniko	4K SMART TV	2
@@ -26062,6 +26065,7 @@ MLINK
 	M6501B	=	M6501	0
 	M707	=	=	0
 	M761	=	=	0
+	M808	=	=	0
 	M809	=	=	0
 MLOGIX
 	10ML_012G	=	=	0
@@ -26195,6 +26199,8 @@ MTC
 	chile	S2000	S2000-Z0C11	0
 MTN
 	5.99	H6032_MTN	H6032	0
+	Alola 5G	Alola_5G	~	0
+	Alola Max 2	Alola_Max2	~	0
 	Alola_Max	=	=	0
 	G56	=	=	0
 	Kabode Max	H6032_MTN	~	0
@@ -33075,6 +33081,8 @@ POWMUS
 PRAMA
 	PRAMA_3576	=	=	0
 PRAZteck
+	10_Tablet_PC	PT10EduPad21-4G	=	0
+	11_Tablet_PC	PT11EduPad21-4G	=	0
 	2-IN-1_Tablet_PC	PT10EduPad21	=	0
 	PT116LPREduPad	Laptop	~	0
 	PT73G1	=	=	0
@@ -44065,6 +44073,7 @@ Symphony
 	MAX 30	MAX_30	~	0
 	MAX_5	=	MAX 5	0
 	MAX_60	=	MAX 60	0
+	MAX_70	=	MAX 70	0
 	P11	=	=	0
 	P6 PRO	P6_PRO	~	0
 	P7	Symphony_P7	~	0
