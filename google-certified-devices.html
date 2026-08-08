@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <script>(function(){var t=localStorage.getItem('theme')||(window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t)})()</script>
-    <title>Google Certified Android Devices — Global Database | Manojit Ballav</title>
+    <title>Google Certified Android Devices: Global Database | Manojit Ballav</title>
     <meta charset="UTF-8">
     <meta name="description" content="Browse and search the complete list of 50,000+ Google certified Android devices worldwide. Filter by brand, model, or device name.">
     <meta name="keywords" content="Google certified devices, Google Play certified, Android certified devices, Google TV devices, supported Android devices, GMS certified">
@@ -16,12 +16,12 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
     <link rel="manifest" href="site.webmanifest">
-    <link rel="alternate" type="application/atom+xml" title="Google Certified Devices — New Additions" href="/data/google-certified-devices-feed.xml">
+    <link rel="alternate" type="application/atom+xml" title="Google Certified Devices: New Additions" href="/data/google-certified-devices-feed.xml">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://manojitballav.com/google-certified-devices.html">
-    <meta property="og:title" content="Google Certified Android Devices — Global Database">
+    <meta property="og:title" content="Google Certified Android Devices: Global Database">
     <meta property="og:description" content="Browse and search the complete list of 50,000+ Google certified Android devices worldwide.">
     <meta property="og:image" content="https://manojitballav.com/images/blog-google-devices.jpg">
     <meta property="og:image:height" content="675" />
@@ -32,7 +32,7 @@
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@manojitballav">
-    <meta name="twitter:title" content="Google Certified Android Devices — Global Database">
+    <meta name="twitter:title" content="Google Certified Android Devices: Global Database">
     <meta name="twitter:description" content="Browse and search the complete list of 50,000+ Google certified Android devices worldwide.">
     <meta name="twitter:image" content="https://manojitballav.com/images/blog-google-devices.jpg">
 
@@ -804,7 +804,7 @@
             </div>
             <div class="devices-classification-info">
                 <i class="fa-solid fa-circle-info"></i>
-                <span>Device categories are auto-detected and may occasionally be off. Spot something wrong? Drop me a note on <a href="https://x.com/manojitballav" target="_blank" rel="noopener">X (@manojitballav)</a> or <a href="mailto:manojitballav@gmail.com">email me</a> — happy to fix it!</span>
+                <span>Device categories are auto-detected and may occasionally be off. Spot something wrong? Drop me a note on <a href="https://x.com/manojitballav" target="_blank" rel="noopener">X (@manojitballav)</a> or <a href="mailto:manojitballav@gmail.com">email me</a>, happy to fix it!</span>
             </div>
             <div class="devices-last-updated" id="lastUpdated" style="display:none;"></div>
         </div>
@@ -955,7 +955,7 @@
         // Data
         // The full device list is ~410KB gzipped, so first paint runs off devices-index.json
         // (~29KB) instead and allDevices streams in behind it. Anything that needs individual
-        // devices — the search box, the brand detail tables — waits on devicesReady.
+        // devices, the search box, the brand detail tables, waits on devicesReady.
         let allDevices = null; // once loaded: [brand, marketing, device, model, type] per row
         let deviceIndex = null; // { lastUpdated, types, total, typeTotals, brands }
         let devicesReady = null; // Promise, resolves when allDevices is populated
@@ -1207,7 +1207,7 @@
             if (allDevices) {
                 renderDetailTable();
             } else {
-                // Full list still in flight — show a placeholder rather than an empty table.
+                // Full list still in flight, show a placeholder rather than an empty table.
                 detailTableWrap.innerHTML = '<div class="devices-empty"><i class="fa-solid fa-circle-notch fa-spin"></i><p>Loading devices…</p></div>';
                 detailPagination.innerHTML = '';
                 devicesReady.then(() => { if (currentBrand === brand) renderDetailTable(); });
@@ -1281,9 +1281,9 @@
 
             pageData.forEach(d => {
                 html += `<tr>
-                    <td>${escapeHTML(d[1] || '—')}</td>
-                    <td class="code-cell">${escapeHTML(d[2] || '—')}</td>
-                    <td>${escapeHTML(d[3] || '—')}</td>
+                    <td>${escapeHTML(d[1] || ' · ')}</td>
+                    <td class="code-cell">${escapeHTML(d[2] || ' · ')}</td>
+                    <td>${escapeHTML(d[3] || ' · ')}</td>
                 </tr>`;
             });
             html += '</tbody></table></div>';
@@ -1387,10 +1387,10 @@
                         </tr></thead><tbody>`;
                 items.forEach(d => {
                     html += `<tr>
-                        <td>${escapeHTML(d.brand || '—')}</td>
-                        <td>${escapeHTML(d.marketing || '—')}</td>
-                        <td class="code-cell">${escapeHTML(d.device || '—')}</td>
-                        <td>${escapeHTML(d.model || '—')}</td>
+                        <td>${escapeHTML(d.brand || ' · ')}</td>
+                        <td>${escapeHTML(d.marketing || ' · ')}</td>
+                        <td class="code-cell">${escapeHTML(d.device || ' · ')}</td>
+                        <td>${escapeHTML(d.model || ' · ')}</td>
                     </tr>`;
                 });
                 html += `</tbody></table></div></div>`;
@@ -1419,7 +1419,7 @@
             lastUpdatedEl.style.display = '';
         }
 
-        // Global search — filters brand grid, or if query matches devices, show matching brands
+        // Global search: filters brand grid, or if query matches devices, show matching brands
         let searchTimer;
         searchInput.addEventListener('input', () => {
             clearTimeout(searchTimer);

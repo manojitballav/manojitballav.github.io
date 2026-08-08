@@ -36,8 +36,8 @@ Lumio is an Indian smart TV brand under Circuit House Technologies, founded in M
 - Panels are selected and tested specifically for Indian conditions (high ambient light, humidity, heat)
 
 **Product Lineup & Pricing:**
-1. Lumio Vision 9 QD-Mini LED TV (55-inch, 900 nits brightness) — ₹59,999
-2. Lumio Vision 7 QLED Series (43, 50, 55-inch) — ₹27,999 to ₹36,999 (uses dedicated QD sheet, not cheaper on-lens solution)
+1. Lumio Vision 9 QD-Mini LED TV (55-inch, 900 nits brightness), ₹59,999
+2. Lumio Vision 7 QLED Series (43, 50, 55-inch), ₹27,999 to ₹36,999 (uses dedicated QD sheet, not cheaper on-lens solution)
 3. Lumio Vision Arc 5 Projector
 4. Lumio Vision Arc 7 Projector
 
@@ -50,7 +50,7 @@ Lumio is an Indian smart TV brand under Circuit House Technologies, founded in M
 
 ## Blog Content Summaries
 
-### 1. TV Display Panels Explained: From TN to MicroLED — A Deep Dive
+### 1. TV Display Panels Explained: From TN to MicroLED · A Deep Dive
 **URL:** /blog/tv-panel-types.html
 **Published:** March 7, 2026
 
@@ -67,7 +67,7 @@ A comprehensive technical breakdown of every TV display panel type, covering bac
 **URL:** /blog/blog-wireless-hdmi.html
 **Published:** March 4, 2026
 
-A deep technical breakdown of wireless HDMI dongle architecture — chipsets, benchmarks, video pipeline, and engineering challenges.
+A deep technical breakdown of wireless HDMI dongle architecture: chipsets, benchmarks, video pipeline, and engineering challenges.
 
 ### 3. Different Types of Projectors in India
 **URL:** /blog/projector-types-india.html

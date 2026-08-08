@@ -2,7 +2,7 @@ name: Update Google Certified Devices
 
 on:
   schedule:
-    # Runs daily at 06:00 UTC — temporary: detecting Google's update cadence
+    # Runs daily at 06:00 UTC, temporary: detecting Google's update cadence
     - cron: '0 6 * * *'
   workflow_dispatch: # Allow manual trigger
 
@@ -60,7 +60,7 @@ jobs:
                   with open("data/devices_meta.json", "r", encoding="utf-8") as f:
                       prev = json.load(f)
                   new_devices = prev.get("newDevices", [])
-                  print(f"No new devices this run — keeping {len(new_devices)} from previous update")
+                  print(f"No new devices this run, keeping {len(new_devices)} from previous update")
               except (FileNotFoundError, json.JSONDecodeError):
                   pass
 
@@ -110,7 +110,7 @@ jobs:
           # Only add a feed entry if there are genuinely new devices from this diff
           added_file = "/tmp/added_lines.csv"
           if os.path.getsize(added_file) == 0:
-              print("No new devices this run — skipping feed update")
+              print("No new devices this run, skipping feed update")
               exit(0)
 
           today = meta["lastUpdated"]
@@ -178,9 +178,9 @@ jobs:
                   title += " certified"
           else:
               title = f"{count} new devices certified"
-          title += f" — {date_pretty}"
+          title += f" · {date_pretty}"
 
-          # --- Build summary (short — details are in the card) ---
+          # --- Build summary (short, details are in the card) ---
           summary = f"{count} new devices just passed Google certification from {', '.join(brands_in_update[:3])}"
           if len(brands_in_update) > 3:
               summary += f" and {len(brands_in_update) - 3} more"
@@ -231,7 +231,7 @@ jobs:
               content += f'<div style="{S["cat_title"]}">{CAT_EMOJI[cat]} {CAT_LABEL[cat]} ({len(items)})</div>'
               content += f'<table style="{S["table"]}"><tr><th style="{S["th"]}">Brand</th><th style="{S["th"]}">Device</th><th style="{S["th"]}">Model</th></tr>'
               for d in items:
-                  content += f'<tr><td style="{S["brand_td"]}">{html.escape(d[0] or "—")}</td><td style="{S["td"]}">{html.escape(d[1] or "—")}</td><td style="{S["td_code"]}">{html.escape(d[3] or "—")}</td></tr>'
+                  content += f'<tr><td style="{S["brand_td"]}">{html.escape(d[0] or "N/A")}</td><td style="{S["td"]}">{html.escape(d[1] or "N/A")}</td><td style="{S["td_code"]}">{html.escape(d[3] or "N/A")}</td></tr>'
               content += '</table>'
 
           content += f'''</div>

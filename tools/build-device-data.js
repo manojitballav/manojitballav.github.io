@@ -29,7 +29,7 @@ const INDEX_PATH = path.join(ROOT, 'data', 'devices-index.json');
 const DEVICES_PATH = path.join(ROOT, 'data', 'devices.txt');
 const META_PATH = path.join(ROOT, 'data', 'devices_meta.json');
 
-// Must match CATEGORIES (minus 'all') in google-certified-devices.html — the page
+// Must match CATEGORIES (minus 'all') in google-certified-devices.html, the page
 // indexes into this order when reading both payloads.
 const TYPES = ['phone', 'tablet', 'tv', 'streaming', 'projector', 'watch', 'auto', 'other'];
 
@@ -74,7 +74,7 @@ function getLetter(name) {
 function main() {
     const rows = parseCSV(fs.readFileSync(CSV_PATH, 'utf8'));
     if (rows.length === 0) {
-        console.error('build-device-data: parsed 0 rows from the CSV — refusing to write empty payloads');
+        console.error('build-device-data: parsed 0 rows from the CSV, refusing to write empty payloads');
         process.exit(1);
     }
 
@@ -103,7 +103,7 @@ function main() {
     }
 
     // Group by brand. Brand order is sorted rather than inherited from the CSV so the
-    // output is stable run to run — these files are committed daily, and a reshuffle
+    // output is stable run to run, these files are committed daily, and a reshuffle
     // upstream would otherwise rewrite the whole file instead of a few lines.
     const grouped = new Map();
     for (const [brand, marketing, device, model] of rows) {
@@ -133,7 +133,7 @@ function main() {
     fs.writeFileSync(DEVICES_PATH, out.join('\n') + '\n');
 
     // --- devices-index.json ------------------------------------------------
-    // [name, letter, total, [count per TYPES index]] — positional to stay compact.
+    // [name, letter, total, [count per TYPES index]], positional to stay compact.
     const brands = [];
     const totals = new Array(TYPES.length).fill(0);
     for (const [brand, items] of byBrand) {

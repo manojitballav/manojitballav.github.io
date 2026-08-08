@@ -2114,7 +2114,7 @@ p + p { margin-top: 16px; }
   opacity: 1;
 }
 
-/* Slide from left — now fade only */
+/* Slide from left, now fade only */
 .reveal--left {
   opacity: 0;
   transition: opacity 0.3s ease;
@@ -2124,7 +2124,7 @@ p + p { margin-top: 16px; }
   opacity: 1;
 }
 
-/* Slide from right — now fade only */
+/* Slide from right, now fade only */
 .reveal--right {
   opacity: 0;
   transition: opacity 0.3s ease;
@@ -2134,7 +2134,7 @@ p + p { margin-top: 16px; }
   opacity: 1;
 }
 
-/* Scale up — now fade only */
+/* Scale up, now fade only */
 .reveal--scale {
   opacity: 0;
   transition: opacity 0.3s ease;
@@ -2144,7 +2144,7 @@ p + p { margin-top: 16px; }
   opacity: 1;
 }
 
-/* Stagger children — quick fade with tighter delays */
+/* Stagger children, quick fade with tighter delays */
 .stagger-children > * {
   opacity: 0;
   transition: opacity 0.3s ease;
@@ -2271,7 +2271,7 @@ p + p { margin-top: 16px; }
 }
 
 /* --- About image reveal --- */
-/* About image and blog featured card — use same quick fade */
+/* About image and blog featured card, use same quick fade */
 
 /* ============================================
    Dark Mode

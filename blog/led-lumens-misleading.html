@@ -313,9 +313,9 @@
             <!-- Section 1: The Problem -->
             <h2 id="the-problem">The Core Problem with LED Lumens</h2>
 
-            <p>The fundamental issue with LED lumen specifications is <em>where</em> the measurement is taken. LED lumens quantify the luminous flux at the light source itself — the raw output of the LED die before it enters any optical component. This is analogous to measuring the horsepower of an engine on a dynamometer before accounting for drivetrain losses, aerodynamic drag, or rolling resistance. The number is technically accurate, but it reveals almost nothing about real-world performance.</p>
+            <p>The fundamental issue with LED lumen specifications is <em>where</em> the measurement is taken. LED lumens quantify the luminous flux at the light source itself, the raw output of the LED die before it enters any optical component. This is analogous to measuring the horsepower of an engine on a dynamometer before accounting for drivetrain losses, aerodynamic drag, or rolling resistance. The number is technically accurate, but it reveals almost nothing about real-world performance.</p>
 
-            <p>In practice, the light emitted by an LED must traverse a complex optical pipeline before any of it reaches the projection surface. At every stage of that pipeline, photons are absorbed, scattered, reflected, or blocked. Research into compact LCD projector optical systems has documented this extensively — Zheng's work on compact LCD projectors with high optical performance <sup><a href="#ref-1">[1]</a></sup> and Peng et al.'s analysis of optical engine design for high-luminance projection <sup><a href="#ref-5">[5]</a></sup> both demonstrate that total system efficiency is a fraction of the source output. The result is a significant — and often dramatic — reduction in the brightness that actually forms the visible image.</p>
+            <p>In practice, the light emitted by an LED must traverse a complex optical pipeline before any of it reaches the projection surface. At every stage of that pipeline, photons are absorbed, scattered, reflected, or blocked. Research into compact LCD projector optical systems has documented this extensively, Zheng's work on compact LCD projectors with high optical performance <sup><a href="#ref-1">[1]</a></sup> and Peng et al.'s analysis of optical engine design for high-luminance projection <sup><a href="#ref-5">[5]</a></sup> both demonstrate that total system efficiency is a fraction of the source output. The result is a significant, and often dramatic, reduction in the brightness that actually forms the visible image.</p>
 
             <!-- Section 2: Optical Path -->
             <h2 id="optical-path">The Optical Path Inside a Single-Panel LCD Projector</h2>
@@ -326,7 +326,7 @@
 
             <figure class="optical-diagram">
                 <svg viewBox="0 0 560 460" xmlns="http://www.w3.org/2000/svg">
-                    <text x="280" y="18" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor">Single-Panel LCD Projector — Optical Path</text>
+                    <text x="280" y="18" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor">Single-Panel LCD Projector: Optical Path</text>
 
                     <!-- LED Light Source -->
                     <rect x="180" y="35" width="200" height="36" rx="6" fill="none" stroke="currentColor" stroke-width="1.5"/>
@@ -354,7 +354,7 @@
                     <rect x="180" y="163" width="200" height="36" rx="6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="6,3"/>
                     <text x="280" y="186" text-anchor="middle" font-size="12" fill="currentColor">Polarizer (Input)</text>
 
-                    <!-- Arrow 3 — biggest loss -->
+                    <!-- Arrow 3, biggest loss -->
                     <line x1="280" y1="199" x2="280" y2="223" stroke="currentColor" stroke-width="1.5"/>
                     <polygon points="276,219 280,227 284,219" fill="currentColor"/>
                     <text x="350" y="215" font-size="10" font-weight="600" fill="currentColor" opacity="0.8">~42-50%</text>
@@ -415,7 +415,7 @@
 
             <figure class="optical-diagram">
                 <svg viewBox="0 0 560 340" xmlns="http://www.w3.org/2000/svg">
-                    <text x="280" y="18" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor">LCD Panel — Internal Light Losses</text>
+                    <text x="280" y="18" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor">LCD Panel: Internal Light Losses</text>
 
                     <!-- Incoming light beam -->
                     <line x1="60" y1="170" x2="130" y2="170" stroke="currentColor" stroke-width="2"/>
@@ -537,7 +537,7 @@
                     </tr>
                     <tr>
                         <td><strong>Screen (ANSI measured)</strong></td>
-                        <td>—</td>
+                        <td>N/A</td>
                         <td><strong>~120–180 lm</strong></td>
                     </tr>
                 </tbody>
@@ -547,7 +547,7 @@
 
             <figure class="optical-diagram">
                 <svg viewBox="0 0 560 280" xmlns="http://www.w3.org/2000/svg">
-                    <text x="280" y="18" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor">Brightness Attenuation — 2000 LED Lumens (Single-Panel)</text>
+                    <text x="280" y="18" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor">Brightness Attenuation, 2000 LED Lumens (Single-Panel)</text>
 
                     <!-- Bars -->
                     <rect x="60" y="40" width="440" height="24" rx="4" fill="currentColor" opacity="0.18"/>
@@ -596,7 +596,7 @@
 
             <figure class="optical-diagram">
                 <svg viewBox="0 0 560 280" xmlns="http://www.w3.org/2000/svg">
-                    <text x="280" y="18" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor">Worked Example — Brightness Path</text>
+                    <text x="280" y="18" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor">Worked Example: Brightness Path</text>
 
                     <!-- Stage 1 -->
                     <rect x="140" y="40" width="280" height="40" rx="8" fill="currentColor" opacity="0.12" stroke="currentColor" stroke-width="1.5"/>

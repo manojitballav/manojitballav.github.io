@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <script>(function(){var t=localStorage.getItem('theme')||(window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t)})()</script>
-    <title>Travel Requests — Buy from Japan & HK | Manojit Ballav</title>
+    <title>Travel Requests, Buy from Japan & HK | Manojit Ballav</title>
     <meta charset="UTF-8">
     <meta name="description" content="Request items from Japan or Hong Kong. See what others have requested and submit your own wishlist.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -893,7 +893,7 @@
                     <div class="meter-card__label"><i class="fa-solid fa-suitcase-rolling"></i> Baggage Estimate</div>
                     <div class="meter-card__value" id="weightLabel">0 kg</div>
                     <div class="meter-bar"><div class="meter-bar__fill meter-bar__fill--safe" id="weightBar" style="width:0%"></div></div>
-                    <div class="meter-card__hint" id="weightHint">2 bags (25 kg each) — 41 kg usable after bag weight</div>
+                    <div class="meter-card__hint" id="weightHint">2 bags (25 kg each), 41 kg usable after bag weight</div>
                 </div>
             </div>
             <p style="max-width:640px; margin:16px auto 0; font-size:0.75rem; color:var(--text-secondary, #5f6368); text-align:center; line-height:1.5;">
@@ -1092,7 +1092,7 @@
             if (!localStorage.getItem('theme')) { setTheme(e.matches ? 'dark' : 'light'); }
         });
 
-        // Mobile FAB — toggle form visibility
+        // Mobile FAB, toggle form visibility
         const fabAdd = document.getElementById('fabAdd');
         const formCard = document.querySelector('.request-form-card');
         fabAdd.addEventListener('click', () => {
@@ -1245,7 +1245,7 @@
             return Math.round(amount * rate);
         }
 
-        // Weight estimation engine (kg) — keyword match then category fallback
+        // Weight estimation engine (kg), keyword match then category fallback
         var BAG_WEIGHT = 4.5; // empty suitcase weight per bag
         var BAGGAGE_LIMIT = (25 - BAG_WEIGHT) * TRAVELERS; // usable capacity across all bags
         var weightKeywords = [
@@ -1353,19 +1353,19 @@
                 safetyLabel.style.color = '#34a853';
                 safetyBar.style.width = '5%';
                 safetyBar.className = 'meter-bar__fill meter-bar__fill--safe';
-                safetyHint.textContent = 'No flagged items — smooth sailing through customs';
+                safetyHint.textContent = 'No flagged items, smooth sailing through customs';
             } else if (cautionCount <= 2) {
                 safetyLabel.textContent = 'Moderate';
                 safetyLabel.style.color = '#e37400';
                 safetyBar.style.width = Math.max(safetyPct, 30) + '%';
                 safetyBar.className = 'meter-bar__fill meter-bar__fill--moderate';
-                safetyHint.textContent = cautionCount + ' flagged item' + (cautionCount > 1 ? 's' : '') + ' — expect a possible bag check';
+                safetyHint.textContent = cautionCount + ' flagged item' + (cautionCount > 1 ? 's' : '') + ', expect a possible bag check';
             } else {
                 safetyLabel.textContent = 'Risky';
                 safetyLabel.style.color = '#d93025';
                 safetyBar.style.width = Math.max(safetyPct, 50) + '%';
                 safetyBar.className = 'meter-bar__fill meter-bar__fill--risky';
-                safetyHint.textContent = cautionCount + ' flagged items — high chance of inspection and delays';
+                safetyHint.textContent = cautionCount + ' flagged items, high chance of inspection and delays';
             }
 
             // Cost tracker
@@ -1385,11 +1385,11 @@
             } else if (totalINR <= DUTY_FREE_LIMIT) {
                 costBar.style.width = costPct + '%';
                 costBar.className = 'meter-bar__fill meter-bar__fill--moderate';
-                costHint.textContent = 'Approaching duty-free limit — only ₹' + (DUTY_FREE_LIMIT - totalINR).toLocaleString('en-IN') + ' left';
+                costHint.textContent = 'Approaching duty-free limit, only ₹' + (DUTY_FREE_LIMIT - totalINR).toLocaleString('en-IN') + ' left';
             } else {
                 costBar.style.width = '100%';
                 costBar.className = 'meter-bar__fill meter-bar__fill--risky';
-                costHint.textContent = 'Over duty-free limit by ₹' + (totalINR - DUTY_FREE_LIMIT).toLocaleString('en-IN') + ' — customs duty will apply';
+                costHint.textContent = 'Over duty-free limit by ₹' + (totalINR - DUTY_FREE_LIMIT).toLocaleString('en-IN') + '. Customs duty will apply';
             }
 
             // Baggage meter
@@ -1406,15 +1406,15 @@
             if (totalWeight <= BAGGAGE_LIMIT * 0.6) {
                 weightBar.style.width = Math.max(weightPct, 3) + '%';
                 weightBar.className = 'meter-bar__fill meter-bar__fill--safe';
-                weightHint.textContent = (BAGGAGE_LIMIT - totalWeight).toFixed(1) + ' kg left across ' + TRAVELERS + ' bags — plenty of room';
+                weightHint.textContent = (BAGGAGE_LIMIT - totalWeight).toFixed(1) + ' kg left across ' + TRAVELERS + ' bags, plenty of room';
             } else if (totalWeight <= BAGGAGE_LIMIT) {
                 weightBar.style.width = weightPct + '%';
                 weightBar.className = 'meter-bar__fill meter-bar__fill--moderate';
-                weightHint.textContent = 'Only ' + (BAGGAGE_LIMIT - totalWeight).toFixed(1) + ' kg left — bag is getting heavy';
+                weightHint.textContent = 'Only ' + (BAGGAGE_LIMIT - totalWeight).toFixed(1) + ' kg left. Bag is getting heavy';
             } else {
                 weightBar.style.width = '100%';
                 weightBar.className = 'meter-bar__fill meter-bar__fill--risky';
-                weightHint.textContent = 'Over by ' + (totalWeight - BAGGAGE_LIMIT).toFixed(1) + ' kg — won\'t fit in ' + TRAVELERS + ' bags, some items will need to be dropped';
+                weightHint.textContent = 'Over by ' + (totalWeight - BAGGAGE_LIMIT).toFixed(1) + ' kg, won\'t fit in ' + TRAVELERS + ' bags, some items will need to be dropped';
             }
         }
 
@@ -1659,7 +1659,7 @@
             // Customs block check
             checkCustoms(form.item.value);
             if (itemBlocked) {
-                showToast('Prohibited item — cannot submit', 'ban');
+                showToast('Prohibited item, cannot submit', 'ban');
                 return;
             }
 
@@ -1694,7 +1694,7 @@
                 imagePreview.style.display = 'none';
                 imageUploadArea.style.display = '';
                 if (customsCautionEl.classList.contains('show')) {
-                    showToast('Submitted — but heads up, this item can get the entire luggage flagged at customs', 'triangle-exclamation');
+                    showToast('Submitted, but heads up, this item can get the entire luggage flagged at customs', 'triangle-exclamation');
                 } else {
                     showToast('Request submitted!', 'check-circle');
                 }

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Google Certified Devices — New Additions</title>
-  <subtitle>Tracking every newly Google certified (GMS) Android device worldwide — phones, tablets, TVs, streaming devices, projectors, wearables, and automotive.</subtitle>
+  <title>Google Certified Devices: New Additions</title>
+  <subtitle>Tracking every newly Google certified (GMS) Android device worldwide: phones, tablets, TVs, streaming devices, projectors, wearables, and automotive.</subtitle>
   <link href="https://manojitballav.com/google-certified-devices.html" rel="alternate" type="text/html" />
   <link href="https://manojitballav.com/data/google-certified-devices-feed.xml" rel="self" type="application/atom+xml" />
   <id>https://manojitballav.com/data/google-certified-devices-feed.xml</id>
@@ -12,7 +12,7 @@
   </author>
   <icon>https://manojitballav.com/images/favicon-32x32.png</icon>
   <entry>
-<title>HALO, Smart TV + 7 more devices certified — 8 August 2026</title>
+<title>HALO, Smart TV + 7 more devices certified, 8 August 2026</title>
 <id>https://manojitballav.com/google-certified-devices.html#update-2026-08-08</id>
 <link href="https://manojitballav.com/google-certified-devices.html" rel="alternate" type="text/html" />
 <updated>2026-08-08T06:00:00Z</updated>
@@ -33,7 +33,7 @@
 &lt;/div&gt;</content>
 </entry>
 <entry>
-<title>NASA ONE, PULSE + 4 more devices certified — 7 August 2026</title>
+<title>NASA ONE, PULSE + 4 more devices certified, 7 August 2026</title>
 <id>https://manojitballav.com/google-certified-devices.html#update-2026-08-07</id>
 <link href="https://manojitballav.com/google-certified-devices.html" rel="alternate" type="text/html" />
 <updated>2026-08-07T06:00:00Z</updated>
@@ -54,7 +54,7 @@
 &lt;/div&gt;</content>
 </entry>
 <entry>
-<title>AGM_NOTE_N2, Rugged_Tablet_A + 40 more devices certified — 6 August 2026</title>
+<title>AGM_NOTE_N2, Rugged_Tablet_A + 40 more devices certified, 6 August 2026</title>
 <id>https://manojitballav.com/google-certified-devices.html#update-2026-08-06</id>
 <link href="https://manojitballav.com/google-certified-devices.html" rel="alternate" type="text/html" />
 <updated>2026-08-06T06:00:00Z</updated>
@@ -75,7 +75,7 @@
 &lt;/div&gt;</content>
 </entry>
 <entry>
-<title>CP08-J2, HONOR Pad X9b Max + 9 more devices certified — 5 August 2026</title>
+<title>CP08-J2, HONOR Pad X9b Max + 9 more devices certified, 5 August 2026</title>
 <id>https://manojitballav.com/google-certified-devices.html#update-2026-08-05</id>
 <link href="https://manojitballav.com/google-certified-devices.html" rel="alternate" type="text/html" />
 <updated>2026-08-05T06:00:00Z</updated>
@@ -96,7 +96,7 @@
 &lt;/div&gt;</content>
 </entry>
 <entry>
-<title>Pad_Mini, ECLIPSE_TAB_8 + 3 more devices certified — 4 August 2026</title>
+<title>Pad_Mini, ECLIPSE_TAB_8 + 3 more devices certified, 4 August 2026</title>
 <id>https://manojitballav.com/google-certified-devices.html#update-2026-08-04</id>
 <link href="https://manojitballav.com/google-certified-devices.html" rel="alternate" type="text/html" />
 <updated>2026-08-04T06:00:00Z</updated>
@@ -117,7 +117,7 @@
 &lt;/div&gt;</content>
 </entry>
 <entry>
-<title>65E-L3576C-E7, SP3702 + 15 more devices certified — 2 August 2026</title>
+<title>65E-L3576C-E7, SP3702 + 15 more devices certified, 2 August 2026</title>
 <id>https://manojitballav.com/google-certified-devices.html#update-2026-08-02</id>
 <link href="https://manojitballav.com/google-certified-devices.html" rel="alternate" type="text/html" />
 <updated>2026-08-02T06:00:00Z</updated>
@@ -138,7 +138,7 @@
 &lt;/div&gt;</content>
 </entry>
 <entry>
-<title>Marshall-8R, P8S-AR + 52 more devices certified — 1 August 2026</title>
+<title>Marshall-8R, P8S-AR + 52 more devices certified, 1 August 2026</title>
 <id>https://manojitballav.com/google-certified-devices.html#update-2026-08-01</id>
 <link href="https://manojitballav.com/google-certified-devices.html" rel="alternate" type="text/html" />
 <updated>2026-08-01T06:00:00Z</updated>
@@ -159,7 +159,7 @@
 &lt;/div&gt;</content>
 </entry>
 <entry>
-<title>ASTECH_IRIS_60, Note 56 + 20 more devices certified — 31 July 2026</title>
+<title>ASTECH_IRIS_60, Note 56 + 20 more devices certified, 31 July 2026</title>
 <id>https://manojitballav.com/google-certified-devices.html#update-2026-07-31</id>
 <link href="https://manojitballav.com/google-certified-devices.html" rel="alternate" type="text/html" />
 <updated>2026-07-31T06:00:00Z</updated>
@@ -180,7 +180,7 @@
 &lt;/div&gt;</content>
 </entry>
 <entry>
-<title>P11A_EEA, P11A_US + 43 more devices certified — 30 July 2026</title>
+<title>P11A_EEA, P11A_US + 43 more devices certified, 30 July 2026</title>
 <id>https://manojitballav.com/google-certified-devices.html#update-2026-07-30</id>
 <link href="https://manojitballav.com/google-certified-devices.html" rel="alternate" type="text/html" />
 <updated>2026-07-30T06:00:00Z</updated>
@@ -201,7 +201,7 @@
 &lt;/div&gt;</content>
 </entry>
 <entry>
-<title>AI+ Nova 2 Ultra, M21 + 27 more devices certified — 29 July 2026</title>
+<title>AI+ Nova 2 Ultra, M21 + 27 more devices certified, 29 July 2026</title>
 <id>https://manojitballav.com/google-certified-devices.html#update-2026-07-29</id>
 <link href="https://manojitballav.com/google-certified-devices.html" rel="alternate" type="text/html" />
 <updated>2026-07-29T06:00:00Z</updated>
@@ -222,7 +222,7 @@
 &lt;/div&gt;</content>
 </entry>
 <entry>
-<title>JA6-TBA1103, B1680V + 9 more devices certified — 28 July 2026</title>
+<title>JA6-TBA1103, B1680V + 9 more devices certified, 28 July 2026</title>
 <id>https://manojitballav.com/google-certified-devices.html#update-2026-07-28</id>
 <link href="https://manojitballav.com/google-certified-devices.html" rel="alternate" type="text/html" />
 <updated>2026-07-28T06:00:00Z</updated>
@@ -243,7 +243,7 @@
 &lt;/div&gt;</content>
 </entry>
 <entry>
-<title>A30Pro_A_US certified — 26 July 2026</title>
+<title>A30Pro_A_US certified, 26 July 2026</title>
 <id>https://manojitballav.com/google-certified-devices.html#update-2026-07-26</id>
 <link href="https://manojitballav.com/google-certified-devices.html" rel="alternate" type="text/html" />
 <updated>2026-07-26T06:00:00Z</updated>
@@ -264,7 +264,7 @@
 &lt;/div&gt;</content>
 </entry>
 <entry>
-<title>SN515AR_UM, AS20WF_NEO + 44 more devices certified — 25 July 2026</title>
+<title>SN515AR_UM, AS20WF_NEO + 44 more devices certified, 25 July 2026</title>
 <id>https://manojitballav.com/google-certified-devices.html#update-2026-07-25</id>
 <link href="https://manojitballav.com/google-certified-devices.html" rel="alternate" type="text/html" />
 <updated>2026-07-25T06:00:00Z</updated>
@@ -285,7 +285,7 @@
 &lt;/div&gt;</content>
 </entry>
 <entry>
-<title>Core-Z6, ENV_PAD_17_PRO + 16 more devices certified — 24 July 2026</title>
+<title>Core-Z6, ENV_PAD_17_PRO + 16 more devices certified, 24 July 2026</title>
 <id>https://manojitballav.com/google-certified-devices.html#update-2026-07-24</id>
 <link href="https://manojitballav.com/google-certified-devices.html" rel="alternate" type="text/html" />
 <updated>2026-07-24T06:00:00Z</updated>
@@ -306,7 +306,7 @@
 &lt;/div&gt;</content>
 </entry>
 <entry>
-<title>motorola edge - 2026, motorola edge - 2026 + 3 more devices certified — 23 July 2026</title>
+<title>motorola edge - 2026, motorola edge - 2026 + 3 more devices certified, 23 July 2026</title>
 <id>https://manojitballav.com/google-certified-devices.html#update-2026-07-23</id>
 <link href="https://manojitballav.com/google-certified-devices.html" rel="alternate" type="text/html" />
 <updated>2026-07-23T06:00:00Z</updated>
@@ -327,7 +327,7 @@
 &lt;/div&gt;</content>
 </entry>
 <entry>
-<title>TS_9_Mate_G, A10e + 8 more devices certified — 22 July 2026</title>
+<title>TS_9_Mate_G, A10e + 8 more devices certified, 22 July 2026</title>
 <id>https://manojitballav.com/google-certified-devices.html#update-2026-07-22</id>
 <link href="https://manojitballav.com/google-certified-devices.html" rel="alternate" type="text/html" />
 <updated>2026-07-22T06:00:00Z</updated>
@@ -348,7 +348,7 @@
 &lt;/div&gt;</content>
 </entry>
 <entry>
-<title>Digit_Tab2, ULTRA_S26 + 1 more devices certified — 21 July 2026</title>
+<title>Digit_Tab2, ULTRA_S26 + 1 more devices certified, 21 July 2026</title>
 <id>https://manojitballav.com/google-certified-devices.html#update-2026-07-21</id>
 <link href="https://manojitballav.com/google-certified-devices.html" rel="alternate" type="text/html" />
 <updated>2026-07-21T06:00:00Z</updated>
@@ -369,7 +369,7 @@
 &lt;/div&gt;</content>
 </entry>
 <entry>
-<title>CTABNEXUSC, PRO5_P + 13 more devices certified — 18 July 2026</title>
+<title>CTABNEXUSC, PRO5_P + 13 more devices certified, 18 July 2026</title>
 <id>https://manojitballav.com/google-certified-devices.html#update-2026-07-18</id>
 <link href="https://manojitballav.com/google-certified-devices.html" rel="alternate" type="text/html" />
 <updated>2026-07-18T06:00:00Z</updated>
@@ -390,7 +390,7 @@
 &lt;/div&gt;</content>
 </entry>
 <entry>
-<title>helio_110, TAB R12 Pro + 5 more devices certified — 17 July 2026</title>
+<title>helio_110, TAB R12 Pro + 5 more devices certified, 17 July 2026</title>
 <id>https://manojitballav.com/google-certified-devices.html#update-2026-07-17</id>
 <link href="https://manojitballav.com/google-certified-devices.html" rel="alternate" type="text/html" />
 <updated>2026-07-17T06:00:00Z</updated>
@@ -411,7 +411,7 @@
 &lt;/div&gt;</content>
 </entry>
 <entry>
-<title>View Speed Ultra 5G, arrows Alpha2 F-51G + 7 more devices certified — 16 July 2026</title>
+<title>View Speed Ultra 5G, arrows Alpha2 F-51G + 7 more devices certified, 16 July 2026</title>
 <id>https://manojitballav.com/google-certified-devices.html#update-2026-07-16</id>
 <link href="https://manojitballav.com/google-certified-devices.html" rel="alternate" type="text/html" />
 <updated>2026-07-16T06:00:00Z</updated>

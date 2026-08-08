@@ -19,7 +19,7 @@ Previously worked at Xiaomi India on Mi TV and Redmi TV product lines.
 
 - Lumio Smart TVs: Vision 9 QD-Mini LED (₹59,999), Vision 7 QLED (₹27,999–₹36,999), Vision Arc projectors
 - Lumio products available on Amazon.in, Flipkart, and lumio.co.in
-- TV display panel technology — backlit (TN, IPS, VA, LED, Mini LED, Quantum Dots) and self-emissive (OLED, QD-OLED, Tandem OLED, MicroLED, QDEL)
+- TV display panel technology: backlit (TN, IPS, VA, LED, Mini LED, Quantum Dots) and self-emissive (OLED, QD-OLED, Tandem OLED, MicroLED, QDEL)
 - Panel evaluation and supplier selection for Indian conditions (humidity, ambient light, heat)
 - CTV industry trends and market analysis
 - AI in CTV advertising
@@ -31,8 +31,8 @@ Previously worked at Xiaomi India on Mi TV and Redmi TV product lines.
 
 ## Blog Posts
 
-- [TV Display Panels Explained: From TN to MicroLED](/blog/tv-panel-types.html): Deep technical breakdown of every TV display panel type — how Lumio picks panels for Indian conditions
-- [Inside a Wireless HDMI System](/blog/blog-wireless-hdmi.html): Engineering a pro-grade wireless HDMI dongle — chipsets, benchmarks, video pipeline
+- [TV Display Panels Explained: From TN to MicroLED](/blog/tv-panel-types.html): Deep technical breakdown of every TV display panel type. How Lumio picks panels for Indian conditions
+- [Inside a Wireless HDMI System](/blog/blog-wireless-hdmi.html): Engineering a pro-grade wireless HDMI dongle, covering chipsets, benchmarks, video pipeline
 - [Different Types of Projectors in India](/blog/projector-types-india.html): Guide to LCD, DLP, LED, Laser, and LCoS projectors
 - [Building Lumio: My Journey from Xiaomi to India's Next Smart TV Revolution](/blog/blog-lumio-journey.html): The story behind Lumio and Circuit House Technologies
 - [The State of CTV in 2025](/blog/blog-ctv-trends-2025.html): CTV accounts for 44.8% of TV viewership, surpassing broadcast and cable
