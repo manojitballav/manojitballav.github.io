@@ -447,24 +447,33 @@ p + p { margin-top: 16px; }
   justify-content: space-between;
 }
 
+/* Light value is a literal, matching the rest of this stylesheet: --text-primary
+   is only declared inside the dark-theme block, so var() here would fall back to
+   inherited body grey. The dark override lives with the other dark rules below. */
 .header__logo {
   display: flex;
   align-items: center;
   text-decoration: none;
+  color: #202124;
 }
 
+/* The wordmark is drawn as a mask filled with currentColor rather than an <img>,
+   so it follows the theme directly. The old logo was a raster inverted with
+   filter: invert(1) in dark mode, which only worked while the mark stayed pure
+   black and flipped any colour added to it later.
+   Aspect ratio is 4.2493 (viewBox 3068 x 722, tight to the ink). */
 .header__logo-img {
-  height: 28px;
-  width: auto;
-  transition: opacity 0.2s ease, filter 0.3s ease;
+  display: block;
+  height: 20px;
+  width: calc(20px * 4.2493);
+  background-color: currentColor;
+  -webkit-mask: url(../images/logo-wordmark.svg) center / contain no-repeat;
+  mask: url(../images/logo-wordmark.svg) center / contain no-repeat;
+  transition: opacity 0.2s ease;
 }
 
 .header__logo:hover .header__logo-img {
   opacity: 0.75;
-}
-
-[data-theme="dark"] .header__logo-img {
-  filter: invert(1);
 }
 
 .header__nav {

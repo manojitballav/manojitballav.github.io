@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" role="img" aria-label="MONO">
+  <title>MONO</title>
+  <defs>
+    <clipPath id="mono-s0"><rect x="5.85" y="-20" width="13.10" height="100"/></clipPath>
+    <clipPath id="mono-s1"><rect x="21.95" y="-20" width="13.10" height="100"/></clipPath>
+    <clipPath id="mono-s2"><rect x="38.05" y="-20" width="16.10" height="100"/></clipPath>
+  </defs>
+  <g fill="currentColor">
+    <g clip-path="url(#mono-s0)" transform="translate(0,-3.0)">
+      <g transform="translate(1.381,52.750) scale(0.06571,-0.06571)"><path d="M68.0 0.0V700.0H229.0L436.0 285.0L642.0 700.0H803.0V0.0H687.0V546.0L434.0 50.0L182.0 546.0V0.0Z"/></g>
+    </g>
+    <g clip-path="url(#mono-s1)" transform="translate(0,3.5)">
+      <g transform="translate(1.381,52.750) scale(0.06571,-0.06571)"><path d="M68.0 0.0V700.0H229.0L436.0 285.0L642.0 700.0H803.0V0.0H687.0V546.0L434.0 50.0L182.0 546.0V0.0Z"/></g>
+    </g>
+    <g clip-path="url(#mono-s2)" transform="translate(0,-1.5)">
+      <g transform="translate(1.381,52.750) scale(0.06571,-0.06571)"><path d="M68.0 0.0V700.0H229.0L436.0 285.0L642.0 700.0H803.0V0.0H687.0V546.0L434.0 50.0L182.0 546.0V0.0Z"/></g>
+    </g>
+  </g>
+</svg>
