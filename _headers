@@ -1,3 +1,13 @@
+# ⚠️ NOT IN EFFECT — this file is a Netlify / Cloudflare Pages convention, and GitHub
+# Pages ignores it entirely. Verified 2026-08-08: manojitballav.com returns
+# `cache-control: max-age=600` for /images/* and /css/*, not the values below.
+#
+# The site is fronted by Cloudflare, so the way to actually apply these is a Cloudflare
+# Cache Rule (Caching → Cache Rules) with an Edge TTL per path. Keeping this file as the
+# record of the intended policy, and in case the site ever moves to a host that reads it.
+#
+# Leave /data/* alone either way — those payloads are rebuilt daily and want a short TTL.
+
 # Cache static assets
 /images/*
   Cache-Control: public, max-age=31536000, immutable

@@ -9,7 +9,8 @@ Disallow: /mono_brand_guidelines.md
 
 # Sitemap location
 Sitemap: https://manojitballav.com/sitemap.xml
-Sitemap: https://manojitballav.com/news-sitemap.xml
+# No news-sitemap.xml: a Google News sitemap may only list articles from the last 48
+# hours, so it is only worth publishing alongside a fresh post.
 
 # AI/LLM discovery
 # llms.txt: https://manojitballav.com/llms.txt

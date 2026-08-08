@@ -193,4 +193,4 @@ Rankings:
 - **Company:** Lumio (Circuit House Technologies)
 - **Industry:** Consumer Electronics, Smart TV, Connected TV, Streaming, AdTech, Display Technology
 - **Topics:** CTV, Smart TV, AI Advertising, FAST Channels, Display Panel Technology, TV Panel Types, OLED, Mini LED, QLED, QD-OLED, Product Management
-- **Last Updated:** March 2026
+- **Last Updated:** August 2026

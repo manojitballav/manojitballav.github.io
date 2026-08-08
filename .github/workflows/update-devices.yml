@@ -80,6 +80,17 @@ jobs:
         run: |
           cp /tmp/devices_new.csv data/supported_devices.csv
 
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build device payloads
+        run: |
+          # Writes data/devices-index.json + data/devices.txt (what the page actually
+          # fetches) and classifies this run's new devices for the feed step below.
+          node tools/build-device-data.js --new-types "$RUNNER_TEMP/new_device_types.json"
+
       - name: Update Atom feed
         run: |
           python3 << 'PYEOF'
@@ -134,43 +145,17 @@ jobs:
           # Order for display
           CAT_ORDER = ["phone", "tablet", "tv", "streaming", "projector", "watch", "auto", "other"]
 
-          TV_BRANDS = {"Arcelik","Altus","Beko","Grundig","Changhong","CHiQ","Sceptre",
-              "Element","Westinghouse","Cello","Linsar","Engel","Cecotec","TD SYSTEMS",
-              "INFINITON","Aconatic","Devant","Star-X","Dyon","KUNFT","EDENWOOD","Syinix",
-              "BPL","LLOYD","Prism","iSTAR","TORNADO","ORION","SABA","Continental Edison",
-              "Bang & Olufsen","Seiki","METZ","Evvoli","Dual","Magnavox","Bauhn",
-              "SCHNEIDER","MAG","4iG TV","KTCtv"}
-          STREAMING_BRANDS = {"Mecool","Homatics","Formuler","Dynalink","WeTek","MINIX",
-              "RockTek","AirTV","HiMedia","Amino","Arris","Technicolor","Austrostream",
-              "COSMOTE TV","DishTV-NZ","Magenta TV","TVCore","eroc","Sagemcom","COOCAA"}
-          PROJECTOR_BRANDS = {"XGIMI","Dangbei","JMGO","Nebula","Formovie","Epson",
-              "Wemax","HAPPRUN","ETOE","WIMIUS","GOODEE","ELEPHAS","LUMIO"}
-          WATCH_BRANDS = {"Mobvoi","Fossil","TAG Heuer","Montblanc","Hublot","Suunto"}
-          AUTO_BRANDS = {"Polestar","Volvo","Rivian","Honda","Renault","Nissan","Porsche",
-              "General Motors","Mazda","Subaru","ALPINE"}
-          TABLET_BRANDS = {"Wacom"}
-
-          def detect_type(brand, marketing, model):
-              b = brand.strip()
-              if b in TV_BRANDS: return "tv"
-              if b in STREAMING_BRANDS: return "streaming"
-              if b in PROJECTOR_BRANDS: return "projector"
-              if b in WATCH_BRANDS: return "watch"
-              if b in AUTO_BRANDS: return "auto"
-              if b in TABLET_BRANDS: return "tablet"
-              text = (marketing + " " + model).lower()
-              if re.search(r"\b(projector|laser.?projector|dlp)\b", text): return "projector"
-              if re.search(r"\b(streaming.?box|streaming.?stick|chromecast|dongle|set.?top|stb|media.?box|media.?player)\b", text): return "streaming"
-              if re.search(r"\b(tv|television|android tv|google tv|smart tv)\b", text): return "tv"
-              if re.search(r"\b(tab|tablet|pad)\b", text) and "gamepad" not in text: return "tablet"
-              if re.search(r"\b(watch|band|wearable|wear\s?os|smartwatch)\b", text): return "watch"
-              if re.search(r"\b(auto|car|vehicle|infotainment|automotive)\b", text): return "auto"
-              return "phone"
-
           # --- Categorize new devices ---
+          # Types come from tools/build-device-data.js, which shares js/device-type.js with
+          # the browser. This step used to keep its own simplified copy of the rules, which
+          # drifted from the page's and mis-filed devices in the feed.
+          with open(os.environ["RUNNER_TEMP"] + "/new_device_types.json", "r", encoding="utf-8") as f:
+              classified = json.load(f)
+          types_by_key = {(c["brand"], c["marketing"], c["device"], c["model"]): c["type"] for c in classified}
+
           categorized = {}
           for d in devices:
-              cat = detect_type(d[0], d[1], d[3])
+              cat = types_by_key.get((d[0], d[1], d[2], d[3]), "phone")
               categorized.setdefault(cat, []).append(d)
 
           # --- Brand summary ---
@@ -300,7 +285,7 @@ jobs:
       - name: Check for changes
         id: diff
         run: |
-          git add data/supported_devices.csv data/devices_meta.json data/google-certified-devices-feed.xml
+          git add data/supported_devices.csv data/devices_meta.json data/google-certified-devices-feed.xml data/devices-index.json data/devices.txt
           if git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
