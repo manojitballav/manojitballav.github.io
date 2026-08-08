@@ -41,3 +41,19 @@ compressed to its first letter. Using both together says the M twice.
 
 Font files are not vendored here — `make-logo.py` reads Red Hat Display Bold from
 `~/Library/Fonts`. Download it from Google Fonts if regenerating on another machine.
+
+## Share cards
+
+`make-og-cards.py` builds 1200x630 JPEGs for `og:image`. That is the ratio every
+platform crops to, so a card built at that size arrives uncropped.
+
+The portrait photo (`images/mono-2026.jpg`, 899x1600) is composed *into* the card
+rather than used as `og:image` directly — handing a 9:16 source to a 1.91:1 crop
+keeps a horizontal band through the middle and loses the face. The crop is centred
+on `SUBJECT_Y`, not on the image, so the face stays put whatever the panel size.
+
+Blog posts keep their own editorial images where those are already wide enough.
+Cards are only used where the original was missing, portrait, or too small.
+
+After deploying new cards, force a re-scrape or old previews persist for weeks:
+Facebook Sharing Debugger, LinkedIn Post Inspector, and for X just re-share.
