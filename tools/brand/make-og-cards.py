@@ -78,7 +78,6 @@ def card(title, kicker="", domain="manojitballav.com", out="og.jpg",
         img.paste(Image.new("RGB", (fade, H), BG), (W - PANEL, 0), grad)
 
     d = ImageDraw.Draw(img)
-    d.rectangle([0, 0, W, 6], fill=ACC)
 
     text_w = (W - PANEL - PAD - 40) if photo else (W - PAD * 2)
 
