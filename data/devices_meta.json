@@ -1,60 +1,72 @@
 {
-  "lastUpdated": "2026-08-08",
-  "newDevicesCount": 9,
+  "lastUpdated": "2026-08-09",
+  "newDevicesCount": 11,
   "newDevices": [
     [
-      "Evertek",
-      "HALO",
-      "HALO",
-      "HALO"
-    ],
-    [
-      "Haier",
+      "HANSUNGCOMPUTER",
       "Smart TV",
       "dangni",
       "AI PONT"
     ],
     [
-      "KTCtv",
-      "FPD",
-      "araku",
-      "Projector"
+      "Hyundai",
+      "HT10WC1MSG01",
+      "HT10WC1MSG01",
+      "10WC1"
     ],
     [
-      "MLINK",
-      "M808",
-      "M808",
-      "M808"
+      "LUCKYSTAR",
+      "T10A",
+      "T10A",
+      "T10A"
     ],
     [
-      "MTN",
-      "Alola 5G",
-      "Alola_5G",
-      "Alola 5G"
+      "MYCOM",
+      "COMEK_Tab_K",
+      "COMEK_Tab_K",
+      "COMEK Tab K"
     ],
     [
-      "MTN",
-      "Alola Max 2",
-      "Alola_Max2",
-      "Alola Max 2"
+      "MYCOM",
+      "COMEK_Tab_K2",
+      "COMEK_Tab_K2",
+      "COMEK Tab K2"
     ],
     [
-      "PRAZteck",
-      "10_Tablet_PC",
-      "PT10EduPad21-4G",
-      "PT10EduPad21-4G"
+      "Motorola",
+      "motorola edge 70 pro+",
+      "merc",
+      "motorola edge 2025"
     ],
     [
-      "PRAZteck",
-      "11_Tablet_PC",
-      "PT11EduPad21-4G",
-      "PT11EduPad21-4G"
+      "Motorola",
+      "motorola edge 70 pro+",
+      "merc",
+      "motorola edge 70 pro+"
     ],
     [
-      "Symphony",
-      "MAX_70",
-      "MAX_70",
-      "MAX 70"
+      "Panavox",
+      "Smart tv",
+      "dangni",
+      "AI PONT"
+    ],
+    [
+      "RebotAi",
+      "AF13Air_EEA",
+      "AF13Air_EEA",
+      "AF13Air_EEA"
+    ],
+    [
+      "TABWEE",
+      "V90_US",
+      "V90_US",
+      "V90_US"
+    ],
+    [
+      "realme",
+      "Smart TV",
+      "dangni",
+      "AI PONT"
     ]
   ]
 }

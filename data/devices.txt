@@ -13574,6 +13574,7 @@ HANKOOK_CREA
 HANSUNGCOMPUTER
 	HSC-IFPD	rk3588_t	HSG_Series	0
 	HSC-IFPD	rk3588_t	HSN_Series	0
+	Smart TV	dangni	AI PONT	2
 HANYEAL
 	E101GC	=	=	0
 	E108GC4G	=	=	0
@@ -18449,6 +18450,7 @@ Hyundai
 	HT10LC2MBKWW01	=	=	0
 	HT10WB2MSG01	=	10WB2	0
 	HT10WB3MSG01	=	10WB3	0
+	HT10WC1MSG01	=	10WC1	0
 	HT7GB1MBK_	=	7GB1	0
 	HT7WB1RBK	=	=	0
 	HT7WC1PBK	=	=	0
@@ -23762,6 +23764,8 @@ LT_Mobile
 	LT_mobile_S33	=	LT S33	0
 	LT_mobile_S34	=	LT S34	0
 	LT_mobile_S40	=	LT S40	0
+LUCKYSTAR
+	T10A	=	=	0
 LUCOMS
 	Android TV	R1	ATV R1	2
 	Android TV	R2	ATV R2	2
@@ -26275,6 +26279,8 @@ MYCOM
 	COMEK_Smart20	=	=	0
 	COMEK_Tab_10	=	COMEK Tab 10	1
 	COMEK_Tab_20	=	COMEK Tab 20	1
+	COMEK_Tab_K	=	COMEK Tab K	1
+	COMEK_Tab_K2	=	COMEK Tab K2	1
 MaQ(Global)
 	M.AI Phone Gen1	MAG1	MA1	0
 Mach Speed
@@ -28824,6 +28830,8 @@ Motorola
 	motorola edge 70 max	avr	~	0
 	motorola edge 70 pro	merc	motorola edge 2025	0
 	motorola edge 70 pro	merc	~	0
+	motorola edge 70 pro+	merc	motorola edge 2025	0
+	motorola edge 70 pro+	merc	~	0
 	motorola edge S30	xpeng	XT2175-2	0
 	motorola edge plus	burton	~	0
 	motorola edge plus (2022)	hiphi	~	0
@@ -33485,6 +33493,7 @@ Panavox
 	50 google tv/58 google tv/65 google tv/75 google tv	songshan	SmartTV 4K	2
 	PANAVOX Google TV	dongnae	~	2
 	Panavox Android TV	lushan	~	2
+	Smart tv	dangni	AI PONT	2
 	fushan_panavox	hamamatsucho	Panavox Android TV	2
 	xiaoyushan_panavox	xiaoyushan	Panavox Android TV	2
 Panodic
@@ -36056,6 +36065,7 @@ RebotAi
 	AF12_US	=	=	0
 	AF13	=	=	0
 	AF13Air	=	=	0
+	AF13Air_EEA	=	=	0
 	AF13_EEA	=	=	0
 	AG11	=	=	0
 	B11Air	=	=	0
@@ -44266,6 +44276,7 @@ TABWEE
 	V20_EEA	=	V20	0
 	V90_EEA	=	=	0
 	V90_NEU	=	=	0
+	V90_US	=	=	0
 	W80_NEU	W80	=	0
 	W80_US	W80	=	0
 	W90_EEA	W90	=	0
@@ -56426,6 +56437,7 @@ realme
 	RMX5377	RE648B	~	0
 	RMX5388	RE60BA	~	0
 	RMX5555	RE6441L1	~	0
+	Smart TV	dangni	AI PONT	2
 	Smart TV	mateo	2K PA Smart TV	2
 	Smart TV	redwood	AI PONT	2
 	TV Stick	BOS	~	3
