@@ -1,72 +1,36 @@
 {
-  "lastUpdated": "2026-08-10",
-  "newDevicesCount": 11,
+  "lastUpdated": "2026-08-11",
+  "newDevicesCount": 5,
   "newDevices": [
     [
-      "HANSUNGCOMPUTER",
-      "Smart TV",
-      "dangni",
-      "AI PONT"
+      "FPD",
+      "CP12-C1",
+      "CP12-C1",
+      "CP12-J1"
     ],
     [
-      "Hyundai",
-      "HT10WC1MSG01",
-      "HT10WC1MSG01",
-      "10WC1"
+      "Hisense",
+      "HLTE243E",
+      "HLTE243E",
+      "Hisense C60"
     ],
     [
-      "LUCKYSTAR",
-      "T10A",
-      "T10A",
-      "T10A"
+      "Honor",
+      "HONOR Pad 20",
+      "HNHEY4-Q1",
+      "HEY4-N09"
     ],
     [
-      "MYCOM",
-      "COMEK_Tab_K",
-      "COMEK_Tab_K",
-      "COMEK Tab K"
+      "Honor",
+      "HONOR Pad 20",
+      "HNHEY4-Q1",
+      "HEY4-W09"
     ],
     [
-      "MYCOM",
-      "COMEK_Tab_K2",
-      "COMEK_Tab_K2",
-      "COMEK Tab K2"
-    ],
-    [
-      "Motorola",
-      "motorola edge 70 pro+",
-      "merc",
-      "motorola edge 2025"
-    ],
-    [
-      "Motorola",
-      "motorola edge 70 pro+",
-      "merc",
-      "motorola edge 70 pro+"
-    ],
-    [
-      "Panavox",
-      "Smart tv",
-      "dangni",
-      "AI PONT"
-    ],
-    [
-      "RebotAi",
-      "AF13Air_EEA",
-      "AF13Air_EEA",
-      "AF13Air_EEA"
-    ],
-    [
-      "TABWEE",
-      "V90_US",
-      "V90_US",
-      "V90_US"
-    ],
-    [
-      "realme",
-      "Smart TV",
-      "dangni",
-      "AI PONT"
+      "Phone Max",
+      "X5_T_EEA",
+      "X5_T",
+      "X5_T"
     ]
   ]
 }
