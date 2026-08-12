@@ -1,36 +1,126 @@
 {
-  "lastUpdated": "2026-08-11",
-  "newDevicesCount": 5,
+  "lastUpdated": "2026-08-12",
+  "newDevicesCount": 20,
   "newDevices": [
     [
-      "FPD",
-      "CP12-C1",
-      "CP12-C1",
-      "CP12-J1"
+      "Athesi",
+      "E65",
+      "E651",
+      "E65"
     ],
     [
-      "Hisense",
-      "HLTE243E",
-      "HLTE243E",
-      "Hisense C60"
+      "JAV Smartboard",
+      "JAV_smartboard",
+      "LED65H19S",
+      "LED65H19S"
     ],
     [
-      "Honor",
-      "HONOR Pad 20",
-      "HNHEY4-Q1",
-      "HEY4-N09"
+      "KENSHI",
+      "101HH1B",
+      "101HH1B",
+      "101HH1B"
     ],
     [
-      "Honor",
-      "HONOR Pad 20",
-      "HNHEY4-Q1",
-      "HEY4-W09"
+      "Lango",
+      "IFPD-R3576",
+      "IFPD-R3576",
+      "IFPD-R3576"
     ],
     [
-      "Phone Max",
-      "X5_T_EEA",
-      "X5_T",
-      "X5_T"
+      "OKView",
+      "IWB-3576",
+      "rk3576",
+      "IWB-3576"
+    ],
+    [
+      "POCO",
+      "POCO M8 Power 5G",
+      "mist",
+      "26021PC18I"
+    ],
+    [
+      "Redmi",
+      "REDMI 17 5G",
+      "steppe",
+      "26062RN92G"
+    ],
+    [
+      "Samsung",
+      "Galaxy Quantum7",
+      "a57x",
+      "SM-A576S"
+    ],
+    [
+      "Samsung",
+      "WAF-S",
+      "SAMSUNG_INTERACTIVE_DISPLAY",
+      "WAF-S"
+    ],
+    [
+      "TCL",
+      "G14_2K_GB",
+      "G14",
+      "Smart TV"
+    ],
+    [
+      "TCL",
+      "G14_4K_GB",
+      "G14",
+      "Smart TV"
+    ],
+    [
+      "TCL",
+      "G14_4K_GB_32BIT",
+      "G14",
+      "Smart TV"
+    ],
+    [
+      "TCL",
+      "G14_4K_US",
+      "G14",
+      "Smart TV"
+    ],
+    [
+      "TCL",
+      "G14_4K_US_32BIT",
+      "G14",
+      "Smart TV"
+    ],
+    [
+      "TCL",
+      "G15_4K_D4_GB",
+      "G15",
+      "Smart TV Pro"
+    ],
+    [
+      "TCL",
+      "G15_4K_D4_GB_NF",
+      "G15",
+      "Smart TV"
+    ],
+    [
+      "TCL",
+      "G15_4K_GB_NF",
+      "G15",
+      "Smart TV"
+    ],
+    [
+      "Virtual",
+      "Interactive-Touch-Screen",
+      "Interactive-Touch-Screen",
+      "Interactive-Flat-Panel"
+    ],
+    [
+      "Xtratech",
+      "IGUANAPAD_X11MK87",
+      "IGUANAPAD_X11MK87",
+      "IGUANAPAD_X11MK87"
+    ],
+    [
+      "iiyama",
+      "TEXX13A-76",
+      "TEXX13A-76",
+      "TEXX13A-76"
     ]
   ]
 }

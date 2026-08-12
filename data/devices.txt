@@ -3314,6 +3314,7 @@ Athesi
 	Athesi professional AP5705S	AP5705S	=	0
 	E55	=	=	0
 	E65	=	=	0
+	E65	E651	~	0
 	E6A	=	=	0
 	RT101A	=	RT101A9	0
 	RT4300_EEA	RT4300	=	0
@@ -20310,6 +20311,7 @@ JAV Smart-box
 JAV Smartboard
 	Flagship model	rk3588_t	LEDxxH16S	0
 	H10S_PRO-Series	mt9679_u	LEDxxH10S_PRO	0
+	JAV_smartboard	LED65H19S	=	0
 JAY-TECH
 	TPC-G1010	TPC-G1010_EEA	~	0
 	TPC-G1011LTE	=	=	0
@@ -20850,6 +20852,7 @@ KEMPLER STRAUSS
 	ZKEMPLER_MAX	=	=	0
 	ZKEMPLER_PLUS	=	ZKEMPLER PLUS	0
 KENSHI
+	101HH1B	=	=	0
 	Armor C1 Max	Armor_C1_Max	~	0
 	Armor C1s	Armor_C1s	~	0
 	Armor H1s	Armor_H1s	~	0
@@ -23866,6 +23869,7 @@ Landbyte
 	LT5030	=	=	0
 	Lt6248	=	=	0
 Lango
+	IFPD-R3576	=	=	0
 	LANGO OPS8195	OPS-8195A	OPS-8195A-3-V0	0
 Lanix
 	ALPHA 2	ALPHA2	~	0
@@ -30711,6 +30715,7 @@ OKView
 	IFP	mensa_an64	~	0
 	IFP	rk3588_t	~	0
 	IFP86A1	rk3588_t	IFP	0
+	IWB-3576	rk3576	~	0
 OKWU
 	PI Plus	PI_Plus	~	0
 OLAX
@@ -33026,6 +33031,7 @@ POCO
 	POCO M7 Pro 5G	beryl	2409FPCC4I	0
 	POCO M8 5G	kunzite	25118PC98G	0
 	POCO M8 5G	kunzite	25118PC98I	0
+	POCO M8 Power 5G	mist	26021PC18I	0
 	POCO M8 Pro 5G	flourite	2510EPC8BG	0
 	POCO Pad	dizi	2405CPCFBG	1
 	POCO Pad C1	guitar	2603APC14G	1
@@ -36107,6 +36113,7 @@ Redmi
 	POCO F5	marblein	23049PCD8I	0
 	REDMI 15A 5G	somalia	2602BRNA4I	0
 	REDMI 15C 5G	tornado	2508CRN2BI	0
+	REDMI 17 5G	steppe	26062RN92G	0
 	REDMI A7	serenity	26020RNB4I	0
 	REDMI A7 Pro	arctic	25128RN17A	0
 	REDMI A7 Pro	arctic	25128RN17I	0
@@ -39562,6 +39569,7 @@ Samsung
 	Galaxy Quantum4	a54x	SM-A546S	0
 	Galaxy Quantum5	a55x	SM-A556S	0
 	Galaxy Quantum6	a56x	SM-A566S	0
+	Galaxy Quantum7	a57x	SM-A576S	0
 	Galaxy R-Style	jaguark	SHV-E170K	0
 	Galaxy R-Style	jaguarl	SHV-E170L	0
 	Galaxy R-Style	jaguars	SHV-E170S	0
@@ -41226,6 +41234,7 @@ Samsung
 	VinsQ(M910)	SPH-M910	=	0
 	W2016	royceltectc	SM-W2016	0
 	W2017	veyronltectc	SM-W2017	0
+	WAF-S	SAMSUNG_INTERACTIVE_DISPLAY	~	0
 	WAFX-P	SAMSUNG_INTERACTIVE_DISPLAY	~	0
 	olleh	ik1	SMT-E5015	0
 	三星 W21 5G	victory	SM-W2021	0
@@ -44374,7 +44383,15 @@ TCL
 	G10_4K_US	G10	Smart TV Pro	2
 	G13_2K_GB	G13	Smart TV	2
 	G13_2K_US	G13	Smart TV	2
+	G14_2K_GB	G14	Smart TV	2
+	G14_4K_GB	G14	Smart TV	2
+	G14_4K_GB_32BIT	G14	Smart TV	2
+	G14_4K_US	G14	Smart TV	2
+	G14_4K_US_32BIT	G14	Smart TV	2
+	G15_4K_D4_GB	G15	Smart TV Pro	2
+	G15_4K_D4_GB_NF	G15	Smart TV	2
 	G15_4K_GB	G15	Smart TV Pro	2
+	G15_4K_GB_NF	G15	Smart TV	2
 	G16_4K_US	G16	Smart TV Pro	2
 	G17_4K_GB	G17	Smart TV Pro	2
 	G17_4K_US	G17	Smart TV Pro	2
@@ -49961,6 +49978,7 @@ Virse
 	E95	=	=	0
 Virtual
 	Interactive-Flat-Panel	=	Interactive Flat Panel	0
+	Interactive-Touch-Screen	=	Interactive-Flat-Panel	0
 Virzo
 	V501C	=	=	0
 	V505c	=	=	0
@@ -52610,6 +52628,7 @@ Xstar
 	T20	=	=	0
 Xtratech
 	BRIO_X31	=	=	0
+	IGUANAPAD_X11MK87	=	=	0
 	South America,Ecuador	martin	XTRATECH Android TV	2
 	South America,Ecuador	patrick	XTRATECH Android TV	2
 	X10MT16	=	=	0
@@ -56120,6 +56139,7 @@ ibowin
 iiyama
 	PLXX12U	RK3576	TEXX12MIS	0
 	TEXX13A	=	=	0
+	TEXX13A-76	=	=	0
 	TEXX14MIS-B2AG	rk3588_t	~	0
 	TEXX15A	=	=	0
 imiia
