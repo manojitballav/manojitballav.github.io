@@ -1,126 +1,138 @@
 {
-  "lastUpdated": "2026-08-12",
-  "newDevicesCount": 20,
+  "lastUpdated": "2026-08-13",
+  "newDevicesCount": 22,
   "newDevices": [
     [
-      "Athesi",
-      "E65",
-      "E651",
-      "E65"
+      "AMobile",
+      "TC1560M-G510",
+      "tc1560m_g510",
+      "TC1560M-G510"
     ],
     [
-      "JAV Smartboard",
-      "JAV_smartboard",
-      "LED65H19S",
-      "LED65H19S"
+      "Blu",
+      "VIEW 5",
+      "B161V",
+      "B161V"
     ],
     [
-      "KENSHI",
-      "101HH1B",
-      "101HH1B",
-      "101HH1B"
+      "JUEDUR",
+      "R500_U",
+      "R500_U",
+      "R500_U"
     ],
     [
-      "Lango",
-      "IFPD-R3576",
-      "IFPD-R3576",
-      "IFPD-R3576"
+      "Megmeet",
+      "MN_AIO_RK3576",
+      "MN_AIO_RK3576",
+      "MN_AIO_RK3576"
     ],
     [
-      "OKView",
-      "IWB-3576",
-      "rk3576",
-      "IWB-3576"
-    ],
-    [
-      "POCO",
-      "POCO M8 Power 5G",
-      "mist",
-      "26021PC18I"
-    ],
-    [
-      "Redmi",
-      "REDMI 17 5G",
-      "steppe",
-      "26062RN92G"
+      "PEICHENG",
+      "Q10_Pro",
+      "Q10_Pro",
+      "Q10"
     ],
     [
       "Samsung",
-      "Galaxy Quantum7",
-      "a57x",
-      "SM-A576S"
+      "Galaxy A07s",
+      "a07ve",
+      "SM-A077F"
     ],
     [
       "Samsung",
-      "WAF-S",
-      "SAMSUNG_INTERACTIVE_DISPLAY",
-      "WAF-S"
+      "Galaxy A07s",
+      "a07ve",
+      "SM-A077M"
     ],
     [
-      "TCL",
-      "G14_2K_GB",
-      "G14",
-      "Smart TV"
+      "Samsung",
+      "Galaxy S26 FE",
+      "r14s",
+      "SM-S741B"
     ],
     [
-      "TCL",
-      "G14_4K_GB",
-      "G14",
-      "Smart TV"
+      "Samsung",
+      "Galaxy S26 FE",
+      "r14s",
+      "SM-S741N"
     ],
     [
-      "TCL",
-      "G14_4K_GB_32BIT",
-      "G14",
-      "Smart TV"
+      "Samsung",
+      "Galaxy S26 FE",
+      "r14s",
+      "SM-S741U"
     ],
     [
-      "TCL",
-      "G14_4K_US",
-      "G14",
-      "Smart TV"
+      "Samsung",
+      "Galaxy S26 FE",
+      "r14s",
+      "SM-S741U1"
     ],
     [
-      "TCL",
-      "G14_4K_US_32BIT",
-      "G14",
-      "Smart TV"
+      "Samsung",
+      "Galaxy S26 FE",
+      "r14s",
+      "SM-S741W"
     ],
     [
-      "TCL",
-      "G15_4K_D4_GB",
-      "G15",
-      "Smart TV Pro"
+      "Samsung",
+      "Galaxy Tab S12+ 5G",
+      "gts12p",
+      "SM-X846B"
     ],
     [
-      "TCL",
-      "G15_4K_D4_GB_NF",
-      "G15",
-      "Smart TV"
+      "Samsung",
+      "Galaxy Tab S12+ 5G",
+      "gts12p",
+      "SM-X846E"
     ],
     [
-      "TCL",
-      "G15_4K_GB_NF",
-      "G15",
-      "Smart TV"
+      "Samsung",
+      "Galaxy Tab S12+ 5G",
+      "gts12p",
+      "SM-X846N"
     ],
     [
-      "Virtual",
-      "Interactive-Touch-Screen",
-      "Interactive-Touch-Screen",
-      "Interactive-Flat-Panel"
+      "Samsung",
+      "Galaxy Tab S12+ 5G",
+      "gts12p",
+      "SM-X848U"
     ],
     [
-      "Xtratech",
-      "IGUANAPAD_X11MK87",
-      "IGUANAPAD_X11MK87",
-      "IGUANAPAD_X11MK87"
+      "Samsung",
+      "Galaxy Tab S12+",
+      "gts12pwifi",
+      "SM-X840"
     ],
     [
-      "iiyama",
-      "TEXX13A-76",
-      "TEXX13A-76",
-      "TEXX13A-76"
+      "Sinoeview",
+      "TA_IFPD",
+      "TA_IFPD",
+      "TA-L"
+    ],
+    [
+      "TABWEE",
+      "V20_US",
+      "V20_US",
+      "V20"
+    ],
+    [
+      "XPPen",
+      "MDP1232_EEA",
+      "MDP1231",
+      "MDP1231"
+    ],
+    [
+      "ZKTeco",
+      "ZKTeco_I3",
+      "ZKTeco_I3",
+      "ZKTeco_I3"
+    ],
+    [
+      "vivo",
+      "Y6k",
+      "PD2542",
+      "V2542A"
     ]
   ]
 }

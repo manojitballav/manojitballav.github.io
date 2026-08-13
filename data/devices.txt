@@ -365,6 +365,7 @@ AMobile
 	PD470	=	=	0
 	PD602	=	=	0
 	RT101	=	=	0
+	TC1560M-G510	tc1560m_g510	~	0
 ANAM
 	ANAM	seocho	ANAM 4K Android TV	2
 ANDDORO
@@ -5687,6 +5688,7 @@ Blu
 	Tank Xtreme Pro	T0010UU	~	0
 	Tank_Xtreme	T0030WW	Tank Xtreme	0
 	Touchbook M7 Pro	P290	~	0
+	VIEW 5	B161V	=	0
 	VIVO 5	BLU_VIVO_5	~	0
 	VIVO 5R	BLU_Vivo_5R	Vivo 5R	0
 	VIVO 6	BLU_Vivo_6	Vivo 6	0
@@ -20416,6 +20418,7 @@ JTYPDA
 JUEDUR
 	R500 EEA	R500_EEA	=	0
 	R500 US	R500_US	=	0
+	R500_U	=	=	0
 	R500_V_EEA	=	=	0
 	R500_V_US	=	=	0
 	R700_EEA	=	=	0
@@ -26952,6 +26955,7 @@ Megahouse
 	CP-D403	=	=	0
 Megmeet
 	MN_AIO_B	=	=	0
+	MN_AIO_RK3576	=	=	0
 Meiigoo
 	S8	MEIIGOO_S8	~	0
 	S9	=	=	0
@@ -32864,6 +32868,7 @@ PEICHENG
 	P13Ultra	=	=	0
 	Q1	=	=	0
 	Q1	=	Q1K	0
+	Q10_Pro	=	Q10	0
 	Q8	=	=	0
 	Q8	=	Q8K	0
 	Q8PRO	=	Q8 PRO	0
@@ -37991,6 +37996,8 @@ Samsung
 	Galaxy A07 5G	a07x	SM-A076B	0
 	Galaxy A07 5G	a07x	SM-A076E	0
 	Galaxy A07 5G	a07x	SM-A076M	0
+	Galaxy A07s	a07ve	SM-A077F	0
+	Galaxy A07s	a07ve	SM-A077M	0
 	Galaxy A10	a10	SM-A105F	0
 	Galaxy A10	a10	SM-A105FN	0
 	Galaxy A10	a10	SM-A105G	0
@@ -39902,6 +39909,11 @@ Samsung
 	Galaxy S26	m1q	SM-S942Z	0
 	Galaxy S26	m1s	SM-S942B	0
 	Galaxy S26	m1s	SM-S942N	0
+	Galaxy S26 FE	r14s	SM-S741B	0
+	Galaxy S26 FE	r14s	SM-S741N	0
+	Galaxy S26 FE	r14s	SM-S741U	0
+	Galaxy S26 FE	r14s	SM-S741U1	0
+	Galaxy S26 FE	r14s	SM-S741W	0
 	Galaxy S26 Ultra	m3q	SC-53G	0
 	Galaxy S26 Ultra	m3q	SCG37	0
 	Galaxy S26 Ultra	m3q	SM-S9480	0
@@ -40547,6 +40559,11 @@ Samsung
 	Galaxy Tab S11 Ultra 5G	gts11u	SM-X936B	1
 	Galaxy Tab S11 Ultra 5G	gts11u	SM-X936C	1
 	Galaxy Tab S11 Ultra 5G	gts11u	SM-X936N	1
+	Galaxy Tab S12+	gts12pwifi	SM-X840	1
+	Galaxy Tab S12+ 5G	gts12p	SM-X846B	1
+	Galaxy Tab S12+ 5G	gts12p	SM-X846E	1
+	Galaxy Tab S12+ 5G	gts12p	SM-X846N	1
+	Galaxy Tab S12+ 5G	gts12p	SM-X848U	1
 	Galaxy Tab S2	gts210lte	SM-T815	1
 	Galaxy Tab S2	gts210lte	SM-T815C	1
 	Galaxy Tab S2	gts210lte	SM-T815Y	1
@@ -42194,6 +42211,7 @@ SinoGNSS
 	R60 Data Collector	R60	=	0
 Sinoeview
 	TA_IFPD	TA-L	=	0
+	TA_IFPD	=	TA-L	0
 Sintel
 	SINTEL-X1	SINTEL_X1	~	0
 Sinum
@@ -44288,6 +44306,7 @@ TABWEE
 	T90_NEU	T90	=	0
 	T90_US	T90	=	0
 	V20_EEA	=	V20	0
+	V20_US	=	V20	0
 	V90_EEA	=	=	0
 	V90_NEU	=	=	0
 	V90_US	=	=	0
@@ -52153,6 +52172,7 @@ XORO
 XPLORE
 	XPLORE X7U	X7U	~	0
 XPPen
+	MDP1232_EEA	MDP1231	=	0
 	XPPen_Magic_Drawing_Pad	Titan_XPPen	MagicDrawingPad	0
 	XPPen_Magic_Drawing_Pad_RU	Titan_XPPen	MagicDrawingPad	0
 XREAL
@@ -52970,6 +52990,7 @@ ZIOVO
 	Z168_U_US	=	=	0
 ZKTeco
 	Interactive_Whiteboard	oversea_v	SC02-I5	0
+	ZKTeco_I3	=	=	0
 ZLINE
 	ZLINE_Z_742	=	Z_742	0
 ZMBIZI
@@ -57064,6 +57085,7 @@ vivo
 	Y60s m版	PD2559	V2559BA	0
 	Y6a	PD2531	V2531A	0
 	Y6e	PD2559	V2559A	0
+	Y6k	PD2542	V2542A	0
 	Y6m	PD2532	V2532BA	0
 	Y6t	PD2559	V2559A	0
 	Y6t m版	PD2542	V2542A	0
