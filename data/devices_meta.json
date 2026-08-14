@@ -1,138 +1,84 @@
 {
-  "lastUpdated": "2026-08-13",
-  "newDevicesCount": 22,
+  "lastUpdated": "2026-08-14",
+  "newDevicesCount": 13,
   "newDevices": [
     [
-      "AMobile",
-      "TC1560M-G510",
-      "tc1560m_g510",
-      "TC1560M-G510"
+      "Apolosign",
+      "AndroidSmartDisplay",
+      "WA2489T",
+      "rk3576_u"
+    ],
+    [
+      "BMAX",
+      "I9_Plus_WireFree_US",
+      "I9_Plus_WireFree_US",
+      "I9_Plus_WireFree"
     ],
     [
       "Blu",
-      "VIEW 5",
-      "B161V",
-      "B161V"
+      "VIEW PRO 5G",
+      "B1680V",
+      "B1680V"
     ],
     [
-      "JUEDUR",
-      "R500_U",
-      "R500_U",
-      "R500_U"
+      "Honor",
+      "HONOR X9e s",
+      "HNMTN-Q1",
+      "MTN-NX1"
     ],
     [
-      "Megmeet",
-      "MN_AIO_RK3576",
-      "MN_AIO_RK3576",
-      "MN_AIO_RK3576"
+      "Honor",
+      "HONOR X9e s",
+      "HNMTN-Q1",
+      "MTN-NX3"
     ],
     [
-      "PEICHENG",
-      "Q10_Pro",
-      "Q10_Pro",
-      "Q10"
+      "Honor",
+      "荣耀Play11 Pro",
+      "HNLNA-M",
+      "LNA-AN00"
     ],
     [
-      "Samsung",
-      "Galaxy A07s",
-      "a07ve",
-      "SM-A077F"
+      "Hyundai",
+      "HT10LA2MSGNA02",
+      "HYLINE",
+      "HT10LA2MSGNA02"
     ],
     [
-      "Samsung",
-      "Galaxy A07s",
-      "a07ve",
-      "SM-A077M"
+      "JOVI",
+      "JOVI X300 FE",
+      "J2505",
+      "J2505"
     ],
     [
-      "Samsung",
-      "Galaxy S26 FE",
-      "r14s",
-      "SM-S741B"
+      "MEIZE",
+      "D122_US",
+      "D122_US",
+      "D122_US"
     ],
     [
-      "Samsung",
-      "Galaxy S26 FE",
-      "r14s",
-      "SM-S741N"
+      "MEIZE",
+      "F107_ROW",
+      "F107",
+      "F107"
     ],
     [
-      "Samsung",
-      "Galaxy S26 FE",
-      "r14s",
-      "SM-S741U"
+      "TechZen",
+      "HT10Pro",
+      "HT10Pro",
+      "HT10Pro"
     ],
     [
-      "Samsung",
-      "Galaxy S26 FE",
-      "r14s",
-      "SM-S741U1"
+      "WQi(sh)",
+      "Gm81",
+      "Gm81",
+      "Gm81"
     ],
     [
-      "Samsung",
-      "Galaxy S26 FE",
-      "r14s",
-      "SM-S741W"
-    ],
-    [
-      "Samsung",
-      "Galaxy Tab S12+ 5G",
-      "gts12p",
-      "SM-X846B"
-    ],
-    [
-      "Samsung",
-      "Galaxy Tab S12+ 5G",
-      "gts12p",
-      "SM-X846E"
-    ],
-    [
-      "Samsung",
-      "Galaxy Tab S12+ 5G",
-      "gts12p",
-      "SM-X846N"
-    ],
-    [
-      "Samsung",
-      "Galaxy Tab S12+ 5G",
-      "gts12p",
-      "SM-X848U"
-    ],
-    [
-      "Samsung",
-      "Galaxy Tab S12+",
-      "gts12pwifi",
-      "SM-X840"
-    ],
-    [
-      "Sinoeview",
-      "TA_IFPD",
-      "TA_IFPD",
-      "TA-L"
-    ],
-    [
-      "TABWEE",
-      "V20_US",
-      "V20_US",
-      "V20"
-    ],
-    [
-      "XPPen",
-      "MDP1232_EEA",
-      "MDP1231",
-      "MDP1231"
-    ],
-    [
-      "ZKTeco",
-      "ZKTeco_I3",
-      "ZKTeco_I3",
-      "ZKTeco_I3"
-    ],
-    [
-      "vivo",
-      "Y6k",
-      "PD2542",
-      "V2542A"
+      "Zebra",
+      "KC401",
+      "KC401",
+      "KC401"
     ]
   ]
 }

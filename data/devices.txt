@@ -2287,6 +2287,7 @@ Apex
 	Z12_PRO	=	=	0
 	Z4PRO	=	=	0
 Apolosign
+	AndroidSmartDisplay	WA2489T	rk3576_u	0
 	AndroidTablet	WA1389T	=	0
 	DigitalCalendar	FA158AT	=	0
 	DigitalSignage	FA1569T	Apolosign Calendar	0
@@ -3891,6 +3892,7 @@ BMAX
 	I9_Plus_WLAN	=	I9_Plus	0
 	I9_Plus_WLAN_EEA	=	I9_Plus	0
 	I9_Plus_WireFree	=	=	0
+	I9_Plus_WireFree_US	=	I9_Plus_WireFree	0
 	I9_Plus_Wlanonly	=	I9_Plus	0
 	I9_Plus_Wlanonly_EEA	=	I9_Plus	0
 BMPRO
@@ -5294,7 +5296,6 @@ Blu
 	B131DL	B130DL	~	0
 	B140DL	=	=	0
 	B160V	=	=	0
-	B1680V	=	=	0
 	B3	B301	~	0
 	BLU	G0430WW	G71	0
 	BLU Dash XL	Dash_XL	Dash XL	6
@@ -5689,6 +5690,7 @@ Blu
 	Tank_Xtreme	T0030WW	Tank Xtreme	0
 	Touchbook M7 Pro	P290	~	0
 	VIEW 5	B161V	=	0
+	VIEW PRO 5G	B1680V	=	0
 	VIVO 5	BLU_VIVO_5	~	0
 	VIVO 5R	BLU_Vivo_5R	Vivo 5R	0
 	VIVO 6	BLU_Vivo_6	Vivo 6	0
@@ -16457,6 +16459,8 @@ Honor
 	HONOR X9a 5G	HNRMO-Q	RMO-NX1	0
 	HONOR X9b 5G	HNALI-Q	ALI-NX1	0
 	HONOR X9c	HNBRP-Q1	BRP-NX1	0
+	HONOR X9e s	HNMTN-Q1	MTN-NX1	0
+	HONOR X9e s	HNMTN-Q1	MTN-NX3	0
 	Honor 200 Lite	HNLLY-M1	LLY-NX1	0
 	Honor 200 Lite	HNLLY-M1	LLY-NX3	0
 	Honor X9b 5G	HNALI-Q	ALI-NX3P	0
@@ -16469,6 +16473,7 @@ Honor
 	PORSCHE DESIGN HONOR Magic7 RSR	HNPTPX	PTP-N59	0
 	荣耀Magic8 Pro Air	HNLDY-M	LDY-AN00	0
 	荣耀MagicPad3 Pro 12.3	HNYLE-Q	YLE-W09	1
+	荣耀Play11 Pro	HNLNA-M	LNA-AN00	0
 	荣耀Power	HNDVD-Q	DVD-AN00	0
 	荣耀Power	HNDVD-Q	DVD-AN80	0
 	荣耀Power2	HNSER-M	SER-AN00	0
@@ -18444,6 +18449,7 @@ Hyundai
 	HT0802W16/Koral_8W2	HT0802W16	Koral_8W2	0
 	HT10LA1MSGNA02	=	10LA1	0
 	HT10LA2MSGNA01	=	=	0
+	HT10LA2MSGNA02	HYLINE	~	0
 	HT10LB2MBKLTM	=	10LB2	0
 	HT10LB2MBKLTM02	=	=	0
 	HT10LB3MBKLTM	=	=	0
@@ -20362,6 +20368,7 @@ JOVI
 	JOVI T1 5G	J2502	=	0
 	JOVI V50 Lite 5G	V2440B	V2440	0
 	JOVI V70 5G	J2507	=	0
+	JOVI X300 FE	J2505	=	0
 	JOVI X300 Ultra	J2510	=	0
 	JOVI Y19s	V2419B	V2425	0
 	JOVI Y19s	V2419B	V2454	0
@@ -20373,7 +20380,6 @@ JOVI
 	JOVI Y29s 5G	V2446B	V2459	0
 	JOVI Y31	J2506	=	0
 	V50	V2427B	V2427	0
-	X300 FE	J2505	=	0
 JOYSURF
 	TB-JS100A	=	=	0
 	TB-JS101A	=	=	0
@@ -25946,6 +25952,7 @@ MEIZE
 	D115	=	=	0
 	D121	=	=	0
 	D121_EEA	=	=	0
+	D122_US	=	=	0
 	D123	=	=	0
 	D125	=	=	0
 	D125_EEA	=	=	0
@@ -25958,6 +25965,7 @@ MEIZE
 	D131_eea	=	=	0
 	D135	=	=	0
 	D138	=	=	0
+	F107_ROW	F107	=	0
 	I9_Plus_WIFIOnly_EEA	=	I9_Plus	0
 MEO(Portugal)
 	MEO TV Box 4K	DV8555-MEO	~	2
@@ -46624,6 +46632,8 @@ Tech 4u
 	Rocket	=	=	0
 	S8 Pro	S8_Pro	=	0
 	Tech4U S8	S8	=	0
+TechZen
+	HT10Pro	=	=	0
 Technicolor
 		omap4_WT3	T-Hub2	3
 	Elisa Elamus	uzw4026ele	~	3
@@ -51252,6 +51262,8 @@ WOZIFAN
 	W500 _EEA	W500_EEA	=	0
 	W500_M_US	=	=	0
 	W500_US	=	=	0
+WQi(sh)
+	Gm81	=	=	0
 WS(SZ)
 	TD-TP010G-2	=	=	0
 	WS-T01	=	=	0
@@ -54930,6 +54942,7 @@ Zebra
 	HC50	TC22	=	0
 	HC55	TC27	=	0
 	HC55	TC27-6490	~	0
+	KC401	=	=	0
 	KC50 Android™ Kiosk computers	KC50L	KC50	7
 	KC50 Android™ Kiosk computers	KC50S	KC50	7
 	MC18	=	MC18N0	0
