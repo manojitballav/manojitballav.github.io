@@ -1,84 +1,78 @@
 {
-  "lastUpdated": "2026-08-14",
-  "newDevicesCount": 13,
+  "lastUpdated": "2026-08-15",
+  "newDevicesCount": 12,
   "newDevices": [
     [
-      "Apolosign",
-      "AndroidSmartDisplay",
-      "WA2489T",
-      "rk3576_u"
+      "Mind_Efficiency",
+      "ME05_2026",
+      "ME26",
+      "MEAI26"
     ],
     [
-      "BMAX",
-      "I9_Plus_WireFree_US",
-      "I9_Plus_WireFree_US",
-      "I9_Plus_WireFree"
+      "Redmi",
+      "REDMI K100 Pro Max",
+      "songyuan",
+      "M098FE"
     ],
     [
-      "Blu",
-      "VIEW PRO 5G",
-      "B1680V",
-      "B1680V"
+      "Redmi",
+      "REDMI K100 Pro",
+      "athens",
+      "M511CD"
     ],
     [
-      "Honor",
-      "HONOR X9e s",
-      "HNMTN-Q1",
-      "MTN-NX1"
+      "Redmi",
+      "REDMI Note 17 5G",
+      "mist",
+      "26021RN18I"
     ],
     [
-      "Honor",
-      "HONOR X9e s",
-      "HNMTN-Q1",
-      "MTN-NX3"
+      "SVITOO",
+      "P108_R_USA",
+      "P108_R",
+      "P108_R"
     ],
     [
-      "Honor",
-      "荣耀Play11 Pro",
-      "HNLNA-M",
-      "LNA-AN00"
+      "Samsung",
+      "Galaxy A08",
+      "a08",
+      "SM-A085F"
     ],
     [
-      "Hyundai",
-      "HT10LA2MSGNA02",
-      "HYLINE",
-      "HT10LA2MSGNA02"
+      "Samsung",
+      "Galaxy A08",
+      "a08",
+      "SM-E085F"
     ],
     [
-      "JOVI",
-      "JOVI X300 FE",
-      "J2505",
-      "J2505"
+      "Samsung",
+      "Galaxy A08",
+      "a08",
+      "SM-M085F"
     ],
     [
-      "MEIZE",
-      "D122_US",
-      "D122_US",
-      "D122_US"
+      "Samsung",
+      "Galaxy Tab S12 Ultra 5G",
+      "gts12u",
+      "SM-X946B"
     ],
     [
-      "MEIZE",
-      "F107_ROW",
-      "F107",
-      "F107"
+      "Samsung",
+      "Galaxy Tab S12 Ultra 5G",
+      "gts12u",
+      "SM-X946N"
     ],
     [
-      "TechZen",
-      "HT10Pro",
-      "HT10Pro",
-      "HT10Pro"
+      "Samsung",
+      "Galaxy Tab S12 Ultra",
+      "gts12uwifi",
+      "SM-X940"
     ],
     [
-      "WQi(sh)",
-      "Gm81",
-      "Gm81",
-      "Gm81"
-    ],
-    [
-      "Zebra",
-      "KC401",
-      "KC401",
-      "KC401"
+      "Teclast",
+      "M60_ROW",
+      "M60",
+      "M60_ROW"
     ]
   ]
 }

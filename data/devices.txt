@@ -27414,6 +27414,8 @@ Mimio
 	MimioPro-G XX5	rk3588_t	MimioProG5	0
 Mimo
 	MCT_101EDL	=	MCT-101EDL	0
+Mind_Efficiency
+	ME05_2026	ME26	MEAI26	0
 Mindphone
 	Mindphone2	=	=	0
 Mingtronics
@@ -36135,6 +36137,8 @@ Redmi
 	REDMI A7 Pro 5G	somalia	26020RN1AI	0
 	REDMI K Pad	turner	25079RPDCC	1
 	REDMI K Pad 2	yili	26048RP6AC	1
+	REDMI K100 Pro	athens	M511CD	0
+	REDMI K100 Pro Max	songyuan	M098FE	0
 	REDMI K80	zorn	24117RK2CC	0
 	REDMI K80 Pro	miro	24122RKC7C	0
 	REDMI K80 Ultra	dali	25060RK16C	0
@@ -36161,6 +36165,7 @@ Redmi
 	REDMI Note 15R	spring	25057RA09C	0
 	REDMI Note 15R Pro	beryl	24094RAD4C	0
 	REDMI Note 17	mist	26021RN18C	0
+	REDMI Note 17 5G	mist	26021RN18I	0
 	REDMI Pad 2	taiko	25040RP0AC	1
 	REDMI Pad 2 9.7	guitar	2603ARP14G	1
 	REDMI Pad 2 9.7 4G	erhu	2604ERP4DG	1
@@ -37692,6 +37697,7 @@ SVITOO
 	P08_T	=	=	0
 	P108_EEA	P108	=	0
 	P108_R_EEA	P108_R	=	0
+	P108_R_USA	P108_R	=	0
 	P108_S	=	=	0
 	P108_S_EEA	P108_S	=	0
 	P108_S_US	P108_S	=	0
@@ -38006,6 +38012,9 @@ Samsung
 	Galaxy A07 5G	a07x	SM-A076M	0
 	Galaxy A07s	a07ve	SM-A077F	0
 	Galaxy A07s	a07ve	SM-A077M	0
+	Galaxy A08	a08	SM-A085F	0
+	Galaxy A08	a08	SM-E085F	0
+	Galaxy A08	a08	SM-M085F	0
 	Galaxy A10	a10	SM-A105F	0
 	Galaxy A10	a10	SM-A105FN	0
 	Galaxy A10	a10	SM-A105G	0
@@ -40567,6 +40576,9 @@ Samsung
 	Galaxy Tab S11 Ultra 5G	gts11u	SM-X936B	1
 	Galaxy Tab S11 Ultra 5G	gts11u	SM-X936C	1
 	Galaxy Tab S11 Ultra 5G	gts11u	SM-X936N	1
+	Galaxy Tab S12 Ultra	gts12uwifi	SM-X940	1
+	Galaxy Tab S12 Ultra 5G	gts12u	SM-X946B	1
+	Galaxy Tab S12 Ultra 5G	gts12u	SM-X946N	1
 	Galaxy Tab S12+	gts12pwifi	SM-X840	1
 	Galaxy Tab S12+ 5G	gts12p	SM-X846B	1
 	Galaxy Tab S12+ 5G	gts12p	SM-X846E	1
@@ -46784,6 +46796,7 @@ Teclast
 	M50_RUS	=	=	0
 	M50_W_ROW	M50_W	~	0
 	M50mini_ROW	M50mini	~	0
+	M60_ROW	M60	~	0
 	P10HD_N5H6	P10S_ROW	=	0
 	P10SE_EEA	=	=	0
 	P10SE_ROW	=	=	0
