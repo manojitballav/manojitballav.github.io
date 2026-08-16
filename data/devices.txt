@@ -15466,6 +15466,7 @@ Hisense
 	HLTE243E	=	Hisense F35 Pro	0
 	HLTE243E	=	Hisense F36 Pro	0
 	HLTE243E	=	Hisense M50	0
+	HLTE243E	=	Hisense M60	0
 	HLTE243E	=	Hisense M72 Pro	0
 	HLTE243E	=	Hisense M73 Pro	0
 	HLTE243E	=	Hisense T1 Pro	0
@@ -16356,6 +16357,7 @@ Honor
 	HONOR Pad 10 Papermatte Display WIFI	HNHEY3-Q1	HEY3-W00	1
 	HONOR Pad 20	HNHEY4-Q1	HEY4-N09	1
 	HONOR Pad 20	HNHEY4-Q1	HEY4-W09	1
+	HONOR Pad 20 Pro	HNMLA-Q1	MLA-W09	1
 	HONOR Pad 8	HNHEY-Q	HEY-W09	1
 	HONOR Pad 9	HNHEY2-Q	HEY2-N09	1
 	HONOR Pad 9	HNHEY2-Q	HEY2-W09	1
@@ -26331,6 +26333,7 @@ MagentaTV
 	MagentaTV Stick (2. Gen.)	IMTM840A	MagentaTV Stick (2. Generation)	0
 	OTT-G1	DV6067Y	~	0
 	One (2. Generation)	SEI804DT	MagentaTV One (2. Generation)	0
+	One (3. Generation)	HP4AC-DT	MagentaTV One (3. Generation)	0
 Magnavox
 	MMP848	=	=	2
 	Magnavox Google TV	dongnae	~	2
@@ -37831,6 +37834,8 @@ SYLVOX
 	Smart TV 4K-B	kenton	~	2
 SYMFONY
 	TAB_105	=	SYMFONY TAB 105	1
+SYNCS
+	SS_xxW82B	=	=	0
 SZSUPER
 	KIDS05-X5	=	=	0
 Safaricom
@@ -42627,6 +42632,7 @@ Smart (BD)
 	MQ703G_1	=	=	0
 	SQ811G	=	=	0
 Smart-Tech TV
+	AiHRR4K	ashfield	~	0
 	AiPro2K	dongnae	~	0
 	Aiplus4K	guandu	~	0
 	Apollo Premium4K TV	marina	~	2
@@ -48309,6 +48315,7 @@ UJJ(SZ)
 	U3_US	=	=	0
 	U3_V_EEA	=	=	0
 	U3_V_US	=	=	0
+	U6_E	=	=	0
 	U6_EEA	=	=	0
 	U6_US	=	=	0
 	U6_V_EEA	=	=	0

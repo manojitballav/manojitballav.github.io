@@ -1,78 +1,42 @@
 {
-  "lastUpdated": "2026-08-15",
-  "newDevicesCount": 12,
+  "lastUpdated": "2026-08-16",
+  "newDevicesCount": 6,
   "newDevices": [
     [
-      "Mind_Efficiency",
-      "ME05_2026",
-      "ME26",
-      "MEAI26"
+      "Hisense",
+      "HLTE243E",
+      "HLTE243E",
+      "Hisense M60"
     ],
     [
-      "Redmi",
-      "REDMI K100 Pro Max",
-      "songyuan",
-      "M098FE"
+      "Honor",
+      "HONOR Pad 20 Pro",
+      "HNMLA-Q1",
+      "MLA-W09"
     ],
     [
-      "Redmi",
-      "REDMI K100 Pro",
-      "athens",
-      "M511CD"
+      "MagentaTV",
+      "One (3. Generation)",
+      "HP4AC-DT",
+      "MagentaTV One (3. Generation)"
     ],
     [
-      "Redmi",
-      "REDMI Note 17 5G",
-      "mist",
-      "26021RN18I"
+      "SYNCS",
+      "SS_xxW82B",
+      "SS_xxW82B",
+      "SS_xxW82B"
     ],
     [
-      "SVITOO",
-      "P108_R_USA",
-      "P108_R",
-      "P108_R"
+      "Smart-Tech TV",
+      "AiHRR4K",
+      "ashfield",
+      "AiHRR4K"
     ],
     [
-      "Samsung",
-      "Galaxy A08",
-      "a08",
-      "SM-A085F"
-    ],
-    [
-      "Samsung",
-      "Galaxy A08",
-      "a08",
-      "SM-E085F"
-    ],
-    [
-      "Samsung",
-      "Galaxy A08",
-      "a08",
-      "SM-M085F"
-    ],
-    [
-      "Samsung",
-      "Galaxy Tab S12 Ultra 5G",
-      "gts12u",
-      "SM-X946B"
-    ],
-    [
-      "Samsung",
-      "Galaxy Tab S12 Ultra 5G",
-      "gts12u",
-      "SM-X946N"
-    ],
-    [
-      "Samsung",
-      "Galaxy Tab S12 Ultra",
-      "gts12uwifi",
-      "SM-X940"
-    ],
-    [
-      "Teclast",
-      "M60_ROW",
-      "M60",
-      "M60_ROW"
+      "UJJ(SZ)",
+      "U6_E",
+      "U6_E",
+      "U6_E"
     ]
   ]
 }
