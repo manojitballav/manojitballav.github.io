@@ -1,42 +1,96 @@
 {
-  "lastUpdated": "2026-08-17",
-  "newDevicesCount": 6,
+  "lastUpdated": "2026-08-18",
+  "newDevicesCount": 15,
   "newDevices": [
     [
-      "Hisense",
-      "HLTE243E",
-      "HLTE243E",
-      "Hisense M60"
+      "Contixo",
+      "A10a",
+      "A10a",
+      "A10"
     ],
     [
-      "Honor",
-      "HONOR Pad 20 Pro",
-      "HNMLA-Q1",
-      "MLA-W09"
+      "Crosscall",
+      "27409-1",
+      "27409-1",
+      "27409-1"
     ],
     [
-      "MagentaTV",
-      "One (3. Generation)",
-      "HP4AC-DT",
-      "MagentaTV One (3. Generation)"
+      "EGOTEK",
+      "1088T",
+      "1088T",
+      "G10"
     ],
     [
-      "SYNCS",
-      "SS_xxW82B",
-      "SS_xxW82B",
-      "SS_xxW82B"
+      "Hyundai",
+      "HT10WC1MSG01_EEA",
+      "HT10WC1MSG01",
+      "10WC1"
     ],
     [
-      "Smart-Tech TV",
-      "AiHRR4K",
-      "ashfield",
-      "AiHRR4K"
+      "LT_Mobile",
+      "LT_mobile_E51",
+      "LT_mobile_E51",
+      "LT E51"
     ],
     [
-      "UJJ(SZ)",
-      "U6_E",
-      "U6_E",
-      "U6_E"
+      "LUCOMS-T",
+      "IWB",
+      "rk3588_t",
+      "siwxxf1x"
+    ],
+    [
+      "M-KOPA",
+      "X4e",
+      "X4e",
+      "X4e"
+    ],
+    [
+      "Motorola",
+      "moto g37 M-51G",
+      "M-51G",
+      "M-51G"
+    ],
+    [
+      "Oppo",
+      "PMM110",
+      "OP61F3L1",
+      "PMM110"
+    ],
+    [
+      "SALT",
+      "TV box 2.0",
+      "HP4CH-NJJ",
+      "TV box 2.0"
+    ],
+    [
+      "Sony",
+      "BRAVIA DE1",
+      "hoshioki",
+      "BRAVIA DE1"
+    ],
+    [
+      "Teclast",
+      "T70Max_EEA",
+      "T70Max",
+      "T70Max"
+    ],
+    [
+      "Teclast",
+      "T70Max_ROW",
+      "T70Max",
+      "T70Max"
+    ],
+    [
+      "Teclast",
+      "T70Max_US",
+      "T70Max",
+      "T70Max"
+    ],
+    [
+      "VALE",
+      "V10E_W-4128",
+      "V10E_W-4128",
+      "V10E_W-4128"
     ]
   ]
 }
