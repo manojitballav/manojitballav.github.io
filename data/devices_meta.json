@@ -1,96 +1,96 @@
 {
-  "lastUpdated": "2026-08-18",
+  "lastUpdated": "2026-08-19",
   "newDevicesCount": 15,
   "newDevices": [
     [
-      "Contixo",
-      "A10a",
-      "A10a",
-      "A10"
+      "ARTRAN",
+      "IH101F",
+      "IH101F",
+      "IH101F"
     ],
     [
-      "Crosscall",
-      "27409-1",
-      "27409-1",
-      "27409-1"
+      "ARTRAN",
+      "IH101F_Pro",
+      "IH101F_Pro",
+      "IH101F_Pro"
     ],
     [
-      "EGOTEK",
-      "1088T",
-      "1088T",
-      "G10"
+      "Datamini",
+      "T115G_INC",
+      "T115G_INC",
+      "T115G"
     ],
     [
-      "Hyundai",
-      "HT10WC1MSG01_EEA",
-      "HT10WC1MSG01",
-      "10WC1"
+      "EXO S.A.",
+      "i101AC",
+      "i101AC",
+      "i101AC"
     ],
     [
-      "LT_Mobile",
-      "LT_mobile_E51",
-      "LT_mobile_E51",
-      "LT E51"
+      "FCNT",
+      "arrows Alpha2 M10",
+      "M10",
+      "M10"
     ],
     [
-      "LUCOMS-T",
-      "IWB",
-      "rk3588_t",
-      "siwxxf1x"
+      "Google",
+      "Pixel 11 Pro Fold",
+      "yogi",
+      "Pixel 11 Pro Fold"
     ],
     [
-      "M-KOPA",
-      "X4e",
-      "X4e",
-      "X4e"
+      "Google",
+      "Pixel 11 Pro XL",
+      "kodiak",
+      "Pixel 11 Pro XL"
     ],
     [
-      "Motorola",
-      "moto g37 M-51G",
-      "M-51G",
-      "M-51G"
+      "Google",
+      "Pixel 11 Pro",
+      "grizzly",
+      "Pixel 11 Pro"
     ],
     [
-      "Oppo",
-      "PMM110",
-      "OP61F3L1",
-      "PMM110"
+      "Google",
+      "Pixel 11",
+      "cubs",
+      "Pixel 11"
     ],
     [
-      "SALT",
-      "TV box 2.0",
-      "HP4CH-NJJ",
-      "TV box 2.0"
+      "Plimpton",
+      "Kids20_A16_US_JAE",
+      "Kids20_A16_US_JAE",
+      "Kids20_A16_US_JAE"
     ],
     [
-      "Sony",
-      "BRAVIA DE1",
-      "hoshioki",
-      "BRAVIA DE1"
+      "Positivo",
+      "TUPI 1500",
+      "TUPI1500",
+      "TUPI1500"
     ],
     [
-      "Teclast",
-      "T70Max_EEA",
-      "T70Max",
-      "T70Max"
+      "Pritom",
+      "M10_001EEA",
+      "M10_001EEA",
+      "M10"
     ],
     [
-      "Teclast",
-      "T70Max_ROW",
-      "T70Max",
-      "T70Max"
+      "Sailproof",
+      "SP10X_EEA",
+      "SP10X_EEA",
+      "SP10X_EEA"
     ],
     [
-      "Teclast",
-      "T70Max_US",
-      "T70Max",
-      "T70Max"
+      "TOPDON",
+      "ONEPro",
+      "ONEPro",
+      "ONEPro"
     ],
     [
-      "VALE",
-      "V10E_W-4128",
-      "V10E_W-4128",
-      "V10E_W-4128"
+      "realme",
+      "realme C100i",
+      "RE67EF",
+      "RMX5399"
     ]
   ]
 }

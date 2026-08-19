@@ -501,6 +501,8 @@ ARTRAN
 	IB119Q	=	=	0
 	IB868H	=	=	0
 	IB868H_A	=	=	0
+	IH101F	=	=	0
+	IH101F_Pro	=	=	0
 	LI109Q	ARTRAN_Tablet_1095	~	0
 ARZOPA
 	P1	ARZOPA_P1	ARZOPA P1	0
@@ -8918,6 +8920,7 @@ Datamini
 	T104G_T618	T104G	=	0
 	T104G_T618_A14	=	T104G	0
 	T115G	=	=	0
+	T115G_INC	=	T115G	0
 	T74G	=	=	0
 	T8004G	=	=	0
 	T8004GR	=	T8004G	0
@@ -10568,6 +10571,7 @@ EXO S.A.
 	Wave_i101MC	=	=	0
 	Wave_i101T4	=	=	0
 	Wave_i101u	=	=	0
+	i101AC	=	=	0
 	i101GMC	=	=	0
 	i101T2	=	TabletEXO_Wave_i101T2	0
 	wave-i007w	=	=	0
@@ -11375,6 +11379,7 @@ FCNT
 	arrows Alpha F-51F	F-51F	=	0
 	arrows Alpha M08	fuji	M08	0
 	arrows Alpha2 F-51G	F-51G	=	0
+	arrows Alpha2 M10	M10	=	0
 	arrows BZ02	BZ02	=	0
 	arrows BZ03	BZ03	=	0
 	arrows Be4 Plus F-41B	F41B	F-41B	0
@@ -13317,6 +13322,10 @@ Google
 	Pixel 10 Pro Fold	rango	~	0
 	Pixel 10 Pro XL	mustang	~	0
 	Pixel 10a	stallion	~	0
+	Pixel 11	cubs	~	0
+	Pixel 11 Pro	grizzly	~	0
+	Pixel 11 Pro Fold	yogi	~	0
+	Pixel 11 Pro XL	kodiak	~	0
 	Pixel 2	walleye	~	0
 	Pixel 2 XL	taimen	~	0
 	Pixel 3	blueline	~	0
@@ -34042,6 +34051,7 @@ Plimpton
 	Kids20A15_EEA	=	Kids20	0
 	Kids20_A16_EEA_JAE	=	=	0
 	Kids20_A16_JAE	=	=	0
+	Kids20_A16_US_JAE	=	=	0
 	Kids20_EEA	=	Kids20	0
 	Kids20_PA15	=	=	0
 	Kids20_PA15_EEA	=	=	0
@@ -34365,6 +34375,7 @@ Positivo
 	TL10	=	=	0
 	TL10	=	Vaio TL10	0
 	TL10	=	Vaio TL10A	0
+	TUPI 1500	TUPI1500	=	0
 	Tab Q10	T2050M	~	1
 	Twist	S520	Positivo Twist M	0
 	Twist	S520	Positivo Twist S	0
@@ -34993,6 +35004,7 @@ Pritom
 	M10	M10_A01	~	0
 	M10	M10_A05_EEA	~	0
 	M10-EEA	=	=	0
+	M10_001EEA	=	M10	0
 	M10_A01_EEA	=	M10	0
 	M10_A06	=	M10	0
 	M10_A06_EEA	=	M10	0
@@ -37877,6 +37889,8 @@ Safex_Instruments
 	Ex_Mobile_20_NC	=	Ex_Mobile_20_Series	0
 Sagemcom
 	Wibox	dtiw384wb	m384wb	3
+Sailproof
+	SP10X_EEA	=	=	0
 Saltillo
 	CF10	=	=	0
 Samsonix
@@ -46397,6 +46411,8 @@ TONE
 	TONE e20	TONE_e20	~	0
 	TONE_e21	=	=	0
 	TONE_e22	=	=	0
+TOPDON
+	ONEPro	=	=	0
 TOPELOTEK
 	KIDS06	=	=	0
 	KIDS08-X8	=	=	0
@@ -56619,6 +56635,7 @@ realme
 	realme C100	RE646B	RMX5353	0
 	realme C100 5G	RE6478L1	RMX5258	0
 	realme C100i	RE648B	RMX5377	0
+	realme C100i	RE67EF	RMX5399	0
 	realme C100x	RE6488	RMX5366	0
 	realme C11 2021	RMX3231	=	0
 	realme C15	RMX2180	=	0
