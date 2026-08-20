@@ -8675,6 +8675,7 @@ DOEL
 DOMATON
 	D102	=	=	0
 	D103	=	=	0
+	D103_US	=	=	0
 	D718	=	=	0
 	K111	=	=	0
 	K712	=	=	0
@@ -9291,6 +9292,7 @@ Digit
 	Titan_5G	=	Titan 5G	0
 DigitEdge
 	Pad12pro	=	=	0
+	Pad12ultra	=	=	0
 Digital2
 	Deluxe	nuclear-D2_Deluxe	Digital2-Deluxe	0
 	Platinum	D2-963G	Digital2 Platinum	0
@@ -16072,6 +16074,8 @@ Hitachi
 	Hitachi	komagome	Hitachi 2K Android TV	2
 	HitachiTV	shinjuku	~	0
 	LD50CHS04U	samseong	AI PONT	0
+Hitevision
+	TWBXXXXXXX24A	=	=	0
 Hiya
 	5-0	=	=	0
 	5-0	5_0	~	0
@@ -16450,6 +16454,8 @@ Honor
 	HONOR X7e	HNLAB-M	LAB-LX1	0
 	HONOR X7e	HNLAB-M	LAB-LX2	0
 	HONOR X7e	HNLAB-M	LAB-LX3	0
+	HONOR X7e Plus	HNMRK-QL	MRK-LX1	0
+	HONOR X7e Plus	HNMRK-QL	MRK-LX2	0
 	HONOR X8	HNTFY-Q	TFY-LX1	0
 	HONOR X8	HNTFY-Q	TFY-LX2	0
 	HONOR X8	HNTFY-Q	TFY-LX3	0
@@ -16466,6 +16472,8 @@ Honor
 	HONOR X8c	HNABR-Q	ABR-LX3	0
 	HONOR X8d	HNLNA-Q	LNA-LX2	0
 	HONOR X8d	HNLNA-Q	LNA-LX3	0
+	HONOR X8e	HNMRK-QL	MRK-LX1	0
+	HONOR X8e s	HNMRK-QL	MRK-LX3	0
 	HONOR X9	HNANY-Q1	ANY-LX1	0
 	HONOR X9	HNANY-Q1	ANY-LX2	0
 	HONOR X9	HNANY-Q1	ANY-LX3	0
@@ -23706,6 +23714,7 @@ LOGIC
 	AZ_Series	rk3576_u	Logic_LT_IRXXHX	0
 	EX_Series	RK3576	LT-IR65EX	0
 	HX_Series	MTK9679	Logic_LT_IRXXHX	0
+	L-PAD-PRO-BK	Logic_L-PAD_PRO	Logic L-PAD_PRO	1
 	L-PAD-PRO-BK	Logic_L-PAD_PRO	=	1
 	L65E	=	=	0
 	L66F	=	=	0
@@ -32964,6 +32973,8 @@ PIXGOOD
 	M328-EEA	=	=	0
 	M618-EEA	=	=	0
 	M902-EEA	=	=	0
+PIXIUM
+	PIXIUM_X7	=	X7	0
 PIXPEAK
 	L60-EEA	=	=	0
 	M186-EEA	=	=	0
@@ -47978,7 +47989,8 @@ Topicon
 	Topicon MDT1060	mdt1060	=	0
 	mdt865_gms	mdt865	=	0
 	mdt865_row	mdt865	=	0
-	mdt880	=	=	0
+	mdt880_gms	mdt880	=	0
+	mdt880_row	mdt880	=	0
 Topsand
 	G12	G12_A14	~	0
 	G12_Mini_S	=	=	0
@@ -56094,6 +56106,7 @@ iQOO
 	iQOO Neo 10	I2405	I2408	0
 	iQOO Neo10 Pro+	PD2463	V2463A	0
 	iQOO Neo11	PD2520	V2520A	0
+	iQOO Neo11 至尊版	PD2573	V2573A	0
 	iQOO Pad5	DPD2437	iPA2556	0
 	iQOO Pad5 Pro	DPD2429	iPA2575	0
 	iQOO Pad5e	DPD2345	iPA2453	0
@@ -56313,6 +56326,7 @@ kozen
 	P18	=	=	0
 	T5	T05	~	0
 leaderhub
+	Leaderhub	HM	=	0
 	Mini_Tab8	=	=	0
 	S18PRO-H_EEA	=	S18PRO-H	0
 	S19_EEA	=	S19	0

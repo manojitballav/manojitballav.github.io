@@ -1,96 +1,84 @@
 {
-  "lastUpdated": "2026-08-19",
-  "newDevicesCount": 15,
+  "lastUpdated": "2026-08-20",
+  "newDevicesCount": 13,
   "newDevices": [
     [
-      "ARTRAN",
-      "IH101F",
-      "IH101F",
-      "IH101F"
+      "DOMATON",
+      "D103_US",
+      "D103_US",
+      "D103_US"
     ],
     [
-      "ARTRAN",
-      "IH101F_Pro",
-      "IH101F_Pro",
-      "IH101F_Pro"
+      "DigitEdge",
+      "Pad12ultra",
+      "Pad12ultra",
+      "Pad12ultra"
     ],
     [
-      "Datamini",
-      "T115G_INC",
-      "T115G_INC",
-      "T115G"
+      "Hitevision",
+      "TWBXXXXXXX24A",
+      "TWBXXXXXXX24A",
+      "TWBXXXXXXX24A"
     ],
     [
-      "EXO S.A.",
-      "i101AC",
-      "i101AC",
-      "i101AC"
+      "Honor",
+      "HONOR X7e Plus",
+      "HNMRK-QL",
+      "MRK-LX1"
     ],
     [
-      "FCNT",
-      "arrows Alpha2 M10",
-      "M10",
-      "M10"
+      "Honor",
+      "HONOR X7e Plus",
+      "HNMRK-QL",
+      "MRK-LX2"
     ],
     [
-      "Google",
-      "Pixel 11 Pro Fold",
-      "yogi",
-      "Pixel 11 Pro Fold"
+      "Honor",
+      "HONOR X8e s",
+      "HNMRK-QL",
+      "MRK-LX3"
     ],
     [
-      "Google",
-      "Pixel 11 Pro XL",
-      "kodiak",
-      "Pixel 11 Pro XL"
+      "Honor",
+      "HONOR X8e",
+      "HNMRK-QL",
+      "MRK-LX1"
     ],
     [
-      "Google",
-      "Pixel 11 Pro",
-      "grizzly",
-      "Pixel 11 Pro"
+      "LOGIC",
+      "L-PAD-PRO-BK",
+      "Logic_L-PAD_PRO",
+      "Logic L-PAD_PRO"
     ],
     [
-      "Google",
-      "Pixel 11",
-      "cubs",
-      "Pixel 11"
+      "PIXIUM",
+      "PIXIUM_X7",
+      "PIXIUM_X7",
+      "X7"
     ],
     [
-      "Plimpton",
-      "Kids20_A16_US_JAE",
-      "Kids20_A16_US_JAE",
-      "Kids20_A16_US_JAE"
+      "Topicon",
+      "mdt880_gms",
+      "mdt880",
+      "mdt880"
     ],
     [
-      "Positivo",
-      "TUPI 1500",
-      "TUPI1500",
-      "TUPI1500"
+      "Topicon",
+      "mdt880_row",
+      "mdt880",
+      "mdt880"
     ],
     [
-      "Pritom",
-      "M10_001EEA",
-      "M10_001EEA",
-      "M10"
+      "iQOO",
+      "iQOO Neo11 至尊版",
+      "PD2573",
+      "V2573A"
     ],
     [
-      "Sailproof",
-      "SP10X_EEA",
-      "SP10X_EEA",
-      "SP10X_EEA"
-    ],
-    [
-      "TOPDON",
-      "ONEPro",
-      "ONEPro",
-      "ONEPro"
-    ],
-    [
-      "realme",
-      "realme C100i",
-      "RE67EF",
-      "RMX5399"
+      "leaderhub",
+      "Leaderhub",
+      "HM",
+      "HM"
     ]
   ]
 }
