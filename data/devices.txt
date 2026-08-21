@@ -51962,6 +51962,7 @@ Wintec
 	T750	=	Clear	0
 Wintouch
 	A20	=	=	0
+	A20	=	A20K	0
 	A50	=	=	0
 	A60_EEA	=	A60	0
 	A80	=	=	0
@@ -55762,6 +55763,7 @@ iBRIT
 	MAX7	=	=	0
 	MAX8	=	=	0
 	Max12pro	=	Kidz Pro	0
+	Nova_N1	=	=	0
 	POWER_X	=	=	0
 	Speed_Pro_Plus	SF56	=	0
 	VEGA	=	=	0

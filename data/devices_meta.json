@@ -1,84 +1,18 @@
 {
-  "lastUpdated": "2026-08-20",
-  "newDevicesCount": 13,
+  "lastUpdated": "2026-08-21",
+  "newDevicesCount": 2,
   "newDevices": [
     [
-      "DOMATON",
-      "D103_US",
-      "D103_US",
-      "D103_US"
+      "Wintouch",
+      "A20",
+      "A20",
+      "A20K"
     ],
     [
-      "DigitEdge",
-      "Pad12ultra",
-      "Pad12ultra",
-      "Pad12ultra"
-    ],
-    [
-      "Hitevision",
-      "TWBXXXXXXX24A",
-      "TWBXXXXXXX24A",
-      "TWBXXXXXXX24A"
-    ],
-    [
-      "Honor",
-      "HONOR X7e Plus",
-      "HNMRK-QL",
-      "MRK-LX1"
-    ],
-    [
-      "Honor",
-      "HONOR X7e Plus",
-      "HNMRK-QL",
-      "MRK-LX2"
-    ],
-    [
-      "Honor",
-      "HONOR X8e s",
-      "HNMRK-QL",
-      "MRK-LX3"
-    ],
-    [
-      "Honor",
-      "HONOR X8e",
-      "HNMRK-QL",
-      "MRK-LX1"
-    ],
-    [
-      "LOGIC",
-      "L-PAD-PRO-BK",
-      "Logic_L-PAD_PRO",
-      "Logic L-PAD_PRO"
-    ],
-    [
-      "PIXIUM",
-      "PIXIUM_X7",
-      "PIXIUM_X7",
-      "X7"
-    ],
-    [
-      "Topicon",
-      "mdt880_gms",
-      "mdt880",
-      "mdt880"
-    ],
-    [
-      "Topicon",
-      "mdt880_row",
-      "mdt880",
-      "mdt880"
-    ],
-    [
-      "iQOO",
-      "iQOO Neo11 至尊版",
-      "PD2573",
-      "V2573A"
-    ],
-    [
-      "leaderhub",
-      "Leaderhub",
-      "HM",
-      "HM"
+      "iBRIT",
+      "Nova_N1",
+      "Nova_N1",
+      "Nova_N1"
     ]
   ]
 }
