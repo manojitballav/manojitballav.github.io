@@ -1,18 +1,78 @@
 {
-  "lastUpdated": "2026-08-22",
-  "newDevicesCount": 2,
+  "lastUpdated": "2026-08-23",
+  "newDevicesCount": 12,
   "newDevices": [
     [
-      "Wintouch",
-      "A20",
-      "A20",
-      "A20K"
+      "DSPREAD",
+      "F6_US",
+      "F6_US",
+      "F6_US"
     ],
     [
-      "iBRIT",
-      "Nova_N1",
-      "Nova_N1",
-      "Nova_N1"
+      "ECOPAD",
+      "C5L1_US",
+      "C5L1",
+      "C5L2"
+    ],
+    [
+      "Motorola",
+      "moto g max",
+      "venice",
+      "moto g max"
+    ],
+    [
+      "Motorola",
+      "moto g max",
+      "venice",
+      "moto g57"
+    ],
+    [
+      "Rungrace",
+      "A56",
+      "A56",
+      "A56"
+    ],
+    [
+      "TCL",
+      "G18_2K_D3_GB",
+      "G18",
+      "Smart TV"
+    ],
+    [
+      "TCL",
+      "G18_2K_GB",
+      "G18",
+      "Smart TV"
+    ],
+    [
+      "XPPen",
+      "MDP1231_ROW",
+      "MDP1231",
+      "MDP1231"
+    ],
+    [
+      "ZEED",
+      "Z-PAD_ULTRA",
+      "ZP210U",
+      "Z-PAD ULTRA ZP210U"
+    ],
+    [
+      "i3CONNECT",
+      "VENEER_PL",
+      "VENEER_PL",
+      "VPL-75"
+    ],
+    [
+      "realme",
+      "realme 16x 5G",
+      "RE6491L1",
+      "RMX5270"
+    ],
+    [
+      "realme",
+      "realme C100d",
+      "RE6802",
+      "RMX5363"
     ]
   ]
 }

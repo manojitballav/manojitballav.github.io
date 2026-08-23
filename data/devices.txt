@@ -8717,6 +8717,7 @@ DSIC
 	RD86QE	=	=	0
 DSPREAD
 	F6	=	=	0
+	F6_US	=	=	0
 DSTechnology
 	MATE ONE	MO_Pro	MO_Series	0
 DTAB
@@ -10177,6 +10178,7 @@ ECOPAD
 	C30plus_EEA	C30plus	=	0
 	C30plus_US	C30plus	=	0
 	C5L1_US	C5L1	=	0
+	C5L1_US	C5L1	C5L2	0
 	C5Pro	=	=	0
 	C5Pro_EEA	C5Pro	=	0
 	C5Pro_US	C5Pro	=	0
@@ -28578,6 +28580,8 @@ Motorola
 	moto g max	naples	~	0
 	moto g max	naples	moto g67	0
 	moto g max	naples	moto g87	0
+	moto g max	venice	~	0
+	moto g max	venice	moto g57	0
 	moto g play (2021)	guamna	~	0
 	moto g play (2021)	guamna	moto g play (XT2093DL)	0
 	moto g play - 2024	fogona	~	0
@@ -36926,6 +36930,8 @@ Rumie
 	RT-1708	=	=	0
 Runbo
 	F1Plus	=	=	0
+Rungrace
+	A56	=	=	0
 Russound
 	XTS7	=	=	0
 Ruufuuxy
@@ -44475,6 +44481,8 @@ TCL
 	G16_4K_US	G16	Smart TV Pro	2
 	G17_4K_GB	G17	Smart TV Pro	2
 	G17_4K_US	G17	Smart TV Pro	2
+	G18_2K_D3_GB	G18	Smart TV	2
+	G18_2K_GB	G18	Smart TV	2
 	GL TCL	Titan_Vis_Wifi	9494G	0
 	GO5c	U3A_PLUS_4G	5033E	0
 	HotelTV	=	WelcomeTV	2
@@ -52247,6 +52255,7 @@ XORO
 XPLORE
 	XPLORE X7U	X7U	~	0
 XPPen
+	MDP1231_ROW	MDP1231	=	0
 	MDP1232_EEA	MDP1231	=	0
 	XPPen_Magic_Drawing_Pad	Titan_XPPen	MagicDrawingPad	0
 	XPPen_Magic_Drawing_Pad_RU	Titan_XPPen	MagicDrawingPad	0
@@ -53012,6 +53021,7 @@ ZDK(SZ)
 	ZDKMP-T30B_ROW	ZDKMP-T30B	=	0
 ZEED
 	Z-PAD_PRO	ZP210P	Z-PAD PRO ZP210P	1
+	Z-PAD_ULTRA	ZP210U	Z-PAD ULTRA ZP210U	1
 	ZEED Z-ONE	Z210	=	0
 ZEEKER
 	ZEEKER_P10	=	ZEEKER P10	0
@@ -55743,6 +55753,7 @@ i.safe MOBILE
 	IS941	=	=	0
 i3CONNECT
 	Aspen 4	oversea_v	Aspen_4	0
+	VENEER_PL	=	VPL-75	0
 i5 (dza)
 	TABLET_PC	10080	=	0
 	V10	=	=	0
@@ -56620,6 +56631,7 @@ realme
 	realme 16 Pro 5G	RE645DL1	RMX5120	0
 	realme 16 Pro+ 5G	RE6458L1	RMX5131	0
 	realme 16T 5G	RE6491L1	RMX5268	0
+	realme 16x 5G	RE6491L1	RMX5270	0
 	realme 2K G Smart TV	umeda	~	2
 	realme 4K G Smart TV	SW6H	~	2
 	realme 4K G Smart TV FF	SW6H	~	2
@@ -56650,6 +56662,7 @@ realme
 	realme 9i 5G	RE588DL1	RMX3612	0
 	realme C100	RE646B	RMX5353	0
 	realme C100 5G	RE6478L1	RMX5258	0
+	realme C100d	RE6802	RMX5363	0
 	realme C100i	RE648B	RMX5377	0
 	realme C100i	RE67EF	RMX5399	0
 	realme C100x	RE6488	RMX5366	0
