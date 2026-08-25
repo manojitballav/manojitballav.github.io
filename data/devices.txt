@@ -11591,6 +11591,7 @@ FOXXD
 FPD
 	CP08-C1	=	=	0
 	CP08-C1	=	CP08_C1	0
+	CP08-C2	=	=	0
 	CP08-J2	=	=	0
 	CP08_J1	=	=	0
 	CP10-J1	CP10	~	0
@@ -26045,6 +26046,8 @@ MINDEO
 	MS8589_RU	MS8589RU	MS8589	0
 MINIX
 	MINIX NEO T5	DV8553	=	3
+MIO_NANOTECH
+	X101	=	=	0
 MIRAI_TOUCH
 	IFP MIRAI TOUCH	PE3S_Series	=	0
 	MXXCE3XE	rk3588_t	~	0
@@ -35837,6 +35840,7 @@ REDTONE
 	RTSP-A258HM	=	=	0
 	RTSP-A64B	=	=	0
 REGZA
+	32P1S	Andesite	~	0
 	REGZA Projector	hengshan	~	4
 	RSG-11B	YYT	4K Google TV Stick	2
 RENSO
@@ -37896,6 +37900,7 @@ Safaricom
 	Neon_Smarta_2	=	Neon Smarta 2 T	0
 	Neon_Smarta_3	=	Neon Smarta 3	0
 	Neon_Ultra_2_M	=	Neon Ultra 2 M	0
+	Neon_Ultra_3	=	Neon Ultra 3	0
 	SFCSTB2LITE	=	=	0
 	Safaricom ET Kimem	Safaricom_ET_Kimem	~	0
 	Sajipro	=	=	0
@@ -40947,6 +40952,7 @@ Samsung
 	Galaxy Watch Ultra	projectx2ul	SM-L705N	5
 	Galaxy Watch Ultra	projectx2ul	SM-L705U	5
 	Galaxy Watch Ultra2	projectv2bl	SM-L710	5
+	Galaxy Watch Ultra2	projectv2ul	SM-L715U	5
 	Galaxy Watch4	freshbl	SM-R870	5
 	Galaxy Watch4	freshbs	SM-R860	5
 	Galaxy Watch4	freshul	SM-R875F	5
@@ -48553,6 +48559,7 @@ Ulefone
 	Armor X13	GQ3117SH2_MTN	~	0
 	Armor X16	GQ5020TH1P19	~	0
 	Armor X16 Pro	GQ5020BH1	~	0
+	Armor X17 Pro	GQ3133TH1	Armor X17 Ultra	0
 	Armor X2	Armor_X2	=	0
 	Armor X31	GQ5015RH1	~	0
 	Armor X31 Pro	GQ5015AH1	~	0

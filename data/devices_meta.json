@@ -1,78 +1,42 @@
 {
-  "lastUpdated": "2026-08-24",
-  "newDevicesCount": 12,
+  "lastUpdated": "2026-08-25",
+  "newDevicesCount": 6,
   "newDevices": [
     [
-      "DSPREAD",
-      "F6_US",
-      "F6_US",
-      "F6_US"
+      "FPD",
+      "CP08-C2",
+      "CP08-C2",
+      "CP08-C2"
     ],
     [
-      "ECOPAD",
-      "C5L1_US",
-      "C5L1",
-      "C5L2"
+      "MIO_NANOTECH",
+      "X101",
+      "X101",
+      "X101"
     ],
     [
-      "Motorola",
-      "moto g max",
-      "venice",
-      "moto g max"
+      "REGZA",
+      "32P1S",
+      "Andesite",
+      "32P1S"
     ],
     [
-      "Motorola",
-      "moto g max",
-      "venice",
-      "moto g57"
+      "Safaricom",
+      "Neon_Ultra_3",
+      "Neon_Ultra_3",
+      "Neon Ultra 3"
     ],
     [
-      "Rungrace",
-      "A56",
-      "A56",
-      "A56"
+      "Samsung",
+      "Galaxy Watch Ultra2",
+      "projectv2ul",
+      "SM-L715U"
     ],
     [
-      "TCL",
-      "G18_2K_D3_GB",
-      "G18",
-      "Smart TV"
-    ],
-    [
-      "TCL",
-      "G18_2K_GB",
-      "G18",
-      "Smart TV"
-    ],
-    [
-      "XPPen",
-      "MDP1231_ROW",
-      "MDP1231",
-      "MDP1231"
-    ],
-    [
-      "ZEED",
-      "Z-PAD_ULTRA",
-      "ZP210U",
-      "Z-PAD ULTRA ZP210U"
-    ],
-    [
-      "i3CONNECT",
-      "VENEER_PL",
-      "VENEER_PL",
-      "VPL-75"
-    ],
-    [
-      "realme",
-      "realme 16x 5G",
-      "RE6491L1",
-      "RMX5270"
-    ],
-    [
-      "realme",
-      "realme C100d",
-      "RE6802",
-      "RMX5363"
+      "Ulefone",
+      "Armor X17 Pro",
+      "GQ3133TH1",
+      "Armor X17 Ultra"
     ]
   ]
 }
