@@ -1,42 +1,78 @@
 {
-  "lastUpdated": "2026-08-25",
-  "newDevicesCount": 6,
+  "lastUpdated": "2026-08-26",
+  "newDevicesCount": 12,
   "newDevices": [
     [
-      "FPD",
-      "CP08-C2",
-      "CP08-C2",
-      "CP08-C2"
+      "Google",
+      "Pixel Watch 5",
+      "godric_btwifi",
+      "Pixel Watch 5"
     ],
     [
-      "MIO_NANOTECH",
-      "X101",
-      "X101",
-      "X101"
+      "Google",
+      "Pixel Watch 5",
+      "godric_lte",
+      "Pixel Watch 5"
     ],
     [
-      "REGZA",
-      "32P1S",
-      "Andesite",
-      "32P1S"
+      "Google",
+      "Pixel Watch 5",
+      "wisteria_btwifi",
+      "Pixel Watch 5"
     ],
     [
-      "Safaricom",
-      "Neon_Ultra_3",
-      "Neon_Ultra_3",
-      "Neon Ultra 3"
+      "Google",
+      "Pixel Watch 5",
+      "wisteria_lte",
+      "Pixel Watch 5"
+    ],
+    [
+      "Hisense",
+      "HLTE243E",
+      "HLTE243E",
+      "Hisense U968"
+    ],
+    [
+      "Maspower",
+      "K7MPT-1011",
+      "MPT-1011",
+      "MPT-1011"
+    ],
+    [
+      "Permaray",
+      "Permaray3576-IFPD",
+      "DZ-RK3576",
+      "Permaray3576-IFPD"
+    ],
+    [
+      "Point Mobile",
+      "PM452",
+      "PM452",
+      "PM452"
+    ],
+    [
+      "Point Mobile",
+      "pm85",
+      "pm85",
+      "PM85"
+    ],
+    [
+      "SUAAT",
+      "S3_E",
+      "S3_E",
+      "S3_E"
     ],
     [
       "Samsung",
-      "Galaxy Watch Ultra2",
-      "projectv2ul",
-      "SM-L715U"
+      "Galaxy A08",
+      "a08",
+      "SM-A085M"
     ],
     [
-      "Ulefone",
-      "Armor X17 Pro",
-      "GQ3133TH1",
-      "Armor X17 Ultra"
+      "Thomson",
+      "Pad_Pro_NEU",
+      "Pad_Pro",
+      "Pad_Pro"
     ]
   ]
 }

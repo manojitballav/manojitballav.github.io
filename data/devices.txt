@@ -13371,6 +13371,10 @@ Google
 	Pixel Watch 4	kenari_lte	~	5
 	Pixel Watch 4	meridian_btwifi	~	5
 	Pixel Watch 4	meridian_lte	~	5
+	Pixel Watch 5	godric_btwifi	~	5
+	Pixel Watch 5	godric_lte	~	5
+	Pixel Watch 5	wisteria_btwifi	~	5
+	Pixel Watch 5	wisteria_lte	~	5
 	Pixel XL	marlin	~	0
 	Pixel watch 3	helios	Pixel Watch 3	5
 	Pixel watch 3	luna	Pixel Watch 3	5
@@ -15492,6 +15496,7 @@ Hisense
 	HLTE243E	=	Hisense T55	0
 	HLTE243E	=	Hisense U43	0
 	HLTE243E	=	Hisense U967	0
+	HLTE243E	=	Hisense U968	0
 	HLTE243E	=	Hisense Y83 Pro	0
 	HLTE300E_ 02	HS8937QC	HLTE300E	0
 	HLTE300E_ 02	HS8937QC	HLTE300E_02	0
@@ -26491,6 +26496,8 @@ Mascom
 Mason
 	MDQ300	MDQ300A	~	0
 	MGQ300	MGQ300A	~	0
+Maspower
+	K7MPT-1011	MPT-1011	=	0
 Masstel
 	Hapi 15	Masstel_Hapi_15	Masstel Hapi 15	0
 	Hapi_30	Masstel_Hapi_30	Masstel Hapi 30	0
@@ -33694,6 +33701,7 @@ Performance
 	T9	=	=	0
 Permaray
 	Permaray-IFPD	DZ-RK3588	~	0
+	Permaray3576-IFPD	DZ-RK3576	~	0
 Perseo TV
 	Perseo TV Home 2nd Generation Ranger	DV8219	~	2
 Philco
@@ -34149,6 +34157,7 @@ Point Mobile
 	PM352	=	=	0
 	PM45	pm45	~	0
 	PM451	=	=	0
+	PM452	=	=	0
 	PM45E	pm45e	~	0
 	PM550	pm550	~	0
 	PM550A	pm550a	PM550	0
@@ -34170,6 +34179,7 @@ Point Mobile
 	PM95	=	=	0
 	PT11	=	=	0
 	TR54	=	=	0
+	pm85	=	PM85	0
 Point of view
 	PVT-R78-3288	=	=	0
 	TAB-7232-3G	TAB_7232_3G_EEA	TAB-7232-3G-V2	1
@@ -37640,6 +37650,7 @@ SUAAT
 	S10_V_US	=	=	0
 	S11_V_EEA	=	=	0
 	S11_V_US	=	=	0
+	S3_E	=	=	0
 	S3_EEA	=	=	0
 	S3_US	=	=	0
 	S3_U_EEA	=	=	0
@@ -38063,6 +38074,7 @@ Samsung
 	Galaxy A07s	a07ve	SM-A077F	0
 	Galaxy A07s	a07ve	SM-A077M	0
 	Galaxy A08	a08	SM-A085F	0
+	Galaxy A08	a08	SM-A085M	0
 	Galaxy A08	a08	SM-E085F	0
 	Galaxy A08	a08	SM-M085F	0
 	Galaxy A10	a10	SM-A105F	0
@@ -47866,6 +47878,7 @@ Thomson
 	PRIMO7 Tablet	PRIMO7	=	1
 	PRIMO8 Tablet	AMLMY8306P	PRIMO8	1
 	Pad_Pro_EEA	Pad_Pro	=	0
+	Pad_Pro_NEU	Pad_Pro	=	0
 	R3	=	=	0
 	R4	=	=	0
 	SPPL 2K GSmartTV	umeda	~	0
