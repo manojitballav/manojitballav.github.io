@@ -5692,7 +5692,6 @@ Blu
 	Tank_Xtreme	T0030WW	Tank Xtreme	0
 	Touchbook M7 Pro	P290	~	0
 	VIEW 5	B161V	=	0
-	VIEW PRO 5G	B1680V	=	0
 	VIVO 5	BLU_VIVO_5	~	0
 	VIVO 5R	BLU_Vivo_5R	Vivo 5R	0
 	VIVO 6	BLU_Vivo_6	Vivo 6	0
@@ -13719,10 +13718,10 @@ HIGRACE
 	OC101	=	=	0
 	OC101	OC101_EEA	~	0
 HIKVISION
+	DS-D5A65RB/C	HIK_3576	=	0
 	DS-MDT202	=	=	0
 	DS-MDT301	=	=	0
 	DS_D5C75RB_A	DS_D5C65RB_A	=	0
-	HIK_3576	=	=	0
 	HIK_3588	=	=	0
 	HIK_9679	=	=	0
 HIMADE
@@ -15662,6 +15661,7 @@ Hisense
 	Hisense F35	HS6739MT	Hisense F28	0
 	Hisense F35	HS6739MT	~	0
 	Hisense F72 Pro	HLTE268E_10	~	0
+	Hisense F72 Pro	HLTE268E_10	Hisense M90 Pro	0
 	Hisense F8 MINI	HSSC9850	~	0
 	Hisense H20	HSSDM636QC	HLTE510T	0
 	Hisense H30	HLTE315E	~	0
@@ -21523,6 +21523,7 @@ Kbro
 	A0_S905X2	sti6160d19	~	0
 	A25751P	A2_5751P	~	0
 	A2S905X4	A2_S905X4	~	0
+	KG4101	=	=	0
 	N97_A1B_72115	A1B_72115	~	0
 	N97_A1_3796	A1_3796	~	0
 	Taiwan	A2_X4_N	A2X4N	0
@@ -25985,6 +25986,7 @@ MEIZE
 	D106	=	=	0
 	D108	=	=	0
 	D115	=	=	0
+	D117_US	D117	=	0
 	D121	=	=	0
 	D121_EEA	=	=	0
 	D122_US	=	=	0
@@ -40964,6 +40966,9 @@ Samsung
 	Galaxy Watch Ultra	projectx2ul	SM-L705N	5
 	Galaxy Watch Ultra	projectx2ul	SM-L705U	5
 	Galaxy Watch Ultra2	projectv2bl	SM-L710	5
+	Galaxy Watch Ultra2	projectv2ul	SM-L7150	5
+	Galaxy Watch Ultra2	projectv2ul	SM-L715F	5
+	Galaxy Watch Ultra2	projectv2ul	SM-L715N	5
 	Galaxy Watch Ultra2	projectv2ul	SM-L715U	5
 	Galaxy Watch4	freshbl	SM-R870	5
 	Galaxy Watch4	freshbs	SM-R860	5
@@ -41038,6 +41043,10 @@ Samsung
 	Galaxy Watch8 Classic	wise8us	SM-L505U	5
 	Galaxy Watch9	fresh9bl	SM-L350	5
 	Galaxy Watch9	fresh9bs	SM-L340	5
+	Galaxy Watch9	fresh9ul	SM-L3550	5
+	Galaxy Watch9	fresh9ul	SM-L355F	5
+	Galaxy Watch9	fresh9ul	SM-L355N	5
+	Galaxy Watch9	fresh9ul	SM-L355U	5
 	Galaxy Watch9	fresh9us	SM-L345F	5
 	Galaxy Watch9	fresh9us	SM-L345N	5
 	Galaxy Watch9	fresh9us	SM-L345U	5
@@ -55641,6 +55650,8 @@ ecom
 	Smart-Ex02	=	Smart-Ex 02 RUS	0
 	Smart-Ex02	=	Smart-Ex02 ROW	0
 	Smart-Ex02	=	Smart-Ex02 RUS	0
+edu-africa
+	edu-africa2026_ROW	=	=	0
 efioo
 	efiootabn7a	=	Tab N7a	1
 elactron
@@ -56154,6 +56165,7 @@ iQOO
 	iQOO Z11 Lite 44W 5G	I2510	=	0
 	iQOO Z11 Lite 44W 5G	I2510	I2515	0
 	iQOO Z11 Turbo	PD2536	V2536A	0
+	iQOO Z11S	PD2603	V2603A	0
 	iQOO Z11i	PD2559	V2559UA	0
 	iQOO Z11i AI版	PD2559	V2559UA	0
 	iQOO Z11x	PD2532	V2532A	0
@@ -57185,6 +57197,8 @@ vivo
 	Y600 Pro	PD2561	V2561A	0
 	Y600 Pro AI版	PD2561	V2561A	0
 	Y600 Turbo	PD2553	V2553A	0
+	Y600i	PD2617	V2617A	0
+	Y600i AI版	PD2617	V2617A	0
 	Y60c	PD2542	V2542A	0
 	Y60e	PD2542	V2542A	0
 	Y60e AI版	PD2542	V2542A	0
