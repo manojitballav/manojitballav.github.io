@@ -2122,6 +2122,8 @@ Amgoo
 	AM535	=	=	0
 	AMGOO	AM518	=	0
 	Amgoo	AM518	=	0
+Amigo
+	TV Box 4 Mini	vf_stb_k04_3	Amigo TV 4 Mini	2
 Amino
 	Amigo 7Y EspialTV	Amigo7Y	~	3
 	Amigo7Y	=	Amigo 7Y	3
@@ -3762,8 +3764,11 @@ BEYODFU
 	M901	=	=	0
 BGH S.A.
 	BGH 2K Android TV	lasalle	~	2
+	BGH 2K SMART TV	alameda	~	2
 	BGH 4K Android TV	kenton	~	2
 	BGH 4K SMART TV	eleonas	~	2
+	BGH 4K SMART TV	katehaki	~	2
+	BGH 4K SMART TV	sapporo	~	2
 	BGH Joy 303	BGH_Joy_303	~	0
 	BGH Smart TV	sunnyvale	~	2
 	fushan_BGH	hamamatsucho	Smart TV	2
@@ -3836,6 +3841,7 @@ BLUECRANE
 	PP86M	=	NOTE S8 4G	0
 	PP86M	=	=	0
 BLUEFOX
+	Aura_A1	Aura_A1t	BF00A	0
 	BF001	BLUEFOX	NX1	0
 	BF001_EEA	BLUEFOX	NX1	0
 BLUEING
@@ -5806,6 +5812,7 @@ Bmobility
 	Benji	=	=	0
 	ORION TG07	Bmobile_ORION_TG07	ORION_TG07	0
 Boltt
+	Ace	=	=	0
 	Evo	=	=	0
 Booken
 	Cybook Tablet	cybtt10_bk	Cybook-Tablet	1
@@ -8762,8 +8769,11 @@ Daewoo
 	DAEWOO	mountbaker	DAEWOO SMART TV	2
 	DAEWOO AI SMART TV	beomil	~	2
 	DAEWOO AI SMART TV	eleonas	~	2
+	DAEWOO AI SMART TV	katehaki	~	2
+	DAEWOO AI SMART TV	sapporo	~	2
 	DAEWOO SMART TV	SW6H	~	2
 	DAEWOO SMART TV	eleonas	~	2
+	DAEWOO SMART TV	sapporo	~	2
 	DAEWOO SMART TV	sunnyvale	~	2
 	DAEWOO SMART TV WF	SW6H	~	2
 	DW-TN7RK16	=	=	0
@@ -10044,6 +10054,9 @@ Dreame
 	DREAME SMART 4KTV	anaheim	~	0
 	DREAME SMART 4KTV	byculla	~	0
 	DREAME SMART 4KTV	eleonas	~	0
+	DREAME SMART 4KTV EU	sapporo	~	0
+	DREAME SMART 4KTV SA	eleonas	~	0
+	DREAME SMART 4KTV SA	sapporo	~	0
 	Dreame Smartphone E1	DREAME_W1	W5110	0
 Dreamstar
 	Dreamstar 2K SMART TV	nagata	~	2
@@ -10161,6 +10174,8 @@ EBN
 	NEBUPOS3	UY3A	~	0
 ECHOSONIC
 	EchosonicTV	shinagawa	~	0
+ECONET
+	Prime Pro 5G	Prime_Pro_5G	~	0
 ECONNECT
 	BH105	=	=	0
 	BH505GS	=	=	0
@@ -10665,6 +10680,7 @@ Ekotek
 	Sonata	=	=	0
 Ekron
 	DE-T414	=	=	0
+	DE-T919	=	=	0
 Eks Mobility
 	S45U	=	EKS S45U	0
 	S5LS	=	=	0
@@ -10962,6 +10978,7 @@ Ergo
 	B505_Unit_4G	=	=	0
 	ERGO	B506_Intro	=	0
 	ERGO 2K SMART TV	beomil	~	2
+	ERGO 4K SMART TV	anaheim	~	2
 	ERGO 4K SMART TV	eleonas	~	2
 	ERGO 4K SMART TV FF	eleonas	~	2
 	ERGO B500	B500	ERGO B500 First	0
@@ -11633,6 +11650,7 @@ FREESTREAM
 	3500	=	=	0
 FUEGO
 	Europe	sepolia	FUEGO Smart TV	2
+	FUEGO	elliniko	4K SMART TV	2
 	FUEGO 2K SMART TV	nagata	~	2
 	FUEGO 4K SMART TV	marina	~	2
 	FUEGO Smart TV	dongnae	~	2
@@ -14896,7 +14914,11 @@ Haier
 	Haier MatrixTV GE	haeundae	~	0
 	Haier OLED TV AE	irvine	~	2
 	Haier TV	SW6H	~	2
+	Haier TV	beomil	~	2
+	Haier TV	eleonas	~	2
+	Haier TV	katehaki	~	2
 	Haier TV FF	SW6H	~	2
+	Haier TV FF	eleonas	~	2
 	Haier Titan T5	Titan_T5	=	0
 	HaierG61	HM-G701-FL	=	0
 	Haitech android TV	hanyang	Haitech Android TV	2
@@ -15953,6 +15975,7 @@ Hisense
 	PX510	=	=	0
 	PX530	PX8	=	0
 	PX9	=	=	0
+	Q5S	beomil	~	0
 	S1	HS8937QC	~	0
 	SKi630t	msm8226	~	0
 	STARSHINE 4	HS6572MT	~	0
@@ -16501,6 +16524,8 @@ Honor
 	PORSCHE DESIGN HONOR Magic6	HNBVL	BVL-N59	0
 	PORSCHE DESIGN HONOR Magic6 RSR	HNBVL	BVL-AN20	0
 	PORSCHE DESIGN HONOR Magic7 RSR	HNPTPX	PTP-N59	0
+	Smart 2K TV	beomil	~	0
+	Smart 4K TV	eleonas	~	0
 	荣耀Magic8 Pro Air	HNLDY-M	LDY-AN00	0
 	荣耀MagicPad3 Pro 12.3	HNYLE-Q	YLE-W09	1
 	荣耀Play11 Pro	HNLNA-M	LNA-AN00	0
@@ -16558,6 +16583,7 @@ Hoozo
 	YK_P30	=	=	0
 	YK_P30_EEA	=	=	0
 Horion
+	HORION	elliniko	4K SMART TV	2
 	HORION	jagalchi	2K SMART TV	2
 	Horion_K8M8A	K8M8A	=	0
 	IFPD	65W72B	W72B	0
@@ -18495,6 +18521,7 @@ Hyundai
 	HT10WB3MSG01	=	10WB3	0
 	HT10WC1MSG01	=	10WC1	0
 	HT10WC1MSG01_EEA	HT10WC1MSG01	10WC1	0
+	HT10WC1MSG01_US	HT10WC1MSG01	10WC1	0
 	HT7GB1MBK_	=	7GB1	0
 	HT7WB1RBK	=	=	0
 	HT7WC1PBK	=	=	0
@@ -19155,6 +19182,7 @@ Indurama
 	Indurama	stanford	CSV2K	0
 	Indurama	zhongshan	CSV4K	0
 	Indurama 4K smart TV	eleonas	~	2
+	Indurama 4K smart TV	sapporo	~	2
 	indurama 2K TV	shinjuku	~	2
 	indurama 4K TV	SW4H	~	2
 	indurama Smart TV	sunnyvale	~	2
@@ -19344,6 +19372,7 @@ Infinix
 	Infinix SMART 8 Plus	Infinix-X6526	Infinix X6526	0
 	Infinix SMART 8 Pro	Infinix-X6525B	Infinix X6525B	0
 	Infinix SMART 9 HD	Infinix-X6532C	Infinix X6532C	0
+	Infinix TV	beomil	~	2
 	Infinix X5010	Infinix-X5010	~	0
 	Infinix X510	Infinix_X510_sprout	~	0
 	Infinix X559	Infinix-X559	~	0
@@ -19782,6 +19811,7 @@ Invens
 	NOTE_12P	=	NOTE 12P	0
 	NOTE_15P_EEA	NOTE_15P	NOTE 15P	0
 	NOTE_5G	=	NOTE 5G	0
+	ONE_1C	=	=	0
 	S1	=	=	0
 	Spain	nagata	INVES SMART TV	2
 	TK02_EEA	TK02	=	0
@@ -19954,6 +19984,7 @@ Iris
 	IRIS 2K SmartTV	beomil	~	0
 	IRIS 2K SmartTV	umeda	~	0
 	IRIS 4K Android TV	SW4H_FF	~	2
+	IRIS 4K Smart TV Lite	katehaki	~	2
 	IRIS 4K Smart TV Plus	anaheim	~	2
 	IRIS 4K SmartTV	SW6H	~	0
 	IRIS 4K SmartTV	eleonas	~	0
@@ -20295,6 +20326,8 @@ Itel
 	itel S25 Ultra	itel-S686LN	itel S686LN	0
 	itel S32LTE	itel-S32LTE	~	0
 	itel Super 26 Ultra	itel-S688LN	itel S688LN	0
+	itel TV	beomil	~	2
+	itel TV	eleonas	~	2
 	itel TV	shibuya	~	2
 	itel V41	itel-W4001S	itel W4001S	0
 	itel V51 LTE	itel-L5007S	itel L5007S	0
@@ -20488,9 +20521,12 @@ JUSYEA
 JVC
 		gener	RY-AP1	0
 	4K Smart TV	SW6H	~	2
+	4K Smart TV	eleonas	~	2
 	4K Smart TV	gangbyeon	4K AI Smart TV	2
 	4K Smart TV	pioneer	4K SA Smart TV	2
+	4K Smart TV	sapporo	~	2
 	4K Smart TV Plus	SW6H	~	2
+	4K Smart TV Plus	sapporo	~	2
 	4K_Edition	Android_TV_BOX	~	0
 	AV-08NT310	=	=	0
 	AV-10NT310	=	=	0
@@ -20560,11 +20596,14 @@ JVC
 	JVC	zhongshan	4K SMART TV	2
 	JVC	zhongshan	COL 4K SMART TV	2
 	JVC 2K Smart TV	dongnae	~	2
+	JVC 2K TV	beomil	~	2
 	JVC 4K Smart TV NZ	SW6H	~	2
 	JVC 4K Smart TV NZ	SW6H	JVC eplay 4KTV FF	2
 	JVC 4K Smart TV Plus	anaheim	~	2
+	JVC 4K TV	eleonas	~	2
 	JVC G24 TV	anaheim	~	2
 	JVC J20	Cunda	J20	0
+	JVC TV	katehaki	~	2
 	JVC UHD TV G0325	eleonas	~	2
 	KR	expo	Premium 4K GTV	0
 	LT-32N3115A	ikebukuro	AI PONT	0
@@ -20581,6 +20620,7 @@ JVC
 	South Africa/Australia /Israel/Paraguay	tamachi	JVC Android TV	2
 	South Africa/Australia /Israel/Paraguay	yeongdeungpo	JVC Android TV	2
 	UHD Android TV	sindorim	AI PONT	2
+	UHD Smart TV	eleonas	~	2
 	UK	tabata	UK 2K Android TV	2
 	france	tamachi	JVC 2K Android TV	2
 JVL (Australia)
@@ -20950,6 +20990,8 @@ KEYENCE
 	BT-A500GA	BTA500	=	0
 	BT-A600	=	=	0
 	BT-A600M	BT-A600	~	0
+	BT-A800	=	=	0
+	BT-A800M	BT-A800	~	0
 	BTA700	=	=	0
 	DX-A400	=	=	0
 	DX-A600	=	=	0
@@ -21053,6 +21095,8 @@ KPHONE
 KPN
 	KPN TV+ Box	m250_k	KPN DIW7022	2
 	KPN TV+ Soundbox	m393vsb_kpn	KPN VSB3918	2
+KPP(KR)
+	Swan	KSTB2500	=	0
 KRAVEiN
 	KR_T01	KR-T01	=	0
 KRIP
@@ -21412,6 +21456,7 @@ Kalley
 	Kalley TV	beomil	~	2
 	Kalley TV	eleonas	~	2
 	Kalley TV	katehaki	~	2
+	Kalley TV	sapporo	~	2
 	Kalley_FlexTab_11	=	Kalley_FlexTab 11	0
 	Klic	SA	K4-02 4G	0
 	R10G	=	=	0
@@ -24431,6 +24476,7 @@ LeiaInc
 	Lume Pad	LumePad	LPD-20W	1
 Leica
 	Leica CSX8	CSX8	LGT-08QA-2301	0
+	Leica Cine Compact 1	fushishan	~	0
 	Leica Laser	wuyishan	SmartTV 4K	0
 Lenco
 	Israel	sepolia	LENCO 4K smart TV	2
@@ -26338,6 +26384,7 @@ MYCOM
 	COMEK_Tab_10	=	COMEK Tab 10	1
 	COMEK_Tab_20	=	COMEK Tab 20	1
 	COMEK_Tab_K	=	COMEK Tab K	1
+	COMEK_Tab_K	=	COMEK Tab K10	1
 	COMEK_Tab_K2	=	COMEK Tab K2	1
 MaQ(Global)
 	M.AI Phone Gen1	MAG1	MA1	0
@@ -26733,6 +26780,7 @@ Maxwest
 	TAB_MAX_7	=	=	0
 Maxzz
 	TA-04	=	=	0
+	TA-05	=	=	0
 Mazda
 	Mazda Connect	MAZDA_CONNECT_AA_G12	MAZDA CONNECT	6
 	Mazda Connect	MAZDA_CONNECT_AA_G15	MAZDA CONNECT	6
@@ -28464,6 +28512,7 @@ Motorola
 	Motorola Defy 2	BM2S1E	Defy 2	0
 	Motorola TV	beomil	~	2
 	Motorola TV	eleonas	~	2
+	Motorola TV	katehaki	~	2
 	Motorola TV FF	eleonas	~	2
 	Motorola one	deen_sprout	motorola one	0
 	MotorolaTV	hayward	~	0
@@ -29592,6 +29641,8 @@ NCE TV
 NCTC
 	KSTB2020	=	=	0
 	KSTB2100	=	=	0
+	KSTB6200	=	=	0
+	ValleyFiber	KSTB2500	=	0
 NEC
 	101T 　MEDIAS	NEC-101	NEC-101T	0
 	AGT10	=	N8730-411	0
@@ -30279,6 +30330,8 @@ NobleSkiodo
 	NSTV	SW6H	~	0
 	NSTV FF	SW6H	~	0
 	Noble Skiodo TV	beomil	~	2
+	Noble Skiodo TV	eleonas	~	2
+	Noble Skiodo TV FF	eleonas	~	2
 	Smart TV	alimos	AI PONT	2
 	Smart TV	dangni	AI PONT	2
 Noblex
@@ -30299,6 +30352,9 @@ Noblex
 	NBX-T1014N	TA10CA2	=	0
 	NBX-T7014	E270BSA	~	0
 	NOBLEX Smart TV	sunnyvale	~	2
+	NS 2K SMART TV	alameda	~	2
+	NS 4K SMART TV	eleonas	~	2
+	NS 4K SMART TV	katehaki	~	2
 	Noblex TV	SW4H	~	2
 	NoblexTV	shinjuku	~	0
 	R3	=	=	0
@@ -30692,6 +30748,8 @@ Nuvision
 	TM800A550L	=	=	0
 	TM800A730M	TM800AM	~	0
 	TM800A740M	TM800AM	~	0
+O2 (O2 Slovakia)
+	KPP STB	KSTB7268	=	3
 O2.CZ
 	O2 TV Box	O2TV_B866V2	~	2
 OASE
@@ -30855,6 +30913,7 @@ ONPAD
 	Vexon	=	=	0
 ONVO
 	EMEA	sepolia	ONVO TV	2
+	ONVO	elliniko	4K SMART TV	2
 	ONVO TV	dongnae	~	2
 ONYX
 	AKA Model A	Model_A	Model A	0
@@ -31311,6 +31370,7 @@ OneScreen
 	OPS LF with Android	OneScreen-OPS-LF	OneScreen-OPS-LFA	0
 	OneScreen T7	rk3588_t	T7	0
 	OneScreen Titan	oversea_v	Titan	0
+	OneScreen_Android_OPS_2	oversea_v	~	0
 	OneScreen_Core	=	Core	0
 	Wandr_W1	Wandr	OneScreen Wandr	0
 Onix
@@ -33177,6 +33237,7 @@ PRIMA
 	Smart TV	osaka	AI PONT SA	2
 PRISMPLUS
 	4K Smart TV Plus	anaheim	~	2
+	PrismPlus 2KA	beomil	~	0
 	PrismPlus 2KA	umeda	~	0
 	PrismPlus 4K Android TV	SW4H	~	2
 	PrismPlus 4K Pro Android TV	SW4H_FF	~	2
@@ -33274,6 +33335,7 @@ Panasonic
 	102P	pana2_4s	~	0
 	2KTV-5SH	umeda	~	2
 	2KTV-5SHP	umeda	~	2
+	2KTV-6SH	beomil	~	2
 	43DX400C	DX01C	=	2
 	43GX580C	GX580C	9S61Z_ZQ20S	2
 	48AX600C	mst918_4G	~	2
@@ -33285,6 +33347,8 @@ Panasonic
 	4KTV-3SUF	SW6H	~	2
 	4KTV-3SUP	SW6H	~	2
 	4KTV-4SUH	anaheim	~	2
+	4KTV-6SU	eleonas	~	2
+	4KTV-6SUF	eleonas	~	2
 	55AX600C	mst918_4k2k	~	2
 	55DX600C	DX600C	TH-55DX600C	2
 	A-DA	balticaCA	MY21ADA	6
@@ -33500,6 +33564,9 @@ Panasonic
 	Panasonic	Jupiter	4KTV-JUP	2
 	Panasonic 2021 UHD Android TV	OD0M_EA_T32	~	2
 	Panasonic 2021 UHD Android TV	OD0M_EA_T32	Panasonic UHD TV	2
+	Panasonic 2K TV	beomil	~	2
+	Panasonic 2K TV LA	beomil	~	2
+	Panasonic 4K TV US	sapporo	~	2
 	Panasonic P100	P100	=	0
 	Panasonic P100	P100	~	0
 	Panasonic P101	P101	=	0
@@ -33510,8 +33577,15 @@ Panasonic
 	Panasonic P90	Panasonic_P90	~	0
 	Panasonic P90 3G	Panasonic_P90_3G	~	0
 	Panasonic P95	P95	~	0
+	Panasonic Smart TV Lite	katehaki	~	2
 	Panasonic T70	T70	~	0
 	Panasonic TV	SW3H_ATV	GX655	2
+	Panasonic TV	eleonas	~	2
+	Panasonic TV FF	eleonas	~	2
+	Panasonic TV FF LA	eleonas	~	2
+	Panasonic TV FF US	eleonas	~	2
+	Panasonic TV LA	eleonas	~	2
+	Panasonic TV US	eleonas	~	2
 	Panasonic_LH_GT1ND	=	=	0
 	R3	=	2KTV-2TH	2
 	R3_GTV		=	2
@@ -33521,6 +33595,8 @@ Panasonic
 	RSE1708	=	=	0
 	SDU	=	9 inch SDU	0
 	SDU	=	=	0
+	SKYWORTH 4K TV	sapporo	~	0
+	SKYWORTH 4K TV NF	sapporo	~	0
 	SM17	=	Smart Monitor 17	0
 	SMLK2A	=	=	0
 	SPU-A05-SWG	=	=	0
@@ -33846,6 +33922,7 @@ Philips
 	Philips S8320 EEA	Philips_S8320	Philips S8320	0
 	Philips S8325	Philips_S8325	~	0
 	Philips Smart 2K TV	beomil	~	2
+	Philips Smart 4K TV	eleonas	~	2
 	Philips SmartTV	freesia	PHILIPS 4K TV	2
 	Philips SmartTV	freesia	PHILIPS 4k TV	2
 	Philips V787	Philips_Xenium_V787	Philips Xenium V787	0
@@ -33943,6 +34020,7 @@ Phone Max
 	X10_EEA	X10	=	0
 	X1_Pro	=	X1 Pro	0
 	X3Pro	=	=	0
+	X5_G_EEA	X5_G	=	0
 	X5_T_EEA	X5_T	=	0
 PicassoTab
 	PicassoTab_A10	A10	PicassoTab A10	0
@@ -35139,6 +35217,7 @@ Pritom
 	P7_A08	=	P7	0
 	P7_A10	=	P7	0
 	P7_A10K_EEA	=	P7	0
+	P7_A10K_W	=	P7	0
 	P7_A10_EEA	=	P7	0
 	P7_A10_EEA_01	=	P7	0
 	P7_A10_M	=	P7	0
@@ -35839,6 +35918,7 @@ RECCO
 RED
 	HydrogenONE	=	H1A1000	0
 REDLINE
+	REDLINE	elliniko	4K SMART TV	2
 	Space_A10	=	=	0
 	Space_A18	Space_A8	=	0
 	Space_M10	=	=	0
@@ -36074,8 +36154,10 @@ Realme
 	真我V11s 5G	RE5485	RMX3125	0
 Realme Techlife
 	Flipkart India Private Limited	jialu	Realme Smart TV	2
+	REALME TECHLIFE	elliniko	4K SMART TV	2
 	Realme TV	beomil	~	2
 	Realme TV	eleonas	~	2
+	Realme TV	katehaki	~	2
 	Realme TV FF	eleonas	~	2
 Realtek
 	RealtekHank	=	=	0
@@ -36679,6 +36761,7 @@ Relndoo
 	TAB10_US	=	TAB10	0
 	TAB10_US	=	=	0
 	TAB9-E-EEA	TAB9	=	0
+	TAB9-M_US	TAB9	=	0
 	TAB9-US	TAB9	=	0
 	TAB9_EEA	=	=	0
 	TB02	=	=	0
@@ -37776,6 +37859,7 @@ SVITOO
 	P11	=	=	0
 	P11	=	P13	0
 	P11_R_EEA	P11_R	=	0
+	P11_R_ROW	P11_R	=	0
 	P11_T_ROW	P11_T	=	0
 	P11_T_US	P11_T	=	0
 	P11_pro	P11	=	0
@@ -37856,14 +37940,25 @@ SWTV
 	SWTV-24HK-4K NF	eleonas	SWTV-24H-4K NF	0
 	SWTV-24HK-4K NF	eleonas	~	0
 	SWTV-24HK-FHD	beomil	~	0
+	SWTV-24LA-FHD	beomil	~	0
 	SWTV-24NA-4K	eleonas	~	0
 	SWTV-24NA-4K NF	eleonas	~	0
 	SWTV-24NA-FHD	beomil	~	0
 	SWTV-24SA-4K	eleonas	~	0
 	SWTV-24SA-4K NF	eleonas	~	0
 	SWTV-24SA-FHD	beomil	~	0
+	SWTV-25HK	katehaki	~	0
+	SWTV-25NA-4K	katehaki	~	0
+	SWTV-25SA-4K	katehaki	~	0
 	SWTV-25TGL-4K	katehaki	~	0
 	SWTV-26AE-4K	sapporo	~	0
+	SWTV-26AE-4K NF	sapporo	~	0
+	SWTV-26HK-4K	sapporo	~	0
+	SWTV-26LA-4K	sapporo	~	0
+	SWTV-26NA-2KA5	alameda	~	0
+	SWTV-26NA-4K	sapporo	~	0
+	SWTV-26SA-2KA5	alameda	~	0
+	SWTV-26SA-4K	sapporo	~	0
 	South America	SW3_ATV	SWTV	0
 	TV	SW3H_ATV	SWTV	2
 	Taiwan	SW3H_ATV	SWTV	0
@@ -41400,6 +41495,7 @@ Sansui
 	SANSUI SmartTV	sunnyvale	~	0
 	SANSUI TV	beomil	~	2
 	SANSUI TV	eleonas	~	2
+	SANSUI TV	katehaki	~	2
 	SANSUI TV FF	eleonas	~	2
 	SANSUITV UHD	SW4H	~	0
 	Sansui Play	Play	~	0
@@ -42060,6 +42156,7 @@ Sharp
 	SHARP	zhongshan	4K SMART TV	2
 	SHARP 2K SMART TV	shinagawa	~	2
 	SHARP 2K Smart TV	umeda	~	2
+	SHARP 2K Smart TV-A	beomil	~	2
 	SHARP 2K TV	dongnae	~	2
 	SHARP 2K TV	umeda	~	2
 	SHARP 4K TV	SW6H	~	2
@@ -42080,6 +42177,7 @@ Sharp
 	SHARP Android TV	SW4H_FF	~	2
 	SHARP FHD TV	takao	~	2
 	SHARP PH 2K Smart TV	umeda	SHARP 2K Smart TV	2
+	SHARP PH 2K Smart TV-A	beomil	~	2
 	SHARP R1S	SK3	FS8028	0
 	SHARP TBC	SI3	FS8025	0
 	SHARP UHD TV	OD0M_EA_T32	~	2
@@ -43036,6 +43134,8 @@ Sony
 	Xperia 10 VII	XQ-FE	XQ-FE44	0
 	Xperia 10 VII	XQ-FE	XQ-FE54	0
 	Xperia 10 VII	XQ-FE	XQ-FE72	0
+	Xperia 10 VIII	XQ-GH	XQ-GH54	0
+	Xperia 10 VIII	XQ-GH	XQ-GH74	0
 	Xperia 5	901SO	=	0
 	Xperia 5	J8210	=	0
 	Xperia 5	J8270	=	0
@@ -47676,11 +47776,16 @@ Telefunken
 	TEL-73GIQA	=	=	0
 	TEL-73GIQA11	=	=	0
 	TEL-74GIQA	=	=	0
+	TELEFUNKEN 2K TV	beomil	~	2
+	TELEFUNKEN 4K TV	eleonas	~	2
+	TELEFUNKEN 4K TV	katehaki	~	2
+	TELEFUNKEN 4K TV FF	eleonas	~	2
 	TELEFUNKEN SMART TV	SW4H	~	2
 	TF501_EC	=	=	0
 	TF5X	=	=	0
 	TF6	=	=	0
 	TF600	=	=	0
+	Telefunken 4K TV	sapporo	~	2
 	TelefunkenTV	shibuya	~	0
 	VP73_Telefunken	Telefunken	~	0
 Telegenic
@@ -47855,6 +47960,7 @@ Tevau
 The Edge
 	NLE	oversea_v	~	0
 TheNudge
+	HyundaiIT_Smartboard_Ai	HDBN	=	0
 	Smartboard_Ai	oversea_v	HDJN	0
 Theros
 	Theros 2K Google TV	dongnae	~	2
@@ -49472,6 +49578,7 @@ VORCOM
 	S7Pro	=	=	0
 	S8-CLASSIC	=	=	0
 	S8Pro	=	=	0
+	STAB7	=	=	0
 	SXPRO	=	=	0
 	SXPRO_classic	=	=	0
 	SXPro-P40	=	=	0
@@ -50697,6 +50804,7 @@ Vivo
 	Y56 5G	V2225	=	0
 	Y56 5G	V2225	V2311	0
 	Y58 5G	V2355	=	0
+	Y600	PD2607	V2607A	0
 	Y66	PD1621	vivo Y66	0
 	Y67	PD1612	vivo Y67	0
 	Y71	1801	vivo 1801	0
@@ -52286,6 +52394,7 @@ XPLORE
 XPPen
 	MDP1231_ROW	MDP1231	=	0
 	MDP1232_EEA	MDP1231	=	0
+	MDP1234_US	MDP1231	=	0
 	XPPen_Magic_Drawing_Pad	Titan_XPPen	MagicDrawingPad	0
 	XPPen_Magic_Drawing_Pad_RU	Titan_XPPen	MagicDrawingPad	0
 XREAL
@@ -56784,6 +56893,7 @@ realme
 	realme P4 Lite	RE648B	RMX5378	0
 	realme P4 Power 5G	RE646FL1	RMX5107	0
 	realme P4 Pro 5G	RE644BL1	RMX5116	0
+	realme P4s 5G	RE6472L1	RMX5125	0
 	realme P4x	RE6488	RMX5367	0
 	realme P4x 5G	RE6450L1	RMX5108	0
 	realme Pad 2	RE5C6EL1	RMP2204	1
@@ -57159,6 +57269,8 @@ vivo
 	Y31d Pro	V2543U	V2543	0
 	Y31e 5G	V2521	V2533	0
 	Y31s 5G	V2521	V2614	0
+	Y31t 5G	V2571	=	0
+	Y31t 5G	V2571	V2574	0
 	Y37+	PD2443	V2443A	0
 	Y37t	PD2443	V2443A	0
 	Y400	V2455	=	0
@@ -57194,6 +57306,7 @@ vivo
 	Y6	PD2531	V2531A	0
 	Y60	PD2559	V2559A	0
 	Y60 AI版	PD2559	V2559A	0
+	Y600 AI	PD2607	V2607A	0
 	Y600 Pro	PD2561	V2561A	0
 	Y600 Pro AI版	PD2561	V2561A	0
 	Y600 Turbo	PD2553	V2553A	0
