@@ -5698,6 +5698,7 @@ Blu
 	Tank_Xtreme	T0030WW	Tank Xtreme	0
 	Touchbook M7 Pro	P290	~	0
 	VIEW 5	B161V	=	0
+	VIEW PRO 5G	B1680V	=	0
 	VIVO 5	BLU_VIVO_5	~	0
 	VIVO 5R	BLU_Vivo_5R	Vivo 5R	0
 	VIVO 6	BLU_Vivo_6	Vivo 6	0
