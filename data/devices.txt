@@ -521,6 +521,7 @@ ASTCA
 	AA 787 S	SURGE_AA_787_S	~	0
 ASTECH
 	ASTECH_IRIS_60	=	=	0
+	ASTECH_S21	=	=	0
 	Astech NEO	Astech_NEO	~	0
 	Astech S7	Astech_S7	~	0
 	Astech S7 pro	Astech_S7_pro	~	0
@@ -8172,6 +8173,7 @@ Cubot
 	MAX 3	MAX_3	~	0
 	MAX 5	MAX_5	~	0
 	MegaPad	=	=	0
+	MegaPad Air	MegaPad_Air	~	0
 	NOTE 20	NOTE_20	~	0
 	NOTE 20 PRO	NOTE_20_PRO	~	0
 	NOTE 30	NOTE_30	~	0
@@ -11586,6 +11588,7 @@ FOXXD
 	AS65U	=	Sail 3	0
 	AS65U	=	T2	0
 	C10	=	=	0
+	FOXXD A67L Gen2	A67L	A67L Gen2	0
 	FOXXD C10 Pro	C10_Pro	~	0
 	FOXXD C65	FOXXD_C65	~	0
 	FOXXD C69M	C69M	~	0
@@ -21425,6 +21428,7 @@ Kalley
 	Black G4S	Black_G4S	~	0
 	Black G4S2	Black_G4S2	~	0
 	Black S	Black_S	~	0
+	Black S3	Black_S3	~	0
 	Black Z1	Black_Z1	~	0
 	Black Z2	Black_Z2	~	0
 	Black_3C	Black_3	Black 3	0
@@ -25085,6 +25089,7 @@ Lenovo
 	Lenovo Yoga Tab 11	YT-J706F	Lenovo YT-J706F	1
 	Lenovo Yoga Tab 11	YT-J706X	Lenovo YT-J706X	1
 	Lenovo Yoga Tab Plus	TB520FU	=	1
+	Lenovo Yoga Tab Plus Gen2	TB522FU	=	1
 	Lenovo Z5 Pro	heart	Lenovo L78032	0
 	Lenovo Z6 Pro 5G	cream	Lenovo L79041	0
 	Lenovo-9	zap	Lenovo L78031	0
@@ -25319,6 +25324,7 @@ Lenovo
 	拯救者电竞手机2Pro	doom	Lenovo L70081	0
 	拯救者电竞手机二代	doom	Lenovo L70081	0
 	联想小新平板Pro GT	TB710FU	=	1
+	联想平板 拯救者 Y900 13	TB522FU	=	1
 	联想平板电脑 启天K10	X6C6NBF	Lenovo TB-X6C6NBF	1
 	联想平板电脑 启天K10	X6C6NBX	Lenovo TB-X6C6NBX	1
 	联想平板电脑 启天K10c	TB330FU	=	1
@@ -56206,6 +56212,7 @@ iMuz
 	IM-B101H	=	=	0
 	IM-B102	=	=	0
 	IM-H031	=	=	0
+	IM-H031N	=	=	0
 	IM-H092L	=	=	0
 	IM-H092W	=	=	0
 	IM-H093	=	=	0

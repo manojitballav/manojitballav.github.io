@@ -1,12 +1,48 @@
 {
-  "lastUpdated": "2026-08-31",
-  "newDevicesCount": 1,
+  "lastUpdated": "2026-09-01",
+  "newDevicesCount": 7,
   "newDevices": [
     [
-      "Blu",
-      "VIEW PRO 5G",
-      "B1680V",
-      "B1680V"
+      "ASTECH",
+      "ASTECH_S21",
+      "ASTECH_S21",
+      "ASTECH_S21"
+    ],
+    [
+      "Cubot",
+      "MegaPad Air",
+      "MegaPad_Air",
+      "MegaPad Air"
+    ],
+    [
+      "FOXXD",
+      "FOXXD A67L Gen2",
+      "A67L",
+      "A67L Gen2"
+    ],
+    [
+      "Kalley",
+      "Black S3",
+      "Black_S3",
+      "Black S3"
+    ],
+    [
+      "Lenovo",
+      "Lenovo Yoga Tab Plus Gen2",
+      "TB522FU",
+      "TB522FU"
+    ],
+    [
+      "Lenovo",
+      "联想平板 拯救者 Y900 13",
+      "TB522FU",
+      "TB522FU"
+    ],
+    [
+      "iMuz",
+      "IM-H031N",
+      "IM-H031N",
+      "IM-H031N"
     ]
   ]
 }
