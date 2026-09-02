@@ -1,48 +1,204 @@
 {
-  "lastUpdated": "2026-09-01",
-  "newDevicesCount": 7,
+  "lastUpdated": "2026-09-02",
+  "newDevicesCount": 33,
   "newDevices": [
     [
-      "ASTECH",
-      "ASTECH_S21",
-      "ASTECH_S21",
-      "ASTECH_S21"
+      "Biegedy",
+      "B25_E",
+      "B25_E",
+      "B25_E"
     ],
     [
-      "Cubot",
-      "MegaPad Air",
-      "MegaPad_Air",
-      "MegaPad Air"
+      "Blackview",
+      "WAVE 3",
+      "WAVE_3",
+      "WAVE 3"
     ],
     [
-      "FOXXD",
-      "FOXXD A67L Gen2",
-      "A67L",
-      "A67L Gen2"
+      "Blackview",
+      "XPLORE 6 Pro",
+      "XPLORE_6_Pro",
+      "XPLORE 6 Pro"
     ],
     [
-      "Kalley",
-      "Black S3",
-      "Black_S3",
-      "Black S3"
+      "Blackview",
+      "ZENO 6 Pro",
+      "ZENO_6_Pro",
+      "ZENO 6 Pro"
     ],
     [
-      "Lenovo",
-      "Lenovo Yoga Tab Plus Gen2",
-      "TB522FU",
-      "TB522FU"
+      "CILICO",
+      "CX10",
+      "CX10",
+      "CX10"
     ],
     [
-      "Lenovo",
-      "联想平板 拯救者 Y900 13",
-      "TB522FU",
-      "TB522FU"
+      "DSIC",
+      "Mobilebase DS95",
+      "DS95",
+      "DS95"
     ],
     [
-      "iMuz",
-      "IM-H031N",
-      "IM-H031N",
-      "IM-H031N"
+      "Doogee",
+      "Note 57",
+      "1928CL-C",
+      "Note 57"
+    ],
+    [
+      "FOSSiBOT",
+      "S12",
+      "S12",
+      "S12"
+    ],
+    [
+      "Gigaset",
+      "GX30 EP",
+      "GX30_EP",
+      "E940-3044-01"
+    ],
+    [
+      "HUGEROCK",
+      "T-Smart-H72",
+      "H72-5G-M60",
+      "T-Smart"
+    ],
+    [
+      "Honor",
+      "HONOR X5e s",
+      "HNMLD-M",
+      "MLD-LX2"
+    ],
+    [
+      "LUO(A)",
+      "i18 Pro Max",
+      "i18_Pro_Max",
+      "i18 Pro Max"
+    ],
+    [
+      "Logicom",
+      "ORION E2",
+      "ORION_E2",
+      "ORION E2"
+    ],
+    [
+      "MapleSystems",
+      "RT1308B",
+      "RT1308B",
+      "RT1308B"
+    ],
+    [
+      "OSCAL",
+      "PILOT 8",
+      "PILOT_8",
+      "PILOT 8"
+    ],
+    [
+      "PROTON",
+      "NitroX",
+      "Proton_NitroX",
+      "NitroX"
+    ],
+    [
+      "RebotAi",
+      "AF8_ROW",
+      "AF8_ROW",
+      "AF8_ROW"
+    ],
+    [
+      "Redmi",
+      "REDMI Note 17",
+      "zephyr",
+      "26012RN62A"
+    ],
+    [
+      "Redmi",
+      "REDMI Note 17",
+      "zephyr",
+      "26012RN62L"
+    ],
+    [
+      "Redmi",
+      "REDMI Note 17",
+      "zephyr",
+      "26012RN62Y"
+    ],
+    [
+      "SEGO",
+      "Smart 20 GO",
+      "Smart_20_GO",
+      "Smart 20 GO"
+    ],
+    [
+      "SVITOO",
+      "P108_R_ROW",
+      "P108_R",
+      "P108_R"
+    ],
+    [
+      "TELOX",
+      "TE850",
+      "TELOX_TE850",
+      "TELOX_TE850"
+    ],
+    [
+      "Teclast",
+      "RGD1_EEA",
+      "RGD1",
+      "RGD1_ROW"
+    ],
+    [
+      "Teclast",
+      "RGD1_ROW",
+      "RGD1",
+      "RGD1_ROW"
+    ],
+    [
+      "Teclast",
+      "RGD1_US",
+      "RGD1",
+      "RGD1_ROW"
+    ],
+    [
+      "Thomson",
+      "SPPL",
+      "duffel",
+      "SPPL 2K GOOGLE TV"
+    ],
+    [
+      "Thomson",
+      "SPPL",
+      "enfield",
+      "SPPL4K"
+    ],
+    [
+      "Thomson",
+      "SPPL",
+      "wilson",
+      "SPPL 4K Google TV"
+    ],
+    [
+      "VALE",
+      "V10E_464_LTE",
+      "V10E_464_LTE",
+      "V10E LTE-464"
+    ],
+    [
+      "Vivo",
+      "V80 Lite 5G",
+      "V2626",
+      "V2626"
+    ],
+    [
+      "vivo",
+      "V80 Lite 5G",
+      "V2626",
+      "V2626"
+    ],
+    [
+      "vivo",
+      "V80 Lite 5G",
+      "V2626",
+      "V2655"
     ]
   ]
 }

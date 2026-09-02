@@ -4695,6 +4695,7 @@ Biegedy
 	B23_U_EEA	=	=	0
 	B23_U_US	=	B23_US	0
 	B23_U_US	=	=	0
+	B25_E	=	=	0
 	B25_EEA	=	=	0
 	B25_US	=	=	0
 	B29_EEA	=	=	0
@@ -5164,6 +5165,7 @@ Blackview
 	WAVE 10	WAVE_10	~	0
 	WAVE 10C	WAVE_10C	~	0
 	WAVE 2C	WAVE_2C	~	0
+	WAVE 3	WAVE_3	~	0
 	WAVE 6C	WAVE6C	~	0
 	WAVE 7C	WAVE_7C	~	0
 	WAVE 8	WAVE_8	~	0
@@ -5175,12 +5177,14 @@ Blackview
 	XPLORE 2	XPLORE2	~	0
 	XPLORE 2 Projector	XPLORE2_Pro	~	4
 	XPLORE 2 Satellite	XPLORE2_S	~	0
+	XPLORE 6 Pro	XPLORE_6_Pro	~	0
 	XPLORE X1	XPLORE_X1	~	0
 	ZENO 1	ZENO_1	~	0
 	ZENO 10	ZENO_10	~	0
 	ZENO 100	ZENO_100	~	0
 	ZENO 2	ZENO_2	~	0
 	ZENO 5	ZENO_5	~	0
+	ZENO 6 Pro	ZENO_6_Pro	~	0
 Blaupunkt
 	A-STREAM	GMP	~	0
 	AUSTRALIA, EU, JAPAN, MIDDLE EAST	martin	BLAUPUNKT Android Monitor	0
@@ -6188,6 +6192,7 @@ CILICO
 	C7X	=	=	0
 	C7X	C7X_R	~	0
 	C80	=	=	0
+	CX10	=	=	0
 	F750	=	=	0
 	F880	=	=	0
 	M95	=	=	0
@@ -8723,6 +8728,7 @@ DSIC
 	Mobilebase DS6	ds6	DS6	0
 	Mobilebase DS60S	DS60S	=	0
 	Mobilebase DS65	DS65	=	0
+	Mobilebase DS95	DS95	=	0
 	RD86QE	=	=	0
 DSPREAD
 	F6	=	=	0
@@ -9666,6 +9672,7 @@ Doogee
 	N70	1925T	~	0
 	Note 56	1928C	~	0
 	Note 56X	1928SC	Note56 X	0
+	Note 57	1928CL-C	~	0
 	Note 58	1929C	~	0
 	Note 58	1929C-C	~	0
 	Note 58 Pro	1929H-C	Note58 Pro	0
@@ -11541,6 +11548,7 @@ FOSSiBOT
 	F116 Pro	F116_Pro	~	0
 	F123_EEA	F123	=	0
 	S1	=	=	0
+	S12	=	=	0
 	S2	FOSSiBOT_S2	~	0
 	S3_Pro	=	S3 Pro	0
 	S3_ROW	S3	=	0
@@ -12974,6 +12982,7 @@ Gigaset
 	GS80	=	=	0
 	GTX50	=	E940-3060-00	0
 	GX290	=	=	0
+	GX30 EP	GX30_EP	E940-3044-01	0
 	Gigaset GS170	GS170	~	0
 	Gigaset GS185	GS185	=	0
 	Gigaset GS270	Gigaset_GS270	GS270	0
@@ -14740,6 +14749,7 @@ HUGEROCK
 	H8	=	=	0
 	H81	H81-M50	~	0
 	T-Smart	H81-4G-M45	~	0
+	T-Smart-H72	H72-5G-M60	T-Smart	0
 HUIHUANG
 	C90	=	=	0
 	C90_EEA	C90	=	0
@@ -16448,6 +16458,7 @@ Honor
 	HONOR X5d	HNNLA-M	NAA-LX2	0
 	HONOR X5d	HNNLA-M	NAA-LX3	0
 	HONOR X5d Plus	HNNLA-M	NAA-LX2P	0
+	HONOR X5e s	HNMLD-M	MLD-LX2	0
 	HONOR X6	HNVNE-M	VNE-LX1	0
 	HONOR X6	HNVNE-M	VNE-LX2	0
 	HONOR X6	HNVNE-M	VNE-LX3	0
@@ -23910,6 +23921,7 @@ LUO(A)
 	S16 Pro	S16_Pro	~	0
 	S17 Pro	S17_Pro	~	0
 	S18 Max	S18_Max	~	0
+	i18 Pro Max	i18_Pro_Max	~	0
 LUSH_MINT
 	L1582C	=	=	0
 	L1589K	=	=	0
@@ -25730,6 +25742,7 @@ Logicom
 	ONIX	=	=	0
 	ORION E1	ORION_E1	~	0
 	ORION E1 PLUS	ORION_E1_PLUS	~	0
+	ORION E2	ORION_E2	~	0
 	POWER bot	POWERBOT	POWER BOT	0
 	Playtab 10	LOGICOM_PLAYTAB_10	=	0
 	RIOPAD_7	=	=	0
@@ -26504,6 +26517,8 @@ Mantra
 	MTR100	=	=	0
 	mDESK	=	=	0
 	mTerminal100	Start	=	0
+MapleSystems
+	RT1308B	=	=	0
 MarQ
 	DV6067H	=	=	0
 	MarQ	bangbae	MarQ 4K Android TV	2
@@ -30975,6 +30990,7 @@ OSCAL
 	PILOT 3	PILOT_3	~	0
 	PILOT 5	PILOT_5	~	0
 	PILOT 6	PILOT_6	~	0
+	PILOT 8	PILOT_8	~	0
 	Pad 100	Pad_100	~	1
 	Pad 15	Pad15	~	1
 	Pad 15	Pad15_EEA	~	1
@@ -33260,6 +33276,7 @@ PROTON
 	Glory_i30	=	=	0
 	HyperX	=	=	0
 	Infinity 8	Infinity_8	~	0
+	NitroX	Proton_NitroX	~	0
 	P25 Ultra	P25_Ultra	~	0
 	PROTON 2K Android	lasalle	~	0
 	PROTON 2K Google TV	capitolhill	~	2
@@ -36236,6 +36253,7 @@ RebotAi
 	AF13Air	=	=	0
 	AF13Air_EEA	=	=	0
 	AF13_EEA	=	=	0
+	AF8_ROW	=	=	0
 	AG11	=	=	0
 	B11Air	=	=	0
 	B11Air_EEA	B11Air	=	0
@@ -36308,6 +36326,9 @@ Redmi
 	REDMI Note 15R	spring	25057RA09C	0
 	REDMI Note 15R Pro	beryl	24094RAD4C	0
 	REDMI Note 17	mist	26021RN18C	0
+	REDMI Note 17	zephyr	26012RN62A	0
+	REDMI Note 17	zephyr	26012RN62L	0
+	REDMI Note 17	zephyr	26012RN62Y	0
 	REDMI Note 17 5G	mist	26021RN18I	0
 	REDMI Pad 2	taiko	25040RP0AC	1
 	REDMI Pad 2 9.7	guitar	2603ARP14G	1
@@ -37193,6 +37214,7 @@ SEGO
 	S_PAD	=	DT6P30YK	0
 	S_PAD	=	=	0
 	Shark	=	=	0
+	Smart 20 GO	Smart_20_GO	~	0
 	Smart_10	=	Smart 10	0
 	Smart_20	=	Smart 20	0
 	Smart_20x	SEGO_Smart_20x	~	0
@@ -37845,6 +37867,7 @@ SVITOO
 	P08_T	=	=	0
 	P108_EEA	P108	=	0
 	P108_R_EEA	P108_R	=	0
+	P108_R_ROW	P108_R	=	0
 	P108_R_USA	P108_R	=	0
 	P108_S	=	=	0
 	P108_S_EEA	P108_S	=	0
@@ -46425,6 +46448,7 @@ TELOX
 	BN500	=	=	0
 	BP900	=	=	0
 	TE620G	=	=	0
+	TE850	TELOX_TE850	=	0
 TELSTAR
 	TELSTAR 2K Google TV	capitolhill	~	2
 	TELSTAR 4K Google TV	keoneae	~	2
@@ -47116,6 +47140,9 @@ Teclast
 	P85_EEA	=	=	0
 	P85_ROW	=	=	0
 	P85_RUS	=	=	0
+	RGD1_EEA	RGD1	RGD1_ROW	0
+	RGD1_ROW	RGD1	~	0
+	RGD1_US	RGD1	RGD1_ROW	0
 	T30_EEA	T30	~	0
 	T30_ROW	T30	~	0
 	T30_RU	T30	~	0
@@ -48003,6 +48030,9 @@ Thomson
 	Pad_Pro_NEU	Pad_Pro	=	0
 	R3	=	=	0
 	R4	=	=	0
+	SPPL	duffel	SPPL 2K GOOGLE TV	2
+	SPPL	enfield	SPPL4K	0
+	SPPL	wilson	SPPL 4K Google TV	2
 	SPPL 2K GSmartTV	umeda	~	0
 	SPPL 4K GSmartTV	SW6H	~	0
 	SPPL 4K GSmartTV FF	SW6H	~	0
@@ -49310,6 +49340,7 @@ VALE
 	V10A	=	=	0
 	V10A	V10A-4128	~	0
 	V10E-LTE	=	V10E-LTE-464	0
+	V10E_464_LTE	=	V10E LTE-464	0
 	V10E_LTE_464	=	=	0
 	V10E_W-4128	=	=	0
 	V11E LTE_4128	V11E_LTE_4128	V11E LTE	0
@@ -50641,6 +50672,7 @@ Vivo
 	V50	V2427	V2448	0
 	V50	V2427	V2451	0
 	V5Plus	=	vivo V5Plus	0
+	V80 Lite 5G	V2626	=	0
 	V9	1727ID	vivo 1727	0
 	V9 6GB	1723CF	vivo 1723	0
 	V9 Pro	1851	vivo 1851	0
@@ -57223,6 +57255,8 @@ vivo
 	V80 Lite 5G	V2576	=	0
 	V80 Lite 5G	V2576	V2643	0
 	V80 Lite 5G	V2576	V2644	0
+	V80 Lite 5G	V2626	=	0
+	V80 Lite 5G	V2626	V2655	0
 	X Fold5	PD2436	V2436A	0
 	X Fold5	V2429	=	0
 	X Fold6	PD2545	V2545A	0
