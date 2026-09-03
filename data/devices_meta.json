@@ -1,204 +1,96 @@
 {
-  "lastUpdated": "2026-09-02",
-  "newDevicesCount": 33,
+  "lastUpdated": "2026-09-03",
+  "newDevicesCount": 15,
   "newDevices": [
     [
-      "Biegedy",
-      "B25_E",
-      "B25_E",
-      "B25_E"
+      "JMGO",
+      "N1S SE",
+      "sirumalai",
+      "K610AO"
     ],
     [
-      "Blackview",
-      "WAVE 3",
-      "WAVE_3",
-      "WAVE 3"
+      "Korea Telecom",
+      "KSTB8000",
+      "KSTB8000",
+      "KSTB8000"
     ],
     [
-      "Blackview",
-      "XPLORE 6 Pro",
-      "XPLORE_6_Pro",
-      "XPLORE 6 Pro"
+      "Oppo",
+      "K14 Lite",
+      "OP632F",
+      "CPH3007"
     ],
     [
-      "Blackview",
-      "ZENO 6 Pro",
-      "ZENO_6_Pro",
-      "ZENO 6 Pro"
-    ],
-    [
-      "CILICO",
-      "CX10",
-      "CX10",
-      "CX10"
-    ],
-    [
-      "DSIC",
-      "Mobilebase DS95",
-      "DS95",
-      "DS95"
-    ],
-    [
-      "Doogee",
-      "Note 57",
-      "1928CL-C",
-      "Note 57"
-    ],
-    [
-      "FOSSiBOT",
-      "S12",
-      "S12",
-      "S12"
-    ],
-    [
-      "Gigaset",
-      "GX30 EP",
-      "GX30_EP",
-      "E940-3044-01"
-    ],
-    [
-      "HUGEROCK",
-      "T-Smart-H72",
-      "H72-5G-M60",
-      "T-Smart"
-    ],
-    [
-      "Honor",
-      "HONOR X5e s",
-      "HNMLD-M",
-      "MLD-LX2"
-    ],
-    [
-      "LUO(A)",
-      "i18 Pro Max",
-      "i18_Pro_Max",
-      "i18 Pro Max"
-    ],
-    [
-      "Logicom",
-      "ORION E2",
-      "ORION_E2",
-      "ORION E2"
-    ],
-    [
-      "MapleSystems",
-      "RT1308B",
-      "RT1308B",
-      "RT1308B"
-    ],
-    [
-      "OSCAL",
-      "PILOT 8",
-      "PILOT_8",
-      "PILOT 8"
-    ],
-    [
-      "PROTON",
-      "NitroX",
-      "Proton_NitroX",
-      "NitroX"
-    ],
-    [
-      "RebotAi",
-      "AF8_ROW",
-      "AF8_ROW",
-      "AF8_ROW"
+      "POCO",
+      "POCO X8",
+      "iolite",
+      "2607DPC18G"
     ],
     [
       "Redmi",
-      "REDMI Note 17",
-      "zephyr",
-      "26012RN62A"
+      "REDMI A7",
+      "serenity",
+      "26020RNB4A"
     ],
     [
       "Redmi",
-      "REDMI Note 17",
-      "zephyr",
-      "26012RN62L"
+      "REDMI A7",
+      "serenity",
+      "26020RNB4L"
     ],
     [
       "Redmi",
-      "REDMI Note 17",
-      "zephyr",
-      "26012RN62Y"
+      "REDMI Note 17 5G",
+      "mist",
+      "26081RA18G"
     ],
     [
-      "SEGO",
-      "Smart 20 GO",
-      "Smart_20_GO",
-      "Smart 20 GO"
+      "Redmi",
+      "REDMI Note 17 5G",
+      "mist",
+      "26081RA18L"
     ],
     [
-      "SVITOO",
-      "P108_R_ROW",
-      "P108_R",
-      "P108_R"
+      "Redmi",
+      "REDMI Note 17 Pro 5G",
+      "iolite",
+      "2607DRA18G"
     ],
     [
-      "TELOX",
-      "TE850",
-      "TELOX_TE850",
-      "TELOX_TE850"
+      "Redmi",
+      "REDMI Note 17 Pro 5G",
+      "iolite",
+      "2607DRA18T"
     ],
     [
-      "Teclast",
-      "RGD1_EEA",
-      "RGD1",
-      "RGD1_ROW"
+      "Redmi",
+      "REDMI Note 17 Pro Max 5G",
+      "brussels",
+      "2609FRA74G"
     ],
     [
-      "Teclast",
-      "RGD1_ROW",
-      "RGD1",
-      "RGD1_ROW"
-    ],
-    [
-      "Teclast",
-      "RGD1_US",
-      "RGD1",
-      "RGD1_ROW"
+      "Redmi",
+      "REDMI Note 17 Pro",
+      "iolite",
+      "2607DRA18C"
     ],
     [
       "Thomson",
       "SPPL",
-      "duffel",
-      "SPPL 2K GOOGLE TV"
+      "dongli",
+      "SPPL 4K 65P"
     ],
     [
-      "Thomson",
-      "SPPL",
-      "enfield",
-      "SPPL4K"
-    ],
-    [
-      "Thomson",
-      "SPPL",
-      "wilson",
-      "SPPL 4K Google TV"
-    ],
-    [
-      "VALE",
-      "V10E_464_LTE",
-      "V10E_464_LTE",
-      "V10E LTE-464"
-    ],
-    [
-      "Vivo",
-      "V80 Lite 5G",
-      "V2626",
-      "V2626"
+      "ZIOVO",
+      "Z168_E",
+      "Z168_E",
+      "Z168_E"
     ],
     [
       "vivo",
-      "V80 Lite 5G",
-      "V2626",
-      "V2626"
-    ],
-    [
-      "vivo",
-      "V80 Lite 5G",
-      "V2626",
-      "V2655"
+      "Y600i m版",
+      "PD2617",
+      "V2617A"
     ]
   ]
 }
