@@ -4412,6 +4412,7 @@ BXLIYER
 	BX_D04	Tablet_player	~	0
 BYD
 	BYD	BYD100F	=	0
+	BYD	BYD300F_VCP_IVI_G	BYD300F_VCP_G	0
 	DynaVox T10	T10	=	0
 	FarEastone Smart 502	Smart502	Smart 502	0
 	INHON G3	G3	=	0
@@ -7314,6 +7315,7 @@ Clover
 	KD101	=	=	0
 	RWT-NE-RGPH5-12812	R9X-01	~	0
 	RWT-NE-RGPH5-25612	R9X-01	~	0
+	T12	=	=	0
 	gama_alta_6_128G	=	=	0
 Cobalt
 	CP101P	POS	~	0
@@ -26440,6 +26442,7 @@ MagentaTV
 	OTT-G1	DV6067Y	~	0
 	One (2. Generation)	SEI804DT	MagentaTV One (2. Generation)	0
 	One (3. Generation)	HP4AC-DT	MagentaTV One (3. Generation)	0
+	TV Box (2.Gen)	HP4AC-PL	~	2
 Magnavox
 	MMP848	=	=	2
 	Magnavox Google TV	dongnae	~	2
@@ -33154,6 +33157,8 @@ POCO
 	POCO F6 Pro	vermeer	23113RKC6G	0
 	POCO F8 Pro	annibale	2510DPC44G	0
 	POCO F8 Ultra	myron	25102PCBEG	0
+	POCO F9 Pro	athens	2607APCA5G	0
+	POCO F9 Ultra	songyuan	26077PC53G	0
 	POCO M2	shiva	M2004J19PI	0
 	POCO M2 Pro	gram	~	0
 	POCO M3	citrus	M2010J19CG	0
@@ -35059,6 +35064,8 @@ Prime
 	PRIME Android TV	shinagawa	~	2
 	PRIME P1	PRIME_P1	P1	0
 	X6_Pro	=	=	0
+Primebook
+	PB1380	=	Primebook Duo Max	0
 Primux
 	Primux_ioxphone	=	=	0
 Prince Mobile
