@@ -6077,6 +6077,7 @@ CENAVA
 	6769-4G	=	=	0
 	A10ST-5G	=	=	0
 	A80ST	=	=	0
+	A88ST	=	=	0
 CEPTER
 	CEPTER-TAB-10L	=	CEPTERTAB10L	1
 	CEPTER-TAB-10S	=	CEPTERTAB10S	1
@@ -9221,6 +9222,7 @@ DigiLand
 	DL1036	=	DL-1036	0
 	DL1039	mid1032_mr_32	~	0
 	DL1050	=	=	0
+	DL1061	=	=	0
 	DL1168A	mid1102	~	0
 	DL7006	=	=	0
 	DL700D	=	=	0
@@ -10550,6 +10552,7 @@ EVOFORCE1
 	FRC1-CableCo	SEI800TV	~	0
 	FRC1-Eastlink	SEI800ESTL	FRC1-ESTL	0
 	FRC1-Eastlink	SEI800ESTL	~	0
+	FRC1-MDCOM	SEI800MDCOM	FRC1-BlueRidge	0
 	FRC1-MDCOM	SEI800MDCOM	~	0
 	FRC1-MOBI	SEI800MOBI	~	0
 	FRC1-Midco	SEI800MC	~	0
@@ -36264,6 +36267,7 @@ RebotAi
 	AF13Air	=	=	0
 	AF13Air_EEA	=	=	0
 	AF13_EEA	=	=	0
+	AF8_EEA	=	=	0
 	AF8_ROW	=	=	0
 	AG11	=	=	0
 	B11Air	=	=	0
@@ -36301,6 +36305,7 @@ Redmi
 	REDMI 15A 5G	somalia	2602BRNA4I	0
 	REDMI 15C 5G	tornado	2508CRN2BI	0
 	REDMI 17 5G	steppe	26062RN92G	0
+	REDMI 17 5G	steppe	26062RN92I	0
 	REDMI A7	serenity	26020RNB4A	0
 	REDMI A7	serenity	26020RNB4I	0
 	REDMI A7	serenity	26020RNB4L	0
@@ -43820,6 +43825,7 @@ Spectralink
 	Versity 9740	Versity	~	0
 	Versity 9753	Versity	~	0
 Speechi
+	ST_55_CONNECT_SMARTMOVE	=	=	0
 	ST_xx_CONNECT_PRO5	RK3576	~	0
 	SUPERGLASS PRO	RK3576	ST_xx_CONNECT_SE5	0
 Speedata
@@ -48014,6 +48020,7 @@ The Edge
 	NLE	oversea_v	~	0
 TheNudge
 	HyundaiIT_Smartboard_Ai	HDBN	=	0
+	HyundaiIT_Smartboard_Ci	HDBC	=	0
 	Smartboard_Ai	oversea_v	HDJN	0
 Theros
 	Theros 2K Google TV	dongnae	~	2
@@ -50177,6 +50184,7 @@ Vgo Tel
 	NEW_20	=	NEW 20	0
 	NOTE 24	NOTE_24	~	0
 	NOTE_23_V02	NOTE_23	NOTE 23	0
+	NOTE_25_5G	=	NOTE 25 5G	0
 	New 5	NEW_5	NEW 5	0
 	OCEAN 6	VGOTEL_OCEAN_6	Ocean 6	0
 	Ocean 8	Ocean_8	=	0

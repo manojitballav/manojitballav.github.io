@@ -1,42 +1,54 @@
 {
-  "lastUpdated": "2026-09-04",
-  "newDevicesCount": 6,
+  "lastUpdated": "2026-09-05",
+  "newDevicesCount": 8,
   "newDevices": [
     [
-      "BYD",
-      "BYD",
-      "BYD300F_VCP_IVI_G",
-      "BYD300F_VCP_G"
+      "CENAVA",
+      "A88ST",
+      "A88ST",
+      "A88ST"
     ],
     [
-      "Clover",
-      "T12",
-      "T12",
-      "T12"
+      "DigiLand",
+      "DL1061",
+      "DL1061",
+      "DL1061"
     ],
     [
-      "MagentaTV",
-      "TV Box (2.Gen)",
-      "HP4AC-PL",
-      "TV Box (2.Gen)"
+      "EVOFORCE1",
+      "FRC1-MDCOM",
+      "SEI800MDCOM",
+      "FRC1-BlueRidge"
     ],
     [
-      "POCO",
-      "POCO F9 Pro",
-      "athens",
-      "2607APCA5G"
+      "RebotAi",
+      "AF8_EEA",
+      "AF8_EEA",
+      "AF8_EEA"
     ],
     [
-      "POCO",
-      "POCO F9 Ultra",
-      "songyuan",
-      "26077PC53G"
+      "Redmi",
+      "REDMI 17 5G",
+      "steppe",
+      "26062RN92I"
     ],
     [
-      "Primebook",
-      "PB1380",
-      "PB1380",
-      "Primebook Duo Max"
+      "Speechi",
+      "ST_55_CONNECT_SMARTMOVE",
+      "ST_55_CONNECT_SMARTMOVE",
+      "ST_55_CONNECT_SMARTMOVE"
+    ],
+    [
+      "TheNudge",
+      "HyundaiIT_Smartboard_Ci",
+      "HDBC",
+      "HDBC"
+    ],
+    [
+      "Vgo Tel",
+      "NOTE_25_5G",
+      "NOTE_25_5G",
+      "NOTE 25 5G"
     ]
   ]
 }
