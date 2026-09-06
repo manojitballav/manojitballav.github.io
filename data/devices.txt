@@ -1219,6 +1219,8 @@ Acer
 	dahu	=	M1G	0
 	vileparle	=	R6G	0
 AcerPure
+	ACERPURE INDIA CE PRIVATE LIMITED	chester	ACP75P	0
+	ACERPURE INDIA CE PRIVATE LIMITED	chester	ADZ75P	0
 	ACERPURE INDIA CE PRIVATE LIMITED	jialu	ACP65P	0
 	ACERPURE INDIA CE PRIVATE LIMITED	jialu	ACP65PAV	0
 	Acer Acerpure	Acerone_Liquid_2	Acerone Liquid S162E4	0
@@ -1276,6 +1278,7 @@ Admiral Overseas Corporation
 	ADMIRAL	stanford	2K SMART TV	2
 	ADMIRAL	zhongshan	4K SMART TV	2
 	ADMIRAL 4K TV	SW4H	~	2
+	ADMIRAL AMERICA CORPORATION PRIVATE LIMITED	chester	ADS75P	0
 	ADMIRAL TV	sunnyvale	~	2
 	Admiral	anglelake	ADS41F	0
 	Admiral	waiawa	ADS51U	0
@@ -9523,6 +9526,7 @@ Dish
 	Wireless Joey 4	ATVWJ4	~	0
 DishTV (IN)
 	D-805XATV HD	SEI110	~	0
+	DISHTV INDIA LTD.	chester	VZY SMART TV	2
 	DISHTV INDIA LTD.	jialu	VZY65P	0
 	DV-905XSTV	smart4K	~	0
 	DV-905XSTV HTL	smart4K	~	0
@@ -30932,6 +30936,8 @@ ONERugged
 	MT2UE	=	=	0
 	MT50CE	=	=	0
 ONIDA
+	MIRC Electronics Ltd.	chester	ONI75P	0
+	MIRC Electronics Ltd.	chester	ONX75P	0
 	MIRC Electronics Ltd.	jialu	ONI65P	0
 	MIRC Electronics Ltd.	landen	ONI41F	0
 	ONIDA 2K Android TV	lasalle	~	2
@@ -57018,6 +57024,7 @@ realme
 	realme  X7 Pro	RMX2121CN	RMX2121	0
 	realmeGT Neo5	RE5860	RMX3706	0
 	realmeGT Neo5 240W	RE5860	RMX3708	0
+	realmeTechLife	chester	REC75P	0
 	真我 GT NEO  3  150W	RE5489	RMX3562	0
 	真我 GT NEO 3	RE5489	RMX3560	0
 	真我 GT2 大师探索版	RE5465	RMX3551	0

@@ -1,54 +1,48 @@
 {
-  "lastUpdated": "2026-09-05",
-  "newDevicesCount": 8,
+  "lastUpdated": "2026-09-06",
+  "newDevicesCount": 7,
   "newDevices": [
     [
-      "CENAVA",
-      "A88ST",
-      "A88ST",
-      "A88ST"
+      "AcerPure",
+      "ACERPURE INDIA CE PRIVATE LIMITED",
+      "chester",
+      "ACP75P"
     ],
     [
-      "DigiLand",
-      "DL1061",
-      "DL1061",
-      "DL1061"
+      "AcerPure",
+      "ACERPURE INDIA CE PRIVATE LIMITED",
+      "chester",
+      "ADZ75P"
     ],
     [
-      "EVOFORCE1",
-      "FRC1-MDCOM",
-      "SEI800MDCOM",
-      "FRC1-BlueRidge"
+      "Admiral Overseas Corporation",
+      "ADMIRAL AMERICA CORPORATION PRIVATE LIMITED",
+      "chester",
+      "ADS75P"
     ],
     [
-      "RebotAi",
-      "AF8_EEA",
-      "AF8_EEA",
-      "AF8_EEA"
+      "DishTV (IN)",
+      "DISHTV INDIA LTD.",
+      "chester",
+      "VZY SMART TV"
     ],
     [
-      "Redmi",
-      "REDMI 17 5G",
-      "steppe",
-      "26062RN92I"
+      "ONIDA",
+      "MIRC Electronics Ltd.",
+      "chester",
+      "ONI75P"
     ],
     [
-      "Speechi",
-      "ST_55_CONNECT_SMARTMOVE",
-      "ST_55_CONNECT_SMARTMOVE",
-      "ST_55_CONNECT_SMARTMOVE"
+      "ONIDA",
+      "MIRC Electronics Ltd.",
+      "chester",
+      "ONX75P"
     ],
     [
-      "TheNudge",
-      "HyundaiIT_Smartboard_Ci",
-      "HDBC",
-      "HDBC"
-    ],
-    [
-      "Vgo Tel",
-      "NOTE_25_5G",
-      "NOTE_25_5G",
-      "NOTE 25 5G"
+      "realme",
+      "realmeTechLife",
+      "chester",
+      "REC75P"
     ]
   ]
 }
