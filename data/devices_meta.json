@@ -1,48 +1,12 @@
 {
-  "lastUpdated": "2026-09-06",
-  "newDevicesCount": 7,
+  "lastUpdated": "2026-09-07",
+  "newDevicesCount": 1,
   "newDevices": [
     [
-      "AcerPure",
-      "ACERPURE INDIA CE PRIVATE LIMITED",
-      "chester",
-      "ACP75P"
-    ],
-    [
-      "AcerPure",
-      "ACERPURE INDIA CE PRIVATE LIMITED",
-      "chester",
-      "ADZ75P"
-    ],
-    [
-      "Admiral Overseas Corporation",
-      "ADMIRAL AMERICA CORPORATION PRIVATE LIMITED",
-      "chester",
-      "ADS75P"
-    ],
-    [
-      "DishTV (IN)",
-      "DISHTV INDIA LTD.",
-      "chester",
-      "VZY SMART TV"
-    ],
-    [
-      "ONIDA",
-      "MIRC Electronics Ltd.",
-      "chester",
-      "ONI75P"
-    ],
-    [
-      "ONIDA",
-      "MIRC Electronics Ltd.",
-      "chester",
-      "ONX75P"
-    ],
-    [
-      "realme",
-      "realmeTechLife",
-      "chester",
-      "REC75P"
+      "Motorola",
+      "moto watch ultra",
+      "atlas",
+      "moto watch ultra"
     ]
   ]
 }

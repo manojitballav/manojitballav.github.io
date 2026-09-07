@@ -28906,6 +28906,7 @@ Motorola
 	moto razr 50	arcfox	XT2451-4	0
 	moto razr 70 ultra	lhotse	XT2655-4	0
 	moto tab g20	mototabg20	~	1
+	moto watch ultra	atlas	~	5
 	moto z3 play	beckham	Moto Z3 Play	0
 	moto z4	foles	Moto Z3 Play	0
 	moto z4	foles	~	0
