@@ -897,6 +897,7 @@ Acer
 	A13P2	acer_A13P2	A13-21P_EEA	0
 	A14M1N	acer_A14M1N	A14-11MN_EEA	0
 	A14M1N​	acer_A14M1N	A14-11MN	0
+	A15	=	=	0
 	A16M1N	acer_A16M1N	A16-11MN_EEA	0
 	A16M1N​	acer_A16M1N	A16-11MN	0
 	A3-A10	zara	~	1
@@ -2257,7 +2258,9 @@ Anyreal
 	P8-AR	=	Tab G6 Max	1
 	P8S-AR	=	Tab G6 Max	1
 	T2-AR	=	U11	0
+	T2C-AR	=	Tab A9+	1
 	T2CS-AR	=	Tab A9 Pro+	1
+	T2Kid-AR	=	U11 Kid	0
 	T2U-AR	=	U11 Pro	0
 	Tab A9	RK5-AR	~	1
 	Tab E3 Max	P6T	~	1
@@ -2718,6 +2721,7 @@ Archos
 	SPACT101HD24G_EEA	act101hd24g	ARCHOS T101 HD2 4G	0
 	SPACT105FHD4G_EEA	act105fhd4g	ARCHOS T105 FHD 4G	0
 	SPACT105FHDWFUL_EEA	act105fhdwful	ARCHOS T105FHD WIFI ULTRA	0
+	SPACT110FHD34GULTRA_EEA	ACT110FHD34GULTRA	ARCHOS T110 FHD3 4G ULTRA	0
 	SPACT110FHD4GULTRA_EEA	ACT110FHD4GULTRA	ARCHOS T110 FHD 4G ULTRA	0
 	SPAT101FHDW_EEA	at101fhdw	ARCHOS T101 FHD WiFi	0
 	SPAZA101SOXUL_EEA	aza101soxul	Tikeasy 10d	0
@@ -3784,8 +3788,11 @@ BIOSfone
 BIRDCLAW
 	P13	P8C-B	~	0
 	P7C-B	=	P12	0
+	P7S-B	=	P12 Pro	0
 	P8-B	=	P13 Pro	0
+	P9T-B	=	P12 Plus	0
 	T2-B	=	P11	0
+	T4-B	=	P11 Pro	0
 BIT Mobile
 	Phenix XT	Phenix_XT	~	0
 BITTAP
@@ -6365,6 +6372,7 @@ CORN
 	CORN_X5	=	CORN X5	0
 	CORN_X55	=	CORN X55	0
 	CPhone17ProMax4G	=	CPhone17 Pro Max 4G	0
+	ClassyS26Ultra4G	=	=	0
 	Coco10_Ultra_4G	=	=	0
 	Coco20_Ultra_4G	=	=	0
 	G60	=	=	0
@@ -9616,8 +9624,10 @@ Doogee
 	Blade10 Power	F1G	~	0
 	Blade10 Power	F1G-C	~	0
 	Blade10 Pro	F1C	~	0
+	Blade10 Pro Energy	F1C-C_GO	~	0
 	Blade10 Pro Energy	F1C_Pro	~	0
 	Blade10 Ultra	F1CT	~	0
+	Blade10 Ultra Energy	F1CT-C	~	0
 	Blade10 Ultra Energy	F1CT_Pro	~	0
 	Blade20	F1GC	~	0
 	Blade20 Max	F1GT	~	0
@@ -9626,6 +9636,7 @@ Doogee
 	Blade20 Pro Max	F1PT	~	0
 	Blade20 Turbo	F1_Plus	~	0
 	Blade20 Ultra	F1PS	~	0
+	Blade20 X	F1GC-C	~	0
 	DK10	ZN138	~	0
 	F10	F1	~	0
 	F10S	F1C	Blade10 Pro	0
@@ -9636,13 +9647,17 @@ Doogee
 	Fire 3 Ultra	M21ST	~	0
 	Fire 5	G1C	~	0
 	Fire 5 Pro	G1	~	0
+	Fire 5 Pro	G1-C	~	0
 	Fire 5 Ultra	G1E	~	0
+	Fire 5 Ultra	G1E-C	~	0
 	Fire 6	F1SE	~	0
 	Fire 6 Max	M24SE	~	0
 	Fire 6 Power	F1S	~	0
 	Fire 7	G1T	~	0
+	Fire 7	G1T-C	~	0
 	Fire 7 Max	G2T	Fire 7 Ultra	0
 	Fire 7 Pro	G1TS	~	0
+	Fire 7 Pro	G1TS-C	~	0
 	Fire_6	F1SE	Fire 6	0
 	Fire_6_Power	F1S	F10 Pro	0
 	Fire_6_Power	F1S	Fire 6 Power	0
@@ -9722,6 +9737,7 @@ Doogee
 	S200 Ultra	M24PX	~	0
 	S200 X	M24PT	~	0
 	S30	=	=	0
+	S300	ZN138PES	~	0
 	S300 Plus	M25T	~	0
 	S300 Plus Thermal	M25S	~	0
 	S300 Pro	M25TE	~	0
@@ -10630,6 +10646,7 @@ Eaglesoar
 	E_764_EEA	=	=	0
 	Z_766_EEA	=	=	0
 Easerush
+	P10 Pro	T5-E	~	0
 	P11	T2-E	~	0
 	P11 Pro	T4-E	~	0
 	P13	P8C-E	~	0
@@ -10638,6 +10655,7 @@ Easerush
 	P8-E	=	P13 Pro	0
 	P9T-E	=	P12 Plus	0
 	P9T-E	=	P12 Power	0
+	RK5Kid-E	=	P10 Kid	0
 	RK5S-E	=	P10	0
 EasyPhone
 	100	=	=	0
@@ -11527,6 +11545,7 @@ FORCO
 	K1028G	=	=	0
 	K8T	=	=	0
 FOSSiBOT
+	C17 SE	C17_SE	~	0
 	DT1 Lite	DT1_Lite	~	0
 	DT1_Lite	=	DT1 Lite	0
 	DT2	=	=	0
@@ -12369,6 +12388,7 @@ G-Tab
 	F8X	=	=	0
 	F8_1	=	F8	0
 	G10	=	=	0
+	G10	G10_1	~	0
 	G4	=	=	0
 	G5	=	=	0
 	G9	=	=	0
@@ -12476,6 +12496,7 @@ GDL(BD)
 	GDL Xtreme6	Xtreme_6	Xtreme 6	0
 	GigaX Y11	Y11	~	0
 	GigaX Y30	Y30	~	0
+	GigaX_F19	=	GigaX F19	0
 	GigaX_S7	=	GigaX S7	0
 	GigaX_S7_Plus	=	GigaX S7 Plus	0
 GDM (es)
@@ -12991,6 +13012,7 @@ Gigaset
 	GS80	=	=	0
 	GTX50	=	E940-3060-00	0
 	GX290	=	=	0
+	GX30	=	E940-3044-00	0
 	GX30 EP	GX30_EP	E940-3044-01	0
 	Gigaset GS170	GS170	~	0
 	Gigaset GS185	GS185	=	0
@@ -16544,6 +16566,8 @@ Honor
 	Honor X9c Smart	HNBRC-M1	BRC-NX1	0
 	MagicPad 3	HNCGA-Q	CGA-W00	1
 	MagicPad3 Pro 13.3	HNYLP-Q	YLP-W00	1
+	Melody	HNMLD-M	MLD-LX2	0
+	Melody	HNMLD-M	MLD-LX3	0
 	PORSCHE DESIGN HONOR Magic V2 RSR	HNVER	VER-N49DP	0
 	PORSCHE DESIGN HONOR Magic6	HNBVL	BVL-N59	0
 	PORSCHE DESIGN HONOR Magic6 RSR	HNBVL	BVL-AN20	0
@@ -16671,6 +16695,7 @@ Hotwav
 	A16 Pro Max	A16_Pro_Max	A17 Pro Max	0
 	A17 Pro Max	A17_ProMax	~	0
 	A17 Pro Max	A17_Pro_Max	~	0
+	A18 Pro	A18Pro	~	0
 	A1_Plus	=	A1 Plus	0
 	A25 Ultra	A25_Ultra	~	0
 	A25 Ultra	A25_Ultra	A26 Ultra	0
@@ -16732,6 +16757,7 @@ Hotwav
 	Pad 11	Pad_11_EEA	~	1
 	Pad 12	Pad_12	~	1
 	Pad 12 Pro	Pad_12_Pro	~	1
+	Pad 15 Pro	Pad_15_Pro	~	1
 	Pad_13	=	Pad 13	1
 	Pad_13_Pro	=	Pad 13 Pro	1
 	Pad_8	=	Pad 8	1
@@ -16766,6 +16792,7 @@ Hotwav
 	W11	=	=	0
 	W11 Pro	W11_Pro	~	0
 	X100 GT	X100_GT	~	0
+	X26 Ultra	X26_Ultra	~	0
 How
 	1001-G	=	=	0
 	1001_G	1001-G_Go	1001-G Go	0
@@ -23799,9 +23826,11 @@ LOGIC
 	L-PAD-PRO-BK	Logic_L-PAD_PRO	=	1
 	L65E	=	=	0
 	L66F	=	=	0
+	L67 Ultra	L67_Ultra	~	0
 	LOGIC L66M	LOGIC_L66M	~	0
 	LOGIC_G2L	=	LOGIC G2L	0
 	LOGIC_L55V	=	=	0
+	Logic L67 PRO MAX	Logic_L67_PRO_MAX	~	0
 	Logic L68M Plus	Logic_L68M_Plus	~	0
 	Logic_L-PAD_PRO	=	Logic L-PAD_PRO	0
 	Online Instruments India Pvt. Ltd.	rk3576_u	Logic_LT_IRXXHX	0
@@ -23928,6 +23957,7 @@ LUNAR
 	Lunar Eclipse L1	Lunar_Eclipse_L1	Eclipse L1	0
 LUO(A)
 	P70 Pro	P70_Pro	~	0
+	Pad 31 Ultra	Pad_31_Ultra	~	1
 	S15 Pro	S15_Pro	~	0
 	S16 Pro	S16_Pro	~	0
 	S17 Pro	S17_Pro	~	0
@@ -25996,6 +26026,7 @@ MASTERTECH
 	Smart TV	dangni	AI PONT	2
 MAXHUB
 	E3	=	maxhub_bytello_edla	0
+	E3_Series	=	=	0
 	S2	=	=	0
 	S_Line	=	=	0
 	U30	rk3588_t	~	0
@@ -26075,6 +26106,7 @@ MEIZE
 	D126_PRO_US	=	=	0
 	D126_TAB	=	=	0
 	D126_TAB_EEA	=	=	0
+	D126_US	=	=	0
 	D131	=	=	0
 	D131_eea	=	=	0
 	D135	=	=	0
@@ -29199,6 +29231,7 @@ Mpgio
 	MLT703824	=	=	0
 	MPGIO_10	=	MPGIO-10	0
 	MPGIO_8	=	=	0
+	MT-A10	=	=	0
 	MTabAir9	=	=	0
 	W100	=	=	0
 Mpman
@@ -35159,6 +35192,7 @@ Pritom
 	M10-EEA	=	=	0
 	M10_001EEA	=	M10	0
 	M10_A01_EEA	=	M10	0
+	M10_A02_EEA	=	TAB 10 MAX	1
 	M10_A06	=	M10	0
 	M10_A06_EEA	=	M10	0
 	M10_Air	=	=	0
@@ -35216,6 +35250,9 @@ Pritom
 	M10_C11_Kids	=	M10	0
 	M10_C11_Kids	=	=	0
 	M10_C12_EEA	=	M10	0
+	M10_C12_Kids_EEA	=	M10	0
+	M10_C12_Kids_USA	=	M10	0
+	M10_C12_USA	=	M10	0
 	M10_Lite	=	=	0
 	M10_Max	=	=	0
 	M10_Max_EEA	=	=	0
@@ -35268,6 +35305,7 @@ Pritom
 	P7_A10_M	=	P7	0
 	P7_A11	=	P7	0
 	P7_A11	=	=	0
+	P7_A11K_ROW	=	P7	0
 	P7_A11_EEA	=	P7	0
 	P7_A11_EEA	=	P7_A11	0
 	P7_A11_ROW	=	P7	0
@@ -37224,6 +37262,7 @@ SEBBE
 SED Wireless
 	GPH-650R	SPH_650R	~	0
 SEGO
+	EPICa	=	=	0
 	Hot_100	=	Hot 100	0
 	MATE_10	=	MATE 10	0
 	Note 80 Ultra	SEGO_Note_80_Ultra	~	0
@@ -43909,7 +43948,9 @@ StarMobile
 StarTV
 	StarTV por fibra	SEI700STAR	~	0
 Stargorilla
+	Blade10 Power	F1G-S	~	0
 	Blade10 Pro Energy	F1C-S_GO	~	0
+	Blade20 X	F1GC-S	~	0
 Starlight
 	Alpha 100	Alpha_100	~	0
 	Alpha 200	Alpha_200	~	0
@@ -46636,6 +46677,7 @@ TOPELOTEK
 	TOPELOTEK	KIDS09	=	0
 	V7	=	=	0
 	Y8	=	=	0
+	ZIDS701_A	ZIDS_701	=	0
 	ZIDS_701	=	=	0
 TOPJOY
 	PNC450	=	=	0
@@ -47572,6 +47614,7 @@ Tecno
 	TECNO POP 10	TECNO-KM4s	TECNO KM4s	0
 	TECNO POP 2 Air	TECNO-SC7S	TECNO SC7S	0
 	TECNO POP 20	TECNO-KN3	TECNO KN3	0
+	TECNO POP 20C	TECNO-KO2	TECNO KO2	0
 	TECNO POP 2F	TECNO-B1g	TECNO B1g	0
 	TECNO POP 2X Plus	TECNO-RB8S	TECNO RB8S	0
 	TECNO POP 2s Pro	TECNO-KB2j	TECNO KB2j	0
@@ -48666,6 +48709,7 @@ URAO
 	X107_EEA	X107	=	0
 	X108	=	=	0
 	X108_EEA	X108	=	0
+	X109K_G	X109K	=	0
 USA111
 	IRULU X11	iRULU-X11	iRULU X11	0
 	IRULU X9	X9	=	0

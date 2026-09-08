@@ -1,12 +1,270 @@
 {
-  "lastUpdated": "2026-09-07",
-  "newDevicesCount": 1,
+  "lastUpdated": "2026-09-08",
+  "newDevicesCount": 44,
   "newDevices": [
     [
-      "Motorola",
-      "moto watch ultra",
-      "atlas",
-      "moto watch ultra"
+      "Acer",
+      "A15",
+      "A15",
+      "A15"
+    ],
+    [
+      "Anyreal",
+      "T2C-AR",
+      "T2C-AR",
+      "Tab A9+"
+    ],
+    [
+      "Anyreal",
+      "T2Kid-AR",
+      "T2Kid-AR",
+      "U11 Kid"
+    ],
+    [
+      "Archos",
+      "SPACT110FHD34GULTRA_EEA",
+      "ACT110FHD34GULTRA",
+      "ARCHOS T110 FHD3 4G ULTRA"
+    ],
+    [
+      "BIRDCLAW",
+      "P7S-B",
+      "P7S-B",
+      "P12 Pro"
+    ],
+    [
+      "BIRDCLAW",
+      "P9T-B",
+      "P9T-B",
+      "P12 Plus"
+    ],
+    [
+      "BIRDCLAW",
+      "T4-B",
+      "T4-B",
+      "P11 Pro"
+    ],
+    [
+      "CORN",
+      "ClassyS26Ultra4G",
+      "ClassyS26Ultra4G",
+      "ClassyS26Ultra4G"
+    ],
+    [
+      "Doogee",
+      "Blade10 Pro Energy",
+      "F1C-C_GO",
+      "Blade10 Pro Energy"
+    ],
+    [
+      "Doogee",
+      "Blade10 Ultra Energy",
+      "F1CT-C",
+      "Blade10 Ultra Energy"
+    ],
+    [
+      "Doogee",
+      "Blade20 X",
+      "F1GC-C",
+      "Blade20 X"
+    ],
+    [
+      "Doogee",
+      "Fire 5 Pro",
+      "G1-C",
+      "Fire 5 Pro"
+    ],
+    [
+      "Doogee",
+      "Fire 5 Ultra",
+      "G1E-C",
+      "Fire 5 Ultra"
+    ],
+    [
+      "Doogee",
+      "Fire 7 Pro",
+      "G1TS-C",
+      "Fire 7 Pro"
+    ],
+    [
+      "Doogee",
+      "Fire 7",
+      "G1T-C",
+      "Fire 7"
+    ],
+    [
+      "Doogee",
+      "S300",
+      "ZN138PES",
+      "S300"
+    ],
+    [
+      "Easerush",
+      "P10 Pro",
+      "T5-E",
+      "P10 Pro"
+    ],
+    [
+      "Easerush",
+      "RK5Kid-E",
+      "RK5Kid-E",
+      "P10 Kid"
+    ],
+    [
+      "FOSSiBOT",
+      "C17 SE",
+      "C17_SE",
+      "C17 SE"
+    ],
+    [
+      "G-Tab",
+      "G10",
+      "G10_1",
+      "G10"
+    ],
+    [
+      "GDL(BD)",
+      "GigaX_F19",
+      "GigaX_F19",
+      "GigaX F19"
+    ],
+    [
+      "Gigaset",
+      "GX30",
+      "GX30",
+      "E940-3044-00"
+    ],
+    [
+      "Honor",
+      "Melody",
+      "HNMLD-M",
+      "MLD-LX2"
+    ],
+    [
+      "Honor",
+      "Melody",
+      "HNMLD-M",
+      "MLD-LX3"
+    ],
+    [
+      "Hotwav",
+      "A18 Pro",
+      "A18Pro",
+      "A18 Pro"
+    ],
+    [
+      "Hotwav",
+      "Pad 15 Pro",
+      "Pad_15_Pro",
+      "Pad 15 Pro"
+    ],
+    [
+      "Hotwav",
+      "X26 Ultra",
+      "X26_Ultra",
+      "X26 Ultra"
+    ],
+    [
+      "LOGIC",
+      "L67 Ultra",
+      "L67_Ultra",
+      "L67 Ultra"
+    ],
+    [
+      "LOGIC",
+      "Logic L67 PRO MAX",
+      "Logic_L67_PRO_MAX",
+      "Logic L67 PRO MAX"
+    ],
+    [
+      "LUO(A)",
+      "Pad 31 Ultra",
+      "Pad_31_Ultra",
+      "Pad 31 Ultra"
+    ],
+    [
+      "MAXHUB",
+      "E3_Series",
+      "E3_Series",
+      "E3_Series"
+    ],
+    [
+      "MEIZE",
+      "D126_US",
+      "D126_US",
+      "D126_US"
+    ],
+    [
+      "Mpgio",
+      "MT-A10",
+      "MT-A10",
+      "MT-A10"
+    ],
+    [
+      "Pritom",
+      "M10_A02_EEA",
+      "M10_A02_EEA",
+      "TAB 10 MAX"
+    ],
+    [
+      "Pritom",
+      "M10_C12_Kids_EEA",
+      "M10_C12_Kids_EEA",
+      "M10"
+    ],
+    [
+      "Pritom",
+      "M10_C12_Kids_USA",
+      "M10_C12_Kids_USA",
+      "M10"
+    ],
+    [
+      "Pritom",
+      "M10_C12_USA",
+      "M10_C12_USA",
+      "M10"
+    ],
+    [
+      "Pritom",
+      "P7_A11K_ROW",
+      "P7_A11K_ROW",
+      "P7"
+    ],
+    [
+      "SEGO",
+      "EPICa",
+      "EPICa",
+      "EPICa"
+    ],
+    [
+      "Stargorilla",
+      "Blade10 Power",
+      "F1G-S",
+      "Blade10 Power"
+    ],
+    [
+      "Stargorilla",
+      "Blade20 X",
+      "F1GC-S",
+      "Blade20 X"
+    ],
+    [
+      "TOPELOTEK",
+      "ZIDS701_A",
+      "ZIDS_701",
+      "ZIDS_701"
+    ],
+    [
+      "Tecno",
+      "TECNO POP 20C",
+      "TECNO-KO2",
+      "TECNO KO2"
+    ],
+    [
+      "URAO",
+      "X109K_G",
+      "X109K",
+      "X109K"
     ]
   ]
 }
