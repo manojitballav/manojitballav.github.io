@@ -2250,10 +2250,14 @@ Anydata
 	iCraig CMP749	CMP749	=	0
 Anyreal
 	Note 56	1928C-A	~	0
+	Note56 Lite	1928C-C-AR	~	0
 	Note56 Plus	1928CV-AR	~	0
 	Note56 Pro	1928CT-AR	~	0
 	Note56 X	1928SC-A	~	0
+	Note56 X Lite	1928SC-C-AR	~	0
 	Note56X Pro	1928SE-AR	~	0
+	Note59 Pro	1929SH-AR	~	0
+	Note60	1928GT-AR	~	0
 	P5C-AR	=	U13	0
 	P8-AR	=	Tab G6 Max	1
 	P8S-AR	=	Tab G6 Max	1
@@ -2267,6 +2271,7 @@ Anyreal
 	Tab G5	T5-AR	~	1
 	U12	P7C-AR	~	0
 	U13 Pro	P8T-AR	~	0
+	U14	P6R-AR	~	0
 AoGo
 	AoGo1	=	=	0
 Aocwei
@@ -3786,13 +3791,16 @@ BILIMLI
 BIOSfone
 	T11	=	=	0
 BIRDCLAW
+	P10	RK5S-B	~	0
 	P13	P8C-B	~	0
 	P7C-B	=	P12	0
 	P7S-B	=	P12 Pro	0
 	P8-B	=	P13 Pro	0
 	P9T-B	=	P12 Plus	0
+	RK5Kid-B	=	P10 Kid	0
 	T2-B	=	P11	0
 	T4-B	=	P11 Pro	0
+	T5-B	=	P10 Pro	0
 BIT Mobile
 	Phenix XT	Phenix_XT	~	0
 BITTAP
@@ -4151,6 +4159,7 @@ BMobile
 	X11	Bmobile_X11	Bmobile X11	0
 BNCF
 	BPad	=	=	0
+	BPad X1	BPad_X1	~	0
 	BPad_	=	=	0
 	BPad_10_4G	=	=	0
 	BPad_10_SE	=	=	0
@@ -5005,6 +5014,7 @@ Blackview
 	BV9300	=	=	0
 	BV9300 Pro	BV9300_Pro	~	0
 	BV9300 Pro	BV9300_Pro_A15	~	0
+	BV9300Pro Plus	BV9300Pro_Plus	~	0
 	BV9600	=	=	0
 	BV9600E	=	=	0
 	BV9600Pro	Blackview	~	0
@@ -5038,6 +5048,7 @@ Blackview
 	HERO 10	HERO10	~	0
 	LINK 1 Kids	LINK_1_Kids	~	0
 	LINK 2	LINK_2	~	0
+	LINK 5	LINK_5	~	0
 	LINK 8	LINK_8	~	0
 	LINK Mini Kids	LINK_Mini_Kids	~	0
 	MAX1	=	=	0
@@ -5188,6 +5199,7 @@ Blackview
 	XPLORE 2	XPLORE2	~	0
 	XPLORE 2 Projector	XPLORE2_Pro	~	4
 	XPLORE 2 Satellite	XPLORE2_S	~	0
+	XPLORE 6	XPLORE_6	~	0
 	XPLORE 6 Pro	XPLORE_6_Pro	~	0
 	XPLORE X1	XPLORE_X1	~	0
 	ZENO 1	ZENO_1	~	0
@@ -6064,6 +6076,7 @@ CAST
 CATCHTABLE
 	AZ101FC	=	=	0
 	AZ101FCN	=	=	0
+	CW10	=	=	0
 CBN Media
 	connect	=	=	0
 	g-mee1	=	=	0
@@ -8313,6 +8326,8 @@ DAMASCO
 	TAB-T863-3	=	=	1
 DANDOON
 	A2	=	=	0
+DARVEEN
+	RTC_M102	=	=	0
 DBM Maroc
 	ACCENT SURF 1000	SURF1000	=	0
 	Accent Speed Y2	Speed-Y2	=	0
@@ -9321,6 +9336,7 @@ Digit
 	NOTE 14	NOTE_14	~	0
 	NOTE 16	NOTE_16	~	0
 	NOTE 20	NOTE_20	~	0
+	Sonic Lite	Sonic_Lite	~	0
 	Sonic_One	=	Sonic One	0
 	Tab2	=	=	0
 	Titan_5G	=	Titan 5G	0
@@ -9632,6 +9648,7 @@ Doogee
 	Blade20	F1GC	~	0
 	Blade20 Max	F1GT	~	0
 	Blade20 Play	F1T	~	0
+	Blade20 Plus	F1GT-C	~	0
 	Blade20 Pro	F1TK	~	0
 	Blade20 Pro Max	F1PT	~	0
 	Blade20 Turbo	F1_Plus	~	0
@@ -9700,14 +9717,17 @@ Doogee
 	Note 58	1929C-C	~	0
 	Note 58 Pro	1929H-C	Note58 Pro	0
 	Note 59	1929SC	~	0
+	Note 59 Pro	1929SH-C	Note59 Pro	0
 	Note56 Lite	1928C-C	~	0
 	Note56 Plus	1928CV	~	0
 	Note56 Pro	1928CT	~	0
 	Note56 X	1928SC-C	Note56 X Lite	0
 	Note56X Pro	1928SE	~	0
+	Note57 Lite	1928CL-D	~	0
 	Note58 Pro	1929H	~	0
 	Note59 Pro	1929SH	~	0
 	Note59 Pro+	1929ST	~	0
+	Note60	1928GT-Go	~	0
 	P3Mini Kid	P3Mini_Kid	T20Mini Kid	0
 	R08	PT3	~	0
 	R10	PT1	~	0
@@ -9736,6 +9756,7 @@ Doogee
 	S200 Pro	M24PS	S200 Plus	0
 	S200 Ultra	M24PX	~	0
 	S200 X	M24PT	~	0
+	S200 X Pro	M24PT_Pro	~	0
 	S30	=	=	0
 	S300	ZN138PES	~	0
 	S300 Plus	M25T	~	0
@@ -9859,6 +9880,7 @@ Doogee
 	U11 Pro Kid	T2UKid	U11 Kid Pro	0
 	U12	P7C	~	0
 	U13	P5C	~	0
+	U14	P6R	~	0
 	U8	RK3	~	0
 	U8 Kid	RK3KID	~	0
 	U9	RK2	~	0
@@ -9871,6 +9893,7 @@ Doogee
 	V Max 2 Pro	M25H	~	0
 	V Max LR	ZN139S	~	0
 	V Max Play	ZN139T	~	0
+	V Max Play Pro	ZN139TS	~	0
 	V Max Plus	M23HT	~	0
 	V Max Pro	M23HC	~	0
 	V Max Pro	M23HC_1	~	0
@@ -10857,6 +10880,7 @@ Emdoor
 Emerson
 	EID-1400	=	=	0
 	EID_1001	=	EID-1001	0
+	EID_1001A	=	EID-1001A	0
 	EID_1050	=	EID-1050	0
 	EID_1061	=	EID-1061	0
 	EID_1062	=	EID-1062	0
@@ -12393,6 +12417,7 @@ G-Tab
 	G5	=	=	0
 	G9	=	=	0
 	G9	G9_1	~	0
+	G9	G9_2	~	0
 	GTAB_P8	=	P8	0
 	GTab_S	S	=	0
 	GTab_X	X	=	0
@@ -12447,6 +12472,7 @@ G-Tab
 	Tablet	=	T12	1
 	X_PRO_AI	=	X	0
 	Y	=	=	0
+	Z	=	=	0
 G-TiDE
 	EX750	=	=	0
 	EXTREME X9	EXTREME_X9	~	0
@@ -13024,6 +13050,7 @@ Gigaset
 	Gigaset GS4	Gigaset_GS4	E940-2795-00	0
 	Gigaset GX4	GX4	E940-2797-00	0
 	Gigaset GX4 PRO	GX4_PRO	E940-2797-01	0
+	Gigaset GX50	Gigaset_GX50	E940-3045-00	0
 	Gigaset GX6	GX6	E940-2849-00	0
 	Gigaset GX6 PRO	GX6_PRO	E940-2849-01	0
 	Gigaset Maxwell 10	maxwell_10	Maxwell-10	0
@@ -16699,6 +16726,7 @@ Hotwav
 	A1_Plus	=	A1 Plus	0
 	A25 Ultra	A25_Ultra	~	0
 	A25 Ultra	A25_Ultra	A26 Ultra	0
+	A26 Ultra	A26_Ultra	~	0
 	A36	=	A25 Ultra	0
 	A36	=	A26 Ultra	0
 	A36	=	=	0
@@ -16758,6 +16786,7 @@ Hotwav
 	Pad 12	Pad_12	~	1
 	Pad 12 Pro	Pad_12_Pro	~	1
 	Pad 15 Pro	Pad_15_Pro	~	1
+	Pad 17 Pro	Pad_17_Pro	~	1
 	Pad_13	=	Pad 13	1
 	Pad_13_Pro	=	Pad 13 Pro	1
 	Pad_8	=	Pad 8	1
@@ -16792,6 +16821,8 @@ Hotwav
 	W11	=	=	0
 	W11 Pro	W11_Pro	~	0
 	X100 GT	X100_GT	~	0
+	X100 Mecha	X100_Mecha	~	0
+	X100 SE	X100_SE	~	0
 	X26 Ultra	X26_Ultra	~	0
 How
 	1001-G	=	=	0
@@ -18991,6 +19022,7 @@ IRA (explore more)
 	IRA_BIOA	=	=	0
 	IRA_DUO_PLUS	=	=	0
 	IRA_DUO_PRO_5G	=	IRA DUO PRO 5G	0
+	IRA_EXPLORE_MORE	IRA_T1021	=	0
 	IRA_T1029	=	=	0
 	IRA_T1030M	=	=	0
 	IRA_T803M	=	=	0
@@ -22320,6 +22352,7 @@ LAMINA
 LAMZIEN
 	LAMZIEN_P2	=	=	0
 LANDI
+	C20PlusN00	C20Plus-G-00	C20 Plus	0
 	C20Pro	AN-LFC	~	0
 	C20ProN00	C20Pro-G-00	C20Pro	0
 	C20ProSE	AN-LFC	~	0
@@ -23957,6 +23990,7 @@ LUNAR
 	Lunar Eclipse L1	Lunar_Eclipse_L1	Eclipse L1	0
 LUO(A)
 	P70 Pro	P70_Pro	~	0
+	Pad 17 Pro	Pad_17Pro	~	1
 	Pad 31 Ultra	Pad_31_Ultra	~	1
 	S15 Pro	S15_Pro	~	0
 	S16 Pro	S16_Pro	~	0
@@ -26103,6 +26137,8 @@ MEIZE
 	D125_EEA	=	=	0
 	D126	=	=	0
 	D126_EEA	=	=	0
+	D126_PRO	=	=	0
+	D126_PRO_EEA	=	=	0
 	D126_PRO_US	=	=	0
 	D126_TAB	=	=	0
 	D126_TAB_EEA	=	=	0
@@ -29876,6 +29912,8 @@ NEWTON
 	H1	=	=	0
 NEXA
 	NexaN5a	=	=	0
+NEXAL
+	Nexal Pad	NXLPAD1	=	1
 NEXG
 	NEXG N28 Pro	NEXG_N28_Pro	N28 Pro	0
 NEXGO
@@ -31219,6 +31257,8 @@ Ollee
 	T07TR1W	=	=	0
 	T08HM3MSA9	=	=	0
 	XT080	=	=	0
+Olternix
+	Olternix_A11	=	=	0
 Olvy
 	CH10PLUS	=	=	0
 Olympia
@@ -31688,6 +31728,8 @@ Oppo
 	A7	CPH1905	=	0
 	A7	PBFM00	=	0
 	A7	PBFT00	=	0
+	A7 Pro 5G	OP620BL1	PYE110	0
+	A7 Pro 5G	OP620BL1	PYE130	0
 	A7 Pro Max 5G	OP620DL1	PYC110	0
 	A72	OP4C72L1	CPH2067	0
 	A73	=	OPPO A73	0
@@ -33048,6 +33090,7 @@ PEICHENG
 	CP31W	=	=	0
 	CP81S_PRO	=	CP81	0
 	CP81S_PRO	=	=	0
+	NV10ST	=	NV10S	0
 	P13Max	=	=	0
 	P13PRO	=	=	0
 	P13TMax	=	P13Max	0
@@ -34021,6 +34064,7 @@ Philips
 	S6133S	=	=	0
 	S7210	=	=	0
 	S7220	=	=	0
+	S7221	=	=	0
 	S8300	=	=	0
 	S8306	=	=	0
 	S8308	=	=	0
@@ -35298,6 +35342,7 @@ Pritom
 	P7_A07_EEA	=	P7	0
 	P7_A08	=	P7	0
 	P7_A10	=	P7	0
+	P7_A10K	=	P7	0
 	P7_A10K_EEA	=	P7	0
 	P7_A10K_W	=	P7	0
 	P7_A10_EEA	=	P7	0
@@ -37262,6 +37307,7 @@ SEBBE
 SED Wireless
 	GPH-650R	SPH_650R	~	0
 SEGO
+	EPIC_Vision	=	EPIC Vision	0
 	EPICa	=	=	0
 	Hot_100	=	Hot 100	0
 	MATE_10	=	MATE 10	0
@@ -37303,6 +37349,7 @@ SENRAISE
 	H10	=	=	0
 	H10_EEA	H10	=	0
 SENSE
+	T6128HD_EEA	T6128HD	S-T6128HD	0
 	TW102	=	=	0
 SENSES
 	EDGE_PRO	SE82B_83B	RK3576	0
@@ -38272,8 +38319,6 @@ Samsung
 	Galaxy A07s	a07ve	SM-A077M	0
 	Galaxy A08	a08	SM-A085F	0
 	Galaxy A08	a08	SM-A085M	0
-	Galaxy A08	a08	SM-E085F	0
-	Galaxy A08	a08	SM-M085F	0
 	Galaxy A10	a10	SM-A105F	0
 	Galaxy A10	a10	SM-A105FN	0
 	Galaxy A10	a10	SM-A105G	0
@@ -38361,6 +38406,8 @@ Samsung
 	Galaxy A17 5G	a17x	SM-A176U1	0
 	Galaxy A17 5G	a17x	SM-A176W	0
 	Galaxy A17 5G	a17x	SM-S176V	0
+	Galaxy A18	a18	SM-A185F	0
+	Galaxy A18	a18	SM-A185N	0
 	Galaxy A2 Core	a2corelte	SM-A260F	0
 	Galaxy A2 Core	a2corelte	SM-A260G	0
 	Galaxy A20	SC-02M	=	0
@@ -38988,6 +39035,7 @@ Samsung
 	Galaxy F05	a05m	SM-E055F	0
 	Galaxy F06 5G	a06x	SM-E066B	0
 	Galaxy F07	a07	SM-E075F	0
+	Galaxy F08	a08	SM-E085F	0
 	Galaxy F12	f12	SM-F127G	0
 	Galaxy F13	m13	SM-E135F	0
 	Galaxy F14	a05s	SM-E145F	0
@@ -39398,6 +39446,7 @@ Samsung
 	Galaxy M05	a05m	SM-M055F	0
 	Galaxy M06 5G	a06x	SM-M066B	0
 	Galaxy M07	a07	SM-M075F	0
+	Galaxy M08	a08	SM-M085F	0
 	Galaxy M10	m10lte	SM-M105F	0
 	Galaxy M10	m10lte	SM-M105G	0
 	Galaxy M10	m10lte	SM-M105M	0
@@ -41723,6 +41772,8 @@ SenlinTech
 	S30-Pro	=	T50PRO	0
 	S30-Pro	=	hoco_A15	0
 	pad6_EEA	=	=	0
+Sense
+	T6128HD	=	S-T6128HD	0
 Senseit
 	A109	SENSEIT_A109	=	0
 	C205	=	=	0
@@ -43950,7 +44001,11 @@ StarTV
 Stargorilla
 	Blade10 Power	F1G-S	~	0
 	Blade10 Pro Energy	F1C-S_GO	~	0
+	Blade10 Ultra Energy	F1CT-S	~	0
+	Blade20 Plus	F1GT-S	~	0
 	Blade20 X	F1GC-S	~	0
+	Fire 3	M21SC-S	~	0
+	Fire 3 Pro	M21SE-S	~	0
 Starlight
 	Alpha 100	Alpha_100	~	0
 	Alpha 200	Alpha_200	~	0
@@ -46664,6 +46719,7 @@ TONE
 TOPDON
 	ONEPro	=	=	0
 TOPELOTEK
+	K15A	=	=	0
 	KIDS06	=	=	0
 	KIDS08-X8	=	=	0
 	KIDS09S	=	=	0
@@ -47008,6 +47064,7 @@ Techview
 	S15Pro	=	=	0
 	S16PRO	=	=	0
 	S17Pro	=	=	0
+	S17Pro_Sub	=	=	0
 	Techview_Tab_80_LTE	Tab_80_LTE	=	0
 Teclast
 	APEX_P10HD_PRO	=	=	0
@@ -47152,6 +47209,8 @@ Teclast
 	P30_RUS	=	=	0
 	P33_EEA	=	=	0
 	P33_ROW	=	=	0
+	P35_Y	=	P35_ROW	0
+	P35_Y	=	P35_Y_ROW	0
 	P40HD_EEA	=	P40HD	0
 	P40HD_EEA	P40HD_T	~	0
 	P40HD_ROW	=	P40HD	0
@@ -48709,6 +48768,7 @@ URAO
 	X107_EEA	X107	=	0
 	X108	=	=	0
 	X108_EEA	X108	=	0
+	X109K_EEA	X109K	=	0
 	X109K_G	X109K	=	0
 USA111
 	IRULU X11	iRULU-X11	iRULU X11	0
@@ -52512,6 +52572,7 @@ XPLORE
 XPPen
 	MDP1231_ROW	MDP1231	=	0
 	MDP1232_EEA	MDP1231	=	0
+	MDP1233_RU	MDP1231	=	0
 	MDP1234_US	MDP1231	=	0
 	XPPen_Magic_Drawing_Pad	Titan_XPPen	MagicDrawingPad	0
 	XPPen_Magic_Drawing_Pad_RU	Titan_XPPen	MagicDrawingPad	0

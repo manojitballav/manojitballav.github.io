@@ -1,270 +1,360 @@
 {
-  "lastUpdated": "2026-09-08",
-  "newDevicesCount": 44,
+  "lastUpdated": "2026-09-09",
+  "newDevicesCount": 59,
   "newDevices": [
     [
-      "Acer",
-      "A15",
-      "A15",
-      "A15"
+      "Anyreal",
+      "Note56 Lite",
+      "1928C-C-AR",
+      "Note56 Lite"
     ],
     [
       "Anyreal",
-      "T2C-AR",
-      "T2C-AR",
-      "Tab A9+"
+      "Note56 X Lite",
+      "1928SC-C-AR",
+      "Note56 X Lite"
     ],
     [
       "Anyreal",
-      "T2Kid-AR",
-      "T2Kid-AR",
-      "U11 Kid"
+      "Note59 Pro",
+      "1929SH-AR",
+      "Note59 Pro"
     ],
     [
-      "Archos",
-      "SPACT110FHD34GULTRA_EEA",
-      "ACT110FHD34GULTRA",
-      "ARCHOS T110 FHD3 4G ULTRA"
+      "Anyreal",
+      "Note60",
+      "1928GT-AR",
+      "Note60"
     ],
     [
-      "BIRDCLAW",
-      "P7S-B",
-      "P7S-B",
-      "P12 Pro"
-    ],
-    [
-      "BIRDCLAW",
-      "P9T-B",
-      "P9T-B",
-      "P12 Plus"
+      "Anyreal",
+      "U14",
+      "P6R-AR",
+      "U14"
     ],
     [
       "BIRDCLAW",
-      "T4-B",
-      "T4-B",
-      "P11 Pro"
+      "P10",
+      "RK5S-B",
+      "P10"
     ],
     [
-      "CORN",
-      "ClassyS26Ultra4G",
-      "ClassyS26Ultra4G",
-      "ClassyS26Ultra4G"
-    ],
-    [
-      "Doogee",
-      "Blade10 Pro Energy",
-      "F1C-C_GO",
-      "Blade10 Pro Energy"
-    ],
-    [
-      "Doogee",
-      "Blade10 Ultra Energy",
-      "F1CT-C",
-      "Blade10 Ultra Energy"
-    ],
-    [
-      "Doogee",
-      "Blade20 X",
-      "F1GC-C",
-      "Blade20 X"
-    ],
-    [
-      "Doogee",
-      "Fire 5 Pro",
-      "G1-C",
-      "Fire 5 Pro"
-    ],
-    [
-      "Doogee",
-      "Fire 5 Ultra",
-      "G1E-C",
-      "Fire 5 Ultra"
-    ],
-    [
-      "Doogee",
-      "Fire 7 Pro",
-      "G1TS-C",
-      "Fire 7 Pro"
-    ],
-    [
-      "Doogee",
-      "Fire 7",
-      "G1T-C",
-      "Fire 7"
-    ],
-    [
-      "Doogee",
-      "S300",
-      "ZN138PES",
-      "S300"
-    ],
-    [
-      "Easerush",
-      "P10 Pro",
-      "T5-E",
-      "P10 Pro"
-    ],
-    [
-      "Easerush",
-      "RK5Kid-E",
-      "RK5Kid-E",
+      "BIRDCLAW",
+      "RK5Kid-B",
+      "RK5Kid-B",
       "P10 Kid"
     ],
     [
-      "FOSSiBOT",
-      "C17 SE",
-      "C17_SE",
-      "C17 SE"
+      "BIRDCLAW",
+      "T5-B",
+      "T5-B",
+      "P10 Pro"
+    ],
+    [
+      "BNCF",
+      "BPad X1",
+      "BPad_X1",
+      "BPad X1"
+    ],
+    [
+      "Blackview",
+      "BV9300Pro Plus",
+      "BV9300Pro_Plus",
+      "BV9300Pro Plus"
+    ],
+    [
+      "Blackview",
+      "LINK 5",
+      "LINK_5",
+      "LINK 5"
+    ],
+    [
+      "Blackview",
+      "XPLORE 6",
+      "XPLORE_6",
+      "XPLORE 6"
+    ],
+    [
+      "CATCHTABLE",
+      "CW10",
+      "CW10",
+      "CW10"
+    ],
+    [
+      "DARVEEN",
+      "RTC_M102",
+      "RTC_M102",
+      "RTC_M102"
+    ],
+    [
+      "Digit",
+      "Sonic Lite",
+      "Sonic_Lite",
+      "Sonic Lite"
+    ],
+    [
+      "Doogee",
+      "Blade20 Plus",
+      "F1GT-C",
+      "Blade20 Plus"
+    ],
+    [
+      "Doogee",
+      "Note 59 Pro",
+      "1929SH-C",
+      "Note59 Pro"
+    ],
+    [
+      "Doogee",
+      "Note57 Lite",
+      "1928CL-D",
+      "Note57 Lite"
+    ],
+    [
+      "Doogee",
+      "Note60",
+      "1928GT-Go",
+      "Note60"
+    ],
+    [
+      "Doogee",
+      "S200 X Pro",
+      "M24PT_Pro",
+      "S200 X Pro"
+    ],
+    [
+      "Doogee",
+      "U14",
+      "P6R",
+      "U14"
+    ],
+    [
+      "Doogee",
+      "V Max Play Pro",
+      "ZN139TS",
+      "V Max Play Pro"
+    ],
+    [
+      "Emerson",
+      "EID_1001A",
+      "EID_1001A",
+      "EID-1001A"
     ],
     [
       "G-Tab",
-      "G10",
-      "G10_1",
-      "G10"
+      "G9",
+      "G9_2",
+      "G9"
     ],
     [
-      "GDL(BD)",
-      "GigaX_F19",
-      "GigaX_F19",
-      "GigaX F19"
+      "G-Tab",
+      "Z",
+      "Z",
+      "Z"
     ],
     [
       "Gigaset",
-      "GX30",
-      "GX30",
-      "E940-3044-00"
-    ],
-    [
-      "Honor",
-      "Melody",
-      "HNMLD-M",
-      "MLD-LX2"
-    ],
-    [
-      "Honor",
-      "Melody",
-      "HNMLD-M",
-      "MLD-LX3"
+      "Gigaset GX50",
+      "Gigaset_GX50",
+      "E940-3045-00"
     ],
     [
       "Hotwav",
-      "A18 Pro",
-      "A18Pro",
-      "A18 Pro"
+      "A26 Ultra",
+      "A26_Ultra",
+      "A26 Ultra"
     ],
     [
       "Hotwav",
-      "Pad 15 Pro",
-      "Pad_15_Pro",
-      "Pad 15 Pro"
+      "Pad 17 Pro",
+      "Pad_17_Pro",
+      "Pad 17 Pro"
     ],
     [
       "Hotwav",
-      "X26 Ultra",
-      "X26_Ultra",
-      "X26 Ultra"
+      "X100 Mecha",
+      "X100_Mecha",
+      "X100 Mecha"
     ],
     [
-      "LOGIC",
-      "L67 Ultra",
-      "L67_Ultra",
-      "L67 Ultra"
+      "Hotwav",
+      "X100 SE",
+      "X100_SE",
+      "X100 SE"
     ],
     [
-      "LOGIC",
-      "Logic L67 PRO MAX",
-      "Logic_L67_PRO_MAX",
-      "Logic L67 PRO MAX"
+      "IRA (explore more)",
+      "IRA_EXPLORE_MORE",
+      "IRA_T1021",
+      "IRA_T1021"
+    ],
+    [
+      "LANDI",
+      "C20PlusN00",
+      "C20Plus-G-00",
+      "C20 Plus"
     ],
     [
       "LUO(A)",
-      "Pad 31 Ultra",
-      "Pad_31_Ultra",
-      "Pad 31 Ultra"
-    ],
-    [
-      "MAXHUB",
-      "E3_Series",
-      "E3_Series",
-      "E3_Series"
+      "Pad 17 Pro",
+      "Pad_17Pro",
+      "Pad 17 Pro"
     ],
     [
       "MEIZE",
-      "D126_US",
-      "D126_US",
-      "D126_US"
+      "D126_PRO",
+      "D126_PRO",
+      "D126_PRO"
     ],
     [
-      "Mpgio",
-      "MT-A10",
-      "MT-A10",
-      "MT-A10"
+      "MEIZE",
+      "D126_PRO_EEA",
+      "D126_PRO_EEA",
+      "D126_PRO_EEA"
+    ],
+    [
+      "NEXAL",
+      "Nexal Pad",
+      "NXLPAD1",
+      "NXLPAD1"
+    ],
+    [
+      "Olternix",
+      "Olternix_A11",
+      "Olternix_A11",
+      "Olternix_A11"
+    ],
+    [
+      "Oppo",
+      "A7 Pro 5G",
+      "OP620BL1",
+      "PYE110"
+    ],
+    [
+      "Oppo",
+      "A7 Pro 5G",
+      "OP620BL1",
+      "PYE130"
+    ],
+    [
+      "PEICHENG",
+      "NV10ST",
+      "NV10ST",
+      "NV10S"
+    ],
+    [
+      "Philips",
+      "S7221",
+      "S7221",
+      "S7221"
     ],
     [
       "Pritom",
-      "M10_A02_EEA",
-      "M10_A02_EEA",
-      "TAB 10 MAX"
-    ],
-    [
-      "Pritom",
-      "M10_C12_Kids_EEA",
-      "M10_C12_Kids_EEA",
-      "M10"
-    ],
-    [
-      "Pritom",
-      "M10_C12_Kids_USA",
-      "M10_C12_Kids_USA",
-      "M10"
-    ],
-    [
-      "Pritom",
-      "M10_C12_USA",
-      "M10_C12_USA",
-      "M10"
-    ],
-    [
-      "Pritom",
-      "P7_A11K_ROW",
-      "P7_A11K_ROW",
+      "P7_A10K",
+      "P7_A10K",
       "P7"
     ],
     [
       "SEGO",
-      "EPICa",
-      "EPICa",
-      "EPICa"
+      "EPIC_Vision",
+      "EPIC_Vision",
+      "EPIC Vision"
+    ],
+    [
+      "SENSE",
+      "T6128HD_EEA",
+      "T6128HD",
+      "S-T6128HD"
+    ],
+    [
+      "Samsung",
+      "Galaxy A18",
+      "a18",
+      "SM-A185F"
+    ],
+    [
+      "Samsung",
+      "Galaxy A18",
+      "a18",
+      "SM-A185N"
+    ],
+    [
+      "Samsung",
+      "Galaxy F08",
+      "a08",
+      "SM-E085F"
+    ],
+    [
+      "Samsung",
+      "Galaxy M08",
+      "a08",
+      "SM-M085F"
+    ],
+    [
+      "Sense",
+      "T6128HD",
+      "T6128HD",
+      "S-T6128HD"
     ],
     [
       "Stargorilla",
-      "Blade10 Power",
-      "F1G-S",
-      "Blade10 Power"
+      "Blade10 Ultra Energy",
+      "F1CT-S",
+      "Blade10 Ultra Energy"
     ],
     [
       "Stargorilla",
-      "Blade20 X",
-      "F1GC-S",
-      "Blade20 X"
+      "Blade20 Plus",
+      "F1GT-S",
+      "Blade20 Plus"
+    ],
+    [
+      "Stargorilla",
+      "Fire 3 Pro",
+      "M21SE-S",
+      "Fire 3 Pro"
+    ],
+    [
+      "Stargorilla",
+      "Fire 3",
+      "M21SC-S",
+      "Fire 3"
     ],
     [
       "TOPELOTEK",
-      "ZIDS701_A",
-      "ZIDS_701",
-      "ZIDS_701"
+      "K15A",
+      "K15A",
+      "K15A"
     ],
     [
-      "Tecno",
-      "TECNO POP 20C",
-      "TECNO-KO2",
-      "TECNO KO2"
+      "Techview",
+      "S17Pro_Sub",
+      "S17Pro_Sub",
+      "S17Pro_Sub"
+    ],
+    [
+      "Teclast",
+      "P35_Y",
+      "P35_Y",
+      "P35_ROW"
+    ],
+    [
+      "Teclast",
+      "P35_Y",
+      "P35_Y",
+      "P35_Y_ROW"
     ],
     [
       "URAO",
-      "X109K_G",
+      "X109K_EEA",
       "X109K",
       "X109K"
+    ],
+    [
+      "XPPen",
+      "MDP1233_RU",
+      "MDP1231",
+      "MDP1231"
     ]
   ]
 }
