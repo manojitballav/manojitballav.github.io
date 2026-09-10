@@ -4191,6 +4191,7 @@ BOTHO_University
 	GLTAB101	=	=	0
 BOXLIGHT
 	ProColor_P5	rk3576_u	Interactive_Intelligent_Panel	0
+	ProColor_P5UC_Plus	=	Interactive_Intelligent_Panel	0
 	ProColor_PcMod_i5_14_1	oversea_v	PC_MODULE	0
 BOXY
 	BOXY	YYC	4K Android TV Box	2
@@ -4608,6 +4609,7 @@ BenQ
 	JD-150	JD-150_P1	~	0
 	JM-250	=	=	0
 	JM-250	JM-250_P1	~	0
+	Joybee	araku	~	0
 	Kogan 4G+	Agora_4G_PLUS	Agora 4G+	0
 	Kogan Agora 4G Lite	B506	~	0
 	NE001A_series	=	=	0
@@ -6451,6 +6453,7 @@ CVTE
 	Guangzhou Shirui Electronics Co., Ltd	rk3576_u	edu_v2	0
 	Guangzhou Shirui Electronics Co., Ltd	rk3588_t	edu_v2	0
 	general_3576	oversea_b	bytello_edla	0
+	general_3576_camera	oversea_neutral	bytello_edla	0
 	general_camera_broad	rk3576_u	general_edu_v2	0
 	mensa_an64	mensa	=	0
 CViauto
@@ -9212,6 +9215,7 @@ Dicle_Tab
 	Dicle Tab XPAD	Dicle_Tab_XPAD	U1101	1
 	Dicle_Tab_Active	Active	=	0
 Digi
+	Comtrend-S3A	=	=	0
 	DIGI R2A	DIGI_R2A	~	0
 	Digi C1	Digi_C1	~	0
 	Digi C2	Digi_C2	~	0
@@ -10568,6 +10572,8 @@ ETOE
 	D1221	YUL	~	4
 	D2861	XNA	~	4
 	D2G	himalaya	~	4
+ETTO
+	ETTO	oversea_v	MZYIA	0
 EUDORA
 	E10Pro	=	=	0
 	E62 Plus	E62Plus	~	0
@@ -11218,6 +11224,7 @@ Everpad
 	SC730	EVERPAD-SC730	~	0
 	VORTEX_V10	=	=	0
 Evertek
+	AURA PRO	Smartphone	~	0
 	E7224HG	=	=	0
 	E8224HG	=	=	0
 	HALO	=	=	0
@@ -11679,6 +11686,7 @@ FPD
 	CP12-C1	=	CP12-J1	0
 	CP12-J1	=	=	0
 	EcoTV1 Plus	elliniko	~	0
+	FPD	araku	Projector	4
 	FPD	elliniko	4K SMART TV	2
 	FPD	hongkong	EcoTV Pro A	0
 	FPD	hongkong	EcoTV Pro D	0
@@ -18769,6 +18777,7 @@ I3-TECHNOLOGIES
 	i3SIXTY-3	=	=	0
 	i3TOUCH-X3	=	=	0
 IACTIVE
+	Iactive_IFPD	IFPD	W Series	0
 	lactive_IA75	=	IACTIVE	0
 	lactive_IA75	=	=	0
 IAIWAI
@@ -19605,6 +19614,7 @@ Infinix
 	XPAD	Infinix-X1101B	Infinix X1101B	0
 	XPAD 20	Infinix-X1102	Infinix X1102	0
 	XPAD 20 Pro	Infinix-X1201	Infinix X1201	0
+	XPAD 30	Infinix-X1102D	Infinix X1102D	0
 	XPAD 30E	Infinix-X1102B	Infinix X1102B	0
 	ZERO 30 5G	Infinix-X6731	Infinix X6731	0
 	ZERO 5G	Infinix-X6815	Infinix X6815	0
@@ -21292,7 +21302,6 @@ KTCtv
 	EcoTV2	kapellen	~	2
 	FOL	hongkong	4K SMART TV	2
 	FOL	mountbaker	2K SMART TV	2
-	FPD	araku	Projector	2
 	FPS	elliniko	4K SMART TV	2
 	FPS	hongkong	4K SMART TV	2
 	GTRONIC	elliniko	4K SMART TV	2
@@ -21329,7 +21338,6 @@ KTCtv
 	JANUS	elliniko	4K SMART TV	2
 	JSW	elliniko	4K SMART TV	2
 	JVCO	elliniko	4K SMART TV	2
-	Joybee	araku	~	2
 	KIUNIT	stanford	SMART TV	2
 	KIUNIT	zhongshan	Smart UHD TV	2
 	KTC	elliniko	4K SMART TV	2
@@ -23784,6 +23792,7 @@ LGU+
 LG_Electronics
 	TR3DK	=	=	0
 	TR3DQ-B	=	=	0
+	TR3ER	=	=	0
 	TR3ER-B	=	=	0
 	TR3PN	rk3588_t	~	0
 LIAONING YIYATONG
@@ -33272,6 +33281,7 @@ POCO
 	POCO M8 5G	kunzite	25118PC98I	0
 	POCO M8 Power 5G	mist	26021PC18I	0
 	POCO M8 Pro 5G	flourite	2510EPC8BG	0
+	POCO M8x 5G	steppe	26062PC92I	0
 	POCO Pad	dizi	2405CPCFBG	1
 	POCO Pad C1	guitar	2603APC14G	1
 	POCO Pad M1	flute	2509ARPBDG	1
@@ -34584,6 +34594,7 @@ Positivo
 	T2050C	=	=	0
 	T2050C	=	Tab Q10	1
 	T2070D	=	T2070	0
+	T2072	=	=	0
 	T3010D	=	Vision Tab 10	1
 	T701 TV	T701	=	2
 	T705	=	=	0
@@ -35201,6 +35212,7 @@ Pritom
 	L10_T07_EEA	L10_T07	L10	0
 	L10_T13	=	L10	0
 	L10_T13_EEA	=	L10	0
+	L10_T19_EEA	L10_T19	L10	0
 	L8	=	=	0
 	L8-T01	=	=	0
 	L8-T01_EEA	=	=	0
@@ -38408,6 +38420,7 @@ Samsung
 	Galaxy A17 5G	a17x	SM-S176V	0
 	Galaxy A18	a18	SM-A185F	0
 	Galaxy A18	a18	SM-A185N	0
+	Galaxy A18	a18m	SM-A185G	0
 	Galaxy A2 Core	a2corelte	SM-A260F	0
 	Galaxy A2 Core	a2corelte	SM-A260G	0
 	Galaxy A20	SC-02M	=	0
@@ -52935,6 +52948,7 @@ Xiaomi
 	Xiaomi 17T Pro	warhol	2602EPTC0G	0
 	Xiaomi 17T Pro	warhol	2602EPTC0R	0
 	Xiaomi 17T Pro	warhol	M025EC	0
+	Xiaomi 18 Fold	lhasa	2608BPX34C	0
 	Xiaomi Civi	mona	2109119BC	0
 	Xiaomi Civi 1S	zijin	2109119BC	0
 	Xiaomi Civi 4	chenfeng	24053PY09C	0
@@ -52965,6 +52979,7 @@ Xiaomi
 	Xiaomi Pad 7S Pro 12.5	violin	25053RP5CC	1
 	Xiaomi Pad 8	yupei	25097RP43C	1
 	Xiaomi Pad 8 Pro	piano	25091RP04C	1
+	Xiaomi Pad 9 Pro Max	yingtian	M367FC	1
 	Xiaomi Pad Mini	turner	25079RPDCG	1
 	Xiaomi Smart Projector L1	tianshan	C025RGN	4
 	Xiaomi Smart Projector L1 Pro	tianshan	C045RGN	4
@@ -56063,6 +56078,7 @@ i-custom
 	S10	=	=	0
 	S11	=	=	0
 	S13	V25T1F	~	0
+	S18	=	=	0
 	S32	=	=	0
 i.safe MOBILE
 	IS330	=	=	0
@@ -56431,6 +56447,8 @@ iPlus
 iQOO
 	I40-5_RU	I2347-2_RU	I2347-4_RU	0
 	IQOO Z11 Lite 5G	I2510	=	0
+	iPA2537	DPD2345	iPA2453	0
+	iPA2537	DPD2345	~	0
 	iQOO 15	I2501	=	0
 	iQOO 15	PD2505	V2505A	0
 	iQOO 15 Ultra	PD2546	V2546A	0
@@ -56443,8 +56461,6 @@ iQOO
 	iQOO Neo11 至尊版	PD2573	V2573A	0
 	iQOO Pad5	DPD2437	iPA2556	0
 	iQOO Pad5 Pro	DPD2429	iPA2575	0
-	iQOO Pad5e	DPD2345	iPA2453	0
-	iQOO Pad5e	DPD2345	iPA2537	0
 	iQOO Z10 Lite	I2502	=	0
 	iQOO Z10 Lite 5G	I2409	=	0
 	iQOO Z10 Turbo	PD2452	V2452A	0
@@ -57351,9 +57367,9 @@ vivo
 	G3	PD2443	V2443A	0
 	G5i	PD2531	V2531A	0
 	G5z	PD2531	V2531A	0
+	PA2535	DPD2345	PA2455	0
+	PA2535	DPD2345	~	0
 	Pad5	DPD2437	PA2553	0
-	Pad5e	DPD2345	PA2455	0
-	Pad5e	DPD2345	PA2535	0
 	Pad6 Pro	DPD2540	PA2671	0
 	S2	V2576	=	0
 	S30	PD2464	V2464A	0
