@@ -8093,6 +8093,9 @@ Croma
 	43FDVRCHG5SP	ikebukuro	AI PONT	0
 Crosscall
 	27409-1	=	=	0
+	AD-C1	L790	~	0
+	AD-C2	L790	~	0
+	AD-C3	L790	~	0
 	Action-X3	HS8937QC	ACTION-X3	0
 	Action-X3	HS8937QC	~	0
 	Action-X3	HS8937QC	Action-X3 Pro	0
@@ -8113,6 +8116,7 @@ Crosscall
 	Core-X5	L771	~	0
 	Core-Z5	L790	~	0
 	Core-Z5	L790_02	~	0
+	Core-Z5P	L790	~	0
 	Core-Z6	L790	AD-Z5	0
 	ODYSSEY	ODYSSEY3G	~	0
 	Stellar-M6	L768	~	0
@@ -15472,6 +15476,7 @@ Hisense
 	CMB405	L690AE	~	0
 	CMB501	u970_carrefour	~	0
 	CMB510	L696	~	0
+	Core-Z5	L790	~	0
 	D1-M	D1_M	Hisense D1-M	0
 	D2-M	HS6735MT	~	0
 	D5	HS8909QC	Hisense D5	0
@@ -15709,6 +15714,7 @@ Hisense
 	Hisense E31 Lite	HLTE105E_02	~	0
 	Hisense E31 Lite	HLTE105E_03	~	0
 	Hisense E33	HLTE243E_01	~	0
+	Hisense E36	HLTE115E	~	0
 	Hisense E40	HLTE229E	=	0
 	Hisense E40	HLTE229E	~	0
 	Hisense E40	HLTE229E_10	HLTE229E	0
@@ -15741,10 +15747,14 @@ Hisense
 	Hisense E70	HLTE262E	~	0
 	Hisense E70	HLTE262E_01	~	0
 	Hisense E70 Pro	HLTE263E	~	0
+	Hisense E73	HLTE115E	~	0
 	Hisense E76MINIM	HS8937QC	~	0
 	Hisense E77	HS8937QC	~	0
 	Hisense Enigma	HLTE272E	~	0
 	Hisense Enigma	HLTE272E	Hisense Enigma SE	0
+	Hisense Enigma Plus	HLTE115E	~	0
+	Hisense Enigma Plus	HLTE115E	Hisense Hisense Engima Plus	0
+	Hisense Enigma Plus	HLTE115E	Hisense Hisense Enigma Plus	0
 	Hisense F15	HS6739MT	~	0
 	Hisense F16	HS6739MT	~	0
 	Hisense F16	HS6739MT	Hisense Infinity E6	0
@@ -15774,6 +15784,7 @@ Hisense
 	Hisense H40 Lite	SC9863A	~	0
 	Hisense H50 Lite	HLTE233E_12	~	0
 	Hisense H60 Smart	HLTE240E	~	0
+	Hisense H73	HLTE271E	~	0
 	Hisense Infinity E30 Lite	SC9832E	~	0
 	Hisense Infinity H12 Pro	HSSDM636QC	~	0
 	Hisense Infinity H40 Lite	HLTE230E_01	=	0
@@ -15815,6 +15826,8 @@ Hisense
 	Hisense U50	HLTE222E_01	~	0
 	Hisense U50	HLTE222E_02	~	0
 	Hisense U50	HLTE233E_10	Hisense H50 Lite	0
+	Hisense U54	HLTE115E	Hisense Enigma Lite	0
+	Hisense U54	HLTE115E	~	0
 	Hisense U54	HLTE124E	~	0
 	Hisense U605	HS7731ESP	HWCD101E	0
 	Hisense U605	HS7731ESP	HWCD102E	0
@@ -15877,6 +15890,7 @@ Hisense
 	Hisense V40S	HLTE229E_30	~	0
 	Hisense V40S	HLTE229E_30	Hisense V40s	0
 	Hisense V50	HLTE233E_11	~	0
+	Hisense Y63	HLTE115E	~	0
 	I300T	=	Hisense I300T	0
 	I56D2G	HS8929QC	Andromax I56D2G	0
 	I630U	=	Hisense I630U	0
@@ -21027,6 +21041,7 @@ KEMPLER STRAUSS
 	ZKEMPLER_PLUS	=	ZKEMPLER PLUS	0
 KENSHI
 	101HH1B	=	=	0
+	101HH1C	=	=	0
 	Armor C1 Max	Armor_C1_Max	~	0
 	Armor C1s	Armor_C1s	~	0
 	Armor H1s	Armor_H1s	~	0
@@ -36384,6 +36399,7 @@ RebotAi
 	D101_EEA	=	D101_PRO	0
 	K101	=	=	0
 	K101_EEA	=	K101	0
+	K101_US	=	K101	0
 Rectron
 	MX101M2	=	=	0
 	MX702M1	=	=	0
@@ -37783,6 +37799,8 @@ SSmooth
 	Smooth_8GT	=	Smooth 8GT	0
 	Vision	=	=	0
 	Vision Plus	Vision_Plus	~	0
+ST(everup)
+	CP31M-4T	=	=	0
 STARK_FUTURE
 	ARKENSTONE	=	=	0
 	VARG	=	=	0

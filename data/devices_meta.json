@@ -1,132 +1,108 @@
 {
-  "lastUpdated": "2026-09-10",
-  "newDevicesCount": 21,
+  "lastUpdated": "2026-09-11",
+  "newDevicesCount": 17,
   "newDevices": [
     [
-      "BOXLIGHT",
-      "ProColor_P5UC_Plus",
-      "ProColor_P5UC_Plus",
-      "Interactive_Intelligent_Panel"
+      "Crosscall",
+      "AD-C1",
+      "L790",
+      "AD-C1"
     ],
     [
-      "BenQ",
-      "Joybee",
-      "araku",
-      "Joybee"
+      "Crosscall",
+      "AD-C2",
+      "L790",
+      "AD-C2"
     ],
     [
-      "CVTE",
-      "general_3576_camera",
-      "oversea_neutral",
-      "bytello_edla"
+      "Crosscall",
+      "AD-C3",
+      "L790",
+      "AD-C3"
     ],
     [
-      "Digi",
-      "Comtrend-S3A",
-      "Comtrend-S3A",
-      "Comtrend-S3A"
+      "Crosscall",
+      "Core-Z5P",
+      "L790",
+      "Core-Z5P"
     ],
     [
-      "ETTO",
-      "ETTO",
-      "oversea_v",
-      "MZYIA"
+      "Hisense",
+      "Core-Z5",
+      "L790",
+      "Core-Z5"
     ],
     [
-      "Evertek",
-      "AURA PRO",
-      "Smartphone",
-      "AURA PRO"
+      "Hisense",
+      "Hisense E36",
+      "HLTE115E",
+      "Hisense E36"
     ],
     [
-      "FPD",
-      "FPD",
-      "araku",
-      "Projector"
+      "Hisense",
+      "Hisense E73",
+      "HLTE115E",
+      "Hisense E73"
     ],
     [
-      "IACTIVE",
-      "Iactive_IFPD",
-      "IFPD",
-      "W Series"
+      "Hisense",
+      "Hisense Enigma Plus",
+      "HLTE115E",
+      "Hisense Enigma Plus"
     ],
     [
-      "Infinix",
-      "XPAD 30",
-      "Infinix-X1102D",
-      "Infinix X1102D"
+      "Hisense",
+      "Hisense Enigma Plus",
+      "HLTE115E",
+      "Hisense Hisense Engima Plus"
     ],
     [
-      "LG_Electronics",
-      "TR3ER",
-      "TR3ER",
-      "TR3ER"
+      "Hisense",
+      "Hisense Enigma Plus",
+      "HLTE115E",
+      "Hisense Hisense Enigma Plus"
     ],
     [
-      "POCO",
-      "POCO M8x 5G",
-      "steppe",
-      "26062PC92I"
+      "Hisense",
+      "Hisense H73",
+      "HLTE271E",
+      "Hisense H73"
     ],
     [
-      "Positivo",
-      "T2072",
-      "T2072",
-      "T2072"
+      "Hisense",
+      "Hisense U54",
+      "HLTE115E",
+      "Hisense Enigma Lite"
     ],
     [
-      "Pritom",
-      "L10_T19_EEA",
-      "L10_T19",
-      "L10"
+      "Hisense",
+      "Hisense U54",
+      "HLTE115E",
+      "Hisense U54"
     ],
     [
-      "Samsung",
-      "Galaxy A18",
-      "a18m",
-      "SM-A185G"
+      "Hisense",
+      "Hisense Y63",
+      "HLTE115E",
+      "Hisense Y63"
     ],
     [
-      "Xiaomi",
-      "Xiaomi 18 Fold",
-      "lhasa",
-      "2608BPX34C"
+      "KENSHI",
+      "101HH1C",
+      "101HH1C",
+      "101HH1C"
     ],
     [
-      "Xiaomi",
-      "Xiaomi Pad 9 Pro Max",
-      "yingtian",
-      "M367FC"
+      "RebotAi",
+      "K101_US",
+      "K101_US",
+      "K101"
     ],
     [
-      "i-custom",
-      "S18",
-      "S18",
-      "S18"
-    ],
-    [
-      "iQOO",
-      "iPA2537",
-      "DPD2345",
-      "iPA2453"
-    ],
-    [
-      "iQOO",
-      "iPA2537",
-      "DPD2345",
-      "iPA2537"
-    ],
-    [
-      "vivo",
-      "PA2535",
-      "DPD2345",
-      "PA2455"
-    ],
-    [
-      "vivo",
-      "PA2535",
-      "DPD2345",
-      "PA2535"
+      "ST(everup)",
+      "CP31M-4T",
+      "CP31M-4T",
+      "CP31M-4T"
     ]
   ]
 }
