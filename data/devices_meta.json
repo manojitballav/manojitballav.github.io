@@ -1,108 +1,144 @@
 {
-  "lastUpdated": "2026-09-11",
-  "newDevicesCount": 17,
+  "lastUpdated": "2026-09-12",
+  "newDevicesCount": 23,
   "newDevices": [
     [
-      "Crosscall",
-      "AD-C1",
-      "L790",
-      "AD-C1"
+      "Hosoton",
+      "H-H101_EEA",
+      "H-H101_EEA",
+      "H-H101_EEA"
     ],
     [
-      "Crosscall",
-      "AD-C2",
-      "L790",
-      "AD-C2"
+      "IRIS_OHYAMA",
+      "TM08F6W74",
+      "TM08F6W74",
+      "TM08F6W74"
     ],
     [
-      "Crosscall",
-      "AD-C3",
-      "L790",
-      "AD-C3"
+      "Intex",
+      "Ace2",
+      "Ace2",
+      "Ace2"
     ],
     [
-      "Crosscall",
-      "Core-Z5P",
-      "L790",
-      "Core-Z5P"
+      "Itel",
+      "itel CITY 300 5G",
+      "itel-C672N",
+      "itel C672N"
     ],
     [
-      "Hisense",
-      "Core-Z5",
-      "L790",
-      "Core-Z5"
+      "M-Horse",
+      "M18ProMax",
+      "M18ProMax",
+      "M18ProMax"
     ],
     [
-      "Hisense",
-      "Hisense E36",
-      "HLTE115E",
-      "Hisense E36"
+      "ONERugged",
+      "M80XE",
+      "M80XE",
+      "M80XE"
     ],
     [
-      "Hisense",
-      "Hisense E73",
-      "HLTE115E",
-      "Hisense E73"
+      "ORCATAB",
+      "ORCATAB_WT3_Pro",
+      "ORCATAB_WT3_Pro",
+      "WT3 Pro"
     ],
     [
-      "Hisense",
-      "Hisense Enigma Plus",
-      "HLTE115E",
-      "Hisense Enigma Plus"
+      "OnePlus",
+      "OnePlus N6 Lite",
+      "OP68FB",
+      "CPH2993"
     ],
     [
-      "Hisense",
-      "Hisense Enigma Plus",
-      "HLTE115E",
-      "Hisense Hisense Engima Plus"
-    ],
-    [
-      "Hisense",
-      "Hisense Enigma Plus",
-      "HLTE115E",
-      "Hisense Hisense Enigma Plus"
-    ],
-    [
-      "Hisense",
-      "Hisense H73",
-      "HLTE271E",
-      "Hisense H73"
-    ],
-    [
-      "Hisense",
-      "Hisense U54",
-      "HLTE115E",
-      "Hisense Enigma Lite"
-    ],
-    [
-      "Hisense",
-      "Hisense U54",
-      "HLTE115E",
-      "Hisense U54"
-    ],
-    [
-      "Hisense",
-      "Hisense Y63",
-      "HLTE115E",
-      "Hisense Y63"
-    ],
-    [
-      "KENSHI",
-      "101HH1C",
-      "101HH1C",
-      "101HH1C"
+      "Partner_Tech",
+      "Sofia5",
+      "Sofia5",
+      "Sofia5"
     ],
     [
       "RebotAi",
-      "K101_US",
-      "K101_US",
-      "K101"
+      "AF13Air_US",
+      "AF13Air_US",
+      "AF13Air_US"
     ],
     [
-      "ST(everup)",
-      "CP31M-4T",
-      "CP31M-4T",
-      "CP31M-4T"
+      "SPC",
+      "ZEUS_HALO_EEA",
+      "ZEUS_HALO",
+      "ZEUS HALO"
+    ],
+    [
+      "Sharp",
+      "AQUOS wish6",
+      "SX6",
+      "A603SH"
+    ],
+    [
+      "Sharp",
+      "AQUOS wish6",
+      "SX6",
+      "A604SH"
+    ],
+    [
+      "Sharp",
+      "AQUOS wish6",
+      "SX6",
+      "SH-M36"
+    ],
+    [
+      "TCL",
+      "TCL P80 Pro",
+      "Avatar_Pro_NP",
+      "T852K"
+    ],
+    [
+      "TCL",
+      "TCL P80 Pro",
+      "Avatar_Pro_NP",
+      "T852P"
+    ],
+    [
+      "TCL",
+      "TCL P80 Ultra",
+      "Avatar_Ultra_NP",
+      "T952K"
+    ],
+    [
+      "TCL",
+      "TCL P80 Ultra",
+      "Avatar_Ultra_NP",
+      "T952P"
+    ],
+    [
+      "TCL",
+      "TCL P80",
+      "Avatar_Pro",
+      "T853K"
+    ],
+    [
+      "TCL",
+      "TCL P80",
+      "Avatar_Pro",
+      "T853P"
+    ],
+    [
+      "VILLAON",
+      "V60",
+      "VILLAON-V655L",
+      "VILLAON V655L"
+    ],
+    [
+      "Zebra",
+      "HC201",
+      "TCW01L",
+      "HC201L"
+    ],
+    [
+      "realme",
+      "realme P4s Lite",
+      "RE6810",
+      "RMX5398"
     ]
   ]
 }
