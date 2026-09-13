@@ -1,144 +1,66 @@
 {
-  "lastUpdated": "2026-09-12",
-  "newDevicesCount": 23,
+  "lastUpdated": "2026-09-13",
+  "newDevicesCount": 10,
   "newDevices": [
     [
-      "Hosoton",
-      "H-H101_EEA",
-      "H-H101_EEA",
-      "H-H101_EEA"
+      "BNCF",
+      "BPad_T11",
+      "BPad_T11",
+      "BPad T11"
     ],
     [
-      "IRIS_OHYAMA",
-      "TM08F6W74",
-      "TM08F6W74",
-      "TM08F6W74"
+      "Logicom",
+      "Astral",
+      "Astral",
+      "Astral"
     ],
     [
-      "Intex",
-      "Ace2",
-      "Ace2",
-      "Ace2"
+      "Logicom",
+      "Mistral",
+      "Mistral",
+      "Mistral"
     ],
     [
-      "Itel",
-      "itel CITY 300 5G",
-      "itel-C672N",
-      "itel C672N"
+      "MICRODIGIT",
+      "EPIC_G_12",
+      "EPIC_G_12",
+      "EPIC_G_12"
     ],
     [
-      "M-Horse",
-      "M18ProMax",
-      "M18ProMax",
-      "M18ProMax"
+      "MOBODO",
+      "MOBODO MOBO E1",
+      "MOBOE1",
+      "MOBOE1"
     ],
     [
-      "ONERugged",
-      "M80XE",
-      "M80XE",
-      "M80XE"
+      "Nebula",
+      "Nebula X1 Pro",
+      "lavasa",
+      "D2151"
     ],
     [
-      "ORCATAB",
-      "ORCATAB_WT3_Pro",
-      "ORCATAB_WT3_Pro",
-      "WT3 Pro"
+      "Redmi",
+      "REDMI 17C 5G",
+      "tornado",
+      "2607FRNEAG"
     ],
     [
-      "OnePlus",
-      "OnePlus N6 Lite",
-      "OP68FB",
-      "CPH2993"
+      "Tecno",
+      "TECNO POP 20",
+      "TECNO-KN3s",
+      "TECNO KN3"
     ],
     [
-      "Partner_Tech",
-      "Sofia5",
-      "Sofia5",
-      "Sofia5"
+      "spectramobile",
+      "SPECTRA PLAY",
+      "SPECTRA_PLAY",
+      "SPECTRA PLAY"
     ],
     [
-      "RebotAi",
-      "AF13Air_US",
-      "AF13Air_US",
-      "AF13Air_US"
-    ],
-    [
-      "SPC",
-      "ZEUS_HALO_EEA",
-      "ZEUS_HALO",
-      "ZEUS HALO"
-    ],
-    [
-      "Sharp",
-      "AQUOS wish6",
-      "SX6",
-      "A603SH"
-    ],
-    [
-      "Sharp",
-      "AQUOS wish6",
-      "SX6",
-      "A604SH"
-    ],
-    [
-      "Sharp",
-      "AQUOS wish6",
-      "SX6",
-      "SH-M36"
-    ],
-    [
-      "TCL",
-      "TCL P80 Pro",
-      "Avatar_Pro_NP",
-      "T852K"
-    ],
-    [
-      "TCL",
-      "TCL P80 Pro",
-      "Avatar_Pro_NP",
-      "T852P"
-    ],
-    [
-      "TCL",
-      "TCL P80 Ultra",
-      "Avatar_Ultra_NP",
-      "T952K"
-    ],
-    [
-      "TCL",
-      "TCL P80 Ultra",
-      "Avatar_Ultra_NP",
-      "T952P"
-    ],
-    [
-      "TCL",
-      "TCL P80",
-      "Avatar_Pro",
-      "T853K"
-    ],
-    [
-      "TCL",
-      "TCL P80",
-      "Avatar_Pro",
-      "T853P"
-    ],
-    [
-      "VILLAON",
-      "V60",
-      "VILLAON-V655L",
-      "VILLAON V655L"
-    ],
-    [
-      "Zebra",
-      "HC201",
-      "TCW01L",
-      "HC201L"
-    ],
-    [
-      "realme",
-      "realme P4s Lite",
-      "RE6810",
-      "RMX5398"
+      "spectramobile",
+      "SPECTRA_A2",
+      "SPECTRA_A2",
+      "SPECTRA A2"
     ]
   ]
 }
