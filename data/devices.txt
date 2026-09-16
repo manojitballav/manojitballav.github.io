@@ -300,6 +300,7 @@ AIPLUS
 	AI+ NxtFlip 5G	NxtFlip_5G	~	0
 	AI+ Pulse 1	Pulse_1	~	0
 	AI+ Pulse 2 4G	Pulse_2_4G	~	0
+	AIPLUS_PulseTabLite	=	AIXT2604	0
 	Ai+NovaTab	AIPLUS_NovaTab_5G	AIXT2602	0
 	Ai+PulseTab	AIPLUS_PulseTab	AIXT2601	0
 AIS (Thailand)
@@ -2178,6 +2179,7 @@ AngelTech
 	E80M	=	=	0
 	P80	=	=	0
 	PRO_II_16	=	=	0
+	PRO_MAX_16	=	=	0
 	SWAYTOSH_16	=	=	0
 Antel
 	Antel Box2.0	Antel_B866V2FAS	~	0
@@ -4711,6 +4713,7 @@ Biegedy
 	B22-U-EEA	=	B22-EEA	0
 	B22-U-EEA	=	=	0
 	B22-U-US	=	B22-US	0
+	B22_C	=	=	0
 	B22_EEA	=	=	0
 	B22_US	=	=	0
 	B23_US	=	=	0
@@ -6102,6 +6105,7 @@ CEM Global
 CENAVA
 	6769-4G	=	=	0
 	A10ST-5G	=	=	0
+	A18ST	=	=	0
 	A80ST	=	=	0
 	A88ST	=	=	0
 CEPTER
@@ -6746,6 +6750,7 @@ Ceibal
 	CEIBAL_HFP_LT	=	=	0
 	CEIBAL_HFP_LTH	=	=	0
 	GACRUX	=	=	0
+	Heze	H9190L	~	0
 	Ibirapita	A81F	=	0
 	KIL-TAB82WIFI	=	=	0
 	Kil-82WFDC	=	=	0
@@ -7646,6 +7651,7 @@ Conquest
 	conquest_S20_EEA	conquest_S20	=	0
 ConsumerCellular
 	IRIS Connect 2	SN512CC	=	0
+	SpeakEasy Smart	SN512CC	SN512CCM	0
 Contex
 	Egypt	tamachi	AiPlus2K	0
 	Egypt	yeongdeungpo	AiPlus4K	0
@@ -7702,6 +7708,7 @@ Contixo
 	V8	V8_A	~	0
 	V80	=	=	0
 	V8E	V8	=	0
+	V8E_1	V8	=	0
 	V8S	=	=	0
 	V8X	=	=	0
 	V9	CONTIXO-V9	~	0
@@ -8065,6 +8072,7 @@ Crema
 	CREMA0810T	crema0810t	~	0
 Cricket
 	Cricket Debut S2™	U380AC	=	0
+	Cricket Icon® Pro - 2026	SN512C	=	0
 	Cricket Icon™6	SL219C	=	0
 	Cricket Outlast™ 5G	SN509C	=	0
 	Cricket® Dream 5G	EC211001	=	0
@@ -8105,6 +8113,7 @@ Crosscall
 	Action-X5	L752	~	0
 	CORE-M4	=	=	0
 	CORE-M4 GO	CORE-M4-GO	~	0
+	CORE-Z6 450	L790	AD-Z5	0
 	Core- X3	HS8917QC	Core-X3	0
 	Core-M5	L751	~	0
 	Core-M5	L751_02	~	0
@@ -8118,7 +8127,6 @@ Crosscall
 	Core-Z5	L790	~	0
 	Core-Z5	L790_02	~	0
 	Core-Z5P	L790	~	0
-	Core-Z6	L790	AD-Z5	0
 	ODYSSEY	ODYSSEY3G	~	0
 	Stellar-M6	L768	~	0
 	Stellar-M6E	L768	~	0
@@ -8689,6 +8697,7 @@ DMOAO
 	D11_EEA	=	=	0
 	D2_EEA	=	=	0
 	D2_US	=	=	0
+	D3_E	=	=	0
 	D3_EEA	=	=	0
 	D3_EU	=	=	0
 	D3_US	=	=	0
@@ -9171,6 +9180,7 @@ Dghrti
 	TAB30-EU	=	=	0
 	TAB30-W	=	TAB30	0
 	TAB30-W	=	=	0
+	TAB30_E	=	=	0
 	TAB30_EEA	=	=	0
 	TAB30_US	=	=	0
 	TAB50_EEA	=	=	0
@@ -9340,6 +9350,7 @@ Digit
 	DigitPad10	=	=	0
 	Digit_Chrome	=	Digit chrome	0
 	Digit_Glory	Digit_Glory1	Digit Glory1	0
+	Digit_S30	S30	=	0
 	Digit_Tab2	=	=	0
 	Digitplay1	=	=	0
 	NOTE 14	NOTE_14	~	0
@@ -9571,6 +9582,7 @@ DishTV-NZ
 	SV11HD	IAD	~	3
 	SmartVU Freeview Projector | Google TV	tianshan	SVPro1	3
 Disney
+	CTS05	=	=	0
 	DISNEYTAB	=	=	0
 	Frozen_G9	=	=	0
 	Princess_G9	=	=	0
@@ -11610,6 +11622,7 @@ FOSSiBOT
 	F114	=	=	0
 	F115_Ultra	=	F115 Ultra	0
 	F116 Pro	F116_Pro	~	0
+	F118_EEA	F118	=	0
 	F123_EEA	F123	=	0
 	S1	=	=	0
 	S12	=	=	0
@@ -12701,6 +12714,8 @@ GTI-PRO
 GTPL
 	Inspire 4.0	Inspire_4	=	0
 	Shockwave	=	=	0
+GTRONX
+	RSE_GTRONX	=	=	0
 GTX(A)
 	GTX_JACULUS	=	=	0
 	GTX_JACULUS_01	=	=	0
@@ -13641,6 +13656,7 @@ Gtel
 	Gtel X7s	Gtel_X7s	~	0
 	Gtel_Delta_16	=	Gtel Delta 16	0
 	Gtel_Delta_17	=	=	0
+	Gtel_Delta_18	=	=	0
 	Gtel_Infinity_9	=	Gtel Infinity 9	0
 	Gtel_Infinity_X	=	Gtel Infinity X	0
 	Gtel_Vivo3	=	=	0
@@ -13669,6 +13685,7 @@ H133
 	Betacrux	=	=	0
 H3Cmagic
 	M8781	=	=	0
+	M8781A	=	=	0
 H819E
 	MINTAKA	=	=	0
 HAAM
@@ -13809,6 +13826,7 @@ HERAN
 	Smart TV	bridgeport	AI PONT PLUS FF	2
 	Smart TV	dangni	AI PONT	2
 HEROFUN
+	BH1002G	=	=	0
 	BH1002H	=	=	0
 	BH502G	=	=	0
 	BH558G	=	=	0
@@ -15121,6 +15139,7 @@ Hamlet
 	XZPAD414W	=	=	0
 	XZPAD470LTE	=	=	0
 Hammer
+	Blade_6_Pro_EEA	Hammer_Blade_6_Pro	Blade_6_Pro	0
 	Energy_X2_EEA	Hammer_Energy_X2	Energy_X2	0
 	Hammer Blade 3	Hammer_Blade_3	=	0
 	Hammer Blade 4	Hammer_Blade_4	=	0
@@ -15237,6 +15256,7 @@ Helio
 	helio_45	=	helio 45	0
 	helio_55	=	helio 55	0
 	helio_62	=	helio 62	0
+	helio_65	=	helio 65	0
 HelloPro
 	A900	=	=	0
 	PK81R	=	=	0
@@ -16838,6 +16858,7 @@ Hotwav
 	TAB R9 Pro EEA	TAB_R9_Pro	TAB R9 Pro	1
 	TAB_R10_Pro	=	TAB R10 Pro	1
 	TAB_R7	=	TAB R7	1
+	TAB_R7_Pro	=	TAB R7 Pro	1
 	TAB_R9_Pro_Max	=	TAB R9 Pro Max	1
 	Venus	=	=	0
 	W10	=	=	0
@@ -19053,6 +19074,7 @@ IRA (explore more)
 	IRA_T803M	=	=	0
 	IRA_T803M	VPTB8A	Vision Plus Tab 8A	1
 	IRA_T808M	=	=	0
+	IRA_T808M_Wishtel	=	=	0
 	IRA_W801	=	=	0
 	T1015	=	IRA_T1015	0
 	T1015	=	=	0
@@ -19923,12 +19945,14 @@ Invens
 	NOTE_15P_EEA	NOTE_15P	NOTE 15P	0
 	NOTE_5G	=	NOTE 5G	0
 	ONE_1C	=	=	0
+	Power_V1_ROW	Power_V1	Power V1	0
 	S1	=	=	0
 	Spain	nagata	INVES SMART TV	2
 	TK02_EEA	TK02	=	0
 	ULTRA 13P	ULTRA_13P	~	0
 	ULTRA_S25_EEA	ULTRA_S25	ULTRA S25	0
 	ULTRA_S26	=	ULTRA S26	0
+	ULTRA_S26_ROW	ULTRA_S26	ULTRA S26	0
 	UNO	=	=	0
 	WE1	=	=	0
 Inventus
@@ -20208,6 +20232,7 @@ Itel
 	Orange Nola fun 3	Nola_fun_3	~	0
 	P10006L-OP	itel-P10006L	itel P10006L	0
 	P11	itel_P11	itel P11	0
+	P11003L-OP	itel-P11003L	itel P11003L	0
 	P11025G-IN	itel-P11025G	itel P11025G	0
 	P1102GT-OP	itel-P1102GT	itel P1102GT	0
 	P12	itel_P12	itel P12	0
@@ -20530,6 +20555,7 @@ JMGO
 	C61A	holan	~	4
 	C62A	holan	~	4
 	H93A	songni	~	4
+	JMGO N3 Ultimate	shillong	K931AO	4
 	K62A	holan	~	4
 	K80A	holan	~	4
 	N1	songni	S70A	4
@@ -20537,6 +20563,7 @@ JMGO
 	N1S Infinity	lonavla	K92A	4
 	N1S Pro	lonavla	K93A	4
 	N1S SE	sirumalai	K610AO	4
+	O2S Ultra	shillong	T91A	4
 	S91A	lonavla	~	4
 	V62A	holan	~	4
 JMTMEDIA
@@ -20601,6 +20628,7 @@ JTYPDA
 JUEDUR
 	R500 EEA	R500_EEA	=	0
 	R500 US	R500_US	=	0
+	R500_E	=	=	0
 	R500_U	=	=	0
 	R500_V_EEA	=	=	0
 	R500_V_US	=	=	0
@@ -20865,6 +20893,8 @@ Jivi
 	Xtreme_3	=	=	0
 	Xtreme_3x	=	=	0
 	Xtreme_7	=	=	0
+Joacelm
+	JOACELM_JT1	=	JT1	0
 Jooyon
 	J110A	=	=	0
 	J210A	=	=	0
@@ -21129,6 +21159,9 @@ KIRISUN
 	KIRISUN T650	T650	=	0
 KISA phone
 	KPAU04	=	=	0
+KIWISUMI
+	ARMOR_40A_RU	=	ARMOR 40A	0
+	ARMOR_40A_UM	=	ARMOR 40A	0
 KJ_Board
 	KJG IR13	KJG_IR13	KJG_Series	0
 KNC (LK)
@@ -21551,6 +21584,8 @@ Kalley
 	Black_E2C	Black_E2	Black E2	0
 	Black_G4	=	Black G4	0
 	Black_G_2	=	=	0
+	Black_S4	=	Black S4	0
+	Black_S4C	Black_S4	Black S4	0
 	Black_X	=	Black X	0
 	Black_Z	=	=	0
 	Black_Z2	=	Black Z2	0
@@ -22157,6 +22192,7 @@ Kruger_Matz
 	EAGLE_1077S	KM1077S	=	0
 	EAGLE_1078	KM1078	=	0
 	EAGLE_1078S	KM1078S	=	0
+	FLOW_12_EEA	FLOW_12	FLOW 12	0
 	LIVE_12_EEA	LIVE_12	LIVE 12	0
 Kst(TH)
 	KST	KST-900pro	=	0
@@ -26520,6 +26556,7 @@ MYCOM
 	COMEK_Tab_K	=	COMEK Tab K	1
 	COMEK_Tab_K	=	COMEK Tab K10	1
 	COMEK_Tab_K2	=	COMEK Tab K2	1
+	COMEK_Tab_K2	=	COMEK Tab K20	1
 MaQ(Global)
 	M.AI Phone Gen1	MAG1	MA1	0
 Mach Speed
@@ -26684,6 +26721,7 @@ Mason
 	MGQ300	MGQ300A	~	0
 Maspower
 	K7MPT-1011	MPT-1011	=	0
+	K8MPT-1012	MPT-1012	=	0
 Masstel
 	Hapi 15	Masstel_Hapi_15	Masstel Hapi 15	0
 	Hapi_30	Masstel_Hapi_30	Masstel Hapi 30	0
@@ -27297,11 +27335,13 @@ Mengdash
 	M_Q58	=	=	0
 	M_Q58_EEA	=	M_Q58EEA	0
 	M_Q59	=	=	0
+	M_Q59Pro	=	=	0
 Meswao
 	B3	=	=	0
 	B3-EEA	B3	=	0
 	MES-B	=	=	0
 	MES-B3	=	=	0
+	MES-B4	=	=	0
 MetfoneTVBox
 	MetfoneTVBox	DV9135-KCM	~	0
 Metro
@@ -28272,6 +28312,7 @@ Morep
 	Morep Pocket	Morep_Pocket	M320	0
 	Smart V1	Smart_V1	M521	0
 	V6	=	=	0
+	V6_Lite	=	V6 Lite	0
 	v5	morep_v5	=	0
 Mosambee
 	Qphone2 4110	Qphone2_4110	=	0
@@ -30444,6 +30485,7 @@ Niotek
 Nissan
 	NissanConnect	aivi2_b	AIVI2 B	6
 	NissanConnect	aivi2_n_full	AIVI2_N_FULL	6
+	NissanConnect	aivi2e_high	nissan aivi2e high	6
 Nixon
 	The Mission	sculpin	~	0
 Njoy
@@ -31504,13 +31546,13 @@ OnePlus
 	Oneplus_Dosa_IN	=	=	0
 	Open	OP5973L1	CPH2551	0
 	PHP110	OP5927	~	0
+	PYS110	OP68F7L1	~	0
 	Pad 3	OP6190L1	OPD2415	1
 	Pad Go 2	OP6575L1	OPD2504	1
 	Pad Go 2	OP6575L1	OPD2505	1
 	X	OnePlus	ONE E1003	0
 	Y Series	shibuya	~	0
 	一加 Ace 6T	OP6117L1	PLR110	0
-	一加 Turbo 6X	OP68F7L1	PYS110	0
 	一加 Turbo 6X Pro	OP68E3L1	PYR110	0
 	一加平板 2	OP6543L1	OPD2508	0
 	一加平板 2 Pro	OP615EL1	OPD2413	0
@@ -33067,6 +33109,7 @@ PCD LLC
 	P62	=	=	0
 	P65	=	=	0
 	P65L	=	=	0
+	P65PR	=	=	0
 	T85	=	=	0
 	T85US	=	=	0
 PEAQ
@@ -35188,6 +35231,7 @@ Pretech
 	L1108	=	P301_L1108	0
 	L1208	=	=	0
 	WP101	=	=	0
+	WP106	=	=	0
 	WP30	=	=	0
 Prime
 	O9	PRIME_O9	~	0
@@ -35244,7 +35288,9 @@ Pritom
 	L10_T07_EEA	L10_T07	L10	0
 	L10_T13	=	L10	0
 	L10_T13_EEA	=	L10	0
+	L10_T19	=	L10	0
 	L10_T19_EEA	L10_T19	L10	0
+	L10_T19_US	L10_T19	L10	0
 	L8	=	=	0
 	L8-T01	=	=	0
 	L8-T01_EEA	=	=	0
@@ -35279,6 +35325,7 @@ Pritom
 	M10	M10_A05_EEA	~	0
 	M10-EEA	=	=	0
 	M10_001EEA	=	M10	0
+	M10_001US	=	M10	0
 	M10_A01_EEA	=	M10	0
 	M10_A02_EEA	=	TAB 10 MAX	1
 	M10_A06	=	M10	0
@@ -35341,6 +35388,7 @@ Pritom
 	M10_C12_Kids_EEA	=	M10	0
 	M10_C12_Kids_USA	=	M10	0
 	M10_C12_USA	=	M10	0
+	M10_C13	=	=	0
 	M10_Lite	=	=	0
 	M10_Max	=	=	0
 	M10_Max_EEA	=	=	0
@@ -35900,6 +35948,7 @@ RAVOZ
 	RAVOZ Z6 Pro	RAVOZ_Z6_Pro	~	0
 	RAVOZ Z7	RAVOZ_Z7	~	0
 	RAVOZ Z7 Pro	RAVOZ_Z7_Pro	~	0
+	RAVOZ_A7_PRO	=	=	0
 	RAVOZ_V2	=	RAVOZ V2	0
 	RAVOZ_V3	=	RAVOZ V3	0
 	RAVOZ_V5	=	RAVOZ V5	0
@@ -36163,6 +36212,7 @@ RUGSTORM
 	UA100	=	=	0
 	UA80	=	=	0
 RUGTAKE
+	RUGTAKE_T1	=	T1	0
 	RUGTAKE_T5Pro	=	RUGTAKE_T5 Pro	0
 RUSHAR
 	M132-EEA	=	=	0
@@ -36921,6 +36971,9 @@ Relndoo
 	P90_US	P90	=	0
 	P90_Y_EEA	P90_Y	P90	0
 	P90_Y_US	P90_Y	P90	0
+	S90_S_EEA	S90_S	S90	0
+	S90_S_ROW	S90_S	S90	0
+	S90_S_US	S90_S	S90	0
 	T10-M	=	T10	0
 	T10P	=	=	0
 	T10P_A	=	T10P	0
@@ -37923,6 +37976,7 @@ SUAAT
 	G2_S_EEA	G2_EEA	~	0
 	G2_S_US	G2_US	~	0
 	G2_S_US	G2_US	=	0
+	S10_E	=	=	0
 	S10_U_EEA	=	S10_EEA	0
 	S10_U_EEA	=	=	0
 	S10_U_US	=	S10_US	0
@@ -38010,6 +38064,7 @@ SUPERSONIC
 	SC_774KT	=	=	0
 	SC_779KT	=	SC-779KT	0
 	SC_780KT	=	SC-780KT	0
+	SC_790KT	=	SC-790KT	0
 	Smart TV	kanda	SUPERSONIC 2K Smart TV	2
 	Smart TV	mateo	2K US Smart TV	2
 	TAB7091	=	=	0
@@ -44199,10 +44254,12 @@ Stylo
 	DVK82 Mercury	DVK82_Mercury	~	0
 	DVK87_Orion 8_Tab	DVK87_Orion_8_Tab	DVK87 Orion 8 Tab	1
 	Destiny	=	=	0
+	ECLIPSE_PLUS_TAB_10	=	ECLIPSE PLUS TAB 10	1
 	ECLIPSE_TAB_8	=	ECLIPSE TAB 8	1
 	ECLIPSE_TAB_8	=	STYLO ECLIPSE TAB 8	1
 	EOA39_STYLO_AXIS	=	EOA39-STYLO AXIS	0
 	ERA	Smart_Phone	EPY32	0
+	EWT56_STYLO_VALOR	=	EWT56_STYLO VALOR	0
 	Energy	=	=	0
 	GRAVITY_PLUS_TAB_10	=	GRAVITY PLUS TAB 10	1
 	GRAVITY_TAB_8	=	GRAVITY TAB 8	1
@@ -44262,6 +44319,7 @@ Stylo
 	STYLO MAX	Stylo_Max	MAX	0
 	STYLOF1	=	STYLO F1	0
 	STYLO_DASH	DASH	=	6
+	STYLO_ELEVATE	=	=	0
 	STYLO_GEO	GEO	=	0
 	STYLO_MESA	MESA	=	0
 	STYLO_S61	=	STYLO SM61 MAGIC+	0
@@ -44700,6 +44758,7 @@ TABWEE
 	T30_NEU	=	T30	0
 	T30_US	=	T30	0
 	T50_EEA	T50	=	0
+	T50_US	T50	=	0
 	T60_EA	T60	=	0
 	T60_NEU	T60	=	0
 	T60_Pro_US	T60_Pro	T60 Pro	0
@@ -44712,10 +44771,12 @@ TABWEE
 	T90_NEU	T90	=	0
 	T90_US	T90	=	0
 	V20_EEA	=	V20	0
+	V20_NEU	=	V20	0
 	V20_US	=	V20	0
 	V90_EEA	=	=	0
 	V90_NEU	=	=	0
 	V90_US	=	=	0
+	W80_EEA	W80	=	0
 	W80_NEU	W80	=	0
 	W80_US	W80	=	0
 	W90_EEA	W90	=	0
@@ -47299,6 +47360,7 @@ Teclast
 	P50_B_EEA	=	P50	0
 	P50_B_EEA	=	P50_B	0
 	P50_B_EEA	=	=	0
+	P50_B_US	=	=	0
 	P50_EEA	P50	~	0
 	P50_EEA	=	P50	0
 	P50_ROW	P50	~	0
@@ -48739,6 +48801,7 @@ UJJ(SZ)
 	U6_V_US	=	=	0
 	U7_EEA	=	=	0
 	U7_US	=	=	0
+	U8_E	=	=	0
 	U8_EEA	=	=	0
 	U8_US	=	=	0
 	U8_V_EEA	=	=	0
@@ -48831,6 +48894,7 @@ URAO
 	X108_EEA	X108	=	0
 	X109K_EEA	X109K	=	0
 	X109K_G	X109K	=	0
+	X109K_US	X109K	=	0
 USA111
 	IRULU X11	iRULU-X11	iRULU X11	0
 	IRULU X9	X9	=	0
@@ -52462,6 +52526,7 @@ X-Age
 	Leap_Plus	=	X-AGE	0
 	Tab40	=	=	0
 	Tab_31	=	=	0
+	X_AGE_Leap	=	=	0
 	X_AGE_Leap_1	=	X-AGE Leap 1	0
 	X_AGE_Snap_1	=	X-AGE Snap 1	0
 X-PREMIUM
@@ -53404,6 +53469,7 @@ ZEED
 	Z-PAD_PRO	ZP210P	Z-PAD PRO ZP210P	1
 	Z-PAD_ULTRA	ZP210U	Z-PAD ULTRA ZP210U	1
 	ZEED Z-ONE	Z210	=	0
+	ZEED_ZSLIM5G_TR	Z520	=	0
 ZEEKER
 	ZEEKER_P10	=	ZEEKER P10	0
 	ZEEKER_P10_EEA	ZEEKER_P10	ZEEKER P10	0
@@ -56035,6 +56101,7 @@ firstIT
 	Interactive_whiteboard	FIT_G8613TCVR	=	0
 fiscat
 	fap5_rk76	=	=	0
+	fap6_rk76	=	=	0
 fplus
 	H166	=	=	0
 	Life Tab Plus	lifetabplus	LifeTabPlus	1
@@ -56734,6 +56801,7 @@ leaderhub
 	S21	=	=	0
 loopDL
 	Loop	theloop_ROW	=	0
+	LoopPhone	=	=	0
 mMax
 	mMax M55	M55	=	0
 memetech
@@ -56893,6 +56961,7 @@ raemond
 	K80_US_BND	=	K80	0
 	K90Pro_EEA_BND	=	=	0
 	K90Pro_ROW_BND	=	K90Pro	0
+	K90Pro_US_BND	=	K90Pro	0
 	L30_US_YK	=	L30	0
 	L90_EEA	L90	=	0
 	L90_ROW	L90	=	0
@@ -57435,6 +57504,7 @@ vivo
 	T4 Pro	V2511	V2510	0
 	T4 Ultra	V2504	=	0
 	T5	V2543	V2583	0
+	T5 5G	V2607	=	0
 	T5 Lite 44W 5G	V2553	V2557	0
 	T5 Pro	V2529	V2602	0
 	T5 Pro 5G	V2568	=	0
@@ -57541,6 +57611,7 @@ vivo
 	Y500i	PD2531	V2531A	0
 	Y500i AI版	PD2531	V2531A	0
 	Y500i m版	PD2531	V2531A	0
+	Y500k	PD2617	V2617A	0
 	Y500s	PD2531	V2531A	0
 	Y500s AI版	PD2531	V2531A	0
 	Y50c	PD2443	V2443BA	0
