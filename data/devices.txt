@@ -19695,6 +19695,7 @@ Infocus
 	InFocus M6S	AH2	IF9003	0
 	InFocus M7 Lite	A02	IF9031	0
 	InFocus M7S	A08	IF9031	0
+	JTOUCH_26_ADVANCED_SERIES	D022	~	0
 	JTouch 13e	D014	JTouch_Series_13ea	0
 	JTouch 13e	D014	JTouch_Series_13eb	0
 	JTouch Series 13	D011	JTouch_Series_13	0
@@ -27322,6 +27323,7 @@ Meizu
 Melefon
 	Good	=	=	0
 Melita
+	Melita-4K-IP-TV	DV9651-KMM	~	2
 	Melita-4K-TV	DV8955C-C-KMM	DV8955C-C	2
 Memorex
 	MTAB-07530A	=	=	0
