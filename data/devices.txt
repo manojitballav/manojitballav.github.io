@@ -943,6 +943,7 @@ Acer
 	ARSP25MTA14A1	=	=	0
 	AS10L	=	=	0
 	AS10L_A16	=	AS10L	0
+	AS10L_A16_N	=	AS10L	0
 	AS10W	=	=	0
 	AS10WF	=	=	0
 	AS10WF_NEO_EEA	AS10WF_NEO	AS10WF NEO	0
@@ -6104,6 +6105,7 @@ CEM Global
 	HS29779-18	=	=	0
 CENAVA
 	6769-4G	=	=	0
+	A1095Z-5G	=	=	0
 	A10ST-5G	=	=	0
 	A18ST	=	=	0
 	A80ST	=	=	0
@@ -8822,6 +8824,7 @@ Daewoo
 	DAEWOO	lavender	4K SMART TV	2
 	DAEWOO	mountbaker	2K SMART TV	2
 	DAEWOO	mountbaker	DAEWOO SMART TV	2
+	DAEWOO AI SMART TV	alameda	~	2
 	DAEWOO AI SMART TV	beomil	~	2
 	DAEWOO AI SMART TV	eleonas	~	2
 	DAEWOO AI SMART TV	katehaki	~	2
@@ -19504,6 +19507,8 @@ Infinix
 	Infinix SMART 8 Pro	Infinix-X6525B	Infinix X6525B	0
 	Infinix SMART 9 HD	Infinix-X6532C	Infinix X6532C	0
 	Infinix TV	beomil	~	2
+	Infinix TV	eleonas	~	2
+	Infinix TV	katehaki	~	2
 	Infinix X5010	Infinix-X5010	~	0
 	Infinix X510	Infinix_X510_sprout	~	0
 	Infinix X559	Infinix-X559	~	0
@@ -19696,6 +19701,7 @@ Infocus
 	InFocus M7 Lite	A02	IF9031	0
 	InFocus M7S	A08	IF9031	0
 	JTOUCH_26_ADVANCED_SERIES	D022	~	0
+	JTOUCH_26_ESSENTIAL_SERIES	D021	~	0
 	JTouch 13e	D014	JTouch_Series_13ea	0
 	JTouch 13e	D014	JTouch_Series_13eb	0
 	JTouch Series 13	D011	JTouch_Series_13	0
@@ -20117,6 +20123,7 @@ Iris
 	G7060	=	=	0
 	G7100	=	=	0
 	G8060	=	=	0
+	IRIS 2K SmartTV	alameda	~	0
 	IRIS 2K SmartTV	beomil	~	0
 	IRIS 2K SmartTV	umeda	~	0
 	IRIS 4K Android TV	SW4H_FF	~	2
@@ -20466,6 +20473,7 @@ Itel
 	itel Super 26 Ultra	itel-S688LN	itel S688LN	0
 	itel TV	beomil	~	2
 	itel TV	eleonas	~	2
+	itel TV	katehaki	~	2
 	itel TV	shibuya	~	2
 	itel V41	itel-W4001S	itel W4001S	0
 	itel V51 LTE	itel-L5007S	itel L5007S	0
@@ -20819,6 +20827,7 @@ Jckkcfug
 	A20_EEA_YK	A20_YK	A20	0
 	A20_ROW_YK	A20_YK	A20	0
 	A20_US_YK	A20_YK	A20	0
+	B10_US	=	B10	0
 	M70_B	=	M70	0
 Jeazans
 	A13	=	=	0
@@ -27372,6 +27381,7 @@ MiTAC
 	N672	hera_pro	~	0
 	hera_pro	=	N672	0
 	hera_pro_eea	hera_pro	N672	0
+	hera_pro_se	=	N962	0
 	phaeton	=	N722	0
 MicroTouch
 	IDC_Series	=	=	0
@@ -33768,6 +33778,7 @@ Panasonic
 	Panasonic	Jupiter	4KTV-JUP	2
 	Panasonic 2021 UHD Android TV	OD0M_EA_T32	~	2
 	Panasonic 2021 UHD Android TV	OD0M_EA_T32	Panasonic UHD TV	2
+	Panasonic 2K TV	alameda	~	2
 	Panasonic 2K TV	beomil	~	2
 	Panasonic 2K TV LA	beomil	~	2
 	Panasonic 4K TV US	sapporo	~	2
@@ -36958,6 +36969,7 @@ Relndoo
 	P30_U	=	P30	0
 	P30_US	=	P30	0
 	P60-U1	=	=	0
+	P60-U2	=	P60	0
 	P60_EEA	=	P60	0
 	P60_EUR	=	=	0
 	P60_ROW	=	P60	0
@@ -36973,6 +36985,8 @@ Relndoo
 	P90_US	P90	=	0
 	P90_Y_EEA	P90_Y	P90	0
 	P90_Y_US	P90_Y	P90	0
+	S80-EEA	S80	=	0
+	S80-ROW	S80	=	0
 	S90_S_EEA	S90_S	S90	0
 	S90_S_ROW	S90_S	S90	0
 	S90_S_US	S90_S	S90	0
@@ -37243,6 +37257,7 @@ Ruio
 	RS2632-AU	=	=	0
 	RUIO S5506	S5506	=	0
 	RUIO S6518	S6518	=	0
+	RUIO ZIP	RUIO_ZIP	RS2503	0
 	RUIO ZIP	RUIO_ZIP	RS2503-AU	0
 	RUIO i7c Tablet	i7c	=	1
 	RUIO_S518	=	S518	0
@@ -38114,6 +38129,7 @@ SVITOO
 	P11	=	P13	0
 	P11_R_EEA	P11_R	=	0
 	P11_R_ROW	P11_R	=	0
+	P11_R_USA	P11_R	=	0
 	P11_T_ROW	P11_T	=	0
 	P11_T_US	P11_T	=	0
 	P11_pro	P11	=	0
@@ -38205,6 +38221,7 @@ SWTV
 	SWTV-25NA-4K	katehaki	~	0
 	SWTV-25SA-4K	katehaki	~	0
 	SWTV-25TGL-4K	katehaki	~	0
+	SWTV-26AE-2KA5	alameda	~	0
 	SWTV-26AE-4K	sapporo	~	0
 	SWTV-26AE-4K NF	sapporo	~	0
 	SWTV-26HK-4K	sapporo	~	0
@@ -43973,6 +43990,7 @@ SparX
 	Neo 7 Ultra	Neo_7_Ultra	Sparx Neo 7 Ultra	0
 	Neo 7 Ultra	Neo_7_Ultra	Sparx Neo 7 Ultra 8GB	0
 	Neo 8 Lite	Neo8Lite	~	0
+	Neo_16	=	=	0
 	Neo_X	=	Neo X	0
 	Note 12	Note_12	~	0
 	Note_20	=	Note 20	0
@@ -46847,6 +46865,7 @@ TOPELOTEK
 	KIDS08-X8	=	=	0
 	KIDS09S	=	=	0
 	KIDS707	TOPELOTEK_KIDS707	~	0
+	KIDS707A_708A	KIDS707A-708	=	0
 	KIDS708	=	=	0
 	KIDS708_709A	=	KIDS708-709A	0
 	KIDS709	=	=	0
@@ -47313,6 +47332,10 @@ Teclast
 	P30T_ROW	P30T_B	~	0
 	P30T_ROW	=	P30T	0
 	P30T_ROW	=	=	0
+	P30T_YB_EEA	P30T_YB	P30T	0
+	P30T_YB_ROW	P30T_YB	P30T	0
+	P30T_YB_RU	P30T_YB	P30T	0
+	P30T_YB_US	P30T_YB	P30T	0
 	P30T_Y_EEA	P30T_Y	=	0
 	P30T_Y_ROW	P30T_Y	P30T	0
 	P30T_Y_ROW	P30T_Y	=	0
@@ -48078,6 +48101,7 @@ Telefunken
 	TF5X	=	=	0
 	TF6	=	=	0
 	TF600	=	=	0
+	Telefunken 2K SmartTV	alameda	~	0
 	Telefunken 4K TV	sapporo	~	2
 	TelefunkenTV	shibuya	~	0
 	VP73_Telefunken	Telefunken	~	0
@@ -48183,6 +48207,7 @@ Telpo
 	M1K	=	=	0
 	M1T	=	Mobile POS	7
 	M8	=	M8 for arm64	0
+	MX	=	=	0
 	P9	=	P9_arm64	0
 Telus
 	HMB2213PW22TS	=	=	0
@@ -48288,6 +48313,7 @@ Thomson
 	PRIMO8 Tablet	AMLMY8306P	PRIMO8	1
 	Pad_Pro_EEA	Pad_Pro	=	0
 	Pad_Pro_NEU	Pad_Pro	=	0
+	Pad_SE_EEA	Pad_SE	=	0
 	R3	=	=	0
 	R4	=	=	0
 	SPPL	dongli	SPPL 4K 65P	0
@@ -53144,6 +53170,8 @@ Xmobile
 	X8ProUSNal	=	X8Pro	0
 	X_55B	=	X55	0
 	Xmovi_X8	=	X8	0
+Xnano
+	GT350	coorg	~	0
 Xolo
 	Era 2X 2GB	XE2X	Era 2X	0
 	Era 2X 3GB	XE2X3GB	~	0
@@ -53313,6 +53341,7 @@ Yandex
 	Amber	=	YNDX-000SB	0
 	YNDX-000SB	Amber	~	0
 Yasin
+	Smart TV	dangni	AI PONT	2
 	YASIN	elliniko	4K SMART TV	2
 	YASIN	komagome	YASIN 2K Android TV	2
 	YASIN 2K G Smart TV	umeda	~	2
