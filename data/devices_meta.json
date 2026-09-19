@@ -1,174 +1,48 @@
 {
-  "lastUpdated": "2026-09-18",
-  "newDevicesCount": 28,
+  "lastUpdated": "2026-09-19",
+  "newDevicesCount": 7,
   "newDevices": [
     [
-      "Acer",
-      "AS10L_A16_N",
-      "AS10L_A16_N",
-      "AS10L"
+      "Casper",
+      "PAD_D10",
+      "PAD_D10",
+      "CTP100"
     ],
     [
-      "CENAVA",
-      "A1095Z-5G",
-      "A1095Z-5G",
-      "A1095Z-5G"
+      "Mediacom",
+      "M-SP11AZ48",
+      "M-SP11AZ48",
+      "Azimut_4_lite"
     ],
     [
-      "Daewoo",
-      "DAEWOO AI SMART TV",
-      "alameda",
-      "DAEWOO AI SMART TV"
+      "Oppo",
+      "PYC110",
+      "OP620DL1",
+      "PYC110"
     ],
     [
-      "Infinix",
-      "Infinix TV",
-      "eleonas",
-      "Infinix TV"
+      "Pritom",
+      "K7_A08_US",
+      "K7_A08_US",
+      "K7"
     ],
     [
-      "Infinix",
-      "Infinix TV",
-      "katehaki",
-      "Infinix TV"
+      "Samsung",
+      "Galaxy A37 5G",
+      "a37x",
+      "SM-A376N"
     ],
     [
-      "Infocus",
-      "JTOUCH_26_ESSENTIAL_SERIES",
-      "D021",
-      "JTOUCH_26_ESSENTIAL_SERIES"
+      "Sharp",
+      "R3GS",
+      "R3GS",
+      "R3GS"
     ],
     [
-      "Iris",
-      "IRIS 2K SmartTV",
-      "alameda",
-      "IRIS 2K SmartTV"
-    ],
-    [
-      "Itel",
-      "itel TV",
-      "katehaki",
-      "itel TV"
-    ],
-    [
-      "Jckkcfug",
-      "B10_US",
-      "B10_US",
-      "B10"
-    ],
-    [
-      "MiTAC",
-      "hera_pro_se",
-      "hera_pro_se",
-      "N962"
-    ],
-    [
-      "Panasonic",
-      "Panasonic 2K TV",
-      "alameda",
-      "Panasonic 2K TV"
-    ],
-    [
-      "Relndoo",
-      "P60-U2",
-      "P60-U2",
-      "P60"
-    ],
-    [
-      "Relndoo",
-      "S80-EEA",
-      "S80",
-      "S80"
-    ],
-    [
-      "Relndoo",
-      "S80-ROW",
-      "S80",
-      "S80"
-    ],
-    [
-      "Ruio",
-      "RUIO ZIP",
-      "RUIO_ZIP",
-      "RS2503"
-    ],
-    [
-      "SVITOO",
-      "P11_R_USA",
-      "P11_R",
-      "P11_R"
-    ],
-    [
-      "SWTV",
-      "SWTV-26AE-2KA5",
-      "alameda",
-      "SWTV-26AE-2KA5"
-    ],
-    [
-      "SparX",
-      "Neo_16",
-      "Neo_16",
-      "Neo_16"
-    ],
-    [
-      "TOPELOTEK",
-      "KIDS707A_708A",
-      "KIDS707A-708",
-      "KIDS707A-708"
-    ],
-    [
-      "Teclast",
-      "P30T_YB_EEA",
-      "P30T_YB",
-      "P30T"
-    ],
-    [
-      "Teclast",
-      "P30T_YB_ROW",
-      "P30T_YB",
-      "P30T"
-    ],
-    [
-      "Teclast",
-      "P30T_YB_RU",
-      "P30T_YB",
-      "P30T"
-    ],
-    [
-      "Teclast",
-      "P30T_YB_US",
-      "P30T_YB",
-      "P30T"
-    ],
-    [
-      "Telefunken",
-      "Telefunken 2K SmartTV",
-      "alameda",
-      "Telefunken 2K SmartTV"
-    ],
-    [
-      "Telpo",
-      "MX",
-      "MX",
-      "MX"
-    ],
-    [
-      "Thomson",
-      "Pad_SE_EEA",
-      "Pad_SE",
-      "Pad_SE"
-    ],
-    [
-      "Xnano",
-      "GT350",
-      "coorg",
-      "GT350"
-    ],
-    [
-      "Yasin",
-      "Smart TV",
-      "dangni",
-      "AI PONT"
+      "vivo",
+      "Y600k Turbo",
+      "PD2553",
+      "V2553A"
     ]
   ]
 }
