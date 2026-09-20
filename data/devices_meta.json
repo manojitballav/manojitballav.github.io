@@ -1,48 +1,48 @@
 {
-  "lastUpdated": "2026-09-19",
+  "lastUpdated": "2026-09-20",
   "newDevicesCount": 7,
   "newDevices": [
     [
-      "Casper",
-      "PAD_D10",
-      "PAD_D10",
-      "CTP100"
+      "Hisense",
+      "HLTE243E",
+      "HLTE243E",
+      "Hisense U55"
     ],
     [
-      "Mediacom",
-      "M-SP11AZ48",
-      "M-SP11AZ48",
-      "Azimut_4_lite"
+      "Kyocera",
+      "DuraForce EX2",
+      "KY25M-RG200",
+      "KC-S704"
+    ],
+    [
+      "ONERugged",
+      "M80X",
+      "M80X",
+      "M80X"
     ],
     [
       "Oppo",
-      "PYC110",
-      "OP620DL1",
-      "PYC110"
+      "K14 Plus 5G",
+      "OP62B9L1",
+      "CPH3009"
     ],
     [
-      "Pritom",
-      "K7_A08_US",
-      "K7_A08_US",
-      "K7"
+      "Orange",
+      "Orange Video Soundbox",
+      "m393_vsb",
+      "Video Soundbox"
     ],
     [
-      "Samsung",
-      "Galaxy A37 5G",
-      "a37x",
-      "SM-A376N"
+      "iMin",
+      "Penguin 1 mini",
+      "Penguin1mini",
+      "I26K01"
     ],
     [
-      "Sharp",
-      "R3GS",
-      "R3GS",
-      "R3GS"
-    ],
-    [
-      "vivo",
-      "Y600k Turbo",
-      "PD2553",
-      "V2553A"
+      "iMin",
+      "Penguin1",
+      "Penguin1",
+      "I26K02"
     ]
   ]
 }

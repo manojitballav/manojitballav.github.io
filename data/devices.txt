@@ -15626,6 +15626,7 @@ Hisense
 	HLTE243E	=	Hisense T3	0
 	HLTE243E	=	Hisense T55	0
 	HLTE243E	=	Hisense U43	0
+	HLTE243E	=	Hisense U55	0
 	HLTE243E	=	Hisense U967	0
 	HLTE243E	=	Hisense U968	0
 	HLTE243E	=	Hisense Y83 Pro	0
@@ -22299,6 +22300,7 @@ Kyocera
 	DuraForce EX	KY23L-RG100	A301KC	0
 	DuraForce EX	KY23L-RG100	KC-S603	0
 	DuraForce EX	KY23L-RG100	KC-S703	0
+	DuraForce EX2	KY25M-RG200	KC-S704	0
 	DuraForce PRO	E6820	KYOCERA-E6820	0
 	DuraForce PRO	E6820TM_3GB	E6820TM	0
 	DuraForce PRO	E6820_3GB	KYOCERA-E6820	0
@@ -31081,6 +31083,7 @@ ONERugged
 	M185QE	=	=	0
 	M195T	=	=	0
 	M19TE	=	=	0
+	M80X	=	=	0
 	M80XE	=	=	0
 	M86X	=	=	0
 	M86XE	=	=	0
@@ -32057,6 +32060,7 @@ Oppo
 	K13x 5G	OP5EF7L1	CPH2753	0
 	K14 5G	OP5F2BL1	CPH2869	0
 	K14 Lite	OP632F	CPH3007	0
+	K14 Plus 5G	OP62B9L1	CPH3009	0
 	K14x 5G	OP5F2BL1	CPH2871	0
 	K15 Pro	OP61E9L1	PMH110	0
 	K15 Pro+	OP61E5L1	PMG110	0
@@ -32526,6 +32530,7 @@ Orange
 	Orange Rise 53	Rise_53	~	0
 	Orange SK VSB3918	eu_vsb3918	EU AVSB 3918	0
 	Orange V652L	Orange-V652L	~	0
+	Orange Video Soundbox	m393_vsb	Video Soundbox	0
 	Orange_Tab_7_4G	=	=	0
 	Orange_Tab_8_4G	=	=	0
 	Race_1	=	Race 1	0
@@ -56522,6 +56527,8 @@ iMin
 	I24D02	Swan2	~	0
 	I24T03	Falcon2Max	~	0
 	Lark 1	Lark1	I24P01	0
+	Penguin 1 mini	Penguin1mini	I26K01	0
+	Penguin1	=	I26K02	0
 	Roc 1	Roc1	I25M01	0
 	Roc 1 Max	Roc1Max	I25M02	0
 	Swan 1 Pro	Swan1Pro	I23D02	0
