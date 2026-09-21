@@ -1,48 +1,60 @@
 {
-  "lastUpdated": "2026-09-20",
-  "newDevicesCount": 7,
+  "lastUpdated": "2026-09-21",
+  "newDevicesCount": 9,
   "newDevices": [
     [
-      "Hisense",
-      "HLTE243E",
-      "HLTE243E",
-      "Hisense U55"
+      "DEERTiME",
+      "E15_E",
+      "E15_E",
+      "E15_E"
     ],
     [
-      "Kyocera",
-      "DuraForce EX2",
-      "KY25M-RG200",
-      "KC-S704"
+      "DigiLand",
+      "M10AA",
+      "M10AA",
+      "R10Pro"
     ],
     [
-      "ONERugged",
-      "M80X",
-      "M80X",
-      "M80X"
+      "ETELPREMIUM",
+      "ETEL_P69",
+      "ETEL_P69",
+      "ETEL_P69"
     ],
     [
-      "Oppo",
-      "K14 Plus 5G",
-      "OP62B9L1",
-      "CPH3009"
+      "POCO",
+      "POCO X8",
+      "iolite",
+      "2607DPC18I"
     ],
     [
-      "Orange",
-      "Orange Video Soundbox",
-      "m393_vsb",
-      "Video Soundbox"
+      "Plimpton",
+      "iKids20_A16_JAE",
+      "iKids20_A16_JAE",
+      "iKids20_A16_JAE"
+    ],
+    [
+      "Redmi",
+      "REDMI Note 17 Pro 5G",
+      "iolite",
+      "2607DRA18I"
+    ],
+    [
+      "WAWLYN",
+      "Wynn_Pad_EEA",
+      "Wynn_Pad_EEA",
+      "Wynn_Pad_EEA"
     ],
     [
       "iMin",
-      "Penguin 1 mini",
-      "Penguin1mini",
-      "I26K01"
+      "Penguin 1 Pro mini",
+      "Penguin1Promini",
+      "I26K03"
     ],
     [
-      "iMin",
-      "Penguin1",
-      "Penguin1",
-      "I26K02"
+      "realme",
+      "realme C01",
+      "RE67EF",
+      "RMX5399"
     ]
   ]
 }

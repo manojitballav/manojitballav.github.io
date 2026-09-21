@@ -8370,6 +8370,7 @@ DEERTiME
 	E10_US	=	=	0
 	E11_EEA	=	=	0
 	E11_US	=	=	0
+	E15_E	=	=	0
 	E15_EEA	=	=	0
 	E15_US	=	=	0
 	E15_V_EEA	=	=	0
@@ -9290,6 +9291,7 @@ DigiLand
 	KTAB17	=	=	0
 	Leotec	mid1016_mk_32	Supernova	0
 	M10AA	=	=	0
+	M10AA	=	R10Pro	0
 	MID1008_Digiland	mid1008	DL1008M	0
 	MID8006_Digiland	mid8006_mk_32	=	0
 	NBDVDTAB9	=	=	0
@@ -10574,6 +10576,7 @@ ETELPREMIUM
 	ETEL P29	ETEL_P29	~	0
 	ETEL P65	ETEL-P65	=	0
 	ETEL P66	ETEL-P66	=	0
+	ETEL_P69	=	=	0
 	Etel P64	Etel_P64	=	0
 	Etel P64 Ultra	Etel_P64	~	0
 	NOTE 25 ULTRA	NOTE_25_ULTRA	N2500	0
@@ -33396,6 +33399,7 @@ POCO
 	POCO X7 Pro	rodin	2412DPC0AG	0
 	POCO X7 Pro	rodin	2412DPC0AI	0
 	POCO X8	iolite	2607DPC18G	0
+	POCO X8	iolite	2607DPC18I	0
 	POCO X8 Pro	klee	2511FPC34G	0
 	POCO X8 Pro	klee	2511FPC34I	0
 	POCO X8 Pro Max	dash	2602BPC18G	0
@@ -34419,6 +34423,7 @@ Plimpton
 	PlimPad_P60	=	=	0
 	PlimPad_P60_Pro	=	=	0
 	X100	=	=	0
+	iKids20_A16_JAE	=	=	0
 	kids20A15_A537	=	=	0
 Plum
 	Phantom3	Z621	=	0
@@ -36560,6 +36565,7 @@ Redmi
 	REDMI Note 17 5G	mist	26081RA18L	0
 	REDMI Note 17 Pro	iolite	2607DRA18C	0
 	REDMI Note 17 Pro 5G	iolite	2607DRA18G	0
+	REDMI Note 17 Pro 5G	iolite	2607DRA18I	0
 	REDMI Note 17 Pro 5G	iolite	2607DRA18T	0
 	REDMI Note 17 Pro Max 5G	brussels	2609FRA74G	0
 	REDMI Pad 2	taiko	25040RP0AC	1
@@ -51749,6 +51755,8 @@ WAOO
 	Waoo TV-boks	m393gena_w	~	2
 WARP
 	TAB-WP11	=	=	1
+WAWLYN
+	Wynn_Pad_EEA	=	=	0
 WCED
 	H1010_M50	=	=	0
 WELLS_BOARD
@@ -56527,6 +56535,7 @@ iMin
 	I24D02	Swan2	~	0
 	I24T03	Falcon2Max	~	0
 	Lark 1	Lark1	I24P01	0
+	Penguin 1 Pro mini	Penguin1Promini	I26K03	0
 	Penguin 1 mini	Penguin1mini	I26K01	0
 	Penguin1	=	I26K02	0
 	Roc 1	Roc1	I25M01	0
@@ -57159,6 +57168,7 @@ realme
 	realme 9i	RED8C1L1	RMX3492	0
 	realme 9i	RED8C1L1	RMX3493	0
 	realme 9i 5G	RE588DL1	RMX3612	0
+	realme C01	RE67EF	RMX5399	0
 	realme C100	RE646B	RMX5353	0
 	realme C100 5G	RE6478L1	RMX5258	0
 	realme C100d	RE6802	RMX5363	0
