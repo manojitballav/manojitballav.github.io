@@ -1,24 +1,36 @@
 {
-  "lastUpdated": "2026-09-22",
-  "newDevicesCount": 3,
+  "lastUpdated": "2026-09-23",
+  "newDevicesCount": 5,
   "newDevices": [
     [
-      "Oppo",
-      "A7 Pro 5G",
-      "OP623EL1",
-      "CPH2931"
+      "Gigaset",
+      "GS6 PRO",
+      "GS6_Venus",
+      "EE940-3043-00"
     ],
     [
-      "Oppo",
-      "F35 5G",
-      "OP623EL1",
-      "CPH2931"
+      "Honeywell",
+      "RT710",
+      "RT710",
+      "RT710"
     ],
     [
-      "vivo",
-      "S60t",
-      "PD2620",
-      "V2620A"
+      "Lenovo",
+      "Lenovo Idea Tab / Lenovo Tab K11 Gen 2",
+      "TB336ZA",
+      "TB336ZA"
+    ],
+    [
+      "Mediacom",
+      "M-SP11AZ48",
+      "M-SP11AZ48",
+      "AZIMUT_4_LITE"
+    ],
+    [
+      "Philips",
+      "7231 series",
+      "piraeus",
+      "Philips Google TV TC1"
     ]
   ]
 }
