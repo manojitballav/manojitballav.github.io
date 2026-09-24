@@ -1,36 +1,102 @@
 {
-  "lastUpdated": "2026-09-23",
-  "newDevicesCount": 5,
+  "lastUpdated": "2026-09-24",
+  "newDevicesCount": 16,
   "newDevices": [
     [
-      "Gigaset",
-      "GS6 PRO",
-      "GS6_Venus",
-      "EE940-3043-00"
+      "DEVOPS",
+      "DEVOPS-RK3576",
+      "DEVOPS_RK3576",
+      "DEVOPS_RK3576"
     ],
     [
-      "Honeywell",
-      "RT710",
-      "RT710",
-      "RT710"
+      "H3Cmagic",
+      "M8781A_EU",
+      "M8781A",
+      "M8781A"
     ],
     [
-      "Lenovo",
-      "Lenovo Idea Tab / Lenovo Tab K11 Gen 2",
-      "TB336ZA",
-      "TB336ZA"
+      "MagentaTV",
+      "TV Box",
+      "HY44G",
+      "TV Box"
     ],
     [
-      "Mediacom",
-      "M-SP11AZ48",
-      "M-SP11AZ48",
-      "AZIMUT_4_LITE"
+      "Motorola",
+      "moto pad 70",
+      "XT2673-1",
+      "XT2673-1"
     ],
     [
-      "Philips",
-      "7231 series",
-      "piraeus",
-      "Philips Google TV TC1"
+      "Motorola",
+      "moto pad 70",
+      "XT2673-2",
+      "XT2673-2"
+    ],
+    [
+      "ONVO",
+      "ONVO",
+      "elliniko",
+      "Onvo Smart TV"
+    ],
+    [
+      "Teachmint_X",
+      "Teachmint_XC",
+      "Teachmint_XC",
+      "Teachmint_XC"
+    ],
+    [
+      "Volvo",
+      "Volvo",
+      "moose_uxc10",
+      "moose on uxc10"
+    ],
+    [
+      "ZEED",
+      "Z-PAD_SE",
+      "ZP105-SE",
+      "Z-PAD SE ZP105-SE"
+    ],
+    [
+      "iMin",
+      "Penguin1Pro",
+      "Penguin1Pro",
+      "I26K04"
+    ],
+    [
+      "myBoard",
+      "myBoard_Horizon",
+      "myBoard_Horizon",
+      "myBoard_Horizon"
+    ],
+    [
+      "vivo",
+      "X500 Pro Max 卫星通信版",
+      "PD2602",
+      "V2602DA"
+    ],
+    [
+      "vivo",
+      "X500 Pro Max",
+      "PD2602",
+      "V2602A"
+    ],
+    [
+      "vivo",
+      "X500 Pro",
+      "PD2608",
+      "V2608A"
+    ],
+    [
+      "vivo",
+      "X500 Pro",
+      "PD2608",
+      "V2608DA"
+    ],
+    [
+      "vivo",
+      "X500",
+      "PD2609",
+      "V2609A"
     ]
   ]
 }

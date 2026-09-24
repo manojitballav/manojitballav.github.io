@@ -6434,8 +6434,6 @@ CORNEA
 COSMIQ
 	COSMIQ IFP Series	COSMIQ_IFP_Series	=	0
 	GLIDE_SERIES	COSMIQ_GLIDE_SERIES	=	0
-COSMOTE TV
-	TV Box	HY44G	~	3
 COSTEL
 	M16	=	=	0
 CP Plus
@@ -8395,6 +8393,7 @@ DEPLAY
 	SMART5PLUS_P	=	DEPLAY_SMART5PLUS	0
 DEVOPS
 	DEVOPS	DEVOPS_IFPD	DEVOPS_MT9679	0
+	DEVOPS-RK3576	DEVOPS_RK3576	=	0
 DEWSOD
 	C9	=	=	0
 DEXP
@@ -13694,6 +13693,7 @@ H133
 H3Cmagic
 	M8781	=	=	0
 	M8781A	=	=	0
+	M8781A_EU	M8781A	=	0
 H819E
 	MINTAKA	=	=	0
 HAAM
@@ -26608,6 +26608,7 @@ MagentaTV
 	OTT-G1	DV6067Y	~	0
 	One (2. Generation)	SEI804DT	MagentaTV One (2. Generation)	0
 	One (3. Generation)	HP4AC-DT	MagentaTV One (3. Generation)	0
+	TV Box	HY44G	~	2
 	TV Box (2.Gen)	HP4AC-PL	~	2
 Magnavox
 	MMP848	=	=	2
@@ -29066,6 +29067,8 @@ Motorola
 	moto p30 play	deen	XT1941-2	0
 	moto pad 60 neo	XT2575-1	=	1
 	moto pad 60 neo	XT2575-3	=	1
+	moto pad 70	XT2673-1	=	1
+	moto pad 70	XT2673-2	=	1
 	moto pad 70 groove	XT2675-1	=	1
 	moto pad – 2026	XT2575-4	=	1
 	moto razr 40	lynkco	XT2323-3	0
@@ -31125,6 +31128,7 @@ ONPAD
 ONVO
 	EMEA	sepolia	ONVO TV	2
 	ONVO	elliniko	4K SMART TV	2
+	ONVO	elliniko	Onvo Smart TV	2
 	ONVO TV	dongnae	~	2
 ONYX
 	AKA Model A	Model_A	Model A	0
@@ -47136,6 +47140,7 @@ TeachmintX
 	Teachmint_X_PRO	75W82B	TeachmintX_75_Pro	0
 Teachmint_X
 	Teachmint_X	IIP	~	0
+	Teachmint_XC	=	=	0
 Tech 4u
 	Aqua	=	=	0
 	Earth	=	=	0
@@ -51535,6 +51540,7 @@ Volvo
 	Volvo	ihu42	~	6
 	Volvo	ihu_abl_car	~	6
 	Volvo	moose	~	6
+	Volvo	moose_uxc10	moose on uxc10	6
 	Volvo XC40 Emulator	ihu_emulator	Volvo XC40	6
 Vonino
 	Druid_L10	=	=	0
@@ -53522,6 +53528,7 @@ ZDK(SZ)
 	ZDKMP-T30B_ROW	ZDKMP-T30B	=	0
 ZEED
 	Z-PAD_PRO	ZP210P	Z-PAD PRO ZP210P	1
+	Z-PAD_SE	ZP105-SE	Z-PAD SE ZP105-SE	1
 	Z-PAD_ULTRA	ZP210U	Z-PAD ULTRA ZP210U	1
 	ZEED Z-ONE	Z210	=	0
 	ZEED_ZSLIM5G_TR	Z520	=	0
@@ -56544,6 +56551,7 @@ iMin
 	Penguin 1 Pro mini	Penguin1Promini	I26K03	0
 	Penguin 1 mini	Penguin1mini	I26K01	0
 	Penguin1	=	I26K02	0
+	Penguin1Pro	=	I26K04	0
 	Roc 1	Roc1	I25M01	0
 	Roc 1 Max	Roc1Max	I25M02	0
 	Swan 1 Pro	Swan1Pro	I23D02	0
@@ -56884,6 +56892,8 @@ moderness.online
 	TK807	=	=	0
 myAvro
 	myAvro A1	Agate	A1	0
+myBoard
+	myBoard_Horizon	=	=	0
 mytel
 	M9501	=	=	0
 	M9502	=	=	0
@@ -57617,6 +57627,11 @@ vivo
 	X300 Ultra	V2562	=	0
 	X300 Ultra 卫星通信版	PD2547	V2547DA	0
 	X300s	PD2548	V2548A	0
+	X500	PD2609	V2609A	0
+	X500 Pro	PD2608	V2608A	0
+	X500 Pro	PD2608	V2608DA	0
+	X500 Pro Max	PD2602	V2602A	0
+	X500 Pro Max 卫星通信版	PD2602	V2602DA	0
 	Y04e	V2430	V2532	0
 	Y05	V2556	=	0
 	Y05	V2556	V2565	0
