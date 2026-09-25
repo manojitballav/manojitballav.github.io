@@ -1,102 +1,36 @@
 {
-  "lastUpdated": "2026-09-24",
-  "newDevicesCount": 16,
+  "lastUpdated": "2026-09-25",
+  "newDevicesCount": 5,
   "newDevices": [
     [
-      "DEVOPS",
-      "DEVOPS-RK3576",
-      "DEVOPS_RK3576",
-      "DEVOPS_RK3576"
+      "ATMPC",
+      "IT_801BA9_EEA",
+      "IT_801BA9_EEA",
+      "IT-801B"
     ],
     [
-      "H3Cmagic",
-      "M8781A_EU",
-      "M8781A",
-      "M8781A"
+      "LANDI",
+      "K20ProN00",
+      "K20Pro-G-00",
+      "K20 Pro"
     ],
     [
-      "MagentaTV",
-      "TV Box",
-      "HY44G",
-      "TV Box"
+      "STUDYNLEARN",
+      "Interactive_Flat_Panel_SNL",
+      "snl-ifp",
+      "IS-IFSeries"
     ],
     [
-      "Motorola",
-      "moto pad 70",
-      "XT2673-1",
-      "XT2673-1"
+      "Samsung",
+      "WAFX-PS",
+      "SAMSUNG_INTERACTIVE_DISPLAY",
+      "WAFX-PS"
     ],
     [
-      "Motorola",
-      "moto pad 70",
-      "XT2673-2",
-      "XT2673-2"
-    ],
-    [
-      "ONVO",
-      "ONVO",
-      "elliniko",
-      "Onvo Smart TV"
-    ],
-    [
-      "Teachmint_X",
-      "Teachmint_XC",
-      "Teachmint_XC",
-      "Teachmint_XC"
-    ],
-    [
-      "Volvo",
-      "Volvo",
-      "moose_uxc10",
-      "moose on uxc10"
-    ],
-    [
-      "ZEED",
-      "Z-PAD_SE",
-      "ZP105-SE",
-      "Z-PAD SE ZP105-SE"
-    ],
-    [
-      "iMin",
-      "Penguin1Pro",
-      "Penguin1Pro",
-      "I26K04"
-    ],
-    [
-      "myBoard",
-      "myBoard_Horizon",
-      "myBoard_Horizon",
-      "myBoard_Horizon"
-    ],
-    [
-      "vivo",
-      "X500 Pro Max 卫星通信版",
-      "PD2602",
-      "V2602DA"
-    ],
-    [
-      "vivo",
-      "X500 Pro Max",
-      "PD2602",
-      "V2602A"
-    ],
-    [
-      "vivo",
-      "X500 Pro",
-      "PD2608",
-      "V2608A"
-    ],
-    [
-      "vivo",
-      "X500 Pro",
-      "PD2608",
-      "V2608DA"
-    ],
-    [
-      "vivo",
-      "X500",
-      "PD2609",
-      "V2609A"
+      "iData",
+      "iDataP5",
+      "iDataP5",
+      "iDataP5"
     ]
   ]
 }

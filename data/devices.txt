@@ -629,6 +629,7 @@ ATMPC
 	IT_801B	=	=	0
 	IT_801BA4	=	IT_801B	0
 	IT_801BA4_EEA	=	IT_801B	0
+	IT_801BA9_EEA	=	IT-801B	0
 	IT_801CA2_EEA	=	IT_801C	0
 	IT_801CA2_EEA	=	=	0
 ATOL
@@ -22438,6 +22439,7 @@ LANDI
 	C20Pro	AN-LFC	~	0
 	C20ProN00	C20Pro-G-00	C20Pro	0
 	C20ProSE	AN-LFC	~	0
+	K20ProN00	K20Pro-G-00	K20 Pro	0
 	M10SE	=	=	0
 	M20	=	=	0
 	M20SE	=	=	0
@@ -38010,6 +38012,7 @@ STK(Santok)
 STUDYNLEARN
 	Education Market	mensa_an64	IS-IFP_Series_86	0
 	IS-IFPSeries	mensa_an64	~	0
+	Interactive_Flat_Panel_SNL	snl-ifp	IS-IFSeries	0
 STboard
 	HJ_M2	=	=	0
 	HJ_TD	=	=	0
@@ -41740,6 +41743,7 @@ Samsung
 	W2017	veyronltectc	SM-W2017	0
 	WAF-S	SAMSUNG_INTERACTIVE_DISPLAY	~	0
 	WAFX-P	SAMSUNG_INTERACTIVE_DISPLAY	~	0
+	WAFX-PS	SAMSUNG_INTERACTIVE_DISPLAY	~	0
 	olleh	ik1	SMT-E5015	0
 	三星 W21 5G	victory	SM-W2021	0
 	三星W20	zodiac	SM-W2020	0
@@ -56380,6 +56384,7 @@ iData
 	iData T5X	iDataT5X	iData T5	0
 	iData i2	i2	~	0
 	iData i3	i3	~	0
+	iDataP5	=	=	0
 	iDataT2	=	=	0
 	iDataW7	=	=	0
 	iData_50	=	iData 50	0
