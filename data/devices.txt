@@ -969,6 +969,7 @@ Acer
 	Acer Acerpure	Acerone_Liquid	Acerone Liquid S272E4	0
 	Acer Chromebook 11 (C740)	paine_cheets	~	7
 	Acer Chromebook R13	elm_cheets	Acer Chromebook R13 (CB5-312T)	7
+	Acer Googlebook 14	moonstone	~	0
 	Acer Holo360	acer_c01	C01	0
 	Acer Iconia T10-21M	Acer_Iconia_T10-21M	=	1
 	Acer Iconia Tab iM10-22	AITiM10-22	~	1
@@ -2921,6 +2922,7 @@ Asus
 		a10	Garmin-Asus A10	0
 		ventana	Transformer TF101	1
 	ASUS Chromebook Flip C302	cave_cheets	~	7
+	ASUS Googlebook 14	lapis	~	0
 	ASUS Live (G500TG)	ASUS_Z00YD	=	0
 	ASUS Pad	T3201M5A	ASUS Pad T3201M5A	0
 	ASUSPRO Tablet (M1000C)	P023_M	P023	1
@@ -4437,7 +4439,10 @@ BXLIYER
 	BX_D04	Tablet_player	~	0
 BYD
 	BYD	BYD100F	=	0
+	BYD	BYD300F_IVI_G	BYD300F_G	0
+	BYD	BYD300F_IVI_G	BYD300F_G_P	0
 	BYD	BYD300F_VCP_IVI_G	BYD300F_VCP_G	0
+	BYD	BYD300F_VCP_IVI_G	BYD300F_VCP_G_P	0
 	DynaVox T10	T10	=	0
 	FarEastone Smart 502	Smart502	Smart 502	0
 	INHON G3	G3	=	0
@@ -8845,6 +8850,7 @@ Daewoo
 	Smart TV	mateo	DAEWOO 2K SA Smart TV	2
 	Smart TV	osaka	AI PONT SA	2
 	THINK EBIKEGO PRIVATE LIMITED	chester	DAE75P	0
+	THINK EBIKEGO PRIVATE LIMITED	jialu	DAE65P	0
 	X7	=	=	0
 	X9	=	=	0
 Dafeng Media Group
@@ -9096,6 +9102,7 @@ Dell
 	Venue 8	Venue8	Venue8 3840 LTE	0
 	Venue 8	yellowtail	Venue 8 3830	0
 	Venue 8	yellowtail	Venue 8 HSPA+	0
+	XPS Googlebook	mica	~	0
 Delm
 	D1018	=	=	0
 	D718	=	=	0
@@ -13087,6 +13094,7 @@ Gigaset
 	Gigaset GX4	GX4	E940-2797-00	0
 	Gigaset GX4 PRO	GX4_PRO	E940-2797-01	0
 	Gigaset GX50	Gigaset_GX50	E940-3045-00	0
+	Gigaset GX50 EP	Gigaset_GX50_EP	E940-3045-01	0
 	Gigaset GX6	GX6	E940-2849-00	0
 	Gigaset GX6 PRO	GX6_PRO	E940-2849-01	0
 	Gigaset Maxwell 10	maxwell_10	Maxwell-10	0
@@ -14028,6 +14036,7 @@ HP
 	HP Engage One Pro AIO System	anderson_gw_i3	~	0
 	HP Engage One Pro AIO System	anderson_gw_i5	~	0
 	HP GOOGLE TV	dongnae	~	2
+	HP Googlebook 14	quartz	~	0
 	HP SMART TV	dongnae	~	2
 	HP TV	dongnae	~	2
 	HP_WW_2885	pangyo	HP OMEN 32x	0
@@ -25025,6 +25034,7 @@ Lenovo
 	Lenovo A6 Note	Lenovo_A6_Note	Lenovo L19041	0
 	Lenovo A8	AK57	L10041	0
 	Lenovo A8	AK57	Lenovo L10041	0
+	Lenovo Googlebook 15	ruby	~	0
 	Lenovo Idea Tab / Lenovo Tab K11 Gen 2	TB336FU	=	1
 	Lenovo Idea Tab / Lenovo Tab K11 Gen 2	TB336ZA	=	1
 	Lenovo Idea Tab / Lenovo Tab K11 Gen 2	TB336ZU	=	1
@@ -29217,6 +29227,7 @@ Motorola
 	motorola razr 60 ultra	leap	XT2551-3	0
 	motorola razr 60 ultra	leap	motorola razr 50 ultra	0
 	motorola razr 60 ultra	leap	~	0
+	motorola razr 60 ultra	leap	motorola razr ultra 2025	0
 	motorola razr 60d M-51F	M-51F	M-51E	0
 	motorola razr 60d M-51F	M-51F	=	0
 	motorola razr 60s	aito	motorola razr 50s	0
@@ -31557,7 +31568,6 @@ OnePlus
 	OnePlus Pad Lite	OP6194L1	OPD2480	1
 	OnePlus Pad Lite	OP6195L1	OPD2481	1
 	OnePlus Turbo 6	OP60F0L1	PLU110	0
-	OnePlus Turbo 6V	OP64D3L1	PLY110	0
 	OnePlus Watch 2	OPWWE231	=	5
 	OnePlus Watch 2R	OPWWE234	=	5
 	OnePlus Watch 3	OPWWE251	=	5
@@ -31576,6 +31586,7 @@ OnePlus
 	Oneplus_Dosa_IN	=	=	0
 	Open	OP5973L1	CPH2551	0
 	PHP110	OP5927	~	0
+	PLY110	OP64D3L1	~	0
 	PYS110	OP68F7L1	~	0
 	Pad 3	OP6190L1	OPD2415	1
 	Pad Go 2	OP6575L1	OPD2504	1
@@ -41972,6 +41983,7 @@ Servicom IT
 	Smart Class	Smart_Class	~	0
 	T6000	=	=	0
 Seuic
+	AUTOID PAD Air-5G-P	d527p	~	1
 	AUTOID Pad Air	d520	~	1
 	AUTOID Pad Air-5G	D527	~	1
 	AUTOID Q7	d310m	~	0
