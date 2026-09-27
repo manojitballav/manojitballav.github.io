@@ -1,84 +1,12 @@
 {
-  "lastUpdated": "2026-09-26",
-  "newDevicesCount": 13,
+  "lastUpdated": "2026-09-27",
+  "newDevicesCount": 1,
   "newDevices": [
     [
-      "Acer",
-      "Acer Googlebook 14",
-      "moonstone",
-      "Acer Googlebook 14"
-    ],
-    [
-      "Asus",
-      "ASUS Googlebook 14",
-      "lapis",
-      "ASUS Googlebook 14"
-    ],
-    [
-      "BYD",
-      "BYD",
-      "BYD300F_IVI_G",
-      "BYD300F_G"
-    ],
-    [
-      "BYD",
-      "BYD",
-      "BYD300F_IVI_G",
-      "BYD300F_G_P"
-    ],
-    [
-      "BYD",
-      "BYD",
-      "BYD300F_VCP_IVI_G",
-      "BYD300F_VCP_G_P"
-    ],
-    [
-      "Daewoo",
-      "THINK EBIKEGO PRIVATE LIMITED",
-      "jialu",
-      "DAE65P"
-    ],
-    [
-      "Dell",
-      "XPS Googlebook",
-      "mica",
-      "XPS Googlebook"
-    ],
-    [
-      "Gigaset",
-      "Gigaset GX50 EP",
-      "Gigaset_GX50_EP",
-      "E940-3045-01"
-    ],
-    [
-      "HP",
-      "HP Googlebook 14",
-      "quartz",
-      "HP Googlebook 14"
-    ],
-    [
-      "Lenovo",
-      "Lenovo Googlebook 15",
-      "ruby",
-      "Lenovo Googlebook 15"
-    ],
-    [
-      "Motorola",
-      "motorola razr 60 ultra",
-      "leap",
-      "motorola razr ultra 2025"
-    ],
-    [
-      "OnePlus",
-      "PLY110",
-      "OP64D3L1",
-      "PLY110"
-    ],
-    [
-      "Seuic",
-      "AUTOID PAD Air-5G-P",
-      "d527p",
-      "AUTOID PAD Air-5G-P"
+      "Hammer",
+      "Construction_3_5G_EEA",
+      "Hammer_Construction_3_5G",
+      "Construction_3_5G"
     ]
   ]
 }
