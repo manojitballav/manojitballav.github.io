@@ -1,12 +1,228 @@
 {
-  "lastUpdated": "2026-09-28",
-  "newDevicesCount": 1,
+  "lastUpdated": "2026-09-29",
+  "newDevicesCount": 37,
   "newDevices": [
     [
-      "iMuz",
-      "IM-S881",
-      "IM-S881",
-      "IM-S881"
+      "BLUEFOX",
+      "Aura_A1_EEA",
+      "Aura_A1",
+      "BF00A"
+    ],
+    [
+      "BLUEFOX",
+      "Aura_A1_US",
+      "Aura_A1",
+      "BF00A"
+    ],
+    [
+      "Croma",
+      "Croma TV FF",
+      "eleonas",
+      "Croma TV FF"
+    ],
+    [
+      "Croma",
+      "Croma TV",
+      "beomil",
+      "Croma TV"
+    ],
+    [
+      "Croma",
+      "Croma TV",
+      "eleonas",
+      "Croma TV"
+    ],
+    [
+      "Croma",
+      "Croma TV",
+      "katehaki",
+      "Croma TV"
+    ],
+    [
+      "DEERTiME",
+      "E11_E",
+      "E11_E",
+      "E11_E"
+    ],
+    [
+      "HEADWOLF",
+      "F9",
+      "F9",
+      "F9"
+    ],
+    [
+      "Heco",
+      "Pad_Neo",
+      "Pad_Neo",
+      "Pad Neo"
+    ],
+    [
+      "Homeplustv",
+      "HPA-1319",
+      "HPA1319",
+      "HPA-1319"
+    ],
+    [
+      "Honor",
+      "荣耀MagicPad4",
+      "HNMLA-Q",
+      "MLA-W09"
+    ],
+    [
+      "Hotwav",
+      "Pad13",
+      "Pad13",
+      "Pad 13"
+    ],
+    [
+      "Indurama",
+      "Indurama 4K smart TV FF",
+      "eleonas",
+      "Indurama 4K smart TV FF"
+    ],
+    [
+      "JOVI",
+      "JOVI Y600 Pro 5G",
+      "J2608",
+      "J2608"
+    ],
+    [
+      "Mediacom",
+      "M-SP11AZ46",
+      "M-SP11AZ46",
+      "AZIMUT_4_LITE"
+    ],
+    [
+      "Mediacom",
+      "M-SP11AZ46",
+      "M-SP11AZ46",
+      "Azimut_4_lite"
+    ],
+    [
+      "Mobiwire",
+      "MTN",
+      "GH6733_Pro",
+      "H6733 Pro"
+    ],
+    [
+      "OFD(Display)",
+      "HSD-M03F",
+      "M03F",
+      "HSD-M03F"
+    ],
+    [
+      "PEICHENG",
+      "Q11_Pro",
+      "Q11_Pro",
+      "Q11_Pro"
+    ],
+    [
+      "PEICHENG",
+      "ZB32ST",
+      "ZB32ST",
+      "ZB32"
+    ],
+    [
+      "Panasonic",
+      "Panasonic 2K TV SA",
+      "beomil",
+      "Panasonic 2K TV SA"
+    ],
+    [
+      "Panasonic",
+      "Panasonic 4K TV SA",
+      "eleonas",
+      "Panasonic 4K TV SA"
+    ],
+    [
+      "Panasonic",
+      "Panasonic 4K TV SA",
+      "sapporo",
+      "Panasonic 4K TV SA"
+    ],
+    [
+      "Pritom",
+      "K7_A08_EU",
+      "K7_A08_EU",
+      "K7"
+    ],
+    [
+      "Pritom",
+      "K7_A08_ROW",
+      "K7_A08_ROW",
+      "K7"
+    ],
+    [
+      "RGBshine",
+      "Shinelink_136COB",
+      "Shinelink_136COB",
+      "Shinelink_136COB"
+    ],
+    [
+      "Ruio",
+      "Smart One",
+      "ZIP_PLUS",
+      "RS2613"
+    ],
+    [
+      "SOFLOGIC",
+      "Interactive_Flat_Panel_SL",
+      "Eduboard",
+      "SL-75SLEDU168U"
+    ],
+    [
+      "Sony",
+      "Xperia 10 VIII",
+      "XQ-GH",
+      "SO-52G"
+    ],
+    [
+      "Spaisen",
+      "SP_E800302",
+      "SP_E800302",
+      "3576"
+    ],
+    [
+      "Syinix",
+      "Syinix TV",
+      "katehaki",
+      "Syinix TV"
+    ],
+    [
+      "UnionTek",
+      "S65L",
+      "S651",
+      "S65L"
+    ],
+    [
+      "Xiaomi",
+      "Xiaomi 17 Ultra",
+      "nezha",
+      "25128PNA1C"
+    ],
+    [
+      "aigo",
+      "AIGO_Pad_HY800_US",
+      "AIGO_Pad_HY800",
+      "AIGO_Pad_HY800"
+    ],
+    [
+      "inefi",
+      "Android M11",
+      "Android_M11",
+      "Android M11"
+    ],
+    [
+      "vivo",
+      "S2 FE",
+      "V2626",
+      "V2640"
+    ],
+    [
+      "vivo",
+      "Y600 5G",
+      "V2626",
+      "V2655"
     ]
   ]
 }

@@ -3867,6 +3867,8 @@ BLUECRANE
 	PP86M	=	=	0
 BLUEFOX
 	Aura_A1	Aura_A1t	BF00A	0
+	Aura_A1_EEA	Aura_A1	BF00A	0
+	Aura_A1_US	Aura_A1	BF00A	0
 	BF001	BLUEFOX	NX1	0
 	BF001_EEA	BLUEFOX	NX1	0
 BLUEING
@@ -8107,6 +8109,10 @@ Croatian Telecom
 	KSTB6044	=	=	0
 Croma
 	43FDVRCHG5SP	ikebukuro	AI PONT	0
+	Croma TV	beomil	~	2
+	Croma TV	eleonas	~	2
+	Croma TV	katehaki	~	2
+	Croma TV FF	eleonas	~	2
 Crosscall
 	27409-1	=	=	0
 	AD-C1	L790	~	0
@@ -8372,6 +8378,7 @@ DEEMWOLF
 DEERTiME
 	E10_EEA	=	=	0
 	E10_US	=	=	0
+	E11_E	=	=	0
 	E11_EEA	=	=	0
 	E11_US	=	=	0
 	E15_E	=	=	0
@@ -13803,6 +13810,7 @@ HEADWOLF
 	F6E	=	=	0
 	F7	=	=	0
 	F8	=	Titan 1	0
+	F9	=	=	0
 	Fpad1	=	F1	0
 	Fpad2	=	=	0
 	Fpad3	=	F3	0
@@ -15255,6 +15263,7 @@ Haus
 Heco
 	KiddoPad_K2	=	=	0
 	Pad_Mini	=	=	0
+	Pad_Neo	=	Pad Neo	1
 Helgi
 	HELGI_C_Series_PRO	rk3576_u	HCPxx10	0
 	HXxx10	rk3588_t	Helgi_HX10	0
@@ -16286,6 +16295,7 @@ Home Planet
 Homeplustv
 	HCA6010	=	HCA-6010	0
 	HCA6010	generic	HCA-6010	0
+	HPA-1319	HPA1319	~	0
 	Homeplus_ATV HCA-6010	HCA6010	HCA-6010	0
 	STB-6252C	STB6252C	~	3
 	VSB-3918	vsb3918_apac	~	0
@@ -16667,6 +16677,7 @@ Honor
 	Smart 4K TV	eleonas	~	0
 	荣耀Magic8 Pro Air	HNLDY-M	LDY-AN00	0
 	荣耀MagicPad3 Pro 12.3	HNYLE-Q	YLE-W09	1
+	荣耀MagicPad4	HNMLA-Q	MLA-W09	1
 	荣耀Play11 Pro	HNLNA-M	LNA-AN00	0
 	荣耀Power	HNDVD-Q	DVD-AN00	0
 	荣耀Power	HNDVD-Q	DVD-AN80	0
@@ -16852,6 +16863,7 @@ Hotwav
 	Pad 12 Pro	Pad_12_Pro	~	1
 	Pad 15 Pro	Pad_15_Pro	~	1
 	Pad 17 Pro	Pad_17_Pro	~	1
+	Pad13	=	Pad 13	1
 	Pad_13	=	Pad 13	1
 	Pad_13_Pro	=	Pad 13 Pro	1
 	Pad_8	=	Pad 8	1
@@ -19335,6 +19347,7 @@ Indurama
 	Indurama	zhongshan	CSV4K	0
 	Indurama 4K smart TV	eleonas	~	2
 	Indurama 4K smart TV	sapporo	~	2
+	Indurama 4K smart TV FF	eleonas	~	2
 	indurama 2K TV	shinjuku	~	2
 	indurama 4K TV	SW4H	~	2
 	indurama Smart TV	sunnyvale	~	2
@@ -20610,6 +20623,7 @@ JOVI
 	JOVI Y29	V2434B	V2445	0
 	JOVI Y29s 5G	V2446B	V2459	0
 	JOVI Y31	J2506	=	0
+	JOVI Y600 Pro 5G	J2608	=	0
 	V50	V2427B	V2427	0
 JOYSURF
 	TB-JS100A	=	=	0
@@ -27142,6 +27156,8 @@ Mediacom
 	M-SP10KID	=	SmartKid10	0
 	M-SP10MXHA	SmartPad	~	0
 	M-SP10MXHL	=	=	0
+	M-SP11AZ46	=	AZIMUT_4_LITE	0
+	M-SP11AZ46	=	Azimut_4_lite	0
 	M-SP11AZ48	=	AZIMUT_4_LITE	0
 	M-SP11AZ48	=	Azimut_4_lite	0
 	M-SP1AGO3G	=	=	0
@@ -28207,6 +28223,7 @@ Mobiwire
 	Kosumi	=	=	0
 	Kwanita	=	KWANITA	0
 	Lonan	=	=	0
+	MTN	GH6733_Pro	H6733 Pro	0
 	MobiTab	WM26	=	0
 	MobiWire Halona	Halona	=	0
 	MobiWire Kanuna	Kanuna_MobiWire	KANUNA	0
@@ -31015,6 +31032,7 @@ OFD(Display)
 	D01	=	=	0
 	HSD-215	=	=	0
 	HSD-M03	M03	~	0
+	HSD-M03F	M03F	~	0
 	HSD01	=	=	0
 OK (Mediamark)
 	32770H-TAB	ikebukuro	AI PONT	1
@@ -33227,6 +33245,7 @@ PEICHENG
 	Q1	=	=	0
 	Q1	=	Q1K	0
 	Q10_Pro	=	Q10	0
+	Q11_Pro	=	=	0
 	Q8	=	=	0
 	Q8	=	Q8K	0
 	Q8PRO	=	Q8 PRO	0
@@ -33246,6 +33265,7 @@ PEICHENG
 	ZB32	=	=	0
 	ZB32A	=	ZB32	0
 	ZB32A	=	=	0
+	ZB32ST	=	ZB32	0
 	ZB32UA	=	ZB32	0
 	ZB32V	=	=	0
 	ZB32_PRO	=	=	0
@@ -33816,6 +33836,9 @@ Panasonic
 	Panasonic 2K TV	alameda	~	2
 	Panasonic 2K TV	beomil	~	2
 	Panasonic 2K TV LA	beomil	~	2
+	Panasonic 2K TV SA	beomil	~	2
+	Panasonic 4K TV SA	eleonas	~	2
+	Panasonic 4K TV SA	sapporo	~	2
 	Panasonic 4K TV US	sapporo	~	2
 	Panasonic P100	P100	=	0
 	Panasonic P100	P100	~	0
@@ -35321,6 +35344,8 @@ Pritom
 	K7_A07K_EEA	=	K7	0
 	K7_A07K_US	=	K7	0
 	K7_A07_US	=	K7	0
+	K7_A08_EU	=	K7	0
+	K7_A08_ROW	=	K7	0
 	K7_A08_US	=	K7	0
 	K7_A101	=	=	0
 	K7_A101_EEA	=	K7_A101	0
@@ -36213,6 +36238,8 @@ REVENGER
 	RG-TB711	=	=	0
 REVOX
 	REVOX-RM-RX1-EU	=	C200-RM-RX1	0
+RGBshine
+	Shinelink_136COB	=	=	0
 RIKOR
 	S3	S3_RU	~	0
 	S5	S5_RU	~	0
@@ -37322,6 +37349,7 @@ Ruio
 	S6539Q	=	T1	0
 	S6539Q	=	VISION	0
 	S6705	=	=	0
+	Smart One	ZIP_PLUS	RS2613	0
 	smart	Blitz	=	0
 Rumie
 	RT-1708	=	=	0
@@ -37709,6 +37737,8 @@ SMT_TSC
 	FLAME X555	FLAME_X555	=	0
 SMV
 	SMV_3588	=	=	0
+SOFLOGIC
+	Interactive_Flat_Panel_SL	Eduboard	SL-75SLEDU168U	0
 SOHO STYLE
 	S1582C	=	=	0
 	S1586K	=	=	0
@@ -43457,6 +43487,7 @@ Sony
 	Xperia 10 VII	XQ-FE	XQ-FE44	0
 	Xperia 10 VII	XQ-FE	XQ-FE54	0
 	Xperia 10 VII	XQ-FE	XQ-FE72	0
+	Xperia 10 VIII	XQ-GH	SO-52G	0
 	Xperia 10 VIII	XQ-GH	XQ-GH54	0
 	Xperia 10 VIII	XQ-GH	XQ-GH74	0
 	Xperia 5	901SO	=	0
@@ -44020,6 +44051,8 @@ SoyMomo
 	SoyMomo_Pro_V2_24	=	=	0
 SoyMomo_Tablet
 	SoyMomo_PRO_V2MAX	=	=	0
+Spaisen
+	SP_E800302	=	3576	0
 SparX
 	Edge 20	Edge_20	~	0
 	Edge 20 Pro	Sparx_Edge_20_Pro	~	0
@@ -44621,6 +44654,7 @@ Syinix
 	Smart TV	longshan	AI PONT	2
 	Smart TV	redwood	AI PONT	2
 	Syinix TV	eleonas	~	2
+	Syinix TV	katehaki	~	2
 Symphony
 	ATOM	=	=	0
 	ATOM4	=	=	0
@@ -49515,6 +49549,7 @@ Unihertz
 	Titan pocket	Titan_pocket	~	0
 UnionTek
 	S65	=	=	0
+	S65L	S651	~	0
 	S65L	=	=	0
 Unionaire
 	Africa	nippori	Unionaire Android TV 2K	2
@@ -53128,6 +53163,7 @@ Xiaomi
 	Xiaomi 17 Max	byron	2605EPN8EC	0
 	Xiaomi 17 Pro	pandora	25098PN5AC	0
 	Xiaomi 17 Pro Max	popsicle	2509FPN0BC	0
+	Xiaomi 17 Ultra	nezha	25128PNA1C	0
 	Xiaomi 17 Ultra	nezha	2512BPNDAC	0
 	Xiaomi 17 Ultra	nezha	2512BPNDAG	0
 	Xiaomi 17 Ultra	nezha	2512BPNDAI	0
@@ -55911,6 +55947,7 @@ aigo
 	A16pro	=	=	0
 	A18	=	=	0
 	A19	=	=	0
+	AIGO_Pad_HY800_US	AIGO_Pad_HY800	=	0
 	AIGO_Pad_Y800	=	=	0
 aipan
 	F819	=	=	0
@@ -56816,6 +56853,7 @@ incar
 indigi
 	G4i	=	=	0
 inefi
+	Android M11	Android_M11	~	0
 	Android_G17	=	=	0
 	Android_G18	=	=	0
 	SlimPOS319	=	=	0
@@ -57581,6 +57619,7 @@ vivo
 	Pad5	DPD2437	PA2553	0
 	Pad6 Pro	DPD2540	PA2671	0
 	S2	V2576	=	0
+	S2 FE	V2626	V2640	0
 	S30	PD2464	V2464A	0
 	S30 Pro mini	PD2465	V2465A	0
 	S50	PD2528	V2528A	0
@@ -57723,6 +57762,7 @@ vivo
 	Y6	PD2531	V2531A	0
 	Y60	PD2559	V2559A	0
 	Y60 AI版	PD2559	V2559A	0
+	Y600 5G	V2626	V2655	0
 	Y600 AI	PD2607	V2607A	0
 	Y600 Pro	PD2561	V2561A	0
 	Y600 Pro AI版	PD2561	V2561A	0
