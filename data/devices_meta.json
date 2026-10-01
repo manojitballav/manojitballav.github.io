@@ -1,228 +1,156 @@
 {
-  "lastUpdated": "2026-09-30",
-  "newDevicesCount": 37,
+  "lastUpdated": "2026-10-01",
+  "newDevicesCount": 25,
   "newDevices": [
     [
-      "BLUEFOX",
-      "Aura_A1_EEA",
-      "Aura_A1",
-      "BF00A"
+      "Alldocube",
+      "iPlay80Mini",
+      "T817",
+      "iPlay80Mini"
     ],
     [
-      "BLUEFOX",
-      "Aura_A1_US",
-      "Aura_A1",
-      "BF00A"
+      "At_Home_Series",
+      "CTIHOMEUH50",
+      "At_Home",
+      "At_Home"
     ],
     [
-      "Croma",
-      "Croma TV FF",
-      "eleonas",
-      "Croma TV FF"
+      "Cipherlab",
+      "RS20",
+      "RS20",
+      "RS20"
     ],
     [
-      "Croma",
-      "Croma TV",
-      "beomil",
-      "Croma TV"
+      "Datamini",
+      "T1004GS",
+      "T1004GS",
+      "T1004G"
     ],
     [
-      "Croma",
-      "Croma TV",
-      "eleonas",
-      "Croma TV"
+      "HIKVISION",
+      "HIK_3576",
+      "HIK_3576",
+      "HIK_3576"
     ],
     [
-      "Croma",
-      "Croma TV",
-      "katehaki",
-      "Croma TV"
+      "HWD",
+      "HT738-01",
+      "HT738-01",
+      "HT738-01"
     ],
     [
-      "DEERTiME",
-      "E11_E",
-      "E11_E",
-      "E11_E"
+      "HannSpree",
+      "HSG1507",
+      "HSG1507",
+      "HSG1507"
     ],
     [
-      "HEADWOLF",
-      "F9",
-      "F9",
-      "F9"
+      "Helio",
+      "helio_23",
+      "helio_23",
+      "helio 23"
     ],
     [
-      "Heco",
-      "Pad_Neo",
-      "Pad_Neo",
-      "Pad Neo"
-    ],
-    [
-      "Homeplustv",
-      "HPA-1319",
-      "HPA1319",
-      "HPA-1319"
+      "Hisense",
+      "Hisense",
+      "Quartzite",
+      "S6"
     ],
     [
       "Honor",
-      "荣耀MagicPad4",
-      "HNMLA-Q",
-      "MLA-W09"
+      "HONOR Magic9 Lite+",
+      "HNBSN-Q1",
+      "BSN-NX1M"
     ],
     [
-      "Hotwav",
-      "Pad13",
-      "Pad13",
-      "Pad 13"
+      "Honor",
+      "HONOR Magic9 Lite+",
+      "HNBSN-Q1",
+      "BSN-NX3"
     ],
     [
-      "Indurama",
-      "Indurama 4K smart TV FF",
-      "eleonas",
-      "Indurama 4K smart TV FF"
+      "Honor",
+      "HONOR X9e Pro",
+      "HNBSN-Q1",
+      "BSN-NX1"
     ],
     [
-      "JOVI",
-      "JOVI Y600 Pro 5G",
-      "J2608",
-      "J2608"
+      "Itel",
+      "P10006L-OP2",
+      "itel-P10006L",
+      "itel P10006L"
     ],
     [
-      "Mediacom",
-      "M-SP11AZ46",
-      "M-SP11AZ46",
-      "AZIMUT_4_LITE"
+      "Lesia",
+      "FUTURE_18_PRO",
+      "FUTURE_18_PRO",
+      "FUTURE_18_PRO"
     ],
     [
-      "Mediacom",
-      "M-SP11AZ46",
-      "M-SP11AZ46",
-      "Azimut_4_lite"
+      "Nuu",
+      "B50",
+      "N6801XA",
+      "N6801X"
     ],
     [
-      "Mobiwire",
-      "MTN",
-      "GH6733_Pro",
-      "H6733 Pro"
+      "Oppo",
+      "F35 Pro 5G",
+      "OP62B7L1",
+      "CPH2829"
     ],
     [
-      "OFD(Display)",
-      "HSD-M03F",
-      "M03F",
-      "HSD-M03F"
-    ],
-    [
-      "PEICHENG",
-      "Q11_Pro",
-      "Q11_Pro",
-      "Q11_Pro"
-    ],
-    [
-      "PEICHENG",
-      "ZB32ST",
-      "ZB32ST",
-      "ZB32"
-    ],
-    [
-      "Panasonic",
-      "Panasonic 2K TV SA",
-      "beomil",
-      "Panasonic 2K TV SA"
-    ],
-    [
-      "Panasonic",
-      "Panasonic 4K TV SA",
-      "eleonas",
-      "Panasonic 4K TV SA"
-    ],
-    [
-      "Panasonic",
-      "Panasonic 4K TV SA",
-      "sapporo",
-      "Panasonic 4K TV SA"
-    ],
-    [
-      "Pritom",
-      "K7_A08_EU",
-      "K7_A08_EU",
-      "K7"
-    ],
-    [
-      "Pritom",
-      "K7_A08_ROW",
-      "K7_A08_ROW",
-      "K7"
-    ],
-    [
-      "RGBshine",
-      "Shinelink_136COB",
-      "Shinelink_136COB",
-      "Shinelink_136COB"
+      "Point Mobile",
+      "MF52",
+      "MF52",
+      "MF52"
     ],
     [
       "Ruio",
       "Smart One",
       "ZIP_PLUS",
-      "RS2613"
+      "Smart One"
     ],
     [
-      "SOFLOGIC",
-      "Interactive_Flat_Panel_SL",
-      "Eduboard",
-      "SL-75SLEDU168U"
+      "SVITOO",
+      "P10R_EEA",
+      "P10_R",
+      "P10_R"
     ],
     [
-      "Sony",
-      "Xperia 10 VIII",
-      "XQ-GH",
-      "SO-52G"
+      "TCL",
+      "TCL TAB A1 NXTPAPER",
+      "Athena_Vision_BN",
+      "9426X"
     ],
     [
-      "Spaisen",
-      "SP_E800302",
-      "SP_E800302",
-      "3576"
+      "XTRA",
+      "XT1",
+      "XT1",
+      "XT1"
     ],
     [
-      "Syinix",
-      "Syinix TV",
-      "katehaki",
-      "Syinix TV"
+      "iQOO",
+      "iQOO 16",
+      "PD2606",
+      "V2606A"
     ],
     [
-      "UnionTek",
-      "S65L",
-      "S651",
-      "S65L"
+      "iQOO",
+      "iQOO Pad Ultra",
+      "DPD2605",
+      "iPA2691"
     ],
     [
-      "Xiaomi",
-      "Xiaomi 17 Ultra",
-      "nezha",
-      "25128PNA1C"
-    ],
-    [
-      "aigo",
-      "AIGO_Pad_HY800_US",
-      "AIGO_Pad_HY800",
-      "AIGO_Pad_HY800"
-    ],
-    [
-      "inefi",
-      "Android M11",
-      "Android_M11",
-      "Android M11"
+      "spectramobile",
+      "Spectra_TAB",
+      "Spectra_TAB",
+      "Spectra_TAB"
     ],
     [
       "vivo",
-      "S2 FE",
-      "V2626",
-      "V2640"
-    ],
-    [
-      "vivo",
-      "Y600 5G",
-      "V2626",
-      "V2655"
+      "X Fold6",
+      "V2559",
+      "V2559"
     ]
   ]
 }

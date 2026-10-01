@@ -2006,6 +2006,7 @@ Alldocube
 	iPlay70	=	=	0
 	iPlay70_S	=	=	0
 	iPlay70_mini_Turbo	U812	iPlay70 mini Turbo	0
+	iPlay80Mini	T817	~	0
 	iPlay80miniTurbo	T860	~	0
 	iPlay9T	U1008	~	0
 	iPlay_20	=	=	0
@@ -3324,6 +3325,8 @@ Asus
 	飛馬2 Plus (T550KLC)	ASUS_X550	=	0
 AtGames-zooti
 	ZOOTI PAD ZT-701	ZT-701	=	1
+At_Home_Series
+	CTIHOMEUH50	At_Home	=	0
 AthenaStellar
 	MAT80211	=	MID	0
 Athesi
@@ -7181,6 +7184,7 @@ Cipherlab
 	RK95	=	=	0
 	RK96	=	=	0
 	RS10	=	=	0
+	RS20	=	=	0
 	RS30	Mercury	CipherLab RS30	0
 	RS31	=	=	0
 	RS35	=	=	0
@@ -8998,6 +9002,7 @@ Datamini
 	K508101	=	=	0
 	K908H4G	=	=	0
 	T1004G	=	=	0
+	T1004GS	=	T1004G	0
 	T104G	=	=	0
 	T104G_DTIL	T104G	=	0
 	T104G_T610	=	=	0
@@ -13863,10 +13868,10 @@ HIGRACE
 	OC101	=	=	0
 	OC101	OC101_EEA	~	0
 HIKVISION
-	DS-D5A65RB/C	HIK_3576	=	0
 	DS-MDT202	=	=	0
 	DS-MDT301	=	=	0
 	DS_D5C75RB_A	DS_D5C65RB_A	=	0
+	HIK_3576	=	=	0
 	HIK_3588	=	=	0
 	HIK_9679	=	=	0
 HIMADE
@@ -14888,6 +14893,8 @@ HUIHUANG
 	XC90_US	=	=	0
 HUSHIDA
 	Interactivewhiteboard	D2	CW-SPCM	0
+HWD
+	HT738-01	=	=	0
 HYF(heyuefeng)
 	SQ126G	=	=	0
 HYPERTECH
@@ -15229,6 +15236,7 @@ HannSpree
 	HSG1500	=	=	0
 	HSG1501	=	=	0
 	HSG1501A	=	=	0
+	HSG1507	=	=	0
 	Hannspad	=	=	0
 	HannspadPro	=	=	0
 	Product Name HSG1416A	HSG1416A	=	0
@@ -15281,6 +15289,7 @@ Helio
 	helio 50	helio_50	~	0
 	helio_110	=	helio 110	0
 	helio_150	=	helio 150	0
+	helio_23	=	helio 23	0
 	helio_45	=	helio 45	0
 	helio_55	=	helio 55	0
 	helio_62	=	helio 62	0
@@ -15740,6 +15749,7 @@ Hisense
 	HS-X8C	x8c	~	0
 	HS-X8T	X8T	~	0
 	HS-X8U	x8u	~	0
+	Hisense	Quartzite	S6	0
 	Hisense  E7  Pro	HS6739MT	Hisense E7 Pro	0
 	Hisense  E7  Pro	HS6739MT	Hisense F17 Pro	0
 	Hisense  F17  Pro	HS6739MT	Hisense F17 Pro	0
@@ -16541,6 +16551,8 @@ Honor
 	HONOR Magic8 Lite	HNMTN-Q1	MTN-NX1M	0
 	HONOR Magic8 Lite	HNMTN-Q1	MTN-NX3	0
 	HONOR Magic8 pro	HNBKQ	BKQ-N49	0
+	HONOR Magic9 Lite+	HNBSN-Q1	BSN-NX1M	0
+	HONOR Magic9 Lite+	HNBSN-Q1	BSN-NX3	0
 	HONOR MagicPad2	HNROD2-Q	ROD2-W09	1
 	HONOR MagicPad2	HNROD2-Q1	ROD2-W09	1
 	HONOR MagicPad3	HNCGA-Q1	CGA-W00	1
@@ -16659,6 +16671,7 @@ Honor
 	HONOR X9a 5G	HNRMO-Q	RMO-NX1	0
 	HONOR X9b 5G	HNALI-Q	ALI-NX1	0
 	HONOR X9c	HNBRP-Q1	BRP-NX1	0
+	HONOR X9e Pro	HNBSN-Q1	BSN-NX1	0
 	HONOR X9e s	HNMTN-Q1	MTN-NX1	0
 	HONOR X9e s	HNMTN-Q1	MTN-NX3	0
 	Honor 200 Lite	HNLLY-M1	LLY-NX1	0
@@ -20270,6 +20283,7 @@ Itel
 	Orange Nola Up	Nola_Up	Orange Nola up	0
 	Orange Nola fun 3	Nola_fun_3	~	0
 	P10006L-OP	itel-P10006L	itel P10006L	0
+	P10006L-OP2	itel-P10006L	itel P10006L	0
 	P11	itel_P11	itel P11	0
 	P11003L-OP	itel-P11003L	itel P11003L	0
 	P11025G-IN	itel-P11025G	itel P11025G	0
@@ -25569,6 +25583,7 @@ Lesia
 	C2	=	=	0
 	C5	=	=	0
 	FUTURE 10	FUTURE_10	~	0
+	FUTURE_18_PRO	=	=	0
 	HOT_30	=	=	0
 	K2	=	=	0
 	K2s	=	K2	0
@@ -30926,6 +30941,7 @@ Nuu
 	B30	S6702XA	S6702X	0
 	B30 Pro	S6702XA	S6702X	0
 	B40	S6710XA	S6710X	0
+	B50	N6801XA	N6801X	0
 	G1	N5704LA	N5704L	0
 	G2	S6001LE	S6001L	0
 	G4	N6201L	=	0
@@ -32026,6 +32042,7 @@ Oppo
 	F33 5G	OP5E1BL1	CPH2777	0
 	F33 Pro 5G	OP62CBL1	CPH2835	0
 	F35 5G	OP623EL1	CPH2931	0
+	F35 Pro 5G	OP62B7L1	CPH2829	0
 	F7	CPH1819	=	0
 	F7	CPH1821	=	0
 	F9	CPH1823	=	0
@@ -34508,6 +34525,7 @@ Pluzz
 	PLUZZ_PL5010	PL5010	~	0
 	PLUZZ_PL5510	=	=	0
 Point Mobile
+	MF52	=	=	0
 	MF52e	=	=	0
 	MX450	=	=	0
 	PM30	pm30	~	0
@@ -37350,6 +37368,7 @@ Ruio
 	S6539Q	=	VISION	0
 	S6705	=	=	0
 	Smart One	ZIP_PLUS	RS2613	0
+	Smart One	ZIP_PLUS	~	0
 	smart	Blitz	=	0
 Rumie
 	RT-1708	=	=	0
@@ -38183,6 +38202,7 @@ SVITOO
 	P108_S_US	P108_S	=	0
 	P108_T	=	=	0
 	P108_T_EEA	P108_T	=	0
+	P10R_EEA	P10_R	=	0
 	P10_A	=	=	0
 	P10_A1	=	=	0
 	P10_A1_EEA	P10_A1	=	0
@@ -45302,6 +45322,7 @@ TCL
 	TCL TAB 8 Wi-Fi	Luna	9132X	1
 	TCL TAB A1	Athena_WIFI	9425X	1
 	TCL TAB A1 NXTPAPER	Athena_Vision	9425X	1
+	TCL TAB A1 NXTPAPER	Athena_Vision_BN	9426X	1
 	TCL TAB A1 Plus	Hermes_12_2	9445X	1
 	TCL TAB A1 Plus NXTPAPER	Hermes_12_2_Vis	9445X	1
 	TCL TAB Disney Edition	Thor_8_4G_VZW	9050S	1
@@ -52815,6 +52836,8 @@ XPPen
 	XPPen_Magic_Drawing_Pad_RU	Titan_XPPen	MagicDrawingPad	0
 XREAL
 	Beam Pro	X4000	=	0
+XTRA
+	XT1	=	=	0
 XTRAGEN
 	XTCTR_201	RUGGED_TABLET	~	0
 XTRATECH_IGUANAPAD
@@ -56692,11 +56715,13 @@ iQOO
 	iQOO 15 Ultra	PD2546	V2546A	0
 	iQOO 15R	I2508	=	0
 	iQOO 15T	PD2564	V2564A	0
+	iQOO 16	PD2606	V2606A	0
 	iQOO Neo 10	I2405	=	0
 	iQOO Neo 10	I2405	I2408	0
 	iQOO Neo10 Pro+	PD2463	V2463A	0
 	iQOO Neo11	PD2520	V2520A	0
 	iQOO Neo11 至尊版	PD2573	V2573A	0
+	iQOO Pad Ultra	DPD2605	iPA2691	1
 	iQOO Pad5	DPD2437	iPA2556	0
 	iQOO Pad5 Pro	DPD2429	iPA2575	0
 	iQOO Z10 Lite	I2502	=	0
@@ -57512,6 +57537,7 @@ spectramobile
 	Spectra J1 PRO	Spectra_J1P	~	0
 	Spectra J2 Pro	Spectra_J2_Pro	=	0
 	SpectraTab1	=	=	0
+	Spectra_TAB	=	=	0
 stc myhome
 	myHome	SEI560STC	~	0
 	stc-tv	HP44J	HP44J-stc-tv-3.0	2
@@ -57668,6 +57694,7 @@ vivo
 	X Fold5	PD2436	V2436A	0
 	X Fold5	V2429	=	0
 	X Fold6	PD2545	V2545A	0
+	X Fold6	V2559	=	0
 	X200 FE	V2503	=	0
 	X200 FE	V2503	V2505	0
 	X200T	V2561	=	0
