@@ -1,24 +1,12 @@
 {
-  "lastUpdated": "2026-10-02",
-  "newDevicesCount": 3,
+  "lastUpdated": "2026-10-03",
+  "newDevicesCount": 1,
   "newDevices": [
     [
-      "Sony",
-      "Xperia 10 VIII",
-      "XQ-GH",
-      "A602SO"
-    ],
-    [
-      "Sony",
-      "Xperia 10 VIII",
-      "XQ-GH",
-      "SOG18"
-    ],
-    [
-      "Sony",
-      "Xperia 10 VIII",
-      "XQ-GH",
-      "XQ-GH44"
+      "Korea Telecom",
+      "MA8000",
+      "ma8000",
+      "MA8000"
     ]
   ]
 }

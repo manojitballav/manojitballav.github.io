@@ -22143,6 +22143,7 @@ Korea Telecom
 	KSTB8000	=	=	0
 	MA4000	=	=	0
 	MA4100	=	=	0
+	MA8000	ma8000	~	0
 	MAR4510C	=	=	0
 	MAU4800D	mau4800d	~	0
 Krik Krak
