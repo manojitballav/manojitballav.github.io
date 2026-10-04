@@ -2804,6 +2804,7 @@ Artel
 	GAP YOQ	GAP_YOQ	~	0
 	GAPYOQ	=	GAP	0
 	R3	=	=	0
+	R3GS	=	=	0
 	R3_GTV	=	R3G	0
 	R4	=	=	0
 	R4_GTV	=	R4G	0
@@ -3829,6 +3830,7 @@ BLACKLINE
 	PHD20	=	=	0
 	R10G	=	=	0
 	R3	=	=	0
+	R3GS	=	=	0
 	R3_GTV	=	R3G	0
 	R4	=	=	0
 	R4_GTV	=	R4G	0
@@ -19328,6 +19330,7 @@ Imi Tech
 Impecca
 	ET7050D	=	=	0
 Imperial
+	R3GS	=	=	0
 	R3_GTV	=	R3G	0
 	R4_GTV	=	R4G	0
 Impression
@@ -21665,6 +21668,7 @@ Kalley
 	Klic	SA	K4-02 4G	0
 	R10G	=	=	0
 	R3	=	=	0
+	R3GS	=	=	0
 	R3_GTV	=	R3G	0
 	R4	=	=	0
 	R4_GTV	=	R4G	0
@@ -30548,6 +30552,7 @@ Nikkei
 	NI32HG7NA9	ikebukuro	AI PONT	0
 	NI43UG7NA9	samseong	AI PONT	0
 	R3	=	=	0
+	R3GS	=	=	0
 	R4	=	=	0
 	Smart TV	osaka	AI PONT	2
 Nikon
@@ -31393,6 +31398,7 @@ Olike
 	E3	=	=	0
 Olimpo
 	R3	=	=	0
+	R3GS	=	=	0
 	R3_GTV	=	R3G	0
 	R4	=	=	0
 	R4_GTV	=	R4G	0
@@ -33221,6 +33227,7 @@ PEAQ
 	PET_11081_H428S_EEA	PET_11081_H428S	=	0
 	PET_8040_H464S	=	=	0
 	PGS1000	MKZ	~	0
+	R3GS	=	=	0
 	R4_GTV	=	R4G	0
 	Smart TV	alimos	AI PONT	2
 	Smart TV	alimos	AI PONT IT	2
@@ -34698,6 +34705,7 @@ Polytron
 	PRIME T8	POLYTRON_R255B	R255B	0
 	Polytron 2K AI Smart TV	osaki	2K AI Smart TV	2
 	R10G	=	POLYTRON4K	0
+	R3GS	=	POLYTRON 2K	0
 	Smart TV	mateo	2K PA Smart TV	2
 	T7001	=	=	0
 	T8001	=	=	0
@@ -42623,6 +42631,7 @@ Shiarffe
 	Global	t7_an400	X5	0
 	Smart_Board	rk3588_t	SKIEDLA65	0
 Shivaki
+	R3GS	=	=	0
 	R3_GTV	=	R3G	0
 	R4_GTV	=	R4G	0
 Shuodum
@@ -45021,6 +45030,7 @@ TCL
 	Percee TV	tcl_sa	~	2
 	ProjectorC1	himalaya	~	4
 	R3	=	=	0
+	R3GS	=	=	0
 	R3_GTV	=	R3G	2
 	R4	=	=	0
 	R4_GTV	=	R4G	2

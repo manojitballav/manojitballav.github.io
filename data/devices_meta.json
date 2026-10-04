@@ -1,12 +1,66 @@
 {
-  "lastUpdated": "2026-10-03",
-  "newDevicesCount": 1,
+  "lastUpdated": "2026-10-04",
+  "newDevicesCount": 10,
   "newDevices": [
     [
-      "Korea Telecom",
-      "MA8000",
-      "ma8000",
-      "MA8000"
+      "Artel",
+      "R3GS",
+      "R3GS",
+      "R3GS"
+    ],
+    [
+      "BLACKLINE",
+      "R3GS",
+      "R3GS",
+      "R3GS"
+    ],
+    [
+      "Imperial",
+      "R3GS",
+      "R3GS",
+      "R3GS"
+    ],
+    [
+      "Kalley",
+      "R3GS",
+      "R3GS",
+      "R3GS"
+    ],
+    [
+      "Nikkei",
+      "R3GS",
+      "R3GS",
+      "R3GS"
+    ],
+    [
+      "Olimpo",
+      "R3GS",
+      "R3GS",
+      "R3GS"
+    ],
+    [
+      "PEAQ",
+      "R3GS",
+      "R3GS",
+      "R3GS"
+    ],
+    [
+      "Polytron",
+      "R3GS",
+      "R3GS",
+      "POLYTRON 2K"
+    ],
+    [
+      "Shivaki",
+      "R3GS",
+      "R3GS",
+      "R3GS"
+    ],
+    [
+      "TCL",
+      "R3GS",
+      "R3GS",
+      "R3GS"
     ]
   ]
 }
