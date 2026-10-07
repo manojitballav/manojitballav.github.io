@@ -51,6 +51,12 @@ Lumio is an Indian smart TV brand under Circuit House Technologies, founded in M
 
 ## Blog Content Summaries
 
+### Lumio Arc 7 2026 vs Arc 7: What Changed, and Why We Built a New One
+**URL:** /blog/lumio-arc-7-2026-vs-arc-7.html
+**Published:** October 7, 2026
+
+The Arc 7 2026 keeps the Arc 7 body and adds Arc Light Engine 2, a clearer LCD chip in a sealed optical design: 500 ANSI lumens (from 400), 1700:1 native contrast (from 1500:1), 45.76% DCI-P3 (from 41.6%), a 45-120 inch image (from 40-100), 32 GB storage (from 16), Google TV with Gemini. Priced at Rs 34,999 on Amazon, Flipkart and the Lumio Store. Brightness was the most common request from Arc 7 owners in every post-purchase survey wave; about three in four project onto a bare wall and four in five are first-time projector buyers. Also explains single-panel LCD light-path losses (polariser, pixel aperture), microlens arrays, polarisation recycling and etendue.
+
 ### 1. TV Display Panels Explained: From TN to MicroLED · A Deep Dive
 **URL:** /blog/tv-panel-types.html
 **Published:** March 7, 2026
@@ -194,4 +200,4 @@ Rankings:
 - **Company:** Lumio (Circuit House Technologies)
 - **Industry:** Consumer Electronics, Smart TV, Connected TV, Streaming, AdTech, Display Technology
 - **Topics:** CTV, Smart TV, AI Advertising, FAST Channels, Display Panel Technology, TV Panel Types, OLED, Mini LED, QLED, QD-OLED, Product Management
-- **Last Updated:** August 2026
+- **Last Updated:** October 2026

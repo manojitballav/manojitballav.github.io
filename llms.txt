@@ -31,6 +31,7 @@ Previously worked at Xiaomi India on Mi TV and Redmi TV product lines.
 
 ## Blog Posts
 
+- [Lumio Arc 7 2026 vs Arc 7: What Changed, and Why We Built a New One](/blog/lumio-arc-7-2026-vs-arc-7.html): Arc Light Engine 2, 500 ANSI lumens (from 400), 1700:1 contrast, 45.76% DCI-P3, 45-120 inch image, Google TV with Gemini, Rs 34,999. How LCD light engines are getting brighter
 - [TV Display Panels Explained: From TN to MicroLED](/blog/tv-panel-types.html): Deep technical breakdown of every TV display panel type. How Lumio picks panels for Indian conditions
 - [Inside a Wireless HDMI System](/blog/blog-wireless-hdmi.html): Engineering a pro-grade wireless HDMI dongle, covering chipsets, benchmarks, video pipeline
 - [Different Types of Projectors in India](/blog/projector-types-india.html): Guide to LCD, DLP, LED, Laser, and LCoS projectors
@@ -53,4 +54,4 @@ Previously worked at Xiaomi India on Mi TV and Redmi TV product lines.
 - Location: India
 - Industry: Consumer Electronics, Smart TV, CTV, Streaming, Display Technology
 - Company: Lumio (Circuit House Technologies)
-- Last Updated: August 2026
+- Last Updated: October 2026

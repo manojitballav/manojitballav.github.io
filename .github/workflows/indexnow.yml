@@ -1,0 +1,84 @@
+name: IndexNow
+
+# Tells Bing (and through it ChatGPT search, Copilot and DuckDuckGo), Yandex, Naver and
+# Seznam that pages changed, so they recrawl in minutes instead of days. Google does not
+# take part in IndexNow; use Search Console for it.
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - '**.html'
+      - 'llms.txt'
+      - 'llms-full.txt'
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: 'Space-separated paths to submit, e.g. "blog/x.html index.html"'
+        required: true
+
+permissions:
+  contents: read
+  pages: read
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    env:
+      SITE: https://manojitballav.com
+      # Served from the site root as <key>.txt. Rotate by replacing that file and this value.
+      KEY: 8085a4900284748bd2e1e0b7ecda12b0
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Collect changed pages
+        id: urls
+        env:
+          BEFORE: ${{ github.event.before }}
+          MANUAL: ${{ inputs.urls }}
+        run: |
+          if [ -n "$MANUAL" ]; then
+            paths="$MANUAL"
+          elif [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
+            paths=$(git diff --name-only --diff-filter=AM HEAD~1 HEAD)
+          else
+            paths=$(git diff --name-only --diff-filter=AM "$BEFORE" "$GITHUB_SHA")
+          fi
+          # Only public pages: skip the legacy theme, the 404 page and the search-console stub.
+          urls=$(printf '%s\n' $paths \
+            | grep -E '\.(html|txt)$' \
+            | grep -v -E '^_|^404\.html$|^google[0-9a-f]+\.html$|^[0-9a-f]{32}\.txt$' \
+            | sed -e 's#^index\.html$##' -e "s#^#$SITE/#" | sort -u)
+          if [ -z "$urls" ]; then echo "No public pages changed"; fi
+          { echo 'list<<EOF'; echo "$urls"; echo 'EOF'; } >> "$GITHUB_OUTPUT"
+
+      # IndexNow engines fetch the URLs soon after the ping, so wait until GitHub Pages
+      # has deployed this commit rather than pointing them at the previous version.
+      - name: Wait for the Pages deploy
+        if: steps.urls.outputs.list != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for i in $(seq 1 40); do
+            s=$(gh api "repos/$GITHUB_REPOSITORY/pages/builds/latest" --jq '.status + " " + .commit')
+            echo "$s"
+            [ "$s" = "built $GITHUB_SHA" ] && exit 0
+            sleep 15
+          done
+          echo "Pages build for $GITHUB_SHA not seen after 10 minutes, pinging anyway"
+
+      - name: Submit to IndexNow
+        if: steps.urls.outputs.list != ''
+        env:
+          URLS: ${{ steps.urls.outputs.list }}
+        run: |
+          body=$(python3 -c "import json,os; print(json.dumps({'host':'manojitballav.com','key':os.environ['KEY'],'keyLocation':os.environ['SITE']+'/'+os.environ['KEY']+'.txt','urlList':os.environ['URLS'].split()}))")
+          echo "$body"
+          code=$(curl -s -o /tmp/indexnow.out -w '%{http_code}' -X POST https://api.indexnow.org/indexnow \
+            -H 'Content-Type: application/json; charset=utf-8' -d "$body")
+          cat /tmp/indexnow.out; echo
+          echo "IndexNow responded $code"
+          # 200 = accepted, 202 = accepted while the key is still being verified
+          [ "$code" = 200 ] || [ "$code" = 202 ]
