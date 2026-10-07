@@ -23,69 +23,41 @@ Not flashy. Not startup hype.\
 
 # 2. Logo System
 
-## Primary Logo
-
-Structure:
-
-    [ | ] MONO
-
-Symbol meaning:
-
--   Square → system boundary
--   Vertical axis → control spine
--   Balance → stability and structure
-
-Use this version for:
-
--   Website headers
--   Presentation slides
--   Product landing pages
-
-------------------------------------------------------------------------
-
-## Symbol (Icon Mark)
-
-    [ | ]
-
-This is the **core identity element**.
-
-Use it for:
-
--   GitHub avatar
--   Favicons
--   App icons
--   CLI tools
--   Documentation
-
-Goal: recognition of the **symbol alone**.
-
-------------------------------------------------------------------------
+The logo is generated from type, not hand-drawn. `tools/brand/` holds the scripts that
+rebuild every asset exactly; see `tools/brand/README.md` for the commands.
 
 ## Wordmark
 
     MONO
 
-The wordmark can appear without the symbol when space is limited.
+MONO set in **Red Hat Display Bold** at -2% tracking, converted to outlines
+(`images/logo-wordmark.svg`). Red Hat Display is SIL OFL licensed, so it is free to
+use in a commercial logo, and the outlined file has no font dependency.
 
-Examples:
+Use it wherever a word fits: desktop site header, email signature, slides, share cards.
 
--   documentation header
--   product UI
--   slide decks
+## Symbol ("Assembly")
+
+The same face's **M**, cut into three vertical slices and reassembled slightly out of
+true (kerf 3, offsets -3.0 / +3.5 / -1.5 on a 60-unit box), in `images/logo-symbol.svg`.
+The cuts are deliberately large: half those values reads as a rendering glitch.
+
+Use it in square or tight frames: favicon, app icon, avatars, mobile header.
+
+## Never a lockup
+
+Wordmark and symbol are **alternates, not components**. The symbol is the wordmark
+compressed to its first letter, so placing both together says the M twice.
+
+Both files use `fill="currentColor"`: the page sets the colour, and dark mode needs no
+`invert()` filter.
 
 ------------------------------------------------------------------------
 
 # 3. Logo Spacing Rules
 
-Maintain minimum spacing equal to the width of the axis line.
-
-Example safe area:
-
-       ┌──────────────┐
-       │              │
-       │  [ | ] MONO  │
-       │              │
-       └──────────────┘
+-   Clear space: one cap height on every side.
+-   Minimum size: wordmark 11px cap height (about 78px wide), symbol 16px.
 
 Do not crowd the logo with UI elements.
 
@@ -129,43 +101,17 @@ Use sparingly for:
 
 # 5. Typography
 
-Typography should feel **technical and precise**.
+## Brand typeface
 
-## Primary Typeface
+**Red Hat Display** (Bold for the wordmark and share-card headlines, Medium for
+secondary lines), with **Red Hat Text** for small text on generated assets such as
+share cards. All are SIL OFL licensed.
 
-**Space Grotesk**
+## Website
 
-Usage:
-
--   Headings
--   Product titles
--   Landing pages
-
-Example:
-
-    MONO
-    MonoAxis
-    Device Control
-
-## Secondary Typeface
-
-**Inter**
-
-Usage:
-
--   UI
--   Documentation
--   Body text
--   Dashboards
-
-## Type Hierarchy
-
-Example structure:
-
-    H1 — Space Grotesk Bold
-    H2 — Space Grotesk Medium
-    Body — Inter Regular
-    UI labels — Inter Medium
+The site itself uses **Google Sans** for headings and UI and **Inter** for body text,
+loaded from Google Fonts. Google Sans is not licensable for a logo, which is why the
+logo is Red Hat Display rather than the site face.
 
 ------------------------------------------------------------------------
 
@@ -301,35 +247,28 @@ Example GitHub bio:
 
 # 12. Favicon
 
-Use the symbol only:
+Use the **Assembly symbol** only, never the wordmark. `tools/brand/make-icons.py`
+rasterises it into the full set: `favicon.svg`, `favicon.ico`, 16 to 96px PNGs,
+`apple-touch-icon.png` and the Android icons.
 
-    [ | ]
+Render dark ink (`#111114`) on white, or the inverse.
 
-Render in:
-
--   black on white or
--   white on black
-
-Scales well to **16px favicons**.
+When icons change, bump the `?v=` query on every favicon link so browsers re-fetch them.
 
 ------------------------------------------------------------------------
 
-# 13. Brand Assets Repository
+# 13. Brand Assets
 
-Create a repo:
+Assets live in this repo, not a separate `mono-brand` repo:
 
-    mono-brand
+    images/logo-wordmark.svg
+    images/logo-symbol.svg
+    images/favicon.svg (+ ico / png set)
+    images/og/*.jpg         1200x630 share cards
+    tools/brand/            generators + usage README
 
-Include:
-
-    logo.svg
-    favicon.svg
-    symbol.svg
-    brand-colors.md
-    typography.md
-    usage-guide.md
-
-Treat branding like **infrastructure**.
+Treat branding like **infrastructure**: change the generator and rebuild, never edit
+an exported file by hand.
 
 ------------------------------------------------------------------------
 

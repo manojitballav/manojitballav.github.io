@@ -1,0 +1,12 @@
+# GitHub Pages builds this repo with Jekyll. No page uses Jekyll features (none have
+# front matter, so they are copied through untouched); this file exists only to keep
+# repo-only files off manojitballav.com. robots.txt hid them from crawlers, but they
+# were still served to anyone with the URL.
+exclude:
+  - CLAUDE.md
+  - README.md
+  - mono_brand_guidelines.md
+  - tools/
+  # Raw upstream input for the devices workflow. The page loads devices-index.json and
+  # devices.txt instead, so the 2.4 MB CSV only needs to live in the repo.
+  - data/supported_devices.csv

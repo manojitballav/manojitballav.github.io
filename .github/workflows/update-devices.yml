@@ -24,7 +24,20 @@ jobs:
         run: |
           iconv -f UTF-16 -t UTF-8 /tmp/devices_raw.csv > /tmp/devices_new.csv
 
+      # Google's list is unchanged on most days. Stop here when it is, rather than
+      # committing a bumped lastUpdated date and repeating the previous run's "N new".
+      - name: Check whether Google's list changed
+        id: upstream
+        run: |
+          if cmp -s /tmp/devices_new.csv data/supported_devices.csv; then
+            echo "Upstream list unchanged, nothing to do"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Detect new devices and update metadata
+        if: steps.upstream.outputs.changed == 'true'
         run: |
           TODAY=$(date -u +"%Y-%m-%d")
 
@@ -77,21 +90,25 @@ jobs:
           PYEOF
 
       - name: Overwrite CSV with new version
+        if: steps.upstream.outputs.changed == 'true'
         run: |
           cp /tmp/devices_new.csv data/supported_devices.csv
 
       - name: Set up Node
+        if: steps.upstream.outputs.changed == 'true'
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
       - name: Build device payloads
+        if: steps.upstream.outputs.changed == 'true'
         run: |
           # Writes data/devices-index.json + data/devices.txt (what the page actually
           # fetches) and classifies this run's new devices for the feed step below.
           node tools/build-device-data.js --new-types "$RUNNER_TEMP/new_device_types.json"
 
       - name: Update Atom feed
+        if: steps.upstream.outputs.changed == 'true'
         run: |
           python3 << 'PYEOF'
           import json, html, datetime, csv, os, re
@@ -116,7 +133,8 @@ jobs:
           today = meta["lastUpdated"]
           devices = meta["newDevices"]
           count = meta["newDevicesCount"]
-          now = today + "T06:00:00Z"
+          # The run time, not the cron time: scheduled runs routinely start hours late.
+          now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
           date_pretty = datetime.datetime.strptime(today, "%Y-%m-%d").strftime("%-d %B %Y")
 
           # --- Database stats ---
@@ -283,6 +301,7 @@ jobs:
           PYEOF
 
       - name: Check for changes
+        if: steps.upstream.outputs.changed == 'true'
         id: diff
         run: |
           git add data/supported_devices.csv data/devices_meta.json data/google-certified-devices-feed.xml data/devices-index.json data/devices.txt
@@ -297,7 +316,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          DEVICE_COUNT=$(wc -l < data/supported_devices.csv | tr -d ' ')
-          NEW_COUNT=$(python3 -c "import json; print(json.load(open('data/devices_meta.json'))['newDevicesCount'])")
+          # Minus the header row. NEW_COUNT is this run's additions, not the carried-over
+          # "Recently Added" batch, which is kept when a run only removes devices.
+          DEVICE_COUNT=$(( $(wc -l < data/supported_devices.csv) - 1 ))
+          NEW_COUNT=$(wc -l < /tmp/added_lines.csv | tr -d ' ')
           git commit -m "Update Google certified devices list ($DEVICE_COUNT entries, $NEW_COUNT new)"
           git push

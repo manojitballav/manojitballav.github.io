@@ -532,6 +532,16 @@
             background: rgba(255, 255, 255, 0.06);
             color: #a1a1a6;
         }
+        .status--declined,
+        .status--unavailable {
+            background: rgba(234, 67, 53, 0.08);
+            color: #d93025;
+        }
+        [data-theme="dark"] .status--declined,
+        [data-theme="dark"] .status--unavailable {
+            background: rgba(255, 69, 58, 0.12);
+            color: #ff453a;
+        }
 
         /* Loading skeleton */
         .skeleton-card {
@@ -1335,8 +1345,16 @@
             return categoryWeights[category] || 0.4;
         }
 
-        function updateDashboard(data) {
+        // Only requests still headed for the suitcase count toward the meters. Delivered
+        // ones belong to past trips, and declined/unavailable ones will never be bought.
+        var CLOSED_STATUSES = ['delivered', 'declined', 'unavailable'];
+        function isActive(r) {
+            return CLOSED_STATUSES.indexOf(String(r.Status || 'Pending').toLowerCase()) === -1;
+        }
+
+        function updateDashboard(allData) {
             var dashboard = document.getElementById('travelDashboard');
+            var data = allData.filter(isActive);
             if (!data.length) { dashboard.style.display = 'none'; return; }
             dashboard.style.display = '';
 
@@ -1423,11 +1441,13 @@
             const pending = data.filter(r => (r.Status || 'Pending').toLowerCase() === 'pending').length;
             const purchased = data.filter(r => (r.Status || '').toLowerCase() === 'purchased').length;
             const delivered = data.filter(r => (r.Status || '').toLowerCase() === 'delivered').length;
+            const closed = data.filter(r => ['declined', 'unavailable'].includes((r.Status || '').toLowerCase())).length;
             statsEl.innerHTML =
                 '<span><strong>' + total + '</strong> total</span>' +
                 '<span><strong>' + pending + '</strong> pending</span>' +
                 (purchased ? '<span><strong>' + purchased + '</strong> purchased</span>' : '') +
-                (delivered ? '<span><strong>' + delivered + '</strong> delivered</span>' : '');
+                (delivered ? '<span><strong>' + delivered + '</strong> delivered</span>' : '') +
+                (closed ? '<span><strong>' + closed + '</strong> declined / unavailable</span>' : '');
         }
 
         function renderRequests(data) {

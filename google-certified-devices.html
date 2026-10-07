@@ -800,11 +800,11 @@
             <h1>Google Certified Android Devices</h1>
             <p>Browse the complete global database of Google certified (GMS) Android devices. Search by brand, model, or device codename.</p>
             <div style="max-width: 640px; margin: 16px auto 0; padding: 12px 16px; background: rgba(26, 115, 232, 0.06); border-left: 3px solid var(--accent, #1a73e8); border-radius: 0 8px 8px 0; font-size: 0.85rem; color: var(--text-secondary, #5f6368); line-height: 1.5;">
-                <strong style="color: var(--text-primary, #202124);">Note:</strong> When an OEM shares the same mainboard across multiple products, they may appear as a single certified entry. Data refreshes automatically every week.
+                <strong style="color: var(--text-primary, #202124);">Note:</strong> When an OEM shares the same mainboard across multiple products, they may appear as a single certified entry. Data refreshes automatically every day.
             </div>
             <div class="devices-classification-info">
                 <i class="fa-solid fa-circle-info"></i>
-                <span>Device categories are auto-detected and may occasionally be off. Spot something wrong? Drop me a note on <a href="https://x.com/manojitballav" target="_blank" rel="noopener">X (@manojitballav)</a> or <a href="mailto:manojitballav@gmail.com">email me</a>, happy to fix it!</span>
+                <span>Device categories are auto-detected and may occasionally be off. Spot something wrong? Drop me a note on <a href="https://x.com/manojitballav" target="_blank" rel="noopener">X (@manojitballav)</a> or <a href="mailto:mail@manojitballav.com">email me</a>, happy to fix it!</span>
             </div>
             <div class="devices-last-updated" id="lastUpdated" style="display:none;"></div>
         </div>
@@ -1190,11 +1190,14 @@
         // Open brand detail
         function openBrandDetail(brand) {
             currentBrand = brand;
-            detailQuery = '';
+            // A brand reached through a device search ("khardi") opens filtered to the
+            // matches; one reached by its own name ("samsung") opens unfiltered.
+            const carried = searchQuery && !brand.toLowerCase().includes(searchQuery) ? searchQuery : '';
+            detailQuery = carried;
             detailPage = 1;
             detailSortCol = 0;
             detailSortAsc = true;
-            detailSearch.value = '';
+            detailSearch.value = carried;
             detailBrandName.textContent = brand;
 
             brandGridView.style.display = 'none';
@@ -1347,7 +1350,7 @@
                 recentlyAddedContent.innerHTML = `<div class="recently-added-empty">
                     <i class="fa-solid fa-check-circle"></i>
                     <p>No new devices since the last update.</p>
-                    <p class="sub">The database refreshes every Monday. Check back soon.</p>
+                    <p class="sub">The database is checked for new devices every day. Check back soon.</p>
                 </div>`;
                 return;
             }

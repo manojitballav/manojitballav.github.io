@@ -47,9 +47,6 @@
     <link rel="preconnect" href="https://www.googletagmanager.com">
     <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
 
-    <!-- Preload LCP image -->
-    <link rel="preload" as="image" href="images/blog-led-lifespan.webp" type="image/webp">
-
     <!-- Fonts (async to avoid render blocking) -->
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Google+Sans+Text:wght@400;500;700&family=Inter:wght@300;400;500;600;700&display=swap">
     <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Google+Sans+Text:wght@400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
@@ -667,7 +664,7 @@
             <!-- Featured Post -->
             <a href="blog/google-certified-devices.html" class="blog-featured reveal--scale">
                 <div class="blog-featured__image">
-                    <img src="images/blog-google-devices.jpg" alt="Google Certified Android Devices: Searchable Database" fetchpriority="high" width="1200" height="800">
+                    <img src="images/blog-google-devices.jpg" alt="Google Certified Android Devices: Searchable Database" loading="lazy" width="1200" height="800">
                 </div>
                 <div class="blog-featured__body">
                     <div class="blog-featured__category">Technology</div>

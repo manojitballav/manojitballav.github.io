@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <script>(function(){var t=localStorage.getItem('theme')||(window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t)})()</script>
+    <title>Page Not Found | Manojit Ballav</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, follow">
+    <!-- GitHub Pages serves this file for a missing URL at any depth, so every path here is absolute. -->
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+    <link rel="icon" href="/favicon.ico?v=2026-08" sizes="48x48">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png?v=2026-08">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/google-style.css">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-61ZX5F590H"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-61ZX5F590H', { page_title: '404', page_path: '/404?from=' + location.pathname });
+    </script>
+
+    <style>
+        .notfound {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 48px 24px;
+        }
+        .notfound__logo {
+            display: inline-block;
+            height: 22px;
+            width: calc(22px * 4.2493);
+            background-color: currentColor;
+            -webkit-mask: url(/images/logo-wordmark.svg) center/contain no-repeat;
+            mask: url(/images/logo-wordmark.svg) center/contain no-repeat;
+            color: #202124;
+            margin-bottom: 40px;
+        }
+        [data-theme="dark"] .notfound__logo { color: #f5f5f7; }
+        .notfound__code {
+            font-size: 5rem;
+            font-weight: 700;
+            line-height: 1;
+            letter-spacing: -2px;
+            color: #1a73e8;
+            margin-bottom: 16px;
+        }
+        [data-theme="dark"] .notfound__code { color: #0a84ff; }
+        .notfound h1 { font-size: 1.5rem; margin-bottom: 12px; }
+        .notfound p { max-width: 440px; margin: 0 auto 32px; }
+        .notfound__actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+    </style>
+</head>
+<body>
+    <main class="notfound">
+        <div>
+            <a href="/" class="notfound__logo" role="img" aria-label="MONO, home"></a>
+            <div class="notfound__code">404</div>
+            <h1>This page doesn't exist</h1>
+            <p>The link may be out of date, or the page has moved. Try one of these instead.</p>
+            <div class="notfound__actions">
+                <a href="/" class="btn btn--primary">Home</a>
+                <a href="/blog/blog-page.html" class="btn btn--outline">Blog</a>
+                <a href="/google-certified-devices.html" class="btn btn--outline">Certified Devices</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
