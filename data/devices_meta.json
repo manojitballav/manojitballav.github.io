@@ -1,66 +1,48 @@
 {
-  "lastUpdated": "2026-10-06",
-  "newDevicesCount": 10,
+  "lastUpdated": "2026-10-07",
+  "newDevicesCount": 7,
   "newDevices": [
     [
-      "Artel",
-      "R3GS",
-      "R3GS",
-      "R3GS"
+      "Docomo",
+      "DOCOMO KS-6100",
+      "KSTB6175",
+      "KS-6100"
     ],
     [
-      "BLACKLINE",
-      "R3GS",
-      "R3GS",
-      "R3GS"
+      "REDMAGIC",
+      "NP06J",
+      "PQ85P01_A",
+      "NP06J"
     ],
     [
-      "Imperial",
-      "R3GS",
-      "R3GS",
-      "R3GS"
+      "Samsung",
+      "Galaxy F70 5G",
+      "a17x",
+      "SM-E176E"
     ],
     [
-      "Kalley",
-      "R3GS",
-      "R3GS",
-      "R3GS"
+      "ZTE",
+      "Z2582",
+      "P615F04",
+      "Z2582"
     ],
     [
-      "Nikkei",
-      "R3GS",
-      "R3GS",
-      "R3GS"
+      "ZTE",
+      "ZTE A77 5G",
+      "P780F08",
+      "Z2586N"
     ],
     [
-      "Olimpo",
-      "R3GS",
-      "R3GS",
-      "R3GS"
+      "ZTE",
+      "ZTE V80 Vita",
+      "P620F02",
+      "Z2575"
     ],
     [
-      "PEAQ",
-      "R3GS",
-      "R3GS",
-      "R3GS"
-    ],
-    [
-      "Polytron",
-      "R3GS",
-      "R3GS",
-      "POLYTRON 2K"
-    ],
-    [
-      "Shivaki",
-      "R3GS",
-      "R3GS",
-      "R3GS"
-    ],
-    [
-      "TCL",
-      "R3GS",
-      "R3GS",
-      "R3GS"
+      "ZTE",
+      "nubia Neo 5 Max",
+      "P658F01",
+      "Z2572N"
     ]
   ]
 }
