@@ -1,48 +1,126 @@
 {
-  "lastUpdated": "2026-10-07",
-  "newDevicesCount": 7,
+  "lastUpdated": "2026-10-09",
+  "newDevicesCount": 20,
   "newDevices": [
     [
-      "Docomo",
-      "DOCOMO KS-6100",
-      "KSTB6175",
-      "KS-6100"
+      "Amazon",
+      "Alexa Tablet 11, Amazon Kids Tablet 11",
+      "turquoise",
+      "ATTQUWI"
     ],
     [
-      "REDMAGIC",
-      "NP06J",
-      "PQ85P01_A",
-      "NP06J"
+      "Amazon",
+      "Alexa Tablet 12 Pro",
+      "spinel",
+      "ATSPUWI"
     ],
     [
-      "Samsung",
-      "Galaxy F70 5G",
-      "a17x",
-      "SM-E176E"
+      "Amazon",
+      "Alexa Tablet 8, Amazon Kids Tablet 8",
+      "roselite",
+      "ATROWI"
     ],
     [
-      "ZTE",
-      "Z2582",
-      "P615F04",
-      "Z2582"
+      "Callsky-tab",
+      "Cpad_10",
+      "Cpad_10",
+      "Cpad_10"
     ],
     [
-      "ZTE",
-      "ZTE A77 5G",
-      "P780F08",
-      "Z2586N"
+      "DMOAO",
+      "D3_C",
+      "D3_C",
+      "D3_C"
     ],
     [
-      "ZTE",
-      "ZTE V80 Vita",
-      "P620F02",
-      "Z2575"
+      "FEITIAN",
+      "F20",
+      "F20",
+      "F20"
     ],
     [
-      "ZTE",
-      "nubia Neo 5 Max",
-      "P658F01",
-      "Z2572N"
+      "H3Cmagic",
+      "M8781A_TK",
+      "M8781A",
+      "M8781A"
+    ],
+    [
+      "Hyundai",
+      "HT8WC1RBK01KB03",
+      "HT8WC1RBK01KB03",
+      "8WC1"
+    ],
+    [
+      "LANDI",
+      "M20PlusN00",
+      "M20Plus-G-00",
+      "M20 Plus"
+    ],
+    [
+      "Mintt",
+      "MINTT_P26PLUS",
+      "MINTT_P26PLUS",
+      "MINTT P26+"
+    ],
+    [
+      "Redmi",
+      "REDMI 17C 5G",
+      "tornado",
+      "2607FRNEAI"
+    ],
+    [
+      "SKYEGG",
+      "K13_E",
+      "K13_E",
+      "K13_E"
+    ],
+    [
+      "SUAAT",
+      "S11_E",
+      "S11_E",
+      "S11_E"
+    ],
+    [
+      "TACTIVIS",
+      "GSIT8TAC",
+      "GSIT8TAC",
+      "GSIT8TAC"
+    ],
+    [
+      "TOPELOTEK",
+      "ZIDS_701_US",
+      "ZIDS_701_US",
+      "ZIDS_701"
+    ],
+    [
+      "UJJ(SZ)",
+      "U8_C",
+      "U8_C",
+      "U8_C"
+    ],
+    [
+      "Wintouch",
+      "A80PRO",
+      "A80PRO",
+      "A80PRO"
+    ],
+    [
+      "Xiaomi",
+      "Xiaomi 18 Pro Max",
+      "madrid",
+      "M154FF"
+    ],
+    [
+      "Xiaomi",
+      "Xiaomi 18 Pro",
+      "hongkong",
+      "M610BB"
+    ],
+    [
+      "fezawio",
+      "F12_E_EEA",
+      "F12_E_EEA",
+      "F12_E"
     ]
   ]
 }

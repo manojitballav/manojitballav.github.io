@@ -2110,6 +2110,10 @@ Altus
 	Altus UHD Android TV	kunyang	UHD Pro TV	2
 	Altus UHD Pro TV	marina	~	2
 	Turkey	martin	Altus Android TV	2
+Amazon
+	Alexa Tablet 11, Amazon Kids Tablet 11	turquoise	ATTQUWI	1
+	Alexa Tablet 12 Pro	spinel	ATSPUWI	1
+	Alexa Tablet 8, Amazon Kids Tablet 8	roselite	ATROWI	1
 Amdox
 	AME_QT08UM	Smart_Whiteboard	~	0
 	EP-01	=	=	0
@@ -6561,6 +6565,8 @@ Callsky
 	Cpad10	=	=	0
 	Ctab_12	=	Ctab 12	0
 	Ctab_12	=	SMART PRO 12	0
+Callsky-tab
+	Cpad_10	=	=	0
 Caltta
 	e720	=	=	0
 Camelus
@@ -8719,6 +8725,7 @@ DMOAO
 	D11_EEA	=	=	0
 	D2_EEA	=	=	0
 	D2_US	=	=	0
+	D3_C	=	=	0
 	D3_E	=	=	0
 	D3_EEA	=	=	0
 	D3_EU	=	=	0
@@ -11535,6 +11542,7 @@ FEC
 FEITIAN
 	F100	=	=	0
 	F100_EEA	F100	=	0
+	F20	=	=	0
 	F310 P	F310P	=	0
 FELUX
 	LUXE 3	LUXE_3	~	0
@@ -13718,6 +13726,7 @@ H3Cmagic
 	M8781	=	=	0
 	M8781A	=	=	0
 	M8781A_EU	M8781A	=	0
+	M8781A_TK	M8781A	=	0
 H819E
 	MINTAKA	=	=	0
 HAAM
@@ -18710,6 +18719,7 @@ Hyundai
 	HT8WB1RBK02A	=	=	0
 	HT8WB1RBK02_12	=	8WB1	0
 	HT8WB1RBK03	=	=	0
+	HT8WC1RBK01KB03	=	8WC1	0
 	HY1-5085	HY1_5085	~	0
 	HYLED5015A4KM	samseong	AI PONT	0
 	HYLine_Plus	57PB1	=	0
@@ -22486,6 +22496,7 @@ LANDI
 	K20ProN00	K20Pro-G-00	K20 Pro	0
 	M10SE	=	=	0
 	M20	=	=	0
+	M20PlusN00	M20Plus-G-00	M20 Plus	0
 	M20SE	=	=	0
 	M50SEN00	M50SE-G-00	M50SE	0
 	P30TN00	P30T-G-00	P30 Tablet	1
@@ -27816,6 +27827,7 @@ Mintt
 	MINTT-DIGI	=	=	0
 	MINTT_ASPIRE_X9	=	MINTT ASPIRE X9	0
 	MINTT_DIGI_2	=	Mintt__Digi__2	0
+	MINTT_P26PLUS	=	MINTT P26+	0
 	MINTT_PRIME_S11	=	MINTT PRIME S11	0
 	MINTT_T11	=	=	0
 	MinttM3	Mintt_M3	Mintt M3	0
@@ -36600,6 +36612,7 @@ Redmi
 	REDMI 17 5G	steppe	26062RN92G	0
 	REDMI 17 5G	steppe	26062RN92I	0
 	REDMI 17C 5G	tornado	2607FRNEAG	0
+	REDMI 17C 5G	tornado	2607FRNEAI	0
 	REDMI A7	serenity	26020RNB4A	0
 	REDMI A7	serenity	26020RNB4I	0
 	REDMI A7	serenity	26020RNB4L	0
@@ -37709,6 +37722,7 @@ SKYEGG
 	K13-U-EEA	=	=	0
 	K13-U-US	=	=	0
 	K13-U-US	=	K13-US	0
+	K13_E	=	=	0
 	K13_EEA	=	=	0
 	K13_US	=	=	0
 	K15_EEA	=	=	0
@@ -38100,6 +38114,7 @@ SUAAT
 	S10_U_US	=	=	0
 	S10_V_EEA	=	=	0
 	S10_V_US	=	=	0
+	S11_E	=	=	0
 	S11_V_EEA	=	=	0
 	S11_V_US	=	=	0
 	S3_E	=	=	0
@@ -44917,6 +44932,8 @@ TABWEE
 	W90_NEU	W90	=	0
 	W90_RU	W90	=	0
 	W90_US	W90	=	0
+TACTIVIS
+	GSIT8TAC	=	=	0
 TADI
 	TADI_TOUCH_1_SERIES	TADI_TOUCH_1	=	0
 TAG Heuer
@@ -46992,6 +47009,7 @@ TOPELOTEK
 	Y8	=	=	0
 	ZIDS701_A	ZIDS_701	=	0
 	ZIDS_701	=	=	0
+	ZIDS_701_US	=	ZIDS_701	0
 TOPJOY
 	PNC450	=	=	0
 	SC0802	=	=	0
@@ -48945,6 +48963,7 @@ UJJ(SZ)
 	U6_V_US	=	=	0
 	U7_EEA	=	=	0
 	U7_US	=	=	0
+	U8_C	=	=	0
 	U8_E	=	=	0
 	U8_EEA	=	=	0
 	U8_US	=	=	0
@@ -52563,6 +52582,7 @@ Wintouch
 	A50	=	=	0
 	A60_EEA	=	A60	0
 	A80	=	=	0
+	A80PRO	=	=	0
 	K19	=	=	0
 	K705A	=	=	0
 	K705A_EEA	=	=	0
@@ -53214,6 +53234,8 @@ Xiaomi
 	Xiaomi 17T Pro	warhol	2602EPTC0R	0
 	Xiaomi 17T Pro	warhol	M025EC	0
 	Xiaomi 18 Fold	lhasa	2608BPX34C	0
+	Xiaomi 18 Pro	hongkong	M610BB	0
+	Xiaomi 18 Pro Max	madrid	M154FF	0
 	Xiaomi Civi	mona	2109119BC	0
 	Xiaomi Civi 1S	zijin	2109119BC	0
 	Xiaomi Civi 4	chenfeng	24053PY09C	0
@@ -56252,6 +56274,7 @@ fezawio
 	F11_V_EEA	=	=	0
 	F11_V_US	=	=	0
 	F12_EEA	=	=	0
+	F12_E_EEA	=	F12_E	0
 	F12_US	=	=	0
 	F8_EEA	=	=	0
 fibwi
