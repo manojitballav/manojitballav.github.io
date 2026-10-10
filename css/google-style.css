@@ -2081,7 +2081,13 @@ p + p { margin-top: 16px; }
 
 @media (max-width: 480px) {
   .hero__title { font-size: 1.875rem; }
-  .stats-grid { grid-template-columns: 1fr; }
+  /* Impact: compact 2-up number + label on phones; descriptions show from 481px up */
+  .stats-grid { grid-template-columns: 1fr 1fr; gap: 12px; }
+  .stat-card { padding: 20px 12px; }
+  .stat-card:last-child:nth-child(odd) { grid-column: 1 / -1; }
+  .stat-card__number { font-size: 1.5rem; line-height: 1.25; }
+  .stat-card__label { font-size: 0.875rem; line-height: 1.35; margin-bottom: 0; }
+  .stat-card__desc { display: none; }
   .hero__actions { flex-direction: column; }
   .btn { width: 100%; justify-content: center; }
 }
