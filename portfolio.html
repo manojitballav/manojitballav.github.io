@@ -287,6 +287,100 @@
                 grid-template-columns: repeat(2, 1fr);
             }
         }
+
+        /* TLDR redesign gallery */
+        .showcase {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        .showcase__strip {
+            display: flex;
+            gap: 16px;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            padding-bottom: 12px;
+            scrollbar-width: thin;
+        }
+        .showcase__item {
+            flex: 0 0 min(80%, 420px);
+            scroll-snap-align: start;
+            padding: 0;
+            border: 0;
+            background: none;
+            text-align: left;
+            cursor: zoom-in;
+            font: inherit;
+            color: inherit;
+        }
+        .showcase__item img {
+            display: block;
+            width: 100%;
+            height: auto;
+            aspect-ratio: 16 / 9;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+            transition: transform 0.2s ease;
+        }
+        .showcase__item:hover img,
+        .showcase__item:focus-visible img {
+            transform: translateY(-2px);
+        }
+        .showcase__caption {
+            display: block;
+            margin-top: 10px;
+            font-size: 13px;
+            color: #5f6368;
+        }
+        [data-theme="dark"] .showcase__caption {
+            color: #9aa0a6;
+        }
+        .showcase__dialog {
+            width: min(1400px, 94vw);
+            max-width: none;
+            margin: auto; /* the global reset zeroes the dialog's own centring margin */
+            padding: 0;
+            border: 0;
+            background: transparent;
+            overflow: visible;
+        }
+        .showcase__dialog::backdrop {
+            background: rgba(0, 0, 0, 0.88);
+        }
+        .showcase__dialog img {
+            display: block;
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+        }
+        .showcase__dialog-caption {
+            margin-top: 12px;
+            text-align: center;
+            font-size: 14px;
+            color: #e8eaed;
+        }
+        .showcase__nav,
+        .showcase__close {
+            position: absolute;
+            width: 44px;
+            height: 44px;
+            border: 0;
+            border-radius: 50%;
+            background: rgba(32, 33, 36, 0.8);
+            color: #fff;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        .showcase__nav { top: calc(50% - 40px); }
+        .showcase__nav--prev { left: 12px; }
+        .showcase__nav--next { right: 12px; }
+        .showcase__close { top: 12px; right: 12px; }
+        .portfolio-card__link {
+            display: inline-block;
+            margin-top: 8px;
+            font-size: 13px;
+            font-weight: 500;
+        }
     </style>
 </head>
 <body>
@@ -370,12 +464,13 @@
                     <div class="timeline-year__grid">
                         <div class="portfolio-card">
                             <div class="portfolio-card__image">
-                                <img src="images/lumio-tldr-800.webp" alt="Lumio TLDR" loading="lazy" width="800" height="450">
+                                <img src="images/tldr/sports-live-800.webp" alt="Lumio TLDR sports screen with live scores" loading="lazy" width="800" height="450">
                             </div>
                             <div class="portfolio-card__body">
                                 <div class="portfolio-card__category">Software</div>
                                 <h3 class="portfolio-card__title">Lumio TLDR</h3>
                                 <p class="portfolio-card__subtitle">Content Discovery Platform</p>
+                                <a href="#tldr-redesign" class="portfolio-card__link">See the redesign</a>
                             </div>
                         </div>
                         <div class="portfolio-card">
@@ -775,6 +870,69 @@
         </div>
     </section>
 
+    <!-- TLDR redesign -->
+    <section class="section" id="tldr-redesign" style="padding-top: 0;">
+        <div class="container">
+            <div class="showcase">
+                <h2 class="contributions__heading">TLDR redesign</h2>
+                <p class="contributions__subheading">TLDR is Lumio's content discovery platform for the TV. I built it from its first version through this redesign, which brings movies, shows, live sports and music into one place. Tap a screen to see it larger.</p>
+                <div class="showcase__strip">
+                    <button type="button" class="showcase__item" data-full="images/tldr/movies-hero.webp" aria-label="View larger: Movies: featured titles with language, year and runtime">
+                        <img src="images/tldr/movies-hero-800.webp" alt="Movies: featured titles with language, year and runtime" loading="lazy" width="800" height="450">
+                        <span class="showcase__caption">Movies: featured titles with language, year and runtime</span>
+                    </button>
+                    <button type="button" class="showcase__item" data-full="images/tldr/movies-curated.webp" aria-label="View larger: Movies: curated collections from critics">
+                        <img src="images/tldr/movies-curated-800.webp" alt="Movies: curated collections from critics" loading="lazy" width="800" height="450">
+                        <span class="showcase__caption">Movies: curated collections from critics</span>
+                    </button>
+                    <button type="button" class="showcase__item" data-full="images/tldr/movie-detail.webp" aria-label="View larger: Title page: rating, genres, cast and where to watch">
+                        <img src="images/tldr/movie-detail-800.webp" alt="Title page: rating, genres, cast and where to watch" loading="lazy" width="800" height="450">
+                        <span class="showcase__caption">Title page: rating, genres, cast and where to watch</span>
+                    </button>
+                    <button type="button" class="showcase__item" data-full="images/tldr/sports-live.webp" aria-label="View larger: Sports: live and upcoming matches with scores">
+                        <img src="images/tldr/sports-live-800.webp" alt="Sports: live and upcoming matches with scores" loading="lazy" width="800" height="450">
+                        <span class="showcase__caption">Sports: live and upcoming matches with scores</span>
+                    </button>
+                    <button type="button" class="showcase__item" data-full="images/tldr/sports-tournaments.webp" aria-label="View larger: Sports: follow tournaments across leagues">
+                        <img src="images/tldr/sports-tournaments-800.webp" alt="Sports: follow tournaments across leagues" loading="lazy" width="800" height="450">
+                        <span class="showcase__caption">Sports: follow tournaments across leagues</span>
+                    </button>
+                    <button type="button" class="showcase__item" data-full="images/tldr/sports-tournament.webp" aria-label="View larger: Tournament page: live, upcoming and followed matches">
+                        <img src="images/tldr/sports-tournament-800.webp" alt="Tournament page: live, upcoming and followed matches" loading="lazy" width="800" height="450">
+                        <span class="showcase__caption">Tournament page: live, upcoming and followed matches</span>
+                    </button>
+                    <button type="button" class="showcase__item" data-full="images/tldr/sports-standings.webp" aria-label="View larger: Tournament page: points table">
+                        <img src="images/tldr/sports-standings-800.webp" alt="Tournament page: points table" loading="lazy" width="800" height="450">
+                        <span class="showcase__caption">Tournament page: points table</span>
+                    </button>
+                    <button type="button" class="showcase__item" data-full="images/tldr/music-top10.webp" aria-label="View larger: Music: top 10 songs and daily Shorts chart">
+                        <img src="images/tldr/music-top10-800.webp" alt="Music: top 10 songs and daily Shorts chart" loading="lazy" width="800" height="450">
+                        <span class="showcase__caption">Music: top 10 songs and daily Shorts chart</span>
+                    </button>
+                    <button type="button" class="showcase__item" data-full="images/tldr/music-artists.webp" aria-label="View larger: Music: emerging artists and weekly charts by language">
+                        <img src="images/tldr/music-artists-800.webp" alt="Music: emerging artists and weekly charts by language" loading="lazy" width="800" height="450">
+                        <span class="showcase__caption">Music: emerging artists and weekly charts by language</span>
+                    </button>
+                    <button type="button" class="showcase__item" data-full="images/tldr/music-language.webp" aria-label="View larger: Music: browse by language">
+                        <img src="images/tldr/music-language-800.webp" alt="Music: browse by language" loading="lazy" width="800" height="450">
+                        <span class="showcase__caption">Music: browse by language</span>
+                    </button>
+                    <button type="button" class="showcase__item" data-full="images/tldr/music-curated.webp" aria-label="View larger: Music: handpicked collections">
+                        <img src="images/tldr/music-curated-800.webp" alt="Music: handpicked collections" loading="lazy" width="800" height="450">
+                        <span class="showcase__caption">Music: handpicked collections</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <dialog class="showcase__dialog" aria-label="TLDR screen">
+        <img src="" alt="">
+        <p class="showcase__dialog-caption"></p>
+        <button type="button" class="showcase__nav showcase__nav--prev" aria-label="Previous screen"><i class="fa-solid fa-chevron-left"></i></button>
+        <button type="button" class="showcase__nav showcase__nav--next" aria-label="Next screen"><i class="fa-solid fa-chevron-right"></i></button>
+        <button type="button" class="showcase__close" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+    </dialog>
+
     <!-- Contributions -->
     <section class="section" style="padding-top: 0;">
         <div class="container">
@@ -919,5 +1077,34 @@
         });
     </script>
 
+    <script>
+        // TLDR redesign gallery: open a screen full size, step through with buttons or arrow keys
+        (function () {
+            var items = Array.prototype.slice.call(document.querySelectorAll('.showcase__item'));
+            var dialog = document.querySelector('.showcase__dialog');
+            if (!items.length || !dialog || !dialog.showModal) return;
+            var img = dialog.querySelector('img');
+            var caption = dialog.querySelector('.showcase__dialog-caption');
+            var current = 0;
+            function show(i) {
+                current = (i + items.length) % items.length;
+                var thumb = items[current].querySelector('img');
+                img.src = items[current].getAttribute('data-full');
+                img.alt = thumb.alt;
+                caption.textContent = thumb.alt + ' (' + (current + 1) + ' of ' + items.length + ')';
+            }
+            items.forEach(function (item, i) {
+                item.addEventListener('click', function () { show(i); dialog.showModal(); });
+            });
+            dialog.querySelector('.showcase__nav--prev').addEventListener('click', function () { show(current - 1); });
+            dialog.querySelector('.showcase__nav--next').addEventListener('click', function () { show(current + 1); });
+            dialog.querySelector('.showcase__close').addEventListener('click', function () { dialog.close(); });
+            dialog.addEventListener('click', function (e) { if (e.target === dialog) dialog.close(); });
+            dialog.addEventListener('keydown', function (e) {
+                if (e.key === 'ArrowLeft') show(current - 1);
+                if (e.key === 'ArrowRight') show(current + 1);
+            });
+        })();
+    </script>
 </body>
 </html>
