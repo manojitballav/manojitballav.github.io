@@ -2,14 +2,30 @@
 
 ## Overview
 
-Manojit Ballav (Mono) is a Principal Product Manager at Lumio, an Indian smart TV startup under Circuit House Technologies. He is a thought leader in the Connected TV (CTV) space, AI-driven advertising, display panel technology, and smart TV technology. Previously worked at Xiaomi India on Mi TV and Redmi TV products.
+Manojit Ballav (Mono) is a Principal Product Manager at Lumio, an Indian consumer electronics company making smart TVs and home projectors, founded in 2024 by former Xiaomi India executives.
+
+At Lumio:
+- Leads the projector line, including the Lumio Arc series (India's No. 1 Google TV projector), and new product categories
+- Built TLDR, Lumio's content discovery platform, from first version through its redesign, then handed it to another product manager
+- Builds Lumio's internal systems across manufacturing, sales and channel operations, after-sales service and business analytics
+
+At Xiaomi India (2017–2024):
+- Helped build India's No. 1 smart TV brand (22 consecutive quarters, Q2 2018 – Q3 2023)
+- Helped build PatchWall, a smart TV content aggregation platform with 6M+ monthly active users
+- Managed Xiaomi and Redmi Smart TVs, streaming devices and soundbars
+- Product manager for the Xiaomi Pad 6 in India
+- Led the Xiaomi HyperOS program in India: user awareness, media briefings, and on-schedule device upgrades
+- Earlier hands-on work on connected devices: QA for Mi Router 3C, audio tuning for Redmi Buds and Mi True Wireless Earphones 2
+
+Totals: 34 products launched, 12M+ devices sold, 30+ OTT and content partnerships.
+Research: co-author, "Application of IoT in detecting health risks due to flickering artificial lights", IEEE ICACCI 2015, DOI 10.1109/ICACCI.2015.7275966.
 
 ---
 
 ## Professional Background
 
 **Current Role:** Principal Product Manager at Lumio (Circuit House Technologies)
-**Previous:** Xiaomi India - Smart TV Product Team
+**Previous:** Xiaomi India (2017–2024): Xiaomi and Redmi Smart TVs, PatchWall, Xiaomi Pad 6, HyperOS India program
 **Expertise Areas:**
 - Smart TV hardware and software product development
 - Connected TV (CTV) platforms and streaming
@@ -23,7 +39,7 @@ Manojit Ballav (Mono) is a Principal Product Manager at Lumio, an Indian smart T
 
 ## About Lumio
 
-Lumio is an Indian smart TV brand under Circuit House Technologies, founded in March 2024 by:
+Lumio is an Indian smart TV and home projector brand under Circuit House Technologies, founded in March 2024 by:
 - **Raghu Reddy** - Former Chief Business Officer at Xiaomi India
 - **Kailash Sankaranarayanan** - Co-founder
 
