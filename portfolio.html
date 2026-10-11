@@ -39,10 +39,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Google+Sans+Text:wght@400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Google+Sans+Text:wght@400;500;700&family=Inter:wght@300;400;500;600;700&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Google+Sans+Text:wght@400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Google+Sans+Text:wght@400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"></noscript>
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="css/google-style.css">
@@ -112,7 +116,10 @@
             display: flex;
             align-items: baseline;
             gap: 12px;
-            margin-bottom: 20px;
+            margin: 0 0 20px;
+            font-size: inherit;
+            font-weight: inherit;
+            line-height: inherit;
         }
         .timeline-year__year {
             font-family: 'Google Sans', sans-serif;
@@ -248,7 +255,7 @@
             border-radius: 4px;
             margin-top: 8px;
             background: rgba(26, 115, 232, 0.08);
-            color: #1a73e8;
+            color: #1967d2;
         }
         [data-theme="dark"] .contrib-card__tag {
             background: rgba(138, 180, 248, 0.1);
@@ -337,14 +344,14 @@
 
                 <!-- 2026: Lumio -->
                 <div class="timeline-year">
-                    <div class="timeline-year__heading">
+                    <h2 class="timeline-year__heading">
                         <span class="timeline-year__year">2026</span>
                         <span class="timeline-year__brand">Lumio</span>
-                    </div>
+                    </h2>
                     <div class="timeline-year__grid">
                         <div class="portfolio-card">
                             <div class="portfolio-card__image">
-                                <img src="images/lumio-arc7-2026.webp" alt="Lumio Arc 7 2026" loading="lazy" width="1494" height="840">
+                                <img src="images/lumio-arc7-2026-800.webp" alt="Lumio Arc 7 2026" fetchpriority="high" width="800" height="450">
                             </div>
                             <div class="portfolio-card__body">
                                 <div class="portfolio-card__category">Projector</div>
@@ -357,14 +364,14 @@
 
                 <!-- 2025: Lumio -->
                 <div class="timeline-year">
-                    <div class="timeline-year__heading">
+                    <h2 class="timeline-year__heading">
                         <span class="timeline-year__year">2025</span>
                         <span class="timeline-year__brand">Lumio</span>
-                    </div>
+                    </h2>
                     <div class="timeline-year__grid">
                         <div class="portfolio-card">
                             <div class="portfolio-card__image">
-                                <img src="images/lumio-tldr.webp" alt="Lumio TLDR" loading="lazy" width="2880" height="1620">
+                                <img src="images/lumio-tldr-800.webp" alt="Lumio TLDR" loading="lazy" width="800" height="450">
                             </div>
                             <div class="portfolio-card__body">
                                 <div class="portfolio-card__category">Software</div>
@@ -384,7 +391,7 @@
                         </div>
                         <div class="portfolio-card">
                             <div class="portfolio-card__image">
-                                <img src="images/lumio-vision7.webp" alt="Lumio Vision 7" loading="lazy" width="1200" height="674">
+                                <img src="images/lumio-vision7-800.webp" alt="Lumio Vision 7" loading="lazy" width="800" height="450">
                             </div>
                             <div class="portfolio-card__body">
                                 <div class="portfolio-card__category">TV</div>
@@ -394,7 +401,7 @@
                         </div>
                         <div class="portfolio-card">
                             <div class="portfolio-card__image">
-                                <img src="images/lumio-arc7.webp" alt="Lumio Arc 7" loading="lazy" width="1920" height="1080">
+                                <img src="images/lumio-arc7-800.webp" alt="Lumio Arc 7" loading="lazy" width="800" height="450">
                             </div>
                             <div class="portfolio-card__body">
                                 <div class="portfolio-card__category">Projector</div>
@@ -404,7 +411,7 @@
                         </div>
                         <div class="portfolio-card">
                             <div class="portfolio-card__image">
-                                <img src="images/lumio-arc5.webp" alt="Lumio Arc 5" loading="lazy" width="1600" height="900">
+                                <img src="images/lumio-arc5-800.webp" alt="Lumio Arc 5" loading="lazy" width="800" height="450">
                             </div>
                             <div class="portfolio-card__body">
                                 <div class="portfolio-card__category">Projector</div>
@@ -417,14 +424,14 @@
 
                 <!-- 2024 -->
                 <div class="timeline-year">
-                    <div class="timeline-year__heading">
+                    <h2 class="timeline-year__heading">
                         <span class="timeline-year__year">2024</span>
                         <span class="timeline-year__brand">Xiaomi &middot; Redmi</span>
-                    </div>
+                    </h2>
                     <div class="timeline-year__grid">
                         <div class="portfolio-card">
                             <div class="portfolio-card__image">
-                                <img src="images/xiaomismarttvxpro2024.webp" alt="Xiaomi Smart TV X Pro Series 2024" loading="lazy" width="2560" height="1460">
+                                <img src="images/xiaomismarttvxpro2024-800.webp" alt="Xiaomi Smart TV X Pro Series 2024" loading="lazy" width="800" height="457">
                             </div>
                             <div class="portfolio-card__body">
                                 <div class="portfolio-card__category">TV</div>
@@ -434,7 +441,7 @@
                         </div>
                         <div class="portfolio-card">
                             <div class="portfolio-card__image">
-                                <img src="images/xiaomismarttvxseries2024.webp" alt="Xiaomi X Series 2024" loading="lazy" width="1614" height="1192">
+                                <img src="images/xiaomismarttvxseries2024-800.webp" alt="Xiaomi X Series 2024" loading="lazy" width="800" height="591">
                             </div>
                             <div class="portfolio-card__body">
                                 <div class="portfolio-card__category">TV</div>
@@ -467,14 +474,14 @@
 
                 <!-- 2023 -->
                 <div class="timeline-year">
-                    <div class="timeline-year__heading">
+                    <h2 class="timeline-year__heading">
                         <span class="timeline-year__year">2023</span>
                         <span class="timeline-year__brand">Xiaomi</span>
-                    </div>
+                    </h2>
                     <div class="timeline-year__grid">
                         <div class="portfolio-card">
                             <div class="portfolio-card__image">
-                                <img src="images/xiaomismarttvxpro2024.webp" alt="Xiaomi Smart TV X Pro Series 2023" loading="lazy" width="2560" height="1460">
+                                <img src="images/xiaomismarttvxpro2024-800.webp" alt="Xiaomi Smart TV X Pro Series 2023" loading="lazy" width="800" height="457">
                             </div>
                             <div class="portfolio-card__body">
                                 <div class="portfolio-card__category">TV</div>
@@ -484,7 +491,7 @@
                         </div>
                         <div class="portfolio-card">
                             <div class="portfolio-card__image">
-                                <img src="images/xiaomipad6.webp" alt="Xiaomi Pad 6" loading="lazy" width="2560" height="1508">
+                                <img src="images/xiaomipad6-800.webp" alt="Xiaomi Pad 6" loading="lazy" width="800" height="472">
                             </div>
                             <div class="portfolio-card__body">
                                 <div class="portfolio-card__category">Tablet</div>
@@ -497,14 +504,14 @@
 
                 <!-- 2022 -->
                 <div class="timeline-year">
-                    <div class="timeline-year__heading">
+                    <h2 class="timeline-year__heading">
                         <span class="timeline-year__year">2022</span>
                         <span class="timeline-year__brand">Xiaomi</span>
-                    </div>
+                    </h2>
                     <div class="timeline-year__grid">
                         <div class="portfolio-card">
                             <div class="portfolio-card__image">
-                                <img src="images/xiaomioledvision.webp" alt="Xiaomi OLED Vision" loading="lazy" width="1977" height="1253">
+                                <img src="images/xiaomioledvision-800.webp" alt="Xiaomi OLED Vision" loading="lazy" width="800" height="508">
                             </div>
                             <div class="portfolio-card__body">
                                 <div class="portfolio-card__category">TV</div>
@@ -537,10 +544,10 @@
 
                 <!-- 2021 -->
                 <div class="timeline-year">
-                    <div class="timeline-year__heading">
+                    <h2 class="timeline-year__heading">
                         <span class="timeline-year__year">2021</span>
                         <span class="timeline-year__brand">Mi &middot; Redmi</span>
-                    </div>
+                    </h2>
                     <div class="timeline-year__grid">
                         <div class="portfolio-card">
                             <div class="portfolio-card__image">
@@ -607,10 +614,10 @@
 
                 <!-- 2020 -->
                 <div class="timeline-year">
-                    <div class="timeline-year__heading">
+                    <h2 class="timeline-year__heading">
                         <span class="timeline-year__year">2020</span>
                         <span class="timeline-year__brand">Mi</span>
-                    </div>
+                    </h2>
                     <div class="timeline-year__grid">
                         <div class="portfolio-card">
                             <div class="portfolio-card__image">
@@ -624,7 +631,7 @@
                         </div>
                         <div class="portfolio-card">
                             <div class="portfolio-card__image">
-                                <img src="images/mitvstick.webp" alt="Mi TV Stick" loading="lazy" width="1013" height="1428">
+                                <img src="images/mitvstick-800.webp" alt="Mi TV Stick" loading="lazy" width="800" height="1128">
                             </div>
                             <div class="portfolio-card__body">
                                 <div class="portfolio-card__category">Streaming</div>
@@ -647,14 +654,14 @@
 
                 <!-- 2019 -->
                 <div class="timeline-year">
-                    <div class="timeline-year__heading">
+                    <h2 class="timeline-year__heading">
                         <span class="timeline-year__year">2019</span>
                         <span class="timeline-year__brand">Mi</span>
-                    </div>
+                    </h2>
                     <div class="timeline-year__grid">
                         <div class="portfolio-card">
                             <div class="portfolio-card__image">
-                                <img src="images/miledtv4x.webp" alt="Mi LED TV 4X Series" loading="lazy" width="1080" height="1440">
+                                <img src="images/miledtv4x-800.webp" alt="Mi LED TV 4X Series" loading="lazy" width="800" height="1067">
                             </div>
                             <div class="portfolio-card__body">
                                 <div class="portfolio-card__category">TV</div>
@@ -697,14 +704,14 @@
 
                 <!-- 2018 -->
                 <div class="timeline-year">
-                    <div class="timeline-year__heading">
+                    <h2 class="timeline-year__heading">
                         <span class="timeline-year__year">2018</span>
                         <span class="timeline-year__brand">Mi &middot; PatchWall</span>
-                    </div>
+                    </h2>
                     <div class="timeline-year__grid">
                         <div class="portfolio-card">
                             <div class="portfolio-card__image">
-                                <img src="images/patchwall.webp" alt="PatchWall" loading="lazy" width="2560" height="968">
+                                <img src="images/patchwall-800.webp" alt="PatchWall" loading="lazy" width="800" height="303">
                             </div>
                             <div class="portfolio-card__body">
                                 <div class="portfolio-card__category">Software</div>
@@ -714,7 +721,7 @@
                         </div>
                         <div class="portfolio-card">
                             <div class="portfolio-card__image">
-                                <img src="images/mitv4-55.webp" alt="Mi TV 4 55 inch" loading="lazy" width="2560" height="1200">
+                                <img src="images/mitv4-55-800.webp" alt="Mi TV 4 55 inch" loading="lazy" width="800" height="375">
                             </div>
                             <div class="portfolio-card__body">
                                 <div class="portfolio-card__category">TV</div>
@@ -754,7 +761,7 @@
                         </div>
                         <div class="portfolio-card">
                             <div class="portfolio-card__image">
-                                <img src="images/mitv4pro55.webp" alt="Mi TV 4 Pro" loading="lazy" width="2560" height="1200">
+                                <img src="images/mitv4pro55-800.webp" alt="Mi TV 4 Pro" loading="lazy" width="800" height="375">
                             </div>
                             <div class="portfolio-card__body">
                                 <div class="portfolio-card__category">TV</div>

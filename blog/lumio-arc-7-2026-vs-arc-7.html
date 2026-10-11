@@ -265,13 +265,17 @@
     <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
 
     <!-- Preload LCP image -->
-    <link rel="preload" as="image" href="../images/blog-arc7-2026.webp" type="image/webp">
+    <link rel="preload" as="image" href="../images/blog-arc7-2026.webp" imagesrcset="../images/blog-arc7-2026-800.webp 800w, ../images/blog-arc7-2026.webp 1494w" imagesizes="100vw" type="image/webp" fetchpriority="high">
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Google+Sans+Text:wght@400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Google+Sans+Text:wght@400;500;700&family=Inter:wght@300;400;500;600;700&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Google+Sans+Text:wght@400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Google+Sans+Text:wght@400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"></noscript>
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="../css/google-style.css">
@@ -357,7 +361,7 @@
         </div>
     </header>
 
-    <div class="article-hero"><img src="../images/blog-arc7-2026.webp" alt="Lumio Arc 7 2026 projector on a table" width="1494" height="840"></div>
+    <div class="article-hero"><img src="../images/blog-arc7-2026.webp" srcset="../images/blog-arc7-2026-800.webp 800w, ../images/blog-arc7-2026.webp 1494w" sizes="100vw" alt="Lumio Arc 7 2026 projector on a table" width="1494" height="840" fetchpriority="high"></div>
 
 <section class="section">
     <div class="container" style="max-width: 800px;">
@@ -409,7 +413,7 @@
             <p id="short-answer-text">The <strong>Lumio Arc 7 2026</strong> is the Arc 7 with a new light engine. Arc Light Engine 2 uses a clearer LCD chip in a sealed optical design, which raises brightness from 400 to <strong>500 ANSI lumens</strong>, contrast from 1500:1 to <strong>1700:1</strong>, colour from 41.6% to <strong>45.76% of DCI-P3</strong>, and the image range from 40&ndash;100 inches to <strong>45&ndash;120 inches</strong>. Storage doubles to 32 GB, and it runs Google TV with Gemini. The body, weight, speakers, auto focus and keystone features, and warranty are unchanged.</p>
 
             <figure class="blog-figure">
-                <img src="../images/arc7-2026-features.webp" alt="Lumio Arc 7 2026 feature overview: 120-inch projection, 500 ANSI lumens, sealed Arc Light Engine 2, STR8 auto focus and keystone, Google TV, Dolby Audio" loading="lazy" width="1600" height="664">
+                <img src="../images/arc7-2026-features.webp" srcset="../images/arc7-2026-features-900.webp 900w, ../images/arc7-2026-features.webp 1600w" sizes="(max-width: 800px) 100vw, 760px" alt="Lumio Arc 7 2026 feature overview: 120-inch projection, 500 ANSI lumens, sealed Arc Light Engine 2, STR8 auto focus and keystone, Google TV, Dolby Audio" loading="lazy" width="1600" height="664">
                 <figcaption>The Arc 7 2026 at a glance. Source: <a href="https://lumio.co.in/arc7-2026" target="_blank" rel="noopener">Lumio</a></figcaption>
             </figure>
 
