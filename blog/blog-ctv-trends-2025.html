@@ -113,8 +113,17 @@
         gtag("config", "G-61ZX5F590H");
     </script>
     <!-- Google News Subscribe with Google -->
-    <script async type="application/javascript"
-        src="https://news.google.com/swg/js/v1/swg-basic.js"></script>
+    <script>
+      // Load Subscribe with Google after the page has rendered, so it stays off the critical path
+      window.addEventListener('load', function () {
+        setTimeout(function () {
+          var s = document.createElement('script');
+          s.async = true;
+          s.src = 'https://news.google.com/swg/js/v1/swg-basic.js';
+          document.head.appendChild(s);
+        }, 1500);
+      });
+    </script>
     <script>
       (self.SWG_BASIC = self.SWG_BASIC || []).push( basicSubscriptions => {
         basicSubscriptions.init({
