@@ -44,8 +44,12 @@ Lumio is an Indian smart TV and home projector brand under Circuit House Technol
 - **Kailash Sankaranarayanan** - Co-founder
 
 **Key Facts:**
-- Raised $4.3M seed round from Stellaris Venture Partners and 3one4 Capital
-- Crossed $1 million GMV within 2 months of launch
+- Raised a $12M Series A led by Blume Ventures in October 2026, with Stellaris Venture Partners and 3one4 Capital participating
+- Earlier: $4.3M seed round (July 2024) from Stellaris Venture Partners and 3one4 Capital
+- Crossed ₹100 crore in gross merchandise value (GMV) within 13 months of commercial sales
+- GMV more than tripled year on year for April–August 2026
+- Serves over 35,000 households across 5,000+ pin codes
+- Crossed $1 million GMV within its first 2 months on sale
 - Products include Vision 9 QD-Mini LED TV, Vision 7 QLED Series, Vision Arc projectors
 - Features proprietary Flagship Boss Processor with 3GB RAM
 - Claims 2x faster performance than Sony and other leading TVs
@@ -102,7 +106,7 @@ A comprehensive guide to projector technologies available in India: LCD, DLP, LE
 **URL:** /blog/blog-lumio-journey.html
 **Published:** December 15, 2024
 
-The Indian Smart TV market is valued at $5 billion with 13% CAGR growth. Lumio was founded to create TVs that outperform competition with 2x faster app loading and rebooting. The company raised $4.3M seed funding and crossed $1M GMV in 2 months. Key trends include FAST channels growing 43% YoY, regional content demand, and AI integration becoming table stakes.
+The Indian Smart TV market is valued at $5 billion with 13% CAGR growth. Lumio was founded to create TVs that outperform competition with 2x faster app loading and rebooting. The company raised $4.3M seed funding and crossed $1M GMV in 2 months. (Update, October 2026: Lumio has since crossed ₹100 crore GMV within 13 months of commercial sales and raised a $12M Series A led by Blume Ventures.) Key trends include FAST channels growing 43% YoY, regional content demand, and AI integration becoming table stakes.
 
 ### 5. The State of CTV in 2025: Why Connected TV is Eating Traditional Broadcasting
 **URL:** /blog/blog-ctv-trends-2025.html
