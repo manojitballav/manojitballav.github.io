@@ -3524,6 +3524,7 @@ Avoca
 Avtek
 	TS 8 Lite G	rk3576_u	TS_8_Lite_G	0
 	TS_8_1_Mate_G	MTK9679	~	0
+	TS_9_Lite_G	=	=	0
 	TS_9_Mate_G	=	=	0
 Avvio
 	A680	=	aiworks	0
@@ -6474,8 +6475,10 @@ CVTE
 	CVTE SA12	rk3588_t	SA12 series	0
 	Guangzhou Shirui Electronics Co., Ltd	rk3576_u	edu_v2	0
 	Guangzhou Shirui Electronics Co., Ltd	rk3588_t	edu_v2	0
+	SA12	rk3588_t	SA12 series	0
 	general_3576	oversea_b	bytello_edla	0
 	general_3576_camera	oversea_neutral	bytello_edla	0
+	general_3576_no_mic	oversea_neutral	bytello_edla	0
 	general_camera_broad	rk3576_u	general_edu_v2	0
 	mensa_an64	mensa	=	0
 CViauto
@@ -8403,6 +8406,7 @@ DEERTiME
 	E6_US	=	=	0
 	E9-EU	=	=	0
 	E9-W	=	=	0
+	E9_E	=	=	0
 	E9_EEA	=	=	0
 	E9_US	=	=	0
 DEPLAY
@@ -13007,6 +13011,7 @@ Ghia
 	GPND133	=	=	0
 	GPND133V4	=	=	0
 	GRINV1	=	=	0
+	GRINV2	GRINV2_L1	~	0
 	GS3G	=	=	0
 	GTA7PLUS	=	=	0
 	GTA7WF	=	=	0
@@ -20640,6 +20645,7 @@ JOVI
 	JOVI T1 5G	J2502	=	0
 	JOVI V50 Lite 5G	V2440B	V2440	0
 	JOVI V70 5G	J2507	=	0
+	JOVI V80	J2607	=	0
 	JOVI X300 FE	J2505	=	0
 	JOVI X300 Ultra	J2510	=	0
 	JOVI Y19s	V2419B	V2425	0
@@ -31504,6 +31510,7 @@ OnePlus
 	OnePlus 15R	OP612DL1	CPH2769	0
 	OnePlus 15R	OP612DL1	CPH2771	0
 	OnePlus 15T	OP64DDL1	PLZ110	0
+	OnePlus 16	OP64E1L1	PYB110	0
 	OnePlus 6	OnePlus6	ONEPLUS A6000	0
 	OnePlus 6	OnePlus6	ONEPLUS A6003	0
 	OnePlus 7	OnePlus7	GM1900	0
@@ -34509,6 +34516,7 @@ Plimpton
 	PlimPad_P60	=	=	0
 	PlimPad_P60_Pro	=	=	0
 	X100	=	=	0
+	iKids20_A16_EEA_JAE	=	=	0
 	iKids20_A16_JAE	=	=	0
 	kids20A15_A537	=	=	0
 Plum
@@ -37222,6 +37230,8 @@ Rhino
 	supernova	=	C65	0
 Ricoh
 	AXX10	=	=	0
+Riiing
+	RIIING_TAB_ULTRA	=	=	0
 RiksTV
 	SRT412	HP40A3	~	0
 Rimo_Mobile
@@ -48054,6 +48064,7 @@ Tecno
 	TECNO SPARK 50 Pro	TECNO-KO5	TECNO KO5	0
 	TECNO SPARK 50/50C	TECNO-KN3	TECNO KN3	0
 	TECNO SPARK 50/50S	TECNO-KN4	TECNO KN4	0
+	TECNO SPARK 50S 5G	TECNO-KN8s	TECNO KN8s	0
 	TECNO SPARK 50T	TECNO-KO5	TECNO KO5	0
 	TECNO SPARK 7	TECNO-KF6	TECNO KF6	0
 	TECNO SPARK 7	TECNO-KF6h	TECNO KF6h	0
@@ -50034,6 +50045,7 @@ VOLIA
 VOPLLS
 	G3	himalaya	~	4
 	G7	himalaya	~	4
+	Q6	coorg	~	0
 VORCOM
 	AVALON	=	=	0
 	QuartzLITE	=	=	0
@@ -52782,6 +52794,7 @@ X-View
 	Q10	=	=	0
 	Q11	=	=	0
 	Q7	=	=	0
+	QUANTUM_Q10X	=	=	0
 	Quantum_Q7s	=	=	0
 	Quantum_Q7s_Plus	=	=	0
 	Tablet10_X-View	Tablet10_X_View	~	0
@@ -56008,6 +56021,7 @@ afriphone
 	smart_S5	=	=	0
 ahlo
 	1	CAV	Ahlo 1	0
+	Ahlo 2	Ahlo_2	T807J	0
 aigo
 	A16	=	=	0
 	A16pro	=	=	0
@@ -56219,6 +56233,7 @@ eNOVA
 	TAE10C13	=	=	0
 	TAE10N12	=	T1081	0
 	TAE10N12	=	=	0
+	TAE10N13	=	=	0
 	TAEI0C13	TAE10C13	=	0
 eSSL
 	Emerald	=	=	0
@@ -57042,6 +57057,8 @@ newsan
 	N405	=	=	0
 noDROPOUT
 	T25	=	=	0
+nova6
+	Nova_6	=	EmkoBoard	0
 novo
 	Bonvi Prime	t596_novo_37m35	~	0
 	Bonvi Pro	t596_dp_n_37m35	~	0
@@ -57730,6 +57747,8 @@ vivo
 	V70 Lite	V2570	V2635	0
 	V70 Lite 5G	V2529	V2615	0
 	V70 Lite 5G	V2529	V2637	0
+	V80	V2648	=	0
+	V80	V2648	V2649	0
 	V80 Lite 5G	V2576	=	0
 	V80 Lite 5G	V2576	V2643	0
 	V80 Lite 5G	V2576	V2644	0
@@ -57757,6 +57776,7 @@ vivo
 	X300 Ultra 卫星通信版	PD2547	V2547DA	0
 	X300s	PD2548	V2548A	0
 	X500	PD2609	V2609A	0
+	X500 E	V2648	V2656	0
 	X500 Pro	PD2608	V2608A	0
 	X500 Pro	PD2608	V2608DA	0
 	X500 Pro Max	PD2602	V2602A	0
@@ -57870,6 +57890,7 @@ waiputv
 	waipu.tv Stick (G2)	SEID00DWP	waipu.tv Stick (G2)	2
 wanbo
 	Vali1 Pro	coorg	~	0
+	X7 Pro Max	coorg	~	0
 wancheng
 	WC-F11	=	=	0
 weelikeit

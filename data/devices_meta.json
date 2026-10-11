@@ -1,126 +1,120 @@
 {
-  "lastUpdated": "2026-10-09",
-  "newDevicesCount": 20,
+  "lastUpdated": "2026-10-11",
+  "newDevicesCount": 19,
   "newDevices": [
     [
-      "Amazon",
-      "Alexa Tablet 11, Amazon Kids Tablet 11",
-      "turquoise",
-      "ATTQUWI"
+      "Avtek",
+      "TS_9_Lite_G",
+      "TS_9_Lite_G",
+      "TS_9_Lite_G"
     ],
     [
-      "Amazon",
-      "Alexa Tablet 12 Pro",
-      "spinel",
-      "ATSPUWI"
+      "CVTE",
+      "SA12",
+      "rk3588_t",
+      "SA12 series"
     ],
     [
-      "Amazon",
-      "Alexa Tablet 8, Amazon Kids Tablet 8",
-      "roselite",
-      "ATROWI"
+      "CVTE",
+      "general_3576_no_mic",
+      "oversea_neutral",
+      "bytello_edla"
     ],
     [
-      "Callsky-tab",
-      "Cpad_10",
-      "Cpad_10",
-      "Cpad_10"
+      "DEERTiME",
+      "E9_E",
+      "E9_E",
+      "E9_E"
     ],
     [
-      "DMOAO",
-      "D3_C",
-      "D3_C",
-      "D3_C"
+      "Ghia",
+      "GRINV2",
+      "GRINV2_L1",
+      "GRINV2"
     ],
     [
-      "FEITIAN",
-      "F20",
-      "F20",
-      "F20"
+      "JOVI",
+      "JOVI V80",
+      "J2607",
+      "J2607"
     ],
     [
-      "H3Cmagic",
-      "M8781A_TK",
-      "M8781A",
-      "M8781A"
+      "OnePlus",
+      "OnePlus 16",
+      "OP64E1L1",
+      "PYB110"
     ],
     [
-      "Hyundai",
-      "HT8WC1RBK01KB03",
-      "HT8WC1RBK01KB03",
-      "8WC1"
+      "Plimpton",
+      "iKids20_A16_EEA_JAE",
+      "iKids20_A16_EEA_JAE",
+      "iKids20_A16_EEA_JAE"
     ],
     [
-      "LANDI",
-      "M20PlusN00",
-      "M20Plus-G-00",
-      "M20 Plus"
+      "Riiing",
+      "RIIING_TAB_ULTRA",
+      "RIIING_TAB_ULTRA",
+      "RIIING_TAB_ULTRA"
     ],
     [
-      "Mintt",
-      "MINTT_P26PLUS",
-      "MINTT_P26PLUS",
-      "MINTT P26+"
+      "Tecno",
+      "TECNO SPARK 50S 5G",
+      "TECNO-KN8s",
+      "TECNO KN8s"
     ],
     [
-      "Redmi",
-      "REDMI 17C 5G",
-      "tornado",
-      "2607FRNEAI"
+      "VOPLLS",
+      "Q6",
+      "coorg",
+      "Q6"
     ],
     [
-      "SKYEGG",
-      "K13_E",
-      "K13_E",
-      "K13_E"
+      "X-View",
+      "QUANTUM_Q10X",
+      "QUANTUM_Q10X",
+      "QUANTUM_Q10X"
     ],
     [
-      "SUAAT",
-      "S11_E",
-      "S11_E",
-      "S11_E"
+      "ahlo",
+      "Ahlo 2",
+      "Ahlo_2",
+      "T807J"
     ],
     [
-      "TACTIVIS",
-      "GSIT8TAC",
-      "GSIT8TAC",
-      "GSIT8TAC"
+      "eNOVA",
+      "TAE10N13",
+      "TAE10N13",
+      "TAE10N13"
     ],
     [
-      "TOPELOTEK",
-      "ZIDS_701_US",
-      "ZIDS_701_US",
-      "ZIDS_701"
+      "nova6",
+      "Nova_6",
+      "Nova_6",
+      "EmkoBoard"
     ],
     [
-      "UJJ(SZ)",
-      "U8_C",
-      "U8_C",
-      "U8_C"
+      "vivo",
+      "V80",
+      "V2648",
+      "V2648"
     ],
     [
-      "Wintouch",
-      "A80PRO",
-      "A80PRO",
-      "A80PRO"
+      "vivo",
+      "V80",
+      "V2648",
+      "V2649"
     ],
     [
-      "Xiaomi",
-      "Xiaomi 18 Pro Max",
-      "madrid",
-      "M154FF"
+      "vivo",
+      "X500 E",
+      "V2648",
+      "V2656"
     ],
     [
-      "Xiaomi",
-      "Xiaomi 18 Pro",
-      "hongkong",
-      "M610BB"
-    ],
-    [
-      "fezawio",
-      "F12_E_EEA",
-      "F12_E_EEA",
-      "F12_E"
+      "wanbo",
+      "X7 Pro Max",
+      "coorg",
+      "X7 Pro Max"
     ]
   ]
 }
