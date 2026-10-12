@@ -1,120 +1,60 @@
 {
-  "lastUpdated": "2026-10-11",
-  "newDevicesCount": 19,
+  "lastUpdated": "2026-10-12",
+  "newDevicesCount": 9,
   "newDevices": [
     [
-      "Avtek",
-      "TS_9_Lite_G",
-      "TS_9_Lite_G",
-      "TS_9_Lite_G"
+      "ALT(IN)",
+      "ALT-SR10-PRO",
+      "ALT-SR10-PRO",
+      "ALT-SR10-PRO"
     ],
     [
-      "CVTE",
-      "SA12",
-      "rk3588_t",
-      "SA12 series"
+      "Honor",
+      "HONOR Pad X7b",
+      "HNONL-Q1",
+      "ONL-W09"
     ],
     [
-      "CVTE",
-      "general_3576_no_mic",
-      "oversea_neutral",
-      "bytello_edla"
+      "Invens",
+      "NOTE_18_GO",
+      "NOTE_18_GO",
+      "NOTE 18"
     ],
     [
-      "DEERTiME",
-      "E9_E",
-      "E9_E",
-      "E9_E"
+      "Lecoo",
+      "P900A",
+      "P900A",
+      "P900A"
     ],
     [
-      "Ghia",
-      "GRINV2",
-      "GRINV2_L1",
-      "GRINV2"
+      "Oppo",
+      "Pad Mini",
+      "OP657BL1",
+      "OPD2516"
     ],
     [
-      "JOVI",
-      "JOVI V80",
-      "J2607",
-      "J2607"
-    ],
-    [
-      "OnePlus",
-      "OnePlus 16",
-      "OP64E1L1",
-      "PYB110"
-    ],
-    [
-      "Plimpton",
-      "iKids20_A16_EEA_JAE",
-      "iKids20_A16_EEA_JAE",
-      "iKids20_A16_EEA_JAE"
-    ],
-    [
-      "Riiing",
-      "RIIING_TAB_ULTRA",
-      "RIIING_TAB_ULTRA",
-      "RIIING_TAB_ULTRA"
-    ],
-    [
-      "Tecno",
-      "TECNO SPARK 50S 5G",
-      "TECNO-KN8s",
-      "TECNO KN8s"
-    ],
-    [
-      "VOPLLS",
-      "Q6",
-      "coorg",
-      "Q6"
-    ],
-    [
-      "X-View",
-      "QUANTUM_Q10X",
-      "QUANTUM_Q10X",
-      "QUANTUM_Q10X"
-    ],
-    [
-      "ahlo",
-      "Ahlo 2",
-      "Ahlo_2",
-      "T807J"
-    ],
-    [
-      "eNOVA",
-      "TAE10N13",
-      "TAE10N13",
-      "TAE10N13"
-    ],
-    [
-      "nova6",
-      "Nova_6",
-      "Nova_6",
-      "EmkoBoard"
+      "Snexian",
+      "VEER",
+      "VEER",
+      "VEER"
     ],
     [
       "vivo",
-      "V80",
-      "V2648",
-      "V2648"
+      "Y32",
+      "V2638",
+      "V2638"
     ],
     [
       "vivo",
-      "V80",
-      "V2648",
-      "V2649"
+      "Y32",
+      "V2638",
+      "V2641"
     ],
     [
       "vivo",
-      "X500 E",
-      "V2648",
-      "V2656"
-    ],
-    [
-      "wanbo",
-      "X7 Pro Max",
-      "coorg",
-      "X7 Pro Max"
+      "Y32",
+      "V2638",
+      "V2642"
     ]
   ]
 }
