@@ -192,6 +192,7 @@ ADVAN
 	TAB A8	ADVAN_TAB_A8	8004	1
 	VX NEO	ADVAN_VX_NEO	1013	0
 	VX_LITE	ADVAN_TAB_VX_LITE	1013	0
+	X1 NEO	ADVAN_X1_NEO	~	0
 ADVANTOUCH
 	Android_EDLA_OPS	rk3588_t	EO1_RK3588_08128	0
 AEEZO
@@ -6566,7 +6567,9 @@ Cablecolor
 	CAB_TAB	=	=	0
 	GIU3A00	=	=	0
 Callsky
+	Cpad-10	Ctab-10Pro	=	0
 	Cpad10	=	=	0
+	Ctab-10Pro	Cpad-10	=	0
 	Ctab_12	=	Ctab 12	0
 	Ctab_12	=	SMART PRO 12	0
 Callsky-tab
@@ -8399,6 +8402,7 @@ DEERTiME
 	E11_US	=	=	0
 	E15_E	=	=	0
 	E15_EEA	=	=	0
+	E15_U	=	=	0
 	E15_US	=	=	0
 	E15_V_EEA	=	=	0
 	E15_V_US	=	=	0
@@ -8734,6 +8738,7 @@ DMOAO
 	D3_E	=	=	0
 	D3_EEA	=	=	0
 	D3_EU	=	=	0
+	D3_U	=	=	0
 	D3_US	=	=	0
 	D3_V_EEA	=	=	0
 	D3_V_US	=	=	0
@@ -9622,6 +9627,7 @@ DishTV-NZ
 	SmartVU Freeview Projector | Google TV	tianshan	SVPro1	3
 Disney
 	CTS05	=	=	0
+	CTS07	=	=	0
 	DISNEYTAB	=	=	0
 	Frozen_G9	=	=	0
 	Princess_G9	=	=	0
@@ -12918,6 +12924,7 @@ GeneralSupreme
 	Smart TV	longshan	AI PONT	2
 General_luxe
 	F35	=	=	0
+	General_Luxe_E16	gle16	General Luxe E16	0
 	Shahin_III	=	SHAHIN III	0
 Geniatech
 	ATV495MAX	enjoytv	~	0
@@ -18726,6 +18733,8 @@ Hyundai
 	HT8WB1RBK02A	=	=	0
 	HT8WB1RBK02_12	=	8WB1	0
 	HT8WB1RBK03	=	=	0
+	HT8WC1RBK01KB01	=	8WC1	0
+	HT8WC1RBK01KB02	=	8WC1	0
 	HT8WC1RBK01KB03	=	8WC1	0
 	HY1-5085	HY1_5085	~	0
 	HYLED5015A4KM	samseong	AI PONT	0
@@ -20016,6 +20025,7 @@ Invens
 	NOTE_12P	=	NOTE 12P	0
 	NOTE_15P_EEA	NOTE_15P	NOTE 15P	0
 	NOTE_18_GO	=	NOTE 18	0
+	NOTE_18_ROW_GO	=	NOTE 18	0
 	NOTE_5G	=	NOTE 5G	0
 	ONE_1C	=	=	0
 	Power_V1_ROW	Power_V1	Power V1	0
@@ -30516,6 +30526,8 @@ Nexall
 Nexel
 	Infinity	=	=	0
 	Infinity_Lite	=	=	0
+NexiGo
+	PJ40Pro	coorg	~	0
 Nexian
 	journey one	Mi438S_sprout	Mi438S	0
 Next
@@ -35358,6 +35370,7 @@ Pretech
 	L1108	=	P301_L1108	0
 	L1208	=	=	0
 	WP101	=	=	0
+	WP103	=	=	0
 	WP106	=	=	0
 	WP30	=	=	0
 Prime
@@ -44589,7 +44602,6 @@ Sunmi
 	L2H_EDLA_GL	SUNMI-L2HNFC	~	0
 	L2Ks	SUNMI-L2KsNFC	L2Ks_EDLA_GL	0
 	L2s_PRO	SUNMI-L2s_PRO	~	0
-	L3	=	=	0
 	OrderPAD 3	OrderPAD_3	~	0
 	Sunmi L2H	SUNMI-L2HNFC	L2H_EEA	0
 	Sunmi L2H	SUNMI-L2HNFC	L2H_GL	0
@@ -44598,6 +44610,7 @@ Sunmi
 	Sunmi L2Ks	SUNMI-L2KsNFC	L2Ks_GL	0
 	Sunmi L2Ks	SUNMI-L2KsNFC	L2Ks_RU	0
 	Sunmi L2Ks	SUNMI-L2KsNFC	L2Ks_TR	0
+	Sunmi L3/M3	L3	=	0
 	Sunmi V2s	V2s	V2s_EEA	0
 	Sunmi V2s	V2s	V2s_GL	0
 	Sunmi V2s	V2s	V2s_TR	0
@@ -55696,6 +55709,7 @@ Zebra
 	TC201	TCW01W	~	0
 	TC201	TCW01W	TC201W	0
 	TC20KB	=	TC20	0
+	TC21		~	0
 	TC21	=	=	0
 	TC22	=	HC50	0
 	TC22	=	=	0

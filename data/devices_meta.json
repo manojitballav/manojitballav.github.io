@@ -1,60 +1,90 @@
 {
-  "lastUpdated": "2026-10-12",
-  "newDevicesCount": 9,
+  "lastUpdated": "2026-10-13",
+  "newDevicesCount": 14,
   "newDevices": [
     [
-      "ALT(IN)",
-      "ALT-SR10-PRO",
-      "ALT-SR10-PRO",
-      "ALT-SR10-PRO"
+      "ADVAN",
+      "X1 NEO",
+      "ADVAN_X1_NEO",
+      "X1 NEO"
     ],
     [
-      "Honor",
-      "HONOR Pad X7b",
-      "HNONL-Q1",
-      "ONL-W09"
+      "Callsky",
+      "Cpad-10",
+      "Ctab-10Pro",
+      "Ctab-10Pro"
+    ],
+    [
+      "Callsky",
+      "Ctab-10Pro",
+      "Cpad-10",
+      "Cpad-10"
+    ],
+    [
+      "DEERTiME",
+      "E15_U",
+      "E15_U",
+      "E15_U"
+    ],
+    [
+      "DMOAO",
+      "D3_U",
+      "D3_U",
+      "D3_U"
+    ],
+    [
+      "Disney",
+      "CTS07",
+      "CTS07",
+      "CTS07"
+    ],
+    [
+      "General_luxe",
+      "General_Luxe_E16",
+      "gle16",
+      "General Luxe E16"
+    ],
+    [
+      "Hyundai",
+      "HT8WC1RBK01KB01",
+      "HT8WC1RBK01KB01",
+      "8WC1"
+    ],
+    [
+      "Hyundai",
+      "HT8WC1RBK01KB02",
+      "HT8WC1RBK01KB02",
+      "8WC1"
     ],
     [
       "Invens",
-      "NOTE_18_GO",
-      "NOTE_18_GO",
+      "NOTE_18_ROW_GO",
+      "NOTE_18_ROW_GO",
       "NOTE 18"
     ],
     [
-      "Lecoo",
-      "P900A",
-      "P900A",
-      "P900A"
+      "NexiGo",
+      "PJ40Pro",
+      "coorg",
+      "PJ40Pro"
     ],
     [
-      "Oppo",
-      "Pad Mini",
-      "OP657BL1",
-      "OPD2516"
+      "Pretech",
+      "WP103",
+      "WP103",
+      "WP103"
     ],
     [
-      "Snexian",
-      "VEER",
-      "VEER",
-      "VEER"
+      "Sunmi",
+      "Sunmi L3/M3",
+      "L3",
+      "L3"
     ],
     [
-      "vivo",
-      "Y32",
-      "V2638",
-      "V2638"
-    ],
-    [
-      "vivo",
-      "Y32",
-      "V2638",
-      "V2641"
-    ],
-    [
-      "vivo",
-      "Y32",
-      "V2638",
-      "V2642"
+      "Zebra",
+      "TC21",
+      "",
+      "TC21"
     ]
   ]
 }
