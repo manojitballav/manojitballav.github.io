@@ -4736,6 +4736,7 @@ Biegedy
 	B22-U-US	=	B22-US	0
 	B22_C	=	=	0
 	B22_EEA	=	=	0
+	B22_U	=	=	0
 	B22_US	=	=	0
 	B23_US	=	=	0
 	B23_U_EEA	=	B23_EEA	0
@@ -19286,6 +19287,7 @@ Ikon
 	IK-7108	=	=	0
 	IK-787	=	=	0
 	IK-869	=	=	0
+	IK-SET028	=	=	0
 	IK-T808	=	=	0
 	IK-WT028i	=	=	0
 	IK-WT1080	=	=	0
@@ -31590,6 +31592,8 @@ OnePlus
 	OnePlus Ace 5 至尊版	OP60EDL1	PLC110	0
 	OnePlus Ace 6	OP6113L1	PLQ110	0
 	OnePlus Ace 6 至尊版	OP64D7L1	PMB110	0
+	OnePlus Ace 7	OP68BBL1	PYF110	0
+	OnePlus Ace 7 Pro	OP64F1L1	PMS110	0
 	OnePlus Ace 竞速版	OP5911	PGZ110	0
 	OnePlus N6	OP68DD	CPH2955	0
 	OnePlus N6 Lite	OP68FB	CPH2993	0
@@ -32111,6 +32115,12 @@ Oppo
 	Find X	PAFM00	=	0
 	Find X	PAFT00	=	0
 	Find X 兰博基尼	PAHM00	=	0
+	Find X10	OP659BL1	PMW110	0
+	Find X10	OP6659L1	CPH2911	0
+	Find X10	OP6659L1	OPG09	0
+	Find X10 E	OP65D7L1	PNA110	0
+	Find X10 Pro Max	OP659FL1	PMX110	0
+	Find X10 Pro Max	OP665DL1	CPH2913	0
 	Find X2	OP4BA1L1	CPH2023	0
 	Find X2 Lite	OP4C41L1	CPH2005	0
 	Find X2 Neo/Reno3 Pro	OP4C2DL1	CPH2009	0
@@ -35379,6 +35389,7 @@ Prime
 	PRIME P1	PRIME_P1	P1	0
 	X6_Pro	=	=	0
 Primebook
+	PB1310	=	Primebook Duo Pro	0
 	PB1380	=	Primebook Duo Max	0
 Primux
 	Primux_ioxphone	=	=	0
@@ -37132,6 +37143,7 @@ Relndoo
 	T10P_EEA	=	=	0
 	T10P_ROW	=	T10P	0
 	T10P_US	=	T10P	0
+	T10_US	=	T10	0
 	T618	=	=	0
 	T618_US	=	=	0
 	T618_WIFI	=	T618	0
@@ -37756,6 +37768,7 @@ SKYEGG
 	K13_US	=	=	0
 	K15_EEA	=	=	0
 	K15_US	=	=	0
+	K16_E	=	=	0
 	K16_US	=	=	0
 	X2_S_EEA	X2_EEA	=	0
 	X2_S_EEA	X2_EEA	~	0
@@ -48990,6 +49003,7 @@ UJJ(SZ)
 	U3_V_US	=	=	0
 	U6_E	=	=	0
 	U6_EEA	=	=	0
+	U6_U	=	=	0
 	U6_US	=	=	0
 	U6_V_EEA	=	=	0
 	U6_V_US	=	=	0
@@ -52913,6 +52927,8 @@ XTRAGEN
 	XTCTR_201	RUGGED_TABLET	~	0
 XTRATECH_IGUANAPAD
 	X8MT16	=	=	0
+XView
+	QUANTUM_Q10XPLUS	=	Quantum_Q10x+	0
 X_View
 	Protab10	=	=	0
 	X_View_Q7	=	=	0
@@ -56313,6 +56329,7 @@ fezawio
 	F12_EEA	=	=	0
 	F12_E_EEA	=	F12_E	0
 	F12_US	=	=	0
+	F12_U_US	=	F12_U	0
 	F8_EEA	=	=	0
 fibwi
 	fibwi	fibwi_B866W12M	~	0
