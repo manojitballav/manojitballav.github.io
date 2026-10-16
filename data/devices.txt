@@ -2826,6 +2826,7 @@ Artia
 	Artia SP545C	SP545C	=	0
 	SP545CV	SP545C	=	0
 	SP545C_1	SP545C	=	0
+	SP676W	=	=	0
 Artizlee
 	Artizlee S9	Artizlee_S9	=	0
 Arçelik
@@ -8020,6 +8021,7 @@ Coolpad
 	coolpad COOL 30i	CP12Q	=	0
 	coolpad CP12	CP12	=	0
 	coolpad CP12s	CP12s	=	0
+	coolpad K22	K22	=	0
 	coolpad N7 Air	2021	=	0
 	coolpad N7 Plus	coolpad_N7_Plus	2032	0
 	cp3648A	cp3648a	~	0
@@ -8373,6 +8375,7 @@ DAMASCO
 	TAB-T126-8	=	=	1
 	TAB-T537-10	=	=	1
 	TAB-T863-3	=	=	1
+	tk101_4	=	TAB-TK101-4	1
 DANDOON
 	A2	=	=	0
 DARVEEN
@@ -8754,6 +8757,7 @@ DMOAO
 	D6_EEA	=	=	0
 	D6_US	=	=	0
 	D7_EEA	=	=	0
+	D7_U	=	=	0
 	D7_US	=	=	0
 	DMOAO_D2_EEA	=	=	0
 	DMOAO_D2_US	=	=	0
@@ -16783,6 +16787,8 @@ Horion
 HorusVision
 	FieldHub1_0_EEA	FieldHub1_0	=	0
 	FieldHub1_0_ROW	FieldHub1_0	=	0
+Hosan
+	L67	4G_Smart_Phone	~	0
 Hosoton
 	H-H101_EEA	=	=	0
 	H101_EEA	H101	=	0
@@ -19660,6 +19666,7 @@ Infinix
 	SMART 10 PLUS	Infinix-X6725C	Infinix X6725C	0
 	SMART 20	Infinix-X6840	Infinix X6840	0
 	SMART 20	Infinix-X6840B	Infinix X6840B	0
+	SMART 20e	Infinix-X6843B	Infinix X6843B	0
 	SMART 5	Infinix-X657C	Infinix X657C	0
 	SMART 5 HD	Infinix-X6511	Infinix X6511	0
 	SMART 5(SMART 6)	Infinix-X657B	Infinix X657B	0
@@ -21610,6 +21617,8 @@ KUVA
 KWUMSY
 	G1	=	=	0
 KXD mobile
+	15C	=	=	0
+	18_Max	=	=	0
 	A06	=	=	0
 	A07	=	=	0
 	A07 go	A07_go	=	0
@@ -26654,6 +26663,7 @@ MYCOM
 	COMEK_Smart20	=	=	0
 	COMEK_Tab_10	=	COMEK Tab 10	1
 	COMEK_Tab_20	=	COMEK Tab 20	1
+	COMEK_Tab_Joy_20	=	COMEK Tab Joy 20	1
 	COMEK_Tab_K	=	COMEK Tab K	1
 	COMEK_Tab_K	=	COMEK Tab K10	1
 	COMEK_Tab_K2	=	COMEK Tab K2	1
@@ -26971,6 +26981,7 @@ Maxwest
 	ASTRO A65	MX-A65	=	0
 	ASTRO A66	MX-A66WW	~	0
 	ASTRO A67	MX-A67WW	~	0
+	ASTRO A68	MX-A68MM	~	0
 	ASTRO_10	MX-A10WW	MX-A10	0
 	ASTRO_10_1	MX-AA10WW01	MX-A10	0
 	ASTRO_10_A	MX-A10WW	MX-A10	0
@@ -33387,6 +33398,7 @@ PIXGOOD
 	M902-EEA	=	=	0
 PIXIUM
 	PIXIUM_X7	=	X7	0
+	X6	PIXIUM_X6	~	0
 PIXPEAK
 	L60-EEA	=	=	0
 	M186-EEA	=	=	0
@@ -37431,6 +37443,7 @@ Ruio
 	S6539Q	=	=	0
 	S6539Q	=	T1	0
 	S6539Q	=	VISION	0
+	S6539Z	=	=	0
 	S6705	=	=	0
 	Smart One	ZIP_PLUS	RS2613	0
 	Smart One	ZIP_PLUS	~	0
@@ -37706,6 +37719,7 @@ SIMI
 	simi X3	simi_X3	~	0
 SINAL
 	SA08_310	=	=	0
+	SA08_3100	=	=	0
 SINAT
 	SINAT TOUCH ST	SINAT_TOUCH_ST	=	0
 SITI_Playtop
@@ -37768,6 +37782,7 @@ SKYEGG
 	K13_US	=	=	0
 	K15_EEA	=	=	0
 	K15_US	=	=	0
+	K16_C	=	=	0
 	K16_E	=	=	0
 	K16_US	=	=	0
 	X2_S_EEA	X2_EEA	=	0
@@ -44508,6 +44523,8 @@ Stylo
 	SONIC	=	STYLO SONIC	0
 	STEP_UP	=	=	0
 	STYLO Future	Future	=	0
+	STYLO LEGACY	LEGACY	=	0
+	STYLO LEGEND	LEGEND	=	0
 	STYLO MAX	Stylo_Max	MAX	0
 	STYLOF1	=	STYLO F1	0
 	STYLO_DASH	DASH	=	6
