@@ -47,6 +47,10 @@ Areas of expertise:
 ## Blog Posts
 
 - [Lumio Arc 7 2026 vs Arc 7: What Changed, and Why We Built a New One](/blog/lumio-arc-7-2026-vs-arc-7.html): Arc Light Engine 2, 500 ANSI lumens (from 400), 1700:1 contrast, 45.76% DCI-P3, 45-120 inch image, Google TV with Gemini, Rs 34,999. How LCD light engines are getting brighter
+- [Mini LED Explained: What It Really Means (And Why Most People Misunderstand It)](/blog/blog-mini-led-explained.html): How direct-lit Mini LED backlights work, FALD and local dimming zones, and what to look for when buying a Mini LED TV
+- [Every Google Certified Android Device in One Searchable Database](/blog/google-certified-devices.html): 50,000+ Google certified (GMS) Android devices across 3,700+ brands, searchable by model and brand, updated daily
+- [20,000-Hour LED Projector Lifespan: The Specification That Doesn't Tell the Whole Story](/blog/led-projector-lifespan.html): LED lamp hours vs lumen maintenance, and why LCD panels and polarizers age faster than the light source
+- [Why LED Lumens Are Misleading: What Projector Brightness Ratings Actually Mean](/blog/led-lumens-misleading.html): Optical losses in LCD projectors cut on-screen brightness by up to 90% versus the quoted LED lumens
 - [TV Display Panels Explained: From TN to MicroLED](/blog/tv-panel-types.html): Deep technical breakdown of every TV display panel type. How Lumio picks panels for Indian conditions
 - [Inside a Wireless HDMI System](/blog/blog-wireless-hdmi.html): Engineering a pro-grade wireless HDMI dongle, covering chipsets, benchmarks, video pipeline
 - [Different Types of Projectors in India](/blog/projector-types-india.html): Guide to LCD, DLP, LED, Laser, and LCoS projectors

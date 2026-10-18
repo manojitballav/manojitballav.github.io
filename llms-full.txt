@@ -77,7 +77,31 @@ Lumio is an Indian smart TV and home projector brand under Circuit House Technol
 
 The Arc 7 2026 keeps the Arc 7 body and adds Arc Light Engine 2, a clearer LCD chip in a sealed optical design: 500 ANSI lumens (from 400), 1700:1 native contrast (from 1500:1), 45.76% DCI-P3 (from 41.6%), a 45-120 inch image (from 40-100), 32 GB storage (from 16), Google TV with Gemini. Priced at Rs 34,999 on Amazon, Flipkart and the Lumio Store. Brightness was the most common request from Arc 7 owners in every post-purchase survey wave; about three in four project onto a bare wall and four in five are first-time projector buyers. Also explains single-panel LCD light-path losses (polariser, pixel aperture), microlens arrays, polarisation recycling and etendue.
 
-### 1. TV Display Panels Explained: From TN to MicroLED · A Deep Dive
+### Mini LED Explained: What It Really Means (And Why Most People Misunderstand It)
+**URL:** /blog/blog-mini-led-explained.html
+**Published:** March 22, 2026
+
+A deep technical breakdown of Mini LED backlighting: how direct-lit LEDs work, what makes an LED "Mini", full-array local dimming (FALD) and dimming zones, and what to actually look for when buying a Mini LED TV.
+
+### Every Google Certified Android Device in One Searchable Database
+**URL:** /blog/google-certified-devices.html
+**Published:** March 18, 2026
+
+A searchable database of every Google certified (GMS) Android device globally: over 50,000 devices across 3,700+ brands. Filter by alphabet, search by model, and drill into any brand. The list is pulled from Google Play's public supported-devices file and updated daily, with a Recently Added view and an RSS feed. Database: /google-certified-devices.html
+
+### 20,000-Hour LED Projector Lifespan: The Specification That Doesn't Tell the Whole Story
+**URL:** /blog/led-projector-lifespan.html
+**Published:** March 9, 2026
+
+LED projectors claim 20,000-hour lifespans, but LCD panels and polarizers degrade much sooner. Covers LED lamp hours, lumen maintenance, and why the optical system ages faster than the light source.
+
+### Why LED Lumens Are Misleading: What Projector Brightness Ratings Actually Mean
+**URL:** /blog/led-lumens-misleading.html
+**Published:** March 8, 2026
+
+Why LED lumen ratings on projectors are misleading: optical losses in LCD projection systems reduce actual screen brightness by up to 90% compared with the light source's rated output.
+
+### TV Display Panels Explained: From TN to MicroLED · A Deep Dive
 **URL:** /blog/tv-panel-types.html
 **Published:** March 7, 2026
 
@@ -90,25 +114,25 @@ A comprehensive technical breakdown of every TV display panel type, covering bac
 - Panel supplier reliability issues (Panda case study)
 - Buying guide by budget: ₹30K (QLED), ₹60K (Mini LED), ₹1L+ (OLED), ₹1.5L+ (QD-OLED)
 
-### 2. Inside a Wireless HDMI System: Engineering a Pro-Grade Wireless HDMI Dongle
+### Inside a Wireless HDMI System: Engineering a Pro-Grade Wireless HDMI Dongle
 **URL:** /blog/blog-wireless-hdmi.html
 **Published:** March 4, 2026
 
 A deep technical breakdown of wireless HDMI dongle architecture: chipsets, benchmarks, video pipeline, and engineering challenges.
 
-### 3. Different Types of Projectors in India
+### Different Types of Projectors in India
 **URL:** /blog/projector-types-india.html
 **Published:** January 6, 2026
 
 A comprehensive guide to projector technologies available in India: LCD, DLP, LED, Laser, and LCoS. Covers how each technology works, pros and cons, price ranges, and which type suits different use cases (home theater, office presentations, portable use, gaming).
 
-### 4. Building Lumio: My Journey from Xiaomi to India's Next Smart TV Revolution
+### Building Lumio: My Journey from Xiaomi to India's Next Smart TV Revolution
 **URL:** /blog/blog-lumio-journey.html
 **Published:** December 15, 2024
 
 The Indian Smart TV market is valued at $5 billion with 13% CAGR growth. Lumio was founded to create TVs that outperform competition with 2x faster app loading and rebooting. The company raised $4.3M seed funding and crossed $1M GMV in 2 months. (Update, October 2026: Lumio has since crossed ₹100 crore GMV within 13 months of commercial sales and raised a $12M Series A led by Blume Ventures.) Key trends include FAST channels growing 43% YoY, regional content demand, and AI integration becoming table stakes.
 
-### 5. The State of CTV in 2025: Why Connected TV is Eating Traditional Broadcasting
+### The State of CTV in 2025: Why Connected TV is Eating Traditional Broadcasting
 **URL:** /blog/blog-ctv-trends-2025.html
 **Published:** December 10, 2024
 
@@ -120,7 +144,7 @@ Streaming now accounts for 44.8% of total TV viewership, surpassing broadcast (2
 - India CTV households could reach 60 million by end of 2025
 - India Smart TV/OTT market: $22.39 billion in 2025, 18.2% CAGR
 
-### 6. How AI is Transforming CTV Advertising: From Mass Broadcasting to Hyper-Personalization
+### How AI is Transforming CTV Advertising: From Mass Broadcasting to Hyper-Personalization
 **URL:** /blog/blog-ai-ctv-advertising.html
 **Published:** December 5, 2024
 
@@ -132,7 +156,7 @@ Streaming now accounts for 44.8% of total TV viewership, surpassing broadcast (2
 - Progressive Insurance compressed 22 weeks of audio production into 2 weeks using AI
 - Over 90% of CTV ad dollars flow through programmatic pipes
 
-### 7. FAST Channels: India's $12 Billion Opportunity in Free Streaming
+### FAST Channels: India's $12 Billion Opportunity in Free Streaming
 **URL:** /blog/blog-fast-channels-india.html
 **Published:** November 28, 2024
 
@@ -143,7 +167,7 @@ FAST (Free Ad-Supported Streaming TV) market stands at $12.26 billion globally i
 - Regional content hunger drives adoption
 - Challenges include lower CPMs, measurement immaturity, piracy
 
-### 8. Mini LED vs QLED vs OLED: A Product Manager's Guide to TV Technology in 2025
+### Mini LED vs QLED vs OLED: A Product Manager's Guide to TV Technology in 2025
 **URL:** /blog/blog-tv-technology-guide.html
 **Published:** November 20, 2024
 
