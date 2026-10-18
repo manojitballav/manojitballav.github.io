@@ -1,102 +1,120 @@
 {
-  "lastUpdated": "2026-10-16",
-  "newDevicesCount": 16,
+  "lastUpdated": "2026-10-18",
+  "newDevicesCount": 19,
   "newDevices": [
     [
-      "Artia",
-      "SP676W",
-      "SP676W",
-      "SP676W"
+      "Bluefin",
+      "BP76A16",
+      "BP76A16",
+      "BP76A16"
     ],
     [
-      "Coolpad",
-      "coolpad K22",
-      "K22",
-      "K22"
+      "DABLIU",
+      "T50PV_16R",
+      "T50PV_16R",
+      "T50PV_16R"
     ],
     [
-      "DAMASCO",
-      "tk101_4",
-      "tk101_4",
-      "TAB-TK101-4"
+      "Dghrti",
+      "TAB30_U",
+      "TAB30_U",
+      "TAB30_U"
     ],
     [
-      "DMOAO",
-      "D7_U",
-      "D7_U",
-      "D7_U"
+      "Hisense",
+      "Goboard Series",
+      "mohe",
+      "HIDB 4K"
     ],
     [
-      "Hosan",
-      "L67",
-      "4G_Smart_Phone",
-      "L67"
+      "Hyundai",
+      "HT10WC1MSG03",
+      "HT10WC1MSG03",
+      "10WC1"
     ],
     [
-      "Infinix",
-      "SMART 20e",
-      "Infinix-X6843B",
-      "Infinix X6843B"
+      "Janam",
+      "HT2",
+      "HT2",
+      "HT2"
     ],
     [
-      "KXD mobile",
-      "15C",
-      "15C",
-      "15C"
-    ],
-    [
-      "KXD mobile",
-      "18_Max",
-      "18_Max",
-      "18_Max"
-    ],
-    [
-      "MYCOM",
-      "COMEK_Tab_Joy_20",
-      "COMEK_Tab_Joy_20",
-      "COMEK Tab Joy 20"
-    ],
-    [
-      "Maxwest",
-      "ASTRO A68",
-      "MX-A68MM",
-      "ASTRO A68"
-    ],
-    [
-      "PIXIUM",
-      "X6",
-      "PIXIUM_X6",
-      "X6"
-    ],
-    [
-      "Ruio",
-      "S6539Z",
-      "S6539Z",
-      "S6539Z"
-    ],
-    [
-      "SINAL",
-      "SA08_3100",
-      "SA08_3100",
-      "SA08_3100"
+      "Phone Max",
+      "T11_EEA",
+      "T11",
+      "T11"
     ],
     [
       "SKYEGG",
-      "K16_C",
-      "K16_C",
-      "K16_C"
+      "K13_C",
+      "K13_C",
+      "K13_C"
     ],
     [
-      "Stylo",
-      "STYLO LEGACY",
-      "LEGACY",
-      "LEGACY"
+      "SKYEGG",
+      "K16_U",
+      "K16_U",
+      "K16_U"
     ],
     [
-      "Stylo",
-      "STYLO LEGEND",
-      "LEGEND",
-      "LEGEND"
+      "SUAAT",
+      "S3_U",
+      "S3_U",
+      "S3_U"
+    ],
+    [
+      "SUAAT",
+      "Z138_C",
+      "Z138_C",
+      "Z138_C"
+    ],
+    [
+      "T-SOURCE",
+      "T19_Plus",
+      "T19_Plus",
+      "Smarti Gen 3"
+    ],
+    [
+      "T-SOURCE",
+      "T19_Plus",
+      "T19_Plus",
+      "T19_Plus"
+    ],
+    [
+      "TAPC",
+      "TM1062",
+      "TM1062",
+      "TM1062"
+    ],
+    [
+      "UJJ(SZ)",
+      "U6_C",
+      "U6_C",
+      "U6_C"
+    ],
+    [
+      "unitel",
+      "SMART_4G_III",
+      "SMART_4G_III",
+      "Unitel Smart III 4G SP160A"
+    ],
+    [
+      "vivo",
+      "X500 Pro Max",
+      "V2610",
+      "V2610"
+    ],
+    [
+      "vivo",
+      "X500 Pro",
+      "V2621",
+      "V2621"
+    ],
+    [
+      "vivo",
+      "X500 Pro",
+      "V2621",
+      "V2622"
     ]
   ]
 }

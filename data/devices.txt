@@ -5854,6 +5854,8 @@ Bluedot
 	BNT-801W	BNT_801W	~	0
 	BNT-802	=	=	0
 	BNT_1012W	=	BNT-1012	0
+Bluefin
+	BP76A16	=	=	0
 Bluemake
 	BM-12WTN	=	=	0
 Bluesky
@@ -8352,6 +8354,7 @@ DABLIU
 	E1N	=	=	0
 	L1R	=	=	0
 	T1B	=	=	0
+	T50PV_16R	=	=	0
 DAIICHI
 	Vietnam	martin	Daiichi 2K SMART TV	2
 	Vietnam	tamachi	Daiichi FHD Android TV	2
@@ -9230,6 +9233,7 @@ Dghrti
 	TAB30-W	=	=	0
 	TAB30_E	=	=	0
 	TAB30_EEA	=	=	0
+	TAB30_U	=	=	0
 	TAB30_US	=	=	0
 	TAB50_EEA	=	=	0
 	TAB50_US	=	=	0
@@ -15655,6 +15659,7 @@ Hisense
 	Goboard Series	changjiang	HIDB 4K	7
 	Goboard Series	huaihe	HIDB 4K	7
 	Goboard Series	huanghe	HIDB 4K	7
+	Goboard Series	mohe	HIDB 4K	7
 	H5500F	harajuku	HiSmart 2K ATV4	2
 	H800T	=	HS-H800T	0
 	H910	HS8929QC	Hisense H910	0
@@ -18728,6 +18733,7 @@ Hyundai
 	HT10WC1MSG01	=	10WC1	0
 	HT10WC1MSG01_EEA	HT10WC1MSG01	10WC1	0
 	HT10WC1MSG01_US	HT10WC1MSG01	10WC1	0
+	HT10WC1MSG03	=	10WC1	0
 	HT7GB1MBK_	=	7GB1	0
 	HT7WB1RBK	=	=	0
 	HT7WC1PBK	=	=	0
@@ -20880,6 +20886,7 @@ Jambo_Technology
 	JamboPhone2	JP2	=	0
 Janam
 	HT1	=	=	0
+	HT2	=	=	0
 	XG200	=	=	0
 	XG4	=	=	0
 	XG5	=	=	0
@@ -34376,6 +34383,7 @@ Phone Max
 	Rocky 2	Rocky_2	~	0
 	Rocky_1	=	=	0
 	S4G	=	=	0
+	T11_EEA	T11	=	0
 	T12	=	=	0
 	T1_N	T1	=	0
 	X1	=	=	0
@@ -37777,6 +37785,7 @@ SKYEGG
 	K13-U-EEA	=	=	0
 	K13-U-US	=	=	0
 	K13-U-US	=	K13-US	0
+	K13_C	=	=	0
 	K13_E	=	=	0
 	K13_EEA	=	=	0
 	K13_US	=	=	0
@@ -37784,6 +37793,7 @@ SKYEGG
 	K15_US	=	=	0
 	K16_C	=	=	0
 	K16_E	=	=	0
+	K16_U	=	=	0
 	K16_US	=	=	0
 	X2_S_EEA	X2_EEA	=	0
 	X2_S_EEA	X2_EEA	~	0
@@ -38176,6 +38186,7 @@ SUAAT
 	S11_V_US	=	=	0
 	S3_E	=	=	0
 	S3_EEA	=	=	0
+	S3_U	=	=	0
 	S3_US	=	=	0
 	S3_U_EEA	=	=	0
 	S3_U_US	=	=	0
@@ -38184,6 +38195,7 @@ SUAAT
 	S6-U-EEA	=	S6-EEA	0
 	S6_EEA	=	=	0
 	S6_US	=	=	0
+	Z138_C	=	=	0
 SUNCONNECTION
 	SUNTB_01_GY	=	SUNTB 01 GY	0
 SUNMAX
@@ -44951,6 +44963,8 @@ T-Mobile-CZ-Telekom-SK
 	TV Box HY4403	HY44G	TV Box	2
 T-SOURCE
 	SA70	T70	=	0
+	T19_Plus	=	Smarti Gen 3	0
+	T19_Plus	=	=	0
 TA71CA5_JP
 	JP SA COUTO, S.A. _MG070A2T	TA71CA5_1	TA71CA5	0
 TABWEE
@@ -45023,6 +45037,8 @@ TAIFA
 TAMBOARD
 	TB_GH	=	=	0
 	TB_Series	oversea_v	~	0
+TAPC
+	TM1062	=	=	0
 TASKPHONE
 	T20	T20P	~	0
 TATUNG
@@ -49018,6 +49034,7 @@ UJJ(SZ)
 	U3_US	=	=	0
 	U3_V_EEA	=	=	0
 	U3_V_US	=	=	0
+	U6_C	=	=	0
 	U6_E	=	=	0
 	U6_EEA	=	=	0
 	U6_U	=	=	0
@@ -57729,6 +57746,7 @@ unitel
 	BOX TV 4K UNITEL NET CASA	Unitel_B866V6-H	~	2
 	P45	=	=	0
 	SMART_4G_II	=	Unitel SMART 4G II SP136	0
+	SMART_4G_III	=	Unitel Smart III 4G SP160A	0
 	U901	=	=	0
 	U902	=	=	0
 	U903	=	=	0
@@ -57835,7 +57853,10 @@ vivo
 	X500 E	V2648	V2656	0
 	X500 Pro	PD2608	V2608A	0
 	X500 Pro	PD2608	V2608DA	0
+	X500 Pro	V2621	=	0
+	X500 Pro	V2621	V2622	0
 	X500 Pro Max	PD2602	V2602A	0
+	X500 Pro Max	V2610	=	0
 	X500 Pro Max 卫星通信版	PD2602	V2602DA	0
 	Y04e	V2430	V2532	0
 	Y05	V2556	=	0
