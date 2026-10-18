@@ -46,6 +46,7 @@ Areas of expertise:
 
 ## Blog Posts
 
+- [Turning a HomePod and an iPad Air 2 Into an Apple HomeView](/blog/homepod-ipad-homeview-stand.html): 3D printed stand designed for a former Xiaomi colleague. A collar on a first generation HomePod, an iPad Air 2 hanging in front on a hinge with 5 tilt clicks (5 to 25 degrees), printed M8 bolt and M6 screws, no supports, black, silver and white ABS on a Bambu Lab X2D. Includes an interactive 3D viewer
 - [Lumio Arc 7 2026 vs Arc 7: What Changed, and Why We Built a New One](/blog/lumio-arc-7-2026-vs-arc-7.html): Arc Light Engine 2, 500 ANSI lumens (from 400), 1700:1 contrast, 45.76% DCI-P3, 45-120 inch image, Google TV with Gemini, Rs 34,999. How LCD light engines are getting brighter
 - [Mini LED Explained: What It Really Means (And Why Most People Misunderstand It)](/blog/blog-mini-led-explained.html): How direct-lit Mini LED backlights work, FALD and local dimming zones, and what to look for when buying a Mini LED TV
 - [Every Google Certified Android Device in One Searchable Database](/blog/google-certified-devices.html): 50,000+ Google certified (GMS) Android devices across 3,700+ brands, searchable by model and brand, updated daily

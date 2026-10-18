@@ -71,6 +71,12 @@ Lumio is an Indian smart TV and home projector brand under Circuit House Technol
 
 ## Blog Content Summaries
 
+### Turning a HomePod and an iPad Air 2 Into an Apple HomeView
+**URL:** /blog/homepod-ipad-homeview-stand.html
+**Published:** October 18, 2026
+
+A 3D printed stand that makes a first generation HomePod and an iPad Air 2 look like Apple's HomeView (announced 13 October 2026: a 7 inch square screen on a domed speaker with a tilting stainless steel hinge, $299). Designed on request for a former colleague from Xiaomi. Two earlier layouts were rejected: a 430 mm tower with the iPad above the HomePod, and a domed base with the iPad low in front. The final design drops the base and uses the 2.5 kg HomePod itself: a black ABS collar trimmed at 45 degrees up the HomePod shoulder (prints without supports, leaves the touch controls open, 6 grip dimples), an arm to a hinge at the centre of a silver ABS iPad holder, leaf spring detents that click at 5, 10, 15, 20 and 25 degrees, a printed M8 thumb knob bolt and nut, and a separate white ABS lower lip fixed with 3 printed M6 screws. iPad in landscape, Home button right. Printed on a Bambu Lab X2D in ABS. The post includes an interactive three.js viewer of the model and notes what it does not do compared with a real HomeView (no homeOS, iPad Air 2 tops out at iPadOS 15, two devices instead of one). Not yet printed as of publication.
+
 ### Lumio Arc 7 2026 vs Arc 7: What Changed, and Why We Built a New One
 **URL:** /blog/lumio-arc-7-2026-vs-arc-7.html
 **Published:** October 7, 2026
