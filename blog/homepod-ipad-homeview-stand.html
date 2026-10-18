@@ -1,0 +1,638 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <script>(function(){var t=localStorage.getItem('theme')||(window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t)})()</script>
+    <title>Turning a HomePod and an iPad Air 2 Into an Apple HomeView | Manojit Ballav</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="A 3D printed stand that hangs an iPad Air 2 in front of a first generation HomePod, so the pair looks like Apple's new HomeView. Collar, 5 click tilt hinge, printed bolt, no hardware. Explore the design in 3D.">
+    <meta name="keywords" content="Apple HomeView DIY, HomePod iPad stand, HomePod 1st gen stand, iPad Air 2 stand, 3D printed HomeView, HomeView alternative, Bambu Lab X2D, ABS print, iPad smart home display">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Manojit Ballav">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="canonical" href="https://manojitballav.com/blog/homepod-ipad-homeview-stand.html">
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+    <link rel="icon" href="/images/favicon.ico?v=2026-08" sizes="48x48">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png?v=2026-08">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png?v=2026-08">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png?v=2026-08">
+    <link rel="manifest" href="../site.webmanifest">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://manojitballav.com/blog/homepod-ipad-homeview-stand.html" />
+    <meta property="og:title" content="Turning a HomePod and an iPad Air 2 Into an Apple HomeView" />
+    <meta property="og:description" content="A 3D printed collar and hinge that hangs an old iPad in front of a HomePod. Five tilt clicks, printed bolt, no hardware. Spin it around in 3D." />
+    <meta property="og:image" content="https://manojitballav.com/images/homeview-stand/og.jpg" />
+    <meta property="og:image:alt" content="iPad Air 2 hanging in front of a space gray HomePod on a 3D printed stand" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:site_name" content="Manojit Ballav" />
+    <meta property="article:published_time" content="2026-10-18T00:00:00+05:30" />
+    <meta property="article:modified_time" content="2026-10-18T00:00:00+05:30" />
+    <meta property="article:author" content="https://www.linkedin.com/in/manojitballav/" />
+    <meta property="article:section" content="3D Printing" />
+    <meta property="article:tag" content="Apple HomeView" />
+    <meta property="article:tag" content="HomePod" />
+    <meta property="article:tag" content="3D Printing" />
+    <meta property="article:tag" content="Product Design" />
+    <meta property="og:locale" content="en_IN" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@manojitballav" />
+    <meta name="twitter:creator" content="@manojitballav" />
+    <meta name="twitter:url" content="https://manojitballav.com/blog/homepod-ipad-homeview-stand.html" />
+    <meta name="twitter:title" content="Turning a HomePod and an iPad Air 2 Into an Apple HomeView" />
+    <meta name="twitter:description" content="A 3D printed collar and hinge that hangs an old iPad in front of a HomePod. Five tilt clicks, printed bolt, no hardware. Spin it around in 3D." />
+    <meta name="twitter:image" content="https://manojitballav.com/images/homeview-stand/og.jpg" />
+
+    <!-- Structured Data for Knowledge Graph -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://manojitballav.com/#person",
+      "name": "Manojit Ballav",
+      "alternateName": "Mono",
+      "url": "https://manojitballav.com/",
+      "image": "https://manojitballav.com/images/profile-2026.webp",
+      "jobTitle": "Principal Product Manager",
+      "worksFor": {
+        "@id": "https://lumio.co.in/#organization"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/manojitballav/",
+        "https://github.com/manojitballav",
+        "https://x.com/manojitballav",
+        "https://www.instagram.com/ilegalmono/",
+        "https://soundcloud.com/manojit-ballav",
+        "https://www.pinterest.com/manojitballav/",
+        "https://www.youtube.com/channel/UCeZCPuWjzcIJ_3ss2jUOoPg",
+        "https://medium.com/@manojitballav",
+        "https://www.facebook.com/manojitballav",
+        "https://www.wikidata.org/wiki/Q138306609",
+        "https://www.hackerearth.com/@manojitballav",
+        "https://scholar.google.com/citations?user=Fi8Tpu4AAAAJ",
+        "https://orcid.org/0009-0002-1486-7564",
+        "https://www.google.com/search?kgmid=/g/11f_jjrpgk"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://manojitballav.com/#website",
+      "url": "https://manojitballav.com/",
+      "name": "Manojit Ballav",
+      "publisher": {
+        "@id": "https://manojitballav.com/#person"
+      },
+      "inLanguage": "en-IN"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://lumio.co.in/#organization",
+      "name": "Lumio",
+      "legalName": "Circuit House Technologies",
+      "url": "https://lumio.co.in",
+      "sameAs": "https://www.wikidata.org/wiki/Q138306720"
+    },
+    {
+      "@type": "TechArticle",
+      "@id": "https://manojitballav.com/blog/homepod-ipad-homeview-stand.html#article",
+      "headline": "Turning a HomePod and an iPad Air 2 Into an Apple HomeView",
+      "description": "A 3D printed stand that hangs an iPad Air 2 in front of a first generation HomePod so the pair looks like Apple's HomeView: a collar on the HomePod, a hinge with five tilt clicks, and a printed bolt and screws.",
+      "image": "https://manojitballav.com/images/homeview-stand/og.jpg",
+      "datePublished": "2026-10-18",
+      "dateModified": "2026-10-18",
+      "author": {
+        "@id": "https://manojitballav.com/#person"
+      },
+      "publisher": {
+        "@id": "https://manojitballav.com/#person"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://manojitballav.com/blog/homepod-ipad-homeview-stand.html"
+      },
+      "isPartOf": {
+        "@id": "https://manojitballav.com/#website"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "HomePod",
+          "sameAs": "https://en.wikipedia.org/wiki/HomePod"
+        },
+        {
+          "@type": "Thing",
+          "name": "3D printing",
+          "sameAs": "https://en.wikipedia.org/wiki/3D_printing"
+        }
+      ],
+      "keywords": [
+        "Apple HomeView",
+        "HomePod iPad stand",
+        "3D printed stand",
+        "iPad Air 2",
+        "HomePod 1st generation",
+        "Bambu Lab X2D",
+        "ABS"
+      ],
+      "inLanguage": "en-IN"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://manojitballav.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://manojitballav.com/blog/blog-page.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "HomePod and iPad HomeView Stand",
+          "item": "https://manojitballav.com/blog/homepod-ipad-homeview-stand.html"
+        }
+      ]
+    }
+  ]
+}
+    </script>
+    <!-- Schema.org JSON-LD: FAQPage (mirrors the visible FAQ section) -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does this stand turn an iPad and HomePod into a real Apple HomeView?",
+      "acceptedAnswer": { "@type": "Answer", "text": "No. It only gets the look and the placement. HomeView runs Apple's new home software, recognises faces and has its own speaker. Here the iPad runs the Home app or a dashboard page, and the HomePod plays audio as it always did." }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need any screws or hardware to build it?",
+      "acceptedAnswer": { "@type": "Answer", "text": "No. The M8 hinge bolt with its thumb knob, the nut and the three M6 screws for the lower lip are all printed. You need a coin or a flat screwdriver to tighten the lip screws." }
+    },
+    {
+      "@type": "Question",
+      "name": "Will the HomePod tip over with an iPad hanging in front of it?",
+      "acceptedAnswer": { "@type": "Answer", "text": "On paper, no. The first generation HomePod weighs 2.5 kg and the iPad Air 2 about 440 g, and the hinge sits close to the HomePod, so the HomePod works as the base. I will confirm this once the first print is done." }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use it with a HomePod 2 or a newer iPad?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Not as it is. The collar is sized for the first generation HomePod and the holder for the iPad Air 2 at 240 x 169.5 x 6.1 mm. The design is parametric, so other sizes are a change of a few numbers, but each one needs a test print." }
+    }
+  ]
+}
+    </script>
+
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+
+    <!-- Preload LCP image -->
+    <link rel="preload" as="image" href="../images/homeview-stand/hero.webp" imagesrcset="../images/homeview-stand/hero-800.webp 800w, ../images/homeview-stand/hero.webp 1600w" imagesizes="100vw" type="image/webp" fetchpriority="high">
+
+    <!-- Fonts -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Google+Sans+Text:wght@400;500;700&family=Inter:wght@300;400;500;600;700&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Google+Sans+Text:wght@400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Google+Sans+Text:wght@400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"></noscript>
+
+    <!-- Icons (Font Awesome subset, see tools/build-icons.py) -->
+    <link rel="stylesheet" href="../css/icons.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="../css/icons.css"></noscript>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="../css/google-style.css">
+    <style>
+        .spec-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.95rem; }
+        .spec-table th, .spec-table td { padding: 0.6rem 1rem; text-align: left; border-bottom: 1px solid var(--border, #e0e0e0); vertical-align: top; }
+        .spec-table th { font-weight: 600; background: var(--surface-alt, #f5f5f5); }
+        .spec-table tr:last-child td { border-bottom: none; }
+        [data-theme="dark"] .spec-table th { background: var(--surface-alt, #2a2a2a); }
+        .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+
+        .blog-figure img { width: 100%; height: auto; border-radius: 8px; cursor: zoom-in; transition: opacity 0.2s; }
+        .blog-figure img:hover { opacity: 0.85; }
+        .blog-figure figcaption { font-size: 0.85rem; color: var(--text-secondary, #666); margin-top: 0.5rem; text-align: center; }
+        .figure-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1.5rem 0; }
+        .figure-pair .blog-figure { margin: 0; }
+        @media (max-width: 600px) { .figure-pair { grid-template-columns: 1fr; } }
+
+        /* 3D viewer */
+        .stand-viewer { margin: 2rem 0; border: 1px solid var(--glass-border, rgba(0,0,0,0.08)); border-radius: 16px; overflow: hidden; background: var(--bg-secondary, #f5f5f7); }
+        .stand-viewer__stage { position: relative; aspect-ratio: 16 / 11; }
+        .stand-viewer__stage canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; cursor: grab; }
+        .stand-viewer__stage canvas:active { cursor: grabbing; }
+        .stand-viewer__status { position: absolute; inset: 0; display: grid; place-items: center; padding: 1rem; text-align: center; color: var(--text-secondary, #666); font-size: 0.9rem; pointer-events: none; }
+        .stand-viewer__hint { position: absolute; left: 12px; bottom: 10px; font-size: 0.75rem; color: var(--text-secondary, #666); pointer-events: none; opacity: 0; transition: opacity 0.3s; }
+        .stand-viewer.is-ready .stand-viewer__hint { opacity: 1; }
+        .stand-viewer__controls { display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; padding: 0.9rem 1rem; border-top: 1px solid var(--glass-border, rgba(0,0,0,0.08)); font-size: 0.85rem; }
+        .stand-viewer__views { display: flex; gap: 0.4rem; flex-wrap: wrap; }
+        .stand-viewer__views button { font: inherit; font-size: 0.8rem; color: var(--text-primary, #1d1d1f); background: var(--bg-surface, rgba(0,0,0,0.04)); border: 1px solid var(--glass-border, rgba(0,0,0,0.1)); border-radius: 999px; padding: 0.3rem 0.8rem; cursor: pointer; }
+        .stand-viewer__views button[aria-pressed="true"] { border-color: var(--accent, #0071e3); color: var(--accent, #0071e3); }
+        .stand-viewer__views button:disabled, .stand-viewer input:disabled { opacity: 0.5; cursor: default; }
+        .stand-viewer__tilt { display: flex; align-items: center; gap: 0.5rem; flex: 1; min-width: 200px; }
+        .stand-viewer__tilt input { flex: 1; accent-color: var(--accent, #0071e3); }
+        .stand-viewer__tilt output { font-variant-numeric: tabular-nums; min-width: 2.5em; }
+        .stand-viewer__toggle { display: flex; align-items: center; gap: 0.4rem; cursor: pointer; }
+        .stand-viewer__toggle input { accent-color: var(--accent, #0071e3); }
+        .stand-viewer figcaption { padding: 0 1rem 0.9rem; font-size: 0.8rem; color: var(--text-secondary, #666); }
+        @media (max-width: 600px) { .stand-viewer__stage { aspect-ratio: 1 / 1; } }
+
+        .faq-item { margin: 1.25rem 0; }
+        .faq-item h3 { margin-bottom: 0.4rem; }
+
+        /* Lightbox overlay */
+        .lightbox { display: none; position: fixed; inset: 0; z-index: 9999; background: rgba(0,0,0,0.85); justify-content: center; align-items: center; cursor: zoom-out; }
+        .lightbox.active { display: flex; }
+        .lightbox img { max-width: 90vw; max-height: 90vh; border-radius: 8px; box-shadow: 0 8px 32px rgba(0,0,0,0.4); }
+        .lightbox__close { position: absolute; top: 1rem; right: 1.5rem; background: none; border: none; color: #fff; font-size: 2rem; cursor: pointer; line-height: 1; }
+    </style>
+
+    <!-- three.js for the 3D viewer (loaded only when the viewer scrolls near) -->
+    <script type="importmap">
+    { "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+    } }
+    </script>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-61ZX5F590H"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-61ZX5F590H');
+    </script>
+    <!-- Google News Subscribe with Google -->
+    <script>
+      // Load Subscribe with Google after the page has rendered, so it stays off the critical path
+      window.addEventListener('load', function () {
+        setTimeout(function () {
+          var s = document.createElement('script');
+          s.async = true;
+          s.src = 'https://news.google.com/swg/js/v1/swg-basic.js';
+          document.head.appendChild(s);
+        }, 1500);
+      });
+    </script>
+    <script>
+      (self.SWG_BASIC = self.SWG_BASIC || []).push( basicSubscriptions => {
+        basicSubscriptions.init({
+          type: "NewsArticle",
+          isPartOfType: ["Product"],
+          isPartOfProductId: "CAowjt7FDA:openaccess",
+          clientOptions: { theme: "light", lang: "en" },
+        });
+      });
+    </script>
+</head>
+<body>
+
+    <header class="header" id="header">
+        <div class="header__inner">
+            <a href="../" class="header__logo"><span class="header__logo-img" role="img" aria-label="MONO"></span></a>
+            <nav class="header__nav" id="nav">
+                <a href="../index.html#home">Home</a>
+                <a href="../index.html#about">About</a>
+                <a href="../index.html#portfolio">Portfolio</a>
+                <a href="blog-page.html" class="active">Blog</a>
+                <div class="nav-dropdown" id="toolsDropdown">
+                    <button type="button" class="nav-dropdown__trigger">Tools <i class="fa-solid fa-chevron-down dd-chevron"></i></button>
+                    <div class="nav-dropdown__menu">
+                        <a href="/google-certified-devices.html"><i class="fa-solid fa-microchip"></i> Google Certified Devices</a>
+                        <a href="/travel-requests.html"><i class="fa-solid fa-plane-departure"></i> Travel Requests</a>
+                    </div>
+                </div>
+                <a href="../index.html#contact">Contact</a>
+                <button class="theme-toggle--mobile" id="themeToggleMobile" aria-label="Toggle dark mode">
+                    <i class="fa-solid fa-moon"></i><i class="fa-solid fa-sun"></i>
+                    <span class="theme-toggle--mobile__label">Dark Mode</span>
+                </button>
+            </nav>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                <i class="fa-solid fa-moon"></i><i class="fa-solid fa-sun"></i>
+            </button>
+            <button class="header__menu-btn" id="menuBtn" aria-label="Toggle menu">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <div class="article-hero"><img src="../images/homeview-stand/hero.webp" srcset="../images/homeview-stand/hero-800.webp 800w, ../images/homeview-stand/hero.webp 1600w" sizes="100vw" alt="iPad Air 2 hanging in front of a space gray HomePod on a 3D printed black collar and silver holder" width="1600" height="1067" fetchpriority="high" style="object-position: 50% 32%;"></div>
+
+<section class="section">
+    <div class="container" style="max-width: 800px;">
+        <nav class="article-breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a> &rsaquo; <a href="/blog/blog-page.html">Blog</a> &rsaquo; <span>HomePod and iPad HomeView Stand</span>
+        </nav>
+
+        <div class="article-header">
+            <div class="article-header__category">3D Printing</div>
+            <h1 class="article-header__title">Turning a HomePod and an iPad Air 2 Into an Apple HomeView</h1>
+            <div class="article-header__meta">18 October 2026 &bull; Manojit Ballav (Mono)</div>
+
+            <div class="key-takeaways">
+                <div class="key-takeaways__title">Key Takeaways</div>
+                <ul>
+                    <li>A 3D printed collar sits on a <strong>first generation HomePod</strong> and an <strong>iPad Air 2</strong> hangs from it in front, the way the HomeView screen sits on its speaker</li>
+                    <li>The hinge clicks into <strong>5 tilt positions</strong>, from 5&deg; to 25&deg;</li>
+                    <li><strong>No hardware.</strong> The bolt, the nut and the screws are all printed</li>
+                    <li>Every part prints <strong>without supports</strong> on a Bambu Lab X2D, in black, silver and white ABS</li>
+                    <li>You can turn the full design around in 3D below and try the tilt yourself</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="article-body">
+            <div class="callout-box" style="margin-bottom:2rem;">
+                <strong>Table of Contents</strong>
+                <ol style="margin:0.75rem 0 0;padding-left:1.2rem;line-height:1.9;">
+                    <li><a href="#why">Why I Built This</a></li>
+                    <li><a href="#first-attempts">The First Two Designs Did Not Work</a></li>
+                    <li><a href="#viewer">Try It in 3D</a></li>
+                    <li><a href="#collar">The Collar</a></li>
+                    <li><a href="#hinge">The Hinge and the Five Clicks</a></li>
+                    <li><a href="#holder">The iPad Holder and the Lower Lip</a></li>
+                    <li><a href="#printing">Parts and Print Settings</a></li>
+                    <li><a href="#limits">What It Does Not Do</a></li>
+                    <li><a href="#next">What Is Next</a></li>
+                    <li><a href="#faq">You Might Be Wondering</a></li>
+                    <li><a href="#references">Sources</a></li>
+                </ol>
+            </div>
+
+            <h2 id="why">Why I Built This</h2>
+            <p>Apple announced HomeView on 13 October. It is a 7 inch square screen sitting on a domed speaker, joined by a stainless steel hinge so you can tilt the screen. It costs $299 and comes to India on 13 November.<sup><a href="#ref-1">1</a>,<a href="#ref-2">2</a></sup></p>
+            <p>A few days later a former colleague from my Xiaomi days asked me if I could do something about it. He has a first generation HomePod and an iPad Air 2. If the iPad hangs in front of the HomePod at the right angle, you get more or less the same thing.</p>
+            <p>So I designed a stand for the same. I had a few rules for it:</p>
+            <ul class="list-style">
+                <li>It holds both devices and the pair should look like HomeView, not like an iPad propped next to a speaker</li>
+                <li>It prints on my Bambu Lab X2D, which has a 256 x 256 x 260 mm bed</li>
+                <li>No trip to the hardware store. Every part, including the screws, comes off the printer</li>
+            </ul>
+
+            <hr class="section-divider">
+
+            <h2 id="first-attempts">The First Two Designs Did Not Work</h2>
+            <p>The first version put the iPad above the HomePod, in portrait, on a spine rising from a domed base. It was 430 mm tall and looked like a tower. Nothing like HomeView.</p>
+            <p>The second version had a big domed base with the HomePod on it and the iPad sitting low in front. Honestly, it was useless. The position was wrong. On HomeView the screen hangs in front of the speaker, close to it, and that is the whole look.</p>
+            <p>That is when I dropped the base completely. The HomePod is 2.5 kg, heavy enough to be the base on its own. So the stand now starts at the top of the HomePod. A collar clips on, a short arm comes down in front, and the iPad hangs from a hinge on that arm, in landscape.</p>
+            <p>After that it was small changes. I moved the hinge to the centre of the plate that holds the iPad, so the iPad pivots around its middle. I also lifted the iPad a bit higher so the bottom edge floats above the table.</p>
+
+            <hr class="section-divider">
+
+            <h2 id="viewer">Try It in 3D</h2>
+            <p>This is the actual model, not a mockup. Drag to turn it around, click and scroll or pinch to zoom, and move the slider to tilt the iPad. Turn off the devices to see only the printed parts.</p>
+
+            <figure class="stand-viewer" id="standViewer" data-model="../models/homeview-stand.glb" data-screen="../images/homeview-stand/ipad-screen.webp">
+                <div class="stand-viewer__stage">
+                    <div class="stand-viewer__status">3D model loads as you scroll here</div>
+                    <div class="stand-viewer__hint">Drag to orbit &middot; click, then scroll to zoom</div>
+                </div>
+                <div class="stand-viewer__controls">
+                    <div class="stand-viewer__views" role="group" aria-label="Camera view">
+                        <button type="button" data-view="front" aria-pressed="true" disabled>Front</button>
+                        <button type="button" data-view="side" aria-pressed="false" disabled>Side</button>
+                        <button type="button" data-view="back" aria-pressed="false" disabled>Back</button>
+                        <button type="button" data-view="hinge" aria-pressed="false" disabled>Hinge</button>
+                    </div>
+                    <label class="stand-viewer__tilt">Tilt <input type="range" data-tilt min="5" max="25" step="5" value="10" disabled aria-label="iPad tilt in degrees"> <output data-tilt-val>10&deg;</output></label>
+                    <label class="stand-viewer__toggle"><input type="checkbox" data-devices checked disabled> HomePod and iPad</label>
+                </div>
+                <figcaption>Black ABS collar, silver ABS holder, bolt and screws, white ABS lower lip. The HomePod and iPad are modelled stand-ins, not scans.</figcaption>
+            </figure>
+            <noscript><p><em>The 3D viewer needs JavaScript. The renders below show the same design.</em></p></noscript>
+
+            <hr class="section-divider">
+
+            <h2 id="collar">The Collar</h2>
+            <p>The first cap I made wrapped over the top of the HomePod. The inside of that dome needs supports to print, and I did not want supports on any part.</p>
+            <p>So I trimmed it. It now stops 45&deg; up the HomePod's rounded shoulder, which makes it a collar instead of a cap. At 45&deg; every overhang prints on its own, and the touch controls on top stay fully open.</p>
+            <p>The collar has a skirt that goes 30 mm below the hinge, with a 45&deg; brace under the arm, again so it prints upright without supports. Inside there are 6 small dimples that press about 0.4 mm into the fabric and stop it from turning. The gap to the HomePod is 1 mm. If yours sits loose, a strip of thin felt inside fixes it.</p>
+
+            <div class="figure-pair">
+                <figure class="blog-figure">
+                    <img src="../images/homeview-stand/side_profile.webp" alt="Side view of the stand showing the collar, the arm and the iPad hanging in front of the HomePod" width="1200" height="800" loading="lazy">
+                    <figcaption>From the side. The iPad hangs in front and clears the table.</figcaption>
+                </figure>
+                <figure class="blog-figure">
+                    <img src="../images/homeview-stand/back.webp" alt="Back view of the stand showing the black collar on the HomePod and the silver holder behind the iPad" width="1200" height="800" loading="lazy">
+                    <figcaption>From the back. The collar leaves the touch controls open.</figcaption>
+                </figure>
+            </div>
+
+            <hr class="section-divider">
+
+            <h2 id="hinge">The Hinge and the Five Clicks</h2>
+            <p>I was a bit concerned about the hinge. A simple friction hinge works on day one, and then a few weeks later the iPad slowly nods forward. I wanted the user to be able to set an angle and trust it, in at least 5 stages.</p>
+            <p>So the collar has a thin flexible leaf on each side of the hinge, with a small bump on it. The holder has a matching dimple for every position. As you tilt the iPad, the bump clicks into the next dimple. There are 5 of them, at 5&deg;, 10&deg;, 15&deg;, 20&deg; and 25&deg; of lean back. 10&deg; is the default.</p>
+            <p>The hinge itself is an M8 bolt with a thumb knob and a nut, both printed. Print the bolt standing on its knob, and press the nut into the hex pocket on the right side. Tighten the knob just enough to take out the play. The clicks do the holding, not the bolt.</p>
+
+            <figure class="blog-figure">
+                <img src="../images/homeview-stand/hinge_knob.webp" alt="Close up of the printed thumb knob bolt at the hinge between the collar arm and the iPad holder" width="1200" height="800" loading="lazy">
+                <figcaption>The printed M8 thumb knob at the hinge.</figcaption>
+            </figure>
+
+            <hr class="section-divider">
+
+            <h2 id="holder">The iPad Holder and the Lower Lip</h2>
+            <p>Printing the iPad holder is the hard part. It is a 200 x 164 mm plate with a shelf and a lip at the bottom, and that lip is an overhang whichever way you put it on the bed.</p>
+            <p>The fix was to stop fighting it. The holder prints flat on its front face. The lower lip, the bar the iPad stands on, is a separate part that prints standing on its shelf. It slides up under the holder and gets fixed with 3 printed M6 screws from the back. A coin or a flat screwdriver is enough.</p>
+            <p>I prefer screws over glue or snap fits here. If the lip breaks or I want a different one, I can swap it in a minute.</p>
+            <p>The iPad goes in landscape with the Home button on the right. The Lightning cable comes out on the right side, so it can run down behind the HomePod.</p>
+
+            <figure class="blog-figure">
+                <img src="../images/homeview-stand/lip_detail.webp" alt="Close up of the white lower lip holding the bottom edge of the iPad" width="1200" height="800" loading="lazy">
+                <figcaption>The white lower lip, screwed to the silver holder.</figcaption>
+            </figure>
+
+            <hr class="section-divider">
+
+            <h2 id="printing">Parts and Print Settings</h2>
+            <p>There are 6 different parts and 8 prints in total. Sizes are in mm.</p>
+            <div class="table-scroll">
+                <table class="spec-table">
+                    <thead><tr><th>Part</th><th>Size (mm)</th><th>Colour</th><th>How to print</th></tr></thead>
+                    <tbody>
+                        <tr><td>Collar</td><td>150 x 170.5 x 61.1</td><td>Black ABS</td><td>Upright, no supports</td></tr>
+                        <tr><td>iPad holder</td><td>200 x 164 x 28.8</td><td>Silver ABS</td><td>Flat on its front face</td></tr>
+                        <tr><td>Lower lip</td><td>176 x 18.4 x 20.2</td><td>White ABS</td><td>Standing on its shelf</td></tr>
+                        <tr><td>Lip screws, M6 (print 3)</td><td>11 x 11 x 11.7</td><td>Silver ABS</td><td>Head down</td></tr>
+                        <tr><td>Hinge bolt, M8</td><td>20 x 20 x 58.1</td><td>Silver ABS</td><td>Standing on the knob</td></tr>
+                        <tr><td>Nut</td><td>15 x 13 x 6</td><td>Silver ABS</td><td>Flat</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>ABS needs the X2D's enclosure closed. Keep part cooling low, use a brim on the big parts, and turn on shrinkage compensation in Bambu Studio if your profile has it. ABS shrinks about 0.6%, which is why the collar has a 1 mm gap and parts that fit together have about 0.2 mm on each side.</p>
+            <p>The whole model is a Blender Python script with every size as a number at the top. That is also how the renders and the 3D viewer on this page are made, straight from the same file.</p>
+
+            <hr class="section-divider">
+
+            <h2 id="limits">What It Does Not Do</h2>
+            <p>This gets the look, not the product. I want to be clear about that.</p>
+            <ul class="list-style">
+                <li>HomeView runs Apple's new home software, recognises up to 6 people and changes what it shows based on how far away you are.<sup><a href="#ref-1">1</a></sup> The iPad Air 2 tops out at iPadOS 15. It runs the Home app or a dashboard page, and that is it</li>
+                <li>The HomeView screen is 7 inch and square. The iPad Air 2 is 9.7 inch and 4:3, so mine is a bigger screen on a smaller speaker</li>
+                <li>HomeView is one device. Here they are still two, with two cables</li>
+            </ul>
+            <p>For two devices that are already sitting at home, that is a fair trade.</p>
+
+            <hr class="section-divider">
+
+            <h2 id="next">What Is Next</h2>
+            <p>The design is done and the renders on this page come from it, but I have not printed it yet. The first print is next, and then it goes to its new home. I want to check three things: whether the collar grips the fabric without felt, how the clicks feel after a few hundred tilts, and whether the holder warps when printed flat.</p>
+            <p>I will update this post with photos of the real print. If you have a first generation HomePod and want the files, tell me on <a href="https://x.com/manojitballav" target="_blank" rel="noopener">X</a> or <a href="https://www.linkedin.com/in/manojitballav/" target="_blank" rel="noopener">LinkedIn</a>.</p>
+
+            <hr class="section-divider">
+
+            <h2 id="faq">You Might Be Wondering</h2>
+            <div class="faq-item">
+                <h3>Does this stand turn an iPad and HomePod into a real Apple HomeView?</h3>
+                <p>No. It only gets the look and the placement. HomeView runs Apple's new home software, recognises faces and has its own speaker. Here the iPad runs the Home app or a dashboard page, and the HomePod plays audio as it always did.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Do I need any screws or hardware to build it?</h3>
+                <p>No. The M8 hinge bolt with its thumb knob, the nut and the three M6 screws for the lower lip are all printed. You need a coin or a flat screwdriver to tighten the lip screws.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Will the HomePod tip over with an iPad hanging in front of it?</h3>
+                <p>On paper, no. The first generation HomePod weighs 2.5 kg and the iPad Air 2 about 440 g, and the hinge sits close to the HomePod, so the HomePod works as the base. I will confirm this once the first print is done.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Can I use it with a HomePod 2 or a newer iPad?</h3>
+                <p>Not as it is. The collar is sized for the first generation HomePod and the holder for the iPad Air 2 at 240 x 169.5 x 6.1 mm. The design is parametric, so other sizes are a change of a few numbers, but each one needs a test print.</p>
+            </div>
+
+            <div class="callout-box">
+                <strong>Related Reading:</strong> <a href="blog-wireless-hdmi.html">Inside a Wireless HDMI System</a>, on engineering a hardware product end to end.
+            </div>
+
+            <hr class="section-divider">
+
+            <!-- Image Credits -->
+            <p class="image-credits" style="margin-top:2rem;font-size:0.85rem;color:var(--text-secondary, #666);line-height:1.7;">
+                <strong>Image Credits</strong><br>
+                All renders and the 3D model are my own, rendered in Blender Cycles. These are concept renders. The HomePod and iPad are modelled approximations, not the real devices.
+            </p>
+
+            <!-- References -->
+            <h2 id="references" style="margin-top:3rem;">Sources</h2>
+            <ol style="font-size:0.9rem;line-height:1.9;padding-left:1.2rem;">
+                <li id="ref-1">"Apple unveils new HomeView smart display." 9to5Mac, 13 October 2026. <a href="https://9to5mac.com/2026/10/13/apple-homeview-announced-features-price-release-date/" target="_blank" rel="noopener">9to5Mac</a></li>
+                <li id="ref-2">"Apple HomeView: Everything We Know." MacRumors. <a href="https://www.macrumors.com/roundup/apple-homeview/" target="_blank" rel="noopener">MacRumors</a></li>
+            </ol>
+        </div>
+    </div>
+</section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox__close" aria-label="Close">&times;</button>
+        <img src="" alt="">
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__text">&copy; 2026 Manojit Ballav. Content licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.</div>
+                <div class="footer__links">
+                    <a href="https://www.linkedin.com/in/manojitballav/" target="_blank" rel="noopener">LinkedIn</a>
+                    <a href="https://x.com/manojitballav" target="_blank" rel="noopener">X</a>
+                    <a href="https://github.com/manojitballav" target="_blank" rel="noopener">GitHub</a>
+                    <a href="../privacy-policy.html">Privacy</a>
+                    <a href="../terms-of-service.html">Terms</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => { header.classList.toggle('header--scrolled', window.scrollY > 10); });
+        const menuBtn = document.getElementById('menuBtn');
+        const nav = document.getElementById('nav');
+        menuBtn.addEventListener('click', () => {
+            nav.classList.toggle('open');
+            const isOpen = nav.classList.contains('open');
+            menuBtn.innerHTML = isOpen
+                ? '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="6" y1="6" x2="18" y2="18"/><line x1="6" y1="18" x2="18" y2="6"/></svg>'
+                : '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>';
+        });
+        nav.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                nav.classList.remove('open');
+                menuBtn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>';
+            });
+        });
+        const themeToggle = document.getElementById('themeToggle');
+        const themeToggleMobile = document.getElementById('themeToggleMobile');
+        const mobileLabel = themeToggleMobile.querySelector('.theme-toggle--mobile__label');
+        const root = document.documentElement;
+        function updateMobileLabel() {
+            const isDark = root.getAttribute('data-theme') === 'dark';
+            mobileLabel.textContent = isDark ? 'Light Mode' : 'Dark Mode';
+        }
+        function setTheme(theme) {
+            root.setAttribute('data-theme', theme);
+            localStorage.setItem('theme', theme);
+            updateMobileLabel();
+        }
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) { setTheme(savedTheme); }
+        else if (window.matchMedia('(prefers-color-scheme: dark)').matches) { setTheme('dark'); }
+        updateMobileLabel();
+        themeToggle.addEventListener('click', () => {
+            const current = root.getAttribute('data-theme');
+            setTheme(current === 'dark' ? 'light' : 'dark');
+        });
+        themeToggleMobile.addEventListener('click', () => {
+            const current = root.getAttribute('data-theme');
+            setTheme(current === 'dark' ? 'light' : 'dark');
+        });
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+            if (!localStorage.getItem('theme')) { setTheme(e.matches ? 'dark' : 'light'); }
+        });
+
+        // Lightbox
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = lightbox.querySelector('img');
+        document.querySelectorAll('.blog-figure img').forEach(img => {
+            img.addEventListener('click', () => {
+                lightboxImg.src = img.src;
+                lightboxImg.alt = img.alt;
+                lightbox.classList.add('active');
+                document.body.style.overflow = 'hidden';
+            });
+        });
+        lightbox.addEventListener('click', () => {
+            lightbox.classList.remove('active');
+            document.body.style.overflow = '';
+        });
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+                lightbox.classList.remove('active');
+                document.body.style.overflow = '';
+            }
+        });
+    </script>
+
+    <script type="module" src="../js/stand-viewer.js"></script>
+</body>
+</html>
