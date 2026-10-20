@@ -33111,6 +33111,7 @@ Overmax
 	OV10273G	=	=	0
 	OV10274G	=	=	0
 Ovion
+	N50_Pro	=	=	0
 	V11_Lite_TR	V11_Lite	V11 Lite	0
 	V15_LITE	=	=	0
 	V20_PRO_TR	V20_PRO	V20 PRO	0
@@ -34531,6 +34532,7 @@ Plimpton
 	Kids20_EEA	=	Kids20	0
 	Kids20_PA15	=	=	0
 	Kids20_PA15_EEA	=	=	0
+	Kids30_A16_JAE	=	=	0
 	Kids_10	=	=	0
 	Kids_10_EEA	=	Kids 10	0
 	Kids_10_ver13	=	Kids 10	0
@@ -39366,6 +39368,7 @@ Samsung
 	Galaxy F56 5G	m56x	SM-E566B	0
 	Galaxy F62	f62	SM-E625F	0
 	Galaxy F70 5G	a17x	SM-E176E	0
+	Galaxy F70 Pro 5G	m47xq	SM-E476B	0
 	Galaxy F70e 5G	a07x	SM-E076B	0
 	Galaxy Fame	SCH-I629	=	0
 	Galaxy Fame	nevis	GT-S6810	0
@@ -39808,6 +39811,7 @@ Samsung
 	Galaxy M36 5G	m36x	SM-M366B	0
 	Galaxy M40	m40	SM-M405F	0
 	Galaxy M42 5G	a42xq	SM-M426B	0
+	Galaxy M47 5G	m47xq	SM-M476B	0
 	Galaxy M51	m51	SM-M515F	0
 	Galaxy M52 5G	m52xq	SM-M526B	0
 	Galaxy M52 5G	m52xq	SM-M526BR	0
@@ -49231,6 +49235,7 @@ Ulefone
 	Armor X16	GQ5020TH1P19	~	0
 	Armor X16 Pro	GQ5020BH1	~	0
 	Armor X17 Pro	GQ3133TH1	Armor X17 Ultra	0
+	Armor X17 Ultra	GQ3133TH3	Armor X17 Pro	0
 	Armor X2	Armor_X2	=	0
 	Armor X31	GQ5015RH1	~	0
 	Armor X31 Pro	GQ5015AH1	~	0
@@ -49688,6 +49693,7 @@ UnionTek
 	S65	=	=	0
 	S65L	S651	~	0
 	S65L	=	=	0
+	T80	T800	~	0
 Unionaire
 	Africa	nippori	Unionaire Android TV 2K	2
 	UnionaireATV4K	hanyang	Unionaire Android TV	2
@@ -57184,6 +57190,7 @@ onn.
 	PK76A	=	=	0
 	PM1042T-W	=	=	0
 	PM1042TW	=	=	0
+	PM108AK	=	=	0
 	PM116T	=	=	0
 	PM116T_LTE	=	=	0
 	PM82T	=	=	0

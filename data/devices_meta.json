@@ -1,120 +1,48 @@
 {
-  "lastUpdated": "2026-10-18",
-  "newDevicesCount": 19,
+  "lastUpdated": "2026-10-20",
+  "newDevicesCount": 7,
   "newDevices": [
     [
-      "Bluefin",
-      "BP76A16",
-      "BP76A16",
-      "BP76A16"
+      "Ovion",
+      "N50_Pro",
+      "N50_Pro",
+      "N50_Pro"
     ],
     [
-      "DABLIU",
-      "T50PV_16R",
-      "T50PV_16R",
-      "T50PV_16R"
+      "Plimpton",
+      "Kids30_A16_JAE",
+      "Kids30_A16_JAE",
+      "Kids30_A16_JAE"
     ],
     [
-      "Dghrti",
-      "TAB30_U",
-      "TAB30_U",
-      "TAB30_U"
+      "Samsung",
+      "Galaxy F70 Pro 5G",
+      "m47xq",
+      "SM-E476B"
     ],
     [
-      "Hisense",
-      "Goboard Series",
-      "mohe",
-      "HIDB 4K"
+      "Samsung",
+      "Galaxy M47 5G",
+      "m47xq",
+      "SM-M476B"
     ],
     [
-      "Hyundai",
-      "HT10WC1MSG03",
-      "HT10WC1MSG03",
-      "10WC1"
+      "Ulefone",
+      "Armor X17 Ultra",
+      "GQ3133TH3",
+      "Armor X17 Pro"
     ],
     [
-      "Janam",
-      "HT2",
-      "HT2",
-      "HT2"
+      "UnionTek",
+      "T80",
+      "T800",
+      "T80"
     ],
     [
-      "Phone Max",
-      "T11_EEA",
-      "T11",
-      "T11"
-    ],
-    [
-      "SKYEGG",
-      "K13_C",
-      "K13_C",
-      "K13_C"
-    ],
-    [
-      "SKYEGG",
-      "K16_U",
-      "K16_U",
-      "K16_U"
-    ],
-    [
-      "SUAAT",
-      "S3_U",
-      "S3_U",
-      "S3_U"
-    ],
-    [
-      "SUAAT",
-      "Z138_C",
-      "Z138_C",
-      "Z138_C"
-    ],
-    [
-      "T-SOURCE",
-      "T19_Plus",
-      "T19_Plus",
-      "Smarti Gen 3"
-    ],
-    [
-      "T-SOURCE",
-      "T19_Plus",
-      "T19_Plus",
-      "T19_Plus"
-    ],
-    [
-      "TAPC",
-      "TM1062",
-      "TM1062",
-      "TM1062"
-    ],
-    [
-      "UJJ(SZ)",
-      "U6_C",
-      "U6_C",
-      "U6_C"
-    ],
-    [
-      "unitel",
-      "SMART_4G_III",
-      "SMART_4G_III",
-      "Unitel Smart III 4G SP160A"
-    ],
-    [
-      "vivo",
-      "X500 Pro Max",
-      "V2610",
-      "V2610"
-    ],
-    [
-      "vivo",
-      "X500 Pro",
-      "V2621",
-      "V2621"
-    ],
-    [
-      "vivo",
-      "X500 Pro",
-      "V2621",
-      "V2622"
+      "onn.",
+      "PM108AK",
+      "PM108AK",
+      "PM108AK"
     ]
   ]
 }
