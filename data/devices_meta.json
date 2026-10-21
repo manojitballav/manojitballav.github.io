@@ -1,48 +1,114 @@
 {
-  "lastUpdated": "2026-10-20",
-  "newDevicesCount": 7,
+  "lastUpdated": "2026-10-21",
+  "newDevicesCount": 18,
   "newDevices": [
     [
-      "Ovion",
-      "N50_Pro",
-      "N50_Pro",
-      "N50_Pro"
+      "Aiwa",
+      "JA6-TBA1202",
+      "JA6-TBA1202",
+      "JA6-TBA1202"
     ],
     [
-      "Plimpton",
-      "Kids30_A16_JAE",
-      "Kids30_A16_JAE",
-      "Kids30_A16_JAE"
+      "DAMASCO",
+      "MC400",
+      "MC400",
+      "MC400"
     ],
     [
-      "Samsung",
-      "Galaxy F70 Pro 5G",
-      "m47xq",
-      "SM-E476B"
+      "DEERTiME",
+      "E11_U",
+      "E11_U",
+      "E11_U"
     ],
     [
-      "Samsung",
-      "Galaxy M47 5G",
-      "m47xq",
-      "SM-M476B"
+      "ECOPAD",
+      "A30L1_US",
+      "A30L1",
+      "E30-A"
+    ],
+    [
+      "LAGENIO",
+      "Rhino_2_EEA",
+      "Rhino_2",
+      "Rhino 2"
+    ],
+    [
+      "Lava",
+      "Virat Curve 5G",
+      "LXX529",
+      "LAVA LXX529"
+    ],
+    [
+      "SUAAT",
+      "S11_U",
+      "S11_U",
+      "S11_U"
+    ],
+    [
+      "Topwise",
+      "SK210S",
+      "SK210S",
+      "SK210S"
     ],
     [
       "Ulefone",
-      "Armor X17 Ultra",
+      "Armor X17 Pro",
       "GQ3133TH3",
       "Armor X17 Pro"
     ],
     [
-      "UnionTek",
-      "T80",
-      "T800",
-      "T80"
+      "Wpawa",
+      "HT10_Plus_A17",
+      "HT10_Plus_A17",
+      "HT10_Plus_A17"
     ],
     [
-      "onn.",
-      "PM108AK",
-      "PM108AK",
-      "PM108AK"
+      "XATOM",
+      "TANK",
+      "XATOM_TANK",
+      "TANK"
+    ],
+    [
+      "XGIMI",
+      "AURA 3 Max",
+      "kasol",
+      "XP06B"
+    ],
+    [
+      "XGIMI",
+      "AURA 3 Pro",
+      "kasol",
+      "XP04B"
+    ],
+    [
+      "XGIMI",
+      "HORIZON 30 Max",
+      "kasol",
+      "XR18A"
+    ],
+    [
+      "XGIMI",
+      "HORIZON 30 Pro",
+      "kasol",
+      "XR17A"
+    ],
+    [
+      "XGIMI",
+      "HORIZON 30 Ultra Max",
+      "kasol",
+      "XR19A"
+    ],
+    [
+      "fezawio",
+      "F11_U_US",
+      "F11_U_US",
+      "F11_U"
+    ],
+    [
+      "fezawio",
+      "F11_U_US",
+      "F11_U_US",
+      "F11_U_US"
     ]
   ]
 }

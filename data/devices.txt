@@ -1628,6 +1628,7 @@ Aiwa
 	JA5-TBA1102	=	=	0
 	JA5-TBA1201	=	=	0
 	JA6-TBA1103	=	=	0
+	JA6-TBA1202	=	=	0
 	R3	=	=	0
 	R4	=	=	0
 	Smart TV	alimos	AI PONT	2
@@ -8370,6 +8371,7 @@ DAIYU
 DAMASCO
 	DAMASCO	dawu	4K SMART TV	2
 	DAMASCO MOBILE SERIE M-300 VISION	SERIE_M_300	=	0
+	MC400	=	=	0
 	SERIE_M_100	=	=	0
 	SERIE_M_200	=	=	0
 	T8620-6	=	=	0
@@ -8406,6 +8408,7 @@ DEERTiME
 	E10_US	=	=	0
 	E11_E	=	=	0
 	E11_EEA	=	=	0
+	E11_U	=	=	0
 	E11_US	=	=	0
 	E15_E	=	=	0
 	E15_EEA	=	=	0
@@ -10318,6 +10321,7 @@ ECOPAD
 	A30L1_EEA	A30L1	=	0
 	A30L1_US	A30L1	=	0
 	A30L1_US	A30L1	A30L2	0
+	A30L1_US	A30L1	E30-A	0
 	A30Pro_A	=	=	0
 	A30Pro_A_EEA	A30Pro_A	=	0
 	A30Pro_A_US	A30Pro_A	~	0
@@ -22521,6 +22525,7 @@ LAGENIO
 	Panther2_EEA	Panther2	=	0
 	Panther2_Pro_EEA	Panther2_Pro	Panther2 Pro	0
 	Rhino 1 Pro	Rhino_1_Pro	~	0
+	Rhino_2_EEA	Rhino_2	Rhino 2	0
 LAMINA
 	LTT8A4G_EEA	=	LTT8A4G	0
 LAMZIEN
@@ -24527,6 +24532,7 @@ Lava
 	V7 Prime	LE9940	LAVA LE9940	0
 	V7s Prime	LE9940_W	LAVA LE9940_W	0
 	V8	LE9910	=	0
+	Virat Curve 5G	LXX529	LAVA LXX529	0
 	X10	=	LavaX10	0
 	X10	=	=	0
 	X11	=	=	0
@@ -38184,6 +38190,7 @@ SUAAT
 	S10_V_EEA	=	=	0
 	S10_V_US	=	=	0
 	S11_E	=	=	0
+	S11_U	=	=	0
 	S11_V_EEA	=	=	0
 	S11_V_US	=	=	0
 	S3_E	=	=	0
@@ -48685,6 +48692,7 @@ Topsand
 Topwise
 	SK-315	=	=	0
 	SK210	=	=	0
+	SK210S	=	=	0
 	SK315	=	=	0
 Torex
 	Rugged_tablets	Torex8plus	=	0
@@ -49235,6 +49243,7 @@ Ulefone
 	Armor X16	GQ5020TH1P19	~	0
 	Armor X16 Pro	GQ5020BH1	~	0
 	Armor X17 Pro	GQ3133TH1	Armor X17 Ultra	0
+	Armor X17 Pro	GQ3133TH3	~	0
 	Armor X17 Ultra	GQ3133TH3	Armor X17 Pro	0
 	Armor X2	Armor_X2	=	0
 	Armor X31	GQ5015RH1	~	0
@@ -52771,6 +52780,7 @@ Wpawa
 	HT10-AB	=	HT10-PRO	0
 	HT10-PRO	=	=	0
 	HT10_Plus	=	=	0
+	HT10_Plus_A17	=	=	0
 	HT10_Ultra	=	=	0
 X-Age
 	A1	=	=	0
@@ -52887,6 +52897,8 @@ X-mobile
 	X4	=	=	0
 	X63Pro	X_63_B_ProB	~	0
 	XW	=	=	0
+XATOM
+	TANK	XATOM_TANK	~	0
 XB(TABLETS INDIA)
 	XB-T11i	=	=	0
 XD-DML
@@ -52906,12 +52918,17 @@ XForge
 	XForge 01	XForge01	~	0
 XGIMI
 	AURA 2 (New)	kasol	WM18P	4
+	AURA 3 Max	kasol	XP06B	4
+	AURA 3 Pro	kasol	XP04B	4
 	Elfin Flip 4K	munnar	XM03U	4
 	Elfin Flip Laser	karjat	WM03R	4
 	Elfin Flip Plus	altai	WK03C	4
 	HORIZON 20	kasol	XR13A	4
 	HORIZON 20 Max	kasol	XR16A	4
 	HORIZON 20 Pro	kasol	XR14A	4
+	HORIZON 30 Max	kasol	XR18A	4
+	HORIZON 30 Pro	kasol	XR17A	4
+	HORIZON 30 Ultra Max	kasol	XR19A	4
 	Halo	xgimiapollo	~	4
 	Halo+	altai	H0030	4
 	MIRA	kasol	XP03C	4
@@ -56364,6 +56381,8 @@ fezawio
 	F10_US	=	=	0
 	F11_EEA	=	=	0
 	F11_US	=	=	0
+	F11_U_US	=	F11_U	0
+	F11_U_US	=	=	0
 	F11_V_EEA	=	=	0
 	F11_V_US	=	=	0
 	F12_EEA	=	=	0
