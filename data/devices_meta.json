@@ -1,114 +1,126 @@
 {
-  "lastUpdated": "2026-10-21",
-  "newDevicesCount": 18,
+  "lastUpdated": "2026-10-22",
+  "newDevicesCount": 20,
   "newDevices": [
     [
-      "Aiwa",
-      "JA6-TBA1202",
-      "JA6-TBA1202",
-      "JA6-TBA1202"
+      "AIOAPPInc",
+      "TSAI",
+      "T7",
+      "T7"
     ],
     [
-      "DAMASCO",
-      "MC400",
-      "MC400",
-      "MC400"
+      "ETELPREMIUM",
+      "ETEL P67",
+      "ETEL_P67",
+      "ETEL_P67"
     ],
     [
-      "DEERTiME",
-      "E11_U",
-      "E11_U",
-      "E11_U"
+      "FOAL",
+      "F18_Pro",
+      "F18_Pro",
+      "F18 Pro"
     ],
     [
-      "ECOPAD",
-      "A30L1_US",
-      "A30L1",
-      "E30-A"
+      "Franko",
+      "Franko F07",
+      "Franko_F07",
+      "F07"
     ],
     [
-      "LAGENIO",
-      "Rhino_2_EEA",
-      "Rhino_2",
-      "Rhino 2"
+      "Hyundai",
+      "HYUNDAI",
+      "nishijin",
+      "HYUNDAI Super TV"
     ],
     [
-      "Lava",
-      "Virat Curve 5G",
-      "LXX529",
-      "LAVA LXX529"
+      "Lesia",
+      "BRIGHT_18",
+      "BRIGHT_18",
+      "BRIGHT_18"
     ],
     [
-      "SUAAT",
-      "S11_U",
-      "S11_U",
-      "S11_U"
+      "MTC",
+      "JAHANVINESH",
+      "maniatika",
+      "JAHAN VINESH 4K"
     ],
     [
-      "Topwise",
-      "SK210S",
-      "SK210S",
-      "SK210S"
+      "MTC",
+      "STARGOLD",
+      "dongmae",
+      "STARGOLD 2KTV"
     ],
     [
-      "Ulefone",
-      "Armor X17 Pro",
-      "GQ3133TH3",
-      "Armor X17 Pro"
+      "MTC",
+      "STARGOLD",
+      "maniatika",
+      "STARGOLD 4K UHDTV"
     ],
     [
-      "Wpawa",
-      "HT10_Plus_A17",
-      "HT10_Plus_A17",
-      "HT10_Plus_A17"
+      "MYCOM",
+      "COMEK_Tab_Joy_10",
+      "COMEK_Tab_Joy_10",
+      "COMEK Tab Joy 10"
     ],
     [
-      "XATOM",
-      "TANK",
-      "XATOM_TANK",
-      "TANK"
+      "ORION",
+      "ORION",
+      "dongmae",
+      "ORION 2KTV"
     ],
     [
-      "XGIMI",
-      "AURA 3 Max",
-      "kasol",
-      "XP06B"
+      "Olive Oil",
+      "Olive",
+      "maniatika",
+      "Olive 4K UHDTV"
     ],
     [
-      "XGIMI",
-      "AURA 3 Pro",
-      "kasol",
-      "XP04B"
+      "Samsung",
+      "Galaxy A03s",
+      "a03su",
+      "SM-S135DL"
     ],
     [
-      "XGIMI",
-      "HORIZON 30 Max",
-      "kasol",
-      "XR18A"
+      "Samsung",
+      "Galaxy Jump",
+      "a32x",
+      "SM-A326K"
     ],
     [
-      "XGIMI",
-      "HORIZON 30 Pro",
-      "kasol",
-      "XR17A"
+      "Samsung",
+      "Galaxy Tab Active4 Pro",
+      "gtact4prowifi",
+      "SM-T630"
     ],
     [
-      "XGIMI",
-      "HORIZON 30 Ultra Max",
-      "kasol",
-      "XR19A"
+      "Samsung",
+      "SmartThings Home Tablet",
+      "gthhwifi",
+      "SM-T270"
     ],
     [
-      "fezawio",
-      "F11_U_US",
-      "F11_U_US",
-      "F11_U"
+      "Samsung",
+      "心系天下 三星 W24 Flip",
+      "e5q",
+      "SM-W7024"
     ],
     [
-      "fezawio",
-      "F11_U_US",
-      "F11_U_US",
-      "F11_U_US"
+      "Samsung",
+      "心系天下 三星 W24",
+      "v5q",
+      "SM-W9024"
+    ],
+    [
+      "iHunt",
+      "S27_Ultra",
+      "S27_Ultra",
+      "S27 Ultra"
+    ],
+    [
+      "iRiver",
+      "Iriver",
+      "shilin",
+      "Iriver4KAndroidTV"
     ]
   ]
 }

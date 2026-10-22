@@ -292,6 +292,8 @@ AIDATA
 	ADT1061	=	=	0
 	ADT1061_1	=	=	0
 	ADT_1061	=	=	0
+AIOAPPInc
+	TSAI	T7	=	0
 AIPLUS
 	AI+ Nova 1 5G	Nova_1_5G	~	0
 	AI+ Nova 2 5G	Nova_2_5G	~	0
@@ -10629,6 +10631,7 @@ ETELPREMIUM
 	ETEL P29	ETEL_P29	~	0
 	ETEL P65	ETEL-P65	=	0
 	ETEL P66	ETEL-P66	=	0
+	ETEL P67	ETEL_P67	=	0
 	ETEL_P69	=	=	0
 	Etel P64	Etel_P64	=	0
 	Etel P64 Ultra	Etel_P64	~	0
@@ -11635,6 +11638,8 @@ FLYCOAY
 FMC
 	Digital Experience	belford	Infotainment-system	6
 	Digital Experience	belford	SYNC	0
+FOAL
+	F18_Pro	=	F18 Pro	0
 FOLG
 	FOLG_GT_10	=	FOLG GT 10	0
 	FOLG_Tab_10s	=	S20	0
@@ -12207,6 +12212,7 @@ Foxtel
 Franko
 	Franko A01	Franko_A01	H6733	0
 	Franko A03	Franko_A03	H6573	0
+	Franko F07	Franko_F07	F07	0
 Free
 	Free_Liberty_Plus	=	=	0
 	Liberty	=	=	0
@@ -18771,6 +18777,7 @@ Hyundai
 	HYUNDAI	lavender	HYUNDAI 4K SMART TV	2
 	HYUNDAI	mountbaker	2K SMART TV	2
 	HYUNDAI	mountbaker	HYUNDAI 2K SMART TV	2
+	HYUNDAI	nishijin	HYUNDAI Super TV	2
 	HYUNDAI	stanford	2K SMART TV	2
 	HYUNDAI	templeton	4K SMART TV	2
 	HYUNDAI	templeton	EcoTV Ultra	0
@@ -25639,6 +25646,7 @@ Lephone
 	lephone_P2Plus	=	lephone P2Plus	0
 	lephone_W10b	=	lephone_W10	0
 Lesia
+	BRIGHT_18	=	=	0
 	BRIGHT_20	=	BRIGHT 20	0
 	BRIGHT_3	=	BRIGHT 3	0
 	BRIGHT_6	=	BRIGHT 6	0
@@ -26575,6 +26583,7 @@ MTC
 	Hansung	shilin	Hansung4KAndroidTV	0
 	Infiniton	bangbae	Infiniton 4K Android TV	2
 	Infiniton	komagome	Infiniton 2K Android TV	2
+	JAHANVINESH	maniatika	JAHAN VINESH 4K	0
 	JVC	shilin	JVC TV Ultra	2
 	JVC	shilin	JVC US 4K Android TV	2
 	KIVI	shilin	KIVI 4K Android TV	2
@@ -26588,6 +26597,8 @@ MTC
 	Osmartphona	=	=	0
 	Osmartphona Tablet	Osmartphona_Tablet	~	1
 	S4000-C0C10	S4000	~	0
+	STARGOLD	dongmae	STARGOLD 2KTV	0
+	STARGOLD	maniatika	STARGOLD 4K UHDTV	0
 	Sansui	shilin	SANSUI4KAndroidTV	0
 	SmartEver	seocho	SmartEver 4K Android TV	2
 	SmartEver	shilin	SmartEver4KAndroidTV	0
@@ -26676,6 +26687,7 @@ MYCOM
 	COMEK_Smart20	=	=	0
 	COMEK_Tab_10	=	COMEK Tab 10	1
 	COMEK_Tab_20	=	COMEK Tab 20	1
+	COMEK_Tab_Joy_10	=	COMEK Tab Joy 10	1
 	COMEK_Tab_Joy_20	=	COMEK Tab Joy 20	1
 	COMEK_Tab_K	=	COMEK Tab K	1
 	COMEK_Tab_K	=	COMEK Tab K10	1
@@ -31270,6 +31282,7 @@ ORCATAB
 	ORCATAB_WT3_Pro	=	WT3 Pro	0
 ORION
 	Doshisha 2K Smart TV	umeda	~	2
+	ORION	dongmae	ORION 2KTV	2
 	ORION	elliniko	ORION SMART TV	2
 	ORION	templeton	ORION SMART TV	2
 	Smart TV	longshan	AI PONT	2
@@ -31466,6 +31479,7 @@ Olimpo
 	R4_GTV	=	R4G	0
 Olive Oil
 	CT4	octopus-ct4	Octopus A83 CT4	0
+	Olive	maniatika	Olive 4K UHDTV	0
 	OliveOil Model 3	wecct3	CT3	0
 Olivetti
 	FORM300	=	=	0
@@ -38612,6 +38626,7 @@ Samsung
 	Galaxy A03s	a03su	SM-A037U1	0
 	Galaxy A03s	a03su	SM-A037W	0
 	Galaxy A03s	a03su	SM-S134DL	0
+	Galaxy A03s	a03su	SM-S135DL	0
 	Galaxy A04	a04	SM-A045F	0
 	Galaxy A04	a04	SM-A045M	0
 	Galaxy A04e	a04e	SM-A042F	0
@@ -39741,6 +39756,7 @@ Samsung
 	Galaxy J8	j8y18lte	SM-J810Y	0
 	Galaxy Jean	a6pltektt	SM-A605K	0
 	Galaxy Jean2	a20e	SM-A202K	0
+	Galaxy Jump	a32x	SM-A326K	0
 	Galaxy Jump2	m33x	SM-M336K	0
 	Galaxy Jump3	m44x	SM-M446K	0
 	Galaxy Jump4	m36x	SM-M366K	0
@@ -41124,6 +41140,7 @@ Samsung
 	Galaxy Tab Active3	gtactive3	SM-T575N	1
 	Galaxy Tab Active3	gtactive3	SM-T577	1
 	Galaxy Tab Active3	gtactive3	SM-T577U	1
+	Galaxy Tab Active4 Pro	gtact4prowifi	SM-T630	1
 	Galaxy Tab Active4 Pro 5G	gtact4pro	SM-T636B	1
 	Galaxy Tab Active4 Pro 5G	gtact4pro	SM-T636N	1
 	Galaxy Tab Active4 Pro 5G	gtact4pro	SM-T638B	1
@@ -41902,6 +41919,7 @@ Samsung
 	Samsung Interactive Display	SAMSUNG_INTERACTIVE_DISPLAY	WA86D	0
 	Samsung WAF	SAMSUNG_INTERACTIVE_DISPLAY	WAF	0
 	Sidekick	SGH-T839	=	0
+	SmartThings Home Tablet	gthhwifi	SM-T270	1
 	Transfix	SCH-R730	=	0
 	Transform	SPH-M920	=	0
 	Transform Ultra	SPH-M930	=	0
@@ -41919,6 +41937,8 @@ Samsung
 	三星W22 5G	v2q	SM-W2022	0
 	心系天下 三星 W23	v4q	SM-W9023	0
 	心系天下 三星 W23 Flip	e4q	SM-W7023	0
+	心系天下 三星 W24	v5q	SM-W9024	0
+	心系天下 三星 W24 Flip	e5q	SM-W7024	0
 	心系天下 三星 W25	q6aq	SM-W9025	0
 	心系天下 三星 W25 Flip	b6q	SM-W7025	0
 	心系天下 三星 W26	q7q	SM-W9026	0
@@ -56696,6 +56716,7 @@ iHunt
 	S10_Tank_2019	=	=	0
 	S21_Plus_2021_EEA	=	S21 Plus 2021_EEA	0
 	S21_Ultra_4G_2021_EEA	S21_Ultra_4G	S21 Ultra 4G 2021_EEA	0
+	S27_Ultra	=	S27 Ultra	0
 	S30 ULTRA APEX 2021	S30_ULTRA_APEX_2021	~	0
 	S60 Discovery Plus	S60_Discovery_Plus	~	0
 	S60_Discovery_2019	=	=	0
@@ -56920,6 +56941,7 @@ iRiver
 	DMT580D	m805_892x	DDA800R	0
 	DMT580D	m805_892x	~	0
 	DMT580D	m805_892x	MIT700	0
+	Iriver	shilin	Iriver4KAndroidTV	0
 	MM3202	mm3201	MM-3201	0
 	MM3202	mm3201	MM-3202	0
 	ULALA	msm7627a_sku3	I-K1	0
