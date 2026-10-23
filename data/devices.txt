@@ -11446,8 +11446,8 @@ F&U (Fandu)
 	EU、UK、AP	martin	FandU Android TV	2
 	Europe	sepolia	FU Smart TV	2
 	FU 2K SMART TV	nagata	~	2
+	FU 4K SMART TV	marina	~	2
 	FU Smart TV	dongnae	~	2
-	Greece	marina	FU 4K SMART TV	2
 	Greece	tamachi	F and U Android TV	2
 	Greece	yeongdeungpo	F and U Android TV	2
 F-Plus
@@ -15192,6 +15192,7 @@ Haier
 	i50	=	Haier_i50	0
 Haitech
 	HIP-T66	=	=	0
+	HIP_T66	=	HIP-T66	0
 	HPAD-M2	=	=	0
 	HPAD-T80	=	=	0
 	HPAD_IA65	=	=	0
@@ -18967,6 +18968,8 @@ IKALL
 	S3	=	=	0
 	Z19	=	=	0
 	Z20	=	=	0
+IKINOR
+	IFP_3576	=	=	0
 IMAGO
 	AIOS	=	PRIME	0
 IMARFLEX
@@ -26148,6 +26151,7 @@ M-KOPA
 	M-KOPA M10	NYX	~	0
 	S34	=	=	0
 	S50	=	=	0
+	X4	=	=	0
 	X4e	=	=	0
 M-tech
 	Eros Power	EROS_Power	EROS Power	0
@@ -26406,6 +26410,7 @@ MIRAI_TOUCH
 	MXXCE3XE	rk3588_t	~	0
 	MXXCE4S	InteractiveFlatPanelDisplay	CE4S_Series	0
 	MXXCE4S	InteractiveFlatPanelDisplay	bytello_edla	0
+	MXXCE4X	InteractiveFlatPanelDisplay	CE4X_Series	0
 	MXXCE4X	InteractiveFlatPanelDisplay	~	0
 	PE4S	PE4S_Series	=	0
 MIRAY
@@ -26933,6 +26938,7 @@ Master-G
 	Smart TV	osaka	AI PONT SA	2
 MauritiusTelcom
 	HE2704	MTIPTVBox	~	0
+MauritiusTelecom
 	HP4411	HY44G	~	0
 Maxcom
 	MS453	=	=	0

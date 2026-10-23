@@ -1,126 +1,42 @@
 {
-  "lastUpdated": "2026-10-22",
-  "newDevicesCount": 20,
+  "lastUpdated": "2026-10-23",
+  "newDevicesCount": 6,
   "newDevices": [
     [
-      "AIOAPPInc",
-      "TSAI",
-      "T7",
-      "T7"
+      "F&U (Fandu)",
+      "FU 4K SMART TV",
+      "marina",
+      "FU 4K SMART TV"
     ],
     [
-      "ETELPREMIUM",
-      "ETEL P67",
-      "ETEL_P67",
-      "ETEL_P67"
+      "Haitech",
+      "HIP_T66",
+      "HIP_T66",
+      "HIP-T66"
     ],
     [
-      "FOAL",
-      "F18_Pro",
-      "F18_Pro",
-      "F18 Pro"
+      "IKINOR",
+      "IFP_3576",
+      "IFP_3576",
+      "IFP_3576"
     ],
     [
-      "Franko",
-      "Franko F07",
-      "Franko_F07",
-      "F07"
+      "M-KOPA",
+      "X4",
+      "X4",
+      "X4"
     ],
     [
-      "Hyundai",
-      "HYUNDAI",
-      "nishijin",
-      "HYUNDAI Super TV"
+      "MIRAI_TOUCH",
+      "MXXCE4X",
+      "InteractiveFlatPanelDisplay",
+      "CE4X_Series"
     ],
     [
-      "Lesia",
-      "BRIGHT_18",
-      "BRIGHT_18",
-      "BRIGHT_18"
-    ],
-    [
-      "MTC",
-      "JAHANVINESH",
-      "maniatika",
-      "JAHAN VINESH 4K"
-    ],
-    [
-      "MTC",
-      "STARGOLD",
-      "dongmae",
-      "STARGOLD 2KTV"
-    ],
-    [
-      "MTC",
-      "STARGOLD",
-      "maniatika",
-      "STARGOLD 4K UHDTV"
-    ],
-    [
-      "MYCOM",
-      "COMEK_Tab_Joy_10",
-      "COMEK_Tab_Joy_10",
-      "COMEK Tab Joy 10"
-    ],
-    [
-      "ORION",
-      "ORION",
-      "dongmae",
-      "ORION 2KTV"
-    ],
-    [
-      "Olive Oil",
-      "Olive",
-      "maniatika",
-      "Olive 4K UHDTV"
-    ],
-    [
-      "Samsung",
-      "Galaxy A03s",
-      "a03su",
-      "SM-S135DL"
-    ],
-    [
-      "Samsung",
-      "Galaxy Jump",
-      "a32x",
-      "SM-A326K"
-    ],
-    [
-      "Samsung",
-      "Galaxy Tab Active4 Pro",
-      "gtact4prowifi",
-      "SM-T630"
-    ],
-    [
-      "Samsung",
-      "SmartThings Home Tablet",
-      "gthhwifi",
-      "SM-T270"
-    ],
-    [
-      "Samsung",
-      "心系天下 三星 W24 Flip",
-      "e5q",
-      "SM-W7024"
-    ],
-    [
-      "Samsung",
-      "心系天下 三星 W24",
-      "v5q",
-      "SM-W9024"
-    ],
-    [
-      "iHunt",
-      "S27_Ultra",
-      "S27_Ultra",
-      "S27 Ultra"
-    ],
-    [
-      "iRiver",
-      "Iriver",
-      "shilin",
-      "Iriver4KAndroidTV"
+      "MauritiusTelecom",
+      "HP4411",
+      "HY44G",
+      "HP4411"
     ]
   ]
 }
