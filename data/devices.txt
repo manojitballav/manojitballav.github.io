@@ -4202,6 +4202,8 @@ BOBESPONJA
 	BOBTAB	=	=	0
 BODYCRAFT
 	M1_IC0_N702_BC	CONNECT_22	=	0
+BOE
+	Smart TV	auber	~	2
 BOLVA
 	B_TAB1021	=	=	0
 BOREAL
@@ -27974,6 +27976,10 @@ Miramage
 	Miramage Google TV	surface	Smart TV	2
 	Miramage Smart Display	beaudry	~	0
 	Smart TV 2K	alken	~	2
+	Smart TV E	surface	~	2
+	Smart TV P	surface	~	2
+	SmartTV 4K L5	dounam	Smart TV	2
+	SmartTV 4K M5	dounam	~	0
 	TV3223HDA11SMARTG	beaudry	Miramage AndroidTV	0
 	TV5023UHDA11SMARTG	barking	Miramage AndroidTV	0
 Mito
@@ -28346,6 +28352,7 @@ Mobiwire
 	Pegasus	=	=	0
 	S26	H5112	~	0
 	S4040	=	=	0
+	SEUIC	H6033	=	0
 	STARSHINE 5	Cygnus_mini	STARSHINE5	0
 	STARSHINE 5	Cygnus_mini	STARSHINE_5	0
 	STARSHINE 5	Cygnus_mini	Smart_A25	0
@@ -44835,6 +44842,7 @@ Syinix
 	Glory TV	umeda	~	2
 	Smart TV	longshan	AI PONT	2
 	Smart TV	redwood	AI PONT	2
+	Syinix Google TV	alken	~	2
 	Syinix TV	eleonas	~	2
 	Syinix TV	katehaki	~	2
 Symphony
@@ -50209,6 +50217,7 @@ VSP(VN)
 	VSP AndroidTV	beaudry	~	0
 	VSP Google TV	alken	~	2
 	VSP Google TV	surface	~	2
+	VSP Google TV 4K M5	dounam	~	2
 	VSP Google TV P	surface	~	2
 VT
 	MB300	=	SmartTV	0

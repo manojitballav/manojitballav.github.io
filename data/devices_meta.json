@@ -1,24 +1,54 @@
 {
-  "lastUpdated": "2026-10-25",
-  "newDevicesCount": 3,
+  "lastUpdated": "2026-10-26",
+  "newDevicesCount": 8,
   "newDevices": [
     [
-      "Invens",
-      "NOTE_18P_RU",
-      "NOTE_18P",
-      "NOTE 18P"
+      "BOE",
+      "Smart TV",
+      "auber",
+      "Smart TV"
     ],
     [
-      "PEICHENG",
-      "YQ10SG",
-      "YQ10SG",
-      "YQ10S"
+      "Miramage",
+      "Smart TV E",
+      "surface",
+      "Smart TV E"
     ],
     [
-      "PROTON",
-      "Glory_i20",
-      "Glory_i20",
-      "Glory_i20"
+      "Miramage",
+      "Smart TV P",
+      "surface",
+      "Smart TV P"
+    ],
+    [
+      "Miramage",
+      "SmartTV 4K L5",
+      "dounam",
+      "Smart TV"
+    ],
+    [
+      "Miramage",
+      "SmartTV 4K M5",
+      "dounam",
+      "SmartTV 4K M5"
+    ],
+    [
+      "Mobiwire",
+      "SEUIC",
+      "H6033",
+      "H6033"
+    ],
+    [
+      "Syinix",
+      "Syinix Google TV",
+      "alken",
+      "Syinix Google TV"
+    ],
+    [
+      "VSP(VN)",
+      "VSP Google TV 4K M5",
+      "dounam",
+      "VSP Google TV 4K M5"
     ]
   ]
 }
