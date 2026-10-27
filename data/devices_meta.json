@@ -1,54 +1,120 @@
 {
-  "lastUpdated": "2026-10-26",
-  "newDevicesCount": 8,
+  "lastUpdated": "2026-10-27",
+  "newDevicesCount": 19,
   "newDevices": [
     [
-      "BOE",
-      "Smart TV",
-      "auber",
-      "Smart TV"
+      "AQuasar",
+      "AQCH108",
+      "AQCH108",
+      "AQCH108"
     ],
     [
-      "Miramage",
-      "Smart TV E",
-      "surface",
-      "Smart TV E"
+      "Avtek",
+      "TS_9_Connect",
+      "TS_9_Connect",
+      "TS_9_Connect"
     ],
     [
-      "Miramage",
-      "Smart TV P",
-      "surface",
-      "Smart TV P"
+      "ConsumerCellular",
+      "SN512CCM_UM",
+      "SN512CC",
+      "SN512CCM"
     ],
     [
-      "Miramage",
-      "SmartTV 4K L5",
-      "dounam",
-      "Smart TV"
+      "DOMO",
+      "SLP36",
+      "SLP36",
+      "SLP36"
     ],
     [
-      "Miramage",
-      "SmartTV 4K M5",
-      "dounam",
-      "SmartTV 4K M5"
+      "GoMo",
+      "GoMo N22",
+      "S6518LA",
+      "S6518L"
     ],
     [
-      "Mobiwire",
-      "SEUIC",
-      "H6033",
-      "H6033"
+      "HEROFUN",
+      "BH518",
+      "BH513",
+      "BH518"
     ],
     [
-      "Syinix",
-      "Syinix Google TV",
-      "alken",
-      "Syinix Google TV"
+      "Honor",
+      "荣耀WIN平板",
+      "HNHES-Q",
+      "HES-W00"
     ],
     [
-      "VSP(VN)",
-      "VSP Google TV 4K M5",
-      "dounam",
-      "VSP Google TV 4K M5"
+      "Lesia",
+      "FUTURE_10C",
+      "FUTURE_10C",
+      "FUTURE_10C"
+    ],
+    [
+      "PEICHENG",
+      "A5_Air",
+      "A5_Air",
+      "A5"
+    ],
+    [
+      "POCO",
+      "POCO X8 Power",
+      "brussels",
+      "2609FPC74I"
+    ],
+    [
+      "Redmi",
+      "REDMI Note 17 Pro Max 5G",
+      "brussels",
+      "2609FRA74I"
+    ],
+    [
+      "Tecno",
+      "TECNO SPARK Go 3",
+      "TECNO-KN3s",
+      "TECNO KN3"
+    ],
+    [
+      "UJJ(SZ)",
+      "U3_C",
+      "U3_C",
+      "U3_C"
+    ],
+    [
+      "ZIOVO",
+      "Z168_U",
+      "Z168_U",
+      "Z168_U"
+    ],
+    [
+      "ZKDIGIMAX",
+      "ZKDIGIMAX_I3",
+      "ZKDIGIMAX_I3",
+      "ZKDIGIMAX_I3"
+    ],
+    [
+      "onn.",
+      "PM132T",
+      "PM132T",
+      "PM132T"
+    ],
+    [
+      "vivo",
+      "Y32 5G",
+      "V2639",
+      "V2639"
+    ],
+    [
+      "vivo",
+      "Y600 AI版",
+      "PD2607",
+      "V2607A"
+    ],
+    [
+      "vivo",
+      "Y600",
+      "PD2607",
+      "V2607A"
     ]
   ]
 }
