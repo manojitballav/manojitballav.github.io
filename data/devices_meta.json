@@ -1,120 +1,48 @@
 {
-  "lastUpdated": "2026-10-27",
-  "newDevicesCount": 19,
+  "lastUpdated": "2026-10-28",
+  "newDevicesCount": 7,
   "newDevices": [
     [
-      "AQuasar",
-      "AQCH108",
-      "AQCH108",
-      "AQCH108"
+      "HIKVISION",
+      "DS-MDT202PRO",
+      "DS-MDT202PRO",
+      "DS-MDT202PRO"
     ],
     [
-      "Avtek",
-      "TS_9_Connect",
-      "TS_9_Connect",
-      "TS_9_Connect"
+      "Lecoo",
+      "P140W",
+      "P140W",
+      "P140W"
     ],
     [
-      "ConsumerCellular",
-      "SN512CCM_UM",
-      "SN512CC",
-      "SN512CCM"
+      "MauritiusTelecom",
+      "HP4411-MT",
+      "HY44G",
+      "HP4411"
     ],
     [
-      "DOMO",
-      "SLP36",
-      "SLP36",
-      "SLP36"
+      "REDTONE",
+      "RTSP-C64B",
+      "RTSP-C64B",
+      "E30"
     ],
     [
-      "GoMo",
-      "GoMo N22",
-      "S6518LA",
-      "S6518L"
+      "Ulefone",
+      "Armor Pad 4",
+      "GQ3121TF1",
+      "Armor Pad 4"
     ],
     [
-      "HEROFUN",
-      "BH518",
-      "BH513",
-      "BH518"
+      "iMin",
+      "Swan4",
+      "Swan4",
+      "I26D01"
     ],
     [
-      "Honor",
-      "荣耀WIN平板",
-      "HNHES-Q",
-      "HES-W00"
-    ],
-    [
-      "Lesia",
-      "FUTURE_10C",
-      "FUTURE_10C",
-      "FUTURE_10C"
-    ],
-    [
-      "PEICHENG",
-      "A5_Air",
-      "A5_Air",
-      "A5"
-    ],
-    [
-      "POCO",
-      "POCO X8 Power",
-      "brussels",
-      "2609FPC74I"
-    ],
-    [
-      "Redmi",
-      "REDMI Note 17 Pro Max 5G",
-      "brussels",
-      "2609FRA74I"
-    ],
-    [
-      "Tecno",
-      "TECNO SPARK Go 3",
-      "TECNO-KN3s",
-      "TECNO KN3"
-    ],
-    [
-      "UJJ(SZ)",
-      "U3_C",
-      "U3_C",
-      "U3_C"
-    ],
-    [
-      "ZIOVO",
-      "Z168_U",
-      "Z168_U",
-      "Z168_U"
-    ],
-    [
-      "ZKDIGIMAX",
-      "ZKDIGIMAX_I3",
-      "ZKDIGIMAX_I3",
-      "ZKDIGIMAX_I3"
-    ],
-    [
-      "onn.",
-      "PM132T",
-      "PM132T",
-      "PM132T"
-    ],
-    [
-      "vivo",
-      "Y32 5G",
-      "V2639",
-      "V2639"
-    ],
-    [
-      "vivo",
-      "Y600 AI版",
-      "PD2607",
-      "V2607A"
-    ],
-    [
-      "vivo",
-      "Y600",
-      "PD2607",
-      "V2607A"
+      "iQOO",
+      "iQOO Neo12",
+      "PD2618",
+      "V2618A"
     ]
   ]
 }

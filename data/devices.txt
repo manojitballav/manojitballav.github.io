@@ -13926,6 +13926,7 @@ HIGRACE
 	OC101	OC101_EEA	~	0
 HIKVISION
 	DS-MDT202	=	=	0
+	DS-MDT202PRO	=	=	0
 	DS-MDT301	=	=	0
 	DS_D5C75RB_A	DS_D5C65RB_A	=	0
 	HIK_3576	=	=	0
@@ -24762,6 +24763,7 @@ Lechpol
 Lecoo
 	P131B	=	=	0
 	P132W	=	=	0
+	P140W	=	=	0
 	P900A	=	=	0
 Leeco
 	Le Max2	le_x2	Le X820	0
@@ -26963,7 +26965,7 @@ Master-G
 MauritiusTelcom
 	HE2704	MTIPTVBox	~	0
 MauritiusTelecom
-	HP4411	HY44G	~	0
+	HP4411-MT	HY44G	HP4411	0
 Maxcom
 	MS453	=	=	0
 	MS457	=	=	0
@@ -36393,6 +36395,7 @@ REDTONE
 	RTSP-A124ML	=	=	0
 	RTSP-A258HM	=	=	0
 	RTSP-A64B	=	=	0
+	RTSP-C64B	=	E30	0
 REGZA
 	32P1S	Andesite	~	0
 	REGZA Projector	hengshan	~	4
@@ -49296,6 +49299,7 @@ Ulefone
 	Armor Pad 2	Armor_Pad_2	~	1
 	Armor Pad 2	Armor_Pad_2	UTAB A2	1
 	Armor Pad 3 Pro	ArmorPad3Pro	~	1
+	Armor Pad 4	GQ3121TF1	~	1
 	Armor Pad 4 Ultra	GQ3121AF1	~	1
 	Armor Pad 5 Pro	GQ8000BF3	~	1
 	Armor Pad 5 Ultra	GQ8000BF1	~	1
@@ -56870,6 +56874,7 @@ iMin
 	Swan2Printer	=	I24D03	0
 	Swan2Scale	=	I24D04	0
 	Swan3	=	I25D03	0
+	Swan4	=	I26D01	0
 	Swift 1	I22M01	=	0
 	Swift 1	I22M01	Swift_1	0
 	Swift 1 Pro	Swift1Pro	I23M03	0
@@ -56951,6 +56956,7 @@ iQOO
 	iQOO Neo10 Pro+	PD2463	V2463A	0
 	iQOO Neo11	PD2520	V2520A	0
 	iQOO Neo11 至尊版	PD2573	V2573A	0
+	iQOO Neo12	PD2618	V2618A	0
 	iQOO Pad Ultra	DPD2605	iPA2691	1
 	iQOO Pad5	DPD2437	iPA2556	0
 	iQOO Pad5 Pro	DPD2429	iPA2575	0
