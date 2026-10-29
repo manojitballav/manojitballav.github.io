@@ -3802,6 +3802,8 @@ BEYODFU
 	M326-EEA	=	=	0
 	M518	=	=	0
 	M901	=	=	0
+BFL
+	PO728M	=	BFL PO728M	0
 BGH S.A.
 	BGH 2K Android TV	lasalle	~	2
 	BGH 2K SMART TV	alameda	~	2
@@ -7509,6 +7511,7 @@ Compaq
 	QTab_87	=	=	0
 	Qtab 10.1 with keyboard	Qtab10	~	0
 	Qtab10Plus	=	=	0
+	Qtab11	=	=	0
 	Qtab_Ultra	=	Qtab Ultra	0
 	South Africa	sepolia	COMPAQ GOOGLE TV	2
 	Venezuela	marina	COMPAQ SMART 4K TV	2
@@ -27931,6 +27934,7 @@ Mintt
 	P25	=	=	0
 	P25+	P25_PLUS	~	0
 	P26	=	Mintt P26	0
+	P27PLUS	=	P27+	0
 	Rival_2	CoolMintt_Rival_2	CoolMintt Rival 2	0
 	T3	=	P08	0
 	T3	=	=	0
@@ -29226,6 +29230,7 @@ Motorola
 	moto p30 play	deen	XT1941-2	0
 	moto pad 60 neo	XT2575-1	=	1
 	moto pad 60 neo	XT2575-3	=	1
+	moto pad 60 pro	XT2571-1	=	1
 	moto pad 70	XT2673-1	=	1
 	moto pad 70	XT2673-2	=	1
 	moto pad 70 groove	XT2675-1	=	1
@@ -31250,6 +31255,8 @@ OMIX
 	X7	=	=	0
 	X700	=	OMIX X700	0
 	X700	=	=	0
+OMMI
+	OMMI_A17S	=	OMMI A17S	0
 ONDA TLC
 	T7 Pro	T7_PRO	=	0
 	T9 S	T9S	=	0
@@ -33687,6 +33694,7 @@ PROTON
 	PROTON 4K Google TV	keoneae	~	2
 	PROTON Google TV	bandra	~	2
 	Power 50	Proton_Power_50	~	0
+	Power_60	=	Power 60	0
 	Proton_X10_Pro	=	X10 Pro	0
 	Smart TV	alimos	AI PONT	2
 	Smart TV	dangni	AI PONT	2
@@ -38214,6 +38222,7 @@ STK(Santok)
 	STK Ace Plus	STK_Ace_Plus	~	0
 	STK EVO	STK_EVO	~	0
 	STK EVO	STK_EVO_US	~	0
+	STK Helix	Helix	=	0
 	STK Hero Lite	Hero_Lite	~	0
 	STK Hero Lite	STK_Hero_Lite	~	0
 	STK Life 5	STK_Life_5	~	0
@@ -47712,6 +47721,7 @@ Teclast
 	P85_EEA	=	=	0
 	P85_ROW	=	=	0
 	P85_RUS	=	=	0
+	RGD1_EEA	RGD1	=	0
 	RGD1_EEA	RGD1	RGD1_ROW	0
 	RGD1_ROW	RGD1	~	0
 	RGD1_US	RGD1	RGD1_ROW	0
@@ -52855,6 +52865,7 @@ Wpawa
 	HT10_Plus	=	=	0
 	HT10_Plus_A17	=	=	0
 	HT10_Ultra	=	=	0
+	HT10_Ultra_A17	=	=	0
 X-Age
 	A1	=	=	0
 	ACE	=	=	0

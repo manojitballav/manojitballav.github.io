@@ -1,48 +1,60 @@
 {
-  "lastUpdated": "2026-10-28",
-  "newDevicesCount": 7,
+  "lastUpdated": "2026-10-29",
+  "newDevicesCount": 9,
   "newDevices": [
     [
-      "HIKVISION",
-      "DS-MDT202PRO",
-      "DS-MDT202PRO",
-      "DS-MDT202PRO"
+      "BFL",
+      "PO728M",
+      "PO728M",
+      "BFL PO728M"
     ],
     [
-      "Lecoo",
-      "P140W",
-      "P140W",
-      "P140W"
+      "Compaq",
+      "Qtab11",
+      "Qtab11",
+      "Qtab11"
     ],
     [
-      "MauritiusTelecom",
-      "HP4411-MT",
-      "HY44G",
-      "HP4411"
+      "Mintt",
+      "P27PLUS",
+      "P27PLUS",
+      "P27+"
     ],
     [
-      "REDTONE",
-      "RTSP-C64B",
-      "RTSP-C64B",
-      "E30"
+      "Motorola",
+      "moto pad 60 pro",
+      "XT2571-1",
+      "XT2571-1"
     ],
     [
-      "Ulefone",
-      "Armor Pad 4",
-      "GQ3121TF1",
-      "Armor Pad 4"
+      "OMMI",
+      "OMMI_A17S",
+      "OMMI_A17S",
+      "OMMI A17S"
     ],
     [
-      "iMin",
-      "Swan4",
-      "Swan4",
-      "I26D01"
+      "PROTON",
+      "Power_60",
+      "Power_60",
+      "Power 60"
     ],
     [
-      "iQOO",
-      "iQOO Neo12",
-      "PD2618",
-      "V2618A"
+      "STK(Santok)",
+      "STK Helix",
+      "Helix",
+      "Helix"
+    ],
+    [
+      "Teclast",
+      "RGD1_EEA",
+      "RGD1",
+      "RGD1"
+    ],
+    [
+      "Wpawa",
+      "HT10_Ultra_A17",
+      "HT10_Ultra_A17",
+      "HT10_Ultra_A17"
     ]
   ]
 }
