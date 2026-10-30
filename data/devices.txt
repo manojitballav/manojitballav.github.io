@@ -6209,9 +6209,11 @@ CHAINWAY
 	C75_GL	C75	=	0
 	C90	=	=	0
 	C90A	=	=	0
+	CHAINWAY_MC80	MC80	=	0
 	MC21	=	=	0
 	MC50	=	=	0
 	MC51	=	=	0
+	MC51S	=	=	0
 	MC62	=	=	0
 	MC95	=	=	0
 	P100	=	=	0
@@ -8165,7 +8167,6 @@ Crosscall
 	Action-X5	L752	~	0
 	CORE-M4	=	=	0
 	CORE-M4 GO	CORE-M4-GO	~	0
-	CORE-Z6 450	L790	AD-Z5	0
 	Core- X3	HS8917QC	Core-X3	0
 	Core-M5	L751	~	0
 	Core-M5	L751_02	~	0
@@ -8179,6 +8180,7 @@ Crosscall
 	Core-Z5	L790	~	0
 	Core-Z5	L790_02	~	0
 	Core-Z5P	L790	~	0
+	Core-Z6 450	L790	AD-Z5	0
 	ODYSSEY	ODYSSEY3G	~	0
 	Stellar-M6	L768	~	0
 	Stellar-M6E	L768	~	0
@@ -11776,6 +11778,7 @@ FPD
 	CP08-C1	=	=	0
 	CP08-C1	=	CP08_C1	0
 	CP08-C2	=	=	0
+	CP08-C2	=	CP08-J2	0
 	CP08-J2	=	=	0
 	CP08_J1	=	=	0
 	CP10-J1	CP10	~	0
@@ -21187,6 +21190,7 @@ KDDI
 	CablePlus STB	C02AS	=	3
 	Cableplus STB-2	C02AS5	=	3
 	Power Up Unit	C02BB1	=	0
+	ST4000G	sti3210d111	~	0
 	STA3000	sti6030d111	~	0
 	STW2000	H02ST1	~	0
 	SmartTV Box	C01AS	SMARTTVBOX	0
@@ -21645,6 +21649,8 @@ KTV
 	PureKTV	DV8219	~	0
 KUBIK
 	KUBIK_GENTA_10	=	=	0
+KUMI
+	KM-TC02_EEA	KM-TC02	HONOR CHOICE Pad 3	1
 KUNFT
 	K5130H43U	samseong	AI PONT	2
 	K5132H32H	ikebukuro	AI PONT	2
@@ -24545,6 +24551,7 @@ Lava
 	R3	=	=	0
 	R3 Prime	iris90	=	0
 	Shark 2 5G	LXX528	LAVA LXX528	0
+	Smart 4	LZG414	LAVA LZG414	0
 	T101	LTN10RT	=	0
 	T101	=	=	0
 	T101N	=	=	0
@@ -25694,6 +25701,7 @@ Lesia
 	K7	=	=	0
 	NEO_9	=	=	0
 	P40	=	=	0
+	PAD_10_Pro	=	=	0
 	Pad 12	Pad_12	~	1
 	Pad_11	=	=	0
 	SMART_7	=	=	0
@@ -26176,6 +26184,8 @@ M-Horse
 	Pad_17_US	Pad_17	=	0
 	Pure 2	Pure-2	~	0
 	Pure 3	Pure_3	~	0
+	S27Ultra	=	=	0
+	S27Ultra_US	S27Ultra	=	0
 M-KOPA
 	M-KOPA M10	NYX	~	0
 	S34	=	=	0
@@ -26353,12 +26363,14 @@ MEFERI
 	ME63	=	=	0
 	ME65	=	=	0
 	ME74	=	=	0
+	ME87	=	=	0
 MEGAAUDIO
 	Multimedia_Megaaudio	=	=	0
 MEIZE
 	D105	=	=	0
 	D106	=	=	0
 	D108	=	=	0
+	D112	=	=	0
 	D115	=	=	0
 	D117_US	D117	=	0
 	D121	=	=	0
@@ -42221,17 +42233,22 @@ Servicom IT
 Seuic
 	AUTOID PAD Air-5G-P	d527p	~	1
 	AUTOID Pad Air	d520	~	1
+	AUTOID Pad Air 11	d529b	~	1
 	AUTOID Pad Air-5G	D527	~	1
 	AUTOID Q7	d310m	~	0
+	AUTOID Q9	D362	~	0
 	AUTOID Q9	d550	~	0
 	AUTOID10	d560	~	0
+	AUTOID10	d563	~	0
 	AUTOID11	d310x	~	0
 	AUTOID9N	d500b	AUTIOD9N	0
 	AUTOID9N	d500b	~	0
 	AUTOIDQ9	D360	~	0
 	AUTOIDQ9G	d550	AUTOID Q9	0
+	CRUISE Air	d780	~	0
 	CRUISE GeP	D737P	~	0
 	CRUISE1	d700s	~	0
+	CRUISE2	d718g	~	0
 	CRUISE2	d730	~	0
 	CRUISE2 5G	d740	~	0
 	CRUISE2 5GA	d740p	~	0
@@ -47157,6 +47174,8 @@ TONE
 	TONE_e21	=	=	0
 	TONE_e22	=	=	0
 TOPDON
+	ONEMax	=	=	0
+	ONEMax_US	ONEMax	=	0
 	ONEPro	=	=	0
 TOPELOTEK
 	K15A	=	=	0
@@ -53058,6 +53077,10 @@ XPPen
 	MDP1232_EEA	MDP1231	=	0
 	MDP1233_RU	MDP1231	=	0
 	MDP1234_US	MDP1231	=	0
+	Magic_12	MDP1236	=	0
+	Magic_12_EEA	MDP1236	=	0
+	Magic_12_RU	MDP1236	=	0
+	Magic_12_US	MDP1236	=	0
 	XPPen_Magic_Drawing_Pad	Titan_XPPen	MagicDrawingPad	0
 	XPPen_Magic_Drawing_Pad_RU	Titan_XPPen	MagicDrawingPad	0
 XREAL

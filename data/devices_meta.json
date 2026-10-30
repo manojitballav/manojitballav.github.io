@@ -1,60 +1,144 @@
 {
-  "lastUpdated": "2026-10-29",
-  "newDevicesCount": 9,
+  "lastUpdated": "2026-10-30",
+  "newDevicesCount": 23,
   "newDevices": [
     [
-      "BFL",
-      "PO728M",
-      "PO728M",
-      "BFL PO728M"
+      "CHAINWAY",
+      "CHAINWAY_MC80",
+      "MC80",
+      "MC80"
     ],
     [
-      "Compaq",
-      "Qtab11",
-      "Qtab11",
-      "Qtab11"
+      "CHAINWAY",
+      "MC51S",
+      "MC51S",
+      "MC51S"
     ],
     [
-      "Mintt",
-      "P27PLUS",
-      "P27PLUS",
-      "P27+"
+      "Crosscall",
+      "Core-Z6 450",
+      "L790",
+      "AD-Z5"
     ],
     [
-      "Motorola",
-      "moto pad 60 pro",
-      "XT2571-1",
-      "XT2571-1"
+      "FPD",
+      "CP08-C2",
+      "CP08-C2",
+      "CP08-J2"
     ],
     [
-      "OMMI",
-      "OMMI_A17S",
-      "OMMI_A17S",
-      "OMMI A17S"
+      "KDDI",
+      "ST4000G",
+      "sti3210d111",
+      "ST4000G"
     ],
     [
-      "PROTON",
-      "Power_60",
-      "Power_60",
-      "Power 60"
+      "KUMI",
+      "KM-TC02_EEA",
+      "KM-TC02",
+      "HONOR CHOICE Pad 3"
     ],
     [
-      "STK(Santok)",
-      "STK Helix",
-      "Helix",
-      "Helix"
+      "Lava",
+      "Smart 4",
+      "LZG414",
+      "LAVA LZG414"
     ],
     [
-      "Teclast",
-      "RGD1_EEA",
-      "RGD1",
-      "RGD1"
+      "Lesia",
+      "PAD_10_Pro",
+      "PAD_10_Pro",
+      "PAD_10_Pro"
     ],
     [
-      "Wpawa",
-      "HT10_Ultra_A17",
-      "HT10_Ultra_A17",
-      "HT10_Ultra_A17"
+      "M-Horse",
+      "S27Ultra",
+      "S27Ultra",
+      "S27Ultra"
+    ],
+    [
+      "M-Horse",
+      "S27Ultra_US",
+      "S27Ultra",
+      "S27Ultra"
+    ],
+    [
+      "MEFERI",
+      "ME87",
+      "ME87",
+      "ME87"
+    ],
+    [
+      "MEIZE",
+      "D112",
+      "D112",
+      "D112"
+    ],
+    [
+      "Seuic",
+      "AUTOID Pad Air 11",
+      "d529b",
+      "AUTOID Pad Air 11"
+    ],
+    [
+      "Seuic",
+      "AUTOID Q9",
+      "D362",
+      "AUTOID Q9"
+    ],
+    [
+      "Seuic",
+      "AUTOID10",
+      "d563",
+      "AUTOID10"
+    ],
+    [
+      "Seuic",
+      "CRUISE Air",
+      "d780",
+      "CRUISE Air"
+    ],
+    [
+      "Seuic",
+      "CRUISE2",
+      "d718g",
+      "CRUISE2"
+    ],
+    [
+      "TOPDON",
+      "ONEMax",
+      "ONEMax",
+      "ONEMax"
+    ],
+    [
+      "TOPDON",
+      "ONEMax_US",
+      "ONEMax",
+      "ONEMax"
+    ],
+    [
+      "XPPen",
+      "Magic_12",
+      "MDP1236",
+      "MDP1236"
+    ],
+    [
+      "XPPen",
+      "Magic_12_EEA",
+      "MDP1236",
+      "MDP1236"
+    ],
+    [
+      "XPPen",
+      "Magic_12_RU",
+      "MDP1236",
+      "MDP1236"
+    ],
+    [
+      "XPPen",
+      "Magic_12_US",
+      "MDP1236",
+      "MDP1236"
     ]
   ]
 }
