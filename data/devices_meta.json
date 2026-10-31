@@ -1,144 +1,60 @@
 {
-  "lastUpdated": "2026-10-30",
-  "newDevicesCount": 23,
+  "lastUpdated": "2026-10-31",
+  "newDevicesCount": 9,
   "newDevices": [
     [
-      "CHAINWAY",
-      "CHAINWAY_MC80",
-      "MC80",
-      "MC80"
+      "Amdox",
+      "AME_RX78KB",
+      "AME_RX78KB",
+      "AME_RX78KB"
     ],
     [
-      "CHAINWAY",
-      "MC51S",
-      "MC51S",
-      "MC51S"
+      "Blu",
+      "G36",
+      "G1230",
+      "G36"
     ],
     [
-      "Crosscall",
-      "Core-Z6 450",
-      "L790",
-      "AD-Z5"
+      "DAMASCO",
+      "TK831-3",
+      "TK831-3",
+      "TK831-3"
     ],
     [
-      "FPD",
-      "CP08-C2",
-      "CP08-C2",
-      "CP08-J2"
+      "Digit",
+      "Sonic_Pro",
+      "Sonic_pro",
+      "Digit Sonic Pro"
     ],
     [
-      "KDDI",
-      "ST4000G",
-      "sti3210d111",
-      "ST4000G"
+      "Gevo",
+      "GX30",
+      "GX30",
+      "GX30"
     ],
     [
-      "KUMI",
-      "KM-TC02_EEA",
-      "KM-TC02",
-      "HONOR CHOICE Pad 3"
+      "GoMo",
+      "S6712L",
+      "S6712LA",
+      "S6712L"
     ],
     [
-      "Lava",
-      "Smart 4",
-      "LZG414",
-      "LAVA LZG414"
+      "Honda",
+      "IVI-SYSTEM",
+      "gen4_gvm",
+      "IVI-SYSTEM"
     ],
     [
-      "Lesia",
-      "PAD_10_Pro",
-      "PAD_10_Pro",
-      "PAD_10_Pro"
+      "PEICHENG",
+      "A1016",
+      "A1016",
+      "A1016"
     ],
     [
-      "M-Horse",
-      "S27Ultra",
-      "S27Ultra",
-      "S27Ultra"
-    ],
-    [
-      "M-Horse",
-      "S27Ultra_US",
-      "S27Ultra",
-      "S27Ultra"
-    ],
-    [
-      "MEFERI",
-      "ME87",
-      "ME87",
-      "ME87"
-    ],
-    [
-      "MEIZE",
-      "D112",
-      "D112",
-      "D112"
-    ],
-    [
-      "Seuic",
-      "AUTOID Pad Air 11",
-      "d529b",
-      "AUTOID Pad Air 11"
-    ],
-    [
-      "Seuic",
-      "AUTOID Q9",
-      "D362",
-      "AUTOID Q9"
-    ],
-    [
-      "Seuic",
-      "AUTOID10",
-      "d563",
-      "AUTOID10"
-    ],
-    [
-      "Seuic",
-      "CRUISE Air",
-      "d780",
-      "CRUISE Air"
-    ],
-    [
-      "Seuic",
-      "CRUISE2",
-      "d718g",
-      "CRUISE2"
-    ],
-    [
-      "TOPDON",
-      "ONEMax",
-      "ONEMax",
-      "ONEMax"
-    ],
-    [
-      "TOPDON",
-      "ONEMax_US",
-      "ONEMax",
-      "ONEMax"
-    ],
-    [
-      "XPPen",
-      "Magic_12",
-      "MDP1236",
-      "MDP1236"
-    ],
-    [
-      "XPPen",
-      "Magic_12_EEA",
-      "MDP1236",
-      "MDP1236"
-    ],
-    [
-      "XPPen",
-      "Magic_12_RU",
-      "MDP1236",
-      "MDP1236"
-    ],
-    [
-      "XPPen",
-      "Magic_12_US",
-      "MDP1236",
-      "MDP1236"
+      "Ulefone",
+      "Armor X17",
+      "GQ3133TH2",
+      "Armor X17"
     ]
   ]
 }

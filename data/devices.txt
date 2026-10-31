@@ -2124,6 +2124,7 @@ Amazon
 	Alexa Tablet 8, Amazon Kids Tablet 8	roselite	ATROWI	1
 Amdox
 	AME_QT08UM	Smart_Whiteboard	~	0
+	AME_RX78KB	=	=	0
 	EP-01	=	=	0
 	X086AF	rk3588_t	~	0
 Americamovil
@@ -5510,6 +5511,7 @@ Blu
 	G34	G1070	~	0
 	G35	G1110	~	0
 	G35	G1111	~	0
+	G36	G1230	~	0
 	G40	G0730WW	~	0
 	G40	G0790UU	~	0
 	G43	G0950	~	0
@@ -8396,6 +8398,7 @@ DAMASCO
 	TAB-T126-8	=	=	1
 	TAB-T537-10	=	=	1
 	TAB-T863-3	=	=	1
+	TK831-3	=	=	0
 	tk101_4	=	TAB-TK101-4	1
 DANDOON
 	A2	=	=	0
@@ -9431,6 +9434,7 @@ Digit
 	NOTE 20	NOTE_20	~	0
 	Sonic Lite	Sonic_Lite	~	0
 	Sonic_One	=	Sonic One	0
+	Sonic_Pro	Sonic_pro	Digit Sonic Pro	0
 	Tab2	=	=	0
 	Titan_5G	=	Titan 5G	0
 DigitEdge
@@ -13007,6 +13011,7 @@ Getac
 Getnord
 	LYNX	=	=	0
 Gevo
+	GX30	=	=	0
 	Gevo E10	E10	GEVO E10	0
 	Gevo V20	V20	Gevo S6801	0
 	V10	Gevo_V10	~	0
@@ -13427,6 +13432,7 @@ GoClever
 GoMo
 	GoMo N22	S6518LA	S6518L	0
 	N11	S5506LA	S5506L	0
+	S6712L	S6712LA	~	0
 GoPlus
 	GoPlus 4k	SEI700STL	~	0
 Goally
@@ -16432,6 +16438,7 @@ Honda
 	Gathers	pl0a	22M Gathers	6
 	Gathers	pr3a_arm64	Gathers PR3A	6
 	IVI-SYSTEM	emu_pub_h_30a_g_car	~	6
+	IVI-SYSTEM	gen4_gvm	~	6
 	IVI-SYSTEM	msmnile_au	~	6
 	MY15ADA	koelsch	~	6
 	NSX	koelsch	MY15ADA	6
@@ -33385,6 +33392,7 @@ PEAQ
 PEEPandLEARN
 	PLPro	=	=	0
 PEICHENG
+	A1016	=	=	0
 	A3_MAX	=	=	0
 	A5	=	=	0
 	A5_Air	=	A5	0
@@ -49344,6 +49352,7 @@ Ulefone
 	Armor X13	GQ3117SH2_MTN	~	0
 	Armor X16	GQ5020TH1P19	~	0
 	Armor X16 Pro	GQ5020BH1	~	0
+	Armor X17	GQ3133TH2	~	0
 	Armor X17 Pro	GQ3133TH1	Armor X17 Ultra	0
 	Armor X17 Pro	GQ3133TH3	~	0
 	Armor X17 Ultra	GQ3133TH3	Armor X17 Pro	0
