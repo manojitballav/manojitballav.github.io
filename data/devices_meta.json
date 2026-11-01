@@ -1,60 +1,60 @@
 {
-  "lastUpdated": "2026-10-31",
+  "lastUpdated": "2026-11-01",
   "newDevicesCount": 9,
   "newDevices": [
     [
-      "Amdox",
-      "AME_RX78KB",
-      "AME_RX78KB",
-      "AME_RX78KB"
-    ],
-    [
       "Blu",
-      "G36",
-      "G1230",
-      "G36"
+      "B1680M",
+      "B1680M",
+      "B1680M"
     ],
     [
-      "DAMASCO",
-      "TK831-3",
-      "TK831-3",
-      "TK831-3"
+      "Bro(SZ)",
+      "Bro_s_III",
+      "Bro_s_III",
+      "Bro_s_III"
     ],
     [
-      "Digit",
-      "Sonic_Pro",
-      "Sonic_pro",
-      "Digit Sonic Pro"
+      "MiraTab",
+      "MT8",
+      "MT8",
+      "MT8"
     ],
     [
-      "Gevo",
-      "GX30",
-      "GX30",
-      "GX30"
+      "OKING",
+      "OK17ProMax4G",
+      "OK17ProMax4G",
+      "OK17ProMax4G"
     ],
     [
-      "GoMo",
-      "S6712L",
-      "S6712LA",
-      "S6712L"
+      "Oppo",
+      "K15s",
+      "OP620BL1",
+      "PYE130"
     ],
     [
-      "Honda",
-      "IVI-SYSTEM",
-      "gen4_gvm",
-      "IVI-SYSTEM"
+      "Ruio",
+      "S5518",
+      "S5518",
+      "S5518"
     ],
     [
-      "PEICHENG",
-      "A1016",
-      "A1016",
-      "A1016"
+      "ZIOVO",
+      "Z138_U_US",
+      "Z138_U_US",
+      "Z138_U"
     ],
     [
-      "Ulefone",
-      "Armor X17",
-      "GQ3133TH2",
-      "Armor X17"
+      "ZIOVO",
+      "Z138_U_US",
+      "Z138_U_US",
+      "Z138_U_US"
+    ],
+    [
+      "ZOOMSMART",
+      "ZM600",
+      "ZM600",
+      "ZM600"
     ]
   ]
 }

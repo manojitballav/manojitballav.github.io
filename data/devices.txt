@@ -593,9 +593,6 @@ ATECcomputer
 	A8KD	=	=	0
 ATEL
 	A68EL	=	=	0
-ATID
-	AT908	=	=	0
-	AT908_EEA	AT908	~	0
 ATILIM UNIVERSITY
 	ATILIM_mPAD07	=	=	0
 ATM (Brazil)
@@ -5375,6 +5372,7 @@ Blu
 	B131DL	B130DL	~	0
 	B140DL	=	=	0
 	B160V	=	=	0
+	B1680M	=	=	0
 	B3	B301	~	0
 	BLU	G0430WW	G71	0
 	BLU Dash XL	Dash_XL	Dash XL	6
@@ -5997,6 +5995,8 @@ Britania
 British Telecom
 	BT Home SmartPhone III	BT_Home_SmartPhone_III	E81	0
 	HomeSmartphone d800	d800	BT Home SmartPhone S II	0
+Bro(SZ)
+	Bro_s_III	=	=	0
 Brondi
 	620SZ	G223_JH	Brondi 620 SZ	0
 	730 4G HD	Brondi_730_4G_HD	=	0
@@ -27996,6 +27996,8 @@ Mira
 	X2	=	=	0
 	X3	=	=	0
 	X4	=	=	0
+MiraTab
+	MT8	=	=	0
 Mirage
 	43T	MI-JI-43T	=	0
 	44T	MI-JI-44T	=	0
@@ -31227,6 +31229,8 @@ OKAPI
 	Okapi_Tab6	=	=	0
 	Okapi_Tab8	=	=	0
 	Tab10	=	=	0
+OKING
+	OK17ProMax4G	=	=	0
 OKSI
 	GEN-10	=	=	0
 	GT1001	=	=	0
@@ -32038,7 +32042,6 @@ Oppo
 	A7	PBFM00	=	0
 	A7	PBFT00	=	0
 	A7 Pro 5G	OP620BL1	PYE110	0
-	A7 Pro 5G	OP620BL1	PYE130	0
 	A7 Pro 5G	OP623EL1	CPH2931	0
 	A7 Pro Max 5G	OP6210L1	CPH2909	0
 	A72	OP4C72L1	CPH2067	0
@@ -32285,6 +32288,7 @@ Oppo
 	K14x 5G	OP5F2BL1	CPH2871	0
 	K15 Pro	OP61E9L1	PMH110	0
 	K15 Pro+	OP61E5L1	PMG110	0
+	K15s	OP620BL1	PYE130	0
 	K3	OP4679	PCGM00	0
 	K3	OP4679	PCGT00	0
 	K3	OP486B	CPH1955	0
@@ -37535,6 +37539,7 @@ Ruio
 	Ruio_i7Ultra	=	=	0
 	S4	RUIO_S4	=	0
 	S5006	RUIO_S5006	~	0
+	S5518	=	=	0
 	S5521	=	Orange Kova one	0
 	S5521	=	=	0
 	S5521Q	S5521	Orange Kova one	0
@@ -53909,6 +53914,8 @@ ZIOVO
 	Z138_EEA	=	=	0
 	Z138_EU	=	=	0
 	Z138_US	=	=	0
+	Z138_U_US	=	Z138_U	0
+	Z138_U_US	=	=	0
 	Z138_V_EEA	=	=	0
 	Z138_V_US	=	=	0
 	Z138_W	=	=	0
@@ -53967,6 +53974,7 @@ ZOOMSMART
 	LT600T	=	=	0
 	LT800	=	=	0
 	ZM10_EEA	ZM10	=	0
+	ZM600	=	=	0
 	ZM800	=	=	0
 	ZM800_EEA	ZM800	=	0
 ZTE
