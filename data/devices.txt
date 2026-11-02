@@ -1522,6 +1522,8 @@ Ainmel
 	KB1001	=	=	0
 	KB1001A	KB1001	=	0
 	KB1001A_EEA	KB1001	=	0
+	KB1001T_G	KB1001T	=	0
+	KB1001T_US	KB1001T	=	0
 	KB1001_EEA	KB1001	=	0
 	KB1003_EEA	KB1003	=	0
 	KB1004	=	=	0
@@ -1654,9 +1656,11 @@ Aiwa
 	Z9 PLUS	AIWA_Z9_PLUS	~	0
 Akai
 	AKAI	bangbae	AKAI 4K Android TV	2
+	AKAI	eleonas	~	0
 	AKAI	stanford	2K SMART TV	2
 	AKAI 4K SMART TV	SW6H	~	2
 	AKAI 4K SMART TV	anaheim	~	2
+	AKAI FF	eleonas	~	0
 	AKAI SMART TV	umeda	AKAI  SMART TV	2
 	FZ101	=	=	0
 	FZ701	=	=	0
@@ -5996,6 +6000,7 @@ British Telecom
 	BT Home SmartPhone III	BT_Home_SmartPhone_III	E81	0
 	HomeSmartphone d800	d800	BT Home SmartPhone S II	0
 Bro(SZ)
+	Bro_s_II	=	=	0
 	Bro_s_III	=	=	0
 Brondi
 	620SZ	G223_JH	Brondi 620 SZ	0
@@ -14936,6 +14941,7 @@ HUAVI
 	SH_700	GOLD_77	=	0
 HUGEROCK
 	E101_EEA	E101	=	0
+	H-Smart-H61	H61-5G-M60	H-Smart	0
 	H8	=	=	0
 	H81	H81-M50	~	0
 	T-Smart	H81-4G-M45	~	0
@@ -20267,6 +20273,7 @@ Iris
 	IRIS 4K Android TV	SW4H_FF	~	2
 	IRIS 4K Smart TV Lite	katehaki	~	2
 	IRIS 4K Smart TV Plus	anaheim	~	2
+	IRIS 4K Smart TV Plus	sapporo	~	2
 	IRIS 4K SmartTV	SW6H	~	0
 	IRIS 4K SmartTV	eleonas	~	0
 	IRIS 4K SmartTV FF	SW6H	~	0
@@ -30295,6 +30302,8 @@ NOVATAB
 	T10	NOVAT-10	=	0
 NOVOJOY
 	NV10	=	=	0
+NOW Express
+	B866V6M1 Express	B866V6M1_Express	~	0
 NOWADA
 	NWD_G5	G5	~	0
 NOWO
@@ -34389,6 +34398,7 @@ Philips
 	Philips S8325	Philips_S8325	~	0
 	Philips Smart 2K TV	beomil	~	2
 	Philips Smart 4K TV	eleonas	~	2
+	Philips Smart 4K TV NF	eleonas	~	2
 	Philips SmartTV	freesia	PHILIPS 4K TV	2
 	Philips SmartTV	freesia	PHILIPS 4k TV	2
 	Philips V787	Philips_Xenium_V787	Philips Xenium V787	0
@@ -37544,6 +37554,7 @@ Ruio
 	S5521	=	=	0
 	S5521Q	S5521	Orange Kova one	0
 	S5521Q	S5521	=	0
+	S6209	=	=	0
 	S6501	=	=	0
 	S6506	=	=	0
 	S6528	=	=	0
@@ -42025,6 +42036,7 @@ Samsung
 	心系天下 三星 W25	q6aq	SM-W9025	0
 	心系天下 三星 W25 Flip	b6q	SM-W7025	0
 	心系天下 三星 W26	q7q	SM-W9026	0
+	心系天下 三星 W27	q8q	SM-W9027	0
 	领世旗舰8	venenoltechn	SM-G9298	0
 Samtech
 	MID_M1023	=	MID_M10	0
@@ -44793,6 +44805,7 @@ Sunmi
 	V3	=	=	0
 	V3 MIX	V3_MIX	V3_MIX_EDLA_GL	0
 	V3 PLUS	V3_PLUS	=	0
+	V3_A16	=	=	0
 Sunny
 	SN01DNGL300	YQB	~	0
 	SN10016	=	=	0
@@ -47278,6 +47291,7 @@ TOYIN
 TPLAY
 	Telecentro 4K	SEI800TCT	~	0
 	Telecentro 4K	SEID00TCT	Telecentro 4K S2	0
+	Telecentro 4K Z1	B866V6NT_Telecentro	~	0
 TPS
 	ALTAB08	=	=	0
 	K1091F	=	=	0
@@ -47447,6 +47461,7 @@ TeachmintX
 Teachmint_X
 	Teachmint_X	IIP	~	0
 	Teachmint_XC	=	=	0
+	Teachmint_X_L	=	=	0
 Tech 4u
 	Aqua	=	=	0
 	Earth	=	=	0
@@ -51846,6 +51861,7 @@ Vodafone
 	Vodafone Smart mini 7 ve dual	U3_3G	VFD 311	0
 	Vodafone TV	uiw4030vha	~	2
 	Vodafone TV 3	m377_vf	~	2
+	Vodafone TV Hub	vf_stb_z04_4	~	2
 Voger
 	X100	=	=	0
 	X100_EEA	=	=	0
@@ -53098,6 +53114,7 @@ XPPen
 	XPPen_Magic_Drawing_Pad	Titan_XPPen	MagicDrawingPad	0
 	XPPen_Magic_Drawing_Pad_RU	Titan_XPPen	MagicDrawingPad	0
 XREAL
+	Aura	axrpuck	Android XR Puck	0
 	Beam Pro	X4000	=	0
 XTRA
 	XT1	=	=	0
@@ -53601,6 +53618,8 @@ Xtreme
 	Xtreme 2K Smart TV	umeda	~	2
 	Xtreme 4K Smart TV	SW6H	~	2
 	Xtreme 4K Smart TV FF	SW6H	~	2
+XuanPad
+	RD-811	coorg	~	0
 Xwave
 	Xpad	=	Xpad_M9_3G	0
 YASHI
@@ -57260,6 +57279,8 @@ mirarel
 	16MBTW+	ksr	mirarel JTB Google TV	2
 moderness.online
 	TK807	=	=	0
+momentplus
+	PAD001	=	=	0
 myAvro
 	myAvro A1	Agate	A1	0
 myBoard
