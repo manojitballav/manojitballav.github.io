@@ -8394,6 +8394,7 @@ DAIYU
 DAMASCO
 	DAMASCO	dawu	4K SMART TV	2
 	DAMASCO MOBILE SERIE M-300 VISION	SERIE_M_300	=	0
+	MC200	=	=	0
 	MC400	=	=	0
 	SERIE_M_100	=	=	0
 	SERIE_M_200	=	=	0
@@ -10350,6 +10351,7 @@ ECOPAD
 	A30L1_US	A30L1	E30-A	0
 	A30Pro_A	=	=	0
 	A30Pro_A_EEA	A30Pro_A	=	0
+	A30Pro_A_US	A30Pro_A	=	0
 	A30Pro_A_US	A30Pro_A	~	0
 	C30plus	=	=	0
 	C30plus_EEA	C30plus	=	0
@@ -12960,6 +12962,8 @@ General Motors
 	VCU	burmese	GM Infotainment System	6
 	VCU	burmese	Premium Infotainment System	6
 	VCU	burmese	=	6
+GeneralLuxe
+	GLF27	=	=	0
 GeneralMobile
 	E-Tab10	blue_eye	~	0
 GeneralSupreme
@@ -13020,6 +13024,7 @@ Gevo
 	Gevo E10	E10	GEVO E10	0
 	Gevo V20	V20	Gevo S6801	0
 	V10	Gevo_V10	~	0
+	V30	=	=	0
 Gfast
 	MD_97_S464A	=	=	0
 Ghia
@@ -13435,6 +13440,7 @@ GoClever
 	Quantum 500 STEEL	FQ_500R	Quantum_500_STEEL	0
 	TQ700/QUANTUM 700/TAB	TQ700	=	1
 GoMo
+	GoMo N22	S6516LA	S6516L	0
 	GoMo N22	S6518LA	S6518L	0
 	N11	S5506LA	S5506L	0
 	S6712L	S6712LA	~	0
@@ -15374,6 +15380,7 @@ Helio
 	helio_45	=	helio 45	0
 	helio_55	=	helio 55	0
 	helio_62	=	helio 62	0
+	helio_63	=	helio 63	0
 	helio_65	=	helio 65	0
 HelloPro
 	A900	=	=	0
@@ -24565,6 +24572,7 @@ Lava
 	R3	=	=	0
 	R3 Prime	iris90	=	0
 	Shark 2 5G	LXX528	LAVA LXX528	0
+	Shark 3 5G	LXX532	LAVA LXX532	0
 	Smart 4	LZG414	LAVA LZG414	0
 	T101	LTN10RT	=	0
 	T101	=	=	0
@@ -26914,6 +26922,7 @@ Mascom
 	Mascom_L850	=	=	0
 	Mascom_S750	=	Mascom S750	0
 Mason
+	MDM350A	=	MDM350	0
 	MDQ300	MDQ300A	~	0
 	MGQ300	MGQ300A	~	0
 Maspower
@@ -28048,6 +28057,8 @@ Mito
 	Smart TV	mateo	2K PA Smart TV	2
 	T5091A	MITO_A16	MITO A16	0
 	T8	=	=	0
+Mivi
+	MVNOE	=	=	0
 MoT(Mobility Technologies)
 	S22-8A	=	=	0
 Mobell
@@ -28344,6 +28355,7 @@ Mobiwire
 	Cygnus	Cygnus45	=	0
 	Cygnus mini	Cygnus_mini	~	0
 	Cygnus mini	Cygnus_mini	=	0
+	GH6032	=	H6032	0
 	GH6733	=	H6733	0
 	H	Halona	=	0
 	H5111	=	=	0
@@ -31112,6 +31124,7 @@ Nuu
 	N22	S6010LA	S6010L	0
 	N22	S6516LA	S6516L	0
 	N22	S6518LA	S6518L	0
+	N22	S6712LA	S6712L	0
 	N30	S6704LA	S6704L	0
 	N4L	=	=	0
 	N5L	=	=	0
@@ -31288,6 +31301,7 @@ OMIX
 	X700	=	OMIX X700	0
 	X700	=	=	0
 OMMI
+	OMMI_A08	=	=	0
 	OMMI_A17S	=	OMMI A17S	0
 ONDA TLC
 	T7 Pro	T7_PRO	=	0
@@ -31577,6 +31591,7 @@ Ollee
 	XT080	=	=	0
 Olternix
 	Olternix_A11	=	=	0
+	Olternix_A16	=	=	0
 Olvy
 	CH10PLUS	=	=	0
 Olympia
@@ -35564,6 +35579,7 @@ Pritom
 	L10_001	=	L10	0
 	L10_001_EEA	L10_001	L10	0
 	L10_001_USA	L10_001	L10	0
+	L10_005	=	L10	0
 	L10_EEA	=	=	0
 	L10_PRO	=	=	0
 	L10_PRO_EEA	=	=	0

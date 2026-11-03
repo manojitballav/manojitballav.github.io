@@ -1,114 +1,90 @@
 {
-  "lastUpdated": "2026-11-02",
-  "newDevicesCount": 18,
+  "lastUpdated": "2026-11-03",
+  "newDevicesCount": 14,
   "newDevices": [
     [
-      "Ainmel",
-      "KB1001T_G",
-      "KB1001T",
-      "KB1001T"
+      "DAMASCO",
+      "MC200",
+      "MC200",
+      "MC200"
     ],
     [
-      "Ainmel",
-      "KB1001T_US",
-      "KB1001T",
-      "KB1001T"
+      "ECOPAD",
+      "A30Pro_A_US",
+      "A30Pro_A",
+      "A30Pro_A"
     ],
     [
-      "Akai",
-      "AKAI FF",
-      "eleonas",
-      "AKAI FF"
+      "GeneralLuxe",
+      "GLF27",
+      "GLF27",
+      "GLF27"
     ],
     [
-      "Akai",
-      "AKAI",
-      "eleonas",
-      "AKAI"
+      "Gevo",
+      "V30",
+      "V30",
+      "V30"
     ],
     [
-      "Bro(SZ)",
-      "Bro_s_II",
-      "Bro_s_II",
-      "Bro_s_II"
+      "GoMo",
+      "GoMo N22",
+      "S6516LA",
+      "S6516L"
     ],
     [
-      "HUGEROCK",
-      "H-Smart-H61",
-      "H61-5G-M60",
-      "H-Smart"
+      "Helio",
+      "helio_63",
+      "helio_63",
+      "helio 63"
     ],
     [
-      "Iris",
-      "IRIS 4K Smart TV Plus",
-      "sapporo",
-      "IRIS 4K Smart TV Plus"
+      "Lava",
+      "Shark 3 5G",
+      "LXX532",
+      "LAVA LXX532"
     ],
     [
-      "NOW Express",
-      "B866V6M1 Express",
-      "B866V6M1_Express",
-      "B866V6M1 Express"
+      "Mason",
+      "MDM350A",
+      "MDM350A",
+      "MDM350"
     ],
     [
-      "Philips",
-      "Philips Smart 4K TV NF",
-      "eleonas",
-      "Philips Smart 4K TV NF"
+      "Mivi",
+      "MVNOE",
+      "MVNOE",
+      "MVNOE"
     ],
     [
-      "Ruio",
-      "S6209",
-      "S6209",
-      "S6209"
+      "Mobiwire",
+      "GH6032",
+      "GH6032",
+      "H6032"
     ],
     [
-      "Samsung",
-      "心系天下 三星 W27",
-      "q8q",
-      "SM-W9027"
+      "Nuu",
+      "N22",
+      "S6712LA",
+      "S6712L"
     ],
     [
-      "Sunmi",
-      "V3_A16",
-      "V3_A16",
-      "V3_A16"
+      "OMMI",
+      "OMMI_A08",
+      "OMMI_A08",
+      "OMMI_A08"
     ],
     [
-      "TPLAY",
-      "Telecentro 4K Z1",
-      "B866V6NT_Telecentro",
-      "Telecentro 4K Z1"
+      "Olternix",
+      "Olternix_A16",
+      "Olternix_A16",
+      "Olternix_A16"
     ],
     [
-      "Teachmint_X",
-      "Teachmint_X_L",
-      "Teachmint_X_L",
-      "Teachmint_X_L"
-    ],
-    [
-      "Vodafone",
-      "Vodafone TV Hub",
-      "vf_stb_z04_4",
-      "Vodafone TV Hub"
-    ],
-    [
-      "XREAL",
-      "Aura",
-      "axrpuck",
-      "Android XR Puck"
-    ],
-    [
-      "XuanPad",
-      "RD-811",
-      "coorg",
-      "RD-811"
-    ],
-    [
-      "momentplus",
-      "PAD001",
-      "PAD001",
-      "PAD001"
+      "Pritom",
+      "L10_005",
+      "L10_005",
+      "L10"
     ]
   ]
 }
