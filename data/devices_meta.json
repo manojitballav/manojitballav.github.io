@@ -1,90 +1,66 @@
 {
-  "lastUpdated": "2026-11-03",
-  "newDevicesCount": 14,
+  "lastUpdated": "2026-11-04",
+  "newDevicesCount": 10,
   "newDevices": [
     [
-      "DAMASCO",
-      "MC200",
-      "MC200",
-      "MC200"
+      "BMobile",
+      "ROCKET_A1",
+      "Bmobile_ROCKET_A1",
+      "ROCKET_A1"
     ],
     [
-      "ECOPAD",
-      "A30Pro_A_US",
-      "A30Pro_A",
-      "A30Pro_A"
+      "Hiking",
+      "PAD_PRO_1",
+      "PAD_PRO_1",
+      "PAD_PRO_1"
     ],
     [
-      "GeneralLuxe",
-      "GLF27",
-      "GLF27",
-      "GLF27"
+      "Hyundai",
+      "HT10WC1MSG03_US",
+      "HT10WC1MSG03_US",
+      "10WC1"
     ],
     [
-      "Gevo",
-      "V30",
-      "V30",
-      "V30"
-    ],
-    [
-      "GoMo",
-      "GoMo N22",
-      "S6516LA",
-      "S6516L"
-    ],
-    [
-      "Helio",
-      "helio_63",
-      "helio_63",
-      "helio 63"
-    ],
-    [
-      "Lava",
-      "Shark 3 5G",
-      "LXX532",
-      "LAVA LXX532"
+      "Ifinex",
+      "S26_Ultra_Max",
+      "S26_Ultra_Max",
+      "S26 Ultra Max"
     ],
     [
       "Mason",
-      "MDM350A",
-      "MDM350A",
-      "MDM350"
+      "MDM250A",
+      "MDM250A",
+      "MDM250"
     ],
     [
-      "Mivi",
-      "MVNOE",
-      "MVNOE",
-      "MVNOE"
+      "Motorola",
+      "motorola signature 27",
+      "wukong",
+      "motorola signature 27"
     ],
     [
-      "Mobiwire",
-      "GH6032",
-      "GH6032",
-      "H6032"
+      "Motorola",
+      "motorola signature 27",
+      "wukong",
+      "motorola signature"
     ],
     [
-      "Nuu",
-      "N22",
-      "S6712LA",
-      "S6712L"
+      "Relndoo",
+      "TB02_Y_US",
+      "TB02_Y_US",
+      "TB02"
     ],
     [
-      "OMMI",
-      "OMMI_A08",
-      "OMMI_A08",
-      "OMMI_A08"
+      "Sharp",
+      "4T-**S7A/X7A/X5A, 4T-48S9A",
+      "tcmar3uj",
+      "AQUOS-4KTVJ26-2"
     ],
     [
-      "Olternix",
-      "Olternix_A16",
-      "Olternix_A16",
-      "Olternix_A16"
-    ],
-    [
-      "Pritom",
-      "L10_005",
-      "L10_005",
-      "L10"
+      "Ulefone",
+      "Armor X32",
+      "GQ5021RH3",
+      "Armor X32"
     ]
   ]
 }

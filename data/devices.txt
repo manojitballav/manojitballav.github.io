@@ -4181,6 +4181,7 @@ BMobile
 	ORBIT_67	Bmobile_ORBIT_67_TG06	ORBIT_67_TG06	0
 	ORBIT_MAX	Bmobile_ORBIT_MAX	~	0
 	ORION_TG05	Bmobile_ORION_TG05	~	0
+	ROCKET_A1	Bmobile_ROCKET_A1	~	0
 	Speed 5	Bmobile_SPEED5	~	0
 	T70	Bmobile_T70	=	0
 	ULTRA S	Bmobile_ULTRA_S_MV03	ULTRA_S	0
@@ -15483,6 +15484,7 @@ Hiking
 	KIDS_1	=	=	0
 	P16_TU	=	P16	0
 	P16_TU	=	=	0
+	PAD_PRO_1	=	=	0
 	Rugged S2	Rugged_S2	~	7
 	Rugged_S1	=	Rugged S1	7
 Hillpos
@@ -18790,6 +18792,7 @@ Hyundai
 	HT10WC1MSG01_EEA	HT10WC1MSG01	10WC1	0
 	HT10WC1MSG01_US	HT10WC1MSG01	10WC1	0
 	HT10WC1MSG03	=	10WC1	0
+	HT10WC1MSG03_US	=	10WC1	0
 	HT7GB1MBK_	=	7GB1	0
 	HT7WB1RBK	=	=	0
 	HT7WC1PBK	=	=	0
@@ -19343,6 +19346,8 @@ Ice Phone
 	Mini	ice_phone_mini	Ice-Phone Mini	0
 Icon
 	Portal_10i	=	NTMC17	0
+Ifinex
+	S26_Ultra_Max	=	S26 Ultra Max	0
 IguanaPad
 	XM14G	=	=	0
 Ikimobile
@@ -26922,6 +26927,7 @@ Mascom
 	Mascom_L850	=	=	0
 	Mascom_S750	=	Mascom S750	0
 Mason
+	MDM250A	=	MDM250	0
 	MDM350A	=	MDM350	0
 	MDQ300	MDQ300A	~	0
 	MGQ300	MGQ300A	~	0
@@ -29449,6 +29455,8 @@ Motorola
 	motorola razr ultra 2026	lhotse	~	0
 	motorola signature	vantage	motorola edge 50 ultra	0
 	motorola signature	vantage	~	0
+	motorola signature 27	wukong	motorola signature	0
+	motorola signature 27	wukong	~	0
 Motorola Solutions
 	EVOLVE	=	=	0
 	LEX F10	LEXF10	~	0
@@ -37325,6 +37333,7 @@ Relndoo
 	TB02_Pro_EEA	=	TB02	0
 	TB02_ROW	=	TB02	0
 	TB02_US	=	TB02	0
+	TB02_Y_US	=	TB02	0
 Remdun
 	RD-52	RD52	=	0
 	RD115MQ	=	=	0
@@ -42314,7 +42323,7 @@ Sharp
 	2T-C50BG1X	meguro	AQUOS-TVX19C	2
 	306SH	SG306SH	~	0
 	401SH	SG401SH	~	0
-	4T-**S7A/X7A	tcmar3uj	AQUOS-4KTVJ26-2	2
+	4T-**S7A/X7A/X5A, 4T-48S9A	tcmar3uj	AQUOS-4KTVJ26-2	2
 	4T-**S9A/X9A	tcmar3uj	AQUOS-4KTVJ26-1	2
 	4T-C**AM1/AN1/AL1, 8T-C**AX1/AW1	tcsu2uj	AQUOS-TVJ18	2
 	4T-C**AM1/AN1/AL1,8T-C**AX1/AW1	tcsu2uj	AQUOS-TVJ18	2
@@ -49396,6 +49405,7 @@ Ulefone
 	Armor X31	GQ5015RH1	~	0
 	Armor X31 Pro	GQ5015AH1	~	0
 	Armor X32	GQ5021RH1	~	0
+	Armor X32	GQ5021RH3	~	0
 	Armor X32 Pro	GQ5021AH1	~	0
 	Armor X33 Pro	GQ5020BH1	Armor X16 Pro	0
 	Armor X5	Armor_X5_Q	~	0
