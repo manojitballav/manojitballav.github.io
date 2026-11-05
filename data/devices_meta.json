@@ -1,66 +1,102 @@
 {
-  "lastUpdated": "2026-11-04",
-  "newDevicesCount": 10,
+  "lastUpdated": "2026-11-05",
+  "newDevicesCount": 16,
   "newDevices": [
     [
-      "BMobile",
-      "ROCKET_A1",
-      "Bmobile_ROCKET_A1",
-      "ROCKET_A1"
+      "Cubot",
+      "KINGKONG 13",
+      "KINGKONG_13",
+      "KINGKONG 13"
     ],
     [
-      "Hiking",
-      "PAD_PRO_1",
-      "PAD_PRO_1",
-      "PAD_PRO_1"
+      "DAMASCO",
+      "MC300",
+      "MC300",
+      "MC300"
     ],
     [
-      "Hyundai",
-      "HT10WC1MSG03_US",
-      "HT10WC1MSG03_US",
-      "10WC1"
+      "FOXX",
+      "FOXXD A67X",
+      "BGO",
+      "A67X"
     ],
     [
-      "Ifinex",
-      "S26_Ultra_Max",
-      "S26_Ultra_Max",
-      "S26 Ultra Max"
+      "HYMA",
+      "HYMA A10",
+      "PNX",
+      "HYMA A10"
     ],
     [
-      "Mason",
-      "MDM250A",
-      "MDM250A",
-      "MDM250"
+      "Hotwav",
+      "Cyber 19 Pro",
+      "Cyber_19_Pro",
+      "Cyber 19 Pro"
     ],
     [
-      "Motorola",
-      "motorola signature 27",
-      "wukong",
-      "motorola signature 27"
+      "Nuu",
+      "Tab 9",
+      "T0871WA",
+      "T0871W"
     ],
     [
-      "Motorola",
-      "motorola signature 27",
-      "wukong",
-      "motorola signature"
+      "Orange",
+      "DV9651-OFR",
+      "DV9651-OFR",
+      "DV9651-OFR"
     ],
     [
-      "Relndoo",
-      "TB02_Y_US",
-      "TB02_Y_US",
-      "TB02"
+      "Orange",
+      "DV9651-OFRBYC",
+      "DV9651-OFRBYC",
+      "DV9651-OFRBYC"
+    ],
+    [
+      "PrimeTab",
+      "PrimeTabP11",
+      "PrimeTab",
+      "PrimeTabP11"
+    ],
+    [
+      "Primebook",
+      "PB1380_US",
+      "PB1380",
+      "Primebook Duo Max"
     ],
     [
       "Sharp",
-      "4T-**S7A/X7A/X5A, 4T-48S9A",
-      "tcmar3uj",
-      "AQUOS-4KTVJ26-2"
+      "4T-C**HP1/HS1/HQ1/HV1, 4T-C65HN2, 4T-65L51A",
+      "tcmar2uj",
+      "AQUOS-4KTVJ25-1"
     ],
     [
-      "Ulefone",
-      "Armor X32",
-      "GQ5021RH3",
-      "Armor X32"
+      "Sharp",
+      "4T-C**HP2/HQ2/HN2, 4T-**L51A",
+      "tcmar2uj",
+      "AQUOS-4KTVJ25-2"
+    ],
+    [
+      "Strong",
+      "LEAP-S4",
+      "DAD",
+      "UHD Streaming STB"
+    ],
+    [
+      "Symphony",
+      "MAX 20",
+      "MAX_20",
+      "MAX 20"
+    ],
+    [
+      "TCT (Alcatel)",
+      "Alcatel A83 5G",
+      "Primrose",
+      "A801M"
+    ],
+    [
+      "Teclast",
+      "M60_B_ROW",
+      "M60_B_ROW",
+      "M60_B_ROW"
     ]
   ]
 }
