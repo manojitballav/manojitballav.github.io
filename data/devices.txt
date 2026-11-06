@@ -6370,6 +6370,7 @@ COLORROOM
 	T30E	=	=	0
 	W70	=	=	0
 COMBUSTECH
+	BCQ_IFPD	COMBUS_IFPD	COMBUS_IB4	0
 	COMBUSTECH-IFPD	oversea_v	COMBUS_IB2	0
 	COMBUSTECH-IFPD	rk3588_t	COMBUS_IB	0
 	COMBUS_IB3	=	=	0
@@ -28385,6 +28386,7 @@ Mobiwire
 	H6682	=	=	0
 	H6682_VDC_TZ	H6682	~	0
 	H6733	GH6733	~	0
+	H6733	GH6733_C	~	0
 	H6733 Pro	GH6733	~	0
 	H67A1	=	=	0
 	H6821	=	=	0
@@ -28417,6 +28419,7 @@ Mobiwire
 	Moov Smart Max	H67A1	~	0
 	ONE	H5032U	~	0
 	Pegasus	=	=	0
+	Rodiall	H6733Pro	H6733 Pro	0
 	S26	H5112	~	0
 	S4040	=	=	0
 	SEUIC	H6033	=	0
@@ -29196,6 +29199,7 @@ Motorola
 	moto g37 M-51G	M-51G	=	0
 	moto g37 power	sydnyl	moto g - 2025	0
 	moto g37 power	sydnyl	~	0
+	moto g37j	sydney	~	0
 	moto g40 fusion	hanoip	moto g(40) fusion	0
 	moto g41	corfu	~	0
 	moto g41	corfu	motorola	0
@@ -29522,6 +29526,8 @@ Movistar
 	Jappy_Kids	=	=	0
 	Telefonica ATV	vip5242a	VIP5242A	0
 Movitel
+	M5941	=	=	0
+	M5942	=	=	0
 	M8414	Movitel_M8414	~	0
 	M8415	=	=	0
 	M8416	=	=	0
@@ -33059,6 +33065,8 @@ Oukitel
 	OT5_EEA	OT5	=	0
 	OT5_S_EEA	OT5_S	OT5 S	0
 	OT5_S_V_EEA	OT5_S	OT5 S	0
+	OT6_Air_Kids_ROW	OT6_Air_Kids	OT6 Air Kids	0
+	OT6_Air_ROW	OT6_Air	OT6 Air	0
 	OT6_EEA	OT6	=	0
 	OT6_Kids_EEA	OT6_Kids	OT6 Kids	0
 	OT6_Pro_EEA	OT6_Pro	OT6 Pro	0
@@ -35707,6 +35715,7 @@ Pritom
 	M10_C12_Kids_EEA	=	M10	0
 	M10_C12_Kids_USA	=	M10	0
 	M10_C12_USA	=	M10	0
+	M10_C13	=	M10	0
 	M10_C13	=	=	0
 	M10_Lite	=	=	0
 	M10_Max	=	=	0
@@ -47341,6 +47350,7 @@ TPS
 	S50	=	BT-S50	0
 	SMART Sprint	SMARTSprint	~	0
 	SZTPS	A101	=	0
+	SZTPS	A101	P98	0
 	TPS-SC10	=	=	0
 TREQ
 	SmarTab-8	=	=	0
@@ -48184,6 +48194,7 @@ Tecno
 	TECNO CAMON 50 Pro 5G	TECNO-CN7c	TECNO CN7c	0
 	TECNO CAMON 50 Ultra 5G	TECNO-CN7c	TECNO CN7c	0
 	TECNO CAMON Slim	TECNO-CN6c	TECNO CN6c	0
+	TECNO CAMON Slim 5G	TECNO-CN6	TECNO CN6	0
 	TECNO CAMON Slim/Air	TECNO-CN6c	TECNO CN6c	0
 	TECNO CAMON iACE 2	TECNO-KB2	TECNO KB2	0
 	TECNO CAMON iACE 2x	TECNO-KB2j	TECNO KB2j	0
@@ -58165,6 +58176,7 @@ vivo
 	Y600i AI版	PD2617	V2617A	0
 	Y600i m版	PD2617	V2617A	0
 	Y600k Turbo	PD2553	V2553A	0
+	Y600s Pro AI版	PD2561	V2561A	0
 	Y60c	PD2542	V2542A	0
 	Y60e	PD2542	V2542A	0
 	Y60e AI版	PD2542	V2542A	0
