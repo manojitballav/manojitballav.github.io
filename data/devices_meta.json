@@ -1,78 +1,12 @@
 {
-  "lastUpdated": "2026-11-06",
-  "newDevicesCount": 12,
+  "lastUpdated": "2026-11-08",
+  "newDevicesCount": 1,
   "newDevices": [
     [
-      "COMBUSTECH",
-      "BCQ_IFPD",
-      "COMBUS_IFPD",
-      "COMBUS_IB4"
-    ],
-    [
-      "Mobiwire",
-      "H6733",
-      "GH6733_C",
-      "H6733"
-    ],
-    [
-      "Mobiwire",
-      "Rodiall",
-      "H6733Pro",
-      "H6733 Pro"
-    ],
-    [
-      "Motorola",
-      "moto g37j",
-      "sydney",
-      "moto g37j"
-    ],
-    [
-      "Movitel",
-      "M5941",
-      "M5941",
-      "M5941"
-    ],
-    [
-      "Movitel",
-      "M5942",
-      "M5942",
-      "M5942"
-    ],
-    [
-      "Oukitel",
-      "OT6_Air_Kids_ROW",
-      "OT6_Air_Kids",
-      "OT6 Air Kids"
-    ],
-    [
-      "Oukitel",
-      "OT6_Air_ROW",
-      "OT6_Air",
-      "OT6 Air"
-    ],
-    [
-      "Pritom",
-      "M10_C13",
-      "M10_C13",
-      "M10"
-    ],
-    [
-      "TPS",
-      "SZTPS",
-      "A101",
-      "P98"
-    ],
-    [
-      "Tecno",
-      "TECNO CAMON Slim 5G",
-      "TECNO-CN6",
-      "TECNO CN6"
-    ],
-    [
-      "vivo",
-      "Y600s Pro AI版",
-      "PD2561",
-      "V2561A"
+      "Zuum",
+      "MAGNO P4",
+      "MAGNO_P4_I",
+      "MAGNO P4"
     ]
   ]
 }
