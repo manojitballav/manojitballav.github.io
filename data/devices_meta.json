@@ -1,12 +1,168 @@
 {
-  "lastUpdated": "2026-11-08",
-  "newDevicesCount": 1,
+  "lastUpdated": "2026-11-09",
+  "newDevicesCount": 27,
   "newDevices": [
     [
-      "Zuum",
-      "MAGNO P4",
-      "MAGNO_P4_I",
-      "MAGNO P4"
+      "Blu",
+      "View Speed Ultra 5G",
+      "B1661R",
+      "B1661R"
+    ],
+    [
+      "CORN",
+      "CPadPro13",
+      "CPadPro13",
+      "CPadPro13"
+    ],
+    [
+      "CORNEA",
+      "CORTB_04",
+      "CORTB_04",
+      "CORTB_04"
+    ],
+    [
+      "Crosscall",
+      "XR Smart",
+      "L790",
+      "AD-C3"
+    ],
+    [
+      "Dangbei",
+      "D7 Pro",
+      "munnar",
+      "DBD05A"
+    ],
+    [
+      "Dangbei",
+      "D7",
+      "karjat",
+      "DBD04A"
+    ],
+    [
+      "GeoPhone",
+      "geo_S8",
+      "geo_S8",
+      "Geo S8"
+    ],
+    [
+      "Hiking",
+      "PAD_1",
+      "PAD_1",
+      "PAD_1"
+    ],
+    [
+      "KUMI",
+      "KM-TC02_ROW",
+      "KM-TC02",
+      "HONOR CHOICE Pad 3"
+    ],
+    [
+      "KUMI",
+      "KM-TC02_RU",
+      "KM-TC02",
+      "HONOR CHOICE Pad 3"
+    ],
+    [
+      "NIS(NWTF)",
+      "TK-P617",
+      "TK-P617",
+      "TK-P617"
+    ],
+    [
+      "Teclast",
+      "P50T_BC_ROW",
+      "P50T_BC_ROW",
+      "P50T"
+    ],
+    [
+      "Teclast",
+      "P50_YB_EEA",
+      "P50_YB",
+      "P50_YB"
+    ],
+    [
+      "XGIMI",
+      "Elfin Flip Plus",
+      "meghamalai",
+      "WK03C"
+    ],
+    [
+      "XGIMI",
+      "Elfin Flip Pro",
+      "meghamalai",
+      "WM04R"
+    ],
+    [
+      "XGIMI",
+      "MoGo 4 Laser",
+      "karjat",
+      "WK03K"
+    ],
+    [
+      "XGIMI",
+      "MoGo 4",
+      "karjat",
+      "WK08K"
+    ],
+    [
+      "XGIMI",
+      "XGIMI Vibe One (Battery Powered)",
+      "meghamalai",
+      "WM03H"
+    ],
+    [
+      "Xiaomi",
+      "Xiaomi Pad 8 Pro",
+      "piano",
+      "25091RP04G"
+    ],
+    [
+      "Xiaomi",
+      "Xiaomi Pad 8",
+      "yupei",
+      "25097RP43G"
+    ],
+    [
+      "Xiaomi",
+      "Xiaomi Pad 8",
+      "yupei",
+      "25097RP43I"
+    ],
+    [
+      "Xiaomi",
+      "Xiaomi Pad 9 Pro",
+      "shuntian",
+      "2612CRPFFC"
+    ],
+    [
+      "Xiaomi",
+      "Xiaomi Pad 9",
+      "yupei",
+      "M656BA"
+    ],
+    [
+      "edu-africa",
+      "eduafrica2026",
+      "eduafrica2026",
+      "bnd"
+    ],
+    [
+      "edu-africa",
+      "eduafrica2026",
+      "eduafrica2026",
+      "edu-africa2026"
+    ],
+    [
+      "fezawio",
+      "F11_C",
+      "F11_C",
+      "F11_C"
+    ],
+    [
+      "iMuz",
+      "IM-S291",
+      "IM-S291",
+      "IM-S291"
     ]
   ]
 }

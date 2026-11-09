@@ -5783,6 +5783,7 @@ Blu
 	VIVO XI	V0330WW	Vivo XI	0
 	VIVO XL	BLU_VIVO_XL	~	0
 	View 5 Pro	B170D	=	0
+	View Speed Ultra 5G	B1661R	=	0
 	View Speed Ultra 5G	B1661V	=	0
 	Vivo 12 Pro	V0670LL	~	0
 	Vivo 5 Mini	Vivo_5_Mini	~	0
@@ -6441,6 +6442,7 @@ CORN
 	CORN_R10	=	CORN R10	0
 	CORN_X5	=	CORN X5	0
 	CORN_X55	=	CORN X55	0
+	CPadPro13	=	=	0
 	CPhone17ProMax4G	=	CPhone17 Pro Max 4G	0
 	ClassyS26Ultra4G	=	=	0
 	Coco10_Ultra_4G	=	=	0
@@ -6478,6 +6480,7 @@ CORN
 	X60	X60S	~	0
 	Y60	=	=	0
 CORNEA
+	CORTB_04	=	=	0
 	IS_IFPSeries_65	IS_Panel	IS_IFPSeries	0
 COSMIQ
 	COSMIQ IFP Series	COSMIQ_IFP_Series	=	0
@@ -8167,7 +8170,6 @@ Crosscall
 	27409-1	=	=	0
 	AD-C1	L790	~	0
 	AD-C2	L790	~	0
-	AD-C3	L790	~	0
 	Action-X3	HS8937QC	ACTION-X3	0
 	Action-X3	HS8937QC	~	0
 	Action-X3	HS8937QC	Action-X3 Pro	0
@@ -8198,6 +8200,7 @@ Crosscall
 	TREKKER-M1 CORE	HS8909QC	~	0
 	Trekker- M1	HS8916QC	Trekker-M1	0
 	Trekker- X4	HSSDM660QC	Trekker-X4	0
+	XR Smart	L790	AD-C3	0
 CrownHeights
 	8inchDigitalTablet	CROWNTAB8	=	0
 CryptoDATA
@@ -9023,6 +9026,8 @@ Danew
 Danew_Talla
 	Dslide_1095ml	=	=	0
 Dangbei
+	D7	karjat	DBD04A	4
+	D7 Pro	munnar	DBD05A	4
 	DBOD02	himalaya	~	4
 	DBOX02	khandala	~	4
 	DBPADGO1	=	=	4
@@ -12991,6 +12996,7 @@ Geo (GeoTechVision)
 GeoMax
 	GeoMax Zenius08	Zenius08	GMT-08QA-2301	0
 GeoPhone
+	geo_S8	=	Geo S8	0
 	geo_s7	geo_S7	Geo S7	0
 	geo_s9	geo_S9	Geo S9	0
 Geoelectron
@@ -15490,6 +15496,7 @@ Hiking
 	KIDS_1	=	=	0
 	P16_TU	=	P16	0
 	P16_TU	=	=	0
+	PAD_1	=	=	0
 	PAD_PRO_1	=	=	0
 	Rugged S2	Rugged_S2	~	7
 	Rugged_S1	=	Rugged S1	7
@@ -21684,6 +21691,8 @@ KUBIK
 	KUBIK_GENTA_10	=	=	0
 KUMI
 	KM-TC02_EEA	KM-TC02	HONOR CHOICE Pad 3	1
+	KM-TC02_ROW	KM-TC02	HONOR CHOICE Pad 3	1
+	KM-TC02_RU	KM-TC02	HONOR CHOICE Pad 3	1
 KUNFT
 	K5130H43U	samseong	AI PONT	2
 	K5132H32H	ikebukuro	AI PONT	2
@@ -30298,6 +30307,7 @@ NIO
 	N2401	picasso	~	0
 NIS(NWTF)
 	Hi10_XPro_ROW	=	Hi10_XPro	0
+	TK-P617	=	=	0
 NISATO
 	R3	=	=	0
 	R4	=	=	0
@@ -47777,6 +47787,7 @@ Teclast
 	P50Mini_ROW	=	=	0
 	P50S_EEA	=	P50S	0
 	P50S_ROW	=	P50S	0
+	P50T_BC_ROW	=	P50T	0
 	P50T_E_ROW	P50T_E	~	0
 	P50T_Y_EEA	P50T_Y	P50T	0
 	P50T_Y_ROW	P50T_Y	P50T	0
@@ -47789,6 +47800,7 @@ Teclast
 	P50_EEA	=	P50	0
 	P50_ROW	P50	~	0
 	P50_ROW	=	P50	0
+	P50_YB_EEA	P50_YB	=	0
 	P80T_EEA	P80T	~	0
 	P80T_ROW	P80T	~	0
 	P80T_Y_EEA	=	P80T_EEA	0
@@ -53109,6 +53121,8 @@ XGIMI
 	Elfin Flip 4K	munnar	XM03U	4
 	Elfin Flip Laser	karjat	WM03R	4
 	Elfin Flip Plus	altai	WK03C	4
+	Elfin Flip Plus	meghamalai	WK03C	4
+	Elfin Flip Pro	meghamalai	WM04R	4
 	HORIZON 20	kasol	XR13A	4
 	HORIZON 20 Max	kasol	XR16A	4
 	HORIZON 20 Pro	kasol	XR14A	4
@@ -53125,13 +53139,16 @@ XGIMI
 	MoGo 2 Pro（NEW）with battery	altai	H0053	4
 	MoGo 3 Pro	altai	G0035	4
 	MoGo 4	altai	WK08K	4
+	MoGo 4	karjat	WK08K	4
 	MoGo 4 Laser	altai	H0030	4
 	MoGo 4 Laser	altai	WK03K	4
+	MoGo 4 Laser	karjat	WK03K	4
 	MoGo Pro	xgimiapollo	~	4
 	P_FHD_2020	xgimiapollo	Mogo Pro Plus	4
 	P_FHD_2020	xgimiapollo	~	4
 	XGIMI Vibe One	altai	WM03M	4
 	XGIMI Vibe One (Battery Powered)	altai	WM03H	4
+	XGIMI Vibe One (Battery Powered)	meghamalai	WM03H	4
 	XK03H	xgimigalileo	~	4
 XHSM
 	A60_EEA	A60	=	0
@@ -53563,7 +53580,12 @@ Xiaomi
 	Xiaomi Pad 7 Ultra	jinghu	25032RP42C	1
 	Xiaomi Pad 7S Pro 12.5	violin	25053RP5CC	1
 	Xiaomi Pad 8	yupei	25097RP43C	1
+	Xiaomi Pad 8	yupei	25097RP43G	1
+	Xiaomi Pad 8	yupei	25097RP43I	1
 	Xiaomi Pad 8 Pro	piano	25091RP04C	1
+	Xiaomi Pad 8 Pro	piano	25091RP04G	1
+	Xiaomi Pad 9	yupei	M656BA	1
+	Xiaomi Pad 9 Pro	shuntian	2612CRPFFC	1
 	Xiaomi Pad 9 Pro Max	yingtian	M367FC	1
 	Xiaomi Pad Mini	turner	25079RPDCG	1
 	Xiaomi Smart Projector L1	tianshan	C025RGN	4
@@ -56563,6 +56585,8 @@ ecom
 	Smart-Ex02	=	Smart-Ex02 RUS	0
 edu-africa
 	edu-africa2026_ROW	=	=	0
+	eduafrica2026	=	bnd	0
+	eduafrica2026	=	edu-africa2026	0
 efioo
 	efiootabn7a	=	Tab N7a	1
 elactron
@@ -56579,6 +56603,7 @@ faytech
 fezawio
 	F10_EEA	=	=	0
 	F10_US	=	=	0
+	F11_C	=	=	0
 	F11_EEA	=	=	0
 	F11_US	=	=	0
 	F11_U_US	=	F11_U	0
@@ -57028,6 +57053,7 @@ iMuz
 	IM-H842	=	=	0
 	IM-L101	=	=	0
 	IM-L801	=	=	0
+	IM-S291	=	=	0
 	IM-S881	=	=	0
 	IM-W261	=	=	0
 	IMH101	=	=	0
