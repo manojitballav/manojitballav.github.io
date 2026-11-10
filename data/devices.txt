@@ -2281,6 +2281,7 @@ Anyreal
 	P5C-AR	=	U13	0
 	P8-AR	=	Tab G6 Max	1
 	P8S-AR	=	Tab G6 Max	1
+	S2	=	=	0
 	T2-AR	=	U11	0
 	T2C-AR	=	Tab A9+	1
 	T2CS-AR	=	Tab A9 Pro+	1
@@ -2913,6 +2914,7 @@ Aspera
 	JAZZ	Jazz	=	0
 	Jazz_2	=	Jazz 2	0
 	Nitro2	=	=	0
+	Verve	=	Aspera Verve	0
 	Wren	=	=	0
 	e-Chat	=	=	0
 Astak
@@ -3759,6 +3761,7 @@ BARTEC
 	Pixavi Thermal	PixaviThermal	~	0
 BASICS
 	BT1025SS	=	=	0
+	BT1026FW	=	=	0
 	BT1124FW	=	=	0
 	BT1226SS	=	=	0
 BATMAN
@@ -6218,12 +6221,12 @@ CHAINWAY
 	C75_GL	C75	=	0
 	C90	=	=	0
 	C90A	=	=	0
-	CHAINWAY_MC80	MC80	=	0
 	MC21	=	=	0
 	MC50	=	=	0
 	MC51	=	=	0
 	MC51S	=	=	0
 	MC62	=	=	0
+	MC80	=	=	0
 	MC95	=	=	0
 	P100	=	=	0
 	P100S	=	=	0
@@ -8364,6 +8367,7 @@ Cyrus
 	CS45XA	CS45XA2	~	0
 	CS45XA_EEA	CS45XA2	~	0
 	CS45XA_EEA	=	=	0
+	CS75XA_EEA	CS75XA	=	0
 	ORSY_Controller	=	=	0
 D-Tech
 	D5L	D5-L	=	0
@@ -8826,6 +8830,7 @@ DOMATON
 DOMO
 	M90	=	=	0
 	SLP36	=	=	0
+	SSM28	=	=	0
 	Slate	=	=	1
 	Slate	=	T115G	1
 	Slate_F11	=	F11	0
@@ -18598,6 +18603,7 @@ Hublot
 	Big Bang e Gen 3	turbot	BIG BANG e Gen 3	5
 	Hublot Big Bang e	halibut	Big Bang e	5
 Huion
+	Huion_Note_E_US	Huion_Note_E	X50	0
 	KT1101	=	Kamvas Slate 11	1
 	KT1101_EEA	KT1101	Kamvas Slate 11	1
 	KT1201	=	Kamvas Slate 13	1
@@ -22651,6 +22657,7 @@ LEGEND
 	NEBULAE	=	=	0
 	X701	LEGEND_X701	~	0
 LENIX
+	LENIX MAX	LENIX_MAX	H67A2	0
 	LENIX Pro	LENIX_Pro	~	0
 	LENIX Standard	LENIX_Standard	~	0
 LEOMO
@@ -26219,6 +26226,9 @@ M-Horse
 	M_HORSE_M26	=	M26	0
 	Note 50 Pro Max	Note_50_Pro_Max	~	0
 	P1	=	=	0
+	POWER_1_Max	=	=	0
+	POWER_1_Max_RU	POWER_1_Max	=	0
+	POWER_1_Max_US	POWER_1_Max	=	0
 	Pad_17	=	=	0
 	Pad_17Pro	=	=	0
 	Pad_17ProMax	=	=	0
@@ -31057,6 +31067,7 @@ NorthTech
 	NT-P70	=	=	0
 	NT-S10	=	=	0
 Noryox
+	CommercialTerminal	=	=	0
 	Handheld-POS-EEA	Handheld-POS	=	7
 	Handheld_POS	=	NB55	0
 Nothing
@@ -32473,6 +32484,8 @@ Oppo
 	Pad 5 Pro	OP6546L1	OPD2511	1
 	Pad Air5	OP6541L1	OPD2501	1
 	Pad Air5	OP6541L1	OPD2510	1
+	Pad Air6	OP6930L1	OPD2613	1
+	Pad Air6	OP6930L1	OPD2614	1
 	Pad Mini	OP6548L1	OPD2515	1
 	Pad Mini	OP657BL1	OPD2516	1
 	Pad SE	OP6160L1	OPD2417	1
@@ -33764,6 +33777,7 @@ PRISMPLUS
 PROGRACE
 	K726	=	=	0
 PROTON
+	Dynamo	=	=	0
 	Eagle X	Proton_Eagle_X	~	0
 	Glory_i20	=	=	0
 	Glory_i30	=	=	0
@@ -35569,6 +35583,7 @@ Prime
 	X6_Pro	=	=	0
 PrimeTab
 	PrimeTabP11	PrimeTab	~	0
+	PrimeTabP9	PrimeTab	~	0
 Primebook
 	PB1310	=	Primebook Duo Pro	0
 	PB1380	=	Primebook Duo Max	0
@@ -36274,6 +36289,7 @@ RADDY
 	A-K1061PRO	=	=	0
 	RADDY_JANJA	=	R_6503	0
 	RADDY_JANJA_PRO	=	R-6502	0
+	Raddy_Aquamate	=	RADDY AQUAMATE	0
 RAINBOX
 	K90	=	=	0
 RAMTECHNOLOGY
@@ -44991,6 +45007,7 @@ Symphony
 	MAX 20	MAX_20	~	0
 	MAX 30	MAX_30	~	0
 	MAX_5	=	MAX 5	0
+	MAX_50	=	MAX 50	0
 	MAX_60	=	MAX 60	0
 	MAX_70	=	MAX 70	0
 	P11	=	=	0
@@ -56283,6 +56300,7 @@ Zuum
 	MAGNO_P1	=	MAGNO P1	0
 	MAGNO_P4	=	MAGNO P4	0
 	MAGNO_R_II	=	MAGNO R II	0
+	MAGNO_Z	=	MAGNO Z	0
 	Magno Pro	Magno_Pro	~	0
 	NOVA_10	=	=	0
 	NOVUS_PRO	=	=	0

@@ -1,168 +1,120 @@
 {
-  "lastUpdated": "2026-11-09",
-  "newDevicesCount": 27,
+  "lastUpdated": "2026-11-10",
+  "newDevicesCount": 19,
   "newDevices": [
     [
-      "Blu",
-      "View Speed Ultra 5G",
-      "B1661R",
-      "B1661R"
+      "Anyreal",
+      "S2",
+      "S2",
+      "S2"
     ],
     [
-      "CORN",
-      "CPadPro13",
-      "CPadPro13",
-      "CPadPro13"
+      "Aspera",
+      "Verve",
+      "Verve",
+      "Aspera Verve"
     ],
     [
-      "CORNEA",
-      "CORTB_04",
-      "CORTB_04",
-      "CORTB_04"
+      "BASICS",
+      "BT1026FW",
+      "BT1026FW",
+      "BT1026FW"
     ],
     [
-      "Crosscall",
-      "XR Smart",
-      "L790",
-      "AD-C3"
+      "CHAINWAY",
+      "MC80",
+      "MC80",
+      "MC80"
     ],
     [
-      "Dangbei",
-      "D7 Pro",
-      "munnar",
-      "DBD05A"
+      "Cyrus",
+      "CS75XA_EEA",
+      "CS75XA",
+      "CS75XA"
     ],
     [
-      "Dangbei",
-      "D7",
-      "karjat",
-      "DBD04A"
+      "DOMO",
+      "SSM28",
+      "SSM28",
+      "SSM28"
     ],
     [
-      "GeoPhone",
-      "geo_S8",
-      "geo_S8",
-      "Geo S8"
+      "Huion",
+      "Huion_Note_E_US",
+      "Huion_Note_E",
+      "X50"
     ],
     [
-      "Hiking",
-      "PAD_1",
-      "PAD_1",
-      "PAD_1"
+      "LENIX",
+      "LENIX MAX",
+      "LENIX_MAX",
+      "H67A2"
     ],
     [
-      "KUMI",
-      "KM-TC02_ROW",
-      "KM-TC02",
-      "HONOR CHOICE Pad 3"
+      "M-Horse",
+      "POWER_1_Max",
+      "POWER_1_Max",
+      "POWER_1_Max"
     ],
     [
-      "KUMI",
-      "KM-TC02_RU",
-      "KM-TC02",
-      "HONOR CHOICE Pad 3"
+      "M-Horse",
+      "POWER_1_Max_RU",
+      "POWER_1_Max",
+      "POWER_1_Max"
     ],
     [
-      "NIS(NWTF)",
-      "TK-P617",
-      "TK-P617",
-      "TK-P617"
+      "M-Horse",
+      "POWER_1_Max_US",
+      "POWER_1_Max",
+      "POWER_1_Max"
     ],
     [
-      "Teclast",
-      "P50T_BC_ROW",
-      "P50T_BC_ROW",
-      "P50T"
+      "Noryox",
+      "CommercialTerminal",
+      "CommercialTerminal",
+      "CommercialTerminal"
     ],
     [
-      "Teclast",
-      "P50_YB_EEA",
-      "P50_YB",
-      "P50_YB"
+      "Oppo",
+      "Pad Air6",
+      "OP6930L1",
+      "OPD2613"
     ],
     [
-      "XGIMI",
-      "Elfin Flip Plus",
-      "meghamalai",
-      "WK03C"
+      "Oppo",
+      "Pad Air6",
+      "OP6930L1",
+      "OPD2614"
     ],
     [
-      "XGIMI",
-      "Elfin Flip Pro",
-      "meghamalai",
-      "WM04R"
+      "PROTON",
+      "Dynamo",
+      "Dynamo",
+      "Dynamo"
     ],
     [
-      "XGIMI",
-      "MoGo 4 Laser",
-      "karjat",
-      "WK03K"
+      "PrimeTab",
+      "PrimeTabP9",
+      "PrimeTab",
+      "PrimeTabP9"
     ],
     [
-      "XGIMI",
-      "MoGo 4",
-      "karjat",
-      "WK08K"
+      "RADDY",
+      "Raddy_Aquamate",
+      "Raddy_Aquamate",
+      "RADDY AQUAMATE"
     ],
     [
-      "XGIMI",
-      "XGIMI Vibe One (Battery Powered)",
-      "meghamalai",
-      "WM03H"
+      "Symphony",
+      "MAX_50",
+      "MAX_50",
+      "MAX 50"
     ],
     [
-      "Xiaomi",
-      "Xiaomi Pad 8 Pro",
-      "piano",
-      "25091RP04G"
-    ],
-    [
-      "Xiaomi",
-      "Xiaomi Pad 8",
-      "yupei",
-      "25097RP43G"
-    ],
-    [
-      "Xiaomi",
-      "Xiaomi Pad 8",
-      "yupei",
-      "25097RP43I"
-    ],
-    [
-      "Xiaomi",
-      "Xiaomi Pad 9 Pro",
-      "shuntian",
-      "2612CRPFFC"
-    ],
-    [
-      "Xiaomi",
-      "Xiaomi Pad 9",
-      "yupei",
-      "M656BA"
-    ],
-    [
-      "edu-africa",
-      "eduafrica2026",
-      "eduafrica2026",
-      "bnd"
-    ],
-    [
-      "edu-africa",
-      "eduafrica2026",
-      "eduafrica2026",
-      "edu-africa2026"
-    ],
-    [
-      "fezawio",
-      "F11_C",
-      "F11_C",
-      "F11_C"
-    ],
-    [
-      "iMuz",
-      "IM-S291",
-      "IM-S291",
-      "IM-S291"
+      "Zuum",
+      "MAGNO_Z",
+      "MAGNO_Z",
+      "MAGNO Z"
     ]
   ]
 }
