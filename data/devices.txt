@@ -8032,6 +8032,7 @@ Coolpad
 	VodafoneSmart4	=	Vodafone Smart 4	0
 	VodafoneSmart4turbo	=	Vodafone Smart 4 turbo	0
 	X20	=	=	0
+	X200	K29	=	0
 	X30	=	=	0
 	Y72-921	=	Coolpad Y72-921	0
 	Y72-921	Y72_921	Coolpad E571	0
@@ -10344,6 +10345,8 @@ EARTHTREK
 EAS ELECTRIC
 	Android TV	R1	ATV R1	2
 	Android TV	R2	ATV R2	2
+EASTCOM
+	E8600	=	=	0
 EASYTECK
 	EK10	=	=	0
 	EK12	=	=	0
@@ -12548,6 +12551,7 @@ G-Tab
 	F8_1	=	F8	0
 	G10	=	=	0
 	G10	G10_1	~	0
+	G11G	=	G11	0
 	G4	=	=	0
 	G5	=	=	0
 	G9	=	=	0
@@ -19353,6 +19357,7 @@ IXTECH
 	IX701	=	=	0
 IZZI Telecom
 	B866V2FI	B866V2Fi	~	0
+	B866V2FIX	=	=	0
 	HP2714	HPH65	~	0
 	HP46A	=	HP4633	0
 	Mexico	B820C-A15_ZTE	B820C-A15	0
@@ -20821,6 +20826,7 @@ JUEDUR
 	R500_U	=	=	0
 	R500_V_EEA	=	=	0
 	R500_V_US	=	=	0
+	R600_U	=	=	0
 	R700_EEA	=	=	0
 	R700_US	=	=	0
 	R800-EU	=	R800-EEA	0
@@ -21782,6 +21788,7 @@ Kalley
 	Black_E2C	Black_E2	Black E2	0
 	Black_G4	=	Black G4	0
 	Black_G_2	=	=	0
+	Black_S2	=	Black S2	0
 	Black_S4	=	Black S4	0
 	Black_S4C	Black_S4	Black S4	0
 	Black_X	=	Black X	0
@@ -28439,6 +28446,7 @@ Mobiwire
 	ONE	H5032U	~	0
 	Pegasus	=	=	0
 	Rodiall	H6733Pro	H6733 Pro	0
+	Rodiall Pro	GH67A1	H67A1	0
 	S26	H5112	~	0
 	S4040	=	=	0
 	SEUIC	H6033	=	0
@@ -28571,6 +28579,7 @@ Morep
 	Morep Mavic 20	mavic_20	morep_mavic_20	0
 	Morep Mavic Plus	Mavic_Plus	M610	0
 	Morep Pocket	Morep_Pocket	M320	0
+	Morep_V7G	V7G	V7	0
 	Smart V1	Smart_V1	M521	0
 	V6	=	=	0
 	V6_Lite	=	V6 Lite	0
@@ -31292,6 +31301,7 @@ OKAPI
 	Okapi16 Rombo Ultra	Okapi16_Rombo_Ultra	~	0
 	Okapi_Tab6	=	=	0
 	Okapi_Tab8	=	=	0
+	Okapi_Tab_18_Pro	=	=	0
 	Tab10	=	=	0
 OKING
 	OK17ProMax4G	=	=	0
@@ -34182,6 +34192,8 @@ Panavox
 	xiaoyushan_panavox	xiaoyushan	Panavox Android TV	2
 Panodic
 	IPHDCK16H	=	=	0
+Pantas
+	H130101	=	=	0
 Pantech
 	ADR910L	=	=	0
 	ADR930L	=	=	0
@@ -37807,6 +37819,7 @@ SEGO
 	S_PAD	=	=	0
 	Shark	=	=	0
 	Smart 20 GO	Smart_20_GO	~	0
+	Smart20_Pro_Max	=	Smart20 Pro Max	0
 	Smart_10	=	Smart 10	0
 	Smart_20	=	Smart 20	0
 	Smart_20x	SEGO_Smart_20x	~	0
@@ -56569,6 +56582,7 @@ eNOVA
 	TAE10N12	=	T1081	0
 	TAE10N12	=	=	0
 	TAE10N13	=	=	0
+	TAE10N14	=	=	0
 	TAEI0C13	TAE10C13	=	0
 eSSL
 	Emerald	=	=	0

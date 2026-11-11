@@ -1,120 +1,78 @@
 {
-  "lastUpdated": "2026-11-10",
-  "newDevicesCount": 19,
+  "lastUpdated": "2026-11-11",
+  "newDevicesCount": 12,
   "newDevices": [
     [
-      "Anyreal",
-      "S2",
-      "S2",
-      "S2"
+      "Coolpad",
+      "X200",
+      "K29",
+      "K29"
     ],
     [
-      "Aspera",
-      "Verve",
-      "Verve",
-      "Aspera Verve"
+      "EASTCOM",
+      "E8600",
+      "E8600",
+      "E8600"
     ],
     [
-      "BASICS",
-      "BT1026FW",
-      "BT1026FW",
-      "BT1026FW"
+      "G-Tab",
+      "G11G",
+      "G11G",
+      "G11"
     ],
     [
-      "CHAINWAY",
-      "MC80",
-      "MC80",
-      "MC80"
+      "IZZI Telecom",
+      "B866V2FIX",
+      "B866V2FIX",
+      "B866V2FIX"
     ],
     [
-      "Cyrus",
-      "CS75XA_EEA",
-      "CS75XA",
-      "CS75XA"
+      "JUEDUR",
+      "R600_U",
+      "R600_U",
+      "R600_U"
     ],
     [
-      "DOMO",
-      "SSM28",
-      "SSM28",
-      "SSM28"
+      "Kalley",
+      "Black_S2",
+      "Black_S2",
+      "Black S2"
     ],
     [
-      "Huion",
-      "Huion_Note_E_US",
-      "Huion_Note_E",
-      "X50"
+      "Mobiwire",
+      "Rodiall Pro",
+      "GH67A1",
+      "H67A1"
     ],
     [
-      "LENIX",
-      "LENIX MAX",
-      "LENIX_MAX",
-      "H67A2"
+      "Morep",
+      "Morep_V7G",
+      "V7G",
+      "V7"
     ],
     [
-      "M-Horse",
-      "POWER_1_Max",
-      "POWER_1_Max",
-      "POWER_1_Max"
+      "OKAPI",
+      "Okapi_Tab_18_Pro",
+      "Okapi_Tab_18_Pro",
+      "Okapi_Tab_18_Pro"
     ],
     [
-      "M-Horse",
-      "POWER_1_Max_RU",
-      "POWER_1_Max",
-      "POWER_1_Max"
+      "Pantas",
+      "H130101",
+      "H130101",
+      "H130101"
     ],
     [
-      "M-Horse",
-      "POWER_1_Max_US",
-      "POWER_1_Max",
-      "POWER_1_Max"
+      "SEGO",
+      "Smart20_Pro_Max",
+      "Smart20_Pro_Max",
+      "Smart20 Pro Max"
     ],
     [
-      "Noryox",
-      "CommercialTerminal",
-      "CommercialTerminal",
-      "CommercialTerminal"
-    ],
-    [
-      "Oppo",
-      "Pad Air6",
-      "OP6930L1",
-      "OPD2613"
-    ],
-    [
-      "Oppo",
-      "Pad Air6",
-      "OP6930L1",
-      "OPD2614"
-    ],
-    [
-      "PROTON",
-      "Dynamo",
-      "Dynamo",
-      "Dynamo"
-    ],
-    [
-      "PrimeTab",
-      "PrimeTabP9",
-      "PrimeTab",
-      "PrimeTabP9"
-    ],
-    [
-      "RADDY",
-      "Raddy_Aquamate",
-      "Raddy_Aquamate",
-      "RADDY AQUAMATE"
-    ],
-    [
-      "Symphony",
-      "MAX_50",
-      "MAX_50",
-      "MAX 50"
-    ],
-    [
-      "Zuum",
-      "MAGNO_Z",
-      "MAGNO_Z",
-      "MAGNO Z"
+      "eNOVA",
+      "TAE10N14",
+      "TAE10N14",
+      "TAE10N14"
     ]
   ]
 }
