@@ -191,6 +191,7 @@ ADVAN
 	Sketsa3	ADVAN_SKETSA3	1013	0
 	TAB A8	ADVAN_TAB_A8	8004	1
 	VX NEO	ADVAN_VX_NEO	1013	0
+	VX Nova	ADVAN_VX_Nova	~	0
 	VX_LITE	ADVAN_TAB_VX_LITE	1013	0
 	X1 NEO	ADVAN_X1_NEO	~	0
 ADVANTOUCH
@@ -632,6 +633,7 @@ ATMPC
 	IT_801B	=	=	0
 	IT_801BA4	=	IT_801B	0
 	IT_801BA4_EEA	=	IT_801B	0
+	IT_801BA9	=	IT-801B	0
 	IT_801BA9_EEA	=	IT-801B	0
 	IT_801CA2_EEA	=	IT_801C	0
 	IT_801CA2_EEA	=	=	0
@@ -5574,6 +5576,7 @@ Blu
 	G8	G0160LL	~	0
 	G8	G0170	~	0
 	G84	G1050	~	0
+	G85 5G	B1680	B1680W	0
 	G9	G0130WW	~	0
 	G9	G0130WW_SR	~	0
 	G9 PRO	G0230WW	~	0
@@ -5623,6 +5626,7 @@ Blu
 	K0170	=	BOLD K20	0
 	K10	K0110	~	0
 	K2	K0210	~	0
+	K3	K0270	~	0
 	LIFE ONE X	BLU_LIFE_ONE_X	BLU LIFE ONE X	0
 	LIFE ONE X	Life_One_X	Life One X	0
 	LIFE ONE X2	Life_One_X2	Life One X2	0
@@ -6422,6 +6426,7 @@ COOLFAN
 COOP
 	MARTE	=	=	0
 	SATURNO2	=	=	0
+	URANO	=	=	0
 COOPERS
 	CP10	=	=	0
 	CP20	=	=	0
@@ -8443,6 +8448,7 @@ DEEMWOLF
 DEERTiME
 	E10_EEA	=	=	0
 	E10_US	=	=	0
+	E11_C	=	=	0
 	E11_E	=	=	0
 	E11_EEA	=	=	0
 	E11_U	=	=	0
@@ -9680,6 +9686,7 @@ DishTV-NZ
 	SV11HD	IAD	~	3
 	SmartVU Freeview Projector | Google TV	tianshan	SVPro1	3
 Disney
+	CPT06	=	=	0
 	CTS05	=	=	0
 	CTS07	=	=	0
 	DISNEYTAB	=	=	0
@@ -13040,6 +13047,7 @@ Getac
 Getnord
 	LYNX	=	=	0
 Gevo
+	E30	=	=	0
 	GX30	=	=	0
 	Gevo E10	E10	GEVO E10	0
 	Gevo V20	V20	Gevo S6801	0
@@ -22665,6 +22673,7 @@ LEGEND
 	X701	LEGEND_X701	~	0
 LENIX
 	LENIX MAX	LENIX_MAX	H67A2	0
+	LENIX Pro	LENIX_100_Pro	H67M1	0
 	LENIX Pro	LENIX_Pro	~	0
 	LENIX Standard	LENIX_Standard	~	0
 LEOMO
@@ -24141,6 +24150,7 @@ LOGIC
 	LOGIC L66M	LOGIC_L66M	~	0
 	LOGIC_G2L	=	LOGIC G2L	0
 	LOGIC_L55V	=	=	0
+	LOGIC_T10MW	=	T10MW	0
 	Logic L67 PRO MAX	Logic_L67_PRO_MAX	~	0
 	Logic L68M Plus	Logic_L68M_Plus	~	0
 	Logic_L-PAD_PRO	=	Logic L-PAD_PRO	0
@@ -24226,6 +24236,7 @@ LT_Mobile
 	LT_mobile_S33	=	LT S33	0
 	LT_mobile_S34	=	LT S34	0
 	LT_mobile_S40	=	LT S40	0
+	LT_mobile_S60	=	LT S60	0
 LUCKYSTAR
 	T10A	=	=	0
 LUCOMS
@@ -24490,6 +24501,7 @@ Laser
 	MID-104GB-968	=	=	0
 	MID-1087	=	=	0
 	MID-1090IPS	=	=	0
+	MID-10A16B-404	=	=	0
 	MID-787	=	=	0
 	MID-787V8	=	=	0
 	MID-790IPS	=	=	0
@@ -26233,9 +26245,13 @@ M-Horse
 	M_HORSE_M26	=	M26	0
 	Note 50 Pro Max	Note_50_Pro_Max	~	0
 	P1	=	=	0
+	POWER_1	=	=	0
+	POWER_1_EEA	POWER_1	=	0
 	POWER_1_Max	=	=	0
 	POWER_1_Max_RU	POWER_1_Max	=	0
 	POWER_1_Max_US	POWER_1_Max	=	0
+	POWER_1_RU	POWER_1	=	0
+	POWER_1_US	POWER_1	=	0
 	Pad_17	=	=	0
 	Pad_17Pro	=	=	0
 	Pad_17ProMax	=	=	0
@@ -27593,6 +27609,7 @@ Meswao
 	B3-EEA	B3	=	0
 	MES-B	=	=	0
 	MES-B3	=	=	0
+	MES-B3Lite	=	=	0
 	MES-B4	=	=	0
 MetfoneTVBox
 	MetfoneTVBox	DV9135-KCM	~	0
@@ -30092,6 +30109,8 @@ NAV Global
 	NAV X1	NAV_X1	~	0
 NAVA
 	P68	=	=	0
+NAVATAB
+	N18_Pro	=	N18 Pro	0
 NAXA
 	NID-7011	=	=	0
 	NID_7010	=	=	0
@@ -33556,6 +33575,8 @@ PHILCO (ar)
 	P610	=	=	0
 	TP10A464D	=	=	0
 	TP10A664	=	=	0
+PHONELINETAB
+	F58-8inch	=	=	0
 PHYWE
 	12998-99CobraSMARTlink	12998-99	=	0
 	12998-99ECobraSMARTlink	12998-99	=	0
@@ -37428,6 +37449,7 @@ Remdun
 Renault
 	OpenR Link	aivi2_full	AIVI2 FULL	6
 	OpenR Link	aivi2_r_full_dom	AIVI2 R FULL DOM	6
+	OpenR Link	aivi2_r_full_egg	AIVI2 R FULL EGG	6
 Reputer
 	ideaBoard	idea_Board	=	0
 RetroidPocket
@@ -44706,6 +44728,7 @@ Stylo
 	INKULU	=	=	0
 	INKULU_PRO	=	=	0
 	Ithemba	=	=	0
+	Jaguar	=	=	0
 	Jupiter	DQR22	=	0
 	LIFE_2	=	=	0
 	Luna	=	=	0
@@ -53216,6 +53239,12 @@ XPPen
 XREAL
 	Aura	axrpuck	Android XR Puck	0
 	Beam Pro	X4000	=	0
+XRZ(sz)
+	XRZPro_EEA	Smartphone	XRZ	0
+XRZDual2
+	XRZDual2_A16_EEA	XRZDual2_A16	XRZDual2	0
+	XRZDual2_A16_NEU	XRZDual2_A16	XRZDual2	0
+	XRZDual2_A16_US	XRZDual2_A16	XRZDual2	0
 XTRA
 	XT1	=	=	0
 XTRAGEN
@@ -54101,6 +54130,8 @@ ZOOMSMART
 	ZM600	=	=	0
 	ZM800	=	=	0
 	ZM800_EEA	ZM800	=	0
+ZTAP
+	S00754	=	=	0
 ZTE
 		BUL_P726G	ZTE-RACER	0
 		D930	=	0
@@ -57474,13 +57505,16 @@ onn.
 	PM1042T-W	=	=	0
 	PM1042TW	=	=	0
 	PM108AK	=	=	0
+	PM116A	=	=	0
 	PM116T	=	=	0
 	PM116T_LTE	=	=	0
 	PM132T	=	=	0
 	PM82T	=	=	0
 	PM82TW	=	=	0
+	PM876A	=	=	0
 	PM876T	=	=	0
 	PP86AK	=	=	0
+	PP88AK	=	=	0
 	SL713B1	=	=	0
 	Tablet Gen 4	100135923	=	1
 	Tablet Gen 4	100135925	=	1

@@ -1,78 +1,180 @@
 {
-  "lastUpdated": "2026-11-11",
-  "newDevicesCount": 12,
+  "lastUpdated": "2026-11-12",
+  "newDevicesCount": 29,
   "newDevices": [
     [
-      "Coolpad",
-      "X200",
-      "K29",
-      "K29"
+      "ADVAN",
+      "VX Nova",
+      "ADVAN_VX_Nova",
+      "VX Nova"
     ],
     [
-      "EASTCOM",
-      "E8600",
-      "E8600",
-      "E8600"
+      "ATMPC",
+      "IT_801BA9",
+      "IT_801BA9",
+      "IT-801B"
     ],
     [
-      "G-Tab",
-      "G11G",
-      "G11G",
-      "G11"
+      "Blu",
+      "G85 5G",
+      "B1680",
+      "B1680W"
     ],
     [
-      "IZZI Telecom",
-      "B866V2FIX",
-      "B866V2FIX",
-      "B866V2FIX"
+      "Blu",
+      "K3",
+      "K0270",
+      "K3"
     ],
     [
-      "JUEDUR",
-      "R600_U",
-      "R600_U",
-      "R600_U"
+      "COOP",
+      "URANO",
+      "URANO",
+      "URANO"
     ],
     [
-      "Kalley",
-      "Black_S2",
-      "Black_S2",
-      "Black S2"
+      "DEERTiME",
+      "E11_C",
+      "E11_C",
+      "E11_C"
     ],
     [
-      "Mobiwire",
-      "Rodiall Pro",
-      "GH67A1",
-      "H67A1"
+      "Disney",
+      "CPT06",
+      "CPT06",
+      "CPT06"
     ],
     [
-      "Morep",
-      "Morep_V7G",
-      "V7G",
-      "V7"
+      "Gevo",
+      "E30",
+      "E30",
+      "E30"
     ],
     [
-      "OKAPI",
-      "Okapi_Tab_18_Pro",
-      "Okapi_Tab_18_Pro",
-      "Okapi_Tab_18_Pro"
+      "LENIX",
+      "LENIX Pro",
+      "LENIX_100_Pro",
+      "H67M1"
     ],
     [
-      "Pantas",
-      "H130101",
-      "H130101",
-      "H130101"
+      "LOGIC",
+      "LOGIC_T10MW",
+      "LOGIC_T10MW",
+      "T10MW"
     ],
     [
-      "SEGO",
-      "Smart20_Pro_Max",
-      "Smart20_Pro_Max",
-      "Smart20 Pro Max"
+      "LT_Mobile",
+      "LT_mobile_S60",
+      "LT_mobile_S60",
+      "LT S60"
     ],
     [
-      "eNOVA",
-      "TAE10N14",
-      "TAE10N14",
-      "TAE10N14"
+      "Laser",
+      "MID-10A16B-404",
+      "MID-10A16B-404",
+      "MID-10A16B-404"
+    ],
+    [
+      "M-Horse",
+      "POWER_1",
+      "POWER_1",
+      "POWER_1"
+    ],
+    [
+      "M-Horse",
+      "POWER_1_EEA",
+      "POWER_1",
+      "POWER_1"
+    ],
+    [
+      "M-Horse",
+      "POWER_1_RU",
+      "POWER_1",
+      "POWER_1"
+    ],
+    [
+      "M-Horse",
+      "POWER_1_US",
+      "POWER_1",
+      "POWER_1"
+    ],
+    [
+      "Meswao",
+      "MES-B3Lite",
+      "MES-B3Lite",
+      "MES-B3Lite"
+    ],
+    [
+      "NAVATAB",
+      "N18_Pro",
+      "N18_Pro",
+      "N18 Pro"
+    ],
+    [
+      "PHONELINETAB",
+      "F58-8inch",
+      "F58-8inch",
+      "F58-8inch"
+    ],
+    [
+      "Renault",
+      "OpenR Link",
+      "aivi2_r_full_egg",
+      "AIVI2 R FULL EGG"
+    ],
+    [
+      "Stylo",
+      "Jaguar",
+      "Jaguar",
+      "Jaguar"
+    ],
+    [
+      "XRZ(sz)",
+      "XRZPro_EEA",
+      "Smartphone",
+      "XRZ"
+    ],
+    [
+      "XRZDual2",
+      "XRZDual2_A16_EEA",
+      "XRZDual2_A16",
+      "XRZDual2"
+    ],
+    [
+      "XRZDual2",
+      "XRZDual2_A16_NEU",
+      "XRZDual2_A16",
+      "XRZDual2"
+    ],
+    [
+      "XRZDual2",
+      "XRZDual2_A16_US",
+      "XRZDual2_A16",
+      "XRZDual2"
+    ],
+    [
+      "ZTAP",
+      "S00754",
+      "S00754",
+      "S00754"
+    ],
+    [
+      "onn.",
+      "PM116A",
+      "PM116A",
+      "PM116A"
+    ],
+    [
+      "onn.",
+      "PM876A",
+      "PM876A",
+      "PM876A"
+    ],
+    [
+      "onn.",
+      "PP88AK",
+      "PP88AK",
+      "PP88AK"
     ]
   ]
 }
