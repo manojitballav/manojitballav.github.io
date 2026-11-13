@@ -2200,6 +2200,7 @@ AngelTech
 	P80	=	=	0
 	PRO_II_16	=	=	0
 	PRO_MAX_16	=	=	0
+	PRO_MAX_16_EEA	PRO_MAX_16	=	0
 	SWAYTOSH_16	=	=	0
 Antel
 	Antel Box2.0	Antel_B866V2FAS	~	0
@@ -2839,6 +2840,8 @@ Artia
 	Artia SP545C	SP545C	=	0
 	SP545CV	SP545C	=	0
 	SP545C_1	SP545C	=	0
+	SP626W	=	=	0
+	SP676L	=	=	0
 	SP676W	=	=	0
 Artizlee
 	Artizlee S9	Artizlee_S9	=	0
@@ -8238,8 +8241,10 @@ Cubot
 	A30	=	=	0
 	A40	=	=	0
 	A50	=	=	0
+	A60	=	=	0
 	C20	=	=	0
 	C30	=	=	0
+	C53	=	=	0
 	CUBOT CHEETAH 2	CUBOT_CHEETAH_2	~	0
 	CUBOT H3	CUBOT_H3	~	0
 	CUBOT J9	CUBOT_J9	~	0
@@ -12262,6 +12267,7 @@ Foxconn
 Foxtel
 	Foxtel Now box	dwt765fxt	~	0
 Franko
+	F17	=	=	0
 	Franko A01	Franko_A01	H6733	0
 	Franko A03	Franko_A03	H6573	0
 	Franko F07	Franko_F07	F07	0
@@ -13172,6 +13178,7 @@ Gigabyte
 	huangshan_gigabyte	huangshan	SmartTV 4K FFM	0
 	mexico	Lanix	iliumPAD	0
 Gigaset
+	GIG-X10	=	=	0
 	GIG-X14	=	=	0
 	GP20	=	=	0
 	GS100	=	=	0
@@ -16675,6 +16682,7 @@ Honor
 	HONOR Magic8 pro	HNBKQ	BKQ-N49	0
 	HONOR Magic9 Lite+	HNBSN-Q1	BSN-NX1M	0
 	HONOR Magic9 Lite+	HNBSN-Q1	BSN-NX3	0
+	HONOR Magic9 Pro Max	HNWKLX	WKL-N59	0
 	HONOR MagicPad2	HNROD2-Q	ROD2-W09	1
 	HONOR MagicPad2	HNROD2-Q1	ROD2-W09	1
 	HONOR MagicPad3	HNCGA-Q1	CGA-W00	1
@@ -16881,7 +16889,9 @@ HorusVision
 	FieldHub1_0_EEA	FieldHub1_0	=	0
 	FieldHub1_0_ROW	FieldHub1_0	=	0
 Hosan
+	L62	=	=	0
 	L67	4G_Smart_Phone	~	0
+	L67W	=	=	0
 Hosoton
 	H-H101_EEA	=	=	0
 	H101_EEA	H101	=	0
@@ -27172,6 +27182,8 @@ Maxwest
 	Gravity_6P	=	=	0
 	Gravity_6P_Plus	=	=	0
 	Gravity_7P	=	=	0
+	INFINITY F65	MX-IN65MM	~	0
+	INFINITY F67	MX-IN67MM	~	0
 	MAXWEST	Black765857703671	AstroPhablet7s	0
 	MAX_TAB_7	=	=	0
 	MX-A4R	=	=	0
@@ -28158,6 +28170,8 @@ Mobicel
 	F50	=	=	0
 	F51	=	=	0
 	F51	=	F52	0
+	F52VR	=	F52	0
+	F52VS	=	F52	0
 	IX PLUS	IX_PLUS	=	0
 	MX3 PLUS	MX3_PLUS	~	0
 	Mercury	=	=	0
@@ -28423,6 +28437,7 @@ Mobiwire
 	H5111L_common	H5111L	H5111L_MTN	0
 	H5112	=	=	0
 	H6032	=	=	0
+	H6032	=	H6033	0
 	H6032 Plus	H6032_Plus	~	0
 	H6033	H6032	~	0
 	H6511	=	=	0
@@ -30714,6 +30729,7 @@ Nexall
 	N90_NEU	N90	=	0
 	N90_US	N90	=	0
 Nexel
+	INFINITY_V2	=	=	0
 	Infinity	=	=	0
 	Infinity_Lite	=	=	0
 NexiGo
@@ -32723,6 +32739,8 @@ Oppo
 	Reno16 Pro	OP61EFL1	PMK110	0
 	Reno16 Pro 5G	OP62FDL1	CPH2863	0
 	Reno16c 5G	OP62F3L1	CPH2859	0
+	Reno17	OP65AFL1	PYK110	0
+	Reno17 Pro	OP669FL1	PND110	0
 	Reno2 Z	OP4B65L1	CPH1945	0
 	Reno2 Z	OP4B65L1	CPH1951	0
 	Reno2 Z 中国版	OP4A43	PCKM80	0
@@ -33349,6 +33367,7 @@ PAITANRY
 	R95	=	N868	0
 	SSK10	=	=	0
 	Y85	=	=	0
+	Y85Pro	=	=	0
 	Y86	=	=	0
 	Y86_EEA	=	Y86	0
 	Y95	=	=	0
@@ -35733,6 +35752,7 @@ Pritom
 	M10_B09	=	M10	0
 	M10_B09K	=	M10	0
 	M10_B09_EEA	=	M10	0
+	M10_B09_US	=	M10	0
 	M10_B10	=	M10	0
 	M10_B10_EEA	=	M10	0
 	M10_C01	=	=	0
@@ -37673,7 +37693,10 @@ Ruio
 	S6539Q	=	T1	0
 	S6539Q	=	VISION	0
 	S6539Z	=	=	0
+	S6605	S6712	~	0
 	S6705	=	=	0
+	S6709M	=	=	0
+	S6901	=	=	0
 	Smart One	ZIP_PLUS	RS2613	0
 	Smart One	ZIP_PLUS	~	0
 	smart	Blitz	=	0
@@ -49392,6 +49415,8 @@ URAO
 	X107	=	=	0
 	X107_EEA	X107	=	0
 	X108	=	=	0
+	X108K_EEA	X108K	=	0
+	X108K_G	X108K	=	0
 	X108_EEA	X108	=	0
 	X109K_EEA	X109K	=	0
 	X109K_G	X109K	=	0
@@ -57188,6 +57213,7 @@ iQOO
 	iQOO Z11i AI版	PD2559	V2559UA	0
 	iQOO Z11x	PD2532	V2532A	0
 	iQOO Z11x 5G	I2507	=	0
+	iQOO Z12 Lite 5G	I2510	I2516	0
 	iQOO Z9 Lite	I2306	=	0
 iQandT
 	G3	=	=	0
@@ -58124,6 +58150,7 @@ vivo
 	T5 Pro 5G	V2568	=	0
 	T5e	V2606	V2628	0
 	T5x 5G	V2545	=	0
+	T6 Lite 5G	V2553	V2667	0
 	V60	V2511	=	0
 	V60	V2511	V2512	0
 	V60 Lite	V2441	V2530	0
@@ -58195,6 +58222,7 @@ vivo
 	Y11d	V2556	V2580	0
 	Y11d	V2556	V2646	0
 	Y11e	V2556	V2577	0
+	Y11s 5G	V2553	V2669	0
 	Y19s 5G	V2446	V2541	0
 	Y21 5G	V2553	=	0
 	Y21 5G	V2553	V2554	0
@@ -58204,6 +58232,7 @@ vivo
 	Y21d	V2520	V2535	0
 	Y21d	V2520	V2560	0
 	Y21e	V2520	V2525	0
+	Y21s 5G	V2553	V2670	0
 	Y300 GT	PD2452	V2452GA	0
 	Y31 5G	V2521	=	0
 	Y31 5G	V2521L	V2521	0
