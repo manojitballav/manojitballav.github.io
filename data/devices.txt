@@ -295,6 +295,7 @@ AIDATA
 	ADT_1061	=	=	0
 AIOAPPInc
 	TSAI	T7	=	0
+	k22	Kiosk	=	7
 AIPLUS
 	AI+ Nova 1 5G	Nova_1_5G	~	0
 	AI+ Nova 2 5G	Nova_2_5G	~	0
