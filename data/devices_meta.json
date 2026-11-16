@@ -1,12 +1,150 @@
 {
-  "lastUpdated": "2026-11-15",
-  "newDevicesCount": 1,
+  "lastUpdated": "2026-11-16",
+  "newDevicesCount": 24,
   "newDevices": [
     [
-      "AIOAPPInc",
-      "k22",
-      "Kiosk",
-      "Kiosk"
+      "Blu",
+      "J14",
+      "J0160",
+      "J14"
+    ],
+    [
+      "Blu",
+      "X7",
+      "X0080",
+      "X7"
+    ],
+    [
+      "Bluebird",
+      "T40",
+      "T40",
+      "T40"
+    ],
+    [
+      "HUGEROCK",
+      "T-Smart-H72-4G",
+      "H72-4G-M50",
+      "T-Smart"
+    ],
+    [
+      "Hiroh",
+      "HRH_H1",
+      "HRH_H1",
+      "Hiroh H1"
+    ],
+    [
+      "Hosan",
+      "A67U",
+      "A67U",
+      "A67U"
+    ],
+    [
+      "IIIF150",
+      "A8",
+      "2707",
+      "2707"
+    ],
+    [
+      "IMO(In My Opinion)",
+      "Q6_Pro",
+      "Q6_Pro",
+      "IMO Q6 Pro"
+    ],
+    [
+      "Lava",
+      "Lava S91",
+      "LT4901",
+      "LAVA LT4901"
+    ],
+    [
+      "Mintt",
+      "M_7",
+      "M_7",
+      "M_7"
+    ],
+    [
+      "Motorola Solutions",
+      "LEX L30",
+      "lexl30",
+      "LEX L30"
+    ],
+    [
+      "PEICHENG",
+      "CP10_ProK",
+      "CP10_ProK",
+      "CP10_Pro"
+    ],
+    [
+      "PEICHENG",
+      "ZB32MiniK",
+      "ZB32MiniK",
+      "ZB32"
+    ],
+    [
+      "Partner",
+      "PA-115",
+      "PA-115",
+      "PA-115"
+    ],
+    [
+      "Phone Max",
+      "M1_P",
+      "M1_P",
+      "M1_P"
+    ],
+    [
+      "Ruio",
+      "S6563",
+      "S6563",
+      "S6563"
+    ],
+    [
+      "Sharp",
+      "AQUOS sense11",
+      "Suletta",
+      "SH-53G"
+    ],
+    [
+      "Smarti",
+      "Smarti_S6705",
+      "Smarti_S6705",
+      "Smarti S6705"
+    ],
+    [
+      "Telpo",
+      "UX",
+      "UX",
+      "UX"
+    ],
+    [
+      "U-TRIBE",
+      "U17Pro_Max_4G",
+      "U17Pro_Max_4G",
+      "U17Pro Max 4G"
+    ],
+    [
+      "XRZ(sz)",
+      "XRZPro_NON_EU",
+      "Smartphone",
+      "XRZ"
+    ],
+    [
+      "Zebra",
+      "TC201",
+      "TCW01L",
+      "TC201"
+    ],
+    [
+      "prowise",
+      "Prowise_TSxG4",
+      "Mercury",
+      "LGA311D2"
+    ],
+    [
+      "vivo",
+      "V80 Lite 5G",
+      "V2576",
+      "V2675"
     ]
   ]
 }

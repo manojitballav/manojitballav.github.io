@@ -5616,6 +5616,7 @@ Blu
 	J12	J0100	~	0
 	J12	J0230	~	0
 	J13	J0120	~	0
+	J14	J0160	~	0
 	J5	J0210	~	0
 	J6L	J0110	~	0
 	J6S	J210EQ	~	0
@@ -5817,6 +5818,7 @@ Blu
 	X5 PLUS	X0050	~	0
 	X6	X0060	C8	0
 	X6	X0060	~	0
+	X7	X0080	~	0
 Bluboo
 	D1	BLUBOO_D1	~	0
 	D1_Pro	=	=	0
@@ -5868,6 +5870,7 @@ Bluebird
 	ST103	=	=	0
 	T10	=	=	0
 	T30	=	=	0
+	T40	=	=	0
 	VF550	=	=	0
 	VF550	=	VF550_RU	0
 	VX500	=	=	0
@@ -14988,6 +14991,7 @@ HUGEROCK
 	H81	H81-M50	~	0
 	T-Smart	H81-4G-M45	~	0
 	T-Smart-H72	H72-5G-M60	T-Smart	0
+	T-Smart-H72-4G	H72-4G-M50	T-Smart	0
 HUIHUANG
 	C90	=	=	0
 	C90_EEA	C90	=	0
@@ -15571,6 +15575,8 @@ Hipstreet
 	Synergy	11DTB1	=	0
 	TITAN X	TitanX	=	0
 	Yupiroid	=	=	0
+Hiroh
+	HRH_H1	=	Hiroh H1	0
 Hisense
 		AD683G	=	0
 		AD685G	New Andromax-i	0
@@ -16890,6 +16896,7 @@ HorusVision
 	FieldHub1_0_EEA	FieldHub1_0	=	0
 	FieldHub1_0_ROW	FieldHub1_0	=	0
 Hosan
+	A67U	=	=	0
 	L62	=	=	0
 	L67	4G_Smart_Phone	~	0
 	L67W	=	=	0
@@ -19032,6 +19039,7 @@ IDspire
 	IRA_Biometric	TPSeries_1	~	0
 	TPSeries_1	=	=	0
 IIIF150
+	A8	2707	=	0
 	Action 15	Action_15	~	0
 	Action A5Pro	Action_A5Pro	~	0
 	Air1	=	=	0
@@ -19077,6 +19085,7 @@ IMO(In My Opinion)
 	IMO Q4 Pro	IMO_Q4_Pro	~	0
 	IMO Q5	IMO_Q5	~	0
 	IMO S2	S2	~	0
+	Q6_Pro	=	IMO Q6 Pro	0
 IMOTOR
 	TP Serials	auto_rk_t60	IMTOS Pro	0
 IMPECCA
@@ -24618,6 +24627,7 @@ Lava
 	LXX519	=	LAVA LXX519	0
 	LZG01	=	LAVA LZG01	0
 	Lava LXX517	LXX517	=	0
+	Lava S91	LT4901	LAVA LT4901	0
 	Magnum Pro	Magnum_Pro	=	0
 	P7	=	=	0
 	P7 Plus	P7plus	=	0
@@ -28028,6 +28038,7 @@ Mintt
 	MINTT_P26PLUS	=	MINTT P26+	0
 	MINTT_PRIME_S11	=	MINTT PRIME S11	0
 	MINTT_T11	=	=	0
+	M_7	=	=	0
 	MinttM3	Mintt_M3	Mintt M3	0
 	MinttM3	Mintt_M3	Mintt__M3	0
 	MinttPoro	=	=	0
@@ -29538,6 +29549,7 @@ Motorola Solutions
 	LEX L11	lexl11g_64	LEX L11e	0
 	LEX L11	lexl11g_64	LEX L11j	0
 	LEX L11	lexl11g_64	LEX L11l	0
+	LEX L30	lexl30	~	0
 	MOTOTRBO ION	mkz_sdm660_64	MSLB-MKZ900	0
 	MOTOTRBO ION	mkz_sdm660_64	MSLB-MKZ900i	0
 	MOTOTRBO ION	mkz_sdm660_64	MSLB-MKZ900ti	0
@@ -33529,6 +33541,7 @@ PEICHENG
 	CP10SPro	=	=	0
 	CP10SPro	=	CP10_Pro	0
 	CP10S_Pro	=	=	0
+	CP10_ProK	=	CP10_Pro	0
 	CP20SA	=	CP20	0
 	CP20TGOLD	=	CP20_GOLD	0
 	CP20TGOLD_EEA	CP20TGOLD	CP20_GOLD	0
@@ -33572,6 +33585,7 @@ PEICHENG
 	ZB32	=	=	0
 	ZB32A	=	ZB32	0
 	ZB32A	=	=	0
+	ZB32MiniK	=	ZB32	0
 	ZB32ST	=	ZB32	0
 	ZB32UA	=	ZB32	0
 	ZB32V	=	=	0
@@ -34322,6 +34336,7 @@ Partner
 	CLEO_SERIES	=	=	0
 	E15 Pro	E15_Pro	~	0
 	OT-310	=	=	0
+	PA-115	=	=	0
 	PartnerTV BOX	SEI800PNTV	~	0
 	PartnerTV-Box	uzw4054ptn	~	0
 	Partner_Evolution	=	Partner Evolution	0
@@ -34601,6 +34616,7 @@ Phoenix Note
 	PPS2022-P156	=	=	0
 Phone Max
 	M10	=	=	0
+	M1_P	=	=	0
 	M3PRO	=	=	0
 	P1000	=	=	0
 	P20 Pro	P20_Pro	~	0
@@ -37694,6 +37710,7 @@ Ruio
 	S6539Q	=	T1	0
 	S6539Q	=	VISION	0
 	S6539Z	=	=	0
+	S6563	=	=	0
 	S6605	S6712	~	0
 	S6705	=	=	0
 	S6709M	=	=	0
@@ -42607,6 +42624,7 @@ Sharp
 	AQUOS sense10	Lyle	A505SH	0
 	AQUOS sense10	Lyle	SH-M33	0
 	AQUOS sense10	SH-53F	=	0
+	AQUOS sense11	Suletta	SH-53G	0
 	AQUOS sense2	MZW-u	SHV43-u	0
 	AQUOS sense2 (SH-M08)	SH-M08	=	0
 	AQUOS sense2 SH-01L	SH-01L	=	0
@@ -43626,6 +43644,7 @@ Smarti
 	Smarti_Gen_1	=	=	0
 	Smarti_Gen_2	=	=	0
 	Smarti_Gen_2_Plus	=	=	0
+	Smarti_S6705	=	Smarti S6705	0
 Smartron
 	Srtphone	rimo02a	T5524	0
 	tphone	rimo01a	T5511	0
@@ -48701,6 +48720,7 @@ Telpo
 	M8	=	M8 for arm64	0
 	MX	=	=	0
 	P9	=	P9_arm64	0
+	UX	=	=	0
 Telus
 	HMB2213PW22TS	=	=	0
 	Pik TV Media Box	HMB2213PW22TS	=	3
@@ -49283,6 +49303,8 @@ Tvstar
 	TVSTAR	seocho	TVSTAR 4K Android TV	2
 TwinMOS
 	MQ703G	=	=	0
+U-TRIBE
+	U17Pro_Max_4G	=	U17Pro Max 4G	0
 UAUU
 	M10	=	=	0
 	T30	=	=	0
@@ -53267,6 +53289,7 @@ XREAL
 	Beam Pro	X4000	=	0
 XRZ(sz)
 	XRZPro_EEA	Smartphone	XRZ	0
+	XRZPro_NON_EU	Smartphone	XRZ	0
 XRZDual2
 	XRZDual2_A16_EEA	XRZDual2_A16	XRZDual2	0
 	XRZDual2_A16_NEU	XRZDual2_A16	XRZDual2	0
@@ -56086,6 +56109,7 @@ Zebra
 	TC15	=	=	0
 	TC20	TC20RD	~	0
 	TC20	TC20RT	~	0
+	TC201	TCW01L	~	0
 	TC201	TCW01L	TC201L	0
 	TC201	TCW01W	~	0
 	TC201	TCW01W	TC201W	0
@@ -57567,6 +57591,7 @@ prowise
 	Prowise Touchscreen Ten	ifpd	prowise	0
 	Prowise Touchscreen Ultra	ifpd	prowise	0
 	ProwiseTouchscreenTen	Prowise	=	0
+	Prowise_TSxG4	Mercury	LGA311D2	0
 	Prowise_TSxG4	Mercury	TSxG4	0
 qunyiCO
 	Y10	=	=	0
@@ -58179,6 +58204,7 @@ vivo
 	V80 Lite 5G	V2576	=	0
 	V80 Lite 5G	V2576	V2643	0
 	V80 Lite 5G	V2576	V2644	0
+	V80 Lite 5G	V2576	V2675	0
 	V80 Lite 5G	V2626	=	0
 	V80 Lite 5G	V2626	V2655	0
 	X Fold5	PD2436	V2436A	0
