@@ -1,150 +1,144 @@
 {
-  "lastUpdated": "2026-11-16",
-  "newDevicesCount": 24,
+  "lastUpdated": "2026-11-17",
+  "newDevicesCount": 23,
   "newDevices": [
     [
-      "Blu",
-      "J14",
-      "J0160",
-      "J14"
+      "BMobile",
+      "ORION_A2_TG06",
+      "Bmobile_ORION_A2_TG06",
+      "ORION_A2_TG06"
     ],
     [
-      "Blu",
-      "X7",
-      "X0080",
-      "X7"
+      "BMobile",
+      "ORION_A2_TG07NI",
+      "Bmobile_ORION_A2_TG07NI",
+      "ORION_A2_TG07NI"
     ],
     [
-      "Bluebird",
-      "T40",
-      "T40",
-      "T40"
+      "BMobile",
+      "ORION_A3_TG05",
+      "Bmobile_ORION_A3_TG05",
+      "ORION_A3_TG05"
     ],
     [
-      "HUGEROCK",
-      "T-Smart-H72-4G",
-      "H72-4G-M50",
-      "T-Smart"
+      "Ciontek",
+      "CM25",
+      "CM25",
+      "CM25"
     ],
     [
-      "Hiroh",
-      "HRH_H1",
-      "HRH_H1",
-      "Hiroh H1"
+      "Cloud_Mobile",
+      "Stratus C8 Prime",
+      "MC8B654B",
+      "MC8B654B"
     ],
     [
-      "Hosan",
-      "A67U",
-      "A67U",
-      "A67U"
+      "ConsumerCellular",
+      "IRIS Tab",
+      "PN500CC",
+      "PN500CC"
     ],
     [
-      "IIIF150",
-      "A8",
-      "2707",
-      "2707"
+      "ConsumerCellular",
+      "IRlS Connect 2",
+      "SN512CC",
+      "SN512CC"
     ],
     [
-      "IMO(In My Opinion)",
-      "Q6_Pro",
-      "Q6_Pro",
-      "IMO Q6 Pro"
+      "KENSHI",
+      "8HH1A",
+      "8HH1A",
+      "8HH1A"
     ],
     [
-      "Lava",
-      "Lava S91",
-      "LT4901",
-      "LAVA LT4901"
+      "KENSHI",
+      "8HH1B",
+      "8HH1B",
+      "8HH1B"
     ],
     [
-      "Mintt",
-      "M_7",
-      "M_7",
-      "M_7"
+      "KENSHI",
+      "8HZ1A",
+      "8HZ1A",
+      "8HZ1A"
     ],
     [
-      "Motorola Solutions",
-      "LEX L30",
-      "lexl30",
-      "LEX L30"
+      "Notch",
+      "Notch_A100",
+      "Notch_A100",
+      "Notch_A100"
     ],
     [
-      "PEICHENG",
-      "CP10_ProK",
-      "CP10_ProK",
-      "CP10_Pro"
+      "RebotAi",
+      "AF14_EEA",
+      "AF14",
+      "AF14"
     ],
     [
-      "PEICHENG",
-      "ZB32MiniK",
-      "ZB32MiniK",
-      "ZB32"
-    ],
-    [
-      "Partner",
-      "PA-115",
-      "PA-115",
-      "PA-115"
-    ],
-    [
-      "Phone Max",
-      "M1_P",
-      "M1_P",
-      "M1_P"
+      "Rogue mobile Inc",
+      "R67X",
+      "R67X",
+      "R67X"
     ],
     [
       "Ruio",
-      "S6563",
-      "S6563",
-      "S6563"
+      "S6712",
+      "S6712",
+      "S6712"
+    ],
+    [
+      "SUAAT",
+      "S11_C",
+      "S11_C",
+      "S11_C"
     ],
     [
       "Sharp",
       "AQUOS sense11",
       "Suletta",
-      "SH-53G"
+      "A605SH"
     ],
     [
-      "Smarti",
-      "Smarti_S6705",
-      "Smarti_S6705",
-      "Smarti S6705"
+      "Sharp",
+      "AQUOS sense11",
+      "Suletta",
+      "SH-M37"
     ],
     [
-      "Telpo",
-      "UX",
-      "UX",
-      "UX"
+      "Stylo",
+      "Stylo Helix",
+      "Stylo_Helix",
+      "Stylo Helix"
     ],
     [
-      "U-TRIBE",
-      "U17Pro_Max_4G",
-      "U17Pro_Max_4G",
-      "U17Pro Max 4G"
+      "Stylo",
+      "Stylo_Cyber",
+      "Stylo_Cyber",
+      "Stylo Cyber"
     ],
     [
-      "XRZ(sz)",
-      "XRZPro_NON_EU",
-      "Smartphone",
-      "XRZ"
+      "URAO",
+      "X108K_US",
+      "X108K",
+      "X108K"
     ],
     [
-      "Zebra",
-      "TC201",
-      "TCW01L",
-      "TC201"
-    ],
-    [
-      "prowise",
-      "Prowise_TSxG4",
-      "Mercury",
-      "LGA311D2"
+      "VALE",
+      "V12E_8128_LTE",
+      "V12E_8128_LTE",
+      "V12E_LTE_8128"
     ],
     [
       "vivo",
-      "V80 Lite 5G",
-      "V2576",
-      "V2675"
+      "Y05",
+      "V2556",
+      "V2664"
+    ],
+    [
+      "vivo",
+      "Y05s",
+      "V2556",
+      "V2668"
     ]
   ]
 }

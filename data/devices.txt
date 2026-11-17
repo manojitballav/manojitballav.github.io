@@ -4189,6 +4189,9 @@ BMobile
 	Nobu A55 Pro	Azumi_NA55_Pro	NOBU A55 PRO	0
 	ORBIT_67	Bmobile_ORBIT_67_TG06	ORBIT_67_TG06	0
 	ORBIT_MAX	Bmobile_ORBIT_MAX	~	0
+	ORION_A2_TG06	Bmobile_ORION_A2_TG06	~	0
+	ORION_A2_TG07NI	Bmobile_ORION_A2_TG07NI	~	0
+	ORION_A3_TG05	Bmobile_ORION_A3_TG05	~	0
 	ORION_TG05	Bmobile_ORION_TG05	~	0
 	ROCKET_A1	Bmobile_ROCKET_A1	~	0
 	Speed 5	Bmobile_SPEED5	~	0
@@ -7229,6 +7232,7 @@ Cidea
 CignalPlayTV
 	CIGSEI100	=	=	0
 Ciontek
+	CM25	=	=	0
 	CS20	=	=	0
 	CS30	=	=	0
 	CS50	=	=	0
@@ -7406,7 +7410,7 @@ CloudMinds
 Cloud_Mobile
 	C9	Stratus_C9	Stratus C9	0
 	C9 Prime	Stratus_C9_Prime	Stratus C9 Prime	0
-	MC8B654B100136	MC8B654B	=	0
+	Stratus C8 Prime	MC8B654B	=	0
 	Stratus_C8	=	Stratus C8	0
 	Stratus_C9	=	Stratus C9	0
 	Sunshine_T2_Elite	=	=	0
@@ -7726,7 +7730,8 @@ Conquest
 	conquest_S20_EEA	conquest_S20	=	0
 ConsumerCellular
 	IRIS Connect 2	SN512CC	=	0
-	SN512CCM_UM	SN512CC	SN512CCM	0
+	IRIS Tab	PN500CC	=	1
+	IRlS Connect 2	SN512CC	=	0
 	SpeakEasy Smart	SN512CC	SN512CCM	0
 Contex
 	Egypt	tamachi	AiPlus2K	0
@@ -21303,6 +21308,9 @@ KEMPLER STRAUSS
 KENSHI
 	101HH1B	=	=	0
 	101HH1C	=	=	0
+	8HH1A	=	=	0
+	8HH1B	=	=	0
+	8HZ1A	=	=	0
 	Armor C1 Max	Armor_C1_Max	~	0
 	Armor C1s	Armor_C1s	~	0
 	Armor H1s	Armor_H1s	~	0
@@ -31127,6 +31135,8 @@ Noryox
 	CommercialTerminal	=	=	0
 	Handheld-POS-EEA	Handheld-POS	=	7
 	Handheld_POS	=	NB55	0
+Notch
+	Notch_A100	=	=	0
 Nothing
 	Nothing Phone (1)	Spacewar	A063	0
 	Nothing Phone (2)	Pong	A065	0
@@ -36881,6 +36891,7 @@ RebotAi
 	AF13Air_EEA	=	=	0
 	AF13Air_US	=	=	0
 	AF13_EEA	=	=	0
+	AF14_EEA	AF14	=	0
 	AF8_EEA	=	=	0
 	AF8_ROW	=	=	0
 	AG11	=	=	0
@@ -37602,6 +37613,7 @@ Rogue mobile Inc
 	R67S	=	=	0
 	R67SA	=	R67S	0
 	R67T	=	=	0
+	R67X	=	=	0
 Rokid
 	station2	=	RG-station2	0
 Rombica
@@ -37714,6 +37726,7 @@ Ruio
 	S6605	S6712	~	0
 	S6705	=	=	0
 	S6709M	=	=	0
+	S6712	=	=	0
 	S6901	=	=	0
 	Smart One	ZIP_PLUS	RS2613	0
 	Smart One	ZIP_PLUS	~	0
@@ -38445,6 +38458,7 @@ SUAAT
 	S10_U_US	=	=	0
 	S10_V_EEA	=	=	0
 	S10_V_US	=	=	0
+	S11_C	=	=	0
 	S11_E	=	=	0
 	S11_U	=	=	0
 	S11_V_EEA	=	=	0
@@ -42624,7 +42638,9 @@ Sharp
 	AQUOS sense10	Lyle	A505SH	0
 	AQUOS sense10	Lyle	SH-M33	0
 	AQUOS sense10	SH-53F	=	0
+	AQUOS sense11	Suletta	A605SH	0
 	AQUOS sense11	Suletta	SH-53G	0
+	AQUOS sense11	Suletta	SH-M37	0
 	AQUOS sense2	MZW-u	SHV43-u	0
 	AQUOS sense2 (SH-M08)	SH-M08	=	0
 	AQUOS sense2 SH-01L	SH-01L	=	0
@@ -44830,8 +44846,10 @@ Stylo
 	STYLO_S61	=	STYLO SV61 VECTOR+	0
 	SWIFT_4G	=	=	0
 	Sirius_Plus_Tab_10	=	Sirius Plus Tab 10	1
+	Stylo Helix	Stylo_Helix	~	0
 	Stylo S40	S40_Vida	~	0
 	Stylo_521	=	=	0
+	Stylo_Cyber	=	Stylo Cyber	0
 	Stylo_Viva	=	=	0
 	TAB2	=	=	0
 	TAB4	=	=	0
@@ -49440,6 +49458,7 @@ URAO
 	X108	=	=	0
 	X108K_EEA	X108K	=	0
 	X108K_G	X108K	=	0
+	X108K_US	X108K	=	0
 	X108_EEA	X108	=	0
 	X109K_EEA	X109K	=	0
 	X109K_G	X109K	=	0
@@ -50165,6 +50184,7 @@ VALE
 	V11E LTE_4128	V11E_LTE_4128	V11E LTE	0
 	V12E LTE_14	V12E_LTE_8128	V12E LTE-8128	0
 	V12E-LTE	=	V12E-LTE-8128	0
+	V12E_8128_LTE	=	V12E_LTE_8128	0
 VALERION
 	VisionMaster	hengshan	~	0
 VALIFONE
@@ -58240,9 +58260,11 @@ vivo
 	Y04e	V2430	V2532	0
 	Y05	V2556	=	0
 	Y05	V2556	V2565	0
+	Y05	V2556	V2664	0
 	Y05e	V2606	=	0
 	Y05i	V2556	=	0
 	Y05i	V2556	V2650	0
+	Y05s	V2556	V2668	0
 	Y11 5G	V2553	V2575	0
 	Y11d	V2556	V2555	0
 	Y11d	V2556	V2578	0
