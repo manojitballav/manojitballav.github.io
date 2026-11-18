@@ -2285,7 +2285,6 @@ Anyreal
 	P5C-AR	=	U13	0
 	P8-AR	=	Tab G6 Max	1
 	P8S-AR	=	Tab G6 Max	1
-	S2	=	=	0
 	T2-AR	=	U11	0
 	T2C-AR	=	Tab A9+	1
 	T2CS-AR	=	Tab A9 Pro+	1
@@ -3509,6 +3508,8 @@ Aura
 	DemoPad	=	=	0
 	Lite8	=	=	0
 	Smart_Landline_AC7	SMART_LL_AC7	Smart Landline AC7 Tablet	1
+AuraVision
+	ORBIT_AIO136COBF	=	=	0
 Auris
 	TB-701	=	=	0
 Austrostream
@@ -8388,6 +8389,7 @@ Cyrus
 	CS45XA_EEA	CS45XA2	~	0
 	CS45XA_EEA	=	=	0
 	CS75XA_EEA	CS75XA	=	0
+	CS75XB	=	=	0
 	ORSY_Controller	=	=	0
 D-Tech
 	D5L	D5-L	=	0
@@ -11724,6 +11726,7 @@ FORCO
 	K8T	=	=	0
 FOSSiBOT
 	C17 SE	C17_SE	~	0
+	C17_X_EEA_GO	C17_X	C17 X	0
 	DT1 Lite	DT1_Lite	~	0
 	DT1_Lite	=	DT1 Lite	0
 	DT2	=	=	0
@@ -18847,6 +18850,7 @@ Hyundai
 	HT10WC1MSG01_EEA	HT10WC1MSG01	10WC1	0
 	HT10WC1MSG01_US	HT10WC1MSG01	10WC1	0
 	HT10WC1MSG03	=	10WC1	0
+	HT10WC1MSG03_EEA	=	10WC1	0
 	HT10WC1MSG03_US	=	10WC1	0
 	HT7GB1MBK_	=	7GB1	0
 	HT7WB1RBK	=	=	0
@@ -24650,6 +24654,7 @@ Lava
 	Shark 2 5G	LXX528	LAVA LXX528	0
 	Shark 3 5G	LXX532	LAVA LXX532	0
 	Smart 4	LZG414	LAVA LZG414	0
+	Smart 4 Pro	LZX422	LAVA LZX422	0
 	T101	LTN10RT	=	0
 	T101	=	=	0
 	T101N	=	=	0
@@ -30425,6 +30430,8 @@ NOWADA
 NOWO
 	DV 8535 4K	DV8535-KPN	~	0
 	DV 8935 X4	DV8935-KPN	~	0
+NO_NAME
+	A18_Pro_Max	=	=	0
 NPsystem
 	TAB-700	=	=	1
 NSDEVIL
@@ -37643,8 +37650,6 @@ Royqueen
 RugOne
 	Xever 7	GR1000BF2	~	0
 	Xever 7 Pro	GR1000BF1	~	0
-	Xever 7 Pro	GR1000BF2	Xever 7	0
-	Xever 7 Pro Thermal	GR1000BF1	Xever 7 Pro	0
 	Xever 8	GR1001TF1	~	0
 	Xsnap 7 Pro	GR1002AF1	~	0
 RuggON
@@ -37653,7 +37658,7 @@ RuggON
 	PA501	PA501BW	~	0
 	PA501BGR	=	=	0
 	PA501BWR	=	=	0
-	Xever 7 Pro Thermal	GR1000BF1	Xever 7 Pro	0
+	Xever 7 Pro	GR1000BF1	~	0
 Ruggear
 	CP250	cp250_gts	=	0
 	DEWALT MD501	md501	DeWalt MD501	0
@@ -38586,6 +38591,7 @@ SVITOO
 	P10_D_EEA	P10_D	=	0
 	P10_D_ROW	P10_D	=	0
 	P10_D_US	P10_D	=	0
+	P10_T1_EEA	P10_T1	P10_T	0
 	P10_T_EEA	P10_T	=	0
 	P10_T_US	P10_T	=	0
 	P10_pro	P10	=	0
@@ -42366,6 +42372,8 @@ Semeakoko
 	SS1010	=	=	0
 	SS10A	=	=	0
 	SS10A_EEA	=	=	0
+Senifone
+	S2	=	=	0
 SenlinTech
 	S12_Pro	=	=	0
 	S12_Pro_EEA	=	S12_Pro	0
@@ -47906,6 +47914,7 @@ Teclast
 	P50T_Y_EEA	P50T_Y	P50T	0
 	P50T_Y_ROW	P50T_Y	P50T	0
 	P50T_Y_US	P50T_Y	P50T	0
+	P50_BB_US	=	=	0
 	P50_B_EEA	=	P50	0
 	P50_B_EEA	=	P50_B	0
 	P50_B_EEA	=	=	0
@@ -48877,6 +48886,7 @@ Thomson
 	THOMSON SEREA500	L35_A	~	0
 	THOMSON_TEO10S	TEO10S	=	0
 	TLink 455	TLINK455	=	0
+	Thomson	dongmae	Thomson2K	0
 	Thomson 140G	YZF	~	0
 	Thomson Smart TV	dongnae	~	2
 	Thomson T50	Thomson_T50	~	0
@@ -57361,6 +57371,7 @@ iWaylink
 iYOU
 	A10	=	=	0
 	A30	=	=	0
+	A60_S	=	A60S	0
 	iYOU_M1	=	=	0
 i_con
 	V1	=	=	0

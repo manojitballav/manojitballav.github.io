@@ -1,144 +1,78 @@
 {
-  "lastUpdated": "2026-11-17",
-  "newDevicesCount": 23,
+  "lastUpdated": "2026-11-18",
+  "newDevicesCount": 12,
   "newDevices": [
     [
-      "BMobile",
-      "ORION_A2_TG06",
-      "Bmobile_ORION_A2_TG06",
-      "ORION_A2_TG06"
+      "AuraVision",
+      "ORBIT_AIO136COBF",
+      "ORBIT_AIO136COBF",
+      "ORBIT_AIO136COBF"
     ],
     [
-      "BMobile",
-      "ORION_A2_TG07NI",
-      "Bmobile_ORION_A2_TG07NI",
-      "ORION_A2_TG07NI"
+      "Cyrus",
+      "CS75XB",
+      "CS75XB",
+      "CS75XB"
     ],
     [
-      "BMobile",
-      "ORION_A3_TG05",
-      "Bmobile_ORION_A3_TG05",
-      "ORION_A3_TG05"
+      "FOSSiBOT",
+      "C17_X_EEA_GO",
+      "C17_X",
+      "C17 X"
     ],
     [
-      "Ciontek",
-      "CM25",
-      "CM25",
-      "CM25"
+      "Hyundai",
+      "HT10WC1MSG03_EEA",
+      "HT10WC1MSG03_EEA",
+      "10WC1"
     ],
     [
-      "Cloud_Mobile",
-      "Stratus C8 Prime",
-      "MC8B654B",
-      "MC8B654B"
+      "Lava",
+      "Smart 4 Pro",
+      "LZX422",
+      "LAVA LZX422"
     ],
     [
-      "ConsumerCellular",
-      "IRIS Tab",
-      "PN500CC",
-      "PN500CC"
+      "NO_NAME",
+      "A18_Pro_Max",
+      "A18_Pro_Max",
+      "A18_Pro_Max"
     ],
     [
-      "ConsumerCellular",
-      "IRlS Connect 2",
-      "SN512CC",
-      "SN512CC"
+      "RuggON",
+      "Xever 7 Pro",
+      "GR1000BF1",
+      "Xever 7 Pro"
     ],
     [
-      "KENSHI",
-      "8HH1A",
-      "8HH1A",
-      "8HH1A"
+      "SVITOO",
+      "P10_T1_EEA",
+      "P10_T1",
+      "P10_T"
     ],
     [
-      "KENSHI",
-      "8HH1B",
-      "8HH1B",
-      "8HH1B"
+      "Senifone",
+      "S2",
+      "S2",
+      "S2"
     ],
     [
-      "KENSHI",
-      "8HZ1A",
-      "8HZ1A",
-      "8HZ1A"
+      "Teclast",
+      "P50_BB_US",
+      "P50_BB_US",
+      "P50_BB_US"
     ],
     [
-      "Notch",
-      "Notch_A100",
-      "Notch_A100",
-      "Notch_A100"
+      "Thomson",
+      "Thomson",
+      "dongmae",
+      "Thomson2K"
     ],
     [
-      "RebotAi",
-      "AF14_EEA",
-      "AF14",
-      "AF14"
-    ],
-    [
-      "Rogue mobile Inc",
-      "R67X",
-      "R67X",
-      "R67X"
-    ],
-    [
-      "Ruio",
-      "S6712",
-      "S6712",
-      "S6712"
-    ],
-    [
-      "SUAAT",
-      "S11_C",
-      "S11_C",
-      "S11_C"
-    ],
-    [
-      "Sharp",
-      "AQUOS sense11",
-      "Suletta",
-      "A605SH"
-    ],
-    [
-      "Sharp",
-      "AQUOS sense11",
-      "Suletta",
-      "SH-M37"
-    ],
-    [
-      "Stylo",
-      "Stylo Helix",
-      "Stylo_Helix",
-      "Stylo Helix"
-    ],
-    [
-      "Stylo",
-      "Stylo_Cyber",
-      "Stylo_Cyber",
-      "Stylo Cyber"
-    ],
-    [
-      "URAO",
-      "X108K_US",
-      "X108K",
-      "X108K"
-    ],
-    [
-      "VALE",
-      "V12E_8128_LTE",
-      "V12E_8128_LTE",
-      "V12E_LTE_8128"
-    ],
-    [
-      "vivo",
-      "Y05",
-      "V2556",
-      "V2664"
-    ],
-    [
-      "vivo",
-      "Y05s",
-      "V2556",
-      "V2668"
+      "iYOU",
+      "A60_S",
+      "A60_S",
+      "A60S"
     ]
   ]
 }
