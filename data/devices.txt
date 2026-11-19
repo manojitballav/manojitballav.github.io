@@ -20863,6 +20863,7 @@ JUEDUR
 	R500_U	=	=	0
 	R500_V_EEA	=	=	0
 	R500_V_US	=	=	0
+	R600_C	=	=	0
 	R600_U	=	=	0
 	R700_EEA	=	=	0
 	R700_US	=	=	0
@@ -21656,6 +21657,7 @@ KTCtv
 	NEXTSTAR	elliniko	NEXTSTAR SMART TV	2
 	NEXUS	lavender	4K SMART TV	2
 	NEXUS	mountbaker	2K SMART TV	2
+	NITORI	templeton	NITORI SMART TV	2
 	ONN	elliniko	4K SMART TV	2
 	OZON	stanford	2K SMART TV	2
 	OZON	zhongshan	4K SMART TV	2
@@ -24512,6 +24514,8 @@ Lanix
 	ilium_PAD_RX10	RX10V6	Ilium_PAD_RX10V6	0
 	ilium_S106	Ilium_S106	Ilium S106	0
 	llium Pad L8	llium_Pad_L8	~	1
+Lanodo
+	PT10	=	=	0
 Laptok
 	G11	=	=	0
 	G11L	=	=	0
@@ -42154,6 +42158,7 @@ Samsung
 	Illusion	SCH-I110	=	0
 	Infuse	SGH-I997	SAMSUNG-SGH-I997	0
 	Infuse	SGH-I997R	SAMSUNG-SGH-I997R	0
+	Intelligent Eyewear	jinju	SM-O200P	0
 	J1 Mini Prime	j1minivelte	SM-J106F	0
 	Moment	SPH-M900	=	0
 	Montblanc	montblanc3gctc	SM-W2014	0
@@ -42355,6 +42360,7 @@ Selfix
 	X7	=	=	0
 Selvas
 	BrailleSense Polaris	polaris	BrailleSensePolaris	0
+	BrailleSense7	=	H732B	0
 	BrailleSense7_EEA	BrailleSense7	H732B	0
 	BrailleSenseMini	=	H620B	0
 	BrailleSense_EEA	BrailleSense	H632B	0
@@ -48456,6 +48462,7 @@ Tecno
 	TECNO SPARK 50 Pro	TECNO-KO5	TECNO KO5	0
 	TECNO SPARK 50/50C	TECNO-KN3	TECNO KN3	0
 	TECNO SPARK 50/50S	TECNO-KN4	TECNO KN4	0
+	TECNO SPARK 50C	TECNO-KO3	TECNO KO3	0
 	TECNO SPARK 50S 5G	TECNO-KN8s	TECNO KN8s	0
 	TECNO SPARK 50T	TECNO-KO5	TECNO KO5	0
 	TECNO SPARK 7	TECNO-KF6	TECNO KF6	0

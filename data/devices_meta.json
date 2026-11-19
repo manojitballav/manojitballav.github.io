@@ -1,78 +1,42 @@
 {
-  "lastUpdated": "2026-11-18",
-  "newDevicesCount": 12,
+  "lastUpdated": "2026-11-19",
+  "newDevicesCount": 6,
   "newDevices": [
     [
-      "AuraVision",
-      "ORBIT_AIO136COBF",
-      "ORBIT_AIO136COBF",
-      "ORBIT_AIO136COBF"
+      "JUEDUR",
+      "R600_C",
+      "R600_C",
+      "R600_C"
     ],
     [
-      "Cyrus",
-      "CS75XB",
-      "CS75XB",
-      "CS75XB"
+      "KTCtv",
+      "NITORI",
+      "templeton",
+      "NITORI SMART TV"
     ],
     [
-      "FOSSiBOT",
-      "C17_X_EEA_GO",
-      "C17_X",
-      "C17 X"
+      "Lanodo",
+      "PT10",
+      "PT10",
+      "PT10"
     ],
     [
-      "Hyundai",
-      "HT10WC1MSG03_EEA",
-      "HT10WC1MSG03_EEA",
-      "10WC1"
+      "Samsung",
+      "Intelligent Eyewear",
+      "jinju",
+      "SM-O200P"
     ],
     [
-      "Lava",
-      "Smart 4 Pro",
-      "LZX422",
-      "LAVA LZX422"
+      "Selvas",
+      "BrailleSense7",
+      "BrailleSense7",
+      "H732B"
     ],
     [
-      "NO_NAME",
-      "A18_Pro_Max",
-      "A18_Pro_Max",
-      "A18_Pro_Max"
-    ],
-    [
-      "RuggON",
-      "Xever 7 Pro",
-      "GR1000BF1",
-      "Xever 7 Pro"
-    ],
-    [
-      "SVITOO",
-      "P10_T1_EEA",
-      "P10_T1",
-      "P10_T"
-    ],
-    [
-      "Senifone",
-      "S2",
-      "S2",
-      "S2"
-    ],
-    [
-      "Teclast",
-      "P50_BB_US",
-      "P50_BB_US",
-      "P50_BB_US"
-    ],
-    [
-      "Thomson",
-      "Thomson",
-      "dongmae",
-      "Thomson2K"
-    ],
-    [
-      "iYOU",
-      "A60_S",
-      "A60_S",
-      "A60S"
+      "Tecno",
+      "TECNO SPARK 50C",
+      "TECNO-KO3",
+      "TECNO KO3"
     ]
   ]
 }
