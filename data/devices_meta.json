@@ -1,42 +1,18 @@
 {
-  "lastUpdated": "2026-11-19",
-  "newDevicesCount": 6,
+  "lastUpdated": "2026-11-20",
+  "newDevicesCount": 2,
   "newDevices": [
     [
-      "JUEDUR",
-      "R600_C",
-      "R600_C",
-      "R600_C"
+      "BMAX",
+      "I11_S_Pro",
+      "I11_S_Pro",
+      "I11_S_Pro"
     ],
     [
-      "KTCtv",
-      "NITORI",
-      "templeton",
-      "NITORI SMART TV"
-    ],
-    [
-      "Lanodo",
-      "PT10",
-      "PT10",
-      "PT10"
-    ],
-    [
-      "Samsung",
-      "Intelligent Eyewear",
-      "jinju",
-      "SM-O200P"
-    ],
-    [
-      "Selvas",
-      "BrailleSense7",
-      "BrailleSense7",
-      "H732B"
-    ],
-    [
-      "Tecno",
-      "TECNO SPARK 50C",
-      "TECNO-KO3",
-      "TECNO KO3"
+      "Tele2",
+      "T2 Mediabox",
+      "SEI800TEL2",
+      "T2 Mediabox"
     ]
   ]
 }

@@ -3948,6 +3948,7 @@ BMAX
 	I11_Pro	=	=	0
 	I11_S	=	=	0
 	I11_S_EEA	=	I11_S	0
+	I11_S_Pro	=	=	0
 	I12_A_Power	=	=	0
 	I13_LTE	=	=	0
 	I14	=	=	0
@@ -48611,6 +48612,7 @@ Tele2
 	Mini	Tele2_Mini	=	0
 	Mini 1.1	Tele2_Mini_1_1	Tele2_Mini_1.1	0
 	Mini 1.1	Tele2_Mini_1_1	=	0
+	T2 Mediabox	SEI800TEL2	~	3
 	Tele 2 Maxi LTE	Tele2_Maxi_LTE	=	0
 	Tele2_Midi_2_0	=	=	0
 	Tele2fon V4	Tele2fon_v4	Tele2fon v4	0
