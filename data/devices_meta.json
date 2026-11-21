@@ -1,18 +1,12 @@
 {
-  "lastUpdated": "2026-11-20",
-  "newDevicesCount": 2,
+  "lastUpdated": "2026-11-21",
+  "newDevicesCount": 1,
   "newDevices": [
     [
-      "BMAX",
-      "I11_S_Pro",
-      "I11_S_Pro",
-      "I11_S_Pro"
-    ],
-    [
-      "Tele2",
-      "T2 Mediabox",
-      "SEI800TEL2",
-      "T2 Mediabox"
+      "TCL",
+      "TCL TAB 10 5G",
+      "Odin_5G_TMO",
+      "9183W"
     ]
   ]
 }
