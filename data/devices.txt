@@ -19705,6 +19705,7 @@ Infinix
 	Infinix NOTE 60	Infinix-X6879	Infinix X6879	0
 	Infinix NOTE 60 Ultra	Infinix-X6877	Infinix X6877	0
 	Infinix NOTE 7 Lite	Infinix-X656	Infinix X656	0
+	Infinix NOTE Edge	Infinix-X6887C	Infinix X6887C	0
 	Infinix Note 5	Infinix-X604_sprout	Infinix X604	0
 	Infinix Note 5	Infinix-X604_sprout	Infinix X604B	0
 	Infinix SMART 10	Infinix-X6725	Infinix X6725	0
