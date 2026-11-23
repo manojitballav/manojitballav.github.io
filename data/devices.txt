@@ -4847,6 +4847,8 @@ Bittium
 	Mx Smart	adakite_sm	~	0
 	Tough Mobile	granite	Bittium Tough Mobile	0
 	granite	=	Bittium Tough Mobile	0
+Bizmo
+	A11-G99	=	=	0
 Bizringer
 	8BIZ18	=	=	0
 Blabloo
@@ -8853,6 +8855,7 @@ DOMATON
 	Ocean_K10	=	Ocean K10	0
 DOMO
 	M90	=	=	0
+	SLP28	=	=	0
 	SLP36	=	=	0
 	SSM28	=	=	0
 	Slate	=	=	1
@@ -16627,6 +16630,7 @@ Honeywell
 	RT10A	TA60A-L0-C	TA60A	0
 	RT10A	TA60A-L1-C	~	0
 	RT10A	TA60A-L1-C	TA60A	0
+	RT310	=	=	0
 	RT60A	TA60A-L1-C	TA60A	0
 	RT710	=	=	0
 	Thor VM1A	VM1A-L0-N	VM1A	0
@@ -20145,6 +20149,10 @@ Intex
 	IV0318ND	=	=	0
 	Indie 22	AQUA_FulVU_e5	INTEX AQUA FulVU e5	0
 	Indie 22	AQUA_FulVU_e5	INTEX IP0518ND	0
+	Intex TV	beomil	~	2
+	Intex TV	eleonas	~	2
+	Intex TV	katehaki	~	2
+	Intex TV FF	eleonas	~	2
 	STAARi 10	AQUA_LIONS_X1_PLUS	INTEX AQUA LIONS X1+	0
 	STAARi 10	AQUA_LIONS_X1_PLUS	INTEX IP0218ND	0
 	STAARi 12	INTEX_ELYT_E6	INTEX ELYT E6	0
@@ -20598,6 +20606,7 @@ Itel
 	itel A25	itel-L5002R	itel L5002	0
 	itel A27(P17 Pro 4G)	itel-A551L	itel A551L	0
 	itel A27(P17 Pro 4G)	itel-A551L-Pro	itel A551L	0
+	itel A300X	itel-A6613L	itel A6613L	0
 	itel A31	itel_A31	~	0
 	itel A33 Plus	itel-A509WP	itel A509WP	0
 	itel A36	itel-W5505	itel W5505	0
@@ -27965,6 +27974,7 @@ Micromax
 Micropos
 	D2	=	=	0
 	P12	=	=	0
+	P15S	=	=	0
 Microtech
 	ETL101A_EEA	=	=	0
 	ETL101GB	=	=	0
@@ -29460,6 +29470,9 @@ Motorola
 	motorola edge 70 fusion +	marvel	motorola edge 50 ultra	0
 	motorola edge 70 fusion +	marvel	motorola edge 70 fusion plus	0
 	motorola edge 70 max	avr	~	0
+	motorola edge 70 neo	stkhlm	~	0
+	motorola edge 70 plus	stkhlm	motorola edge 70 fusion	0
+	motorola edge 70 plus	stkhlm	~	0
 	motorola edge 70 pro	merc	motorola edge 2025	0
 	motorola edge 70 pro	merc	~	0
 	motorola edge 70 pro+	merc	motorola edge 2025	0
@@ -36904,6 +36917,8 @@ RebotAi
 	AF13Air_US	=	=	0
 	AF13_EEA	=	=	0
 	AF14_EEA	AF14	=	0
+	AF14_ROW	AF14	=	0
+	AF14_US	AF14	=	0
 	AF8_EEA	=	=	0
 	AF8_ROW	=	=	0
 	AG11	=	=	0
@@ -37717,9 +37732,11 @@ Ruio
 	S5518	=	=	0
 	S5521	=	Orange Kova one	0
 	S5521	=	=	0
+	S5521Q	S5521	IYOU A10	0
 	S5521Q	S5521	Orange Kova one	0
 	S5521Q	S5521	=	0
 	S6209	=	=	0
+	S6209U	=	=	0
 	S6501	=	=	0
 	S6506	=	=	0
 	S6528	=	=	0
@@ -38593,6 +38610,7 @@ SVITOO
 	P10_A_EEA	P10_A	=	0
 	P10_B	=	=	0
 	P10_B_EEA	P10_B	=	0
+	P10_D1_EEA	P10_D1	P10_D	0
 	P10_D_EEA	P10_D	=	0
 	P10_D_ROW	P10_D	=	0
 	P10_D_US	P10_D	=	0
@@ -47316,6 +47334,7 @@ TIM
 	TIMVISION Box	uzw4054tim	~	0
 	TIMVISION Box	uzy4087tim	TIMVISION Crystal	0
 	TIMVISION VSB	m393vsb_tim	~	0
+	TIMVISION ZENIT	B836CT_tim	~	0
 	TIMVISIONBOX	m393gena_tim	~	0
 	TIMvision	dwt765ti	skipper	0
 TINSIK
@@ -47549,6 +47568,8 @@ TVPLUS
 	TV PLUS 4K BOX	DV6069Y_TVPLUS	~	2
 	TVPLUS	HP4CD-TVplus	HP5432	0
 	TVPLUS BOX	HP44H	~	0
+TVS-E
+	HS65-5G	tvse_hs65_5g	TVSE-HS65-5G	0
 TVT VIET NAM
 	TVT-T10	=	=	0
 TVT(A)
@@ -47931,6 +47952,10 @@ Teclast
 	P50_ROW	P50	~	0
 	P50_ROW	=	P50	0
 	P50_YB_EEA	P50_YB	=	0
+	P50_YB_ROW	P50_YB	P50	0
+	P50_YB_ROW	P50_YB	=	0
+	P50_YB_RU	P50_YB	=	0
+	P50_YB_US	P50_YB	=	0
 	P80T_EEA	P80T	~	0
 	P80T_ROW	P80T	~	0
 	P80T_Y_EEA	=	P80T_EEA	0
@@ -48044,6 +48069,10 @@ Teclast
 	T60Ai_EEA	T60Ai	~	0
 	T60Ai_ROW	T60Ai	~	0
 	T60Mini_ROW	T60Mini	~	0
+	T60Mini_Y_EEA	T60Mini_Y	~	0
+	T60Mini_Y_ROW	T60Mini_Y	T60Mini_Y_EEA	0
+	T60Mini_Y_RUS	T60Mini_Y	T60Mini_Y_EEA	0
+	T60Mini_Y_US	T60Mini_Y	T60Mini_Y_EEA	0
 	T60Plus_EEA	=	=	0
 	T60Plus_ROW	=	=	0
 	T60Pro_A_ROW	=	T60Pro_A_EEA	0
@@ -57275,6 +57304,7 @@ iQOO
 	iQOO Z11S	PD2603	V2603A	0
 	iQOO Z11i	PD2559	V2559UA	0
 	iQOO Z11i AI版	PD2559	V2559UA	0
+	iQOO Z11i m版 AI版	PD2559	V2559UA	0
 	iQOO Z11x	PD2532	V2532A	0
 	iQOO Z11x 5G	I2507	=	0
 	iQOO Z12 Lite 5G	I2510	I2516	0
