@@ -21558,6 +21558,7 @@ KTCtv
 	ASAANO	mountbaker	2K SMART TV	2
 	BANANA	elliniko	4K SMART TV	2
 	BANANA	jagalchi	2K SMART TV	2
+	BUTTERFLY	elliniko	Butterfly Smart TV	2
 	Banana	stanford	2K SMART TV	2
 	Banana	zhongshan	4K SMART TV	2
 	CHIMEI	elliniko	4K SMART TV	2
@@ -26831,6 +26832,8 @@ MU (TH)
 	mu6	=	=	0
 MUISOO
 	KB10	=	=	0
+	KB10T_E	KB10T	=	0
+	KB10T_US	KB10T	=	0
 	KB10_EEA	KB10	=	0
 MUJENYZ
 	A9	=	=	0
@@ -28211,6 +28214,7 @@ Mobicel
 	F50	=	=	0
 	F51	=	=	0
 	F51	=	F52	0
+	F52	F52A	~	0
 	F52VR	=	F52	0
 	F52VS	=	F52	0
 	IX PLUS	IX_PLUS	=	0
@@ -29600,6 +29604,7 @@ Movado
 Move
 	MOVE OTT-Box 1	DV8919-KSM	~	3
 	MOVE OTT-Box 4	SEID00TKSB	~	3
+	MOVE OTT-Box 5	MOVE_B866V6N2	~	3
 Moveby
 	LINNEX	LX50	=	0
 Movfast
@@ -33596,6 +33601,7 @@ PEICHENG
 	P13TMax	=	P13Max	0
 	P13TMax_EEA	P13TMax	P13Max	0
 	P13Ultra	=	=	0
+	PH05	=	=	0
 	Q1	=	=	0
 	Q1	=	Q1K	0
 	Q10_Pro	=	Q10	0
@@ -53346,6 +53352,7 @@ XPPen
 	MDP1232_EEA	MDP1231	=	0
 	MDP1233_RU	MDP1231	=	0
 	MDP1234_US	MDP1231	=	0
+	Magic Pro 13	MDP1311	=	0
 	Magic_12	MDP1236	=	0
 	Magic_12_EEA	MDP1236	=	0
 	Magic_12_RU	MDP1236	=	0
