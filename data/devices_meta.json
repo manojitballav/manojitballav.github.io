@@ -1,48 +1,72 @@
 {
-  "lastUpdated": "2026-11-24",
-  "newDevicesCount": 7,
+  "lastUpdated": "2026-11-25",
+  "newDevicesCount": 11,
   "newDevices": [
     [
-      "KTCtv",
-      "BUTTERFLY",
-      "elliniko",
-      "Butterfly Smart TV"
+      "Gfast",
+      "T_106",
+      "T_106",
+      "T_106"
     ],
     [
-      "MUISOO",
-      "KB10T_E",
-      "KB10T",
-      "KB10T"
+      "HUIHUANG",
+      "TabT10_EEA",
+      "TabT10",
+      "TabT10"
     ],
     [
-      "MUISOO",
-      "KB10T_US",
-      "KB10T",
-      "KB10T"
+      "M-Horse",
+      "POWER_1_Max_EEA",
+      "POWER_1_Max",
+      "POWER_1_Max"
     ],
     [
-      "Mobicel",
-      "F52",
-      "F52A",
-      "F52"
+      "Oppo",
+      "Pad 6 F Lite Edition",
+      "OP692CL1",
+      "OPD2615"
     ],
     [
-      "Move",
-      "MOVE OTT-Box 5",
-      "MOVE_B866V6N2",
-      "MOVE OTT-Box 5"
+      "Oppo",
+      "Pad 6 F/Pad 6 F Matte Display Edition",
+      "OP692CL1",
+      "OPD2604"
     ],
     [
-      "PEICHENG",
-      "PH05",
-      "PH05",
-      "PH05"
+      "Oppo",
+      "Pad 6 F/Pad 6 F Matte Display Edition",
+      "OP692CL1",
+      "OPD2605"
     ],
     [
-      "XPPen",
-      "Magic Pro 13",
-      "MDP1311",
-      "MDP1311"
+      "SVITOO",
+      "P08_T1",
+      "P08_T1",
+      "P08_T"
+    ],
+    [
+      "TABWEE",
+      "V20T_US",
+      "V20T",
+      "V20"
+    ],
+    [
+      "XRZ(sz)",
+      "XRZPro_USA",
+      "Smartphone",
+      "XRZ"
+    ],
+    [
+      "verifone",
+      "vg102",
+      "VG102",
+      "VG102"
+    ],
+    [
+      "vivo",
+      "V80 FE",
+      "V2624",
+      "V2624"
     ]
   ]
 }
