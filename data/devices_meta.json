@@ -1,72 +1,42 @@
 {
-  "lastUpdated": "2026-11-25",
-  "newDevicesCount": 11,
+  "lastUpdated": "2026-11-26",
+  "newDevicesCount": 6,
   "newDevices": [
     [
+      "AMobile",
+      "RT080",
+      "RT080",
+      "RT080"
+    ],
+    [
       "Gfast",
-      "T_106",
-      "T_106",
-      "T_106"
+      "T-104KC",
+      "T-104KC",
+      "T-104KC"
     ],
     [
-      "HUIHUANG",
-      "TabT10_EEA",
-      "TabT10",
-      "TabT10"
+      "Multilaser",
+      "M12_4G",
+      "ML_BO07_M12_4G",
+      "M12 Ultra"
     ],
     [
-      "M-Horse",
-      "POWER_1_Max_EEA",
-      "POWER_1_Max",
-      "POWER_1_Max"
+      "Relndoo",
+      "P90_A_EEA",
+      "P90_A",
+      "P90"
     ],
     [
-      "Oppo",
-      "Pad 6 F Lite Edition",
-      "OP692CL1",
-      "OPD2615"
+      "Ruio",
+      "S6571R",
+      "S6571R",
+      "S6571R"
     ],
     [
-      "Oppo",
-      "Pad 6 F/Pad 6 F Matte Display Edition",
-      "OP692CL1",
-      "OPD2604"
-    ],
-    [
-      "Oppo",
-      "Pad 6 F/Pad 6 F Matte Display Edition",
-      "OP692CL1",
-      "OPD2605"
-    ],
-    [
-      "SVITOO",
-      "P08_T1",
-      "P08_T1",
-      "P08_T"
-    ],
-    [
-      "TABWEE",
-      "V20T_US",
-      "V20T",
-      "V20"
-    ],
-    [
-      "XRZ(sz)",
-      "XRZPro_USA",
-      "Smartphone",
-      "XRZ"
-    ],
-    [
-      "verifone",
-      "vg102",
-      "VG102",
-      "VG102"
-    ],
-    [
-      "vivo",
-      "V80 FE",
-      "V2624",
-      "V2624"
+      "Sharp",
+      "シンプルスマホ8",
+      "Ramba",
+      "A601SH"
     ]
   ]
 }
