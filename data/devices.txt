@@ -702,6 +702,9 @@ AVOCOR
 	A_Series	=	=	0
 	Commercial_Display	S_Series	=	0
 	S_Series	=	=	0
+AWOL Vision
+	AWOL Valerion	fushishan	~	0
+	Aetherion	yanshan	~	0
 AWOW
 	AWOW_CreaPad_1001	=	=	0
 	AWOW_CreaPad_1003	AWOW_CreaPad_1003_EEA	=	0
@@ -5870,6 +5873,7 @@ Bluebird
 	RT103	=	=	0
 	S10	=	=	0
 	S20	=	=	0
+	S21	=	=	0
 	S50	=	=	0
 	S70	=	=	0
 	SF550	=	=	0
@@ -5882,6 +5886,7 @@ Bluebird
 	VF550	=	=	0
 	VF550	=	VF550_RU	0
 	VX500	=	=	0
+	X20	=	=	0
 	X40	=	=	0
 Bluedigit
 	RAVOZ R4	RAVOZ_R4	~	0
@@ -6401,6 +6406,7 @@ COMMTEC
 	C1	=	=	0
 	C1B	=	=	0
 	C80	=	=	0
+	D1	=	=	0
 COMPAX
 	ACE 1s Pro	ACE_1s_Pro	A3-1510P	0
 COMPUMAX
@@ -9486,6 +9492,7 @@ Digit
 	Tab2	=	=	0
 	Titan_5G	=	Titan 5G	0
 DigitEdge
+	Pad12_pro	=	=	0
 	Pad12pro	=	=	0
 	Pad12ultra	=	=	0
 Digital2
@@ -11613,6 +11620,7 @@ FCNT
 	AW02	=	=	0
 	F-52B	F52B	~	0
 	F-53E	F53E	~	0
+	F-53G	=	=	0
 	MR01	=	=	0
 	SD01	=	=	0
 	arrows Alpha F-51F	F-51F	=	0
@@ -15026,6 +15034,7 @@ HUIHUANG
 	T3L2_EEA	T3L2	=	0
 	TabT10_EEA	TabT10	=	0
 	X10S	=	=	0
+	X10S	=	X11	0
 	X11_US	X11	=	0
 	XC70_US	=	=	0
 	XC90_US	=	=	0
@@ -16246,6 +16255,7 @@ Hisense
 	LT100K6900A	mt5327	~	0
 	LT610	=	=	0
 	Laser TV	wuyishan	SmartTV 4K	4
+	LaserTV 4k	yanshan	LaserTV 4K	4
 	M10-M	HS9830SP	Hisense M10-M	0
 	M20- T	HS8909QC	Hisense M20-T	0
 	M20-M	HS9830SP	Hisense M20-M	0
@@ -16302,6 +16312,7 @@ Hisense
 	SmartLaser 4K	hengshan	~	4
 	SmartTV 4K	hengshan	~	2
 	SmartTV 4K FFM	wutaishan	~	2
+	SmartTV 4K FFM SE	wutaishan	~	2
 	SoundTab MA-317	rk3028a	Hisense SoundTab MA-317	0
 	SoundTab MA-327	rk3028a	Hisense SoundTab MA-327	0
 	T963	HS7331CSC	Hisense T963	0
@@ -26597,6 +26608,7 @@ MIRAY
 	R3_GTV	=	R3G	0
 	R4	=	=	0
 	R4_GTV	=	R4G	0
+	TABM_P1095	=	=	0
 	TM4G_1006	=	=	0
 	TM4G_806	=	=	0
 	TPM4G_105	=	=	0
@@ -37453,6 +37465,7 @@ Relndoo
 	P80_EUR	P80	=	0
 	P80_US	=	P80	0
 	P90_A_EEA	P90_A	P90	0
+	P90_A_US	P90_A	P90	0
 	P90_EEA	P90	=	0
 	P90_ROW	=	P90	0
 	P90_US	P90	=	0
@@ -49593,6 +49606,8 @@ Ulefone
 	Armor 33	GQ5016TF1	~	0
 	Armor 34	GQ5017BF4	~	0
 	Armor 34 Pro	GQ5017BF3	~	0
+	Armor 36 Pro	GQ5022AF4_A17	~	0
+	Armor 36 Ultra	GQ5022AF1	~	0
 	Armor 6	Armor_6	=	0
 	Armor 7	Armor_7_Q	~	0
 	Armor 8	Armor_8	~	0

@@ -1,42 +1,90 @@
 {
-  "lastUpdated": "2026-11-26",
-  "newDevicesCount": 6,
+  "lastUpdated": "2026-11-27",
+  "newDevicesCount": 14,
   "newDevices": [
     [
-      "AMobile",
-      "RT080",
-      "RT080",
-      "RT080"
+      "AWOL Vision",
+      "AWOL Valerion",
+      "fushishan",
+      "AWOL Valerion"
     ],
     [
-      "Gfast",
-      "T-104KC",
-      "T-104KC",
-      "T-104KC"
+      "AWOL Vision",
+      "Aetherion",
+      "yanshan",
+      "Aetherion"
     ],
     [
-      "Multilaser",
-      "M12_4G",
-      "ML_BO07_M12_4G",
-      "M12 Ultra"
+      "Bluebird",
+      "S21",
+      "S21",
+      "S21"
+    ],
+    [
+      "Bluebird",
+      "X20",
+      "X20",
+      "X20"
+    ],
+    [
+      "COMMTEC",
+      "D1",
+      "D1",
+      "D1"
+    ],
+    [
+      "DigitEdge",
+      "Pad12_pro",
+      "Pad12_pro",
+      "Pad12_pro"
+    ],
+    [
+      "FCNT",
+      "F-53G",
+      "F-53G",
+      "F-53G"
+    ],
+    [
+      "HUIHUANG",
+      "X10S",
+      "X10S",
+      "X11"
+    ],
+    [
+      "Hisense",
+      "LaserTV 4k",
+      "yanshan",
+      "LaserTV 4K"
+    ],
+    [
+      "Hisense",
+      "SmartTV 4K FFM SE",
+      "wutaishan",
+      "SmartTV 4K FFM SE"
+    ],
+    [
+      "MIRAY",
+      "TABM_P1095",
+      "TABM_P1095",
+      "TABM_P1095"
     ],
     [
       "Relndoo",
-      "P90_A_EEA",
+      "P90_A_US",
       "P90_A",
       "P90"
     ],
     [
-      "Ruio",
-      "S6571R",
-      "S6571R",
-      "S6571R"
+      "Ulefone",
+      "Armor 36 Pro",
+      "GQ5022AF4_A17",
+      "Armor 36 Pro"
     ],
     [
-      "Sharp",
-      "シンプルスマホ8",
-      "Ramba",
-      "A601SH"
+      "Ulefone",
+      "Armor 36 Ultra",
+      "GQ5022AF1",
+      "Armor 36 Ultra"
     ]
   ]
 }
